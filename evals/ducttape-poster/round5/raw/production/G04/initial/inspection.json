@@ -1,0 +1,207 @@
+{
+  "role": "G04",
+  "stage": "initial",
+  "native_call_count": 1,
+  "correction_call_count": 0,
+  "inspection_method": "Manual visual inspection of this role's actual native image and two QA reductions; no OCR substituted for transcription.",
+  "source_scope": {
+    "allowed_sources": [
+      "planning/maker-common.txt",
+      "candidate-d-skill/SKILL.md",
+      "candidate-d-skill/agents/openai.yaml",
+      "candidate-d-skill/references/evaluation-loop.md",
+      "candidate-d-skill/references/art-direction.md",
+      "candidate-d-skill/references/visual-research.md",
+      "candidate-d-skill/references/parallel-production.md",
+      "planning/packets/G04.json",
+      "planning/manifest-schema-example.json"
+    ],
+    "image_sources": [
+      "this role's one fresh native imagegen result"
+    ],
+    "other_roles_or_previous_rounds_accessed": false,
+    "external_design_sources_accessed": false,
+    "scope_note": "One assigned independent poster. Central coordinator manages five-poster count and set diversity."
+  },
+  "views": [
+    {
+      "kind": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G04/initial/original.png",
+      "width": 1024,
+      "height": 1536,
+      "actually_viewed": true,
+      "tool": "view_image",
+      "detail": "original",
+      "manual_transcription": "밤에 피는 정원",
+      "rendered_lines": [
+        "밤에",
+        "피는",
+        "정원"
+      ],
+      "observations": [
+        "Three complete Korean word groups occupy three large rows, with no clipped title glyph.",
+        "Fine botanical branches pass behind and around the block letters. Leaf inside 피 and branches around the lower 정 받침 create some interior-space contact.",
+        "Three open white flowers are located top-center/right, right-middle, and lower-left; unopened buds and leaves are connected to stems."
+      ]
+    },
+    {
+      "kind": "use-size",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G04/initial/qa-720.png",
+      "width": 720,
+      "height": 1080,
+      "actually_viewed": true,
+      "tool": "view_image",
+      "detail": "original",
+      "manual_transcription": "밤에 피는 정원",
+      "rendered_lines": [
+        "밤에",
+        "피는",
+        "정원"
+      ],
+      "observations": [
+        "All six syllables and three word groups can be read.",
+        "Title remains the first dominant form. Growth is read along letter perimeters and gaps.",
+        "Several leaf/letter contacts merge locally in light-color areas, particularly the lower-left flower against 정's final ㅇ."
+      ]
+    },
+    {
+      "kind": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G04/initial/qa-320.png",
+      "width": 213,
+      "height": 320,
+      "actually_viewed": true,
+      "tool": "view_image",
+      "detail": "original",
+      "manual_transcription": "밤에 피는 정원",
+      "rendered_lines": [
+        "밤에",
+        "피는",
+        "정원"
+      ],
+      "observations": [
+        "The complete title remains readable at 213 by 320 pixels.",
+        "Fine stem construction is lost at this reduction, while the title and three flower positions remain visible.",
+        "At the lower-left, bright petals merge with the cream final ㅇ of 정, reducing local outline distinction."
+      ]
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "밤에 피는 정원",
+      "transcribed": "밤에 피는 정원",
+      "equal": true,
+      "occurrences": 1,
+      "rendered_linebreaks": [
+        "밤에",
+        "피는",
+        "정원"
+      ],
+      "comparison_method": "Preserve characters and word order; visually transcribe each word, join displayed line breaks with spaces.",
+      "native_equal": true,
+      "use_size_equal": true,
+      "thumbnail_equal": true,
+      "location_native_px": {
+        "x": 87,
+        "y": 171,
+        "width": 839,
+        "height": 1247
+      },
+      "glyph_notes": "The 정 syllable's bottom ㅇ is enlarged relative to its upper components; the syllable is still manually readable in all three views."
+    }
+  ],
+  "additional_copy_check": {
+    "detected_text_like_content": "Only the title was seen. No dates, locations, English, numerical labels, logos, or watermarks were observed.",
+    "unintended_copy_detected": false,
+    "uncertainty": "Visual inspection can miss extremely small text-like traces; visible fine marks at flower tips read as stamens, not text."
+  },
+  "mandatory_conditions": [
+    {
+      "id": "G-ratio-default",
+      "requirement": "Portrait 2:3",
+      "observed": true,
+      "evidence": "1024×1536; 1024*3 equals 1536*2.",
+      "location": "entire image"
+    },
+    {
+      "id": "G-title-only",
+      "requirement": "Exact title once, no invented event information",
+      "observed": true,
+      "evidence": "Manual transcriptions in native, 720-width, and 320-longside views all read 밤에 피는 정원 once across three rows.",
+      "location": "main cream typography across almost the entire poster"
+    },
+    {
+      "id": "G-full-default-batch-role-scope",
+      "requirement": "One flat independent poster for this assigned role",
+      "observed": true,
+      "evidence": "One fresh native call; output is one undivided portrait composition with no mockup or comparison panels.",
+      "location": "entire image",
+      "scope_note": "The full five-poster condition is verified by central coordinator."
+    },
+    {
+      "id": "G04-assigned-relationship",
+      "requirement": "Large title acts as support structure for connected growth and bloom",
+      "observed": true,
+      "evidence": "Long branches wind around outer edges of 밤에, 피는 and 정원; a leaf occupies 피's inner opening and the lower-left stem follows the enlarged bottom ㅇ of 정. Flowers terminate connected branches.",
+      "location_native_px_examples": [
+        {
+          "x": 81,
+          "y": 180,
+          "width": 680,
+          "height": 434
+        },
+        {
+          "x": 100,
+          "y": 565,
+          "width": 880,
+          "height": 456
+        },
+        {
+          "x": 55,
+          "y": 973,
+          "width": 643,
+          "height": 563
+        }
+      ],
+      "qualification": "The clearest relationship is along exterior letter boundaries. Interior-space growth is limited, and concealed branch sections cannot be proven continuous by a single view."
+    }
+  ],
+  "retained_defects_or_uncertainties": [
+    {
+      "location_native_px": {
+        "x": 134,
+        "y": 1258,
+        "width": 222,
+        "height": 162
+      },
+      "visible_evidence": "Lower-left white flower overlaps the cream lower ㅇ of 정; light petals blend with the letter at 320-longside.",
+      "impact": "Local flower/letter boundary is weaker; complete title remains readable in the observed reductions.",
+      "possible_followup": "Reduce the flower overlap with the final ㅇ while preserving its attached stem and the title."
+    },
+    {
+      "location_native_px": {
+        "x": 87,
+        "y": 1009,
+        "width": 416,
+        "height": 409
+      },
+      "visible_evidence": "정 has a very large separated-looking final ㅇ compared with the upper ㅈ/ㅓ cluster.",
+      "impact": "Stylistic syllable proportion is unusually stretched; this inspection reads 정, but independent reviewers should confirm spontaneous title recognition.",
+      "possible_followup": "If recognition is disputed, keep the three-row structure while slightly tightening the 정 syllable's internal proportion."
+    },
+    {
+      "location_native_px": {
+        "x": 392,
+        "y": 359,
+        "width": 597,
+        "height": 643
+      },
+      "visible_evidence": "Several vine sections pass behind opaque title strokes, leaving hidden joins.",
+      "impact": "The apparent growth path is coherent overall, but physical continuity of all hidden branches cannot be independently verified.",
+      "possible_followup": "Clarify only ambiguous visible branch junctions if requested; do not add decorative branches."
+    }
+  ],
+  "resolution_statement": "Actual native dimensions are 1024×1536. Tool input had no size parameter. Maximum resolution was requested in the prompt but is not confirmed.",
+  "quality_statement": "No numerical quality score, high-end certification, print readiness, or absence-of-AI-slop guarantee is asserted.",
+  "native_modifications": "None. Original and separate final are exact byte copies of tool source; Pillow was used only for QA reductions.",
+  "status": "Initial call complete; retained defects recorded. No correction performed pending coordinator follow-up."
+}

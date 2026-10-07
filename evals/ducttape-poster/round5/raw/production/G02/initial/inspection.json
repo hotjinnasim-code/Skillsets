@@ -1,0 +1,131 @@
+{
+  "role": "G02",
+  "stage": "initial",
+  "method": "Direct visual inspection of native image and actual QA reductions; manual transcription. No OCR, scoring, or visual self-certification.",
+  "views": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G02/initial/original.png",
+      "width": 1024,
+      "height": 1536,
+      "kind": "native",
+      "actually_viewed": true,
+      "transcribed_visible_copy": "밤에\n피는\n정원",
+      "notes": "Original was opened separately after the first parallel display showed an incomplete thumbnail; the separate native view displayed the full poster."
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G02/initial/qa-720.png",
+      "width": 720,
+      "height": 1080,
+      "kind": "720_width",
+      "actually_viewed": true,
+      "transcribed_visible_copy": "밤에\n피는\n정원",
+      "notes": "All three words readable at this displayed size."
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G02/initial/qa-320.png",
+      "width": 213,
+      "height": 320,
+      "kind": "320_longside",
+      "actually_viewed": true,
+      "transcribed_visible_copy": "밤에\n피는\n정원",
+      "notes": "Top word is small, but both syllables remain distinguishable; middle and bottom words readable."
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "밤에 피는 정원",
+      "transcribed": "밤에\n피는\n정원",
+      "comparison": "Join the three approved meaning-unit lines with one space.",
+      "normalized_transcribed": "밤에 피는 정원",
+      "equal": true,
+      "visible_occurrences": 1,
+      "missing": false,
+      "added_copy_observed": []
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "id": "G-ratio-default",
+      "requirement": "Vertical 2:3",
+      "observed": "Native dimensions 1024 × 1536; 1024/1536 = 2/3.",
+      "evidence_location": "Full file pixel dimensions from Pillow."
+    },
+    {
+      "id": "G-title-only",
+      "requirement": "Only 밤에 피는 정원 once; no invented event type, date, place, English or extra letters.",
+      "observed": "Exactly three visible word groups 밤에 / 피는 / 정원; no additional writing observed.",
+      "evidence_location": "Native title areas approximately x440–585 y320–395, x402–640 y703–825, x361–651 y1112–1280."
+    },
+    {
+      "id": "G-single-role",
+      "requirement": "One independent flat poster for assigned G02; coordinator owns five-image total.",
+      "observed": "One native call produced one continuous portrait poster; no mockup, split panels or contact sheet.",
+      "evidence_location": "Full original.png; manifest native_call_count 1. Other four roles were not inspected or counted here."
+    },
+    {
+      "id": "G02-relationship",
+      "requirement": "Opening from closed narrow bud to broad open petals determines proportional and spatial relationship with exact title.",
+      "observed": "Three flower stages run down the center. Width grows from upper closed bud to middle half-open petals to broad lower flower; corresponding words grow in scale. Bottom 정원 occupies dark flower center. Upper and middle words sit below their flowers rather than inside their opening.",
+      "evidence_location": "Upper stage y60–314; middle stage y414–694; lower stage y800–1500."
+    }
+  ],
+  "retained_defects_or_uncertainties": [
+    {
+      "location": "Lower flower, approximately x16–1007 y800–1500",
+      "observation": "Lower flower extends across almost all poster width, wider than the internal two-thirds-width intention; side petals have small margins, approximately 16–20 px. No actual petal clipping observed.",
+      "impact": "Lower stage has more edge pressure than intended.",
+      "status": "Retained initial output; no repair authorized yet."
+    },
+    {
+      "location": "Middle flower and 피는, approximately y414–826",
+      "observation": "피는 is placed immediately below the flower rather than inside a dark opening in its form. Upper 밤에 is also a caption below the bud.",
+      "impact": "Width progression remains visible, while title-image integration is strongest only in the lowest stage.",
+      "status": "Retained."
+    },
+    {
+      "location": "Navy background and petal surfaces across full native image",
+      "observation": "Soft grain is visible in both background and petals despite prompt preferring controlled flat surfaces and no random paper texture.",
+      "impact": "Generated surface treatment is more textured than the internal specification.",
+      "status": "Retained."
+    },
+    {
+      "location": "All title words, especially 피는",
+      "observation": "Letter terminals are softly irregular and somewhat calligraphic; this differs from the planned squared, firm type form. I can read the exact six syllables at native, 720-width and 320-longside views.",
+      "impact": "Typography choice drift; no missing or substituted syllable observed.",
+      "status": "Retained."
+    },
+    {
+      "location": "Batch scope",
+      "observation": "Other G01–G05 output, overall diversity, and five-file delivery were outside this maker's inspected scope.",
+      "impact": "Cannot certify whole-set count or diversity.",
+      "status": "Coordinator verification remains."
+    },
+    {
+      "location": "Resolution",
+      "observation": "Actual native dimensions are 1024 × 1536; tool had no size argument.",
+      "impact": "Maximum supported resolution was requested in prompt but not verified.",
+      "status": "No maximum-resolution claim."
+    }
+  ],
+  "source_scope": {
+    "allowed_inputs_read": [
+      "planning/maker-common.txt",
+      "candidate-d-skill/SKILL.md",
+      "candidate-d-skill/agents/openai.yaml",
+      "candidate-d-skill/references/evaluation-loop.md",
+      "candidate-d-skill/references/art-direction.md",
+      "candidate-d-skill/references/visual-research.md",
+      "candidate-d-skill/references/parallel-production.md",
+      "planning/packets/G02.json",
+      "planning/manifest-schema-example.json"
+    ],
+    "runtime_metadata_read": "Bundled workspace Python path, solely to create QA reductions and copy evidence.",
+    "native_reference_images": [],
+    "other_roles_accessed": false,
+    "prior_rounds_or_reviews_accessed": false,
+    "live_skill_edited": false
+  },
+  "native_call_count": 1,
+  "correction_call_count": 0,
+  "inspected_at_utc": "2026-10-07T18:35:45.695726Z"
+}

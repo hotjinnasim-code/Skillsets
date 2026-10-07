@@ -1,0 +1,877 @@
+{
+  "recorded_native_calls": 41,
+  "calls_by_version": {
+    "C": 32,
+    "D": 9
+  },
+  "maximum_overlapping_recorded_native_call_intervals": 3,
+  "declared_maker_capacity": 3,
+  "logical_default_maker_roles": 5,
+  "capacity_pass": true,
+  "calls": [
+    {
+      "call_id": "C/C01/initial",
+      "version": "C",
+      "role": "C01",
+      "stage": "initial",
+      "start": "2026-10-07 15:18:19 UTC",
+      "end": "2026-10-07 15:19:17 UTC",
+      "manifest": "production-c/C01/manifest.json"
+    },
+    {
+      "call_id": "C/C01/repair-1",
+      "version": "C",
+      "role": "C01",
+      "stage": "repair-1",
+      "start": "2026-10-07 15:57:19 UTC",
+      "end": "2026-10-07 15:58:12 UTC",
+      "manifest": "production-c/C01/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/C01/repair-2",
+      "version": "C",
+      "role": "C01",
+      "stage": "repair-2",
+      "start": "2026-10-07 16:32:40 UTC",
+      "end": "2026-10-07 16:34:03 UTC",
+      "manifest": "production-c/C01/repair-2/manifest.json"
+    },
+    {
+      "call_id": "C/C02/initial",
+      "version": "C",
+      "role": "C02",
+      "stage": "initial",
+      "start": "2026-10-07 15:18:33 UTC",
+      "end": "2026-10-07 15:19:28 UTC",
+      "manifest": "production-c/C02/manifest.json"
+    },
+    {
+      "call_id": "C/C02/repair-1",
+      "version": "C",
+      "role": "C02",
+      "stage": "repair-1",
+      "start": "2026-10-07 15:57:48 UTC",
+      "end": "2026-10-07 15:58:34 UTC",
+      "manifest": "production-c/C02/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/C02/repair-2",
+      "version": "C",
+      "role": "C02",
+      "stage": "repair-2",
+      "start": "2026-10-07 16:32:32 UTC",
+      "end": "2026-10-07 16:33:24 UTC",
+      "manifest": "production-c/C02/repair-2/manifest.json"
+    },
+    {
+      "call_id": "C/G01/initial",
+      "version": "C",
+      "role": "G01",
+      "stage": "initial",
+      "start": "2026-10-07 15:26:43 UTC",
+      "end": "2026-10-07 15:28:02 UTC",
+      "manifest": "production-c/G01/manifest.json"
+    },
+    {
+      "call_id": "C/G01/repair-1",
+      "version": "C",
+      "role": "G01",
+      "stage": "repair-1",
+      "start": "2026-10-07 16:04:27 UTC",
+      "end": "2026-10-07 16:05:30 UTC",
+      "manifest": "production-c/G01/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/G02/initial",
+      "version": "C",
+      "role": "G02",
+      "stage": "initial",
+      "start": "2026-10-07 15:27:17 UTC",
+      "end": "2026-10-07 15:27:53 UTC",
+      "manifest": "production-c/G02/manifest.json"
+    },
+    {
+      "call_id": "C/G02/repair-1",
+      "version": "C",
+      "role": "G02",
+      "stage": "repair-1",
+      "start": "2026-10-07 16:05:42 UTC",
+      "end": "2026-10-07 16:06:36 UTC",
+      "manifest": "production-c/G02/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/G02/repair-2",
+      "version": "C",
+      "role": "G02",
+      "stage": "repair-2",
+      "start": "2026-10-07 16:56:14 UTC",
+      "end": "2026-10-07 16:56:45 UTC",
+      "manifest": "production-c/G02/repair-2/manifest.json"
+    },
+    {
+      "call_id": "C/G03/initial",
+      "version": "C",
+      "role": "G03",
+      "stage": "initial",
+      "start": "2026-10-07 15:29:20 UTC",
+      "end": "2026-10-07 15:29:53 UTC",
+      "manifest": "production-c/G03/manifest.json"
+    },
+    {
+      "call_id": "C/G03/repair-1",
+      "version": "C",
+      "role": "G03",
+      "stage": "repair-1",
+      "start": "2026-10-07 16:00:55 UTC",
+      "end": "2026-10-07 16:01:25 UTC",
+      "manifest": "production-c/G03/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/G04/initial",
+      "version": "C",
+      "role": "G04",
+      "stage": "initial",
+      "start": "2026-10-07 15:30:27 UTC",
+      "end": "2026-10-07 15:31:24 UTC",
+      "manifest": "production-c/G04/manifest.json"
+    },
+    {
+      "call_id": "C/G05/initial",
+      "version": "C",
+      "role": "G05",
+      "stage": "initial",
+      "start": "2026-10-07T15:30:34.752Z",
+      "end": "2026-10-07T15:31:12.576Z",
+      "manifest": "production-c/G05/manifest.json"
+    },
+    {
+      "call_id": "C/G05/repair-1",
+      "version": "C",
+      "role": "G05",
+      "stage": "repair-1",
+      "start": "2026-10-07T16:06:39.622Z",
+      "end": "2026-10-07T16:07:33.840Z",
+      "manifest": "production-c/G05/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/G05/repair-2",
+      "version": "C",
+      "role": "G05",
+      "stage": "repair-2",
+      "start": "2026-10-07T16:27:38.245Z",
+      "end": "2026-10-07T16:28:39.624Z",
+      "manifest": "production-c/G05/repair-2/manifest.json"
+    },
+    {
+      "call_id": "C/H01/initial",
+      "version": "C",
+      "role": "H01",
+      "stage": "initial",
+      "start": "2026-10-07 15:22:51 UTC",
+      "end": "2026-10-07 15:23:50 UTC",
+      "manifest": "production-c/H01/manifest.json"
+    },
+    {
+      "call_id": "C/H01/repair-1",
+      "version": "C",
+      "role": "H01",
+      "stage": "repair-1",
+      "start": "2026-10-07 16:31:05 UTC",
+      "end": "2026-10-07 16:32:04 UTC",
+      "manifest": "production-c/H01/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/H02/initial",
+      "version": "C",
+      "role": "H02",
+      "stage": "initial",
+      "start": "2026-10-07 15:22:35 UTC",
+      "end": "2026-10-07 15:23:44 UTC",
+      "manifest": "production-c/H02/manifest.json"
+    },
+    {
+      "call_id": "C/H02/repair-1",
+      "version": "C",
+      "role": "H02",
+      "stage": "repair-1",
+      "start": "2026-10-07 16:02:03 UTC",
+      "end": "2026-10-07 16:03:06 UTC",
+      "manifest": "production-c/H02/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/H02/repair-2",
+      "version": "C",
+      "role": "H02",
+      "stage": "repair-2",
+      "start": "2026-10-07 16:27:28 UTC",
+      "end": "2026-10-07 16:28:45 UTC",
+      "manifest": "production-c/H02/repair-2/manifest.json"
+    },
+    {
+      "call_id": "C/H03/initial",
+      "version": "C",
+      "role": "H03",
+      "stage": "initial",
+      "start": "2026-10-07T15:25:52.048Z",
+      "end": "2026-10-07T15:26:40.341Z",
+      "manifest": "production-c/H03/manifest.json"
+    },
+    {
+      "call_id": "C/H03/repair-1",
+      "version": "C",
+      "role": "H03",
+      "stage": "repair-1",
+      "start": "2026-10-07T16:08:30.951Z",
+      "end": "2026-10-07T16:09:15.301Z",
+      "manifest": "production-c/H03/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/N01/initial",
+      "version": "C",
+      "role": "N01",
+      "stage": "initial",
+      "start": "2026-10-07 15:33:08 UTC",
+      "end": "2026-10-07 15:34:02 UTC",
+      "manifest": "production-c/N01/manifest.json"
+    },
+    {
+      "call_id": "C/N01/repair-1",
+      "version": "C",
+      "role": "N01",
+      "stage": "repair-1",
+      "start": "2026-10-07 16:02:08 UTC",
+      "end": "2026-10-07 16:02:58 UTC",
+      "manifest": "production-c/N01/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/N02/initial",
+      "version": "C",
+      "role": "N02",
+      "stage": "initial",
+      "start": "2026-10-07T15:33:52.957Z",
+      "end": "2026-10-07T15:35:08.329Z",
+      "manifest": "production-c/N02/manifest.json"
+    },
+    {
+      "call_id": "C/P01/initial",
+      "version": "C",
+      "role": "P01",
+      "stage": "initial",
+      "start": "2026-10-07 15:18:42 UTC",
+      "end": "2026-10-07 15:19:40 UTC",
+      "manifest": "production-c/P01/manifest.json"
+    },
+    {
+      "call_id": "C/P01/repair-1",
+      "version": "C",
+      "role": "P01",
+      "stage": "repair-1",
+      "start": "2026-10-07 15:57:07 UTC",
+      "end": "2026-10-07 15:57:48 UTC",
+      "manifest": "production-c/P01/repair-1/manifest.json"
+    },
+    {
+      "call_id": "C/P01/repair-2",
+      "version": "C",
+      "role": "P01",
+      "stage": "repair-2",
+      "start": "2026-10-07 16:37:22 UTC",
+      "end": "2026-10-07 16:38:25 UTC",
+      "manifest": "production-c/P01/repair-2/manifest.json"
+    },
+    {
+      "call_id": "C/P02/initial",
+      "version": "C",
+      "role": "P02",
+      "stage": "initial",
+      "start": "2026-10-07 15:21:52 UTC",
+      "end": "2026-10-07 15:22:54 UTC",
+      "manifest": "production-c/P02/manifest.json"
+    },
+    {
+      "call_id": "C/P02/repair-1",
+      "version": "C",
+      "role": "P02",
+      "stage": "repair-1",
+      "start": "2026-10-07 16:35:26 UTC",
+      "end": "2026-10-07 16:36:31 UTC",
+      "manifest": "production-c/P02/repair-1/manifest.json"
+    },
+    {
+      "call_id": "D/C02/initial",
+      "version": "D",
+      "role": "C02",
+      "stage": "initial",
+      "start": "2026-10-07 17:08:32 UTC",
+      "end": "2026-10-07 17:09:28 UTC",
+      "manifest": "continuation-d/production-d/C02/manifest.json"
+    },
+    {
+      "call_id": "D/C02/repair-1",
+      "version": "D",
+      "role": "C02",
+      "stage": "repair-1",
+      "start": "2026-10-07 17:15:42 UTC",
+      "end": "2026-10-07 17:16:31 UTC",
+      "manifest": "continuation-d/production-d/C02/repair-1/manifest.json"
+    },
+    {
+      "call_id": "D/C02/repair-2",
+      "version": "D",
+      "role": "C02",
+      "stage": "repair-2",
+      "start": "2026-10-07T17:39:09.746915+00:00",
+      "end": "2026-10-07T17:39:54.815534+00:00",
+      "manifest": "continuation-d/production-d/C02/repair-2/manifest.json"
+    },
+    {
+      "call_id": "D/H02/initial",
+      "version": "D",
+      "role": "H02",
+      "stage": "initial",
+      "start": "2026-10-07T17:09:21Z",
+      "end": "2026-10-07T17:10:19Z",
+      "manifest": "continuation-d/production-d/H02/manifest.json"
+    },
+    {
+      "call_id": "D/H02/repair-1",
+      "version": "D",
+      "role": "H02",
+      "stage": "repair-1",
+      "start": "2026-10-07T17:15:44Z",
+      "end": "2026-10-07T17:16:45Z",
+      "manifest": "continuation-d/production-d/H02/repair-1/manifest.json"
+    },
+    {
+      "call_id": "D/H02/repair-2",
+      "version": "D",
+      "role": "H02",
+      "stage": "repair-2",
+      "start": "2026-10-07T17:36:08Z",
+      "end": "2026-10-07T17:37:04Z",
+      "manifest": "continuation-d/production-d/H02/repair-2/manifest.json"
+    },
+    {
+      "call_id": "D/P01/initial",
+      "version": "D",
+      "role": "P01",
+      "stage": "initial",
+      "start": "2026-10-07T17:08:54.746853+00:00",
+      "end": "2026-10-07T17:09:44+00:00",
+      "manifest": "continuation-d/production-d/P01/manifest.json"
+    },
+    {
+      "call_id": "D/P01/repair-1",
+      "version": "D",
+      "role": "P01",
+      "stage": "repair-1",
+      "start": "2026-10-07T17:15:28.537830+00:00",
+      "end": "2026-10-07T17:16:08+00:00",
+      "manifest": "continuation-d/production-d/P01/repair-1/manifest.json"
+    },
+    {
+      "call_id": "D/P01/repair-2",
+      "version": "D",
+      "role": "P01",
+      "stage": "repair-2",
+      "start": "2026-10-07T17:41:03.412333+00:00",
+      "end": "2026-10-07T17:42:05.505339+00:00",
+      "manifest": "continuation-d/production-d/P01/repair-2/manifest.json"
+    }
+  ],
+  "timeline": [
+    {
+      "at": "2026-10-07T15:18:19+00:00",
+      "delta": 1,
+      "call_id": "C/C01/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:18:33+00:00",
+      "delta": 1,
+      "call_id": "C/C02/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:18:42+00:00",
+      "delta": 1,
+      "call_id": "C/P01/initial",
+      "active_recorded_native_calls": 3
+    },
+    {
+      "at": "2026-10-07T15:19:17+00:00",
+      "delta": -1,
+      "call_id": "C/C01/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:19:28+00:00",
+      "delta": -1,
+      "call_id": "C/C02/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:19:40+00:00",
+      "delta": -1,
+      "call_id": "C/P01/initial",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T15:21:52+00:00",
+      "delta": 1,
+      "call_id": "C/P02/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:22:35+00:00",
+      "delta": 1,
+      "call_id": "C/H02/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:22:51+00:00",
+      "delta": 1,
+      "call_id": "C/H01/initial",
+      "active_recorded_native_calls": 3
+    },
+    {
+      "at": "2026-10-07T15:22:54+00:00",
+      "delta": -1,
+      "call_id": "C/P02/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:23:44+00:00",
+      "delta": -1,
+      "call_id": "C/H02/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:23:50+00:00",
+      "delta": -1,
+      "call_id": "C/H01/initial",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T15:25:52.048000+00:00",
+      "delta": 1,
+      "call_id": "C/H03/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:26:40.341000+00:00",
+      "delta": -1,
+      "call_id": "C/H03/initial",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T15:26:43+00:00",
+      "delta": 1,
+      "call_id": "C/G01/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:27:17+00:00",
+      "delta": 1,
+      "call_id": "C/G02/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:27:53+00:00",
+      "delta": -1,
+      "call_id": "C/G02/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:28:02+00:00",
+      "delta": -1,
+      "call_id": "C/G01/initial",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T15:29:20+00:00",
+      "delta": 1,
+      "call_id": "C/G03/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:29:53+00:00",
+      "delta": -1,
+      "call_id": "C/G03/initial",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T15:30:27+00:00",
+      "delta": 1,
+      "call_id": "C/G04/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:30:34.752000+00:00",
+      "delta": 1,
+      "call_id": "C/G05/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:31:12.576000+00:00",
+      "delta": -1,
+      "call_id": "C/G05/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:31:24+00:00",
+      "delta": -1,
+      "call_id": "C/G04/initial",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T15:33:08+00:00",
+      "delta": 1,
+      "call_id": "C/N01/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:33:52.957000+00:00",
+      "delta": 1,
+      "call_id": "C/N02/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:34:02+00:00",
+      "delta": -1,
+      "call_id": "C/N01/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:35:08.329000+00:00",
+      "delta": -1,
+      "call_id": "C/N02/initial",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T15:57:07+00:00",
+      "delta": 1,
+      "call_id": "C/P01/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:57:19+00:00",
+      "delta": 1,
+      "call_id": "C/C01/repair-1",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:57:48+00:00",
+      "delta": -1,
+      "call_id": "C/P01/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:57:48+00:00",
+      "delta": 1,
+      "call_id": "C/C02/repair-1",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T15:58:12+00:00",
+      "delta": -1,
+      "call_id": "C/C01/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T15:58:34+00:00",
+      "delta": -1,
+      "call_id": "C/C02/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:00:55+00:00",
+      "delta": 1,
+      "call_id": "C/G03/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:01:25+00:00",
+      "delta": -1,
+      "call_id": "C/G03/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:02:03+00:00",
+      "delta": 1,
+      "call_id": "C/H02/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:02:08+00:00",
+      "delta": 1,
+      "call_id": "C/N01/repair-1",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T16:02:58+00:00",
+      "delta": -1,
+      "call_id": "C/N01/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:03:06+00:00",
+      "delta": -1,
+      "call_id": "C/H02/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:04:27+00:00",
+      "delta": 1,
+      "call_id": "C/G01/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:05:30+00:00",
+      "delta": -1,
+      "call_id": "C/G01/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:05:42+00:00",
+      "delta": 1,
+      "call_id": "C/G02/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:06:36+00:00",
+      "delta": -1,
+      "call_id": "C/G02/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:06:39.622000+00:00",
+      "delta": 1,
+      "call_id": "C/G05/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:07:33.840000+00:00",
+      "delta": -1,
+      "call_id": "C/G05/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:08:30.951000+00:00",
+      "delta": 1,
+      "call_id": "C/H03/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:09:15.301000+00:00",
+      "delta": -1,
+      "call_id": "C/H03/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:27:28+00:00",
+      "delta": 1,
+      "call_id": "C/H02/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:27:38.245000+00:00",
+      "delta": 1,
+      "call_id": "C/G05/repair-2",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T16:28:39.624000+00:00",
+      "delta": -1,
+      "call_id": "C/G05/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:28:45+00:00",
+      "delta": -1,
+      "call_id": "C/H02/repair-2",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:31:05+00:00",
+      "delta": 1,
+      "call_id": "C/H01/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:32:04+00:00",
+      "delta": -1,
+      "call_id": "C/H01/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:32:32+00:00",
+      "delta": 1,
+      "call_id": "C/C02/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:32:40+00:00",
+      "delta": 1,
+      "call_id": "C/C01/repair-2",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T16:33:24+00:00",
+      "delta": -1,
+      "call_id": "C/C02/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:34:03+00:00",
+      "delta": -1,
+      "call_id": "C/C01/repair-2",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:35:26+00:00",
+      "delta": 1,
+      "call_id": "C/P02/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:36:31+00:00",
+      "delta": -1,
+      "call_id": "C/P02/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:37:22+00:00",
+      "delta": 1,
+      "call_id": "C/P01/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:38:25+00:00",
+      "delta": -1,
+      "call_id": "C/P01/repair-2",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T16:56:14+00:00",
+      "delta": 1,
+      "call_id": "C/G02/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T16:56:45+00:00",
+      "delta": -1,
+      "call_id": "C/G02/repair-2",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T17:08:32+00:00",
+      "delta": 1,
+      "call_id": "D/C02/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T17:08:54.746853+00:00",
+      "delta": 1,
+      "call_id": "D/P01/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T17:09:21+00:00",
+      "delta": 1,
+      "call_id": "D/H02/initial",
+      "active_recorded_native_calls": 3
+    },
+    {
+      "at": "2026-10-07T17:09:28+00:00",
+      "delta": -1,
+      "call_id": "D/C02/initial",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T17:09:44+00:00",
+      "delta": -1,
+      "call_id": "D/P01/initial",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T17:10:19+00:00",
+      "delta": -1,
+      "call_id": "D/H02/initial",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T17:15:28.537830+00:00",
+      "delta": 1,
+      "call_id": "D/P01/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T17:15:42+00:00",
+      "delta": 1,
+      "call_id": "D/C02/repair-1",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T17:15:44+00:00",
+      "delta": 1,
+      "call_id": "D/H02/repair-1",
+      "active_recorded_native_calls": 3
+    },
+    {
+      "at": "2026-10-07T17:16:08+00:00",
+      "delta": -1,
+      "call_id": "D/P01/repair-1",
+      "active_recorded_native_calls": 2
+    },
+    {
+      "at": "2026-10-07T17:16:31+00:00",
+      "delta": -1,
+      "call_id": "D/C02/repair-1",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T17:16:45+00:00",
+      "delta": -1,
+      "call_id": "D/H02/repair-1",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T17:36:08+00:00",
+      "delta": 1,
+      "call_id": "D/H02/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T17:37:04+00:00",
+      "delta": -1,
+      "call_id": "D/H02/repair-2",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T17:39:09.746915+00:00",
+      "delta": 1,
+      "call_id": "D/C02/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T17:39:54.815534+00:00",
+      "delta": -1,
+      "call_id": "D/C02/repair-2",
+      "active_recorded_native_calls": 0
+    },
+    {
+      "at": "2026-10-07T17:41:03.412333+00:00",
+      "delta": 1,
+      "call_id": "D/P01/repair-2",
+      "active_recorded_native_calls": 1
+    },
+    {
+      "at": "2026-10-07T17:42:05.505339+00:00",
+      "delta": -1,
+      "call_id": "D/P01/repair-2",
+      "active_recorded_native_calls": 0
+    }
+  ],
+  "scope": "Recorded intervals around native tool calls in round 4 C and D; not backend computation timing. The closed C ledger and concurrency audit remain unchanged."
+}

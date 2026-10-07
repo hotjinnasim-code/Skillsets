@@ -1,0 +1,290 @@
+{
+  "role": "P01",
+  "stage": "repair-2",
+  "lineage": "Round5D/P01",
+  "native_call_count": 1,
+  "correction_count": 2,
+  "cumulative_role_native_call_count": 3,
+  "automatic_correction_closed": true,
+  "phase_call_accounting": "Second and FINAL own D correction of2; unchanged original D cap24. Not E or fresh call. No further correction attempted.",
+  "inspection_method": "Own repair-1 final was actually viewed before editing. Actually viewed exact-native repair-2 original and both 720-width and320-longside QA reductions. Manual visual transcription without OCR; no code-native typography or pixel repair. Native view was repeated after initial image display reused a tiny preview, to obtain and inspect the full visible native image.",
+  "views": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/P01/repair-2/original.png",
+      "width": 1122,
+      "height": 1402,
+      "actual_view_tool": "view_image",
+      "detail": "original",
+      "inspected": true,
+      "findings": "Full native view: all seven supplied copy items checked, claim in two semantic lines; product body/lid/folds/base/lighting/entire background checked. Dense maze-like surface microtexture is stronger than source."
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/P01/repair-2/qa-720-width.png",
+      "width": 720,
+      "height": 900,
+      "actual_view_tool": "view_image",
+      "detail": "original",
+      "inspected": true,
+      "findings": "All required copy readable. Name/claim/specification form a right-side stack above shorter cup. FOLN and operational copy form a subordinate group beneath grounding. Upper empty field and strengthened diagonal shadows remain apparent."
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/P01/repair-2/qa-320-longside.png",
+      "width": 256,
+      "height": 320,
+      "actual_view_tool": "view_image",
+      "detail": "original",
+      "inspected": true,
+      "findings": "Two-state photo and Fold Cup/claim are immediate reads. Fine specification/operational details need larger views to check exact characters and punctuation. No more full-width top headline."
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "FOLN",
+      "transcribed": "FOLN",
+      "equal": true,
+      "location_native_px": [
+        633,
+        1131,
+        729,
+        1161
+      ]
+    },
+    {
+      "required": "Fold Cup",
+      "transcribed": "Fold Cup",
+      "equal": true,
+      "location_native_px": [
+        602,
+        273,
+        1080,
+        409
+      ],
+      "observation": "One-line name with original capitalization; word gap is relatively narrow."
+    },
+    {
+      "required": "가볍게 접고, 다시 펼치다",
+      "transcribed": "가볍게 접고, 다시 펼치다",
+      "equal": true,
+      "rendered_lines": [
+        "가볍게 접고,",
+        "다시 펼치다"
+      ],
+      "location_native_px": [
+        602,
+        414,
+        950,
+        567
+      ],
+      "observation": "Manually read first semantic line with comma, followed by second semantic line. Line break replaces the visible inter-phrase line space."
+    },
+    {
+      "required": "350 mL · 접이식 실리콘 컵",
+      "transcribed": "350 mL · 접이식 실리콘 컵",
+      "equal": true,
+      "location_native_px": [
+        603,
+        595,
+        1050,
+        632
+      ],
+      "observation": "Visible gap between350 andmL, lowercase m/uppercase L, and middle dot; literal spacing not encoding-certified."
+    },
+    {
+      "required": "2026.12.01 RELEASE",
+      "transcribed": "2026.12.01 RELEASE",
+      "equal": true,
+      "location_native_px": [
+        634,
+        1178,
+        1011,
+        1214
+      ]
+    },
+    {
+      "required": "온라인 사전 주문 11.10–11.30",
+      "transcribed": "온라인 사전 주문 11.10–11.30",
+      "equal": true,
+      "location_native_px": [
+        634,
+        1228,
+        1062,
+        1261
+      ],
+      "observation": "Range separator is en-dash-like visually; underlying Unicode is unverified from raster."
+    },
+    {
+      "required": "foln.example/store",
+      "transcribed": "foln.example/store",
+      "equal": true,
+      "location_native_px": [
+        634,
+        1276,
+        916,
+        1305
+      ]
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "id": "single-flat-poster",
+      "observed": "One native edited independent flat portrait poster, no sheet/mockup/panel. Exactly one immediate own repair-1 reference path.",
+      "status": "observed_met"
+    },
+    {
+      "id": "ratio",
+      "requirement": "Portrait4:5",
+      "observed": "Native1122×1402, ratio561:701, width×5=5610 vs height×4=5608.",
+      "status": "not_exactly_met",
+      "relative_ratio_error_percent": 0.035663338
+    },
+    {
+      "id": "mixed-copy",
+      "observed": "Seven items each visually present once; Korean claim intentionally wraps after comma. No extra performance/price/certification copy or fake letter labels found.",
+      "status": "visually_matches_with_encoding_uncertainty"
+    },
+    {
+      "id": "product-photograph",
+      "observed": "Tall left and compressed right cup, handleless dark-green molded folding body, translucent pale seated lids and common floor contacts remain. Texture and stronger top-left shadows changed after native editing.",
+      "status": "preserved_core_form_with_material_lighting_regression"
+    },
+    {
+      "id": "no-real-logo-or-label",
+      "observed": "Supplied FOLN appears in lower info group only. Product surfaces have dense texture but no recognizable lettering/emblem/brand labels, hinge, price/badge or watermark found.",
+      "status": "observed_met"
+    },
+    {
+      "id": "main-height-gap-typography",
+      "observed": "The formerly full-width top title is gone. Fold Cup now sits only at upper-right above short cup; two-line claim/specification continue down the area beside upper tall cup and above compressed lid.",
+      "status": "observed_recomposition"
+    },
+    {
+      "id": "grounding-info-group",
+      "observed": "FOLN/release/preorder/URL share a lower left-aligned group below the product contact baseline. Release stays slightly bolder; lower group left edge is around634 vs upper block around603.",
+      "status": "observed_with_alignment_offset"
+    },
+    {
+      "id": "capacity-and-operation",
+      "observed": "350mL remains only supplied copy; no measured capacity or physical folding operation certification is claimed.",
+      "status": "scope_limited"
+    }
+  ],
+  "before_after_comparison": {
+    "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/P01/repair-1/final.png",
+    "source_actual_view": true,
+    "preserved": "Visible identities and two heights, lids, broad molded folds, handleless bodies, dark green/pale lid color, shared floor contacts and basic photo scene.",
+    "changed_relation": "Removed spanning top name and isolated top FOLN; name/claim/specification use the shorter cup's upper area and a left alignment. Claim is now two semantic lines. FOLN joins compact lower launch/action group.",
+    "unintended_or_remaining": "A substantial upper field remains blank; source photography texture is not preserved exactly and now has dense maze-like ridges on bodies/floor. Diagonal bright/shadow pattern at upper left became more pronounced. Lower copy left alignment is offset from upper block by roughly31px. Title/claim remain strong and can compete with image-first intention.",
+    "selection_scope": "final.png is exact native repair-2 output for coordinator comparison, not an automatic assertion that latest result is overall best."
+  },
+  "retained_defects_or_uncertainties": [
+    {
+      "type": "hard_requirement",
+      "location": "whole raster",
+      "observation": "1122×1402 still not exactly4:5.",
+      "impact": "Exact pixel ratio unmet.",
+      "action_taken": "Preserved native bytes; no crop/resample of final. Correction2/2 is closed."
+    },
+    {
+      "type": "material_regression",
+      "location_native_px": [
+        [
+          77,
+          496,
+          539,
+          1067
+        ],
+        [
+          589,
+          830,
+          1041,
+          1075
+        ],
+        [
+          0,
+          1059,
+          1122,
+          1402
+        ]
+      ],
+      "observation": "Dense curling/maze-like fine pattern on silicone and tabletop is more conspicuous than repair-1, approaching a repeated synthetic texture treatment.",
+      "impact": "Weakens successful material/photo preservation and native finish. No quality certification or further repair."
+    },
+    {
+      "type": "lighting_drift",
+      "location_native_px": [
+        0,
+        0,
+        584,
+        800
+      ],
+      "observation": "Upper-left diagonal light/shadow bands became stronger, including branch-like silhouettes, despite no new sunlight effects requested.",
+      "impact": "Unintended change in the photo backdrop/light."
+    },
+    {
+      "type": "space_residual",
+      "location_native_px": [
+        0,
+        0,
+        1122,
+        270
+      ],
+      "observation": "Wide low-information upper field remains after removal of the old full-width title; name begins above tall lid rather than fully inside its vertical height difference.",
+      "impact": "Height-gap relation is stronger but entire freed area is not convincingly filled or recomposed."
+    },
+    {
+      "type": "alignment_residual",
+      "location": "upper type left edge603 vs lower group634",
+      "observation": "Operational group is visibly inset from the upper type and short cup left boundary.",
+      "impact": "Common alignment requested is approximate rather than one exact shared edge."
+    },
+    {
+      "type": "hierarchy_uncertainty",
+      "location": "Fold Cup/claim vs photographic pair",
+      "observation": "Name and bold two-line claim still have substantial visual emphasis, while release remains bold within otherwise subordinate group.",
+      "impact": "Image-first hierarchy and restraint are not certified."
+    },
+    {
+      "type": "copy_encoding_uncertainty",
+      "location": "date range and mixed-unit line",
+      "observation": "Visual spelling/punctuation match manual readings, but raster does not prove Unicode en dash or exact literal whitespace.",
+      "impact": "No encoding-level exactness guarantee."
+    },
+    {
+      "type": "product_geometry_uncertainty",
+      "location": "both lids and folding sections",
+      "observation": "Projected lid diameters differ slightly; visible same-state comparison does not establish matching dimensions or tested folding mechanics.",
+      "impact": "Fictional photographic illustration only."
+    },
+    {
+      "type": "use_size_limit",
+      "location": "QA256×320",
+      "observation": "Fine specification and sales-copy strokes/punctuation require native or720 view.",
+      "impact": "No universal thumbnail/print legibility certification."
+    },
+    {
+      "type": "resolution_limit",
+      "location": "native output",
+      "observation": "Maximum supported resolution requested through prompt but actual native size1122×1402.",
+      "impact": "No supported size argument or confirmed maximum-resolution achievement."
+    }
+  ],
+  "source_scope": {
+    "new_read_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/P01-repair-2-plan.json",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/P01/repair-1/manifest.json",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/P01/repair-1/inspection.json",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/P01/repair-1/final.png"
+    ],
+    "guidance_previously_read": "Own packet, manifest example, six continuation-e/candidate-e-skill files and imagegen SKILL.md in this same isolated maker lineage.",
+    "raw_review_named_in_plan_read": false,
+    "peer_outputs_or_prompts_read": false,
+    "other_reviews_or_histories_read": false,
+    "external_reference_research": false,
+    "live_skill_edited": false,
+    "edit_source_count": 1,
+    "native_edit_count": 1,
+    "additional_self_calls": 0,
+    "python_usage": "Exact native file copies, hashes, dimensions, JSON/time records and Pillow QA reductions only. No editing of final image pixels; no base64 output."
+  },
+  "quality_certification": "No self-score, high-end/full-success certificate, universal/print legibility, physical-capacity/mechanism verification or maximum-resolution guarantee."
+}

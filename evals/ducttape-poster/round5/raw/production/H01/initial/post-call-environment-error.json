@@ -1,0 +1,7 @@
+{
+  "stage": "first preservation-and-QA script",
+  "error": "ModuleNotFoundError: No module named PIL",
+  "consequence": "imports failed before copy or image manipulation; native source remains intact",
+  "native_retry": false,
+  "root_notified": true
+}

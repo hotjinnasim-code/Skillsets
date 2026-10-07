@@ -1,0 +1,183 @@
+{
+  "role": "P02",
+  "stage": "repair-1",
+  "inspection_method": "Manual visual transcription, located mandatory-condition observations and direct comparison with own immediate parent; no OCR, no scores, no self-certification.",
+  "inspected_at_utc": "2026-10-07T21:20:27.475Z",
+  "native_call_count_this_stage": 1,
+  "role_native_call_count_total": 2,
+  "own_correction_number": 1,
+  "own_correction_cap": 2,
+  "actual_views": [
+    {
+      "kind": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/P02/repair-1/original.png",
+      "width": 1122,
+      "height": 1402,
+      "tool": "view_image",
+      "detail": "high",
+      "actually_viewed": true
+    },
+    {
+      "kind": "720_width",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/P02/repair-1/qa-720.png",
+      "width": 720,
+      "height": 900,
+      "tool": "view_image",
+      "detail": "original",
+      "actually_viewed": true
+    },
+    {
+      "kind": "320_longside",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/P02/repair-1/qa-320.png",
+      "width": 256,
+      "height": 320,
+      "tool": "view_image",
+      "detail": "original",
+      "actually_viewed": true
+    },
+    {
+      "kind": "parent_native_comparison",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/P02/initial/final.png",
+      "width": 1122,
+      "height": 1402,
+      "tool": "view_image",
+      "detail": "high",
+      "actually_viewed": true,
+      "note": "Viewed before reference input and again after output inspection."
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "FOLN",
+      "transcribed": "FOLN",
+      "equal": true,
+      "location": "upper-right x910–1080 y75–122",
+      "views": "native/720 clear; identifiable at 320"
+    },
+    {
+      "required": "Fold Cup",
+      "transcribed": "Fold Cup",
+      "equal": true,
+      "location": "diagonal front pocket panel, approximately x500–1040 y890–1180",
+      "views": "native/720 clear; substantial identifiable name at 320"
+    },
+    {
+      "required": "가볍게 접고, 다시 펼치다",
+      "transcribed": "가볍게 접고, 다시 펼치다",
+      "rendered_lines": [
+        "가볍게 접고,",
+        "다시 펼치다"
+      ],
+      "equal": true,
+      "comparison_note": "Allowed semantic line break is normalized to a space for whole-string comparison.",
+      "location": "dominant two-line upper-left x60–715 y140–420",
+      "views": "native/720 clear; first message at 320"
+    },
+    {
+      "required": "350 mL · 접이식 실리콘 컵",
+      "transcribed": "350 mL · 접이식 실리콘 컵",
+      "equal": true,
+      "location": "diagonal line beneath product name, approximately x550–985 y1020–1235",
+      "views": "native/720 clear; small at 320"
+    },
+    {
+      "required": "2026.12.01 RELEASE",
+      "transcribed": "2026.12.01 RELEASE",
+      "equal": true,
+      "location": "upper-left beneath promise x64–488 y468–505",
+      "views": "native/720 clear; smaller at 320"
+    },
+    {
+      "required": "온라인 사전 주문 11.10–11.30",
+      "transcribed": "온라인 사전 주문 11.10–11.30",
+      "equal": true,
+      "location": "upper-left/side x64–538 y524–559",
+      "views": "native/720 read; visual dash matches en dash, with dots and date preserved; small at 320"
+    },
+    {
+      "required": "foln.example/store",
+      "transcribed": "foln.example/store",
+      "equal": true,
+      "location": "upper-left/side x64–400 y576–610",
+      "views": "native/720 clear; whole URL identifiable at 320"
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "id": "P-count-and-ratio",
+      "requirement": "One independent assigned poster; portrait 4:5",
+      "status": "RATIO_NOT_EXACT",
+      "observed": "One native edit output, actual1122×1402, ratio561:701/0.8002853067. Exact4:5 was requested but not returned. Whole two-image quantity outside this role's scope.",
+      "evidence": "Native PNG dimensions from Pillow; preserved bytes not cropped/resampled."
+    },
+    {
+      "id": "P-mixed-copy",
+      "requirement": "Exact seven copy strings",
+      "status": "OBSERVED_MATCH",
+      "observed": "All seven manually transcribed as matching, including mixed case, 350 mL space, middle dot, comma, dates, en dash and URL. Only Korean promise uses an allowed clause break.",
+      "evidence": "copy_check and whole native/720 views."
+    },
+    {
+      "id": "P-product-photograph",
+      "requirement": "Photo expression, handleless dark-green silicone cup and translucent white lid",
+      "status": "VISIBLE_FEATURES_OBSERVED",
+      "observed": "Center-right has blank dark-green collapsed accordion cup and milky-white translucent elliptical lid seated on body. Pocket occludes lower body; visible photo light/shadow relationships remain broad parent equivalents.",
+      "evidence": "Native cup x450–990 y465–900. Volume350mL supplied through exact copy, not measured from pixels."
+    },
+    {
+      "id": "P-no-real-logo-or-label",
+      "requirement": "No real logos, no product surface lettering or invented facts",
+      "status": "OBSERVED",
+      "observed": "Cup/lid blank; FOLN at upper-right poster field; Fold Cup/specs are poster typography on cloth area. No additional logo, false microtext, price or claims seen.",
+      "evidence": "Whole native scan including cup, zipper and pocket."
+    },
+    {
+      "id": "P-integrated-composition",
+      "requirement": "Hierarchy and pocket-edge information relationship",
+      "status": "LOCATED_OBSERVATION_ONLY",
+      "observed": "Korean promise leads; release/order/URL now on upper/left side; Fold Cup/specs follow pocket lip direction below seam with visible gap. Actual320 confirms both Korean promise and Fold Cup remain identifiable.",
+      "evidence": "Native/720/320 views; set-level diversity outside maker inspection scope."
+    }
+  ],
+  "retained_defects_or_uncertainties": [
+    {
+      "location": "native dimensions",
+      "finding": "Still1122×1402 rather than mathematically exact4:5.",
+      "impact": "Exact ratio remains unresolved."
+    },
+    {
+      "location": "cloth x30–400 y700–1170 and front pocket panel",
+      "finding": "New coarse crossing mesh/scratch-like surface detail replaces parent's finer woven appearance, including areas outside old typography.",
+      "impact": "Requested preservation of photo surfaces was not fully achieved; clear retained material regression."
+    },
+    {
+      "location": "cup/lid center-right",
+      "finding": "Overall structure and light broadly match parent, but native edit re-rendered fine edges/gradients; closed lid and pocket occlusion still allow some storage-vessel reading.",
+      "impact": "Cannot claim exact photo preservation or unambiguous drinking-cup identification independent of copy."
+    },
+    {
+      "location": "large Korean promise",
+      "finding": "Very heavy Hangul strokes make internal spaces tight; the text is read at native/720/320, but natural proportion/counter quality remains an independent typography judgment.",
+      "impact": "Readability observation does not certify polished glyph fitting."
+    },
+    {
+      "location": "preorder line beside lid",
+      "finding": "Long date/order line ends near the left side of lid's upper field, with a visible gap; no actual touching observed.",
+      "impact": "The new side relationship is tighter than parent and should be reviewed at native."
+    }
+  ],
+  "parent_comparison_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/P02/repair-1/parent-comparison.json",
+  "source_scope": {
+    "design_sources": "Same frozen six G skill files already read during initial, P02packet re-read, own P02-repair-1-plan read.",
+    "own_parent_native_only": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/P02/initial/final.png",
+    "parent_actual_view_before_path_reference": true,
+    "other_roles_images_or_prompts_read": false,
+    "closed_prior_DE_images_or_reviews_read": false,
+    "external_reference_images_used": false,
+    "native_edit_reference_keys": [
+      "referenced_image_paths"
+    ],
+    "no_hidden_retry": true,
+    "code_image_editing": "None. Pillow used only for native dimension inspection and actual QA reductions."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-07T19:36:41.192030+00:00",
+  "status": "PREDECLARED_BEFORE_ADDITIONAL_REVIEWER",
+  "wave": "correction1",
+  "reason": "Craft viewed invitation720 first but saving original observations failed because python was unavailable, then packet/fullcopy opened. Preserve entire rawcraft/orderfailure and all its scores; add fresh isolated reviewer to complete valid persisted action-before-copy protocol. No score exclusion or qualitycriterionchange.",
+  "original_planned_profiles": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "profiles": [
+    "editorial",
+    "craft",
+    "portfolio",
+    "craft_ordered"
+  ],
+  "required_valid_action_first_profiles": [
+    "editorial",
+    "portfolio",
+    "craft_ordered"
+  ],
+  "explicit_allowed_order_violation": [
+    "craft"
+  ],
+  "quality_gate": "All4 raw critics retain all7scores/evidence/residuals. Every mandatory and all4 core >=4 perimage and every3set diversity>=4 for ALL4. No averaging or discarding failed-order critic scores.",
+  "new_native_calls_authorized": 0,
+  "actual_concurrency_limit": 3
+}

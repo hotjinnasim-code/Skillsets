@@ -1,0 +1,165 @@
+{
+  "audit": "runtime-regression-audit",
+  "date": "2026-10-08",
+  "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets",
+  "branch": "improve/ducttape-poster-content-grammar",
+  "base_main_sha": "b9895426b0f07e8b68b16e8748808085d5f8bcbc",
+  "head_sha": "b9895426b0f07e8b68b16e8748808085d5f8bcbc",
+  "verdict": "No runtime blocker found in the frozen live instructions; one optional wording improvement. Recorded runtime supports the three-maker fallback, with the stated coverage limits.",
+  "blockers": [],
+  "optional_suggestions": [
+    {
+      "id": "O1",
+      "severity": "optional",
+      "finding": "Later default-five wording could use the requested role count consistently. In particular parallel-production.md:11 says to preserve five roles/five final images after line 3 already establishes a user quantity override. Several SKILL passages and the default_prompt likewise use five as shorthand.",
+      "why_not_blocker": "SKILL.md:10,17,20 and parallel-production.md:3 explicitly give the user count precedence, and the one-image maker contract prevents expansion. The runtime can follow these instructions without changing the requested count.",
+      "suggestion": "At the concurrency fallback sentence, say to preserve the requested role/image total, with five identified as the default. This is a clarity change, not a new production rule."
+    }
+  ],
+  "no_change_passes": [
+    {
+      "id": "P1",
+      "topic": "Default makers and concurrency",
+      "finding": "The coordinator must assign five distinct one-image maker agents by default; all five run simultaneously if maker capacity permits. Lower capacity runs the supported number and queues remaining roles without creating other chats to bypass limits.",
+      "evidence": [
+        "SKILL.md:10",
+        "references/parallel-production.md:3,9,11"
+      ]
+    },
+    {
+      "id": "P2",
+      "topic": "User count and one-image follow-up",
+      "finding": "Explicit quantity overrides the default, aspect ratios are allocated within that total, and a one-image follow-up changes only the named image and requested part. Count ownership is central.",
+      "evidence": [
+        "SKILL.md:10,17,20,68,70,71",
+        "references/parallel-production.md:3,9"
+      ]
+    },
+    {
+      "id": "P3",
+      "topic": "Ownership and recursion",
+      "finding": "The coordinator owns exact copy, common constraints and distinct organizing relationships. Makers own concrete composition within their assigned one-image direction and report changes. Maker mode forbids recursive maker spawning.",
+      "evidence": [
+        "references/parallel-production.md:7,9,15,19"
+      ]
+    },
+    {
+      "id": "P4",
+      "topic": "Peer output isolation and actual references",
+      "finding": "Makers cannot read or reuse peer images/prompts; new calls do not automatically inherit earlier directions. Real user references are preserved and their role is specified using the current tool schema.",
+      "evidence": [
+        "SKILL.md:46,47,52,53",
+        "references/parallel-production.md:15"
+      ]
+    },
+    {
+      "id": "P5",
+      "topic": "Exact copy and user style",
+      "finding": "Exact spelling, spacing, numeric values, names, punctuation and fixed line breaks are retained. The new dense-copy editing guidance also preserves user-specified order. Explicit neon, chrome, 3D and other styles remain mandatory.",
+      "evidence": [
+        "SKILL.md:17,21,44,45",
+        "references/art-direction.md:25,49,51,59"
+      ]
+    },
+    {
+      "id": "P6",
+      "topic": "Image tool and resolution claims",
+      "finding": "Instructions require a real built-in image call and current supported arguments. A maximum-resolution prompt is explicitly distinguished from actual output control or proof; returned dimensions must be checked and upscaling is not original detail.",
+      "evidence": [
+        "SKILL.md:46,48,49,50,62,72"
+      ]
+    },
+    {
+      "id": "P7",
+      "topic": "No repair budget reset",
+      "finding": "Regeneration counts toward two automatic corrections per image. Coordinator and maker calls are combined; duplicate concurrent repair is prohibited and failed roles continue only within the remaining budget. Evaluation retains ordinary limits.",
+      "evidence": [
+        "SKILL.md:63,66",
+        "references/art-direction.md:83,85",
+        "references/parallel-production.md:17,19,23,25",
+        "references/evaluation-loop.md:47"
+      ]
+    },
+    {
+      "id": "P8",
+      "topic": "Content direction comparison without templates or bans",
+      "finding": "The changed comparison checks content identification, usable copy, organization and the nearest direction before dispatch. It accepts direct photographs, quiet titles, familiar type and a shared reading order when other spatial/editorial relationships differ. No color, effect, photograph, print style or font automatically passes or fails. Maker layouts are not centrally cloned.",
+      "evidence": [
+        "SKILL.md:27,28,34,38",
+        "references/art-direction.md:15,17,19,23,25,29,57,59,61",
+        "references/parallel-production.md:7,15",
+        "references/visual-research.md:72"
+      ]
+    },
+    {
+      "id": "P9",
+      "topic": "Finite round4 evaluation scope",
+      "finding": "The permitted case file explicitly declares a new user-requested phase, 14 initial outputs, at most two automatic repairs per new output, a 42-call phase cap and a 76-call combined cap including 34 historical calls. This is disclosed additional evaluation, not a silent extension of the historical budget.",
+      "evidence": [
+        "evals/ducttape-poster/round4/cases.yaml:17-32"
+      ]
+    },
+    {
+      "id": "P10",
+      "topic": "References and metadata",
+      "finding": "All six relative Markdown links in the live skill package resolve. UI metadata uses the correct skill token and is consistent with default production; metadata and evaluation-loop.md are unchanged against main.",
+      "evidence": [
+        "SKILL.md:27,33,35,43,76",
+        "references/evaluation-loop.md:39",
+        "agents/openai.yaml:1-4",
+        "git diff main -- skills/ducttape-poster"
+      ]
+    }
+  ],
+  "runtime_evidence": {
+    "source": "evals/ducttape-poster/round4/planning/execution-roster.json",
+    "logical_roles": 14,
+    "actual_distinct_maker_agents": 14,
+    "default_case_distinct_agents": 5,
+    "maker_capacity": 3,
+    "coordinator_plus_agent_limit": 4,
+    "actual_maximum_concurrent_makers": 3,
+    "maximum_overlapping_recorded_native_call_intervals": 3,
+    "timing_events_recorded": 28,
+    "status": "Recorded aggregate evidence only; raw call timing not independently audited."
+  },
+  "checks": {
+    "local_relative_links": 6,
+    "broken_local_links": 0,
+    "standard_validator": "Unavailable: ModuleNotFoundError: yaml in shell and bundled Python",
+    "git_diff_main": {
+      "changed_live_files": 4,
+      "insertions": 21,
+      "deletions": 11,
+      "scope": "Content relationship comparison, maker autonomy within assigned direction, dense-copy editing, and additional research references."
+    }
+  },
+  "limitations": [
+    "The execution roster records 14 distinct makers, five distinct makers for the default case, three supported simultaneous makers, three actual concurrent makers, and three overlapping recorded native-call intervals. These aggregates support fallback execution. Raw timing/call logs were outside this audit and were not independently reconstructed.",
+    "The permitted cases cover default five outputs, explicit two-output cases and one new single-image case. They contain no one-image follow-up edit. That behavior passes instruction review but is not runtime-verified here. A five-simultaneous execution is also untested because the recorded environment supports three makers.",
+    "The standard skill-creator quick_validate.py was attempted with shell Python and bundled Python. Both stopped before validation because PyYAML is unavailable. No packages were installed. Local link existence and the simple frontmatter/metadata structure were checked directly; these do not replace the unavailable validator.",
+    "No images, blind packets/mappings, image review reports, production prompts, manifests, call ledger or visual-quality evidence were opened. This audit makes no claim about generated-image quality or native tool-call argument compliance in recorded productions."
+  ],
+  "inspected_files": [
+    "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/SKILL.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/art-direction.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/parallel-production.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/evaluation-loop.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/visual-research.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/agents/openai.yaml",
+    "/Users/nahyeonbin/.codex/skills/.system/skill-creator/SKILL.md",
+    "/Users/nahyeonbin/.codex/skills/.system/skill-creator/references/openai_yaml.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/cases.yaml",
+    "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/planning/execution-roster.json"
+  ],
+  "live_sha256": {
+    "skills/ducttape-poster/SKILL.md": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea",
+    "skills/ducttape-poster/references/art-direction.md": "f8f03ef6076c337358dff7de0fda0f457ac8c19ef12c5b944a2496a2c9ed0e95",
+    "skills/ducttape-poster/references/parallel-production.md": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657",
+    "skills/ducttape-poster/references/evaluation-loop.md": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda",
+    "skills/ducttape-poster/references/visual-research.md": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a",
+    "skills/ducttape-poster/agents/openai.yaml": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460"
+  },
+  "repository_mutations": false,
+  "image_calls": 0
+}

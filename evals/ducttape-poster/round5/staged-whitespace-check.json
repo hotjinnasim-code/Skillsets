@@ -1,0 +1,86 @@
+{
+  "recorded_utc": "2026-10-07T21:38:43.358236+00:00",
+  "scope": "Staged new round5 data only; preserve authoritative exact raw/source bytes. No persisted Git config change.",
+  "default_diff_check": "13 exact-byte blank-at-EOF diagnostics, not rewritten",
+  "one_off_other_whitespace_check": "PASS: git -c core.whitespace=-blank-at-eof diff --cached --check",
+  "exceptions": [
+    {
+      "path": "evals/ducttape-poster/round5/raw/blind-initial/reviews/editorial.md",
+      "line": 373,
+      "sha256": "cdbc77b257104b3a09e5fe3501d3a1c87005f198b070c054dc27ffc94172087b",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/raw/blind-material-initial/reviews/craft.md",
+      "line": 219,
+      "sha256": "a68090f9c3603e093cb71234aeee6ebaa4dd69848e3b3dd94c0540a1019feeed",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/raw/blind-transfer-correction2/reviews/portfolio.md",
+      "line": 383,
+      "sha256": "263e562b2348d6d2f88c63eddf8ba10be1e95afd7d0154d636d6914d373baa07",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/raw/blind-transfer-correction3/reviews/editorial.md",
+      "line": 355,
+      "sha256": "69afe70f421daf69f2182306e8a12f648f28c1bde9f33077e73bdf3aec907a99",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/raw/blind-transfer-correction3/reviews/portfolio.md",
+      "line": 272,
+      "sha256": "001e78077757bf6c1bec813c3cbb827092dd2c183525ae4a147dd5917bc1dfb4",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/raw/blind-transfer-initial/reviews/craft.md",
+      "line": 424,
+      "sha256": "fb25cd1900001dd526b7c9c3f80dfa81b814cdb7c2a979c2d2630ff50d73e413",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/raw/blind-transfer-initial/reviews/editorial.md",
+      "line": 384,
+      "sha256": "f24d7147ec9af87a6c02c9d817b9966381c29f0ade8fa7974c9748cb2ac9fd5a",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/raw/production/H01/initial/prompt.txt",
+      "line": 32,
+      "sha256": "7dfbde5fcc3b88ad0669d7f2045215452656e1ba97245c4c36d6b6581556f379",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/retained-context/a3d7c415f5242132ba652d4550a253d946120355d45595a380fb3feeb6b23240.md",
+      "line": 1035,
+      "sha256": "a3d7c415f5242132ba652d4550a253d946120355d45595a380fb3feeb6b23240",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/retained-context/b69e180df5ec1ff0cd849a56a43d8918beb5bd54572ea3f3d7acd3027bf7dda3.md",
+      "line": 1069,
+      "sha256": "b69e180df5ec1ff0cd849a56a43d8918beb5bd54572ea3f3d7acd3027bf7dda3",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/retained-context/d4ebbe1d5281194f13cf38e0f11d138a14de9bd61ed6c5893bccde93eb1b6b53.json",
+      "line": 1530,
+      "sha256": "d4ebbe1d5281194f13cf38e0f11d138a14de9bd61ed6c5893bccde93eb1b6b53",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/retained-context/daaa2f9a0c6eab5570dc30775aad466fae017a5d439db06e4fd5576cd4c990c9.md",
+      "line": 143,
+      "sha256": "daaa2f9a0c6eab5570dc30775aad466fae017a5d439db06e4fd5576cd4c990c9",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    },
+    {
+      "path": "evals/ducttape-poster/round5/retained-context/eff9ddb3f8f6c3a670720138db7ed0b56ad4741d13347ac53f1171f252a96ac3.json",
+      "line": 1504,
+      "sha256": "eff9ddb3f8f6c3a670720138db7ed0b56ad4741d13347ac53f1171f252a96ac3",
+      "diagnostic": "new blank line at EOF; exact raw evidence preserved"
+    }
+  ]
+}

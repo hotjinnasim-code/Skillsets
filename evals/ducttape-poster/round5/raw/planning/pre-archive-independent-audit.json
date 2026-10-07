@@ -1,0 +1,978 @@
+{
+  "recorded_utc": "2026-10-07T21:16:46.628420+00:00",
+  "status": "PRE_ARCHIVE_GUARD_REGRESSIONS_PASS_PENDING_FINAL",
+  "scope": "Independent read-only technical evidence audit of existing closed sources and temp-only known-fail regressions. No images generated/edited, no visual rescore, no original raw/manifest/scripts/live skill changed by this agent. No final archive or final quality PASS certified.",
+  "findings": [
+    {
+      "severity": "high",
+      "id": "required-control-optional-downstream",
+      "finding": "The G-aware merger requires T01, but assemble_final14.py and audit_portable_archive.py make required_transfer_evidence optional. Removing that field from a copied composite removes the known T01 FAIL with no assembly binding error.",
+      "action": "Derive required G transfer from independently pinned canonical G lineage/plan; reject absent transfer and require expected control records in assembly and portable audit.",
+      "state": "RESOLVED_BY_ROOT_AND_INDEPENDENTLY_RETESTED",
+      "action_result": "Root added actual-G-manifest-path obligation guards. Both ordinary and phase-label-deleted omitted-control assembler copies now contain binding error Predeclared G control evidence omitted. Updated portable auditor independently rejects the old omitted-control final artifact with the same error."
+    },
+    {
+      "severity": "high",
+      "id": "H02-closed-manifest-sha-drift",
+      "finding": "Closed correction1 final9 selection and mapping pin H02 repair1 manifest SHA 86415d08e78d4c4807140a5b007c810f731f21b40fdc140c026fa7fea64ed1c3, but audited current bytes SHA 0f2e2e124ca4c211982bd9e02a6dfbd4d3214d18536bbcae22e5c4880a638cbf. Merge rejects this pin drift. Native PNG still matches the closed selection.",
+      "action": "Preserve closed manifest bytes/pin provenance; use append-only new metadata if needed. Do not rewrite existing raw observations to force PASS.",
+      "state": "HISTORICAL_LIMITATION_ACKNOWLEDGED_NEW_WHOLE_WAVE_PENDING",
+      "action_result": "Root will preserve/reject old correction1 metadata drift and freeze actual current manifest/native bytes for a fresh whole-case three-critic wave after existing authorized makers complete. H02 native is retained without a new H02 call. Old closed raw scores are unchanged."
+    }
+  ],
+  "checks": {
+    "transfer-initial": {
+      "raw_image_critic_records": 15,
+      "raw_score_observations": 105,
+      "complete_case_set_records": 9,
+      "recorded_required_native_720_320_triples_across_critics": 45,
+      "required_full_copy_items_across_critics": 129,
+      "source_data_checks_errors": [],
+      "scope": "Recorded view entries and manual visual claims are preserved attestations, not proof of actual viewing or visual truth."
+    },
+    "transfer-correction1": {
+      "raw_image_critic_records": 15,
+      "raw_score_observations": 105,
+      "complete_case_set_records": 9,
+      "recorded_required_native_720_320_triples_across_critics": 45,
+      "required_full_copy_items_across_critics": 129,
+      "source_data_checks_errors": [],
+      "scope": "Recorded view entries and manual visual claims are preserved attestations, not proof of actual viewing or visual truth."
+    },
+    "deadline_field_adapter": {
+      "differing_top_level_fields": [
+        "integrity_errors",
+        "recorded_evidence_integrity",
+        "timestamp_utc"
+      ],
+      "before_integrity": "FAIL",
+      "after_integrity": "PASS",
+      "before_errors": [
+        "editorial preflight deadline differs S571",
+        "editorial preflight deadline differs S795"
+      ],
+      "after_errors": [],
+      "raw_scores_mandatory_allcopy_sets_failures_unchanged": true,
+      "quality_gate_before": "FAIL",
+      "quality_gate_after": "FAIL",
+      "interpretation": "Preflight deadline accepts the date/deadline field with or without adjacent 신청. Main mandatory transcription retains every full 14-item copy string; core>=4 and diversity>=4 thresholds remain unchanged."
+    },
+    "live_six_match_frozen_G": {
+      "frozenG": {
+        "files": {
+          "SKILL.md": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea",
+          "references/parallel-production.md": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657",
+          "references/visual-research.md": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a",
+          "references/art-direction.md": "4881cac0a00cc7a25586d02065b4099c19644774d4cd4ab54aa4f77ad3127824",
+          "references/evaluation-loop.md": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda",
+          "agents/openai.yaml": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460"
+        },
+        "matches_plan": true
+      },
+      "live": {
+        "files": {
+          "SKILL.md": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea",
+          "references/parallel-production.md": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657",
+          "references/visual-research.md": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a",
+          "references/art-direction.md": "4881cac0a00cc7a25586d02065b4099c19644774d4cd4ab54aa4f77ad3127824",
+          "references/evaluation-loop.md": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda",
+          "agents/openai.yaml": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460"
+        },
+        "matches_plan": true
+      }
+    },
+    "calls": {
+      "status": "INCOMPLETE",
+      "D_used": 16,
+      "D_unchanged_cap": 24,
+      "D_unused_retired": 8,
+      "E_used": 5,
+      "E_unchanged_cap": 6,
+      "E_unused_retired": 1,
+      "F_used": 4,
+      "F_separate_cap": 6,
+      "G_used": 5,
+      "G_separate_cap": 9,
+      "whole_recorded": 125,
+      "predeclared_whole_maximum": 131,
+      "actual_cross_phase_interval_peak": 3,
+      "incomplete_phases": [
+        "F"
+      ],
+      "errors": []
+    },
+    "H02_closed_manifest_pin": {
+      "expected_from_closed_selection_and_mapping": "86415d08e78d4c4807140a5b007c810f731f21b40fdc140c026fa7fea64ed1c3",
+      "current": "0f2e2e124ca4c211982bd9e02a6dfbd4d3214d18536bbcae22e5c4880a638cbf",
+      "native_matches_closed_selection": true
+    },
+    "T01_omission_regression": {
+      "baseline_quality_gate": false,
+      "baseline_failures": 4,
+      "baseline_transfer_gate": "FAIL",
+      "baseline_transfer_critic_records": 3,
+      "copied_summary_without_transfer_quality_gate": false,
+      "copied_summary_without_transfer_binding_errors": [],
+      "copied_summary_without_transfer_failures": 3,
+      "copied_summary_without_transfer_has_required_transfer_evidence": false,
+      "scope": "This demonstrates missing-control acceptance, not a false PASS: other selected core/diversity failures still keep this known-fail assembly false. Merger rejects an omitted T01 in a G source."
+    },
+    "root_guard_retest": {
+      "source_script_sha256": {
+        "assemble_final14.py": "82e29c92b1c8faccb06dabb69a53ea8edc681f8f42fcd54bf7dd7e751d1a22ce",
+        "audit_portable_archive.py": "ca421569f2752b4c22b1f04acbab670bec5e95faf1c1bb169e38a950b5e68aa4"
+      },
+      "temporary_runlog": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/guard-retest-runlog.json",
+      "temporary_runlog_sha256": "6aee0d50aa4577a865083f7711185c21d81a1f626a374fa4a022c139c285fb5e",
+      "results": [
+        {
+          "label": "omitted-control-after-guard",
+          "returncode": 1,
+          "result_file": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/omitted-control-after-guard-assembly.json",
+          "result_file_sha256": "e5de53c5aec3d72ddb3d2955ed7a38e3e28ac8333132ee1ea743d1d5a5285bfe",
+          "stdout_json": {
+            "quality_gate": false,
+            "binding_errors": [
+              "Predeclared G control evidence omitted"
+            ],
+            "located_gate_failures": 3
+          }
+        },
+        {
+          "label": "omitted-control-and-phase-labels-after-guard",
+          "returncode": 1,
+          "result_file": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/omitted-control-and-phase-labels-after-guard-assembly.json",
+          "result_file_sha256": "d64f7c21058a0d5cd0be5ba723f5b857b749548fa3d0baf68aa84456da4d17eb",
+          "stdout_json": {
+            "quality_gate": false,
+            "binding_errors": [
+              "Predeclared G control evidence omitted"
+            ],
+            "located_gate_failures": 3
+          }
+        },
+        {
+          "label": "portable-initial-known-fail",
+          "returncode": 0,
+          "command": [
+            "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+            "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/audit_portable_archive.py",
+            "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/portable-initial-known-fail"
+          ],
+          "stdout_json": {
+            "status": "PASS",
+            "selected_quality_gate": "FAIL",
+            "quality_failure_count": 4,
+            "scope": "Portable exact bytes and raw score/copy/evidence bindings. Byte integrity is separate from raw selected-quality gate; not an independent visual rescore, exhaustive tool history or universal future/authorship/print certification.",
+            "mapped_sources": 604,
+            "unique_files_checked": 378,
+            "selected_images": 14,
+            "selected_critic_records": 42,
+            "errors": []
+          },
+          "stderr": "",
+          "stdout_file": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/portable-initial-known-fail-result.json",
+          "stdout_sha256": "12bc070e7ead61d9aeafb6709d1dd98d0fcf83b63da352fbc38a8eac3b94b71b"
+        },
+        {
+          "label": "portable-omitted-control-known-fail",
+          "returncode": 1,
+          "command": [
+            "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+            "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/audit_portable_archive.py",
+            "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/portable-omitted-control-known-fail"
+          ],
+          "stdout_json": {
+            "status": "FAIL",
+            "selected_quality_gate": "FAIL",
+            "quality_failure_count": 3,
+            "scope": "Portable exact bytes and raw score/copy/evidence bindings. Byte integrity is separate from raw selected-quality gate; not an independent visual rescore, exhaustive tool history or universal future/authorship/print certification.",
+            "mapped_sources": 604,
+            "unique_files_checked": 378,
+            "selected_images": 14,
+            "selected_critic_records": 42,
+            "errors": [
+              "Predeclared G control evidence omitted"
+            ]
+          },
+          "stderr": "",
+          "stdout_file": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/portable-omitted-control-known-fail-result.json",
+          "stdout_sha256": "003c8be0c7ea64993961b0c4b0c79a783392cd3c822a63a00398e3fcdda2a4d4"
+        }
+      ],
+      "baseline_portable_archive": "Exact-copy temp fixture from initial known-fail evidence: technical integrity PASS, quality FAIL, four raw failures retained; 604 source mappings / 378 unique files. This is a regression fixture, not the final delivery archive.",
+      "omitted_control_portable_archive": "Technical integrity FAIL with Predeclared G control evidence omitted; quality remains FAIL on the three remaining selected failures."
+    }
+  },
+  "source_data_integrity_errors": [],
+  "regressions": [
+    {
+      "label": "summarize-transfer-initial",
+      "returncode": 1,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/summarize_blind.py",
+        "--wave",
+        "transfer-initial",
+        "--plan",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json"
+      ],
+      "stdout_file": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-initial-summary.json",
+      "stdout_sha256": "a48ec86b9d0c04f00c56ddd86deb613702abbb5ecae8a03dd8f9eff20f5ba1a6",
+      "stderr": "",
+      "result": {
+        "status": "FAIL",
+        "recorded_evidence_integrity": "PASS",
+        "integrity_errors": [],
+        "located_gate_failures": [
+          {
+            "profile": "editorial",
+            "image_id": "R352",
+            "role": "T01",
+            "dimension": "content_form",
+            "score": 3,
+            "core": true,
+            "evidence": "중앙의 무거운 ‘틈으로’, 우측으로 들여 쓴 ‘들어오는’, 우측 아래의 가는 ‘빛’은 흰 공간을 건너는 움직임과 무게 감소를 만든다. 그러나 실제 글자 사이의 틈이 주제를 주도하기보다 대각선 배치가 주도해 문구의 ‘틈’과 형태의 관계는 기능하는 수준이다.",
+            "kind": "core"
+          },
+          {
+            "profile": "editorial",
+            "image_id": "R695",
+            "role": "P01",
+            "dimension": "typography",
+            "score": 3,
+            "core": true,
+            "evidence": "큰 두 줄 Fold/Cup은 제품 사진과 무게가 맞지만 FOLN이 좌하단에 작은 별도 표식처럼 놓인다. 중단 우측 설명과 하단 출시 블록의 굵기가 비슷하고 서로의 축이 약간 다르다. 모든 글자는 판독되나 크기·묶음·축이 제품과 한 구성으로 완전히 연결되지는 않는다.",
+            "kind": "core"
+          },
+          {
+            "members": [
+              "R244",
+              "R639"
+            ],
+            "diversity": 3,
+            "closest_pair": {
+              "members": [
+                "R244",
+                "R639"
+              ],
+              "score": 3,
+              "evidence": "R244는 중앙 안경 경첩의 근접 실사 사진을 큰 수평 밴드에 두고 R639는 우측 파란 책 제본의 선화가 열린 흰 영역으로 들어온다. 그러나 두 장 모두 좌상단 큰 검은 제목, 좌측 일정·조건, 하단 한 줄 색 신청 CTA를 반복한다. 사진/선화와 수리 대상은 분명히 다르지만 글자 역할과 정보 순서의 구조적 습관은 강하다."
+            },
+            "closest_pair_score": 3,
+            "evidence": "요청한 3:4와 1:1이 각각 있고 복잡한 14개 안내가 두 이미지 모두 읽힌다. 안경 나사 수리와 책 제본은 다른 생활 수리의 이미지를 제공하며 빨강/주황 행동 줄도 각 이미지에 맞는다. 다만 화면 비율과 소재를 제외하고 제목·일정·조건·신청의 위치 역할은 거의 같은 편집 골격이다. 점수는 이 한 쌍의 차별화 정도이다.",
+            "residuals": [
+              "다음 방향 확장에서는 이미지 소재 변경을 넘어 제목과 행동 안내의 관계·공간 조직을 달리할 여지가 있다."
+            ],
+            "profile": "editorial",
+            "case_id": "invitation",
+            "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/editorial.json",
+            "raw_sha256": "d15c4c0a8c9860310e618559c7b49548c2c26ead61913834b6d472f6a6c6d724",
+            "normalized_closest_pair_members": [
+              "R244",
+              "R639"
+            ],
+            "normalized_closest_pair_score": 3,
+            "kind": "diversity"
+          },
+          {
+            "members": [
+              "R244",
+              "R639"
+            ],
+            "expected_count": 2,
+            "actual_count": 2,
+            "count_pass": true,
+            "diversity": 3,
+            "closest_pair": {
+              "members": [
+                "R244",
+                "R639"
+              ],
+              "score": 3,
+              "evidence": "R244 uses a full-width photographic eyeglass/screwdriver crop across the upper half and R639 a cropped blue/orange line-drawn book at upper-right on white. Nonetheless both place a massive black headline at upper-left, bold date/time/location below, left-aligned smaller rules, and a wide colored deadline/URL line near the bottom."
+            },
+            "evidence": "The requested portrait and square members are present and distinguishable through subject, rendering, and image placement. R244's metallic macro repair moment differs from R639's stitched-book illustration and orange thread echo. The large black title, left-column body, and colored footer CTA remain shared compositional habits, limiting set diversity to functioning distinction rather than fully independent directions.",
+            "residuals": [
+              "The two invitation layouts share the same headline-to-information-to-bottom-application sequence even though the image styles differ. To broaden the set, develop one alternative around its existing repair object's geometry while retaining the successful 720 action readability.",
+              "R244's dense lower panel is the weaker spatial distribution; it should not be concealed by R639's more open book-and-white-space arrangement."
+            ],
+            "profile": "portfolio",
+            "case_id": "invitation",
+            "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/portfolio.json",
+            "raw_sha256": "3b73b7a1cb748829cc63748fb6bab77c25ac9b05feb889a7d202c4d983dbd451",
+            "normalized_closest_pair_members": [
+              "R244",
+              "R639"
+            ],
+            "normalized_closest_pair_score": 3,
+            "kind": "diversity"
+          }
+        ]
+      }
+    },
+    {
+      "label": "merge-transfer-initial",
+      "returncode": 1,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/merge_selected_case_evidence.py",
+        "--garden-summary",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-correction2-closed-summary.json",
+        "--material-summary",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-transfer-initial-closed-summary.json",
+        "--selection",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/final9-transfer-initial-selection.json",
+        "--output",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-initial-merged.json"
+      ],
+      "stdout_file": null,
+      "stdout_sha256": "83d69ca41c2806f299a25721400391ee4b7ca3fd15f86e17d780c80983e942c1",
+      "stderr": "",
+      "result": {
+        "status": "FAIL",
+        "recorded_evidence_integrity": "PASS",
+        "quality_gate": "FAIL",
+        "integrity_errors": [],
+        "located_gate_failures": 4,
+        "images": 9,
+        "records": 27
+      }
+    },
+    {
+      "label": "assemble-transfer-initial",
+      "returncode": 1,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/assemble_final14.py",
+        "--summary",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-initial-merged.json",
+        "--selection",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/final9-transfer-initial-selection.json",
+        "--output",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-initial-assembly.json"
+      ],
+      "stdout_file": null,
+      "stdout_sha256": "e82eb6adc80dbd163b4fe73c719f9949349bb40d3ec3c308961b90d41864d37a",
+      "stderr": "",
+      "result": {
+        "quality_gate": false,
+        "binding_errors": [],
+        "located_gate_failures": 4,
+        "images": 14,
+        "critic_records": 42
+      }
+    },
+    {
+      "label": "assemble-omitted-control",
+      "returncode": 1,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/assemble_final14.py",
+        "--summary",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-initial-omitted-control-summary.json",
+        "--selection",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/final9-transfer-initial-selection.json",
+        "--output",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-initial-omitted-control-assembly.json"
+      ],
+      "stdout_file": null,
+      "stdout_sha256": "66db4014213ada60d99f333d02842875b4cd173827a739af5db04eea9359023c",
+      "stderr": "",
+      "result": {
+        "quality_gate": false,
+        "binding_errors": [],
+        "located_gate_failures": 3,
+        "images": 14,
+        "critic_records": 42
+      }
+    },
+    {
+      "label": "summarize-transfer-correction1",
+      "returncode": 1,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/summarize_blind.py",
+        "--wave",
+        "transfer-correction1",
+        "--plan",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json"
+      ],
+      "stdout_file": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-correction1-summary.json",
+      "stdout_sha256": "0e4510c454fa058b869ad187e24e5376896645b3a50e30154bc107118b500205",
+      "stderr": "",
+      "result": {
+        "status": "FAIL",
+        "recorded_evidence_integrity": "PASS",
+        "integrity_errors": [],
+        "located_gate_failures": [
+          {
+            "profile": "editorial",
+            "image_id": "S208",
+            "role": "P01",
+            "dimension": "typography",
+            "score": 3,
+            "core": true,
+            "evidence": "왼쪽 「Fold / Cup」의 굵고 큰 두 줄은 제품 높이와 맞물린다. 오른쪽 아래 출시일·기간·URL 세 줄은 크기 차이가 작고 원본에서는 녹색 글자 가장자리에 밝은 테두리가 보인다. 판독은 되지만 끝부분의 정보 역할이 덜 분리되므로 테두리를 줄이고 URL 또는 주문 행의 굵기를 구별할 여지가 있다.",
+            "kind": "core"
+          },
+          {
+            "members": [
+              "S208",
+              "S265"
+            ],
+            "diversity": 3,
+            "closest_pair": {
+              "members": [
+                "S208",
+                "S265"
+              ],
+              "score": 3,
+              "evidence": "두 장뿐이므로 이 두 장이 가장 가까운 쌍이다. 쌍 점수는 다양성과 같은 1–5 차별화 방향을 적용했다. S208은 회색 바닥 위 두 상태를 대각으로 놓고 제목은 왼쪽·정보는 오른쪽 아래에 둔다. S265는 천 주머니 안 한 상태의 전면 사진과 위·아래 왼쪽 텍스트를 쓴다. 설명 사진과 휴대 상황은 구별되지만 녹색 산세리프 제품명과 회색 사진 바탕이라는 구조 습관은 공유한다."
+            },
+            "evidence": "S208의 상단 오른쪽 펼친 컵/하단 왼쪽 접힌 컵은 상태 비교이며 S265의 중단 오른쪽 주머니 속 컵은 휴대 상황이다. 제목 두 줄/한 줄과 정보 오른쪽/왼쪽이 다르다. 그러나 두 결과 모두 회색 사진 위 녹색 굵은 산세리프 제품명 및 하단 출시 정보의 틀을 유지해 구별은 되지만 표현의 역할 전체가 크게 나뉘지는 않는다. 두 장 모두 필수 조건을 충족하며 최저 항목은 S208 typography 3이다.",
+            "residuals": [
+              "두 장의 사진 상황과 공간 배치는 다르지만 활자의 역할·색·톤은 가깝다. 추가 수정 시 색 필터보다 제목과 기능 설명을 사진에 연결하는 방식을 달리하면 차별화가 커질 수 있다."
+            ],
+            "profile": "editorial",
+            "case_id": "product",
+            "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/editorial.json",
+            "raw_sha256": "784c42b73892203603dba5ac955e93d5c4cca9bc277c27d071ff77e76e32bc1e",
+            "normalized_closest_pair_members": [
+              "S208",
+              "S265"
+            ],
+            "normalized_closest_pair_score": 3,
+            "kind": "diversity"
+          },
+          {
+            "profile": "portfolio",
+            "image_id": "S571",
+            "role": "H01",
+            "dimension": "typography",
+            "score": 3,
+            "core": true,
+            "evidence": "상단 제목·부제와 하단 날짜·시간·장소는 굵은 고딕으로 분명하게 묶였고 작은 안내문도 판독된다. 그러나 제목, 부제, 날짜의 강한 굵기와 하단 연속 안내의 유사한 행 처리 때문에 정보의 세밀한 단계는 기능하는 수준에 머문다.",
+            "kind": "core"
+          },
+          {
+            "members": [
+              "S208",
+              "S265"
+            ],
+            "diversity": 3,
+            "closest_pair": {
+              "members": [
+                "S208",
+                "S265"
+              ],
+              "score": 3,
+              "evidence": "S208은 밝은 촬영 면 위에 펼침/접힘 두 상태를 대각으로 배치하고 왼쪽 두 줄 제목·오른쪽 주문 블록을 둔다. S265는 주머니 안의 한 컵과 사선 옷감, 왼쪽 위 제목·왼쪽 아래 주문 블록을 쓴다. 사용 설명의 발상과 공간은 구분되지만 둘 다 회백색 실물 촬영 같은 표면·짙은 녹색 산세리프·큰 Fold Cup 중심의 광고 구성이라 구조적 습관이 남는다."
+            },
+            "evidence": "두 장 모두 요구된 4:5와 동일한 제품·표시 문구를 지키면서 S208의 상태 비교와 S265의 휴대 상황으로 발상을 나눈다. 가장 낮은 S208 공간 점수 3은 오른쪽 분리 정보와 빈 하단 왼쪽에서, S265의 공간 점수 5는 주머니 대각과 밝은 왼쪽 글자 면에서 나온다. 전체적으로 단순 색/필터 반복보다 분명히 다르지만 완전히 다른 문자 역할과 이미지 체계까지 펼치지는 않는다.",
+            "residuals": [
+              "사진 매체, 회백색 배경, 녹색 굵은 제품명이라는 습관이 두 시안에서 공통으로 남는다. 두 장이 각기 다른 사용 상황을 보여 준다는 장점은 유지하면서 한 방향의 문자 구성과 사진의 상호작용을 더 독립적으로 발전시킬 수 있다."
+            ],
+            "profile": "portfolio",
+            "case_id": "product",
+            "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/portfolio.json",
+            "raw_sha256": "e2a018722699ddbc60e60ebc3dd896d6ecadd1eabab9fd436cad49f6a7578b1f",
+            "normalized_closest_pair_members": [
+              "S208",
+              "S265"
+            ],
+            "normalized_closest_pair_score": 3,
+            "kind": "diversity"
+          }
+        ]
+      }
+    },
+    {
+      "label": "merge-transfer-correction1",
+      "returncode": 1,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/merge_selected_case_evidence.py",
+        "--garden-summary",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-correction2-closed-summary.json",
+        "--material-summary",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-transfer-correction1-closed-summary.json",
+        "--selection",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/final9-transfer-correction1-selection.json",
+        "--output",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-correction1-merged.json"
+      ],
+      "stdout_file": null,
+      "stdout_sha256": "3b7cc84074fc7abc840e4d1ffa36e56c531ab8dc40d4563921ffcf5c9626111b",
+      "stderr": "",
+      "result": {
+        "status": "FAIL",
+        "recorded_evidence_integrity": "FAIL",
+        "quality_gate": "FAIL",
+        "integrity_errors": [
+          "SHA changed/missing H02 selected manifest: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/H02/repair-1/manifest.json"
+        ],
+        "located_gate_failures": 4,
+        "images": 9,
+        "records": 27
+      }
+    },
+    {
+      "label": "assemble-transfer-correction1",
+      "returncode": 1,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/assemble_final14.py",
+        "--summary",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-correction1-merged.json",
+        "--selection",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/final9-transfer-correction1-selection.json",
+        "--output",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/transfer-correction1-assembly.json"
+      ],
+      "stdout_file": null,
+      "stdout_sha256": "3d0fc426c2276ebfe035e7303962a834cad8378750f05990c2b0135b668c8508",
+      "stderr": "",
+      "result": {
+        "quality_gate": false,
+        "binding_errors": [
+          "Current summary integrity is not PASS",
+          "H02 selected manifest changed",
+          "Required transfer source integrity is not PASS",
+          "Required transfer declared gate differs"
+        ],
+        "located_gate_failures": 4,
+        "images": 14,
+        "critic_records": 42
+      }
+    },
+    {
+      "label": "merge-omitted-control",
+      "returncode": 2,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/merge_selected_case_evidence.py",
+        "--garden-summary",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-correction2-closed-summary.json",
+        "--material-summary",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/source-omitted-control.json",
+        "--selection",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/final9-transfer-initial-selection.json",
+        "--output",
+        "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/source-omitted-control-merged.json"
+      ],
+      "stdout_file": null,
+      "stdout_sha256": "5d9f04cd94dee6c65f8e6262971d7c4ce69c02a722e21af328c210e590012711",
+      "stderr": "",
+      "result": {
+        "status": "FAIL",
+        "recorded_evidence_integrity": "FAIL",
+        "input_error": "KeyError: 'T01'",
+        "integrity_errors_before_input_error": [
+          "Material source must review exactly complete product/invitation cases plus the required predeclared control, when applicable",
+          "type-only-control source case is incomplete",
+          "type-only-control packet set membership/count differs"
+        ]
+      }
+    },
+    {
+      "label": "full-call-audit",
+      "returncode": 0,
+      "command": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/full-call-audit.py",
+        "--allow-incomplete"
+      ],
+      "stdout_file": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys/full-call-audit.json",
+      "stdout_sha256": "08360b7b28479e8ea207a5fe2348c67ba1ce250b4e6fec61bad370e78b429745",
+      "stderr": "",
+      "result": {
+        "status": "INCOMPLETE"
+      }
+    }
+  ],
+  "temporary_artifact_root": "/var/folders/t2/j2j9zjjn04l4q1qsbqs2l8440000gn/T/round5-independent-audit-vp_letys",
+  "source_sha256": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/SKILL.md",
+      "sha256": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/agents/openai.yaml",
+      "sha256": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/art-direction.md",
+      "sha256": "4881cac0a00cc7a25586d02065b4099c19644774d4cd4ab54aa4f77ad3127824"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/evaluation-loop.md",
+      "sha256": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/parallel-production.md",
+      "sha256": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/visual-research.md",
+      "sha256": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/archive_round5.py",
+      "sha256": "2914684f3fd42572470fc938962b361299ca82c2d1d91e2b7f70bc7afd53157a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/assemble_final14.py",
+      "sha256": "82e29c92b1c8faccb06dabb69a53ea8edc681f8f42fcd54bf7dd7e751d1a22ce"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/audit_portable_archive.py",
+      "sha256": "ca421569f2752b4c22b1f04acbab670bec5e95faf1c1bb169e38a950b5e68aa4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S208-native.png",
+      "sha256": "9ce195c8de5bface521082ac1be49da5c470fe2f5d441096854fb591c69c977c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S208-thumbnail320.png",
+      "sha256": "c983198230d0d837e95bba0e3d4f1d6ecc2077c3d558db1fe41f3d2d481acf22"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S208-usage720.png",
+      "sha256": "cbae707e65957907eb854d888707adcafad199eb32b408030f5e30e0d066a05a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S265-native.png",
+      "sha256": "788efeafb397309e9d5102beff64ddfee6ad773ebf0aa3b7ba2ab43190d7dc12"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S265-thumbnail320.png",
+      "sha256": "04481bbc1104c3ce71a5c06a23c93902c902b7a9eae2ff7f954a746a7ac3ffec"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S265-usage720.png",
+      "sha256": "4267206eeb2932f36286fc3c74657dfcd475097699d7163e7a982d0616348f8c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S324-native.png",
+      "sha256": "7c1603d3b8d843aba055708d6a52d9bcff8f59edea1a9c169ab6906d2041ee1e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S324-thumbnail320.png",
+      "sha256": "493e6b07d5317ee0436d67ea890bc076bb046f6a5a816c1d75c0bfc68939e841"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S324-usage720.png",
+      "sha256": "cc5b05c183a12b2152fd6d8715584b4ac5b07167982fbe66158eb5372f1b89a2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S571-native.png",
+      "sha256": "7800f59c91a848229cf8208c2e6aa8a3e97e11af5d106efb0369831c402cdcce"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S571-thumbnail320.png",
+      "sha256": "ec35805694c65144627b03aedfe35c2ea16d7fab3e3f9eaa7d3c8f927f74adf6"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S571-usage720.png",
+      "sha256": "25f65a06bc0c223b9c98b76b3b3b94af97a997d77cfc8664ae4ffe72a185cfa8"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S795-native.png",
+      "sha256": "5e694d0c7522f61ebfef3ba87c196247209dae8c0eef8052599199765f803754"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S795-thumbnail320.png",
+      "sha256": "358c0057d40f0684bf494938433642e1a5dc93b1f6d12fb02b03163d128bd3d0"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S795-usage720.png",
+      "sha256": "5f11a78e80c1cdf0f1b0712d684dc32a8ecfc45f0ac2cd445a6cfc21f799a32a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/packet.json",
+      "sha256": "d200b51eb5f0e7231e94979ba4eeb470efc94afde908f8575bb0e4687accacf6"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/craft-action-first.json",
+      "sha256": "3c4d95318e5a097d092d05a532717453aeb1c1a2eb41b2dc51b7e98ea607e7a4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/craft.json",
+      "sha256": "8bda6f7307bfd92a286dcc52e957ae1f81b29f4bce6876447b66ec8a7fb624ca"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/craft.md",
+      "sha256": "d75abff575a8763891a3e6d59a6c15d4cdc0588a2de497b4af7fda538ad58e50"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/editorial-action-first.json",
+      "sha256": "a2332a6fea59267711cb1f5b76a91ea99b8dfa962404d7ed04ae95a83d8436fe"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/editorial.json",
+      "sha256": "784c42b73892203603dba5ac955e93d5c4cca9bc277c27d071ff77e76e32bc1e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/editorial.md",
+      "sha256": "717385fa2375c2fcbabb2b8444553ca6a31932bf649b804696bb4f00d4ba5d70"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/portfolio-action-first.json",
+      "sha256": "9c7d62d3c7718fe9e88c1f5de2389f6e0c4c9209409dcdddb827a58e84f1bd34"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/portfolio.json",
+      "sha256": "e2a018722699ddbc60e60ebc3dd896d6ecadd1eabab9fd436cad49f6a7578b1f"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/reviews/portfolio.md",
+      "sha256": "d4d58842f3ed5934cf44b27f48bcc0fcdb3392e4703c0bce82dbfc72cf8dff10"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R244-native.png",
+      "sha256": "7800f59c91a848229cf8208c2e6aa8a3e97e11af5d106efb0369831c402cdcce"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R244-thumbnail320.png",
+      "sha256": "ec35805694c65144627b03aedfe35c2ea16d7fab3e3f9eaa7d3c8f927f74adf6"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R244-usage720.png",
+      "sha256": "25f65a06bc0c223b9c98b76b3b3b94af97a997d77cfc8664ae4ffe72a185cfa8"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R352-native.png",
+      "sha256": "b46742195ea57c86095f4af382cf811fe43414acdb363870c9596d2cfd3f9bf2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R352-thumbnail320.png",
+      "sha256": "11207d17905f54cce86849117a7b1f17cb21fa1f4de15280a12ecf554af6a46f"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R352-usage720.png",
+      "sha256": "3781ebaa252d3c141e0641bfc8aa97242cc01faf9cccd7b354710a31f5c71d32"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R639-native.png",
+      "sha256": "96c6be7ae7b34c3f5fcbeedb65e5c342fcca9d493bdc5811293b0d967be4d6ce"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R639-thumbnail320.png",
+      "sha256": "83595f6b0700039713915a4e860a1dc5f61164ff4fe9a93fd50a9e5cf2042729"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R639-usage720.png",
+      "sha256": "ae5cae69f5eac323cde4adefcecd7072a510260300db5c97d5a1b422dea2cd8e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R695-native.png",
+      "sha256": "a6c12249bb8eeeeba385a2f8dd01db25694faa7a626e6babfb630c688095e72d"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R695-thumbnail320.png",
+      "sha256": "78ac5a003d876999661216fd156062cf838e4fcbdb739f11a432297de150990a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R695-usage720.png",
+      "sha256": "f72db0333a6ce72f70b158848a920e87099df312bf49d838edc1fcef2842afa0"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R804-native.png",
+      "sha256": "788efeafb397309e9d5102beff64ddfee6ad773ebf0aa3b7ba2ab43190d7dc12"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R804-thumbnail320.png",
+      "sha256": "04481bbc1104c3ce71a5c06a23c93902c902b7a9eae2ff7f954a746a7ac3ffec"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/images/R804-usage720.png",
+      "sha256": "4267206eeb2932f36286fc3c74657dfcd475097699d7163e7a982d0616348f8c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/packet.json",
+      "sha256": "99b07400abd49476dc3c20003c3f45ceb80ad1985c22cf9b32c1c48753b34fab"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/craft-action-first.json",
+      "sha256": "b790c10bfbbfc73e232803c2c4b7e0aa2f5e9db4c4b622c3fcc34b679c1ea7c1"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/craft.json",
+      "sha256": "9c12d32aa7bf9667ce9f8bfabc4f5841fdaf3e0d2cc54ead11ae739edbc516ee"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/craft.md",
+      "sha256": "fb25cd1900001dd526b7c9c3f80dfa81b814cdb7c2a979c2d2630ff50d73e413"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/editorial-action-first.json",
+      "sha256": "cef77d8f3ad7d63b1b40b3f1bc17674761baf451ebae6506513958e93da9185d"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/editorial.json",
+      "sha256": "d15c4c0a8c9860310e618559c7b49548c2c26ead61913834b6d472f6a6c6d724"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/editorial.md",
+      "sha256": "f24d7147ec9af87a6c02c9d817b9966381c29f0ade8fa7974c9748cb2ac9fd5a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/portfolio-action-first.json",
+      "sha256": "f462e0fa1a199093e44b759d383dcf96a75b78f6be465f3dd1ffd7bf6ab912ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/portfolio.json",
+      "sha256": "3b73b7a1cb748829cc63748fb6bab77c25ac9b05feb889a7d202c4d983dbd451"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-initial/reviews/portfolio.md",
+      "sha256": "0cab7b5e0fac7c3e052563b4a0cc231b767ea4a232c22bb8be2fb061de3aa221"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/planning/phase-plan.json",
+      "sha256": "890d611e78b712f1fdcd1ee5c40658dcd817fd96b52dcc86addee5bce45e3427"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/H01/initial/final.png",
+      "sha256": "7800f59c91a848229cf8208c2e6aa8a3e97e11af5d106efb0369831c402cdcce"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-1/final.png",
+      "sha256": "a6c12249bb8eeeeba385a2f8dd01db25694faa7a626e6babfb630c688095e72d"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-2/final.png",
+      "sha256": "9ce195c8de5bface521082ac1be49da5c470fe2f5d441096854fb591c69c977c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/validate.py",
+      "sha256": "e9a59b2702cf43d3f344b7dd8fe8f63ee3f7d0f640e581afe89642ee8edbe7e0"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/candidate-g-skill/SKILL.md",
+      "sha256": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/candidate-g-skill/agents/openai.yaml",
+      "sha256": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/candidate-g-skill/references/art-direction.md",
+      "sha256": "4881cac0a00cc7a25586d02065b4099c19644774d4cd4ab54aa4f77ad3127824"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/candidate-g-skill/references/evaluation-loop.md",
+      "sha256": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/candidate-g-skill/references/parallel-production.md",
+      "sha256": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/candidate-g-skill/references/visual-research.md",
+      "sha256": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/cases.json",
+      "sha256": "af995f8bd218ef2e49b3933a0403db2d50ccaab996cea38b7cbc489751c8a8bb"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "sha256": "96160b13510366e678e1f7d2769374e22366e07baa9d3ebf1785bbd492f2a3a8"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/H02/initial/final.png",
+      "sha256": "96c6be7ae7b34c3f5fcbeedb65e5c342fcca9d493bdc5811293b0d967be4d6ce"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/H02/repair-1/final.png",
+      "sha256": "5e694d0c7522f61ebfef3ba87c196247209dae8c0eef8052599199765f803754"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/H02/repair-1/manifest.json",
+      "sha256": "0f2e2e124ca4c211982bd9e02a6dfbd4d3214d18536bbcae22e5c4880a638cbf"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/P02/initial/final.png",
+      "sha256": "788efeafb397309e9d5102beff64ddfee6ad773ebf0aa3b7ba2ab43190d7dc12"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/initial/final.png",
+      "sha256": "b46742195ea57c86095f4af382cf811fe43414acdb363870c9596d2cfd3f9bf2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/repair-1/final.png",
+      "sha256": "7c1603d3b8d843aba055708d6a52d9bcff8f59edea1a9c169ab6906d2041ee1e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/validate.py",
+      "sha256": "64184ee6e0a192c61c12be8d8eab63d555ec9677ec9c56156b0811fd215192c1"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/final9-transfer-correction1-selection.json",
+      "sha256": "b7a4bc62a3f2369ba27098104d126e437d329cbdf57d2138a5618b97637ab488"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/final9-transfer-initial-selection.json",
+      "sha256": "4274fd981ca1e75315714131efc89309711f0e5eb92e93d7a47ec3b32b2c248e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/full-call-audit.py",
+      "sha256": "883a223ceae2b8f2606411deeeb347da3de2e4ad710846a5ac9e90ce0c373791"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/merge_selected_case_evidence.py",
+      "sha256": "98c5b32f6a3d52184bdd5721a599c28a921cee8c46d0eebdf363b730e1a92428"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/DE-call-phase-closure.json",
+      "sha256": "52e131841c6299755750d4163c36cb41be2b07304da6405b279df23e24ae8c46"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/assembly-transfer-initial-known-fail.json",
+      "sha256": "433196f8857b18bc272b2912cc4b5413344ccb1ec59cd66b0c4f9bff98229ad4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-correction2-closed-summary.json",
+      "sha256": "6b28d3ae6fcf839a8a237e279016095e363ca822784b5001421d4a162703a22a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-transfer-correction1-before-deadline-field-adapter.json",
+      "sha256": "2badad5c6e42bac75b1b97532f9880e2f725e2499c38609d2cbbc44ebd671a01"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-transfer-correction1-closed-summary.json",
+      "sha256": "cb94e7b8609d59836a9cdd0ad360eb22eb4ee4df5e711e400b324e7ca4d57d73"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-transfer-initial-closed-summary.json",
+      "sha256": "84722b5532803914821235921b7b59a68a3aa7097cad892205e2c31944b16884"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/retained-five-bindings.json",
+      "sha256": "23dba7db47a352f79c631a807e1981f88a90bb36e7ccb4099f678fc8c9346c4f"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/selected-case-transfer-initial-known-fail-valid.json",
+      "sha256": "4d65eece10602d4f378130392f0a2c4d3c4fc235ea5bf9a86dd2f6a46897a99c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/transfer-correction1-blind-mapping.json",
+      "sha256": "52e6e4c6426b2cd9563c768672454e71ef0ad1539372b08680eacf8c744a7c0b"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/transfer-initial-blind-mapping.json",
+      "sha256": "754e371b15d3974f2c97088e9e4e7cc7d810c9abd34c6ab0adf5e0f66289018e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/summarize_blind.py",
+      "sha256": "1bcef9b645f5bee6f073b31c2556b838624b0f7ec672aec243cf0ae957b4b61a"
+    }
+  ],
+  "portable_archive_audit": "Updated portable script passed the complete known-fail temp-fixture regression and rejected omitted control. Actual final portable archive audit remains pending.",
+  "pending_root_work": "Root authorized own P02 G repair1 and H01 F repair1, later closed complete blind review, finite F6/G9 closure, final assembly/archive and portable audit.",
+  "updated_utc": "2026-10-07T21:18:10.663424+00:00",
+  "previous_audit_file_sha256_before_retest": "e69e0f69ce6174ae8945ee01ae29b94844ad270563fd579ad1c372a1a5b0ae34",
+  "report_source_snapshot_scope": "source_sha256 is the original pre-guard audit snapshot; root_guard_retest includes updated script SHA pins. Regression outputs and temp exact-copy archive fixtures are separate."
+}

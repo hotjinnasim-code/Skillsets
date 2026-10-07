@@ -1,0 +1,140 @@
+{
+  "role": "T01",
+  "stage": "initial",
+  "inspected_at_utc": "2026-10-07T20:53:54.267169+00:00",
+  "inspection_method": "Manual visual inspection of actual images; no OCR or image editing. Native source successfully viewed in original detail after a preserved-original preview rendered only a white strip. Native image was also emitted with generatedImage.",
+  "views": [
+    {
+      "kind": "native",
+      "path": "/Users/nahyeonbin/.codex/generated_images/01a11822-3844-7001-afad-ade1b299e6a3/exec-3d08a0d9-1ddc-4efe-b072-b9c4045ba2c8.png",
+      "width": 1024,
+      "height": 1536,
+      "detail": "original",
+      "actually_viewed": true,
+      "manual_lines": [
+        "틈으로",
+        "들어오는",
+        "빛"
+      ],
+      "observations": "Three intact horizontal phrase groups. Upper-left first word is heavy; second begins farther right and is smaller; final word is farther right and lighter. Natural Hangul remains legible. Faint mottling appears in the white field and black fills at native size."
+    },
+    {
+      "kind": "720_width",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/initial/qa-720.png",
+      "width": 720,
+      "height": 1080,
+      "detail": "original",
+      "actually_viewed": true,
+      "manual_lines": [
+        "틈으로",
+        "들어오는",
+        "빛"
+      ],
+      "observations": "All three words readable without zoom. The first word attracts first glance; normal top-to-bottom order is clear. Generous line intervals and rightward offsets remain distinct."
+    },
+    {
+      "kind": "320_longside",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/initial/qa-320.png",
+      "width": 213,
+      "height": 320,
+      "detail": "original",
+      "actually_viewed": true,
+      "manual_lines": [
+        "틈으로",
+        "들어오는",
+        "빛"
+      ],
+      "observations": "The exact words can still be read. Strong first-word weight and lighter final word persist; the three groups occupy the middle half of the frame."
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "틈으로 들어오는 빛",
+      "transcribed": "틈으로 들어오는 빛",
+      "equal": true,
+      "linebreak_normalization": "Three visual lines joined by one space in normal reading order; no requested fixed line break."
+    }
+  ],
+  "extra_copy_observed": false,
+  "mandatory_conditions": [
+    {
+      "id": "quantity",
+      "requirement": "Exactly one independent poster",
+      "observed": true,
+      "located_evidence": "One native generation result, one flat image; native_call_count=1 in manifest. Separate final.png is a byte-identical preservation copy, not an extra result."
+    },
+    {
+      "id": "ratio",
+      "requirement": "Portrait 2:3",
+      "observed": true,
+      "located_evidence": "Actual raster dimensions 1024×1536; width:height reduces to 2:3."
+    },
+    {
+      "id": "copy",
+      "requirement": "Specified phrase unchanged",
+      "observed": true,
+      "located_evidence": "Native at approximately x67–962, y406–1158: upper line 틈으로, middle line 들어오는, lower-right 빛. The same transcription is readable at 720 and 320 views."
+    },
+    {
+      "id": "type_and_whitespace",
+      "requirement": "Only letters and whitespace; no separate image, decoration, symbols or extra copy",
+      "observed": true,
+      "located_evidence": "Entire frame contains three black Hangul word groups against white whitespace. No separate object, light ray, line, symbol, logo, caption or extra text observed. Very faint background mottling is retained as a finish uncertainty rather than certified plainness."
+    },
+    {
+      "id": "intact_words_and_opening",
+      "requirement": "Intact phrase groups and natural Hangul; opening made by glyph, word and line spacing",
+      "observed": true,
+      "located_evidence": "First group at x67–712, second x313–962, final x783–958 creates progressive rightward starting positions. Blank intervals between approximately y636–714 and y883–954 connect with the left white field. All words remain intact and top-to-bottom order is normal."
+    }
+  ],
+  "retained_defects_uncertainties": [
+    {
+      "location": "White field across frame and dark glyph fills, clearest in native view",
+      "observation": "Very faint mottled surface variation remains despite a flat untextured background request in the internal production spec. No distinct separate image or decorative shape is visible.",
+      "impact": "Strict plainness of the field is not certified; independent reviewers should decide whether this finish remains within letters-and-whitespace constraint."
+    },
+    {
+      "location": "Whole composition, especially the open area left of 빛 and large top/bottom margins",
+      "observation": "The opening is implemented as staggered lines and gaps rather than a more specific interlocking glyph relationship.",
+      "impact": "Semantic strength of the intended opening and whether the large surrounding whitespace is sufficiently purposeful remain visual review judgments. No self-score or quality certification."
+    },
+    {
+      "location": "First line, especially gap between 으 bottom stroke and 로 bottom stroke",
+      "observation": "Spacing is tight but visible and no strokes touch. Individual letters are broad geometric forms.",
+      "impact": "Optical spacing and natural glyph proportions remain suitable for independent craft review; copy is readable in all viewed sizes."
+    }
+  ],
+  "source_scope": {
+    "task_sources_read": [
+      "planning/maker-common.txt",
+      "planning/packets/T01.json",
+      "candidate-g-skill/SKILL.md",
+      "candidate-g-skill/agents/openai.yaml",
+      "candidate-g-skill/references/art-direction.md",
+      "candidate-g-skill/references/evaluation-loop.md",
+      "candidate-g-skill/references/visual-research.md",
+      "candidate-g-skill/references/parallel-production.md"
+    ],
+    "additional_allowed_format_scope_sources_read": [
+      "planning/manifest-schema-example.json",
+      "planning/phase-plan.json",
+      "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md"
+    ],
+    "prior_images_prompts_scores_read": false,
+    "external_visual_research_performed": false,
+    "other_maker_outputs_read": false,
+    "new_call_reference_keys_omitted": true
+  },
+  "production_status": {
+    "native_call_count": 1,
+    "own_corrections_performed": 0,
+    "self_repair_performed": false,
+    "native_bytes_preserved": true,
+    "code_image_operations": "Only exact byte copy, size/hash reading and 720/320 QA reductions."
+  },
+  "operational_anomalies": [
+    "Native result object was accidentally emitted as text once, producing a large truncated base64 tool output. Native generation count remains one; returned source file was copied without editing. Subsequent output uses only small metadata.",
+    "First view_image call on preserved original displayed a white strip in the tool preview; successful original-detail native source view and both QA views were then obtained."
+  ]
+}

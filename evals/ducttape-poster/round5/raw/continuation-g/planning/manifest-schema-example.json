@@ -1,0 +1,22 @@
+{
+  "role": "ROLE",
+  "stage": "initial|repair-1|repair-2",
+  "native_call_count": 1,
+  "started_at_utc": "ISO UTC timestamp actually recorded before nativecall",
+  "completed_at_utc": "ISO UTC timestamp actually recorded on return",
+  "call_input": "Exact object saved before call in call-input.json",
+  "tool_source": {
+    "path": "Absolute returned native filepath",
+    "sha256": "exactbytesSHA256"
+  },
+  "original": {
+    "path": "Absolute preserved original filepath",
+    "sha256": "sameSHA256"
+  },
+  "final": {
+    "path": "Absolute separate final filepath",
+    "sha256": "sameSHA256"
+  },
+  "width": "actual int",
+  "height": "actual int"
+}

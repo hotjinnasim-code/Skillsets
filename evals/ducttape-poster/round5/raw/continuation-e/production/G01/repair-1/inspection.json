@@ -1,0 +1,131 @@
+{
+  "role": "G01",
+  "stage": "repair-1",
+  "native_call_count": 1,
+  "own_corrections": 1,
+  "regeneration": true,
+  "views": [
+    {
+      "kind": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/production/G01/repair-1/original.png",
+      "actual_width": 1024,
+      "actual_height": 1536,
+      "actually_viewed": true,
+      "view_method": "tools.view_image detail original",
+      "transcribed_copy": "밤에\n피는\n정원",
+      "observations": "Ivory 밤에 sits left of the petal boundary in dark foliage. Black 피는 and 정원 are larger, crisp and graphically flat across broad luminous petals. All Korean syllables are intact and unclipped."
+    },
+    {
+      "kind": "screen-720-width",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/production/G01/repair-1/qa-720-width.png",
+      "actual_width": 720,
+      "actual_height": 1080,
+      "actually_viewed": true,
+      "view_method": "tools.view_image detail original",
+      "transcribed_copy": "밤에\n피는\n정원",
+      "observations": "The phrase is readable. Black words clearly cross photographic petal folds, and the smaller ivory word remains distinct on darkness. There is no separate cleared caption rectangle."
+    },
+    {
+      "kind": "thumbnail-320-longside",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/production/G01/repair-1/qa-320-longside.png",
+      "actual_width": 213,
+      "actual_height": 320,
+      "actually_viewed": true,
+      "view_method": "tools.view_image detail original",
+      "transcribed_copy": "밤에\n피는\n정원",
+      "observations": "The flower and black words dominate together, and the ivory 밤에 is still readily transcribable. The three word groups remain connected by their proximity to one flower's dark/light boundary."
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "밤에 피는 정원",
+      "transcribed": "밤에\n피는\n정원",
+      "normalized_transcribed": "밤에 피는 정원",
+      "equal": true,
+      "exact_syllables": true,
+      "word_space_preserved_by_distinct_word_groups": true,
+      "rendered_occurrences": 1,
+      "location": "Native approximately: ivory 밤에 x160–339/y572–676; black 피는 x415–724/y592–777; black 정원 x453–790/y798–1012."
+    }
+  ],
+  "all_visible_text_transcribed": [
+    "밤에",
+    "피는",
+    "정원"
+  ],
+  "additional_text_detected": false,
+  "mandatory_conditions": [
+    {
+      "id": "G-title-only",
+      "status": "observed",
+      "evidence": "Only 밤에, 피는, 정원 are visible, giving the complete exact phrase once. No event information, English, labels, numbers, logo, watermark or pseudo-lettering was observed."
+    },
+    {
+      "id": "G-ratio-default",
+      "status": "verified-for-assigned-role",
+      "evidence": "Native 1024 × 1536 is exactly 2:3."
+    },
+    {
+      "id": "G-single-flat-poster",
+      "status": "observed",
+      "evidence": "One full-bleed photograph and typography in a single flat portrait poster; no mockup or panels."
+    },
+    {
+      "id": "G-repair-plan-photo-and-type-roles",
+      "status": "observed",
+      "evidence": "One open flower fills the middle and right/lower crop. Ivory 밤에 sits on dark foliage beside the left boundary of a lit petal. Larger opaque black 피는/정원 cross the actual white petal ridges and folds. The type is sharp and flat rather than physically formed from petals. No letter is hidden behind a petal."
+    },
+    {
+      "id": "G-repair-plan-coherent-photographic-materials",
+      "status": "observed-with-uncertainty",
+      "evidence": "Visible fine petal veins, thin pointed petal edges, folded surfaces, soft yellow-white stamens, waxy dark leaf veins with localized cool reflections, an attached-looking stem behind the flower, and darker out-of-focus background. Flower/stamens are partly cropped; complete botanical anatomy and hidden attachment continuity cannot be established."
+    },
+    {
+      "id": "G-repair-regeneration-input",
+      "status": "verified",
+      "evidence": "Exactly one new native call this stage with prompt and transparent_background=false. Both image-reference keys were omitted; no prior output was supplied as tool reference."
+    },
+    {
+      "id": "G-full-default-batch",
+      "status": "outside-single-role-scope",
+      "evidence": "This maker handled only G01 repair-1; coordinator manages five final directions."
+    },
+    {
+      "id": "G-diversity",
+      "status": "outside-single-role-scope",
+      "evidence": "No peer image or prompt was accessed, and full-set diversity was not checked by this maker."
+    }
+  ],
+  "material_and_relationship_inspection": {
+    "korean": "밤/에/피/는/정/원 are recognizable at all recorded sizes. The ivory word is smaller than the black words and has clear internal counters. The two large black word groups use serif-like stroke variation, with no warped syllables, broken strokes or clipping observed. Word grouping remains clear despite a change in size and color.",
+    "spacing": "밤에 ends close to the left edge of the bright petal, and 피는 begins on that petal. A short breathing gap separates each word group from conflicting dark seams. 정원 extends toward the stamen region but its opaque strokes remain over a light plane. No touching glyphs were observed. Exact optical rhythm of this generated serif-like treatment is a judgment for independent review; it is not established solely by correct transcription.",
+    "space_and_reading": "At thumbnail, the broad white bloom and large black words form the first visual mass; the ivory 밤에 supplies the phrase's darker beginning at left. Light/dark surfaces visibly determine different typographic roles. The close flower crop replaces the previous two-corner caption frame.",
+    "materials": "Fine petal texture and folds continue behind the flat black type. Coherent cool light defines white surfaces while leafy areas remain dark and glossier. The tightly clustered stamens at the right are detailed but cropped, so their complete anatomical construction is uncertain. No glow/outline or obvious cutout halo was seen."
+  },
+  "comparison_to_own_initial": {
+    "initial_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/production/G01/initial/original.png",
+    "initial_actually_viewed_again": true,
+    "observed_change": "Initial had two flowering areas surrounding ivory title groups in central darkness. Repair-1 uses one close cropped bloom and assigns ivory type to darkness and large black type to actual lit petals. Exact copy and low-light photographic materials remain present.",
+    "selection_scope": "The repair-1 final is this stage's unchanged native candidate. Coordinator decides which stage is adopted; initial artifacts were left unchanged.",
+    "no_quality_score_assigned": true
+  },
+  "retained_defects": [],
+  "uncertainties": [
+    "The exact optical spacing and stroke rhythm of the generated serif-like type require independent judgment; correctness and screen legibility do not certify typographic refinement.",
+    "Flower center and stem attachment are partly cropped or hidden; complete botanical anatomy and hidden structural continuity are unverified.",
+    "No maximum supported native resolution was verified. No size argument is exposed in this call; actual returned dimensions are 1024 × 1536.",
+    "The recorded views establish screen observations only, not print suitability.",
+    "This isolated maker did not check overall five-image count or diversity and does not self-certify design quality."
+  ],
+  "source_scope": {
+    "repair_plan_read": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/planning/G01-repair-1-plan.json",
+    "own_initial_inspection_read": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/production/G01/initial/inspection.json",
+    "own_initial_image_viewed_for_comparison": true,
+    "frozen_skill_and_packet": "Same six frozen candidate-e-skill files and assigned G01 packet already read for initial production.",
+    "raw_review_read": false,
+    "peer_outputs_or_prompts_read": false,
+    "other_role_histories_read": false,
+    "external_research_performed": false,
+    "image_references_supplied": false
+  }
+}

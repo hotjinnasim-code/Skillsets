@@ -1,0 +1,88 @@
+{
+  "role": "P02",
+  "stage": "repair-1",
+  "stage_type": "native_source_edit_with_composition_redesign",
+  "native_image_call_count": 1,
+  "repair_call_count": 0,
+  "cumulative_P02_native_image_call_count": 2,
+  "cumulative_P02_correction_call_count": 1,
+  "call_input": {
+    "prompt": "Use case: ads-marketing.\nEdit the supplied source poster into one completely recomposed flat portrait 4:5 launch poster. The supplied image is the sole edit source. Preserve its convincing product photography, the physical identity of the one dark-green silicone cup, the loose translucent-white lid, human skin realism, believable hand contact and compatible studio light. Change the composition, functional crop, typography roles and information path rather than merely recolouring it. 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력.\n\nFunctional framing and photograph: move to a much closer slightly elevated front-three-quarter functional crop. A single partly collapsed, handleless 350mL dark forest-green matte silicone cup occupies the right side and most of the lower two thirds. Its upper rim, interior opening, connected accordion wall folds and supported bottom remain unmistakably visible. The hand enters tightly cropped from the upper/right edge with the palm and relaxed fingers physically pressing downward on the green rim. Show the pressure creating a partly tucked upper fold while the lower rings are compact and nested, maintaining continuous silicone walls rather than separated objects. Preserve the natural thumb, fingers, nails and skin creases; the fingers must not merge with the rim. Make the hand/rim/fold contact the governing shape of the composition. Keep the cup base on the same pale studio tabletop with a credible contact shadow and enough surface visible to explain its support. The one matching frosted translucent-white lid lies loose at lower left, fully recognizable as a shallow disk with a rim and coherent perspective; it is not another cup. Keep all objects free of surface letters, logos and symbols. No new props or lifestyle setting.\n\nType and information path, chosen for this recomposition:\nBegin with a readable, compact EARLY edge group at the upper left, entirely above the force/cup contact. It contains the modest identity “FOLN”, followed closely by the release date, preorder line and complete URL. Give this group calm sans-serif typography with sufficient space and size to read comfortably at a 720px poster width; the preorder line may use the available upper width. FOLN is much smaller than the product title and belongs to this commerce group. It must not return as a giant top masthead. Release, preorder and URL must stay together in this early upper edge group, never in a lower commerce footer.\nPlace the main product title “Fold Cup” in a bold large two-line stack (“Fold” above “Cup”) in the clear left-side space alongside the shortened silicone body. Its vertical span relates to the compressed height of the fold rings. Put the complete Korean action claim in two clean lines directly beneath or tightly alongside this stack, at the same left-side space beside the physical compression. The letters are upright, optically clear and undistorted. The existing capacity/material description sits near this side type and the cup wall/base relationship, with sensible word-boundary wrapping if needed. Do not scatter it or shrink it into microtext. The side title/action/specification remain distinct from the early commerce group. Use careful alignment, spacing and negative space between the left type and right cup. Nothing is obscured by the hand, cup, lid or shadows.\n\nThe scene uses a continuous pale warm-grey tabletop/background, compatible soft directional light and naturally differentiated matte silicone, realistic skin and translucent lid. No panel divisions, picture borders or texture effects. This is a completed flat poster, not a photograph of printed material.\n\nRender the following seven exact supplied copy items ONCE EACH. Preserve all spelling, word spaces, commas, middle dot, dates, dots, the en dash in the preorder interval and the full URL. Word-boundary line wrapping is allowed. No other visible wording:\nFOLN\nFold Cup\n가볍게 접고, 다시 펼치다\n350 mL · 접이식 실리콘 컵\n2026.12.01 RELEASE\n온라인 사전 주문 11.10–11.30\nfoln.example/store\n\nConstraints: retain a recognizable single partly collapsed cup with no handle and a dark-green silicone body; retain the matching loose translucent-white lid; retain believable physical downward pressure, folds, anatomy and consistent light. Keep every supplied item comfortably readable at 720px width. No real brand, logo, invented labels, arrows, numbering, badges, surface text, fake microtext, signature or watermark. No second cup, endpoint lineup, extra display copy, footer commerce group, giant isolated FOLN header, mockup, collage or contact sheet.",
+    "referenced_image_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/final.png"
+    ],
+    "transparent_background": false
+  },
+  "call_started_at_utc": "2026-10-07 16:35:26 UTC",
+  "call_finished_at_utc": "2026-10-07 16:36:31 UTC",
+  "elapsed_seconds": 65,
+  "prompt_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/repair-1/prompt.txt",
+  "prompt_saved_before_call": true,
+  "correction_plan_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/planning/correction-wave2-plan.json",
+  "edit_source_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/final.png",
+  "edit_source_sha256": "b8490493f1268f007d6ae8f85da8f68311582295a50405c0eb21ea1eb93f5a29",
+  "edit_source_viewed_before_call": true,
+  "reference_method": "referenced_image_paths_only",
+  "tool_result_keys": [
+    "image_url",
+    "output_hint"
+  ],
+  "tool_original_path": "/Users/nahyeonbin/.codex/generated_images/01a116f4-1e9f-72a2-a19f-0d7073991ea5/exec-8d37cf78-dbd0-40a6-9048-b5e56eeeb662.png",
+  "source_path": "/Users/nahyeonbin/.codex/generated_images/01a116f4-1e9f-72a2-a19f-0d7073991ea5/exec-8d37cf78-dbd0-40a6-9048-b5e56eeeb662.png",
+  "native_preserved_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/repair-1/native-original.png",
+  "selected_final_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/repair-1/final.png",
+  "output_dimensions": {
+    "width": 1122,
+    "height": 1402
+  },
+  "sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+  "source_sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+  "original_sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+  "final_sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+  "byte_identical_native_original_and_final": true,
+  "initial_source_unchanged": true,
+  "generation_maximum_resolution_confirmed": false,
+  "inspection_copies": [
+    {
+      "purpose": "screen_usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/repair-1/qa-usage-720.png",
+      "dimensions": [
+        720,
+        900
+      ]
+    },
+    {
+      "purpose": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/repair-1/qa-thumbnail-320.png",
+      "dimensions": [
+        256,
+        320
+      ]
+    }
+  ],
+  "inspection_report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/repair-1/inspection.md",
+  "inspection_performed": {
+    "native_original": true,
+    "usage_720_width": true,
+    "thumbnail_320_long_edge": true,
+    "tool": "view_image",
+    "detail": "original"
+  },
+  "copy_visible_transcription": [
+    "FOLN",
+    "Fold Cup",
+    "가볍게 접고, 다시 펼치다",
+    "350 mL · 접이식 실리콘 컵",
+    "2026.12.01 RELEASE",
+    "온라인 사전 주문 11.10–11.30",
+    "foln.example/store"
+  ],
+  "residuals": [
+    "Lid is now partly cropped at the left frame boundary; still visibly translucent-white and recognizable.",
+    "Close-up skin wrinkle texture is more pronounced.",
+    "Most folds remain tidy; static pixels cannot prove movement or reversibility.",
+    "Native ratio remains 1122/1402, approximately 4:5 with 0.036% deviation.",
+    "Maximum native generation resolution is unconfirmed.",
+    "Unicode byte identity, measured capacity and manufacturing behavior cannot be confirmed from pixels."
+  ]
+}

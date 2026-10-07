@@ -1,0 +1,350 @@
+{
+  "role": "H01",
+  "stage": "repair-1",
+  "native_call_count": 1,
+  "correction_call_count": 1,
+  "role_native_call_count_cumulative": 2,
+  "inspected_at_utc": "2026-10-07T19:24:37.882419Z",
+  "original_lineage": "Round5D/H01",
+  "phase_call_accounting": "D H01 first correction of max2, unchanged D cap24; not E freshcall",
+  "source_scope": {
+    "content_sources": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/H01-repair-1-plan.json",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/packets/H01.json",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/manifest-schema-example.json",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/H01/initial/manifest.json",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/H01/initial/inspection.json",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/H01/initial/call-input.json"
+    ],
+    "guidance_sources": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/candidate-e-skill/SKILL.md",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/candidate-e-skill/agents/openai.yaml",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/candidate-e-skill/references/evaluation-loop.md",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/candidate-e-skill/references/art-direction.md",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/candidate-e-skill/references/visual-research.md",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/candidate-e-skill/references/parallel-production.md",
+      "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md"
+    ],
+    "other_outputs_reviews_diagnoses_read": false,
+    "own_initial_image_actually_viewed_before_edit": true,
+    "own_initial_image_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/H01/initial/final.png",
+    "image_refs_used": true,
+    "image_reference_scope": "Exactly one referenced_image_paths target: own initial final.png; num_last_images_to_include omitted"
+  },
+  "views": [
+    {
+      "kind": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/H01/repair-1/final.png",
+      "width": 1086,
+      "height": 1448,
+      "actual_view": true,
+      "tool": "view_image",
+      "detail": "original",
+      "observations": "All14 items visually transcribed. Strong black left title and tall grayscale wood-box repair scene remain beside full-height right information. Corrected driver descends to the lower flat hinge plate screw; the barrel is separate above. The native view was separately reopened after a multi-image output rendered its first image inadequately."
+    },
+    {
+      "kind": "720-width",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/H01/repair-1/qa-720.png",
+      "width": 720,
+      "height": 960,
+      "actual_view": true,
+      "tool": "view_image",
+      "detail": "original",
+      "observations": "All14 copy items manually read without enlargement. Exclusions, parts cost, completion limit and filming consent remain complete. Deadline and full URL prominent and inside canvas. Driver-to-round-screw-on-flat-leaf relationship readable."
+    },
+    {
+      "kind": "320-longside",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/H01/repair-1/qa-320.png",
+      "width": 240,
+      "height": 320,
+      "actual_view": true,
+      "tool": "view_image",
+      "detail": "original",
+      "observations": "Left title first, right date and lower application block establish hierarchy; wood box and driver activity discernible. Small operational clauses are too small for reliable full transcription at this size, so all14 readability is claimed only at native and720."
+    },
+    {
+      "kind": "native-contact-crop",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/H01/repair-1/qa-contact-native-crop.png",
+      "width": 206,
+      "height": 206,
+      "actual_view": true,
+      "tool": "view_image",
+      "detail": "original",
+      "observations": "Tip lands in the upper portion of the visible cross recess in the round lower-right screw head on the flat hinge leaf. Circular rim and remaining slot arms visible around contact. Screw is clearly below and separate from hinge barrel; no finger hides contact. Shaft has one continuous axis to handle."
+    }
+  ],
+  "copy_check": [
+    {
+      "item": 1,
+      "required": "고쳐 쓰는 토요일",
+      "transcribed_native": "고쳐 쓰는\n토요일",
+      "transcribed_720": "고쳐 쓰는\n토요일",
+      "transcribed": "고쳐 쓰는\n토요일",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "left upper title",
+      "uncertainty": null
+    },
+    {
+      "item": 2,
+      "required": "이웃 수리 작업실 참여자 모집",
+      "transcribed_native": "이웃 수리 작업실\n참여자 모집",
+      "transcribed_720": "이웃 수리 작업실\n참여자 모집",
+      "transcribed": "이웃 수리 작업실\n참여자 모집",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "left upper subtitle",
+      "uncertainty": null
+    },
+    {
+      "item": 3,
+      "required": "2026년 12월 5일 토요일",
+      "transcribed_native": "2026년 12월 5일 토요일",
+      "transcribed_720": "2026년 12월 5일 토요일",
+      "transcribed": "2026년 12월 5일 토요일",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right top date",
+      "uncertainty": null
+    },
+    {
+      "item": 4,
+      "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+      "transcribed_native": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+      "transcribed_720": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+      "transcribed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right under date time",
+      "uncertainty": "Time-range dash visually matches intended en dash, but a raster cannot establish encoded Unicode identity."
+    },
+    {
+      "item": 5,
+      "required": "하람시 잇는집 2층 · 수선길 12",
+      "transcribed_native": "하람시 잇는집 2층 · 수선길 12",
+      "transcribed_720": "하람시 잇는집 2층 · 수선길 12",
+      "transcribed": "하람시 잇는집 2층 · 수선길 12",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right upper location",
+      "uncertainty": null
+    },
+    {
+      "item": 6,
+      "required": "대상: 만 16세 이상 · 회차별 12명",
+      "transcribed_native": "대상: 만 16세 이상 · 회차별 12명",
+      "transcribed_720": "대상: 만 16세 이상 · 회차별 12명",
+      "transcribed": "대상: 만 16세 이상 · 회차별 12명",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right upper eligibility",
+      "uncertainty": null
+    },
+    {
+      "item": 7,
+      "required": "작은 생활용품 한 점을 가져와 주세요.",
+      "transcribed_native": "작은 생활용품 한 점을 가져와 주세요.",
+      "transcribed_720": "작은 생활용품 한 점을 가져와 주세요.",
+      "transcribed": "작은 생활용품 한 점을 가져와 주세요.",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right first condition",
+      "uncertainty": null
+    },
+    {
+      "item": 8,
+      "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+      "transcribed_native": "전기·배터리 제품과 위험한 물건은\n받지 않습니다.",
+      "transcribed_720": "전기·배터리 제품과 위험한 물건은\n받지 않습니다.",
+      "transcribed": "전기·배터리 제품과 위험한 물건은\n받지 않습니다.",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right exclusion",
+      "uncertainty": null
+    },
+    {
+      "item": 9,
+      "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+      "transcribed_native": "도구는 제공하며 부품 비용은\n현장에서 안내합니다.",
+      "transcribed_720": "도구는 제공하며 부품 비용은\n현장에서 안내합니다.",
+      "transcribed": "도구는 제공하며 부품 비용은\n현장에서 안내합니다.",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right tools and parts costs",
+      "uncertainty": null
+    },
+    {
+      "item": 10,
+      "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+      "transcribed_native": "수리 여부는 상태 확인 후 결정하며\n완성을 보장하지 않습니다.",
+      "transcribed_720": "수리 여부는 상태 확인 후 결정하며\n완성을 보장하지 않습니다.",
+      "transcribed": "수리 여부는 상태 확인 후 결정하며\n완성을 보장하지 않습니다.",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right repair completion limit",
+      "uncertainty": null
+    },
+    {
+      "item": 11,
+      "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+      "transcribed_native": "촬영은 동의한 참여자에 한해\n진행합니다.",
+      "transcribed_720": "촬영은 동의한 참여자에 한해\n진행합니다.",
+      "transcribed": "촬영은 동의한 참여자에 한해\n진행합니다.",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right filming consent",
+      "uncertainty": null
+    },
+    {
+      "item": 12,
+      "required": "참가비 5,000원 · 현장 결제",
+      "transcribed_native": "참가비 5,000원 · 현장 결제",
+      "transcribed_720": "참가비 5,000원 · 현장 결제",
+      "transcribed": "참가비 5,000원 · 현장 결제",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right fee",
+      "uncertainty": null
+    },
+    {
+      "item": 13,
+      "required": "12월 2일까지 신청: haram-mend.example/join",
+      "transcribed_native": "12월 2일까지 신청:\nharam-mend.example/join",
+      "transcribed_720": "12월 2일까지 신청:\nharam-mend.example/join",
+      "transcribed": "12월 2일까지 신청:\nharam-mend.example/join",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right lower deadline/full URL",
+      "uncertainty": null
+    },
+    {
+      "item": 14,
+      "required": "문의: 이웃 수리 운영팀",
+      "transcribed_native": "문의: 이웃 수리 운영팀",
+      "transcribed_720": "문의: 이웃 수리 운영팀",
+      "transcribed": "문의: 이웃 수리 운영팀",
+      "equal_native": true,
+      "equal_720": true,
+      "equal": true,
+      "normalization": "visual line wraps converted to spaces only",
+      "verification": "manual transcription from actual native and720-width rendered images; no OCR",
+      "location_native": "right bottom inquiry",
+      "uncertainty": null
+    }
+  ],
+  "copy_manual_equal_items": 14,
+  "mandatory_conditions": [
+    {
+      "id": "single-flat-poster",
+      "observed": true,
+      "evidence": "One independent flat poster, no mockup or panels."
+    },
+    {
+      "id": "H01-ratio",
+      "observed": true,
+      "evidence": "Native1086x1448 equals3:4 exactly."
+    },
+    {
+      "id": "H-complete-conditions",
+      "observed": true,
+      "evidence": "14/14 manually visually match at native and720 including operational conditions8–11."
+    },
+    {
+      "id": "H-action",
+      "observed": true,
+      "evidence": "12월2일 deadline and full haram-mend.example/join stand out at right lower section and read at720."
+    },
+    {
+      "id": "repair-contact",
+      "observed": true,
+      "evidence": "Driver tip now contacts a distinct circular cross-slot screw head on the flat lower hinge leaf around native x288 y979; barrel remains separate above."
+    },
+    {
+      "id": "no-extra-copy",
+      "observed": true,
+      "evidence": "No new headings, repeated copy, icons, QR, brand, watermark, labels or decoration detected."
+    }
+  ],
+  "before_after_comparison": {
+    "initial_actually_viewed": true,
+    "repair_actually_viewed": true,
+    "improved": "Initial driver touched barrel end around x278 y932. Corrected tip now seats at the existing lower-right plate screw around x288 y979, with its circular rim and cross-slot visible. Hand does not conceal contact.",
+    "preserved_successes": "Title, recruitment subtitle,14copy, two-column layout, body grouping and alignment, deadline/URL emphasis, grayscale wood/metal/skin and supported open-box structure visibly preserved.",
+    "visible_changes_within_target": "Driver shaft angle/endpoint and nearby handle position adjusted; lower-right screw head more visible and slightly enlarged relative to initial.",
+    "unintended_change_limit": "Native image edit can reinterpret local photo pixels; visual comparison supports preservation of composition/materials but not bytewise identity to initial outside the edit."
+  },
+  "retained_defects_or_uncertainties": [
+    {
+      "location": "driver tip and round lower-right hinge-leaf screw, native about x288 y979",
+      "visible_evidence": "Round head, visible cross-slot arms and flat plate surround tip; barrel separated above.",
+      "impact": "Visible prior barrel-contact ambiguity substantially corrected. Two-dimensional raster demonstrates aligned contact but cannot prove real mechanical engagement depth/torque; no physical-realism guarantee claimed.",
+      "possible_correction": "No further native call authorized for this maker turn; coordinator reviews correction selection."
+    },
+    {
+      "location": "time-range dash in item4",
+      "visible_evidence": "The dash visually reads as intended en dash.",
+      "impact": "Raster glyph cannot establish Unicode codepoint identity.",
+      "possible_correction": "Retain punctuation uncertainty rather than claim encoded equality."
+    },
+    {
+      "location": "240x320 thumbnail operational copy",
+      "visible_evidence": "Body sentences are small.",
+      "impact": "Full14 transcription is reliable at native/720; full320-copy legibility is not claimed.",
+      "possible_correction": "Thumbnail inspected for first sight and hierarchy only."
+    },
+    {
+      "location": "resolution",
+      "visible_evidence": "Actual native output1086x1448, same dimensions as initial.",
+      "impact": "Prompt requested maximum supported resolution; tool has no size parameter and maximum achieved is not confirmed.",
+      "possible_correction": "No upscaling and no repeated call for unverified maximum."
+    }
+  ],
+  "original_not_modified": true,
+  "qa_manipulations": "Bundled Pillow only for720/320 LANCZOS reduction and206x206 native contact crop; no text insertion, compositing, redraw, sharpening or alteration of original/final",
+  "repair_decision": "Exactly ONE local native edit completed. No selfrepair. Repair candidate retained for coordinator review; final.png is exact native output.",
+  "finish_observations": {
+    "typography": "Title/date/action bold; body regular and fully legible at720. Korean words and punctuation visually preserved.",
+    "space": "Left vertical repair boundary and stable full-height right start preserved. Deadline and full URL remain separated from inquiry.",
+    "material": "Wood grain, skin and metal retain distinct grayscale texture/light response.",
+    "quality_limit": "No AI-slop-free/high-end certification; manual raster/physical-depth/thumbnail/max-resolution limits retained."
+  }
+}

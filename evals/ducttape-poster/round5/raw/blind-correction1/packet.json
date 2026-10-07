@@ -1,0 +1,164 @@
+{
+  "scope": "Anonymous current9 independent posters from exact given briefs. No version/prompt/style/explanation/history disclosed. Physical/authorship/print certification is outside scope.",
+  "cases": {
+    "title-only": {
+      "request": "덕테이프 포스터. 문구는 '밤에 피는 정원'만 넣어줘.\n",
+      "copy": [
+        "밤에 피는 정원"
+      ],
+      "expected_count": 5
+    },
+    "product": {
+      "request": "덕테이프 포스터로 가상의 접이식 컵 출시 포스터를 만들어줘.\n총 2장이고 두 장 모두 세로 4:5야. 실물 촬영 같은 제품 사진이 들어가야 해.\n제품은 손잡이가 없는 350mL 컵으로, 몸체는 짙은 녹색 실리콘이고 뚜껑은 반투명 흰색이야.\n실제 브랜드나 로고를 쓰지 말고 제품 표면에는 글자를 넣지 마.\n아래 표시 문구를 그대로 사용해줘.\nFOLN\nFold Cup\n가볍게 접고, 다시 펼치다\n350 mL · 접이식 실리콘 컵\n2026.12.01 RELEASE\n온라인 사전 주문 11.10–11.30\nfoln.example/store\n",
+      "copy": [
+        "FOLN",
+        "Fold Cup",
+        "가볍게 접고, 다시 펼치다",
+        "350 mL · 접이식 실리콘 컵",
+        "2026.12.01 RELEASE",
+        "온라인 사전 주문 11.10–11.30",
+        "foln.example/store"
+      ],
+      "expected_count": 2
+    },
+    "invitation": {
+      "request": "덕테이프 포스터로 가상의 이웃 수리 작업실 참여자를 모집하는 온라인 포스터를 만들어줘.\n총 2장, 세로 3:4 한 장과 정사각 1:1 한 장이 필요해.\n스타일은 맡길게. 신청 기한과 신청 주소를 쉽게 찾을 수 있어야 해.\n다음 문구를 빠짐없이 그대로 넣어줘.\n고쳐 쓰는 토요일\n이웃 수리 작업실 참여자 모집\n2026년 12월 5일 토요일\n오후 2시–5시 · 입장은 오후 1시 40분부터\n하람시 잇는집 2층 · 수선길 12\n대상: 만 16세 이상 · 회차별 12명\n작은 생활용품 한 점을 가져와 주세요.\n전기·배터리 제품과 위험한 물건은 받지 않습니다.\n도구는 제공하며 부품 비용은 현장에서 안내합니다.\n수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.\n촬영은 동의한 참여자에 한해 진행합니다.\n참가비 5,000원 · 현장 결제\n12월 2일까지 신청: haram-mend.example/join\n문의: 이웃 수리 운영팀\n",
+      "copy": [
+        "고쳐 쓰는 토요일",
+        "이웃 수리 작업실 참여자 모집",
+        "2026년 12월 5일 토요일",
+        "오후 2시–5시 · 입장은 오후 1시 40분부터",
+        "하람시 잇는집 2층 · 수선길 12",
+        "대상: 만 16세 이상 · 회차별 12명",
+        "작은 생활용품 한 점을 가져와 주세요.",
+        "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+        "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+        "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+        "촬영은 동의한 참여자에 한해 진행합니다.",
+        "참가비 5,000원 · 현장 결제",
+        "12월 2일까지 신청: haram-mend.example/join",
+        "문의: 이웃 수리 운영팀"
+      ],
+      "expected_count": 2
+    }
+  },
+  "images": [
+    {
+      "image_id": "X111",
+      "case_id": "title-only",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X111-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X111-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X111-thumbnail320.png",
+      "width": 1024,
+      "height": 1536,
+      "target_ratio": "2:3"
+    },
+    {
+      "image_id": "X354",
+      "case_id": "invitation",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X354-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X354-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X354-thumbnail320.png",
+      "width": 1254,
+      "height": 1254,
+      "target_ratio": "1:1"
+    },
+    {
+      "image_id": "X379",
+      "case_id": "product",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X379-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X379-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X379-thumbnail320.png",
+      "width": 1122,
+      "height": 1402,
+      "target_ratio": "4:5"
+    },
+    {
+      "image_id": "X433",
+      "case_id": "product",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X433-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X433-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X433-thumbnail320.png",
+      "width": 1122,
+      "height": 1402,
+      "target_ratio": "4:5"
+    },
+    {
+      "image_id": "X725",
+      "case_id": "title-only",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X725-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X725-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X725-thumbnail320.png",
+      "width": 1024,
+      "height": 1536,
+      "target_ratio": "2:3"
+    },
+    {
+      "image_id": "X358",
+      "case_id": "invitation",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X358-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X358-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X358-thumbnail320.png",
+      "width": 1086,
+      "height": 1448,
+      "target_ratio": "3:4"
+    },
+    {
+      "image_id": "X367",
+      "case_id": "title-only",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X367-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X367-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X367-thumbnail320.png",
+      "width": 1024,
+      "height": 1536,
+      "target_ratio": "2:3"
+    },
+    {
+      "image_id": "X833",
+      "case_id": "title-only",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X833-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X833-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X833-thumbnail320.png",
+      "width": 1024,
+      "height": 1536,
+      "target_ratio": "2:3"
+    },
+    {
+      "image_id": "X257",
+      "case_id": "title-only",
+      "native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X257-native.png",
+      "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X257-usage720.png",
+      "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction1/images/X257-thumbnail320.png",
+      "width": 1024,
+      "height": 1536,
+      "target_ratio": "2:3"
+    }
+  ],
+  "sets": {
+    "title-only": {
+      "members": [
+        "X111",
+        "X725",
+        "X833",
+        "X367",
+        "X257"
+      ],
+      "expected_count": 5
+    },
+    "product": {
+      "members": [
+        "X379",
+        "X433"
+      ],
+      "expected_count": 2
+    },
+    "invitation": {
+      "members": [
+        "X358",
+        "X354"
+      ],
+      "expected_count": 2
+    }
+  },
+  "comparison_pairs": []
+}

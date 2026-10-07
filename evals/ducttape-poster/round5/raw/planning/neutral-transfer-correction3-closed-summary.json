@@ -1,0 +1,2817 @@
+{
+  "timestamp_utc": "2026-10-07T21:37:01.854240+00:00",
+  "wave": "transfer-correction3",
+  "status": "PASS",
+  "recorded_evidence_integrity": "PASS",
+  "predeclared_core_diversity_gate": "PASS",
+  "scope": "Structural recorded-evidence and exact SHA bindings only. View-path/order claims and manual located visual observations are critic attestations; this script cannot prove actual viewing, temporal order, semantic location, visual quality, authorship, physical mechanics, print suitability, or universal future capability. Raw scores are authoritative; no averages, consensus rewrites, or nearest-pair threshold added to the declared gate.",
+  "inputs": {
+    "packet": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/packet.json",
+    "packet_sha256": "b3658e77c69badeeeaa79b8dc585dad6cc1a67682d41a6c3eeca5433480def9e",
+    "mapping": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/transfer-correction3-blind-mapping.json",
+    "mapping_sha256": "a9455eb5124b65448b3e7809ac041c4de04a677f21468a1a8bf78e1c479234a1",
+    "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+    "plan_sha256": "96160b13510366e678e1f7d2769374e22366e07baa9d3ebf1785bbd492f2a3a8"
+  },
+  "procedural_extension": null,
+  "valid_required_action_first_profiles": [
+    "craft",
+    "editorial",
+    "portfolio"
+  ],
+  "quality_gate_critic_scope": "All listed critics, including disclosed failed-order craft; no scores excluded",
+  "predeclared_gate_text": "Every selected image mandatoryPASS and content_form/typography/image_material/ai_slop >=4 for every critic, every set diversity>=4. Preserve all seven scores, located evidence, lower noncore scores and disagreements. No average/single best substitute.",
+  "selected_image_count": 5,
+  "critics": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "image_critic_record_count": 15,
+  "score_observation_count": 105,
+  "below4_image_score_count": 1,
+  "core_below4_count": 0,
+  "noncore_below4_count": 1,
+  "diversity_below4_count": 0,
+  "integrity_errors": [],
+  "closed_source_pin_checks": [
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/type-geometry-proposal.md",
+      "expected_sha256": "c7ee379a34876eaf25b7aab1d7f2f8abbe9bb27ec1d4e6bc58716299efab0613",
+      "actual_sha256": "c7ee379a34876eaf25b7aab1d7f2f8abbe9bb27ec1d4e6bc58716299efab0613"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/planning/neutral-material-initial-closed-summary.json",
+      "expected_sha256": "0d763a738794a0191e13b9440bc42e874a5b3937c13921fd04cb7290c1c4e547",
+      "actual_sha256": "0d763a738794a0191e13b9440bc42e874a5b3937c13921fd04cb7290c1c4e547"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/planning/phase-plan.json",
+      "expected_sha256": "890d611e78b712f1fdcd1ee5c40658dcd817fd96b52dcc86addee5bce45e3427",
+      "actual_sha256": "890d611e78b712f1fdcd1ee5c40658dcd817fd96b52dcc86addee5bce45e3427"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/craft-action-first.json",
+      "expected_sha256": "7f6ff60daa4f18e2d08683d1d442e6bd1debc674b3ff44625ff5cf2d71b08bdd",
+      "actual_sha256": "7f6ff60daa4f18e2d08683d1d442e6bd1debc674b3ff44625ff5cf2d71b08bdd"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/craft.json",
+      "expected_sha256": "6790b1561587b83488cf3502121f533f36838a3872744959ec29cea041cd1714",
+      "actual_sha256": "6790b1561587b83488cf3502121f533f36838a3872744959ec29cea041cd1714"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/craft.md",
+      "expected_sha256": "a68090f9c3603e093cb71234aeee6ebaa4dd69848e3b3dd94c0540a1019feeed",
+      "actual_sha256": "a68090f9c3603e093cb71234aeee6ebaa4dd69848e3b3dd94c0540a1019feeed"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/editorial-action-first.json",
+      "expected_sha256": "88555ce9e86ccba6ff2d8079e9772bc5d3053ce768e157929fcbc3b87a6a5cc0",
+      "actual_sha256": "88555ce9e86ccba6ff2d8079e9772bc5d3053ce768e157929fcbc3b87a6a5cc0"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/editorial.json",
+      "expected_sha256": "87503baa6dd33ad6477b4561ebdd20f9133c76af9e3731310c8bfc1220445974",
+      "actual_sha256": "87503baa6dd33ad6477b4561ebdd20f9133c76af9e3731310c8bfc1220445974"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/editorial.md",
+      "expected_sha256": "0826fb8bd8c95d4996666a7166f32a25664f522497fb733fba2c0bd5b89c564f",
+      "actual_sha256": "0826fb8bd8c95d4996666a7166f32a25664f522497fb733fba2c0bd5b89c564f"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/portfolio-action-first.json",
+      "expected_sha256": "050926277de6ffacae36efe4df7942b23b8b70adf5ac0a090820a0f3ec625a96",
+      "actual_sha256": "050926277de6ffacae36efe4df7942b23b8b70adf5ac0a090820a0f3ec625a96"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/portfolio.json",
+      "expected_sha256": "a7c81348049c3ca7e04427ea33cee1ee2ad109c5749f1c27cb6e63c3b340330b",
+      "actual_sha256": "a7c81348049c3ca7e04427ea33cee1ee2ad109c5749f1c27cb6e63c3b340330b"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/portfolio.md",
+      "expected_sha256": "cf5bef151adee835b51f6fc6722dc8079cc8d7ee3e75fb704a1fcf0f9b557bf6",
+      "actual_sha256": "cf5bef151adee835b51f6fc6722dc8079cc8d7ee3e75fb704a1fcf0f9b557bf6"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/H01/initial/manifest.json",
+      "expected_sha256": "139cf7e0d7ed58a8889c6ef8db7c794a0a9ee32f5956ee0bf2832e5f2f0fbb8f",
+      "actual_sha256": "139cf7e0d7ed58a8889c6ef8db7c794a0a9ee32f5956ee0bf2832e5f2f0fbb8f"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/initial/manifest.json",
+      "expected_sha256": "1349d8e65d498cb5def12c4f146575b2de370ec381d9313ec689e5fe699180ad",
+      "actual_sha256": "1349d8e65d498cb5def12c4f146575b2de370ec381d9313ec689e5fe699180ad"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-1/manifest.json",
+      "expected_sha256": "e887f42e5bfb01b0a388f09310125d805c575c895779c541a46dda7306bcf416",
+      "actual_sha256": "e887f42e5bfb01b0a388f09310125d805c575c895779c541a46dda7306bcf416"
+    },
+    {
+      "plan": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/cases.json",
+      "expected_sha256": "af995f8bd218ef2e49b3933a0403db2d50ccaab996cea38b7cbc489751c8a8bb",
+      "actual_sha256": "af995f8bd218ef2e49b3933a0403db2d50ccaab996cea38b7cbc489751c8a8bb"
+    }
+  ],
+  "image_bindings": [
+    {
+      "image_id": "V152",
+      "role": "P01",
+      "stage": "initial",
+      "version": null,
+      "case_id": "product",
+      "selected_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/initial/final.png",
+      "native_sha256": "c83e7dfe464e0d91d553280b8af336948f551bd1f29a29b8da5ab3e083eaa47a",
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png",
+          "sha256": "c83e7dfe464e0d91d553280b8af336948f551bd1f29a29b8da5ab3e083eaa47a",
+          "dimensions": [
+            1122,
+            1402
+          ]
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png",
+          "sha256": "8bee799908ce1569d131018bbeb0d5ea425a09f42269e436deac57c03914f075",
+          "dimensions": [
+            720,
+            900
+          ]
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png",
+          "sha256": "d8ee47bb79eb5dbc1e1efebb759cf4985adc5e104d0243e4a327da4ca9f2aa4c",
+          "dimensions": [
+            256,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "image_id": "V732",
+      "role": "T01",
+      "stage": "repair-2",
+      "version": null,
+      "case_id": "type-only-control",
+      "selected_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/repair-2/final.png",
+      "native_sha256": "1ba77e337f62afab32b651ace348480a78df903a5a8e8c4b0e96acb93a728b0c",
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png",
+          "sha256": "1ba77e337f62afab32b651ace348480a78df903a5a8e8c4b0e96acb93a728b0c",
+          "dimensions": [
+            1024,
+            1536
+          ]
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png",
+          "sha256": "0e02dfd8f5e8dde1218e43119bd5a70f116e3522dcec2934520c43498d01dafe",
+          "dimensions": [
+            720,
+            1080
+          ]
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png",
+          "sha256": "9ec3d24ba2797a8522be297d0ffea4efdb56b53873eece077be9ce107a4710ac",
+          "dimensions": [
+            213,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "image_id": "V443",
+      "role": "P02",
+      "stage": "repair-1",
+      "version": null,
+      "case_id": "product",
+      "selected_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/P02/repair-1/final.png",
+      "native_sha256": "0d8f04cfd80133777b10214e562bb4d21d7026e91bfc9c25be3a0b902be242bc",
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png",
+          "sha256": "0d8f04cfd80133777b10214e562bb4d21d7026e91bfc9c25be3a0b902be242bc",
+          "dimensions": [
+            1122,
+            1402
+          ]
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png",
+          "sha256": "d7cbc6cdfb822d2d315928e65e614374b23e4d54af30990d439f546d3c974aa0",
+          "dimensions": [
+            720,
+            900
+          ]
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png",
+          "sha256": "7c5be600cdbe319e4a301398a81b3ebac2f97da202cafb1ec02f805d1251d15b",
+          "dimensions": [
+            256,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "image_id": "V138",
+      "role": "H01",
+      "stage": "repair-1",
+      "version": null,
+      "case_id": "invitation",
+      "selected_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/H01/repair-1/final.png",
+      "native_sha256": "533a73254f33c20bbabe90d8988629de3d6b79558ab9362455f410af55f5aaf0",
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png",
+          "sha256": "533a73254f33c20bbabe90d8988629de3d6b79558ab9362455f410af55f5aaf0",
+          "dimensions": [
+            1086,
+            1448
+          ]
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png",
+          "sha256": "774d515d85955016de50db29d8041d656e6f62dda04582de2e6f70e3027d3a88",
+          "dimensions": [
+            720,
+            960
+          ]
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png",
+          "sha256": "c2cc1ceadd43daeda589eb50dc7d630f51049ebcb77ead09e0773e2242baaa7a",
+          "dimensions": [
+            240,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "image_id": "V517",
+      "role": "H02",
+      "stage": "repair-1",
+      "version": null,
+      "case_id": "invitation",
+      "selected_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/H02/repair-1/final.png",
+      "native_sha256": "5e694d0c7522f61ebfef3ba87c196247209dae8c0eef8052599199765f803754",
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png",
+          "sha256": "5e694d0c7522f61ebfef3ba87c196247209dae8c0eef8052599199765f803754",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png",
+          "sha256": "5f11a78e80c1cdf0f1b0712d684dc32a8ecfc45f0ac2cd445a6cfc21f799a32a",
+          "dimensions": [
+            720,
+            720
+          ]
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png",
+          "sha256": "358c0057d40f0684bf494938433642e1a5dc93b1f6d12fb02b03163d128bd3d0",
+          "dimensions": [
+            320,
+            320
+          ]
+        }
+      }
+    }
+  ],
+  "review_procedure": {
+    "editorial": {
+      "raw_report": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_report_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "action_first_record": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial-action-first.json",
+      "action_first_sha256": "a59ea892626ab9a2247fa47e5f55a71de70f9d245ed339753e9f2340ccca7af8",
+      "action_first_raw_observations": {
+        "reviewer": "editorial",
+        "order_compliant": true,
+        "readings": [
+          {
+            "image_id": "V138",
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지 신청",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainty": [],
+            "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png"
+          },
+          {
+            "image_id": "V517",
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지 신청",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainty": [],
+            "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png"
+          }
+        ]
+      },
+      "recorded_view_entries": [
+        {
+          "image_id": "V152",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png"
+        },
+        {
+          "image_id": "V152",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png"
+        },
+        {
+          "image_id": "V152",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png"
+        }
+      ],
+      "manual_method_attestation": "{'order': 'Read review-protocol.md and action-first.json only; actually viewed V138 and V517 usage720; wrote and successfully read reviews/editorial-action-first.json; only then opened packet.json. The initial action-first record remains unchanged.', 'post_packet_views': 'Actually viewed all five native images using view_image detail original, and all five usage720 and five thumbnail320 images using view_image. The fifteen paths below are the actual viewed paths; the two earlier invitation views are separately recorded in the action-first file.', 'transcription': 'Manually read all 43 supplied copy items from the visible posters and compared each to packet copy. Intentional line wrapping was rejoined to the supplied phrase; the displayed words, punctuation and order were preserved. All 43 comparisons are recorded individually.', 'mandatory': 'Inspected every visible brief condition and all required copy at usage720. Native PNG dimensions were independently read from their IHDR headers and ratio deviation calculated relative to the requested ratio. Set member counts were checked.', 'scoring': 'Independent integer 1–5 scores use the seven unchanged protocol anchors. Every dimension has located visible evidence. Closest-pair scores use the same diversity scale: 1 means near repetition and 5 means convincingly distinct directions. With two-member sets there is one available pair. No totals, averages, consensus or expected score target was used.', 'scope_limit': 'Pixels establish visible appearance and legibility, not actual folding mechanics, measured capacity, authorship or print certification. The 350 mL designation is visible supplied copy. No skills, sources, plans, mappings, prompts, versions, production materials, prior reviews or peer reviews were inspected.', 'gate_summary': 'All five visible mandatory checks pass; all 43 transcriptions compare equal; no action-reading ambiguity was observed. Residuals below are editorial refinements and use-size tradeoffs.'}\n# Independent editorial visible-output review\n\nOrder compliant. The action-first record was saved and successfully read before packet.json and remains unchanged. All five visible mandatory checks pass; all 43 individual copy comparisons are equal. No date, deadline, full URL or location ambiguity was observed in either initial invitation reading.\n\n**order:** Read review-protocol.md and action-first.json only; actually viewed V138 and V517 usage720; wrote and successfully read reviews/editorial-action-first.json; only then opened packet.json. The initial action-first record remains unchanged.\n\n**post_packet_views:** Actually viewed all five native images using view_image detail original, and all five usage720 and five thumbnail320 images using view_image. The fifteen paths below are the actual viewed paths; the two earlier invitation views are separately recorded in the action-first file.\n\n**transcription:** Manually read all 43 supplied copy items from the visible posters and compared each to packet copy. Intentional line wrapping was rejoined to the supplied phrase; the displayed words, punctuation and order were preserved. All 43 comparisons are recorded individually.\n\n**mandatory:** Inspected every visible brief condition and all required copy at usage720. Native PNG dimensions were independently read from their IHDR headers and ratio deviation calculated relative to the requested ratio. Set member counts were checked.\n\n**scoring:** Independent integer 1–5 scores use the seven unchanged protocol anchors. Every dimension has located visible evidence. Closest-pair scores use the same diversity scale: 1 means near repetition and 5 means convincingly distinct directions. With two-member sets there is one available pair. No totals, averages, consensus or expected score target was used.\n\n**scope_limit:** Pixels establish visible appearance and legibility, not actual folding mechanics, measured capacity, authorship or print certification. The 350 mL designation is visible supplied copy. No skills, sources, plans, mappings, prompts, versions, production materials, prior reviews or peer reviews were inspected.\n\n**gate_summary:** All five visible mandatory checks pass; all 43 transcriptions compare equal; no action-reading ambiguity was observed. Residuals below are editorial refinements and use-size tradeoffs.\n\n## Actual viewed files\n\n- V152 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png\n- V152 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png\n- V152 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png\n- V732 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png\n- V732 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png\n- V732 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png\n- V443 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png\n- V443 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png\n- V443 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png\n- V138 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png\n- V138 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png\n- V138 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png\n- V517 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png\n- V517 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png\n- V517 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png\n\n## V152\n\nVisible mandatory pass: True. Issues: []. Uncertainties: [].\n\n**Mandatory condition checks:**\n\n- native_dimensions: 1122 × 1402\n- target_ratio: 4:5\n- relative_ratio_deviation_percent: 0.035663\n- ratio_within_one_percent: True\n- portrait: True\n- all_seven_copy_items_present_exact_and_legible_at_720: True\n- photograph_like_product_scene: True\n- handle_absent: True\n- body_dark_green_silicone_appearance: True\n- lid_translucent_white_appearance: True\n- expanded_and_folded_cup_visuals: True\n- no_real_brand_or_logo_visible: True\n- product_surface_unlettered: True\n- additional_copy_or_ornament: False\n\n**Use-size readings:**\n\n- first_thumbnail_read: Fold Cup, expanded versus flat product\n- release_date: 2026.12.01 RELEASE\n- order_window: 온라인 사전 주문 11.10–11.30\n- full_order_url: foln.example/store\n- capacity_as_printed: 350 mL\n- usage720_all_required_copy_legible: True\n\n**All exact-copy comparisons:**\n\n",
+      "raw_markdown": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.md",
+      "raw_markdown_sha256": "69afe70f421daf69f2182306e8a12f648f28c1bde9f33077e73bdf3aec907a99",
+      "order_attestations": {
+        "main_report": "{'order_compliant': True, 'method': {'order': 'Read review-protocol.md and action-first.json only; actually viewed V138 and V517 usage720; wrote and successfully read reviews/editorial-action-first.json; only then opened packet.json. The initial action-first record remains unchanged.', 'post_packet_views': 'Actually viewed all five native images using view_image detail original, and all five usage720 and five thumbnail320 images using view_image. The fifteen paths below are the actual viewed paths; the two earlier invitation views are separately recorded in the action-first file.', 'transcription': 'Manually read all 43 supplied copy items from the visible posters and compared each to packet copy. Intentional line wrapping was rejoined to the supplied phrase; the displayed words, punctuation and order were preserved. All 43 comparisons are recorded individually.', 'mandatory': 'Inspected every visible brief condition and all required copy at usage720. Native PNG dimensions were independently read from their IHDR headers and ratio deviation calculated relative to the requested ratio. Set member counts were checked.', 'scoring': 'Independent integer 1–5 scores use the seven unchanged protocol anchors. Every dimension has located visible evidence. Closest-pair scores use the same diversity scale: 1 means near repetition and 5 means convincingly distinct directions. With two-member sets there is one available pair. No totals, averages, consensus or expected score target was used.', 'scope_limit': 'Pixels establish visible appearance and legibility, not actual folding mechanics, measured capacity, authorship or print certification. The 350 mL designation is visible supplied copy. No skills, sources, plans, mappings, prompts, versions, production materials, prior reviews or peer reviews were inspected.', 'gate_summary': 'All five visible mandatory checks pass; all 43 transcriptions compare equal; no action-reading ambiguity was observed. Residuals below are editorial refinements and use-size tradeoffs.'}}\n# Independent editorial visible-output review\n\nOrder compliant. The action-first record was saved and successfully read before packet.json and remains unchanged. All five visible mandatory checks pass; all 43 individual copy comparisons are equal. No date, deadline, full URL or location ambiguity was observed in either initial invitation reading.\n\n**order:** Read review-protocol.md and action-first.json only; actually viewed V138 and V517 usage720; wrote and successfully read reviews/editorial-action-first.json; only then opened packet.json. The initial action-first record remains unchanged.\n\n**post_packet_views:** Actually viewed all five native images using view_image detail original, and all five usage720 and five thumbnail320 images using view_image. The fifteen paths below are the actual viewed paths; the two earlier invitation views are separately recorded in the action-first file.\n\n**transcription:** Manually read all 43 supplied copy items from the visible posters and compared each to packet copy. Intentional line wrapping was rejoined to the supplied phrase; the displayed words, punctuation and order were preserved. All 43 comparisons are recorded individually.\n\n**mandatory:** Inspected every visible brief condition and all required copy at usage720. Native PNG dimensions were independently read from their IHDR headers and ratio deviation calculated relative to the requested ratio. Set member counts were checked.\n\n**scoring:** Independent integer 1–5 scores use the seven unchanged protocol anchors. Every dimension has located visible evidence. Closest-pair scores use the same diversity scale: 1 means near repetition and 5 means convincingly distinct directions. With two-member sets there is one available pair. No totals, averages, consensus or expected score target was used.\n\n**scope_limit:** Pixels establish visible appearance and legibility, not actual folding mechanics, measured capacity, authorship or print certification. The 350 mL designation is visible supplied copy. No skills, sources, plans, mappings, prompts, versions, production materials, prior reviews or peer reviews were inspected.\n\n**gate_summary:** All five visible mandatory checks pass; all 43 transcriptions compare equal; no action-reading ambiguity was observed. Residuals below are editorial refinements and use-size tradeoffs.\n\n## Actual viewed files\n\n- V152 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png\n- V152 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png\n- V152 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png\n- V732 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png\n- V732 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png\n- V732 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png\n- V443 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png\n- V443 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png\n- V443 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png\n- V138 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png\n- V138 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png\n- V138 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png\n- V517 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png\n- V517 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png\n- V517 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png\n\n## V152\n\nVisible mandatory pass: True. Issues: []. Uncertainties: [].\n\n**Mandatory condition checks:**\n\n- native_dimensions: 1122 × 1402\n- target_ratio: 4:5\n- relative_ratio_deviation_percent: 0.035663\n- ratio_within_one_percent: True\n- portrait: True\n- all_seven_copy_items_present_exact_and_legible_at_720: True\n- photograph_like_product_scene: True\n- handle_absent: True\n- body_dark_green_silicone_appearance: True\n- lid_translucent_white_appearance: True\n- expanded_and_folded_cup_visuals: True\n- no_real_brand_or_logo_visible: True\n- product_surface_unlettered: True\n- additional_copy_or_ornament: False\n\n**Use-size readings:**\n\n- first_thumbnail_read: Fold Cup, expanded versus flat product\n- release_date: 2026.12.01 RELEASE\n- order_window: 온라인 사전 주문 11.10–11.30\n- full_order_url: foln.example/store\n- capacity_as_printed: 350 mL\n- usage720_all_required_copy_legible: True\n\n**All exact-copy comparisons:**\n\n",
+        "preflight": "{'order_compliant': True}"
+      },
+      "valid_action_first_attestation": true,
+      "explicit_procedural_failure_retained": false,
+      "coverage_check": "Recorded native/720/320 paths matched every selected anonymous image"
+    },
+    "craft": {
+      "raw_report": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_report_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "action_first_record": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft-action-first.json",
+      "action_first_sha256": "7fed0a5c01d8d636e6cca0fefbd72fd03aa4d3f3e8bc97b4f157218fb039d4ac",
+      "action_first_raw_observations": {
+        "reviewer": "craft",
+        "order_compliant": true,
+        "readings": [
+          {
+            "image_id": "V138",
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지 신청",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainty": "없음. 사용 크기에서 네 항목을 직접 읽음.",
+            "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png"
+          },
+          {
+            "image_id": "V517",
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지 신청",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainty": "없음. 사용 크기에서 네 항목을 직접 읽음.",
+            "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png"
+          }
+        ]
+      },
+      "recorded_view_entries": [
+        {
+          "image_id": "V152",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png"
+        },
+        {
+          "image_id": "V152",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png"
+        },
+        {
+          "image_id": "V152",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png"
+        }
+      ],
+      "manual_method_attestation": "{'profile': 'Independent blind visible-output craft critic; all seven unchanged anchors scored separately as integer1–5.', 'actual_order': ['Read review-protocol.md and action-first.json only', 'Viewed two anonymous invitation720 images without supplied copy', 'Saved and successfully read craft-action-first.json', 'Read packet.json', 'Actually viewed every native at ORIGINAL detail, usage720, thumbnail320', 'Manually transcribed and compared43 required text items', 'Read native PNG header dimensions', 'Saved and read craft.json and craft.md'], 'action_first_record': '/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft-action-first.json', 'view_calls': 17, 'unique_required_views': 15, 'copy_items_transcribed': 43, 'linebreak_rule': 'Observed visual line wraps represented as spaces; wording/punctuation preserved.', 'exclusions': 'No skills, sources, plans, mapping, prompts, generation versions, production files, prior or peer reports inspected. No image generation/editing.', 'limits': 'Actual capacity, folding mechanics, image provenance, authorship, print suitability are not measurable from pixels.'}\n# Craft independent blind visible-output review\n\nOrder compliant: yes. The untouched action-first record was saved and successfully read before packet.json. Every native was actually viewed with original detail, followed by usage720 and thumbnail320 views. No source, skill, prompt, plan, mapping, production, prior report or peer report was inspected.\n\nAll 43 required copy items are present and legible at720. All five native ratios are within1%. Actual capacity, physical mechanics, image provenance, authorship and print suitability are outside this pixel review. All seven scores use the unchanged anchors; no total, expected target or consensus.\n\n## Actual order\n\n- Read review-protocol.md and action-first.json only\n- Viewed two anonymous invitation720 images without supplied copy\n- Saved and successfully read craft-action-first.json\n- Read packet.json\n- Actually viewed every native at ORIGINAL detail, usage720, thumbnail320\n- Manually transcribed and compared43 required text items\n- Read native PNG header dimensions\n- Saved and read craft.json and craft.md\n\nAction-first raw record: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft-action-first.json\n\n## Actual view paths\n\n- V152 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png\n- V152 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png\n- V152 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png\n- V732 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png\n- V732 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png\n- V732 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png\n- V443 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png\n- V443 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png\n- V443 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png\n- V138 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png\n- V138 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png\n- V138 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png\n- V517 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png\n- V517 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png\n- V517 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png\n\n## V152\n\nMandatory pass: True. Issues: []. All required copy at720: True.\n\nDimensions: {\"width\": 1122, \"height\": 1402, \"target_ratio\": \"4:5\", \"relative_ratio_deviation_percent\": 0.035663, \"within_one_percent\": true}\n\nConditions checked:\n- 세로4:5 허용 오차 이내\n- 실물 촬영처럼 보이는 제품 사진\n- 손잡이 없음\n- 짙은 녹색 실리콘 몸체로 읽힘\n- 반투명 흰 뚜껑으로 읽힘\n- 제품 표면에 문자 없음\n- 제공된 가상 FOLN 외 실제 브랜드/로고 보이지 않음\n- 필수7문구 모두720에서 판독\n- 추가 표시 문구/가짜 정보 없음\n\nUncertainties:\n- 350 mL 표시와 몸체/뚜껑 모습은 확인했으나 실제 용량/접힘 기구는 픽셀로 측정하지 않음. 실물 촬영처럼 보이는지를 평가했으며 실제 사진 출처는 판단하지 않음.\n\nUse readings (initial record unchanged):\n{}\n\nExact-copy transcription. Visual line wraps represented as spaces.\n\n",
+      "raw_markdown": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.md",
+      "raw_markdown_sha256": "6fa00942f402bf817f259ef0a16dc9f8fe7292f6ef1d646b983c985691da7b14",
+      "order_attestations": {
+        "main_report": "{'order_compliant': True, 'method': {'profile': 'Independent blind visible-output craft critic; all seven unchanged anchors scored separately as integer1–5.', 'actual_order': ['Read review-protocol.md and action-first.json only', 'Viewed two anonymous invitation720 images without supplied copy', 'Saved and successfully read craft-action-first.json', 'Read packet.json', 'Actually viewed every native at ORIGINAL detail, usage720, thumbnail320', 'Manually transcribed and compared43 required text items', 'Read native PNG header dimensions', 'Saved and read craft.json and craft.md'], 'action_first_record': '/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft-action-first.json', 'view_calls': 17, 'unique_required_views': 15, 'copy_items_transcribed': 43, 'linebreak_rule': 'Observed visual line wraps represented as spaces; wording/punctuation preserved.', 'exclusions': 'No skills, sources, plans, mapping, prompts, generation versions, production files, prior or peer reports inspected. No image generation/editing.', 'limits': 'Actual capacity, folding mechanics, image provenance, authorship, print suitability are not measurable from pixels.'}}\n# Craft independent blind visible-output review\n\nOrder compliant: yes. The untouched action-first record was saved and successfully read before packet.json. Every native was actually viewed with original detail, followed by usage720 and thumbnail320 views. No source, skill, prompt, plan, mapping, production, prior report or peer report was inspected.\n\nAll 43 required copy items are present and legible at720. All five native ratios are within1%. Actual capacity, physical mechanics, image provenance, authorship and print suitability are outside this pixel review. All seven scores use the unchanged anchors; no total, expected target or consensus.\n\n## Actual order\n\n- Read review-protocol.md and action-first.json only\n- Viewed two anonymous invitation720 images without supplied copy\n- Saved and successfully read craft-action-first.json\n- Read packet.json\n- Actually viewed every native at ORIGINAL detail, usage720, thumbnail320\n- Manually transcribed and compared43 required text items\n- Read native PNG header dimensions\n- Saved and read craft.json and craft.md\n\nAction-first raw record: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft-action-first.json\n\n## Actual view paths\n\n- V152 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png\n- V152 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png\n- V152 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png\n- V732 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png\n- V732 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png\n- V732 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png\n- V443 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png\n- V443 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png\n- V443 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png\n- V138 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png\n- V138 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png\n- V138 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png\n- V517 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png\n- V517 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png\n- V517 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png\n\n## V152\n\nMandatory pass: True. Issues: []. All required copy at720: True.\n\nDimensions: {\"width\": 1122, \"height\": 1402, \"target_ratio\": \"4:5\", \"relative_ratio_deviation_percent\": 0.035663, \"within_one_percent\": true}\n\nConditions checked:\n- 세로4:5 허용 오차 이내\n- 실물 촬영처럼 보이는 제품 사진\n- 손잡이 없음\n- 짙은 녹색 실리콘 몸체로 읽힘\n- 반투명 흰 뚜껑으로 읽힘\n- 제품 표면에 문자 없음\n- 제공된 가상 FOLN 외 실제 브랜드/로고 보이지 않음\n- 필수7문구 모두720에서 판독\n- 추가 표시 문구/가짜 정보 없음\n\nUncertainties:\n- 350 mL 표시와 몸체/뚜껑 모습은 확인했으나 실제 용량/접힘 기구는 픽셀로 측정하지 않음. 실물 촬영처럼 보이는지를 평가했으며 실제 사진 출처는 판단하지 않음.\n\nUse readings (initial record unchanged):\n{}\n\nExact-copy transcription. Visual line wraps represented as spaces.\n\n",
+        "preflight": "{'order_compliant': True}"
+      },
+      "valid_action_first_attestation": true,
+      "explicit_procedural_failure_retained": false,
+      "coverage_check": "Recorded native/720/320 paths matched every selected anonymous image"
+    },
+    "portfolio": {
+      "raw_report": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_report_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "action_first_record": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio-action-first.json",
+      "action_first_sha256": "d177c2c866dc5d9506b7f48f1fd25e44ad4853a6795bcfb0eee4936af7ede778",
+      "action_first_raw_observations": {
+        "reviewer": "portfolio",
+        "order_compliant": true,
+        "readings": [
+          {
+            "image_id": "V138",
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainty": "URL에는 프로토콜이 표시되지 않으며 마감연도는 마감 행에 별도로 표시되지 않는다. 보이는 날짜, 주소, URL 문자에는 판독 불확실성이 없다.",
+            "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png"
+          },
+          {
+            "image_id": "V517",
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainty": "URL에는 프로토콜이 표시되지 않으며 마감연도는 마감 행에 별도로 표시되지 않는다. 보이는 날짜, 주소, URL 문자에는 판독 불확실성이 없다.",
+            "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png"
+          }
+        ]
+      },
+      "recorded_view_entries": [
+        {
+          "image_id": "V152",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png"
+        },
+        {
+          "image_id": "V152",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png"
+        },
+        {
+          "image_id": "V152",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png"
+        },
+        {
+          "image_id": "V732",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png"
+        },
+        {
+          "image_id": "V443",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png"
+        },
+        {
+          "image_id": "V138",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "native",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "usage720",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png"
+        },
+        {
+          "image_id": "V517",
+          "view": "thumbnail320",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png"
+        }
+      ],
+      "manual_method_attestation": "{'profile': 'Independent portfolio critic; content-specific design and structural diversity, with all seven unchanged image anchors.', 'review_order': ['Read review-protocol.md and action-first.json only.', 'Actually viewed V138-usage720.png and V517-usage720.png without the copy packet.', 'Saved reviews/portfolio-action-first.json and successfully read its saved content before opening packet.json.', 'Read packet.json.', 'Actually viewed each of the five images at native ORIGINAL detail, usage720, and thumbnail320: 15 required views.', 'Checked native pixel dimensions with sips; manually transcribed all 43 required text items and inspected visible mandatory conditions.'], 'action_first_record': 'reviews/portfolio-action-first.json; retained unchanged.', 'transcription': 'Manual visual transcription. Layout line breaks are normalized to single semantic spaces; letterforms, wording, punctuation, capitalization and numbers are checked as displayed. No OCR used.', 'scoring': 'Integer 1–5 using the unchanged seven anchors. No totals, averages, consensus, expected scores or inferred authorship. Located evidence comes only from the visible outputs.', 'set_scoring': \"Diversity and closest_pair.score both use the protocol's distinctness scale: 1 = color/filter repetition, 3 = distinguishable with recurring structural habits, 5 = convincingly different ideas, type roles, spaces and image expression. Each two-member set has only one possible closest pair.\", 'singleton': 'Predeclared protocol exception applied to type-only-control: diversity null, closest_pair [], closest_pair_score null. All seven image scores and mandatory checks remain ordinary.', 'scope_limits': 'Pixels do not establish physical capacity, folding mechanics, actual photographic authorship, real brand provenance, or print suitability. These are outside the measured scope.'}\n# Portfolio blind visible-output review\n\nReviewer: portfolio. Order compliant: true. The anonymous invitation720 action readings were saved and read before packet.json was opened; portfolio-action-first.json remains unchanged.\n\nAll five posters were actually viewed at native ORIGINAL detail, usage720 and thumbnail320 (15 required views). All 43 required text items were manually transcribed. All mandatory checks pass. Pixel dimensions were checked. Physical capacity, mechanics, authorship and print suitability are outside the measured scope.\n\nScores use the unchanged seven 1–5 anchors. Closest-pair scores use the same distinctness scale as diversity. No averages or consensus were used.\n\n## Actual viewed paths\n\n- V152 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png\n- V152 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png\n- V152 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png\n- V732 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png\n- V732 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png\n- V732 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png\n- V443 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png\n- V443 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png\n- V443 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png\n- V138 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png\n- V138 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png\n- V138 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png\n- V517 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png\n- V517 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png\n- V517 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png\n\n## V152\n\nMandatory: PASS.\n\n- Aspect ratio within 1 percent: pass — 1122 × 1402; target 4:5; relative error 0.03566333808844302%.\n- Two product posters in the set: pass — V152 and V443; exactly two.\n- Photograph-like product image: pass — A cup and translucent lid appear with plausible perspective, diffuse lighting and contact shadow.\n- Handleless dark-green silicone cup, translucent white lid: pass — No handle; dark green ringed body with matte-to-satin surface; milky white lid visibly transmits diffuse light.\n- No real brand/logo or text on the product surface: pass — Only supplied FOLN brand wording appears in the poster; no letters or logos are visible on the cup or lid.\n- 350 mL claim: pass — The exact required capacity text is visible. Actual capacity is outside pixel measurement.\n- All exact supplied copy; no additional wording: pass — Seven items manually transcribed; no added words or fake labels seen.\n- All required copy legible at usage720: pass — Brand, product name, slogan, specification, release date, preorder dates and store URL are readable.\n\nUncertainties: Actual 350 mL capacity and folding mechanics cannot be verified from this image.\n\nUse readings: {\"brand\":\"FOLN\",\"product\":\"Fold Cup\",\"release\":\"2026.12.01 RELEASE\",\"preorder\":\"온라인 사전 주문 11.10–11.30\",\"url\":\"foln.example/store\",\"legible_at_usage720\":true}\n\n",
+      "raw_markdown": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.md",
+      "raw_markdown_sha256": "001e78077757bf6c1bec813c3cbb827092dd2c183525ae4a147dd5917bc1dfb4",
+      "order_attestations": {
+        "main_report": "{'order_compliant': True, 'method': {'profile': 'Independent portfolio critic; content-specific design and structural diversity, with all seven unchanged image anchors.', 'review_order': ['Read review-protocol.md and action-first.json only.', 'Actually viewed V138-usage720.png and V517-usage720.png without the copy packet.', 'Saved reviews/portfolio-action-first.json and successfully read its saved content before opening packet.json.', 'Read packet.json.', 'Actually viewed each of the five images at native ORIGINAL detail, usage720, and thumbnail320: 15 required views.', 'Checked native pixel dimensions with sips; manually transcribed all 43 required text items and inspected visible mandatory conditions.'], 'action_first_record': 'reviews/portfolio-action-first.json; retained unchanged.', 'transcription': 'Manual visual transcription. Layout line breaks are normalized to single semantic spaces; letterforms, wording, punctuation, capitalization and numbers are checked as displayed. No OCR used.', 'scoring': 'Integer 1–5 using the unchanged seven anchors. No totals, averages, consensus, expected scores or inferred authorship. Located evidence comes only from the visible outputs.', 'set_scoring': \"Diversity and closest_pair.score both use the protocol's distinctness scale: 1 = color/filter repetition, 3 = distinguishable with recurring structural habits, 5 = convincingly different ideas, type roles, spaces and image expression. Each two-member set has only one possible closest pair.\", 'singleton': 'Predeclared protocol exception applied to type-only-control: diversity null, closest_pair [], closest_pair_score null. All seven image scores and mandatory checks remain ordinary.', 'scope_limits': 'Pixels do not establish physical capacity, folding mechanics, actual photographic authorship, real brand provenance, or print suitability. These are outside the measured scope.'}}\n# Portfolio blind visible-output review\n\nReviewer: portfolio. Order compliant: true. The anonymous invitation720 action readings were saved and read before packet.json was opened; portfolio-action-first.json remains unchanged.\n\nAll five posters were actually viewed at native ORIGINAL detail, usage720 and thumbnail320 (15 required views). All 43 required text items were manually transcribed. All mandatory checks pass. Pixel dimensions were checked. Physical capacity, mechanics, authorship and print suitability are outside the measured scope.\n\nScores use the unchanged seven 1–5 anchors. Closest-pair scores use the same distinctness scale as diversity. No averages or consensus were used.\n\n## Actual viewed paths\n\n- V152 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-native.png\n- V152 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-usage720.png\n- V152 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V152-thumbnail320.png\n- V732 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-native.png\n- V732 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-usage720.png\n- V732 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V732-thumbnail320.png\n- V443 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-native.png\n- V443 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-usage720.png\n- V443 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V443-thumbnail320.png\n- V138 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-native.png\n- V138 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png\n- V138 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-thumbnail320.png\n- V517 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-native.png\n- V517 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png\n- V517 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-thumbnail320.png\n\n## V152\n\nMandatory: PASS.\n\n- Aspect ratio within 1 percent: pass — 1122 × 1402; target 4:5; relative error 0.03566333808844302%.\n- Two product posters in the set: pass — V152 and V443; exactly two.\n- Photograph-like product image: pass — A cup and translucent lid appear with plausible perspective, diffuse lighting and contact shadow.\n- Handleless dark-green silicone cup, translucent white lid: pass — No handle; dark green ringed body with matte-to-satin surface; milky white lid visibly transmits diffuse light.\n- No real brand/logo or text on the product surface: pass — Only supplied FOLN brand wording appears in the poster; no letters or logos are visible on the cup or lid.\n- 350 mL claim: pass — The exact required capacity text is visible. Actual capacity is outside pixel measurement.\n- All exact supplied copy; no additional wording: pass — Seven items manually transcribed; no added words or fake labels seen.\n- All required copy legible at usage720: pass — Brand, product name, slogan, specification, release date, preorder dates and store URL are readable.\n\nUncertainties: Actual 350 mL capacity and folding mechanics cannot be verified from this image.\n\nUse readings: {\"brand\":\"FOLN\",\"product\":\"Fold Cup\",\"release\":\"2026.12.01 RELEASE\",\"preorder\":\"온라인 사전 주문 11.10–11.30\",\"url\":\"foln.example/store\",\"legible_at_usage720\":true}\n\n",
+        "preflight": "{'order_compliant': True}"
+      },
+      "valid_action_first_attestation": true,
+      "explicit_procedural_failure_retained": false,
+      "coverage_check": "Recorded native/720/320 paths matched every selected anonymous image"
+    }
+  },
+  "image_critic_records": [
+    {
+      "profile": "editorial",
+      "image_id": "V152",
+      "role": "P01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "first_thumbnail_read": "Fold Cup, expanded versus flat product",
+          "release_date": "2026.12.01 RELEASE",
+          "order_window": "온라인 사전 주문 11.10–11.30",
+          "full_order_url": "foln.example/store",
+          "capacity_as_printed": "350 mL",
+          "usage720_all_required_copy_legible": true
+        },
+        "checks": {
+          "native_dimensions": "1122 × 1402",
+          "target_ratio": "4:5",
+          "relative_ratio_deviation_percent": 0.035663,
+          "ratio_within_one_percent": true,
+          "portrait": true,
+          "all_seven_copy_items_present_exact_and_legible_at_720": true,
+          "photograph_like_product_scene": true,
+          "handle_absent": true,
+          "body_dark_green_silicone_appearance": true,
+          "lid_translucent_white_appearance": true,
+          "expanded_and_folded_cup_visuals": true,
+          "no_real_brand_or_logo_visible": true,
+          "product_surface_unlettered": true,
+          "additional_copy_or_ornament": false
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 5,
+        "emotion_control": 4,
+        "ai_slop": 5
+      },
+      "evidence": {
+        "content_form": "Upper-right expanded cup and lower-left flat cup make the folding claim visible through an actual change of silhouette. The white lids and dark-green bodies stay consistent between the two states; the lower slogan names the same transformation.",
+        "hierarchy": "At 320 the top-left Fold Cup and the two product states lead. At 720 the lower slogan, specification, release date, order window and URL read in that order. Release receives more weight than the application destination, so the transactional end of the sequence is clear but somewhat uniform.",
+        "typography": "At native and 720, the FOLN/Fold Cup group has clean letter shapes and a common left edge with the lower information blocks. Slogan weight and larger release numerals establish grouping. The rightmost p in Fold Cup sits quite close to the upper cup rim, giving that junction less breathing room than the other text edges.",
+        "space": "The diagonal separation of flat lower-left and tall upper-right products gives both states room and keeps the bottom copy out of their shadows. Left margins are consistent. The title-to-rim gap is visibly narrower than the generous field between the title group and flat product.",
+        "image_material": "At original size the silicone body has a restrained satin surface, the white lids transmit a cooler soft light, and contact shadows under both products agree with the pale tabletop. Rim contours, stacked fold edges and lid edges stay continuous without obvious melting or halos.",
+        "emotion_control": "The pale tabletop, green typography and two plainly staged states create a calm practical launch tone. The image spends its detail on the folds and lid rather than adding promotional props; the lower copy is slightly emphatic through repeated strong sans text.",
+        "ai_slop": "The paired expanded/flat views directly serve the supplied folding claim. No fake labels, decorative numerals, malformed text or unexplained material changes are visible at native. The product surfaces are unlettered and the seven information items remain honest readable content."
+      },
+      "residuals": [
+        "The title-to-cup-rim junction is tighter than the other text margins at 720. This slightly compresses the name/hero separation; a small reduction of title width or increase in that gap would make the spacing more even. It causes no clipping or copy failure."
+      ]
+    },
+    {
+      "profile": "editorial",
+      "image_id": "V732",
+      "role": "T01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "틈으로 들어오는 빛",
+            "observed": "틈으로 들어오는 빛",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "first_thumbnail_read": "틈으로 들어오는 빛",
+          "usage720_phrase": "틈으로 들어오는 빛",
+          "usage720_all_required_copy_legible": true
+        },
+        "checks": {
+          "native_dimensions": "1024 × 1536",
+          "target_ratio": "2:3",
+          "relative_ratio_deviation_percent": 0.0,
+          "ratio_within_one_percent": true,
+          "portrait": true,
+          "exact_single_phrase_legible_at_720": true,
+          "only_letters_and_whitespace": true,
+          "no_separate_image_decoration_symbols_or_extra_copy": true
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 5,
+        "image_material": 5,
+        "emotion_control": 5,
+        "ai_slop": 5
+      },
+      "evidence": {
+        "content_form": "The central first row leaves an enlarged gap between 틈으로 and 들어오는, and the isolated 빛 sits directly under that gap. The aperture is made with the words and whitespace themselves, linking the phrase to the form without adding an illustration.",
+        "hierarchy": "At 320 and 720 the eye reads the two first-row word groups left to right and then the centered 빛 below. The heavier combined first row initially outweighs the isolated final noun, but the complete phrase remains immediately recoverable.",
+        "typography": "At original size the Hangul blocks remain clean and stable. The two first-row words share a baseline; 빛 is centered in the inter-word corridor. The exceptionally large word gap is purposeful, while otherwise the heavy sans strokes and ordinary within-word spacing function without further tonal modulation.",
+        "space": "At native the text is concentrated around the middle with almost equal large upper and lower white fields. The central gap above 빛 is distinct from the outer margins, and the outside word edges remain safely inside the page. The large empty fields reinforce the aperture rather than appearing as leftover space.",
+        "image_material": "Only black text on a white field is visible at all three sizes. Native contours remain even; no separate texture, illustration, ornament, added symbol or visibly degraded edge interferes with the letter-only premise.",
+        "emotion_control": "The black weight and uninterrupted white field give the small phrase a still, restrained presence. The only expressive gesture is the gap and the dropped 빛, so each visible element has a clear task.",
+        "ai_slop": "The composition derives its main gesture from the exact word 틈 and the following 빛. No meaningless microcopy, symbols, style effects or synthetic surface package are present; the type and whitespace carry the idea together."
+      },
+      "residuals": [
+        "The combined first-row words carry more visual mass than the final 빛. The intended gap remains clear, but the last noun is encountered as a secondary step; any refinement should preserve that meaningful aperture rather than filling the whitespace."
+      ]
+    },
+    {
+      "profile": "editorial",
+      "image_id": "V443",
+      "role": "P02",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "first_thumbnail_read": "가볍게 접고, 다시 펼치다, pocketed cup",
+          "release_date": "2026.12.01 RELEASE",
+          "order_window": "온라인 사전 주문 11.10–11.30",
+          "full_order_url": "foln.example/store",
+          "capacity_as_printed": "350 mL",
+          "usage720_all_required_copy_legible": true
+        },
+        "checks": {
+          "native_dimensions": "1122 × 1402",
+          "target_ratio": "4:5",
+          "relative_ratio_deviation_percent": 0.035663,
+          "ratio_within_one_percent": true,
+          "portrait": true,
+          "all_seven_copy_items_present_exact_and_legible_at_720": true,
+          "photograph_like_product_scene": true,
+          "handle_absent": true,
+          "body_dark_green_silicone_appearance": true,
+          "lid_translucent_white_appearance": true,
+          "folded_cup_visual": true,
+          "no_real_brand_or_logo_visible": true,
+          "product_surface_unlettered": true,
+          "pocket_lettering_is_on_fabric_not_product": true,
+          "additional_copy_or_ornament": false
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 5,
+        "space": 5,
+        "image_material": 5,
+        "emotion_control": 5,
+        "ai_slop": 5
+      },
+      "evidence": {
+        "content_form": "The folded green cup sits inside a fabric pocket at middle-right, turning the light/fold claim into visible portability. The model name and specification run along that pocket plane, while the slogan occupies the open fabric above. These major choices have a common concrete idea.",
+        "hierarchy": "At 320 the large upper-left Korean slogan leads, then the pocketed cup and diagonal Fold Cup label. At 720 the release, order period and complete URL are clear under the slogan. The model name arrives later in the scan because it is on the lower pocket, but its large scale keeps it recoverable.",
+        "typography": "The upper slogan is split after the comma into two strong lines with stable Hangul spacing. The order block aligns to its left edge; the small FOLN sits in the upper-right field. Fold Cup and the specification follow the diagonal pocket plane and remain crisp and readable at 720, making text placement part of the photo composition.",
+        "space": "The cropped fabric fills the frame and the diagonal pocket seam leads to the exposed cup. Slogan and information occupy a relatively quiet cloth area, with no seam crossing the smaller URL. The pocket lettering is contained within the lower cloth plane instead of touching the seam or cup.",
+        "image_material": "At native, woven cloth, stitching, softly matte silicone and the translucent white lid have distinct surface behavior. The cup casts a coherent dark contact region inside the pocket, and lid ellipses, garment seams and crop remain continuous. No conspicuous surface melting or pasted halo is visible.",
+        "emotion_control": "The fabric setting makes the portable use case tangible, while the dark-green type and bold slogan maintain a direct launch message. The close crop is purposeful and the garment detail contributes to scale and portability; no unrelated props or ornamental effects accumulate.",
+        "ai_slop": "The folded cup, pocket crop and pocket-plane lettering form a specific portability argument. Fabric stitching and weave remain coherent at native, and no pseudo logo, fabricated labels, extra text or obviously inconsistent material finish is visible."
+      },
+      "residuals": [
+        "At 320 the upper slogan is recognized before the lower model name. At 720 both are clear; if instant model naming is important, a slightly stronger upper-right FOLN/model association could shorten that scan. This is a hierarchy tradeoff, not a mandatory failure."
+      ]
+    },
+    {
+      "profile": "editorial",
+      "image_id": "V138",
+      "role": "H01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "first_thumbnail_read": "고쳐 쓰는 토요일, red application footer",
+          "event_date": "2026년 12월 5일 토요일",
+          "application_deadline": "12월 2일까지 신청",
+          "full_application_url": "haram-mend.example/join",
+          "location": "하람시 잇는집 2층 · 수선길 12",
+          "time_and_entry": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+          "action_first_record_agrees": true,
+          "usage720_all_required_copy_legible": true
+        },
+        "checks": {
+          "native_dimensions": "1086 × 1448",
+          "target_ratio": "3:4",
+          "relative_ratio_deviation_percent": 0.0,
+          "ratio_within_one_percent": true,
+          "portrait": true,
+          "all_fourteen_copy_items_present_exact_and_legible_at_720": true,
+          "deadline_easy_to_find_at_720": true,
+          "full_application_url_easy_to_find_at_720": true,
+          "event_date_separate_from_deadline": true,
+          "location_legible_at_720": true,
+          "no_added_text": true
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 5,
+        "typography": 4,
+        "space": 4,
+        "image_material": 5,
+        "emotion_control": 4,
+        "ai_slop": 5
+      },
+      "evidence": {
+        "content_form": "The glasses hinge and screwdriver occupy the upper photo, making the small everyday repair invitation immediately concrete. The title above and practical instructions below relate directly to that activity, although the lower half remains a conventional separate information panel.",
+        "hierarchy": "At 320 the large top title, bold date at the panel entrance and red deadline/URL at the footer are all distinguishable. At 720 the date, entry time, location, eligibility, item guidance and fee lead naturally to the application line. The red line gives the full destination a clear visual handle despite its footer position.",
+        "typography": "The large title and subheading sit on consistent left edges in the pale photo field. In the lower panel, heavier date, bring-an-item instruction and fee alternate with lighter supporting sentences. Native glyphs, punctuation and word spaces are stable; paragraph spacing remains readable at 720, though the overall panel is dense.",
+        "space": "The lens crop left and screwdriver crop right establish a focused photographic scene above the straight horizontal panel edge. Lower copy has a consistent left edge and mostly even grouping gaps. The final contact line sits only about 11 pixels above the 720 image bottom, making the footer feel tighter than the upper margin.",
+        "image_material": "At original size the metal hinge and tool show differentiated specular highlights, the black frame has a continuous curved rim, and the lens keeps a credible transparent interior. The focus and background fade consistently away from the screw area, without obvious object-edge merging.",
+        "emotion_control": "The literal small repair scene and plain white reading panel produce a practical neighborhood invitation. Red is reserved for the application sentence and bold text marks useful participation details. The effect is controlled and clear, with a somewhat dense administrative footer.",
+        "ai_slop": "The close hinge repair is relevant to the actual event rather than a free-floating craft aesthetic. All fourteen visible text items are meaningful supplied content. Native surfaces and text edges are coherent, with no pseudo marks, ornamental microcopy or conspicuous synthetic blending."
+      },
+      "residuals": [
+        "The contact line has about 11 pixels of lower breathing room at 720, while the poster has more generous upper margins. The footer consequently feels compressed; slightly shorten internal paragraph gaps or reduce photo height enough to recover a larger bottom margin."
+      ]
+    },
+    {
+      "profile": "editorial",
+      "image_id": "V517",
+      "role": "H02",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "first_thumbnail_read": "12월 2일까지 신청: haram-mend.example/join",
+          "event_date": "2026년 12월 5일 토요일",
+          "application_deadline": "12월 2일까지 신청",
+          "full_application_url": "haram-mend.example/join",
+          "location": "하람시 잇는집 2층 · 수선길 12",
+          "time_and_entry": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+          "action_first_record_agrees": true,
+          "usage720_all_required_copy_legible": true
+        },
+        "checks": {
+          "native_dimensions": "1254 × 1254",
+          "target_ratio": "1:1",
+          "relative_ratio_deviation_percent": 0.0,
+          "ratio_within_one_percent": true,
+          "square": true,
+          "all_fourteen_copy_items_present_exact_and_legible_at_720": true,
+          "deadline_easy_to_find_at_720": true,
+          "full_application_url_easy_to_find_at_720": true,
+          "event_date_separate_from_deadline": true,
+          "location_legible_at_720": true,
+          "no_added_text": true
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 5,
+        "typography": 4,
+        "space": 4,
+        "image_material": 5,
+        "emotion_control": 5,
+        "ai_slop": 5
+      },
+      "evidence": {
+        "content_form": "The orange stitches repairing a blue book spine make the repair activity visible, and their color is carried into the large deadline/URL above. The title sits in the open page fan beside the book, while practical participation text occupies a separate clean right column. The main image, accent and copy roles are connected.",
+        "hierarchy": "At 320 and 720 the large orange application line comes first, followed by the black event title and bold event date. The full URL remains a single unbroken line. The right column then provides the exact time, location and conditions, with fee and contact at the bottom; event date and deadline are visually separate.",
+        "typography": "The two-line black title is legible in the open page area and the subtitle stays immediately beneath it. The right column uses clear line wraps, but most supporting clauses share a similar bold weight; paragraph gaps rather than weight carry their internal hierarchy. All exact copy is readable at 720.",
+        "space": "The wide top application block and two-column area below create a clear square composition. The book is cropped through the left edge and the orange trailing thread exits lower-left deliberately. The right-hand time row runs closer to the right edge, roughly 13 pixels at 720, than the top CTA does, so this small margin is the tightest point.",
+        "image_material": "At native, blue cover crosshatching, white page lines, dark spine outlines and orange thread highlights maintain a consistent illustrated language. Page edges fan toward the opening, the thread passes through drawn holes, and the cropped book outline remains continuous without random blurred fragments.",
+        "emotion_control": "Blue and orange give the repair invitation an approachable energetic tone. The orange color is doing two concrete jobs, the repair thread and the application action, and the remaining white field keeps the dense instructions calm. The illustration details support the repaired-book subject rather than adding decorative clutter.",
+        "ai_slop": "The repaired spine, matching CTA color and title placed in the page opening are specific to this invitation. The linework is coherent rather than randomly textured, and the exact conditions remain readable information. No meaningless numbers, fake logos, broken text or conspicuous composite halos are visible."
+      },
+      "residuals": [
+        "Most right-column supporting clauses share a similar strong weight, so their distinction depends on gaps. Slightly lighter supporting text would clarify date/fee emphasis while preserving readability.",
+        "The time/entry row has the tightest right margin, about 13 pixels at 720. Reflowing it at the separator or modestly widening that inset would make the right-column boundary more comfortable. No text is clipped."
+      ]
+    },
+    {
+      "profile": "craft",
+      "image_id": "V152",
+      "role": "P01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "350 mL 표시와 몸체/뚜껑 모습은 확인했으나 실제 용량/접힘 기구는 픽셀로 측정하지 않음. 실물 촬영처럼 보이는지를 평가했으며 실제 사진 출처는 판단하지 않음."
+        ],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true
+          }
+        ],
+        "use_readings": {},
+        "conditions_checked": [
+          "세로4:5 허용 오차 이내",
+          "실물 촬영처럼 보이는 제품 사진",
+          "손잡이 없음",
+          "짙은 녹색 실리콘 몸체로 읽힘",
+          "반투명 흰 뚜껑으로 읽힘",
+          "제품 표면에 문자 없음",
+          "제공된 가상 FOLN 외 실제 브랜드/로고 보이지 않음",
+          "필수7문구 모두720에서 판독",
+          "추가 표시 문구/가짜 정보 없음"
+        ],
+        "dimensions": {
+          "width": 1122,
+          "height": 1402,
+          "target_ratio": "4:5",
+          "relative_ratio_deviation_percent": 0.035663,
+          "within_one_percent": true
+        },
+        "usage720_all_required_copy_legible": true
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "중앙 앞쪽의 납작한 컵과 오른쪽 위의 펼친 컵이 접고 펼친다는 문구를 형태로 설명한다. 배경과 하단 정보는 그 기능 설명을 방해하지 않는다.",
+        "hierarchy": "320에서는 좌상단 Fold Cup과 두 상태의 제품이 먼저 보이고, 720에서는 하단 슬로건 뒤로 용량·출시일·주문 기간·URL이 순서대로 읽힌다. 출시와 주문은 구분되지만 하단 세 행의 대비는 다소 평준화돼 있다.",
+        "typography": "좌상단 라틴 획과 하단 한글 고딕의 무게가 이어진다. 가볍게의 ㅂ, 펼치다의 ㅍ, 실리콘의 받침이 끊기지 않으며 350 mL의 숫자/단위 간격도 명료하다. Fold Cup의 p와 컵 왼쪽 외곽 사이에는 실제 여백이 있다.",
+        "space": "펼친 컵은 우상단, 접힌 컵은 좌중단, 제목은 남는 좌상단에 놓인다. 하단 문구의 시작선이 거의 일치하고 슬로건/출시 블록의 큰 간격이 그룹을 분리한다. 사진/문자의 관계는 비교적 단순한 상하 구성이다.",
+        "image_material": "원본의 녹색 몸체는 낮은 광택, 반투명 흰 뚜껑은 밝은 가장자리 반사로 구분된다. 접지 그림자와 확산광 방향은 일관된다. 접힌 몸체의 어두운 주름 일부는 붙어 보이지만 녹은 외곽·후광·표면 문자는 보이지 않는다.",
+        "emotion_control": "밝은 회색 바탕·짙은 녹색 문자·제품 두 상태가 간결한 기능 설명을 만든다. 불필요한 소품·배지·빛 장식이 설명 위에 쌓이지 않았다.",
+        "ai_slop": "제품의 두 상태와 정확한 정보가 서로 연결되며 실리콘/뚜껑의 반사도 다르다. 익숙한 사진 위 제목/아래 정보 구조는 남지만 가짜 미세 문자·후광·우연한 외곽 녹음은 보이지 않는다."
+      },
+      "residuals": [
+        "하단 출시·주문·URL이 같은 녹색과 가까운 크기로 읽힘 → 안내 단계 차이가 약함 → 주문/URL의 간격 또는 크기 차이를 조금 더 분명하게 조정할 수 있다. 기능 실패는 아니다."
+      ]
+    },
+    {
+      "profile": "craft",
+      "image_id": "V732",
+      "role": "T01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "틈으로 들어오는 빛",
+            "observed": "틈으로 들어오는 빛",
+            "equal": true
+          }
+        ],
+        "use_readings": {},
+        "conditions_checked": [
+          "세로2:3 정확히 일치",
+          "필수 문구는 줄바꿈 외 그대로 존재",
+          "글자와 흰 여백만 보임",
+          "별도 이미지·장식·기호·추가 문구 없음",
+          "필수 문구720에서 판독"
+        ],
+        "dimensions": {
+          "width": 1024,
+          "height": 1536,
+          "target_ratio": "2:3",
+          "relative_ratio_deviation_percent": 0,
+          "within_one_percent": true
+        },
+        "usage720_all_required_copy_legible": true
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 5,
+        "emotion_control": 4,
+        "ai_slop": 5
+      },
+      "evidence": {
+        "content_form": "중앙 첫 줄의 틈으로와 들어오는 사이가 비고 그 틈 아래에 빛이 놓여, 문구의 뜻을 실제 단어 간 빈자리로 연결한다. 큰 상하 공백은 조용하지만 세부 관계는 단순하다.",
+        "hierarchy": "320에서도 첫 줄의 두 묶음 다음에 아래 빛이 읽힌다. 한 문장만 있어 다른 정보와 경쟁하지 않으며 빛은 아래 위치로 강조된다.",
+        "typography": "원본의 틈·들·빛은 굵은 획/안쪽 흰 공간이 일관되고 받침이 훼손되지 않는다. 빛과 첫 줄의 간격은 촘촘해 하나의 덩어리로 묶이고, 좌우 단어의 폭과 무게도 자연스럽다.",
+        "space": "첫 줄 좌우 끝 여백이 가깝고 빛은 두 단어 사이의 빈자리 축 근처에 놓인다. 전체 문자 덩어리의 상하 공백도 거의 균형을 이룬다.",
+        "image_material": "원본의 균일한 흰 바탕과 검정 글자 경계가 끝까지 명확하다. 우연한 번짐·입체광·사진 질감이 획에 덮이지 않아 글자/여백만의 표현 체계가 정교하게 유지된다.",
+        "emotion_control": "굵은 검정 글자와 공백만으로 정적인 느낌을 만든다. 빛 효과를 추가하지 않고 글자 위치가 정서를 담당한다.",
+        "ai_slop": "틈의 의미를 단어 간격, 빛을 그 아래 위치로 편집했다. 불규칙한 글자·무의미한 기호·장식 정보·재질 혼합이 없고 제한 조건에 맞춘 구성이 명료하다."
+      },
+      "residuals": [
+        "중앙 틈/빛의 관계 외에는 상하 큰 공백이 단순함 → 해석의 세부 깊이가 제한적임 → 보완한다면 빛과 첫 줄의 축/간격 안에서 조정할 수 있으며 추가 장식은 필요하지 않다."
+      ]
+    },
+    {
+      "profile": "craft",
+      "image_id": "V443",
+      "role": "P02",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "350 mL 표시와 몸체/뚜껑 모습은 확인했으나 실제 용량/접힘 기구는 픽셀로 측정하지 않음. 실물 촬영처럼 보이는지를 평가했으며 실제 사진 출처는 판단하지 않음.",
+          "주머니 면 이름이 그래픽 오버레이인지 천 인쇄인지 결과만으로 확정하기 어려움; 해당 인쇄 방식은 필수 조건에 지정되지 않음."
+        ],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true
+          }
+        ],
+        "use_readings": {},
+        "conditions_checked": [
+          "세로4:5 허용 오차 이내",
+          "실물 촬영처럼 보이는 제품 사진",
+          "손잡이 없음",
+          "짙은 녹색 실리콘 몸체로 읽힘",
+          "반투명 흰 뚜껑으로 읽힘",
+          "제품 표면에 문자 없음: Fold Cup은 주머니 면에 위치",
+          "제공된 가상 FOLN 외 실제 브랜드/로고 보이지 않음",
+          "필수7문구 모두720에서 판독",
+          "추가 표시 문구/가짜 정보 없음"
+        ],
+        "dimensions": {
+          "width": 1122,
+          "height": 1402,
+          "target_ratio": "4:5",
+          "relative_ratio_deviation_percent": 0.035663,
+          "within_one_percent": true
+        },
+        "usage720_all_required_copy_legible": true
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "오른쪽 중간의 접힌 컵을 옷 주머니에 꽂고 위에 접고 펼치다는 큰 문구를 놓았다. 아래 Fold Cup의 기울기는 주머니 입구와 이어져 휴대성을 사진·문구·배치가 함께 설명한다.",
+        "hierarchy": "320에서 좌상단 슬로건→중앙의 컵→아래 기울어진 Fold Cup이 구분된다. 720에서는 슬로건 아래의 출시·사전 주문·URL이 읽힌다. 슬로건과 이름이 두 큰 문자 중심을 만들지만 안내를 찾을 수 있다.",
+        "typography": "두 줄 한글 슬로건이 어절을 훼손하지 않는다. 아래 Fold Cup/350 mL 행은 같은 사선과 녹색으로 묶이며 혼합 문자 간격도 안정적이다. 위 FOLN의 가벼운 획은 구분되고 곧은 안내/사선 이름 각각의 역할이 보인다.",
+        "space": "주머니 입구 사선이 제품명/사양 행을 받는다. 큰 한글은 왼쪽의 편평한 영역, FOLN은 오른쪽 위, 제품은 가운데 주름 사이에 놓인다. 문자가 제품 외곽을 침범하지 않는다.",
+        "image_material": "원본에서 천 직조·박음질·주름, 뚜껑 반투명 반사, 몸체 무광이 다르게 처리된다. 제품 하단은 주머니에 가려지고 그림자가 이어진다. Fold Cup의 평면 색/경계는 천 주름에서도 균일하여 실제 인쇄인지 그래픽 오버레이인지 깊이는 확정하기 어렵다.",
+        "emotion_control": "회색 옷과 녹색 제품/문자가 휴대 맥락을 만든다. 주름·스티치·지퍼는 배경의 역할이며 별도 효과가 제품을 가리지 않는다.",
+        "ai_slop": "주머니 속 접힌 제품과 사선 문자는 기능에 연결되고 가짜 숫자/미세 로고가 없다. 주머니 면 Fold Cup의 균일한 경계가 사진 깊이와 분리돼 보이는 부분은 남아 단일 재질 처리로 단정하지 않는다."
+      },
+      "residuals": [
+        "주머니 면 Fold Cup의 균일한 색/경계가 주름에서도 유지됨 → 그래픽 오버레이와 물리적 인쇄 사이 깊이가 모호함 → 천 인쇄 의도라면 변형/명암을 맞추고 오버레이 의도라면 분리를 명확히 할 수 있다. 의도를 모르므로 인쇄 결함으로 확정하지 않는다."
+      ]
+    },
+    {
+      "profile": "craft",
+      "image_id": "V138",
+      "role": "H01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "image_id": "V138",
+          "event_date": "2026년 12월 5일 토요일",
+          "application_deadline": "12월 2일까지 신청",
+          "full_application_url": "haram-mend.example/join",
+          "location": "하람시 잇는집 2층 · 수선길 12",
+          "uncertainty": "없음. 사용 크기에서 네 항목을 직접 읽음.",
+          "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V138-usage720.png"
+        },
+        "conditions_checked": [
+          "세로3:4 정확히 일치",
+          "필수14문구 모두720에서 판독",
+          "기한/전체 URL/날짜/장소를 제공 문구 전에 실제로 읽었음",
+          "기한/주소는 붉은 하단 행으로 쉽게 찾음",
+          "누락·추가·의미 변경 보이지 않음"
+        ],
+        "dimensions": {
+          "width": 1086,
+          "height": 1448,
+          "target_ratio": "3:4",
+          "relative_ratio_deviation_percent": 0,
+          "within_one_percent": true
+        },
+        "usage720_all_required_copy_legible": true
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 3,
+        "image_material": 5,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "상단 중앙의 안경 경첩/정밀 드라이버가 수리 행위를 구체적으로 보여 준다. 하단의 참여 조건과 신청 정보가 그 행동을 행사로 연결한다.",
+        "hierarchy": "320에서 큰 제목/수리 이미지 뒤에 날짜와 맨 아래 붉은 신청이 보인다. 720에서 일정→장소→대상→준비물/제한→비용/동의→신청/문의가 모두 읽힌다. 신청은 하단에 있지만 붉은 대비로 쉽게 찾힌다.",
+        "typography": "큰 제목의 한글 획/받침과 보조 제목이 안정적이다. 아래 일반체·굵은 준비물/참가비·붉은 신청이 역할을 나눈다. URL의 하이픈/슬래시와 한글/라틴 접합도 명료하다.",
+        "space": "제목과 드라이버 대각선은 겹치지 않고 사진/정보 경계가 명확하다. 720 하단의 촬영→참가비→신청→문의가 가까워지고 문의 아래 여백은 약12px로 좁다. 많은 정보가 하단에 몰려 공간 마무리가 급하다.",
+        "image_material": "원본 프레임의 어두운 광택/호박색 투과, 렌즈의 밝은 가장자리/흐린 반사, 금속의 작은 긁힘/강한 반사가 구분된다. 드라이버와 나사 접점이 읽히고 그림자/초점 흐름도 일관돼 재질이 같은 광택으로 뭉개지지 않는다.",
+        "emotion_control": "정밀 수리 사진과 검정 안내, 붉은 신청 한 줄이 실용적인 신뢰감을 만든다. 배지/효과 축적은 없고, 하단 밀도는 친근한 여유보다 안내의 밀도를 느끼게 한다.",
+        "ai_slop": "구체적 경첩 수리 사진과 제한/비용/동의 문구가 내용에 필요한 관계를 만든다. 눈에 띄는 합성 외곽·가짜 장식 정보는 없다. 큰 사진/흰 안내판의 익숙한 구조와 좁은 마지막 행 공간은 남는 관습이다."
+      },
+      "residuals": [
+        "720 문의의 아래 여백 약12px, 촬영·참가비·신청이 가까움 → 하단 호흡 부족 → 사진 높이 또는 위쪽 공간 일부를 마지막 네 행/아래 여백에 배분한다."
+      ]
+    },
+    {
+      "profile": "craft",
+      "image_id": "V517",
+      "role": "H02",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "조밀한 제본 선화의 일부 작은 구멍/끈 접점을 확정하기 어려움. 의도적 거침과 오류를 구분할 제작 자료는 보지 않음."
+        ],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "image_id": "V517",
+          "event_date": "2026년 12월 5일 토요일",
+          "application_deadline": "12월 2일까지 신청",
+          "full_application_url": "haram-mend.example/join",
+          "location": "하람시 잇는집 2층 · 수선길 12",
+          "uncertainty": "없음. 사용 크기에서 네 항목을 직접 읽음.",
+          "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/images/V517-usage720.png"
+        },
+        "conditions_checked": [
+          "정사각1:1 정확히 일치",
+          "필수14문구 모두720에서 판독",
+          "기한/전체 URL/날짜/장소를 제공 문구 전에 실제로 읽었음",
+          "기한/주소는 상단 주황 두 행으로 쉽게 찾음",
+          "누락·추가·의미 변경 보이지 않음"
+        ],
+        "dimensions": {
+          "width": 1254,
+          "height": 1254,
+          "target_ratio": "1:1",
+          "relative_ratio_deviation_percent": 0,
+          "within_one_percent": true
+        },
+        "usage720_all_required_copy_legible": true
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 5,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 5,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "왼쪽 책 제본을 주황 끈으로 잇고 같은 주황을 신청/URL에 쓴다. 제목은 펼친 책의 빈 공간에 들어가 수리 행위·글자 자리·신청 색이 구체적으로 연결된다.",
+        "hierarchy": "320에서 상단 기한/전체 URL이 먼저 보이고 왼쪽 행사/책과 오른쪽 일정/조건이 이어진다. 720도 신청→행사 정체→일정/장소/조건으로 이동할 수 있어 행동 안내가 명료하다.",
+        "typography": "주황 한글/라틴 URL, 검정 제목과 오른쪽 본문이 안정적이며 받침 누락이 없다. 제목/소제목 두 줄은 책 펼침의 빈자리 안에 정렬된다. 오른쪽 조건은 날짜/참가비 외 비슷한 무게로 우선순위 차이는 작다.",
+        "space": "상단 신청 두 줄 아래에 왼쪽 책/제목과 오른쪽 조건이 나뉜다. 책은 왼쪽/아래에서 잘려 큰 무게를 만들고 끈은 아래로 흐른다. 시간/촬영 행 끝은720 오른쪽 경계 약15–20px에 접근해 다른 행보다 끝 여백이 좁다.",
+        "image_material": "원본에서 파란 천 표지의 교차선, 종이의 얇은 평행선, 주황 끈의 밝은 반사가 구분된다. 선화 체계는 일관되나 중앙 제본의 페이지/구멍/끈 선은 조밀해 일부 작은 경계는 따라가기 어렵다. 거친 선화와 구조 오류를 확정적으로 구분하지 않는다.",
+        "emotion_control": "파랑 표지와 주황 수선 끈/신청이 활기와 참여 의도를 집중시킨다. 색은 수선 장면/행동 안내에 역할을 가지고 흰 공간이 강한 그림/문자를 제어한다.",
+        "ai_slop": "책을 잇는 끈/CTA 색, 책의 빈자리/제목이 내용에 맞게 연결된다. 합성 글자 오류·장식 정보가 없으나 중앙 제본의 조밀한 선으로 작은 접점이 판별하기 어려운 잔여 불확실성은 보존한다."
+      },
+      "residuals": [
+        "720 시간/촬영 행 오른쪽 끝 여백이 다른 행보다 좁음 → 경계 마감이 급함 → 긴 행을 어절 단위로 재배치하거나 문자 폭/크기를 조금 조정해 끝 여백을 맞춘다.",
+        "원본 중앙 제본 선이 조밀해 작은 구멍/끈 접점 일부가 모호함 → 연결 구조 확정 어려움 → 선화 거침을 유지하면서 접점 외곽을 명확히 나눈다. 합성 오류라고 단정하지 않는다."
+      ]
+    },
+    {
+      "profile": "portfolio",
+      "image_id": "V152",
+      "role": "P01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Actual 350 mL capacity and folding mechanics cannot be verified from this image."
+        ],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "brand": "FOLN",
+          "product": "Fold Cup",
+          "release": "2026.12.01 RELEASE",
+          "preorder": "온라인 사전 주문 11.10–11.30",
+          "url": "foln.example/store",
+          "legible_at_usage720": true
+        },
+        "checks": [
+          {
+            "condition": "Aspect ratio within 1 percent",
+            "pass": true,
+            "observed": "1122 × 1402; target 4:5; relative error 0.03566333808844302%."
+          },
+          {
+            "condition": "Two product posters in the set",
+            "pass": true,
+            "observed": "V152 and V443; exactly two."
+          },
+          {
+            "condition": "Photograph-like product image",
+            "pass": true,
+            "observed": "A cup and translucent lid appear with plausible perspective, diffuse lighting and contact shadow."
+          },
+          {
+            "condition": "Handleless dark-green silicone cup, translucent white lid",
+            "pass": true,
+            "observed": "No handle; dark green ringed body with matte-to-satin surface; milky white lid visibly transmits diffuse light."
+          },
+          {
+            "condition": "No real brand/logo or text on the product surface",
+            "pass": true,
+            "observed": "Only supplied FOLN brand wording appears in the poster; no letters or logos are visible on the cup or lid."
+          },
+          {
+            "condition": "350 mL claim",
+            "pass": true,
+            "observed": "The exact required capacity text is visible. Actual capacity is outside pixel measurement."
+          },
+          {
+            "condition": "All exact supplied copy; no additional wording",
+            "pass": true,
+            "observed": "Seven items manually transcribed; no added words or fake labels seen."
+          },
+          {
+            "condition": "All required copy legible at usage720",
+            "pass": true,
+            "observed": "Brand, product name, slogan, specification, release date, preorder dates and store URL are readable."
+          }
+        ]
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "상단 오른쪽 펼친 컵과 중단 왼쪽 접힌 컵을 함께 보여 '접고, 다시 펼치다'를 직접 설명한다. 같은 제품의 두 상태가 카피를 지지하지만 글자와 접힘의 형태 관계는 사진 설명 이상의 단계까지 발전하지 않는다.",
+        "hierarchy": "320 썸네일에서 좌상단 Fold Cup과 두 상태 사진이 먼저 보이고, 720에서는 하단 슬로건→용량→출시/주문/URL 순서가 안정적으로 이어진다. 출시와 주문은 큰 녹색 글자지만 제품명보다 아래 단계다.",
+        "typography": "좌상단 FOLN/Fold Cup의 크기 차이, 하단 슬로건의 굵기와 보조 정보의 규칙적인 좌측 시작선이 읽는 묶음을 만든다. 영문과 한글 모두 획과 간격이 안정적이며 조형은 주로 크기·굵기·좌정렬에 의존한다.",
+        "space": "상단 제목과 펼친 컵, 중단 접힌 컵이 대각으로 균형을 잡는다. 하단 정보는 같은 왼쪽 마진과 그룹 간 여백을 유지한다. 오른쪽 하단의 넓은 빈 면은 호흡을 주지만 정보와의 관계는 비교적 수동적이다.",
+        "image_material": "원본에서 우상단 컵의 내부 타원·겹 링, 좌중단 흰 뚜껑의 확산 반투명, 두 제품 아래 접지 그림자가 대체로 같은 조명에 속한다. 실리콘과 뚜껑의 광택 차이가 유지되며 가장자리에 뚜렷한 녹음이나 후광은 보이지 않는다.",
+        "emotion_control": "녹색 제품/글자와 밝은 회색 표면만으로 휴대용 생활제품의 차분하고 실용적인 인상을 만든다. 장식이나 거짓 표식 없이 사진과 필요한 카피가 역할을 나눈다.",
+        "ai_slop": "왼쪽 접힌 상태와 오른쪽 펼친 상태는 이 제품과 카피에 특정된 선택이며 가짜 기술 표식·미세문자·무관한 광택 효과는 없다. 다만 전체 편집은 제품 사진 위/정보 아래의 익숙한 설명식 구성이어서 내용 특화의 정밀도는 잘 기능하는 수준이다."
+      },
+      "residuals": [
+        "하단 오른쪽 빈 면과 접힘 주제 사이의 관계가 약하다 → 설명형 구성이 강하게 남는다 → 두 상태 사이의 간격/카피 위치를 더 직접 연결할 수 있다. 필수 수정이나 누락은 아니다."
+      ]
+    },
+    {
+      "profile": "portfolio",
+      "image_id": "V732",
+      "role": "T01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "틈으로 들어오는 빛",
+            "observed": "틈으로 들어오는 빛",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "text": "틈으로 들어오는 빛",
+          "layout": "틈으로   들어오는 / 빛",
+          "legible_at_usage720": true
+        },
+        "checks": [
+          {
+            "condition": "Aspect ratio within 1 percent",
+            "pass": true,
+            "observed": "1024 × 1536; target 2:3; relative error 0%."
+          },
+          {
+            "condition": "One poster, exactly required wording",
+            "pass": true,
+            "observed": "One type-only-control member; only '틈으로 들어오는 빛'."
+          },
+          {
+            "condition": "Only lettering and whitespace; no separate image, decoration, symbol or extra copy",
+            "pass": true,
+            "observed": "Black Korean type on a light blank field; no separate marks or imagery seen."
+          },
+          {
+            "condition": "All required copy legible at usage720",
+            "pass": true,
+            "observed": "The whole phrase is readable; wide word spacing and second-line 빛 do not alter the wording."
+          }
+        ]
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "중앙 첫 줄의 '틈으로'와 '들어오는' 사이를 실제 여백으로 벌리고 '빛'을 그 아래 따로 놓아 말의 틈을 공간으로 다룬다. 발상은 내용에 연결되지만 빛의 위치와 위 틈의 축이 완전히 일치하지 않아 관계가 다소 넓게 읽힌다.",
+        "hierarchy": "320에서도 한 묶음의 두 줄 문구를 즉시 읽을 수 있다. 윗줄 두 어절에서 아랫줄 '빛'으로 내려가는 순서는 명확하고 다른 경쟁 정보가 없다.",
+        "typography": "원본 중앙의 검은 한글은 각 글자를 뭉개지 않고 읽히며 넓은 어절 간격과 빛의 독립 행이 의도적인 구분을 만든다. 틈의 폭에 비해 빛 글자의 폭이 커서 세부 축 관계는 좀 더 조정할 여지가 있다.",
+        "space": "1024×1536 원본에서 글자 묶음 위아래에 거의 균형 잡힌 큰 여백을 남긴다. 첫 줄 좌우 끝과 화면 경계 간 여백은 좁지만 닿지 않으며, 중앙의 어절 틈이 주요 공간 사건이다.",
+        "image_material": "별도 이미지가 없는 결과에서도 원본 글자 경계와 검은 면의 일관성을 확인했다. 질감이나 그림자 효과가 표현을 방해하지 않으며 흰 면과 검은 획의 대비가 720과 320에서도 유지된다.",
+        "emotion_control": "검정·빈 면·두 줄 배치만으로 조용한 어조를 만든다. 절제가 문구를 유지하지만 빛 자체의 방향감은 주로 독자의 의미 해석에 맡겨진다.",
+        "ai_slop": "가짜 문구·기호·장식·물성 혼합이 없고 어절을 벌리는 방식이 '틈'에 구체적으로 연결된다. 편집 의도는 납득되나 틈과 빛의 미세한 위치 관계가 더 정교해질 수 있어 최고 완성도로 단정하지 않는다."
+      },
+      "residuals": [
+        "윗줄 어절 사이 틈의 중심보다 아래 '빛'이 약간 오른쪽에 놓이고 틈보다 넓다 → 틈으로 빛이 들어오는 관계가 느슨하게 읽힌다 → 빛의 중심/크기와 틈 폭을 함께 조정해 의미를 더 정확히 연결할 수 있다."
+      ]
+    },
+    {
+      "profile": "portfolio",
+      "image_id": "V443",
+      "role": "P02",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Actual 350 mL capacity and folding mechanics cannot be verified from this image; the pocket partly occludes the lower body."
+        ],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "brand": "FOLN",
+          "product": "Fold Cup",
+          "release": "2026.12.01 RELEASE",
+          "preorder": "온라인 사전 주문 11.10–11.30",
+          "url": "foln.example/store",
+          "legible_at_usage720": true
+        },
+        "checks": [
+          {
+            "condition": "Aspect ratio within 1 percent",
+            "pass": true,
+            "observed": "1122 × 1402; target 4:5; relative error 0.03566333808844302%."
+          },
+          {
+            "condition": "Two product posters in the set",
+            "pass": true,
+            "observed": "V152 and V443; exactly two."
+          },
+          {
+            "condition": "Photograph-like product image",
+            "pass": true,
+            "observed": "A cup and translucent lid appear with plausible perspective, diffuse lighting and contact shadow."
+          },
+          {
+            "condition": "Handleless dark-green silicone cup, translucent white lid",
+            "pass": true,
+            "observed": "No handle; dark green ringed body with matte-to-satin surface; milky white lid visibly transmits diffuse light."
+          },
+          {
+            "condition": "No real brand/logo or text on the product surface",
+            "pass": true,
+            "observed": "Only supplied FOLN brand wording appears in the poster; no letters or logos are visible on the cup or lid."
+          },
+          {
+            "condition": "350 mL claim",
+            "pass": true,
+            "observed": "The exact required capacity text is visible. Actual capacity is outside pixel measurement."
+          },
+          {
+            "condition": "All exact supplied copy; no additional wording",
+            "pass": true,
+            "observed": "Seven items manually transcribed; no added words or fake labels seen."
+          },
+          {
+            "condition": "All required copy legible at usage720",
+            "pass": true,
+            "observed": "Brand, product name, slogan, specification, release date, preorder dates and store URL are readable."
+          }
+        ]
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 5,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "중앙 오른쪽의 낮아진 컵을 옷 주머니 안에 넣고, 주머니의 사선에 Fold Cup/용량을 맞춘다. 휴대와 접힘을 같은 장면에서 보여 주어 '가볍게 접고'라는 발상이 사진·크롭·제목 배치까지 연결된다.",
+        "hierarchy": "320에서 좌상단 두 줄 슬로건, 중앙 컵, 하단 사선 Fold Cup이 차례로 읽힌다. 720에서는 좌중단 출시/주문/URL도 모두 읽히지만 마지막 제품명과 첫 슬로건 모두 커서 중심은 두 곳에 나뉜다.",
+        "typography": "윗쪽 한글 슬로건은 굵고 큰 두 줄로 안정적이며, FOLN은 우상단의 작은 표식이다. 하단 제품명과 용량의 기울기는 주머니 솔기와 비슷한 방향으로 공간에 결합한다. 상단과 하단 큰 글자의 경쟁 때문에 정보의 강약은 한 단계 더 조절 가능하다.",
+        "space": "전면 천 사진의 큰 주름과 대각 주머니가 화면을 가로지르고, 컵의 크롭은 주머니 사용을 즉시 설명한다. 평평한 좌상단 천에 슬로건/메타데이터를 놓고 사선 전면에 제품명을 놓아 두 면의 역할을 분명히 나눈다.",
+        "image_material": "원본 우측 뚜껑 가장자리의 확산된 흰 하이라이트, 짙은 녹색 실리콘의 낮은 광택, 주변 천의 직조와 솔기가 서로 구분된다. 주머니 안쪽 그림자는 컵과 천을 연결한다. 하단 몸체는 가려져 링 구조 전체를 원본에서도 확인하기 어렵다.",
+        "emotion_control": "크게 잡은 한글과 주머니 사용 장면이 가볍고 실용적인 느낌을 지지한다. 제한된 녹색/회색과 조명만으로 전개하고 불필요한 출시 장식은 없다.",
+        "ai_slop": "제품명과 용량을 주머니의 실제 대각 공간에 배치하고 컵을 해당 공간에 담은 선택은 이 제품의 휴대성에 특정된다. 눈에 띄는 가짜 표식·깨진 글자·광택 혼합은 없다. 컵 하부가 가려져 접힘의 명확성은 V152보다 사진 자체만으로 덜 확정적이다."
+      },
+      "residuals": [
+        "컵 하단이 주머니에 가려짐 → 휴대성은 즉시 전달되지만 접힌 상태의 구조는 덜 보인다 → 포켓 입구나 컵 노출량을 소폭 조정하면 기능 읽기를 보강할 수 있다.",
+        "상단 슬로건과 하단 Fold Cup이 모두 큰 초점 → 작은 썸네일에서 주의가 두 곳에 갈린다 → 제품명/슬로건의 상대 크기를 한 단계 벌리면 읽는 우선순위가 더 선명해진다."
+      ]
+    },
+    {
+      "profile": "portfolio",
+      "image_id": "V138",
+      "role": "H01",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "event_date": "2026년 12월 5일 토요일",
+          "event_time": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+          "application_deadline": "12월 2일까지",
+          "full_application_url": "haram-mend.example/join",
+          "location": "하람시 잇는집 2층 · 수선길 12",
+          "initial_action_reading_matches": true,
+          "legible_at_usage720": true,
+          "action_position": "Bottom red line; deadline and URL together."
+        },
+        "checks": [
+          {
+            "condition": "Aspect ratio within 1 percent",
+            "pass": true,
+            "observed": "1086 × 1448; target 3:4; relative error 0%."
+          },
+          {
+            "condition": "Two posters: one portrait 3:4 and one square 1:1",
+            "pass": true,
+            "observed": "V138 portrait 3:4; V517 square 1:1; exactly two invitation members."
+          },
+          {
+            "condition": "All exact required copy; no additional wording",
+            "pass": true,
+            "observed": "Fourteen items per image manually transcribed, including restrictions, non-guarantee, consent, price and contact."
+          },
+          {
+            "condition": "Application deadline and full application address easy to find",
+            "pass": true,
+            "observed": "The initial blind usage720 action readings found both fields without access to the supplied copy."
+          },
+          {
+            "condition": "All required copy legible at usage720",
+            "pass": true,
+            "observed": "Every supplied item readable in the actual720 view."
+          }
+        ]
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "상단 큰 안경 경첩에 드라이버 끝이 닿는 장면은 작은 생활용품 수리라는 모집 내용에 정확히 맞는다. 왼쪽 렌즈/오른쪽 다리/상단 도구의 큰 방향이 제목 배경을 만들지만 전체 사진 위·정보 아래 구조는 비교적 직설적이다.",
+        "hierarchy": "320에서 상단 행사명, 경첩 장면, 아래 날짜와 붉은 신청행이 구분된다. 720에서는 날짜 아래 시간/장소/대상→준비물/제한/안내→비용/신청/문의 순으로 읽힌다. 맹독에서 날짜·마감·URL·장소 모두 바로 판독했다.",
+        "typography": "원본 상단 두 제목의 굵기/크기 차이와 하단 날짜의 강조가 합리적이다. 본문에서 준비물과 참가비를 굵게 하고 긴 안내는 보통 굵기로 풀어 묶음을 만든다. URL 포함 신청행도 끊어지지 않아 읽기가 안정적이다.",
+        "space": "상단 사진은 화면 절반 정도를 차지하고, 하단은 같은 왼쪽 마진에 정렬된 정보 면이다. 각 안내 묶음 사이 여백이 있어 720에서는 밀집해도 문장이 충돌하지 않는다. 사진의 큰 몫 때문에 320에서는 세부 안내가 작게 압축된다.",
+        "image_material": "원본 중앙 경첩의 금속과 나사의 밝은 면, 안경 프레임의 검은 반사, 렌즈의 투명도와 굴절이 각각 구분된다. 드라이버 끝/경첩 접점과 바닥 그림자가 대체로 자연스러운 사진 체계를 유지한다.",
+        "emotion_control": "작은 수리를 실제로 하는 장면과 단정한 검정 본문이 실용적인 이웃 작업실 인상을 만든다. 붉은색은 맨 아래 신청행에만 집중해 참여 행동에 역할을 부여한다.",
+        "ai_slop": "이미지의 도구와 경첩은 주제에 맞고, fake 로고·미세문자·무관한 장식이 없다. 금속/프레임/렌즈의 표면을 같은 광택으로 뭉개지 않는다. 내용 특정 사진은 설득력 있지만 전체 편집의 역할은 전통적인 행사 안내 블록에 머무는 부분이 있다."
+      },
+      "residuals": [
+        "사진이 위 절반을 차지하고 긴 안내를 아래에 모음 → 720은 충분히 읽히지만 320에서는 안내 세부가 작아진다 → 사진 높이를 조금 줄이거나 안내 그룹 간 비례를 조절하면 더 작은 노출에도 도움된다. 현재 필수 720 판독은 통과한다."
+      ]
+    },
+    {
+      "profile": "portfolio",
+      "image_id": "V517",
+      "role": "H02",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "원본 책등 안쪽의 촘촘한 선은 수선/제본 표현으로 읽히지만 개별 실과 종이 경계가 모두 분명하게 나뉘지는 않는다. 필수 내용 판독에는 영향이 없다."
+        ],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "event_date": "2026년 12월 5일 토요일",
+          "event_time": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+          "application_deadline": "12월 2일까지",
+          "full_application_url": "haram-mend.example/join",
+          "location": "하람시 잇는집 2층 · 수선길 12",
+          "initial_action_reading_matches": true,
+          "legible_at_usage720": true,
+          "action_position": "Top orange two lines: deadline then entire URL."
+        },
+        "checks": [
+          {
+            "condition": "Aspect ratio within 1 percent",
+            "pass": true,
+            "observed": "1254 × 1254; target 1:1; relative error 0%."
+          },
+          {
+            "condition": "Two posters: one portrait 3:4 and one square 1:1",
+            "pass": true,
+            "observed": "V138 portrait 3:4; V517 square 1:1; exactly two invitation members."
+          },
+          {
+            "condition": "All exact required copy; no additional wording",
+            "pass": true,
+            "observed": "Fourteen items per image manually transcribed, including restrictions, non-guarantee, consent, price and contact."
+          },
+          {
+            "condition": "Application deadline and full application address easy to find",
+            "pass": true,
+            "observed": "The initial blind usage720 action readings found both fields without access to the supplied copy."
+          },
+          {
+            "condition": "All required copy legible at usage720",
+            "pass": true,
+            "observed": "Every supplied item readable in the actual720 view."
+          }
+        ]
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 5,
+        "typography": 4,
+        "space": 5,
+        "image_material": 4,
+        "emotion_control": 5,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "왼쪽 펼친 파란 책의 책등을 주황 끈으로 이어 수리를 보여 준다. 끈의 주황색을 맨 위 신청행에 반복하고, 책이 만든 흰 틈 안에 행사명을 넣어 수선 이미지·카피·참여 행동이 한 생각으로 연결된다.",
+        "hierarchy": "320에서 마감과 haram-mend.example/join이 가장 먼저 보이고, 왼쪽 행사명과 오른쪽 날짜로 이어진다. 720에서는 오른쪽 안내 문단/비용/문의까지 순서대로 판독된다. 맹독에서 행사일과 마감을 혼동하지 않고 각각 읽었다.",
+        "typography": "좌측 행사명은 두 큰 줄, 모집 문구는 두 작은 줄로 묶고, 우측 날짜는 본문보다 크게 만든다. 신청 주소는 온전히 한 줄에 있어 작은 크기에서도 직접 읽힌다. 우측 본문은 전반적으로 굵은 무게여서 날짜 이후의 미세한 강약은 다소 제한된다.",
+        "space": "상단 두 줄 신청과 아래 좌측 그림/제목·우측 안내의 두 열이 정사각형 안에서 선명하게 나뉜다. 책은 좌측으로 크롭되고 끈은 아래 경계로 나가며, 우측 열과 그림 사이 통로가 유지되어 긴 문장을 눌러 담은 느낌이 약하다.",
+        "image_material": "원본 왼쪽 파란 표지의 직조선, 흰 종이의 부채꼴 페이지선, 주황 끈의 밝은 반사가 구분되고 일러스트 체계는 일관된다. 중앙 하부 책등의 겹치는 작은 선이 촘촘해 실/종이의 개별 경계는 일부 모호하다.",
+        "emotion_control": "파란 책과 주황 수선 끈의 선명한 대비가 수리의 적극성과 친근함을 만든다. 같은 주황을 신청에 사용하고 검정은 정보에 한정해 색마다 명확한 역할을 준다. 큰 행동 안내의 과감함도 실제 모집 목적에 맞는다.",
+        "ai_slop": "끈을 책등 수선에 쓰고 신청색과 연결하며 제목을 책의 흰 공간에 배치한 편집은 이 내용에 특화된다. 가짜 표식이나 깨진 한글은 없다. 다만 원본 책등 오른쪽 작은 반복/겹침 선의 구분이 덜 명확해 마감의 국소 잔여 문제를 기록한다."
+      },
+      "residuals": [
+        "원본 중앙 하부 책등의 바느질·종이 경계에 작은 선이 중첩됨 → 끈이 어디로 통과하는지 국소적으로 명료하지 않다 → 책등 내부의 겹치는 윤곽 몇 개를 정리하고 실/종이 경계 두께를 구분하면 마감이 더 정확해진다.",
+        "우측 대부분의 본문이 굵은 무게 → 날짜 이후 정보의 세부 우선순위가 간격에 많이 의존한다 → 준비물/비용 강조와 일반 안내의 굵기를 더 구분할 수 있다. 현재 판독을 방해하는 결함은 아니다."
+      ]
+    }
+  ],
+  "all_scores_below4": [
+    {
+      "profile": "craft",
+      "image_id": "V138",
+      "role": "H01",
+      "dimension": "space",
+      "score": 3,
+      "core": false,
+      "evidence": "제목과 드라이버 대각선은 겹치지 않고 사진/정보 경계가 명확하다. 720 하단의 촬영→참가비→신청→문의가 가까워지고 문의 아래 여백은 약12px로 좁다. 많은 정보가 하단에 몰려 공간 마무리가 급하다."
+    }
+  ],
+  "all_set_records": [
+    {
+      "members": [
+        "V152",
+        "V443"
+      ],
+      "diversity": 5,
+      "closest_pair": {
+        "members": [
+          "V152",
+          "V443"
+        ],
+        "score": 5,
+        "evidence": "V152 stages expanded and flat states on a pale tabletop with upright name-first typography; V443 uses a fabric pocket close-up, slogan-first hierarchy and angled lettering tied to the pocket. Their concrete concepts, crops, text roles and space are substantially distinct, beyond a color change."
+      },
+      "evidence": "Both meet the 4:5 product-photo constraints but divide the communication into transformation demonstration versus portability in use. Required green/white product colors and shared bold sans do not erase the structural difference.",
+      "residuals": [
+        "Both use strong dark-green sans typography, so a family resemblance remains. It does not reduce the distinct photographic or editorial directions."
+      ],
+      "checks": {
+        "count": 2,
+        "expected_count": 2,
+        "count_matches": true,
+        "both_4_to_5_portrait": true
+      },
+      "profile": "editorial",
+      "case_id": "product",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "normalized_closest_pair_members": [
+        "V152",
+        "V443"
+      ],
+      "normalized_closest_pair_score": 5
+    },
+    {
+      "members": [
+        "V138",
+        "V517"
+      ],
+      "diversity": 5,
+      "closest_pair": {
+        "members": [
+          "V138",
+          "V517"
+        ],
+        "score": 5,
+        "evidence": "V138 is title-first with a large photographic glasses repair and a red application footer; V517 is action-first with a blue/orange book-repair illustration and a right-column information layout. Their scene, material language, title geometry and action placement are clearly distinct."
+      },
+      "evidence": "The requested portrait/square formats have been used to support different reading structures, not only different crops. One makes a realistic object detail the bridge to a lower panel, while the other makes orange repair thread the color bridge to the top application block. Both retain readable complete participant instructions.",
+      "residuals": [
+        "Bold black sans and a warm action accent are shared, but each accent and crop has a concrete role. V138 has the tighter bottom contact margin; V517 has the tighter right-hand time row."
+      ],
+      "checks": {
+        "count": 2,
+        "expected_count": 2,
+        "count_matches": true,
+        "one_3_to_4_portrait": true,
+        "one_1_to_1_square": true
+      },
+      "profile": "editorial",
+      "case_id": "invitation",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "normalized_closest_pair_members": [
+        "V138",
+        "V517"
+      ],
+      "normalized_closest_pair_score": 5
+    },
+    {
+      "members": [
+        "V732"
+      ],
+      "diversity": null,
+      "closest_pair": [],
+      "closest_pair_score": null,
+      "evidence": "Exactly one 2:3 letter-and-whitespace poster was requested and supplied. The singleton exception was read in review-protocol.md before scoring, so no pair or diversity score is inferred. All seven image anchors remain scored.",
+      "residuals": [],
+      "checks": {
+        "count": 1,
+        "expected_count": 1,
+        "count_matches": true
+      },
+      "profile": "editorial",
+      "case_id": "type-only-control",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/editorial.json",
+      "raw_sha256": "0fb7a343f28a22617109537e186a3e2b368916591a7515fcd7db52eb258687d3",
+      "normalized_closest_pair_members": [],
+      "normalized_closest_pair_score": null,
+      "singleton_predeclaration": {
+        "role": "T01",
+        "source_plan": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+          "sha256": "96160b13510366e678e1f7d2769374e22366e07baa9d3ebf1785bbd492f2a3a8"
+        },
+        "source_cases": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/cases.json",
+          "sha256": "af995f8bd218ef2e49b3933a0403db2d50ccaab996cea38b7cbc489751c8a8bb"
+        },
+        "rule": "A one-image user request has no diversity or closest pair score. All image core/mandatory gates still apply.",
+        "scope": "No diversity/pair observation applies; all seven image scores and every critic's mandatory/core gates remain required."
+      }
+    },
+    {
+      "members": [
+        "V152",
+        "V443"
+      ],
+      "diversity": 4,
+      "closest_pair": {
+        "members": [
+          "V152",
+          "V443"
+        ],
+        "score": 4,
+        "evidence": "유일한 두 장의 쌍. V152는 테이블 위 펼침/접힘 비교 사진과 곧은 좌측 정보, V443은 주머니 속 한 상태·큰 한글·사선 이름으로 나뉜다. 기능 설명과 공간이 다르나 같은 녹색 고딕/회색 사진 체계가 남는다. Pair score uses the same1–5 separation/diversity anchors."
+      },
+      "evidence": "두 안은 기능 비교와 휴대 맥락으로 설명 방식이 갈리고 모두 필수 정보가 읽힌다. 폰트 계열과 회색/녹색 범위의 공통 습관은 남아 최고 안만으로 집합을 평가하지 않았다.",
+      "residuals": [
+        "같은 녹색 고딕/회색 사진이 두 안의 타이포 역할과 색 범위를 제한하지만 단순 필터/색 변경 반복은 아니다."
+      ],
+      "expected_count": 2,
+      "actual_count": 2,
+      "count_pass": true,
+      "profile": "craft",
+      "case_id": "product",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "normalized_closest_pair_members": [
+        "V152",
+        "V443"
+      ],
+      "normalized_closest_pair_score": 4
+    },
+    {
+      "members": [
+        "V138",
+        "V517"
+      ],
+      "diversity": 5,
+      "closest_pair": {
+        "members": [
+          "V138",
+          "V517"
+        ],
+        "score": 5,
+        "evidence": "유일한 두 장의 쌍. V138은 경첩 수리 확대 사진·상하 배치·하단 붉은 신청, V517은 제본 선화·좌우 배치·상단 주황 신청이다. 그림/타이포 역할/읽는 순서/공간이 동시에 나뉜다. Pair score uses the same1–5 separation/diversity anchors."
+      },
+      "evidence": "공통 내용과 정확한 안내 안에서 세로 사진의 정밀함과 정사각 선화의 활기가 각기 설득력 있게 나뉜다. V138 하단 공간과 V517 오른쪽 여백/접점 불확실성은 별도로 보존한다.",
+      "residuals": [
+        "V138의 하단 공간, V517의 끝 여백/제본 접점은 각 안의 보완점이며 다양성 점수로 상쇄하지 않는다."
+      ],
+      "expected_count": 2,
+      "actual_count": 2,
+      "count_pass": true,
+      "profile": "craft",
+      "case_id": "invitation",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "normalized_closest_pair_members": [
+        "V138",
+        "V517"
+      ],
+      "normalized_closest_pair_score": 5
+    },
+    {
+      "members": [
+        "V732"
+      ],
+      "diversity": null,
+      "closest_pair": [],
+      "closest_pair_score": null,
+      "evidence": "리뷰 전에 선언된 단일 항목 예외를 적용했다. 필수 조건과 일곱 이미지 앵커는 그대로 평가했다.",
+      "residuals": [
+        "단일 출력이라 출력 간 다양성과 최근접 쌍은 측정하지 않는다."
+      ],
+      "expected_count": 1,
+      "actual_count": 1,
+      "count_pass": true,
+      "profile": "craft",
+      "case_id": "type-only-control",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/craft.json",
+      "raw_sha256": "a812c315c78f16d490ec5a1b6ded48587747633cefd9cc944f7fe8b000e163a0",
+      "normalized_closest_pair_members": [],
+      "normalized_closest_pair_score": null,
+      "singleton_predeclaration": {
+        "role": "T01",
+        "source_plan": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+          "sha256": "96160b13510366e678e1f7d2769374e22366e07baa9d3ebf1785bbd492f2a3a8"
+        },
+        "source_cases": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/cases.json",
+          "sha256": "af995f8bd218ef2e49b3933a0403db2d50ccaab996cea38b7cbc489751c8a8bb"
+        },
+        "rule": "A one-image user request has no diversity or closest pair score. All image core/mandatory gates still apply.",
+        "scope": "No diversity/pair observation applies; all seven image scores and every critic's mandatory/core gates remain required."
+      }
+    },
+    {
+      "members": [
+        "V152",
+        "V443"
+      ],
+      "diversity": 4,
+      "closest_pair": {
+        "members": [
+          "V152",
+          "V443"
+        ],
+        "score": 4,
+        "evidence": "두 장 모두 녹색 컵/밝은 회색 사진/굵은 녹색 글자를 쓰지만 V152는 펼침·접힘 두 상태의 탁상 시연과 수평 정보 묶음, V443은 주머니에 넣은 한 상태의 전면 크롭과 사선 제품명으로 구성한다. 제품을 설명하는 역할과 휴대 상황을 보여 주는 역할이 나뉜다. 다만 큰 굵은 글자+중립 사진+보조 메타데이터라는 어휘는 일부 공유한다."
+      },
+      "evidence": [
+        "V152: 이름이 좌상단, 두 상태가 상단/중단, 슬로건/스펙/출시/주문이 하단의 수평 좌정렬 묶음.",
+        "V443: 슬로건이 좌상단 중심, 제품명이 아래 주머니 면의 사선에 놓이고 컵은 주머니 안쪽에서 드러남.",
+        "사진 속 배경을 바꾸는 수준을 넘어 제목 역할, 상태 수, 사진 크롭, 글자 면의 방향이 바뀐다. V152의 설명식 블록은 비교적 보수적이어서 두 방향 모두 최고 수준의 구조적 분화라고 단정하지 않는다."
+      ],
+      "residuals": [
+        "동일한 녹색 강조와 굵은 산세리프/밝은 중립 사진 어휘가 두 장을 가깝게 만든다. 익숙한 폰트나 사진 자체를 결함으로 간주한 것은 아니며, 이 쌍에서 실제 공유되는 편집 역할을 근거로 4를 부여했다."
+      ],
+      "profile": "portfolio",
+      "case_id": "product",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "normalized_closest_pair_members": [
+        "V152",
+        "V443"
+      ],
+      "normalized_closest_pair_score": 4
+    },
+    {
+      "members": [
+        "V138",
+        "V517"
+      ],
+      "diversity": 5,
+      "closest_pair": {
+        "members": [
+          "V138",
+          "V517"
+        ],
+        "score": 5,
+        "evidence": "V138은 세로 상단 제목/거대한 경첩 수리 사진/하단 전체폭 안내/맨 아래 붉은 신청행이다. V517은 정사각 상단 신청행/왼쪽 책 수선 일러스트와 제목/오른쪽 행사·안내 열이다. 행동 안내의 위치와 순서, 이미지 기법, 제목이 점유하는 면, 본문 흐름이 각각 다르다."
+      },
+      "evidence": [
+        "V138의 상단 사진은 수리 행동을 순간적으로 보여 주고 하단의 붉은 행이 마지막 참여 안내를 받는다.",
+        "V517의 책과 끈은 수선 대상을 편집 공간으로 쓰며 신청색을 끈과 연결한다. 상단 행동이 먼저 읽히고 두 열에서 행사와 상세 조건을 찾는다.",
+        "각 방향은 같은 모집 문구를 유지하면서 개념·타이포 역할·공간·이미지 표현을 함께 바꿨다. 작은 크기 판독의 분포에서는 V138의 세부 본문이 더 압축되고 V517의 행동 주소가 더 강하다; 이를 개별 residual로 보존했다."
+      ],
+      "residuals": [
+        "둘 다 큰 굵은 제목을 쓰지만 실제 위치/행동 역할/본문 흐름은 다르다. 차이가 색이나 매체 교체에만 머무르지 않는다."
+      ],
+      "profile": "portfolio",
+      "case_id": "invitation",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "normalized_closest_pair_members": [
+        "V138",
+        "V517"
+      ],
+      "normalized_closest_pair_score": 5
+    },
+    {
+      "members": [
+        "V732"
+      ],
+      "diversity": null,
+      "closest_pair": [],
+      "closest_pair_score": null,
+      "evidence": [
+        "검수 전 선언된 단일 시안 예외를 적용했다. 한 장 내부의 공간/글자 평가는 이미지의 일곱 항목에 모두 남겼다."
+      ],
+      "residuals": [
+        "비교 가능한 두 번째 멤버가 없어 다양성이나 최근접 쌍 점수를 만들지 않았다."
+      ],
+      "profile": "portfolio",
+      "case_id": "type-only-control",
+      "raw_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction3/reviews/portfolio.json",
+      "raw_sha256": "0bc59a7aa03a935b440db522d76268e017495341f9f022242c8bd21369d352df",
+      "normalized_closest_pair_members": [],
+      "normalized_closest_pair_score": null,
+      "singleton_predeclaration": {
+        "role": "T01",
+        "source_plan": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+          "sha256": "96160b13510366e678e1f7d2769374e22366e07baa9d3ebf1785bbd492f2a3a8"
+        },
+        "source_cases": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/cases.json",
+          "sha256": "af995f8bd218ef2e49b3933a0403db2d50ccaab996cea38b7cbc489751c8a8bb"
+        },
+        "rule": "A one-image user request has no diversity or closest pair score. All image core/mandatory gates still apply.",
+        "scope": "No diversity/pair observation applies; all seven image scores and every critic's mandatory/core gates remain required."
+      }
+    }
+  ],
+  "all_set_score_observations_below4": [],
+  "disagreements": [
+    {
+      "image_id": "V152",
+      "role": "P01",
+      "dimension": "content_form",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V152",
+      "role": "P01",
+      "dimension": "image_material",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V152",
+      "role": "P01",
+      "dimension": "ai_slop",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V732",
+      "role": "T01",
+      "dimension": "content_form",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V732",
+      "role": "T01",
+      "dimension": "space",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V732",
+      "role": "T01",
+      "dimension": "image_material",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 5,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V732",
+      "role": "T01",
+      "dimension": "emotion_control",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V732",
+      "role": "T01",
+      "dimension": "ai_slop",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 5,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V443",
+      "role": "P02",
+      "dimension": "typography",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V443",
+      "role": "P02",
+      "dimension": "space",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 5
+      }
+    },
+    {
+      "image_id": "V443",
+      "role": "P02",
+      "dimension": "image_material",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V443",
+      "role": "P02",
+      "dimension": "emotion_control",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V443",
+      "role": "P02",
+      "dimension": "ai_slop",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V138",
+      "role": "H01",
+      "dimension": "hierarchy",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V138",
+      "role": "H01",
+      "dimension": "space",
+      "raw_scores": {
+        "editorial": 4,
+        "craft": 3,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V138",
+      "role": "H01",
+      "dimension": "image_material",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 5,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V138",
+      "role": "H01",
+      "dimension": "ai_slop",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V517",
+      "role": "H02",
+      "dimension": "space",
+      "raw_scores": {
+        "editorial": 4,
+        "craft": 4,
+        "portfolio": 5
+      }
+    },
+    {
+      "image_id": "V517",
+      "role": "H02",
+      "dimension": "image_material",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "image_id": "V517",
+      "role": "H02",
+      "dimension": "ai_slop",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    },
+    {
+      "case_id": "product",
+      "dimension": "diversity",
+      "raw_scores": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    }
+  ],
+  "other_recorded_disagreements": [
+    {
+      "case_id": "product",
+      "field": "closest_pair_score",
+      "raw_values": {
+        "editorial": 5,
+        "craft": 4,
+        "portfolio": 4
+      }
+    }
+  ],
+  "located_gate_failures": [],
+  "predeclared_singleton_cases": {
+    "type-only-control": {
+      "role": "T01",
+      "source_plan": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/phase-plan.json",
+        "sha256": "96160b13510366e678e1f7d2769374e22366e07baa9d3ebf1785bbd492f2a3a8"
+      },
+      "source_cases": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/planning/cases.json",
+        "sha256": "af995f8bd218ef2e49b3933a0403db2d50ccaab996cea38b7cbc489751c8a8bb"
+      },
+      "rule": "A one-image user request has no diversity or closest pair score. All image core/mandatory gates still apply.",
+      "scope": "No diversity/pair observation applies; all seven image scores and every critic's mandatory/core gates remain required."
+    }
+  }
+}

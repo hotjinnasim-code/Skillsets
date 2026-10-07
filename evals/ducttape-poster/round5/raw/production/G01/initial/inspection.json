@@ -1,0 +1,155 @@
+{
+  "role": "G01",
+  "stage": "initial",
+  "inspected_at_utc": "2026-10-07T18:35:13.884Z",
+  "source_scope": {
+    "allowed_sources_read": [
+      "planning/maker-common.txt",
+      "candidate-d-skill/SKILL.md",
+      "candidate-d-skill/agents/openai.yaml",
+      "candidate-d-skill/references/evaluation-loop.md",
+      "candidate-d-skill/references/art-direction.md",
+      "candidate-d-skill/references/visual-research.md",
+      "candidate-d-skill/references/parallel-production.md",
+      "planning/packets/G01.json",
+      "planning/manifest-schema-example.json"
+    ],
+    "reference_images_used": [],
+    "other_role_or_prior_round_sources_read": false,
+    "design_review_scope": "This single role only; no set diversity evaluation, no print validation and no external reference comparison."
+  },
+  "views": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G01/initial/original.png",
+      "width": 1024,
+      "height": 1536,
+      "actually_viewed": true,
+      "detail": "original",
+      "manually_transcribed_all_copy": "밤에 피는\n정원",
+      "observations": "Cream title occupies upper left. One large illuminated white blossom at middle-right, a smaller white blossom below-left, dark overlapping foliage and buds continue across right and bottom crop."
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G01/initial/qa-720-width.png",
+      "width": 720,
+      "height": 1080,
+      "actually_viewed": true,
+      "detail": "original",
+      "manually_transcribed_all_copy": "밤에 피는\n정원",
+      "observations": "Both title lines are readable without enlargement at this screen size. The large right flower and two-line title form the principal visual masses."
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/production/G01/initial/qa-320-longside.png",
+      "width": 213,
+      "height": 320,
+      "actually_viewed": true,
+      "detail": "original",
+      "manually_transcribed_all_copy": "밤에 피는\n정원",
+      "observations": "All six syllables recognized at the viewed thumbnail; bright main flower competes with large cream title for first attention, while the smaller flower remains distinct."
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "밤에 피는 정원",
+      "transcribed": "밤에 피는 정원",
+      "display_lines": [
+        "밤에 피는",
+        "정원"
+      ],
+      "equal": true,
+      "observed_count": 1,
+      "locations_native_px": [
+        {
+          "line": "밤에 피는",
+          "box": [
+            60,
+            130,
+            702,
+            307
+          ]
+        },
+        {
+          "line": "정원",
+          "box": [
+            65,
+            333,
+            417,
+            523
+          ]
+        }
+      ],
+      "notes": "Manually inspected in all three actual views. No missing or repeated syllable observed."
+    }
+  ],
+  "additional_copy_observed": [],
+  "glyphlike_unreadable_marks_observed": [],
+  "mandatory_conditions": [
+    {
+      "id": "G-ratio-default",
+      "requirement": "G01 portrait 2:3",
+      "evidence": "Actual native 1024 x 1536; 1024/1536 = 2/3.",
+      "location": "entire image"
+    },
+    {
+      "id": "G-title-only",
+      "requirement": "Only 밤에 피는 정원 once",
+      "evidence": "Manually transcribed upper-left two-line title in all three views. No other text-like printed marks seen.",
+      "location": "upper left, native x60–702 y130–523"
+    },
+    {
+      "id": "single-role-scope",
+      "requirement": "One independent flat poster",
+      "evidence": "One fresh imagegen call returned one full-bleed image; no panel, frame or mockup visible.",
+      "location": "entire image"
+    },
+    {
+      "id": "assigned-relationship",
+      "requirement": "Limited light, photographic observed garden, title and crop organize a continuous space",
+      "evidence": "Warm restricted light hits the right blossom and selected leaf edges, with a darker lower blossom and blurred background foliage. Title sits in upper-left darkness with plant mass running down right and into bottom crop. The strength of the title/crop relationship remains a design uncertainty.",
+      "location": "main blossom x490–990 y390–830; second blossom x140–500 y830–1230; title x60–702 y130–523"
+    }
+  ],
+  "retained_defects_uncertainties": [
+    {
+      "location_native_px": [
+        60,
+        130,
+        702,
+        523
+      ],
+      "observation": "The title remains concentrated in the dark upper-left cavity. Its relationship to the garden crop is primarily adjacency and shared negative space; no visibly specific title alignment controls a stem or petal boundary.",
+      "impact": "The requested continuous title/image space may read as conventional title-over-photograph placement; independent reviewer should assess this relationship.",
+      "correction_applied": false
+    },
+    {
+      "location_native_px": [
+        490,
+        390,
+        990,
+        830
+      ],
+      "observation": "The pale main flower has very sharp wrinkled petal detail and warm raking light, while much surrounding foliage is soft or glossy.",
+      "impact": "I can observe internally plausible depth but cannot establish botanical specimen accuracy or exclude synthesis artifacts from appearance alone.",
+      "correction_applied": false
+    },
+    {
+      "location_native_px": [
+        0,
+        520,
+        490,
+        850
+      ],
+      "observation": "A broad dark interval separates the title from the smaller lower blossom, with soft background foliage rather than a clear physical path.",
+      "impact": "The spatial connection may be weaker than the intended close observation concept at thumbnail scale.",
+      "correction_applied": false
+    }
+  ],
+  "execution_notes": [
+    {
+      "status": "recovered_environment_issue",
+      "detail": "First preservation/QA preparation command exited at importing PIL in system python3 before any copy; ModuleNotFoundError. Notified coordinator. Bundled Python successfully copied unchanged native bytes and generated only permitted reductions. Native generation was not retried."
+    }
+  ],
+  "native_call_count": 1,
+  "correction_count": 0,
+  "no_quality_self_score": true
+}

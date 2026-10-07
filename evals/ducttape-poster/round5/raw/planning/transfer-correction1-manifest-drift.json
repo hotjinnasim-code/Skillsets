@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-07T21:16:54.769593+00:00",
+  "status": "CLOSED_OLD_WAVE_MANIFEST_BINDING_FAIL_RETAINED",
+  "role": "H02",
+  "stage": "repair-1",
+  "old_selection_manifest_sha256": "86415d08e78d4c4807140a5b007c810f731f21b40fdc140c026fa7fea64ed1c3",
+  "current_manifest": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/H02/repair-1/manifest.json",
+  "current_manifest_sha256": "0f2e2e124ca4c211982bd9e02a6dfbd4d3214d18536bbcae22e5c4880a638cbf",
+  "old_mapping_sha256": "52e6e4c6426b2cd9563c768672454e71ef0ad1539372b08680eacf8c744a7c0b",
+  "native_sha256_unchanged": true,
+  "selection_native_fields_match_current_manifest": {
+    "role": true,
+    "stage": true,
+    "dimensions": true
+  },
+  "cause_scope": "Root froze physical selection while maker was still finishing its evidence, before final completion message. Exact earlier manifestbytes are not preserved in currentfiles; no invented fielddiff or reconstructed closedpin. Native/hash/copyviews unchanged, but prior exactmanifestbinding remainsinvalid.",
+  "resolution": "Do not rewrite oldselection/mapping/rawcritic/scores or bypassSHAgate. Freshwholewave afterALLmakerscompleted freezes currentactualmanifest+native and uses3freshcritics. No additional H02imagecall isauthorized."
+}

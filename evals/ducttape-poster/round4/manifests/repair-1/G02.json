@@ -1,0 +1,71 @@
+{
+  "role": "G02",
+  "stage": "repair-1",
+  "native_image_call_count": 1,
+  "repair_call_count": 0,
+  "call_input": {
+    "prompt": "Use case: precise-object-edit\nAsset type: one finished portrait 2:3 flat poster.\nInput image: the supplied G02 poster is the sole edit target.\n\nMake a strictly localized typography correction to this existing poster. Preserve its botanical image and all non-typographic design decisions as closely as possible: the continuous curved stem, each branching joint, the closed lower-left bud, the partly opened middle flower, the full upper-right flower, the leaves and veins, the upper/right petal crops, every plant scale and position, the deep midnight blue-green background, cream petal faces, jade-blue undersides, print texture, and the existing flat illustration language. Do not redraw, enlarge, move, or simplify the plant. Do not add visual effects or decorations.\n\nThe current three title words rise separately along the branch. Remove those three old word placements and restore only their background areas with the same quiet blue-green print surface. Replace them with ONE unambiguous complete horizontal title line in the clear lower portion below the branch: the exact three words in normal left-to-right order, all on one common baseline and all the same optical size, weight, and typographic height. Place this single line around the lower quarter, with its baseline approximately 84 percent down the canvas, centered optically in the open band to the right of the slender left-edge trunk. Leave a dark gap above and below it and clear separation from the plant. Use the existing strong warm bone-white plain Korean Gothic character treatment, solid crisp strokes, normal compact syllable spacing within each word, and two clearly visible ordinary word spaces. Keep the phrase large and cohesive enough to read at thumbnail size; use generous but ordinary word gaps, never widely staggered groups. The text line should occupy roughly four-fifths of the poster width, with comfortable side margins and without touching the stem. No diagonal baseline, vertical stacking, staggered words, or word-size hierarchy.\n\nText (verbatim, sole visible copy, exactly once): 밤에 피는 정원\nKeep the six Korean syllables intact, preserve the original two word spaces, and print no quotation marks or punctuation. No other copy, captions, numbers, stage names, Latin letters, metadata, logos, signature, watermark, new graphic marks, or added effects.\n\nThe blooming plant remains the independent main image; the complete title coherently names its unfolding growth. Change only title placement, optical size and spacing, plus the local background restoration required to erase its previous placements. Preserve everything else from the source.\n\n요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력. Keep the existing portrait 2:3 framing and return one flat poster only.",
+    "referenced_image_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/final.png"
+    ],
+    "transparent_background": false
+  },
+  "call_started_at_utc": "2026-10-07 16:05:42 UTC",
+  "call_finished_at_utc": "2026-10-07 16:06:36 UTC",
+  "tool_original_path": "/Users/nahyeonbin/.codex/generated_images/01a116f8-c694-7761-b5ee-8bb3fefa1ae1/exec-158d95ee-2671-4f34-b224-9f6f1e881191.png",
+  "source_path": "/Users/nahyeonbin/.codex/generated_images/01a116f8-c694-7761-b5ee-8bb3fefa1ae1/exec-158d95ee-2671-4f34-b224-9f6f1e881191.png",
+  "edit_target_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/final.png",
+  "edit_target_sha256": "1ac0679b79b7b8dfc58dda9ef804f110ca53195624e50a32e3d7495251d00cfc",
+  "native_preserved_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/repair-1/native-original.png",
+  "selected_final_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/repair-1/final.png",
+  "output_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "sha256": "980725480988b0ef6332f4e4518191a220516dc0cf99818ddf010dc3b4a0aa83",
+  "source_sha256": "980725480988b0ef6332f4e4518191a220516dc0cf99818ddf010dc3b4a0aa83",
+  "original_sha256": "980725480988b0ef6332f4e4518191a220516dc0cf99818ddf010dc3b4a0aa83",
+  "final_sha256": "980725480988b0ef6332f4e4518191a220516dc0cf99818ddf010dc3b4a0aa83",
+  "generation_maximum_resolution_confirmed": false,
+  "inspection_copies": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/repair-1/qa-usage-720w.png",
+      "width": 720,
+      "height": 1080,
+      "purpose": "screen-use QA only"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/repair-1/qa-thumbnail-320edge.png",
+      "width": 213,
+      "height": 320,
+      "purpose": "thumbnail QA only"
+    }
+  ],
+  "inspection_report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/repair-1/inspection.md",
+  "nontext_upper_region_pixel_difference": {
+    "region": [
+      0,
+      0,
+      1024,
+      800
+    ],
+    "mean_absolute_rgb_difference": [
+      4.37526611328125,
+      4.66711669921875,
+      5.1013671875
+    ],
+    "note": "Nonzero difference confirms the native edit regenerated some nontext pixels; visual review remains required."
+  },
+  "inspection_completed": true,
+  "visible_title_transcription": "밤에 피는 정원",
+  "overall_g02_repair_count_after_this_stage": 1,
+  "residuals": [
+    "Minor regenerated changes in petal veins, print grain and background mottling; nontext source pixels are not identical.",
+    "The preserved middle cup and final lily fan retain a broad stylized botanical change; exact same-species reading remains uncertain.",
+    "The final bloom remains intentionally cropped at the upper/right edges.",
+    "Maximum supported native resolution and print suitability are unconfirmed."
+  ],
+  "unintended_changes": [
+    "Small nontext texture and fine botanical-detail changes through native source edit."
+  ]
+}
