@@ -1,0 +1,360 @@
+# Portfolio blind review
+
+Reviewer: portfolio
+Order compliant: true
+
+Manual visible-output inspection. Read only review-protocol.md and action-first.json first; actually viewed both invitation usage720 images, manually recorded action readings, saved portfolio-action-first.json and successfully read it back before opening packet.json. Then inspected all five images at native original detail, usage720 original detail, and thumbnail320 original detail. All 43 observed copy strings below were manually read from their own images; visual line wraps are collapsed to spaces for copy comparison. PNG dimensions were checked directly from the five permitted native image files. No source, skill, prompt, history, production, mapping, prior review, or peer review was read. Scores are independent raw author judgments. Closest-pair score uses the diversity anchor, where 1 means repetition and 5 means strongly distinct directions. No score totals or averages are used.
+
+## Gate result
+
+5개 이미지의 필수 조건을 모두 통과로 기록한다. 세트 수량은 product 2, invitation 2, type-only-control 1로 일치한다. 정확 문구 43건은 직접 판독상 일치하고 720에서 전체 문구를 읽을 수 있다. 모든 native 비율 오차는 1% 이내다. 물리적 성능·용량·실제 제작 주체·인쇄 적합성은 이 픽셀 검수로 측정하지 않는다.
+
+## Actual viewed paths
+
+- S324 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S324-native.png
+- S324 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S324-usage720.png
+- S324 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S324-thumbnail320.png
+- S208 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S208-native.png
+- S208 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S208-usage720.png
+- S208 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S208-thumbnail320.png
+- S795 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S795-native.png
+- S795 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S795-usage720.png
+- S795 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S795-thumbnail320.png
+- S265 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S265-native.png
+- S265 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S265-usage720.png
+- S265 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S265-thumbnail320.png
+- S571 / native: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S571-native.png
+- S571 / usage720: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S571-usage720.png
+- S571 / thumbnail320: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-transfer-correction1/images/S571-thumbnail320.png
+
+## S324
+
+Mandatory pass: true
+
+### Copy transcription
+
+| Required | Observed | Equal |
+| --- | --- | --- |
+| 틈으로 들어오는 빛 | 틈으로 들어오는 빛 | true |
+
+### Mandatory use readings
+
+```json
+{
+  "native_pixels": [
+    1024,
+    1536
+  ],
+  "target_ratio": "2:3",
+  "ratio_relative_error_percent": 0.0,
+  "ratio_within_one_percent": true,
+  "case_count": 1,
+  "expected_case_count": 1,
+  "all_required_copy_legible_at_720": true,
+  "observed_line_layout": "첫 줄: 틈으로 / 들어오는; 둘째 줄 중앙: 빛",
+  "only_type_and_space": true,
+  "additional_image_decoration_symbol_or_text": "없음. 검은 글자와 밝은 빈 바탕만 보인다."
+}
+```
+
+### Mandatory uncertainties
+
+없음.
+
+### Raw scores and located evidence
+
+- **내용과 형태: 4** — 중앙 첫 줄에서 ‘틈으로’와 ‘들어오는’ 사이를 크게 비우고 그 사이의 아래에 ‘빛’을 둔다. 주어진 문장의 틈과 들어옴을 글자 및 여백으로 직접 연결하며, 추가 상징 없이 작동한다. 발상은 명료하지만 의미를 시각화하는 방식은 한 가지 문자적 관계에 머문다.
+- **정보 계층: 5** — 320 축소에서도 첫 줄의 왼쪽 ‘틈으로’에서 오른쪽 ‘들어오는’, 중앙 아래 ‘빛’으로 읽는 순서가 즉시 보인다. 720에서는 세 어구의 획이 모두 분명하다.
+- **타이포그래피: 4** — 중앙의 세 어구는 같은 검은 고딕 획 계열로 묶인다. ‘빛’의 독립 행과 첫 줄의 큰 어구 간격이 읽는 속도를 만든다. 다만 두 첫 줄 어구의 폭 차이를 자간이나 축으로 더 정교하게 다듬은 인상까지는 아니다.
+- **공간: 5** — 검은 글자 묶음이 세로 화면 중앙 부근에 있고 상단과 하단의 큰 빈 영역이 서로 균형을 이룬다. 첫 줄 가운데의 작은 빈 공간과 페이지 바깥의 큰 여백이 같은 중심축에 모인다.
+- **이미지와 재질: 5** — native에서 검은 한글 획의 모서리와 내부 흰 공간이 또렷하고 배경은 연속적인 밝은 무표식 면이다. 별도 사진이나 물체 재질을 흉내 내지 않고 글자의 표면만 일관되게 처리했다.
+- **정서와 제어: 5** — 중앙 글자 밖에 시선을 당기는 요소가 없어 조용한 문장과 여백의 긴장을 유지한다. ‘빛’ 한 글자만 아래로 내려오게 한 선택이 단독 강조의 역할을 정확하게 맡는다.
+- **AI 슬롭 방지: 5** — 중앙 문장에 가짜 표식, 미세 문자, 질감 장식, 후광이나 불규칙한 한글 획이 보이지 않는다. 주어진 문구의 어구 사이 공간이 편집의 핵심이며 익숙한 효과 묶음에 의존하지 않는다.
+
+### Residuals
+
+- 첫 줄의 ‘틈으로’와 ‘들어오는’ 사이 큰 간격은 발상을 전달하지만 두 어구의 폭과 중앙 아래 ‘빛’의 축은 보편적인 중앙 배치에 가깝다. 현재의 읽기와 여백 관계를 유지하면서 어구별 간격을 미세 조정하면 문자 구성의 정밀함을 높일 수 있다.
+
+## S208
+
+Mandatory pass: true
+
+### Copy transcription
+
+| Required | Observed | Equal |
+| --- | --- | --- |
+| FOLN | FOLN | true |
+| Fold Cup | Fold Cup | true |
+| 가볍게 접고, 다시 펼치다 | 가볍게 접고, 다시 펼치다 | true |
+| 350 mL · 접이식 실리콘 컵 | 350 mL · 접이식 실리콘 컵 | true |
+| 2026.12.01 RELEASE | 2026.12.01 RELEASE | true |
+| 온라인 사전 주문 11.10–11.30 | 온라인 사전 주문 11.10–11.30 | true |
+| foln.example/store | foln.example/store | true |
+
+### Mandatory use readings
+
+```json
+{
+  "native_pixels": [
+    1122,
+    1402
+  ],
+  "target_ratio": "4:5",
+  "ratio_relative_error_percent": 0.0356633381,
+  "ratio_within_one_percent": true,
+  "case_count": 2,
+  "expected_case_count": 2,
+  "all_required_copy_legible_at_720": true,
+  "photographic_product_appearance": "오른쪽 위 펼친 컵과 왼쪽 아래 접힌 컵이 동일한 밝은 촬영 면에서 실물 촬영 같은 명암·초점을 보인다.",
+  "body": "짙은 녹색, 접힘 층을 가진 무손잡이 몸체",
+  "lid": "반투명 흰색; 펼친 컵 옆과 접힌 컵 위에서 보임",
+  "surface_letters_or_logos": "제품 표면에 없음",
+  "real_brand_or_logo": "보이는 이름은 제공된 FOLN뿐; 그 외 실제 브랜드·로고는 보이지 않음",
+  "release": "2026.12.01 RELEASE",
+  "preorder": "온라인 사전 주문 11.10–11.30",
+  "full_displayed_url": "foln.example/store"
+}
+```
+
+### Mandatory uncertainties
+
+- 350 mL 용량과 실제 접힘·뚜껑 결합 성능은 픽셀로 확인할 수 없다. 제공 문구와 눈에 보이는 접힌/펼친 형태만 확인했다.
+
+### Raw scores and located evidence
+
+- **내용과 형태: 4** — 오른쪽 위 펼친 컵과 왼쪽 아래 접힌 컵을 한 촬영 면에 놓아 ‘Fold Cup’과 ‘접고, 다시 펼치다’를 제품의 두 상태로 설명한다. 제목을 바꿔 다른 일반 컵에 바로 쓰기 어려운 구체적인 정보다.
+- **정보 계층: 4** — 320에서 왼쪽의 큰 Fold/Cup과 오른쪽 위 컵이 먼저 보이고, 720에서 오른쪽 아래의 기능 문구와 출시·주문·URL 묶음으로 내려간다. 참여 안내는 읽히지만 제품에서 주문으로 가는 연결은 두 떨어진 텍스트 묶음에 의존한다.
+- **타이포그래피: 4** — 왼쪽 Fold/Cup의 굵은 두 줄과 작은 FOLN이 뚜렷한 크기 차이를 만들며 오른쪽 안내는 일정한 녹색 획과 행 묶음으로 정리되어 있다. 한글과 라틴 문자 모두 안정적으로 판독된다.
+- **공간: 3** — 오른쪽 위 컵과 왼쪽 아래 컵이 대각 균형을 만든다. 다만 하단 왼쪽에는 넓은 빈 면이 남고 기능 문구와 출시 묶음이 오른쪽에 따로 모여, 전체 그리드가 제품 사진을 따라 배치한 수준에 머문다.
+- **이미지와 재질: 4** — native에서 두 녹색 몸체의 접힘 릿지, 흰 뚜껑의 반투명 면, 바닥의 접촉 그림자가 서로 구분된다. 펼친 컵의 내벽과 접힌 컵의 낮은 실루엣도 촬영 같은 연속적인 조명을 갖는다.
+- **정서와 제어: 4** — 회백색 배경과 짙은 녹색 글자·몸체가 차분한 제품 설명 분위기를 만든다. 효과나 소품이 더해지지 않았고 두 제품 상태가 주된 표현 역할을 맡지만 감정적 인상은 일반적인 제품 카탈로그에 가깝다.
+- **AI 슬롭 방지: 4** — 두 상태의 몸체에 글자나 가짜 로고가 없고 뚜껑·몸체·배경에 같은 광택을 무차별 적용한 흔적도 보이지 않는다. 그러나 왼쪽 영문 대제목과 오른쪽 작은 안내의 분리 배치는 범용 제품 광고의 편집 습관을 일부 남긴다.
+
+### Residuals
+
+- 하단 왼쪽의 넓은 빈 면과 오른쪽 기능·출시 두 묶음 사이의 분리가 편집의 결속을 약하게 만든다. 사진의 대각 관계에 맞춘 공통 기준선을 설정하거나 기능과 주문 안내 사이의 간격을 재조율하면 사용 흐름이 더 자연스러워진다.
+- 눈에 띄는 합성 결함은 확인되지 않았지만 큰 영문 제목과 별도 안내 블록은 범용 제품 광고의 습관을 남긴다. 제품 상태의 높이·폭 차이가 문자 배치에도 관여하도록 편집하면 내용 특화성이 더 강해진다.
+
+## S795
+
+Mandatory pass: true
+
+### Copy transcription
+
+| Required | Observed | Equal |
+| --- | --- | --- |
+| 고쳐 쓰는 토요일 | 고쳐 쓰는 토요일 | true |
+| 이웃 수리 작업실 참여자 모집 | 이웃 수리 작업실 참여자 모집 | true |
+| 2026년 12월 5일 토요일 | 2026년 12월 5일 토요일 | true |
+| 오후 2시–5시 · 입장은 오후 1시 40분부터 | 오후 2시–5시 · 입장은 오후 1시 40분부터 | true |
+| 하람시 잇는집 2층 · 수선길 12 | 하람시 잇는집 2층 · 수선길 12 | true |
+| 대상: 만 16세 이상 · 회차별 12명 | 대상: 만 16세 이상 · 회차별 12명 | true |
+| 작은 생활용품 한 점을 가져와 주세요. | 작은 생활용품 한 점을 가져와 주세요. | true |
+| 전기·배터리 제품과 위험한 물건은 받지 않습니다. | 전기·배터리 제품과 위험한 물건은 받지 않습니다. | true |
+| 도구는 제공하며 부품 비용은 현장에서 안내합니다. | 도구는 제공하며 부품 비용은 현장에서 안내합니다. | true |
+| 수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다. | 수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다. | true |
+| 촬영은 동의한 참여자에 한해 진행합니다. | 촬영은 동의한 참여자에 한해 진행합니다. | true |
+| 참가비 5,000원 · 현장 결제 | 참가비 5,000원 · 현장 결제 | true |
+| 12월 2일까지 신청: haram-mend.example/join | 12월 2일까지 신청: haram-mend.example/join | true |
+| 문의: 이웃 수리 운영팀 | 문의: 이웃 수리 운영팀 | true |
+
+### Mandatory use readings
+
+```json
+{
+  "native_pixels": [
+    1254,
+    1254
+  ],
+  "target_ratio": "1:1",
+  "ratio_relative_error_percent": 0.0,
+  "ratio_within_one_percent": true,
+  "case_count": 2,
+  "expected_case_count": 2,
+  "all_required_copy_legible_at_720": true,
+  "event_date": "2026년 12월 5일 토요일",
+  "application_deadline": "12월 2일까지 신청",
+  "full_application_url": "haram-mend.example/join",
+  "location": "하람시 잇는집 2층 · 수선길 12",
+  "action_findability": "마감·주소가 상단 주황색 두 줄로 가장 크게 보임; copy를 보기 전 720 preflight에서 모두 읽음",
+  "additional_copy": "없음"
+}
+```
+
+### Mandatory uncertainties
+
+- 그림 속 실제 제본의 물리적 성능이나 수리 가능 여부는 평가하지 않았다. 표시된 URL의 작동 여부도 픽셀 검수 범위 밖이다.
+
+### Raw scores and located evidence
+
+- **내용과 형태: 5** — 왼쪽 아래 열린 파란 책의 제본부에 주황 실을 걸어 고쳐 쓰는 행위를 보여 주고, 동일한 주황색을 상단 신청 마감·주소에 쓴다. 수리의 작은 접점과 참여 행동을 색과 위치로 연결한다.
+- **정보 계층: 5** — 320에서도 상단 두 줄의 주황 신청 마감·URL을 가장 먼저 찾을 수 있다. 다음으로 왼쪽 제목과 오른쪽 날짜가 나뉘고, 720에서는 오른쪽 조건·비용·문의까지 자연스럽게 따라 읽힌다.
+- **타이포그래피: 4** — 주황 대문구, 왼쪽 굵은 두 줄 제목, 오른쪽 날짜와 본문을 크기와 묶음으로 구분했다. native에서 어절과 한글 획은 분명하다. 오른쪽 중단의 여러 안내문은 거의 비슷한 굵기여서 세부 단계는 주로 행간에 의존한다.
+- **공간: 4** — 상단 신청 줄이 가로 전체를 묶고 그 아래 책·제목의 왼쪽 덩어리와 안내의 오른쪽 덩어리가 나뉜다. 책은 왼쪽·아래 경계를 넘는 크롭으로 큰 면을 만들며 오른쪽 본문과 직접 접촉하지 않는다.
+- **이미지와 재질: 4** — native의 파란 책 표지는 촘촘한 선 해칭, 페이지는 가는 검은 평행선, 주황 실은 선명한 굵은 선으로 분리되어 하나의 삽화 체계로 읽힌다. 다만 하단 제본부에서는 여러 가는 선이 좁게 겹쳐 표지의 큰 면보다 구분이 덜 명확하다.
+- **정서와 제어: 5** — 파란 일상 물건과 주황 실의 대비가 친근한 수리 작업의 구체성을 만든다. 주황 실과 주황 신청 문구가 각자 이미지와 행동의 역할을 맡으며 장식을 추가해 분위기를 부풀리지 않는다.
+- **AI 슬롭 방지: 5** — 책의 제본부라는 특정 수리 대상, 실에서 신청 문구로 이어지는 색 관계, 신청을 맨 위에 둔 정보 편집이 이 행사에 특화되어 있다. 가짜 문자·의미 없는 표식·글자의 변형이나 서로 다른 재질의 무차별 광택은 보이지 않는다.
+
+### Residuals
+
+- 오른쪽 중단의 준비물·제외 대상·부품 비용·수리 불확실성 문구가 거의 같은 굵기로 연속되어 세부 우선순위가 약하다. 날짜·핵심 조건과 본문의 획 무게를 조금 나누면 현재의 명료함을 유지하면서 밀도를 낮출 수 있다.
+- native 왼쪽 하단 책의 제본부에서 가는 해칭과 페이지 경계가 좁게 겹친다. 실과 페이지의 핵심 경계를 유지하고 한 층의 해칭을 줄이면 작은 마감의 선명도가 높아진다.
+
+## S265
+
+Mandatory pass: true
+
+### Copy transcription
+
+| Required | Observed | Equal |
+| --- | --- | --- |
+| FOLN | FOLN | true |
+| Fold Cup | Fold Cup | true |
+| 가볍게 접고, 다시 펼치다 | 가볍게 접고, 다시 펼치다 | true |
+| 350 mL · 접이식 실리콘 컵 | 350 mL · 접이식 실리콘 컵 | true |
+| 2026.12.01 RELEASE | 2026.12.01 RELEASE | true |
+| 온라인 사전 주문 11.10–11.30 | 온라인 사전 주문 11.10–11.30 | true |
+| foln.example/store | foln.example/store | true |
+
+### Mandatory use readings
+
+```json
+{
+  "native_pixels": [
+    1122,
+    1402
+  ],
+  "target_ratio": "4:5",
+  "ratio_relative_error_percent": 0.0356633381,
+  "ratio_within_one_percent": true,
+  "case_count": 2,
+  "expected_case_count": 2,
+  "all_required_copy_legible_at_720": true,
+  "photographic_product_appearance": "옷감 주머니 속 컵의 표면·접촉 그림자·직조·초점이 실물 촬영 같은 표현",
+  "body": "짙은 녹색, 접힌 릿지를 가진 무손잡이 몸체",
+  "lid": "반투명 흰색; 컵 위에 보임",
+  "surface_letters_or_logos": "제품 표면에 없음",
+  "real_brand_or_logo": "보이는 이름은 제공된 FOLN뿐; 그 외 실제 브랜드·로고는 보이지 않음",
+  "release": "2026.12.01 RELEASE",
+  "preorder": "온라인 사전 주문 11.10–11.30",
+  "full_displayed_url": "foln.example/store"
+}
+```
+
+### Mandatory uncertainties
+
+- 350 mL 용량, 실제 주머니 수납 가능성, 접힘과 뚜껑의 기능은 픽셀로 보증할 수 없다. 눈에 보이는 형태와 표기만 확인했다.
+
+### Raw scores and located evidence
+
+- **내용과 형태: 5** — 오른쪽 중단의 작은 접힌 컵이 옷 주머니에 들어가 있고 접이식 문구는 그 위에 놓인다. 제품의 휴대성을 구체적인 보관 상황으로 전달하여 가볍게 접는 장점과 사진의 선택을 직접 연결한다.
+- **정보 계층: 4** — 320에서 왼쪽 위의 Fold Cup, 오른쪽 주머니 속 제품, 왼쪽 아래 출시·주문 묶음이 순서대로 보인다. 720에서는 사양과 주문 기간·전체 주소도 명확하다. 제목의 힘이 커 신청 정보는 하단까지 시선을 옮겨야 한다.
+- **타이포그래피: 4** — 상단 가는 FOLN과 굵은 Fold Cup 사이의 획 대비가 브랜드와 제품명을 구분하고 한글 기능·사양은 두 크기로 정리된다. 하단 출시·주문·URL의 세 줄도 어절과 행간이 안정적이지만 제품명 배치는 여전히 익숙한 광고형 고딕 구성이다.
+- **공간: 5** — 오른쪽 주머니의 사선과 컵의 타원 뚜껑이 화면의 큰 대각을 형성한다. 왼쪽 위 문구와 왼쪽 아래 주문 안내는 밝고 비교적 평평한 옷감 영역에 자리 잡으며 제품·주름·경계와 우연히 접촉하지 않는다.
+- **이미지와 재질: 5** — native에서 옷감의 직조, 주머니의 이중 봉제선, 녹색 몸체의 둔한 표면, 흰 뚜껑의 투과·가장자리 하이라이트가 각기 다르다. 제품이 주머니에 가려지는 경계와 그림자도 한 사진 안의 연속된 명암으로 읽힌다.
+- **정서와 제어: 5** — 옷감 주름과 접힌 컵의 작은 크기만으로 일상적 휴대감을 만든다. 녹색 몸체와 녹색 문구가 차분하게 수렴하고 추가 장식 없이 촬영 상황이 기능과 정서를 동시에 전달한다.
+- **AI 슬롭 방지: 5** — 주머니라는 제품 사용 맥락과 글자가 들어갈 밝은 옷감 공간을 함께 편집했다. native의 봉제선과 컵 경계에서 우연한 녹음·후광, 제품 표면의 가짜 글자, 재질을 구분하지 않는 광택이 보이지 않는다.
+
+### Residuals
+
+- 왼쪽 위 제품명과 하단 주문 안내 사이의 크기 차이가 커 320에서는 주문 기간·URL이 작게 남는다. 720 필수 판독은 통과하지만 모바일 축소에서 행동 안내를 더 빨리 연결하려면 하단 묶음의 크기나 간격을 소폭 조율할 수 있다.
+
+## S571
+
+Mandatory pass: true
+
+### Copy transcription
+
+| Required | Observed | Equal |
+| --- | --- | --- |
+| 고쳐 쓰는 토요일 | 고쳐 쓰는 토요일 | true |
+| 이웃 수리 작업실 참여자 모집 | 이웃 수리 작업실 참여자 모집 | true |
+| 2026년 12월 5일 토요일 | 2026년 12월 5일 토요일 | true |
+| 오후 2시–5시 · 입장은 오후 1시 40분부터 | 오후 2시–5시 · 입장은 오후 1시 40분부터 | true |
+| 하람시 잇는집 2층 · 수선길 12 | 하람시 잇는집 2층 · 수선길 12 | true |
+| 대상: 만 16세 이상 · 회차별 12명 | 대상: 만 16세 이상 · 회차별 12명 | true |
+| 작은 생활용품 한 점을 가져와 주세요. | 작은 생활용품 한 점을 가져와 주세요. | true |
+| 전기·배터리 제품과 위험한 물건은 받지 않습니다. | 전기·배터리 제품과 위험한 물건은 받지 않습니다. | true |
+| 도구는 제공하며 부품 비용은 현장에서 안내합니다. | 도구는 제공하며 부품 비용은 현장에서 안내합니다. | true |
+| 수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다. | 수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다. | true |
+| 촬영은 동의한 참여자에 한해 진행합니다. | 촬영은 동의한 참여자에 한해 진행합니다. | true |
+| 참가비 5,000원 · 현장 결제 | 참가비 5,000원 · 현장 결제 | true |
+| 12월 2일까지 신청: haram-mend.example/join | 12월 2일까지 신청: haram-mend.example/join | true |
+| 문의: 이웃 수리 운영팀 | 문의: 이웃 수리 운영팀 | true |
+
+### Mandatory use readings
+
+```json
+{
+  "native_pixels": [
+    1086,
+    1448
+  ],
+  "target_ratio": "3:4",
+  "ratio_relative_error_percent": 0.0,
+  "ratio_within_one_percent": true,
+  "case_count": 2,
+  "expected_case_count": 2,
+  "all_required_copy_legible_at_720": true,
+  "event_date": "2026년 12월 5일 토요일",
+  "application_deadline": "12월 2일까지 신청",
+  "full_application_url": "haram-mend.example/join",
+  "location": "하람시 잇는집 2층 · 수선길 12",
+  "action_findability": "하단 빨간 한 줄에 마감·전체 URL을 표시; copy를 보기 전 720 preflight에서 모두 읽음",
+  "additional_copy": "없음"
+}
+```
+
+### Mandatory uncertainties
+
+- 실제 안경 수리의 물리적 가능성이나 사진의 제작 주체는 픽셀로 판단하지 않았다. 표시된 URL의 작동 여부도 이 검수 범위 밖이다.
+
+### Raw scores and located evidence
+
+- **내용과 형태: 4** — 상단 사진의 안경 경첩과 드라이버가 맞닿는 지점은 생활용품을 고쳐 쓰는 작업을 구체적으로 보여 준다. 제목 아래에서 실제 작은 접점을 크게 확대하지만 사진과 하단 안내문을 연결하는 편집 발상은 비교적 일반적인 사진 위/정보 아래 구조다.
+- **정보 계층: 4** — 320에서 큰 제목, 중앙 경첩, 하단 날짜와 빨간 신청 줄이 순서대로 보인다. 720에서는 날짜·시간·장소와 모든 조건을 읽을 수 있고 빨간 URL은 즉시 찾아진다. 신청 줄이 가장 아래쪽에 있어 제목에서 행동까지는 화면의 긴 이동이 필요하다.
+- **타이포그래피: 3** — 상단 제목·부제와 하단 날짜·시간·장소는 굵은 고딕으로 분명하게 묶였고 작은 안내문도 판독된다. 그러나 제목, 부제, 날짜의 강한 굵기와 하단 연속 안내의 유사한 행 처리 때문에 정보의 세밀한 단계는 기능하는 수준에 머문다.
+- **공간: 4** — 사진과 밝은 안내 영역을 화면 중간에서 수평으로 나누고 두 영역의 문구를 왼쪽 기준선에 맞췄다. 드라이버는 오른쪽 위 경계에서 경첩으로 내려오며 제목을 침범하지 않고, 하단 긴 빨간 URL도 바깥 여백을 확보한다.
+- **이미지와 재질: 5** — native 중앙 경첩의 금속 반사·마모와 안경테의 짙은 광택, 렌즈의 투명한 테두리, 바닥의 부드러운 질감이 서로 구분된다. 드라이버와 테의 초점 변화도 사진의 깊이감 안에서 일관되어 보인다.
+- **정서와 제어: 4** — 회색 바탕과 검은 일상 물건의 정밀한 확대는 실용적인 작업실 분위기를 만들고 빨간 신청 줄은 행동에만 색을 쓴다. 표현은 절제되어 있지만 공동체의 정서보다는 기능 안내에 더 무게가 실린다.
+- **AI 슬롭 방지: 4** — 경첩의 작은 수리 접점이 주제에 맞고 글자 변형·가짜 로고·무의미한 장식은 보이지 않는다. 다만 굵은 상단 제목, 대형 사진, 하단 목록이라는 분리된 패키지는 사진의 정밀함에 비해 편집에서 범용적인 습관을 남긴다.
+
+### Residuals
+
+- 하단 조건 안내의 연속 행과 굵은 날짜·시간·장소가 한 영역에 밀집해 중요도 차이가 행 크기에 주로 의존한다. 핵심 일정과 본문 사이의 획 무게 및 행간을 조금 더 나누면 정보의 미세 계층이 개선된다.
+- 상단 제목/사진과 하단 정보라는 일반적인 두 구획 구조가 남는다. 사진의 정밀한 경첩 접점과 행동 안내 사이의 정렬·시각 축을 더 연동하면 이 수리 행사만의 편집 관계가 강해진다.
+
+## Set: product
+
+Members: S208, S265
+Diversity: 3
+
+Closest pair: S208, S265; score 3
+S208은 밝은 촬영 면 위에 펼침/접힘 두 상태를 대각으로 배치하고 왼쪽 두 줄 제목·오른쪽 주문 블록을 둔다. S265는 주머니 안의 한 컵과 사선 옷감, 왼쪽 위 제목·왼쪽 아래 주문 블록을 쓴다. 사용 설명의 발상과 공간은 구분되지만 둘 다 회백색 실물 촬영 같은 표면·짙은 녹색 산세리프·큰 Fold Cup 중심의 광고 구성이라 구조적 습관이 남는다.
+
+두 장 모두 요구된 4:5와 동일한 제품·표시 문구를 지키면서 S208의 상태 비교와 S265의 휴대 상황으로 발상을 나눈다. 가장 낮은 S208 공간 점수 3은 오른쪽 분리 정보와 빈 하단 왼쪽에서, S265의 공간 점수 5는 주머니 대각과 밝은 왼쪽 글자 면에서 나온다. 전체적으로 단순 색/필터 반복보다 분명히 다르지만 완전히 다른 문자 역할과 이미지 체계까지 펼치지는 않는다.
+
+- 사진 매체, 회백색 배경, 녹색 굵은 제품명이라는 습관이 두 시안에서 공통으로 남는다. 두 장이 각기 다른 사용 상황을 보여 준다는 장점은 유지하면서 한 방향의 문자 구성과 사진의 상호작용을 더 독립적으로 발전시킬 수 있다.
+
+## Set: invitation
+
+Members: S571, S795
+Diversity: 4
+
+Closest pair: S571, S795; score 4
+S571은 상단 안경 수리의 사실적인 확대 사진과 하단 전폭 안내, 아래 빨간 신청 줄로 구성된다. S795는 왼쪽 열린 책의 파랑/주황 선 삽화와 오른쪽 세로 안내, 맨 위 큰 주황 신청 두 줄로 구성된다. 사진/삽화의 체계, 수리 대상, 행동 안내의 위치, 이미지와 글자의 공간 관계가 구분되며 검은 굵은 고딕 중심의 정보 습관은 공유한다.
+
+두 요구 비율을 각각 충족한 두 장은 같은 행사 문구를 다른 수리 대상과 다른 읽기 경로로 구현한다. 320 첫 시선에서 S571의 제목/경첩, S795의 신청/책이 서로 다르고 720에서는 양쪽 모두 전체 조건을 읽을 수 있다. S571의 타이포그래피 3과 S795의 신청 계층 5가 함께 남아, 최고 시안의 성취로 낮은 지점을 상쇄하지 않았다.
+
+- 두 장 모두 굵은 검은 고딕과 비교적 연속적인 조건 안내를 쓴다. 특히 S571의 본문 계층은 S795의 행동 우선 구조보다 덜 세밀하게 다듬어져 있다.
+
+## Set: type-only-control
+
+Members: S324
+Diversity: null
+
+Closest pair: []; closest_pair_score: null
+
+한 장만 요청되고 한 장만 제공되었다. 중앙 첫 줄의 ‘틈으로’와 ‘들어오는’ 사이 넓은 흰 공간, 그 아래 중앙 ‘빛’, 상하의 균형 잡힌 큰 여백만으로 구성된다. 별도 이미지·장식·기호·추가 문구가 보이지 않으며 2:3과 720 판독을 통과한다. 비교할 두 번째 구성은 없어 다양성과 최근접 쌍 점수는 적용하지 않는다.
+
+- 현재 구성은 문장 의미를 직접적인 어구 간격으로 전달한다. 한 장이라는 조건에서 문자적 발상의 명료함과 세부 간격의 여지는 각각 그대로 기록한다.

@@ -1,0 +1,698 @@
+{
+  "reviewer": "portfolio",
+  "order_compliant": true,
+  "method": "Actual preflight-before-copy: read review-protocol.md and action-first.json only, actually viewed both invitation720 images, manually recorded the four action fields, saved portfolio-action-first.json and successfully read it back before opening packet.json. After that, all four images were actually viewed through view_image in native, usage720 and thumbnail320 views. All 42 copy items below are manual visual transcriptions; no OCR was used. Equal means visible wording/punctuation match after layout line-wrap normalization, not a claim about hidden Unicode code points. Initial preflight record remains unchanged.",
+  "score_interpretation": "All seven image scores use the unchanged protocol anchors. Set diversity and closest_pair.score both use the diversity anchor: 1 = repetition, 3 = distinguishable with structural habits remaining, 5 = convincingly different content/type/space/image directions. No aggregate score or winner is inferred.",
+  "scope_limits": "Visible-output review only. Actual capacity, fold mechanics, repair mechanics, maker identity and print suitability cannot be certified from these pixels.",
+  "viewed": [
+    {
+      "image_id": "Q513",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q513-native.png"
+    },
+    {
+      "image_id": "Q513",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q513-usage720.png"
+    },
+    {
+      "image_id": "Q513",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q513-thumbnail320.png"
+    },
+    {
+      "image_id": "Q552",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q552-native.png"
+    },
+    {
+      "image_id": "Q552",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q552-usage720.png"
+    },
+    {
+      "image_id": "Q552",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q552-thumbnail320.png"
+    },
+    {
+      "image_id": "Q405",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q405-native.png"
+    },
+    {
+      "image_id": "Q405",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q405-usage720.png"
+    },
+    {
+      "image_id": "Q405",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q405-thumbnail320.png"
+    },
+    {
+      "image_id": "Q959",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q959-native.png"
+    },
+    {
+      "image_id": "Q959",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q959-usage720.png"
+    },
+    {
+      "image_id": "Q959",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/images/Q959-thumbnail320.png"
+    }
+  ],
+  "images": {
+    "Q513": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Visual raster review cannot certify the underlying Unicode identity of similar dash glyphs; visible range punctuation matches the supplied typography.",
+          "Actual 350 mL capacity, successful folding and physical lid fit are not measured or certified from an image."
+        ],
+        "conditions": [
+          {
+            "requirement": "aspect ratio within 1% of the specified target",
+            "target": "4:5",
+            "actual_width": 1122,
+            "actual_height": 1402,
+            "actual_ratio": 0.8002853067047075,
+            "relative_error_percent": 0.03566333808844302,
+            "pass": true
+          },
+          {
+            "requirement": "all supplied copy present unchanged and readable at 720 width",
+            "observed": "7/7 manually transcribed visible matches; no added informational copy found",
+            "pass": true
+          },
+          {
+            "requirement": "product photo looks like real product photography",
+            "observed": "Coherent light, shadows, perspective and material detail in the studio cup scene",
+            "pass": true
+          },
+          {
+            "requirement": "handleless dark-green silicone cup with translucent-white lid",
+            "observed": "Handleless green accordion body and translucent-white lids in both open/folded states",
+            "pass": true
+          },
+          {
+            "requirement": "350 mL cup specification",
+            "observed": "350 mL visibly present in the required specification line; actual physical capacity is outside visible-output scope",
+            "pass": true
+          },
+          {
+            "requirement": "no real brand/logo and no letters on product surface",
+            "observed": "Only supplied FOLN/Fold Cup branding in poster type; cup/lid surfaces have no visible lettering or logos",
+            "pass": true
+          }
+        ],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true,
+            "location": "upper left, first line",
+            "legible_at_720": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true,
+            "location": "upper left, large second line",
+            "legible_at_720": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true,
+            "location": "lower left, benefit line",
+            "legible_at_720": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true,
+            "location": "lower left, specification line",
+            "legible_at_720": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true,
+            "location": "bottom left, release line",
+            "legible_at_720": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true,
+            "location": "bottom left, preorder line",
+            "legible_at_720": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true,
+            "location": "bottom left, final line",
+            "legible_at_720": true
+          }
+        ],
+        "use_readings": {
+          "native": "All required copy and material/outline boundaries inspected in the actual native file.",
+          "usage720": "All 7 supplied items individually readable; required wording, punctuation, numerals and addresses transcribed from this actual view.",
+          "thumbnail320": "Brand/model, both states and benefit remain distinct; secondary lines are reduced but organized."
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 5,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "Upper-right open cup and lower-left folded cup make the folding promise visually specific; the two states, translucent lids and accordion ribs connect directly to the benefit and material line. The different apparent scales make the amount of reduction less exact to compare.",
+        "hierarchy": "At 320 the upper-left FOLN/Fold Cup and two cup states read first, followed by the bold Korean benefit; at 720 the specification, release, preorder and URL continue in a clear downward sequence. There is no competing decorative label.",
+        "typography": "The upper-left brand/model and lower-left Korean/Latin information share one left edge and dark-green ink; heavier benefit and release lines distinguish their roles. Korean letterforms, comma, centered dot and date numerals remain clear at 720.",
+        "space": "The cup states occupy opposite corners of the central field, while the two left-aligned text groups leave the object surfaces untouched. The lower information occupies roughly the bottom third with consistent outer margins; the two states are at different optical scales.",
+        "image_material": "At native size the green rim and accordion bands have matte, softly graded surfaces, the white lid is translucent with layered rims, and contact shadows fall coherently on the pale surface. Green silicone, white plastic and background are visibly distinct; no melted boundary was found.",
+        "emotion_control": "Pale background, dark-green type and the two essential product states produce a calm launch tone. There are no unrelated props, flares, fake seals or microtext; each image element explains product form.",
+        "ai_slop": "The cup-specific deployed/folded pairing and accurate supplied text avoid an interchangeable decorative package, and the native rims, shadows and lettering show no conspicuous synthesis defect. The remaining limitation is editorial: differing scales plus a conventional top-brand/bottom-information stack do not make the folding comparison as exact as it could be."
+      },
+      "residuals": [
+        "The open cup at upper right and folded cup at lower left have different apparent scales → the reduced height is understood qualitatively rather than precisely → if refining this composition, use a common optical scale/plane while retaining the two states and required copy."
+      ]
+    },
+    "Q552": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Visual raster review cannot certify the underlying Unicode identity of similar dash glyphs; visible range punctuation matches the supplied typography.",
+          "Actual 350 mL capacity, successful folding and physical lid fit are not measured or certified from an image."
+        ],
+        "conditions": [
+          {
+            "requirement": "aspect ratio within 1% of the specified target",
+            "target": "4:5",
+            "actual_width": 1122,
+            "actual_height": 1402,
+            "actual_ratio": 0.8002853067047075,
+            "relative_error_percent": 0.03566333808844302,
+            "pass": true
+          },
+          {
+            "requirement": "all supplied copy present unchanged and readable at 720 width",
+            "observed": "7/7 manually transcribed visible matches; no added informational copy found",
+            "pass": true
+          },
+          {
+            "requirement": "product photo looks like real product photography",
+            "observed": "Coherent hand, cup, tote, depth and photographic material detail",
+            "pass": true
+          },
+          {
+            "requirement": "handleless dark-green silicone cup with translucent-white lid",
+            "observed": "Handleless green collapsed accordion body and translucent-white lid in the hand",
+            "pass": true
+          },
+          {
+            "requirement": "350 mL cup specification",
+            "observed": "350 mL visibly present in the required specification line; actual physical capacity is outside visible-output scope",
+            "pass": true
+          },
+          {
+            "requirement": "no real brand/logo and no letters on product surface",
+            "observed": "Only supplied FOLN/Fold Cup branding in poster type; cup/lid surfaces have no visible lettering or logos",
+            "pass": true
+          }
+        ],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true,
+            "location": "upper left, small first line",
+            "legible_at_720": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true,
+            "location": "upper left, small second line",
+            "legible_at_720": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고,\n다시 펼치다",
+            "equal": true,
+            "location": "upper left, two large lines",
+            "legible_at_720": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true,
+            "location": "lower left, above release block",
+            "legible_at_720": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true,
+            "location": "lower left, first release-block line",
+            "legible_at_720": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true,
+            "location": "lower left, second release-block line",
+            "legible_at_720": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true,
+            "location": "bottom left, isolated URL line",
+            "legible_at_720": true
+          }
+        ],
+        "use_readings": {
+          "native": "All required copy and material/outline boundaries inspected in the actual native file.",
+          "usage720": "All 7 supplied items individually readable; required wording, punctuation, numerals and addresses transcribed from this actual view.",
+          "thumbnail320": "Benefit, cup and carrying gesture lead; brand/model and supporting details shrink strongly."
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 3,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 5,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "The center-right hand holds the collapsed cup directly above a tote opening, giving the compact form an everyday carrying purpose tied to the folding benefit. It is content-specific, although the image does not show a second, expanded state.",
+        "hierarchy": "At 320 the two-line white folding promise and hand-held cup lead; at 720 the lower specification, release, preorder and separate URL remain readable in order. FOLN/Fold Cup are much less prominent than the benefit and become weak identifiers at thumbnail size.",
+        "typography": "White letters sit on dark areas and the lower information shares the same left margin. The benefit has a deliberate two-line break after the comma. The small brand/model at upper left and lighter, much smaller lower copy function at 720, but their scale relative to the large headline is less fully resolved for product identification.",
+        "space": "The hand entering from upper right and tote opening from lower left frame the cup in the center; the large headline occupies the remaining upper-left dark field. Lower text is placed on the tote face with margins and clear gaps between groups, avoiding the busiest bag edge.",
+        "image_material": "Native skin creases, fingernail, woven tote fibers, matte green ribs and translucent lid retain separate material behavior. The hand/cup contact and cup ellipse are visually coherent; no extra digit or melted cloth boundary is apparent. The dark tote can dominate the product at the smallest view.",
+        "emotion_control": "The cropped hand, cup and tote all contribute to portability. The dark field and white text make a practical, intimate tone without added glow, ornaments or effects; the gesture is sufficient to carry the image.",
+        "ai_slop": "The specific collapsed-cup carrying gesture, coherent hand anatomy and consistent textile/material detail prevent obvious synthetic clutter. No fake logos, microtext or unmotivated gloss appear. The remaining editorial weakness is the small product-name block relative to a familiar large-benefit/lower-information layout."
+      },
+      "residuals": [
+        "At 320 the small FOLN/Fold Cup lockup in the upper-left corner becomes much weaker than the folding headline → product identity drops out earlier than the benefit → enlarge the lockup or slightly rebalance its scale with the headline, preserving all text.",
+        "The large dark tote occupies most of the lower view → at thumbnail size it carries more area than the small cup → a slightly tighter crop around cup/hand/tote opening could retain the portability idea and focus the object."
+      ]
+    },
+    "Q405": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Visual raster review cannot certify the underlying Unicode identity of similar dash glyphs; visible range punctuation matches the supplied typography.",
+          "Actual repair feasibility/mechanics are outside this visible-output review."
+        ],
+        "conditions": [
+          {
+            "requirement": "aspect ratio within 1% of the specified target",
+            "target": "1:1",
+            "actual_width": 1254,
+            "actual_height": 1254,
+            "actual_ratio": 1.0,
+            "relative_error_percent": 0.0,
+            "pass": true
+          },
+          {
+            "requirement": "all supplied copy present unchanged and readable at 720 width",
+            "observed": "14/14 manually transcribed visible matches; no added informational copy found",
+            "pass": true
+          },
+          {
+            "requirement": "application deadline and complete application address easy to find",
+            "observed": "Large blue top deadline/URL; both fields read correctly in preflight",
+            "pass": true
+          }
+        ],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true,
+            "location": "left upper-middle, black headline",
+            "legible_at_720": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true,
+            "location": "left upper-middle, subtitle",
+            "legible_at_720": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true,
+            "location": "left column, blue date",
+            "legible_at_720": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true,
+            "location": "left column, below date",
+            "legible_at_720": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true,
+            "location": "left column, second group",
+            "legible_at_720": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true,
+            "location": "left column, third group",
+            "legible_at_720": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true,
+            "location": "right column, first line",
+            "legible_at_720": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true,
+            "location": "right column, second line",
+            "legible_at_720": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true,
+            "location": "right column, second group",
+            "legible_at_720": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며\n완성을 보장하지 않습니다.",
+            "equal": true,
+            "location": "right column, third group, two lines",
+            "legible_at_720": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true,
+            "location": "right column, bottom group",
+            "legible_at_720": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true,
+            "location": "left column, fourth group",
+            "legible_at_720": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청:\nharam-mend.example/join",
+            "equal": true,
+            "location": "upper left, two large blue lines",
+            "legible_at_720": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true,
+            "location": "left column, bottom group",
+            "legible_at_720": true
+          }
+        ],
+        "use_readings": {
+          "native": "All required copy and material/outline boundaries inspected in the actual native file.",
+          "usage720": "All 14 supplied items individually readable; required wording, punctuation, numerals and addresses transcribed from this actual view.",
+          "thumbnail320": "Blue deadline and full URL dominate, then event title; lower details are small but preserve column structure.",
+          "preflight_action_fields": {
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지 신청",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainty": "No uncertain visible character in these four fields; protocol is not displayed in URL.",
+            "saved_record": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/portfolio-action-first.json"
+          }
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 5,
+        "typography": 4,
+        "space": 3,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "The upper-right line drawing joins a small household mirror and a screwdriver at its side fitting, making repair of an ordinary object concrete. The prominent deadline/address and left/right practical information support actual participation rather than unrelated decoration.",
+        "hierarchy": "The top blue deadline and full URL are the unmistakable first read at 320 and 720; the black event title, blue event date and two information columns follow. In the preflight before supplied copy, event date, deadline, full URL and location were all found without ambiguity.",
+        "typography": "The condensed blue URL fits on one line below the deadline; bold black headline, blue date and regular body create distinct roles. The right-column completion disclaimer wraps between clauses without losing a word, and all 14 supplied items are readable at 720.",
+        "space": "The lower two-column grid has consistent left edges and explicit gaps between groups. At the top, the long blue URL ends very close to the mirror lower-left contour; this narrow clearance makes the text/image boundary tighter than the otherwise spacious grid.",
+        "image_material": "At native size the mirror stand, elliptical base and screwdriver use consistent thin black outlines, with restrained reflection hatching confined to the mirror face. The image is a drawing rather than a product photo, which is permitted here; no inconsistent texture overlay or accidental halo was observed.",
+        "emotion_control": "Only deadline/URL and event date use blue; the restrained household diagram and neutral ground keep the tone approachable and functional. There are no arbitrary badges, numbers or dividers masquerading as information.",
+        "ai_slop": "The graphic is tied to a repairable everyday object, required text is intact, and the line work and reflection marks are coherent. No obvious synthetic lettering or material defect is visible. The close URL/mirror boundary is a located editorial residual rather than proof of authorship."
+      },
+      "residuals": [
+        "At 720 the right end of haram-mend.example/join sits close to the mirror lower-left contour → the action text and illustration have narrow separation → move or slightly scale the illustration to establish a clearer gap without changing the URL."
+      ]
+    },
+    "Q959": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Visual raster review cannot certify the underlying Unicode identity of similar dash glyphs; visible range punctuation matches the supplied typography.",
+          "Actual repair feasibility/mechanics are outside this visible-output review."
+        ],
+        "conditions": [
+          {
+            "requirement": "aspect ratio within 1% of the specified target",
+            "target": "3:4",
+            "actual_width": 1086,
+            "actual_height": 1448,
+            "actual_ratio": 0.75,
+            "relative_error_percent": 0.0,
+            "pass": true
+          },
+          {
+            "requirement": "all supplied copy present unchanged and readable at 720 width",
+            "observed": "14/14 manually transcribed visible matches; no added informational copy found",
+            "pass": true
+          },
+          {
+            "requirement": "application deadline and complete application address easy to find",
+            "observed": "Only red line near bottom includes the deadline and complete URL; both fields read correctly in preflight",
+            "pass": true
+          }
+        ],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true,
+            "location": "top left, large headline",
+            "legible_at_720": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true,
+            "location": "top left, subtitle",
+            "legible_at_720": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true,
+            "location": "information pane, first bold line",
+            "legible_at_720": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true,
+            "location": "information pane, second line",
+            "legible_at_720": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true,
+            "location": "information pane, third bold line",
+            "legible_at_720": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true,
+            "location": "information pane, first small line",
+            "legible_at_720": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true,
+            "location": "information pane, second small line",
+            "legible_at_720": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true,
+            "location": "information pane, third small line",
+            "legible_at_720": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true,
+            "location": "information pane, fourth small line",
+            "legible_at_720": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true,
+            "location": "information pane, fifth small line",
+            "legible_at_720": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true,
+            "location": "information pane, sixth small line",
+            "legible_at_720": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true,
+            "location": "lower pane, separate fee line",
+            "legible_at_720": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true,
+            "location": "lower pane, large red line",
+            "legible_at_720": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true,
+            "location": "bottom pane, final line",
+            "legible_at_720": true
+          }
+        ],
+        "use_readings": {
+          "native": "All required copy and material/outline boundaries inspected in the actual native file.",
+          "usage720": "All 14 supplied items individually readable; required wording, punctuation, numerals and addresses transcribed from this actual view.",
+          "thumbnail320": "Event title and hinge photograph lead; bottom red action line is conspicuous, with smaller dense conditions in between.",
+          "preflight_action_fields": {
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지 신청",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainty": "No uncertain visible character in these four fields; protocol is not displayed in URL.",
+            "saved_record": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-material-initial/reviews/portfolio-action-first.json"
+          }
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 5,
+        "emotion_control": 5,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "The central eyeglass hinge with a screwdriver entering diagonally shows the small, non-electrical repair activity implied by the invitation. The title sits in the quiet upper photographic area, and the plain lower pane carries the actual attendance and handling conditions.",
+        "hierarchy": "At 320 the large event title and repair photo lead, with the red bottom deadline/address standing apart; at 720 the bold date/time/location lead into the smaller terms and fee. All action-first fields were correctly found during preflight, though the long conditions block is denser than the prominent event and application groups.",
+        "typography": "The black title and subtitle form a stable two-line group over the pale photograph; bold date and location structure the lower pane, while red singles out application. The six consecutive smaller terms are legible at 720, including the long completion disclaimer, but could be grouped more clearly by purpose.",
+        "space": "The photo crop places the lens at left, hinge near center and driver/arm diagonals toward the right edge, leaving a clean top area for type. The lower pane has a consistent left margin and uncut URL with a right margin; consecutive terms have less breathing space than the headline/date/action groups.",
+        "image_material": "At native size metal hinge scratches and highlights, dark tortoiseshell frame reflections, clear lens and fine pale work surface remain materially distinct. The driver tip and hinge meet without a conspicuous melted edge, and the light/shadow system reads coherently. This does not certify actual repair mechanics.",
+        "emotion_control": "A recognizable everyday repair photograph, forceful plain black title and one red application line express practical help. The material detail carries interest without decorative effects, and the only strong color has a direct participation role.",
+        "ai_slop": "The hinge-specific photograph and complete operational copy are content-related; native lettering, metal boundaries and lens reflections show no conspicuous synthetic failure. No fake logos or filler text appear. The remaining editorial limitation is the compressed sequence of terms in the lower pane, which is functional but less carefully differentiated than the leading groups."
+      },
+      "residuals": [
+        "The six consecutive condition lines in the lower pane have nearly uniform spacing → handling, repair limits and consent read as one dense block → introduce modest group spacing by purpose while retaining all six sentences and the full red application line."
+      ]
+    }
+  },
+  "sets": {
+    "product": {
+      "members": [
+        "Q513",
+        "Q552"
+      ],
+      "diversity": 3,
+      "closest_pair": {
+        "members": [
+          "Q513",
+          "Q552"
+        ],
+        "score": 3,
+        "evidence": "The only pair differs meaningfully between pale studio two-state demonstration and dark handheld tote context. Both retain photographs of the same green/white object, upper-left sans text and lower-left launch-information stacks; a shared structural habit remains."
+      },
+      "evidence": "Exactly two independent 4:5 posters. Q513 makes expanded/folded states the focal relation and leads with brand/model; Q552 makes a portable folded cup in a hand the focal relation and leads with the Korean benefit. Different light, scale, crop, prop role and first-read emphasis are more than a filter change, while the common left-stacked type and photographic product grammar limit full distributional diversity.",
+      "residuals": [
+        "Both images place launch/order/URL information as a lower-left stack; future differentiation could change that spatial relation while preserving the required content."
+      ],
+      "mandatory_count": {
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      }
+    },
+    "invitation": {
+      "members": [
+        "Q959",
+        "Q405"
+      ],
+      "diversity": 4,
+      "closest_pair": {
+        "members": [
+          "Q959",
+          "Q405"
+        ],
+        "score": 4,
+        "evidence": "The only pair differs between a vertical macro repair photograph with bottom red action line and a square thin-line diagram with top blue action block and two-column information. Shared pale ground and heavy black event type provide some overlap, but the information priority and image roles are substantively different."
+      },
+      "evidence": "Exactly one 3:4 and one 1:1 invitation. Q959 leads with event/photo/date in a vertical sequence; Q405 leads with application and then separates logistics from handling conditions in columns. Photo versus diagram, action placement, crop and page structure differ convincingly. Both keep black bold event text and quiet pale backgrounds, so the set is not maximally separated in typographic/material vocabulary.",
+      "residuals": [
+        "Q405 has a tight URL-to-mirror clearance and Q959 has a compressed condition block; the set-level distinction does not erase these individual residuals."
+      ],
+      "mandatory_count": {
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      }
+    }
+  }
+}

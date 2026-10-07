@@ -1,0 +1,143 @@
+{
+  "role": "T01",
+  "stage": "repair-2",
+  "inspected_at_utc": "2026-10-07T21:29:51.060831+00:00",
+  "inspection_method": "Manual visual inspection of actual native final.png at original detail and actual 720/320 reductions. Own immediate-parent repair-1 final.png was viewed at native detail before the sole edit call. Native returned image was also displayed with generatedImage.",
+  "views": [
+    {
+      "kind": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/repair-2/final.png",
+      "width": 1024,
+      "height": 1536,
+      "detail": "original",
+      "actually_viewed": true,
+      "manual_lines": [
+        "틈으로 들어오는",
+        "빛"
+      ],
+      "observations": "Natural intact Hangul remains readable. The solid black silhouettes look coherent. Very faint pale contour remnants and low-contrast white-field variation remain uncertain."
+    },
+    {
+      "kind": "720_width",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/repair-2/qa-720.png",
+      "width": 720,
+      "height": 1080,
+      "detail": "original",
+      "actually_viewed": true,
+      "manual_lines": [
+        "틈으로 들어오는",
+        "빛"
+      ],
+      "observations": "Full exact phrase is readable without zoom. Same word groups and final 빛 relationship as parent; no added content. Fine contour traces are barely distinguishable at this size."
+    },
+    {
+      "kind": "320_longside",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/repair-2/qa-320.png",
+      "width": 213,
+      "height": 320,
+      "detail": "original",
+      "actually_viewed": true,
+      "manual_lines": [
+        "틈으로 들어오는",
+        "빛"
+      ],
+      "observations": "All words remain identifiable. The internal first-line opening and lower final glyph remain visible; the shallow middle cluster and large outside blank areas are retained."
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "틈으로 들어오는 빛",
+      "transcribed": "틈으로 들어오는 빛",
+      "equal": true,
+      "linebreak_normalization": "Visual lines joined by one space; same two-line reading order as immediate parent."
+    }
+  ],
+  "extra_copy_observed": false,
+  "mandatory_conditions": [
+    {
+      "id": "quantity",
+      "requirement": "Exactly one independent flat poster",
+      "observed": true,
+      "located_evidence": "Exactly one native edit result in this stage. Source, original and final copies share SHA256; they are one output, not three variants."
+    },
+    {
+      "id": "ratio",
+      "requirement": "Portrait 2:3",
+      "observed": true,
+      "located_evidence": "Actual 1024×1536 dimensions reduce exactly to 2:3."
+    },
+    {
+      "id": "copy",
+      "requirement": "Exact phrase in normal Hangul and normal reading order",
+      "observed": true,
+      "located_evidence": "Upper line around x46–982,y604–760 reads 틈으로 들어오는; lower line around x439–582,y778–948 reads 빛. The same complete transcription is readable at actual 720 and 320 views."
+    },
+    {
+      "id": "type_and_whitespace",
+      "requirement": "Only letters and whitespace, no separate image, decoration, symbols or added text",
+      "observed": true,
+      "located_evidence": "Only three required Hangul words and white field are identifiable. No new picture, ray, slash, logo, symbol or extra phrase appears. Short stroke above ㅊ remains part of the normal 빛 glyph. Faint pale contours and background variation are recorded as unresolved finish uncertainty."
+    },
+    {
+      "id": "word_groups",
+      "requirement": "Intact word groups and internal opening relationship retained in finish-only correction",
+      "observed": true,
+      "located_evidence": "The complete 틈으로 and 들어오는 share an upper baseline separated by a white word gap; the complete 빛 remains immediately beneath that gap region. The placement relation matches the parent by visual comparison, without exact preservation claim."
+    }
+  ],
+  "assigned_finish_change_check": {
+    "solid_black_silhouettes": "Coherent single actual glyph shapes and darker, more uniform fills observed. No altered character or extra dark stroke observed.",
+    "duplicate_contour_removal": "Not fully certified. Very faint pale parallel/rectangular traces can still be suspected above 들 and left of 빛 at native view.",
+    "clean_white_field": "Not fully certified. Very low-contrast mottling remains visible in the native white field.",
+    "scope_preservation": "Main word groups, glyph structure, reading order and space relationship visually retained. No large geometry redesign observed; exact pixel preservation is not claimed."
+  },
+  "retained_defects_uncertainties": [
+    {
+      "location": "Above 들 near x540–624,y602–609 and left of 빛 near x435–439,y783–858, manual estimates",
+      "observation": "Extremely faint light parallel/edge traces remain possible, rather than confidently absent.",
+      "impact": "The finish correction cannot be self-certified as completely removing the previous duplicate-contour issue; independent native review is needed."
+    },
+    {
+      "location": "Whole white field, especially large top/bottom areas at native size",
+      "observation": "Very low-contrast mottling remains.",
+      "impact": "A perfectly uniform white field was requested internally but not fully verified in the returned image."
+    },
+    {
+      "location": "Gap between 로 and 들 and lower 빛",
+      "observation": "The previously observed mismatch between gap centre/width and final glyph remains as part of preserved parent geometry.",
+      "impact": "Meaning of the internal entry relation remains a visual judgment, not a newly fixed composition claim."
+    }
+  ],
+  "parent_comparison_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/repair-2/parent-comparison.json",
+  "source_scope": {
+    "new_task_sources_read": [
+      "planning/T01-repair-2-plan.json",
+      "planning/packets/T01.json"
+    ],
+    "frozen_six_skill_files_previously_read_and_applied": [
+      "candidate-g-skill/SKILL.md",
+      "candidate-g-skill/agents/openai.yaml",
+      "candidate-g-skill/references/art-direction.md",
+      "candidate-g-skill/references/evaluation-loop.md",
+      "candidate-g-skill/references/visual-research.md",
+      "candidate-g-skill/references/parallel-production.md"
+    ],
+    "only_image_reference": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-g/production/T01/repair-1/final.png",
+    "other_maker_outputs_read": false,
+    "review_files_read": false,
+    "external_research_performed": false
+  },
+  "production_status": {
+    "native_call_count_this_stage": 1,
+    "role_cumulative_native_call_count": 3,
+    "own_correction_number": 2,
+    "own_maximum_corrections_including_regeneration": 2,
+    "additional_self_repair": false,
+    "no_further_native_call_authorized": true,
+    "native_bytes_preserved": true,
+    "code_image_operations": "Exact byte copies, dimension/hash reading and only the actual 720/320 QA reductions."
+  },
+  "operational_notes": [
+    "Native source-path view_image previews displayed white strips despite original detail. The generated native image was visible and a subsequent original-detail view of the byte-identical saved final.png displayed the full image. Both actual QA views displayed correctly. One attempted display MIME normalization changed only the data URL MIME label, not source or pixel bytes. No retry generation or hidden image editing occurred."
+  ]
+}

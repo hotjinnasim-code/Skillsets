@@ -1,0 +1,49 @@
+{
+  "timestamp_utc": "2026-10-07T19:33:02.894573+00:00",
+  "status": "PASS",
+  "scope": "Recorded metadata/native bytes only; no visual/copy/authorship/print/maximum-size quality certification. One-second start precision allowance for mtime; not exhaustive tool history.",
+  "recorded_calls": 3,
+  "phase_cap": 6,
+  "historical_closed_calls": 95,
+  "whole_recorded_history": null,
+  "cross_phase_note": "This validator counts E only; D corrections and whole history are in combined ledger",
+  "recorded_peak_native_interval_overlap": 1,
+  "logical_default_garden_makers": 5,
+  "errors": [],
+  "missing": [],
+  "records": [
+    {
+      "role": "G01",
+      "stage": "initial",
+      "manifest": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/production/G01/initial/manifest.json",
+      "manifest_sha256": "87198e47011cd62a78897dff5a973ae89129686542eb74177baf4d2c436002ae",
+      "native_sha256": "9e10d0f35613229bc1681d501fb82a47466e3a55b9d46f86e04f709e5e40119a",
+      "width": 1024,
+      "height": 1536,
+      "start": 1791401051.0,
+      "end": 1791401104.0
+    },
+    {
+      "role": "H02",
+      "stage": "initial",
+      "manifest": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/production/H02/initial/manifest.json",
+      "manifest_sha256": "6c70f82ef31248681882ed9ac24307aaa9a174146bf96d3bae508905ba1696e2",
+      "native_sha256": "1aabe67c2445bd8f0d2133faa452cffd7ef35d10c26813ad4d4710874c3cd08a",
+      "width": 1254,
+      "height": 1254,
+      "start": 1791400952.348477,
+      "end": 1791401012.166639
+    },
+    {
+      "role": "H02",
+      "stage": "repair-1",
+      "manifest": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-e/production/H02/repair-1/manifest.json",
+      "manifest_sha256": "92f15667cb864ea0b0a33f968988435c76302ecd6435022fda7147e6e1774ea2",
+      "native_sha256": "67b8bdecb8ddbf44fe72abe6a744fa5969fc534a27a914e31bb8207e4a856cfc",
+      "width": 1254,
+      "height": 1254,
+      "start": 1791401346.166891,
+      "end": 1791401408.259834
+    }
+  ]
+}

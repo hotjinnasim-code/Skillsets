@@ -1,0 +1,226 @@
+{
+  "role": "P01",
+  "stage": "repair-2",
+  "native_call_count": 1,
+  "own_correction_number": 2,
+  "own_maximum_corrections_including_regeneration": 2,
+  "phase_native_call_cap_unchanged": 6,
+  "original_plus_own_native_call_count": 3,
+  "no_further_P01_native_calls": true,
+  "extra_native_calls": 0,
+  "inspection_kind": "Manual maker evidence with residuals; no reviewer score or visual-quality certification.",
+  "source_scope": {
+    "plan_read": "planning/P01-repair-2-plan.json",
+    "sole_reference": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-1/final.png",
+    "source_sha256": "a6c12249bb8eeeeba385a2f8dd01db25694faa7a626e6babfb630c688095e72d",
+    "source_actually_viewed_before_reference": true,
+    "full_seven_copy_conditions": "Preserved from own previously read full packet and included in exact call input.",
+    "frozen_F_six_files": "Already fully read in same maker lineage and kept unchanged; applied throughout.",
+    "prior_D_E_image_prompt_review_reference": false,
+    "other_maker_image_prompt_reference": false,
+    "closed_review_files_read": false,
+    "additional_reference_paths": []
+  },
+  "views": [
+    {
+      "kind": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-2/original.png",
+      "width": 1122,
+      "height": 1402,
+      "actually_viewed": true,
+      "method": "Native generated result and tools.view_image(high), together with immediate parent native.",
+      "observations": "Full seven-item copy transcription and Korean/Latin/number glyphs inspected; rim/ribs/lid edges and contact shadows compared."
+    },
+    {
+      "kind": "720-width",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-2/qa-720.png",
+      "width": 720,
+      "height": 900,
+      "actually_viewed": true,
+      "method": "Actual Pillow LANCZOS reduction viewed with tools.view_image.",
+      "observations": "All seven copy items readable. Small FOLN is grouped directly above two-line name; right explanation and operations read along one near-common axis with reduced group gap."
+    },
+    {
+      "kind": "320-longside",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-2/qa-320.png",
+      "width": 256,
+      "height": 320,
+      "actually_viewed": true,
+      "method": "Actual Pillow LANCZOS reduction viewed with tools.view_image.",
+      "observations": "Name plus expanded/folded states remain clear. Right group reads as a unified column, but exact small Korean glyph checks require 720/native."
+    }
+  ],
+  "copy_check": [
+    {
+      "required": "FOLN",
+      "transcribed": "FOLN",
+      "equal": true,
+      "evidence": "Small word immediately above Fold; original isolated bottom-left FOLN removed.",
+      "glyph_observation": "Uppercase F O L N intact, one instance only."
+    },
+    {
+      "required": "Fold Cup",
+      "transcribed": "Fold Cup",
+      "equal": true,
+      "displayed_line_breaks": [
+        "Fold",
+        "Cup"
+      ],
+      "layout_authorized": true,
+      "evidence": "Current two-line name between states retained; ordinary glyph proportions and clearance from folded lid.",
+      "glyph_observation": "Words/case preserved; line break replaces inter-word display spacing per authorized plan."
+    },
+    {
+      "required": "가볍게 접고, 다시 펼치다",
+      "transcribed": "가볍게 접고, 다시 펼치다",
+      "equal": true,
+      "evidence": "Right-side promise in one complete line beside compact form.",
+      "glyph_observation": "All Korean syllables and comma after 고 clear; no clipping."
+    },
+    {
+      "required": "350 mL · 접이식 실리콘 컵",
+      "transcribed": "350 mL · 접이식 실리콘 컵",
+      "equal": true,
+      "evidence": "Complete line below promise; 350/mL space, lowercase m uppercase L and middle dot visible.",
+      "glyph_observation": "Korean material words intact and readable at 720."
+    },
+    {
+      "required": "2026.12.01 RELEASE",
+      "transcribed": "2026.12.01 RELEASE",
+      "equal": true,
+      "evidence": "First line of connected operational group; two periods and uppercase RELEASE clear.",
+      "glyph_observation": "No added punctuation or number."
+    },
+    {
+      "required": "온라인 사전 주문 11.10–11.30",
+      "transcribed": "온라인 사전 주문 11.10–11.30",
+      "equal": true,
+      "evidence": "Second operational line; supplied dates joined by visible en-dash-like separator without apparent extra spaces.",
+      "glyph_observation": "Words, numbers and two date periods preserved. Raster cannot establish encoded codepoint but visual separator is consistent with required en dash."
+    },
+    {
+      "required": "foln.example/store",
+      "transcribed": "foln.example/store",
+      "equal": true,
+      "evidence": "Final right-column line, lowercase URL with period and slash.",
+      "glyph_observation": "All characters visible, no nearby fake microtext."
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "id": "P-count-and-ratio",
+      "status": "one_flat_result; exact_ratio_deviation_retained",
+      "located_evidence": "One own repair file at 1122×1402. Portrait near 4:5, but 1122*5=5610 vs 1402*4=5608.",
+      "limitation": "No native output crop/pad/resize; total two-image set managed by coordinator."
+    },
+    {
+      "id": "P-mixed-copy",
+      "status": "manual_visual_match_all_seven",
+      "located_evidence": "Native and 720 visual transcription.",
+      "limitation": "Fold/Cup authorized two-line display; encoded Unicode not measurable from raster."
+    },
+    {
+      "id": "P-product-photograph",
+      "status": "observed",
+      "located_evidence": "Dark green handleless expanded and shallow folded silicone cups, milky translucent white lids, coherent rims/ribs/soft ground contacts.",
+      "limitation": "350 mL supported only by copy, not pixels. Interior base and leaned-lid contact partly obscured."
+    },
+    {
+      "id": "P-no-real-logo-or-label",
+      "status": "observed",
+      "located_evidence": "Entire ground, bodies, lids and interior inspected; only supplied seven copy items seen, FOLN only on ground."
+    },
+    {
+      "id": "P-integrated-composition",
+      "status": "own_grouping_relationship_observed",
+      "located_evidence": "Brand/name now one group, shallow form beside promise/spec, right orders near same start-axis and shortened gap.",
+      "limitation": "Few-pixel optical first-edge variations remain; own maker has not inspected partner final, so set diversity not certified."
+    }
+  ],
+  "typography_and_space_observations": [
+    "FOLN now participates in the Fold/Cup naming group instead of functioning as an isolated lower-left sign.",
+    "Right explanation and action copy are closer and linked by a near-common optical axis.",
+    "Promise/spec are shifted slightly downward, while action copy moves upward; no overlap with compact cup.",
+    "Actual first visible glyph edges differ slightly, so an exact geometric axis is not claimed.",
+    "Large lower-left blank ground remains below the compact form; no extra effect or decoration added."
+  ],
+  "material_and_structure_check": [
+    {
+      "surface": "Dark green silicone",
+      "evidence": "Same open/collapsed forms and soft matte curved gradients; major contours/rib joins retain coherence.",
+      "residual": "Fine surface character visually similar to immediate parent, exact microdetail preservation uncertain."
+    },
+    {
+      "surface": "Translucent white lids",
+      "evidence": "Same milky centers, smooth white rims, diffuse green-gray transmission and leaned/seated states.",
+      "residual": "Occluded leaned-lid support and fine-detail differences remain uncertain."
+    },
+    {
+      "surface": "Pale photographic ground/light",
+      "evidence": "Soft upper-left lighting, down/right shadows, restrained pale tonal falloff.",
+      "residual": "Reconstructed ground beneath removed text; inherited fine ground grain remains."
+    }
+  ],
+  "preservation_inspection": {
+    "comparison_source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-1/original.png",
+    "comparison_result": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/continuation-f/production/P01/repair-2/original.png",
+    "both_native_files_actually_viewed": true,
+    "method": "Immediate parent viewed before call; full native parent and repair-2 emitted together after call and compared manually outside intended typography areas.",
+    "intended_changes": "FOLN moved next to Fold/Cup naming group; right promise/spec/date/preorder/URL share an optical start axis and shorter inter-group gap. No photo edit intended.",
+    "outside_text_comparison": [
+      {
+        "region": "Upright open cup upper right",
+        "parent": "Rim begins near y138, base near y626, dark green matte exterior, dark deep interior and coherent nested ribs.",
+        "result": "Rim/base and diameter remain visually at the same positions. Interior mouth and all major fold boundaries remain coherent.",
+        "change_observed": "No large relocation, silhouette break, exposure jump or new texture pattern detected. Small tone/detail differences cannot be excluded by manual full-file comparison.",
+        "material_residual": "Restrained fine detail remains; exact preservation of individual surface marks not established."
+      },
+      {
+        "region": "Removed white lid behind upright cup",
+        "parent": "Milky translucent white oval leaned at rear right with brighter white perimeter and softer face.",
+        "result": "Same leaned orientation and apparent contact, edge location and diffuse highlight behavior.",
+        "change_observed": "No new obvious physical/material regression detected. Support contact remains partly occluded in both.",
+        "material_residual": "Fine edge/transmission differences below manual discrimination not certified."
+      },
+      {
+        "region": "Folded cup and seated lid lower left",
+        "parent": "Compact state spans approximately x109–620,y604–944 with nested dark green ribs and seated milky white lid.",
+        "result": "Same approximate extents and shallow silhouette; unlike correction1, no visible major downward/upward displacement in this edit.",
+        "change_observed": "No large movement or fold/contact contradiction detected. Lid/rib broad highlights remain similar. Exact pixels and microdetail are not asserted identical.",
+        "material_residual": "Pale seated lid center and lit silicone still carry very fine low-contrast detail; small softness differences uncertain."
+      },
+      {
+        "region": "Photographic ground and shadows",
+        "parent": "Pale gray falloff, fine ground detail, down/right soft shadows and darker cup contact cores.",
+        "result": "Broad falloff/contact shadows retained visually; old FOLN and order lettering regions now clean ground.",
+        "change_observed": "Ground reconstruction exists where old text was removed. No obvious new all-over grain effect or shadow-direction change found.",
+        "material_residual": "Pervasive fine ground grain remains inherited. Its distinction from lid/body microdetail is not independently certified."
+      }
+    ],
+    "photographic_regression_detected": "No large new photo/material regression was visible against immediate parent at full native view. This is a limited manual observation, not exact pixel preservation.",
+    "text_and_space_deviations": [
+      "Promise/spec shifted down by roughly 20 native pixels while operations moved up roughly 100; wide break is reduced.",
+      "Right first visible glyph edges cluster near the same x-axis but appear to differ by a few native pixels; the requested exact visible start axis is not mathematically demonstrated.",
+      "Fold/Cup's current broad position/scale is retained; minor glyph baseline shifts cannot be excluded."
+    ],
+    "pixel_exact_preservation_claimed": false,
+    "initial_comparison_used_for_this_edit": false
+  },
+  "retained_defects_uncertainties": [
+    "Native 1122×1402 remains near, not exactly, 4:5.",
+    "Right first visible glyph edges retain a few-pixel optical offset; exact true start-axis attainment not certified.",
+    "Photograph appears preserved against immediate parent in major shape/location/light, but exact pixels, microdetail and small tone changes are not proven unchanged.",
+    "Large lower-left blank field and very small 320-view essential copy remain.",
+    "Some interior/lid contact details are obscured; no capacity measurement, maximum-resolution guarantee or print-readiness claim."
+  ],
+  "file_preservation": {
+    "returned_tool_source_original_final_identical_bytes": true,
+    "immediate_parent_pixel_preservation_claimed": false,
+    "no_code_composite_or_native_resize": true,
+    "pillow_only_actual_QA_reductions": true
+  },
+  "self_retry_performed": false,
+  "further_native_calls_performed": false,
+  "lineage_exhausted": true,
+  "inspection_completed_at_utc": "2026-10-07T21:04:50.215273+00:00"
+}

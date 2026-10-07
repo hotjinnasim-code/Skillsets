@@ -1,0 +1,858 @@
+{
+  "reviewer": "craft",
+  "method": {
+    "preflight_before_copy": "Read only review-protocol.md and action-first.json; actually viewed X770-usage720.png and X943-usage720.png; saved reviews/craft-action-first.json and successfully read it back before opening packet.json. The preflight has not been rewritten.",
+    "viewing": "Actually called view_image for all nine native, usage720 and thumbnail320 files, totaling 27 distinct paths. The two preflight 720 views were also revisited after the full packet was opened.",
+    "manual_transcription": "Manually read every one of the 47 mandatory items from the displayed poster images. No OCR, image text extraction, production file, source, planning document, mapping, prompt, history or peer report was inspected. Observed transcription normalizes designed line breaks to spaces; punctuation is visually read, not claimed to be recovered as encoded Unicode.",
+    "scoring": "Unchanged seven integer anchors and unchanged AI-slop criteria from review-protocol.md. No desired target, consensus score or style preference was applied. Scores remain this reviewer’s independent observations.",
+    "limits": "Pixels do not measure capacity, physical folding/repair mechanics, actual authorship or print suitability. Familiar photographs, calligraphic text, texture, flat shapes and line drawing are judged on their own visible finish and relationships."
+  },
+  "viewed": [
+    {
+      "image_id": "X800",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X800-native.png"
+    },
+    {
+      "image_id": "X800",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X800-usage720.png"
+    },
+    {
+      "image_id": "X800",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X800-thumbnail320.png"
+    },
+    {
+      "image_id": "X738",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X738-native.png"
+    },
+    {
+      "image_id": "X738",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X738-usage720.png"
+    },
+    {
+      "image_id": "X738",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X738-thumbnail320.png"
+    },
+    {
+      "image_id": "X847",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X847-native.png"
+    },
+    {
+      "image_id": "X847",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X847-usage720.png"
+    },
+    {
+      "image_id": "X847",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X847-thumbnail320.png"
+    },
+    {
+      "image_id": "X641",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X641-native.png"
+    },
+    {
+      "image_id": "X641",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X641-usage720.png"
+    },
+    {
+      "image_id": "X641",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X641-thumbnail320.png"
+    },
+    {
+      "image_id": "X300",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X300-native.png"
+    },
+    {
+      "image_id": "X300",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X300-usage720.png"
+    },
+    {
+      "image_id": "X300",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X300-thumbnail320.png"
+    },
+    {
+      "image_id": "X943",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X943-native.png"
+    },
+    {
+      "image_id": "X943",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X943-usage720.png"
+    },
+    {
+      "image_id": "X943",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X943-thumbnail320.png"
+    },
+    {
+      "image_id": "X762",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X762-native.png"
+    },
+    {
+      "image_id": "X762",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X762-usage720.png"
+    },
+    {
+      "image_id": "X762",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X762-thumbnail320.png"
+    },
+    {
+      "image_id": "X770",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X770-native.png"
+    },
+    {
+      "image_id": "X770",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X770-usage720.png"
+    },
+    {
+      "image_id": "X770",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X770-thumbnail320.png"
+    },
+    {
+      "image_id": "X340",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X340-native.png"
+    },
+    {
+      "image_id": "X340",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X340-usage720.png"
+    },
+    {
+      "image_id": "X340",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X340-thumbnail320.png"
+    }
+  ],
+  "images": {
+    "X800": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Actual capacity and folding mechanics cannot be verified from pixels; observed forms and copy meet the visible conditions."
+        ],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1122,
+            "actual_height": 1402,
+            "target": "4:5",
+            "relative_error_percent": 0.03566333808843747,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "product_conditions": {
+            "photo_like": true,
+            "handle_absent": true,
+            "dark_green_body": true,
+            "translucent_white_lid": true,
+            "printed_surface_text_absent": true,
+            "real_brand_logo_observed": false,
+            "350mL_physical_capacity": "Not measurable from pixels; printed 350 mL matches required copy."
+          }
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 3,
+        "emotion_control": 4,
+        "ai_slop": 3
+      },
+      "evidence": {
+        "content_form": "Upper-right Fold Cup and two lower cup forms connect the fold/unfold claim to a tall state at left and a compact state at right. The concept is product-specific rather than decorative.",
+        "hierarchy": "At 320 the right upper headline and tall cup establish the subject; at 720 the lower-right FOLN, release, order dates and URL form an accessible second stop. FOLN remains subordinate to the product name.",
+        "typography": "Upper-right bold Latin and two Korean slogan lines align with the smaller specification; lower-right release lines share a clear left edge. Heavy title and regular URL are controlled, although the upper headline is visually much louder than the launch information.",
+        "space": "Tall cup occupies the lower-left two-thirds, compact cup fits under the right headline, and both bottoms share a convincing surface. The generous empty top-left is balanced by the large left object, while the right column keeps an intact margin.",
+        "image_material": "Native: translucent lids have separate rim highlights and the dark green bodies have clear ridges and grounded contact shadows. But fine curling, almost etched grain covers the green body and a similarly busy tabletop; the silicone surface looks more intricately patterned than its overall matte shading predicts.",
+        "emotion_control": "Soft light in upper-left and quiet green background support the light, portable product claim without extraneous props. The rendering stays calm, with the two physical states doing the explanatory work.",
+        "ai_slop": "Native green body and tabletop microtexture contain dense short curling marks; the otherwise coherent studio photograph is weakened by that finish uncertainty. This is a located surface concern, not a claim about who made the image; no fake logo or printed text appears on the cups."
+      },
+      "residuals": [
+        "Native green-body curling microtexture and similarly busy tabletop marks weaken the distinction between molded matte silicone and surface finish. Inspect/reduce those local patterns while retaining lid highlights and cup edges. Whether the body grain is an intentional molded texture is uncertain."
+      ]
+    },
+    "X738": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "밤에 피는 정원",
+            "observed": "밤에 피는 정원",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1024,
+            "actual_height": 1536,
+            "target": "2:3",
+            "relative_error_percent": 0.0,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "extra_copy": "Only 밤에 피는 정원 is visible; no added label, number, logo or microcopy."
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 5,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "Across all three rows the pale title glyphs themselves become garden beds: stems and flowers occupy counters and narrow spaces between strokes. Night is conveyed by the dark purple ground, tying the principal choices to the exact title.",
+        "hierarchy": "At 320 the huge pale three-row title remains the first and complete reading. At 720 the many small plant details add secondary discovery without competing with the title silhouette.",
+        "typography": "Broad rounded pale glyphs have consistent stroke mass and readable counters. Their floral infill relates to the letters, but the dense perimeter planting makes some inter-glyph gaps feel uniformly crowded rather than individually tuned.",
+        "space": "Three title rows keep a coherent vertical rhythm; plants stop or wrap at letter contours and the outer dark border remains visible. The foliage halo pushes closest to the edges at upper-left and lower-right but avoids cropping the words.",
+        "image_material": "Native: pale faintly cracked slabs, dark recess outlines and flat shaded botanical pieces sustain a relief/illustration language. Buds, blossoms and leaf clusters are finely separated; the nearly continuous little leaf halo can feel like repeated decorative fill.",
+        "emotion_control": "Small pink/purple blooms against green and a dark ground establish a quiet night garden while the monumental letters retain energy. Detail is dense but has a stable role around and within the title.",
+        "ai_slop": "No pseudo-text or malformed Korean stroke is apparent. The letter-counter gardens are specific editing; repeated rounded foliage clusters around the outside preserve a minor ornamental-pattern habit rather than a material break."
+      },
+      "residuals": [
+        "Minor: repeated small leaf clusters around much of the title perimeter make some gaps feel like continuous ornament; tune a few inter-glyph clearances and perimeter densities rather than adding effects."
+      ]
+    },
+    "X847": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Actual capacity and folding mechanics cannot be verified from pixels; observed forms and copy meet the visible conditions."
+        ],
+        "transcription": [
+          {
+            "required": "FOLN",
+            "observed": "FOLN",
+            "equal": true
+          },
+          {
+            "required": "Fold Cup",
+            "observed": "Fold Cup",
+            "equal": true
+          },
+          {
+            "required": "가볍게 접고, 다시 펼치다",
+            "observed": "가볍게 접고, 다시 펼치다",
+            "equal": true
+          },
+          {
+            "required": "350 mL · 접이식 실리콘 컵",
+            "observed": "350 mL · 접이식 실리콘 컵",
+            "equal": true
+          },
+          {
+            "required": "2026.12.01 RELEASE",
+            "observed": "2026.12.01 RELEASE",
+            "equal": true
+          },
+          {
+            "required": "온라인 사전 주문 11.10–11.30",
+            "observed": "온라인 사전 주문 11.10–11.30",
+            "equal": true
+          },
+          {
+            "required": "foln.example/store",
+            "observed": "foln.example/store",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1122,
+            "actual_height": 1402,
+            "target": "4:5",
+            "relative_error_percent": 0.03566333808843747,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "product_conditions": {
+            "photo_like": true,
+            "handle_absent": true,
+            "dark_green_body": true,
+            "translucent_white_lid": true,
+            "printed_surface_text_absent": true,
+            "real_brand_logo_observed": false,
+            "350mL_physical_capacity": "Not measurable from pixels; printed 350 mL matches required copy."
+          }
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "Center-right hand holds the compact cup over a bag opening, directly giving the fold/portability slogan a use situation; the bottom specification identifies the product.",
+        "hierarchy": "At 320 the upper-left Korean slogan and held cup are immediately apparent; at 720 the small FOLN/Fold Cup and lower specification, release/order dates and URL are clearly readable in descending groups.",
+        "typography": "Upper-left two-line slogan has uniform, open Korean strokes; the small Latin identifier above and lighter technical copy below repeat a common left edge. Lower groups have sensible line spacing despite being divided by fairly large gaps.",
+        "space": "The diagonal arm from upper-right leads to the centered cup, while the bag opens across the lower half. Text stays on the quieter left/backdrop and dark front fabric, with neither hand nor rim interrupting the type.",
+        "image_material": "Native: fingers, thumbnail, white translucent lid edge, matte green ridges and woven charcoal bag have distinct surfaces and consistent light. The exposed fingertips support the cup; no conspicuous fused finger or melting rim is visible. Hidden construction and capacity remain untestable.",
+        "emotion_control": "White type over subdued dark textile and a single carrying action make the tone practical. The bag texture is strong but serves the portability context rather than accumulating decorative effects.",
+        "ai_slop": "Hand/cup contact and bag rim remain coherent at native scale, and the cup is unmarked. The familiar lifestyle-photo arrangement leaves a conventional editorial habit, but no specific glaring compositing or glyph defect is visible."
+      },
+      "residuals": [
+        "Minor: lower technical/launch/URL groups have generous uneven vertical gaps; tighten their grouping slightly if more immediate launch reading is desired. No concrete glyph or image anomaly was found."
+      ]
+    },
+    "X641": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "밤에 피는 정원",
+            "observed": "밤에 피는 정원",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1024,
+            "actual_height": 1536,
+            "target": "2:3",
+            "relative_error_percent": 0.0,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "extra_copy": "Only 밤에 피는 정원 is visible; no added label, number, logo or microcopy."
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 5,
+        "emotion_control": 5,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "Large white bloom opens out of a genuinely dark leafy environment; black words use its lit petals, while the smaller cream 밤에 rests on darkness at left. The content and contrast are directly related.",
+        "hierarchy": "At 320 the luminous flower is the first visual stop and the three title chunks remain readable. At 720 the left 밤에 to centered 피는 to lower 정원 sequence is usable, though the smaller detached 밤에 slightly slows the complete phrase.",
+        "typography": "Calligraphic black 피는/정원 and cream 밤에 keep legible, consistent Korean forms. Black type is placed on sufficiently light petals, but the first word is a different size and color and separated by a considerable lateral gap.",
+        "space": "Flower center is cropped to the right, broad petals provide the light typing area, and dark leaves anchor upper-left and left edge. The type follows available contrast without tangling with the fine stamens.",
+        "image_material": "Native: petal veins, creased translucent highlights, pollen heads and wet-looking leaf reflections stay distinct and plausible under one cool light direction. Edges and fine stamens remain crisp where in focus; no conspicuous synthesis seam was found.",
+        "emotion_control": "Dark foliage and the single opening luminous blossom give the title a precise nocturnal mood. The image has one dominant event and the type adds no separate effect stack.",
+        "ai_slop": "The crop and light/dark text placement are tailored to this bloom, with clean glyphs and no decorative microcopy. A familiar macro-flower editorial format remains, but it is coherent and no located strong composite defect is visible."
+      },
+      "residuals": [
+        "Minor: the smaller cream 밤에 is laterally detached from the larger black 피는 정원, slowing the full phrase. Slightly closer optical spacing could strengthen the phrase while retaining the contrast-based placement."
+      ]
+    },
+    "X300": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "밤에 피는 정원",
+            "observed": "밤에 피는 정원",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1024,
+            "actual_height": 1536,
+            "target": "2:3",
+            "relative_error_percent": 0.0,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "extra_copy": "Only 밤에 피는 정원 is visible; no added label, number, logo or microcopy."
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 5,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "The dark garden path carries 밤에, 피는 and 정원 sequentially down the image. White open blooms and buds line that route, connecting word order, spatial movement and the night garden idea.",
+        "hierarchy": "At 320 the pale title chunks remain clear against the open path and read downward; at 720 the illustration supports the same route. Long separations between chunks ask for a slower phrase reading than a single text block.",
+        "typography": "Three cream calligraphic chunks share a compatible stroke character and avoid noisy plant edges. Their varying horizontal positions follow the path rather than a strict grid; all syllables are clear, including the tight 정원 pair lower-right.",
+        "space": "The path bends from upper-left toward lower-right, plants and rocks make credible boundaries, and blossoms crop at the side edges. The title occupies the deliberate corridor of dark negative space, so the dense garden does not suffocate the lettering.",
+        "image_material": "Native illustrated petal shading, leaf veins, stones and soil all retain the same painterly depth. Fine small starflower sprays repeat along both sides and can look decorative, but the illustration does not confuse flat type with physical material.",
+        "emotion_control": "Dark blue-green foliage and bright white night blooms keep a consistent evening mood. The detailed border is substantial, yet the open path restrains the visual accumulation and supplies a clear role for it.",
+        "ai_slop": "No malformed title glyph or pseudo-label is present. The pathway editing is subject-specific; the recurrent similar little white starflower sprays near both edges and lower path leave a conventional botanical-fill habit."
+      },
+      "residuals": [
+        "Minor: repeated tiny white starflower sprays along the edge and path read as botanical fill. Selectively vary or remove the less purposeful repeats while preserving the title corridor."
+      ]
+    },
+    "X943": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Deadline year is not printed beside deadline; no URL protocol is printed."
+        ],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1254,
+            "actual_height": 1254,
+            "target": "1:1",
+            "relative_error_percent": 0.0,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "action_first_unchanged": {
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지 신청:",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainties": [
+              "Deadline year is not printed beside deadline; no URL protocol is printed."
+            ],
+            "viewed_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X943-usage720.png"
+          },
+          "action_findability_720": "Deadline and complete address both read without supplied copy in the saved preflight; location and event date also read clearly."
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 5,
+        "typography": 4,
+        "space": 3,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "Top-right tabletop mirror being worked on by a screwdriver supplies a specific household-repair example; blue application copy is the main invitation mechanism and practical terms occupy two columns.",
+        "hierarchy": "At 320 the deadline and full address lead unmistakably; at 720 the blue event date, location/capacity/fee and right-column conditions read naturally below the black event title. The required action is very easy to find before full reading.",
+        "typography": "Blue bold application lines, black bold title and regular body sizes establish a clean weight system. The long URL stays intact and every required body line is legible at 720. Copy columns have consistent left edges and grouped spacing.",
+        "space": "Native and 720: the trailing join of the oversized blue URL approaches the mirror lower-left outline closely; the top graphic and address band are cramped compared with the generous lower-column spacing. Nothing is unreadable, but this small relationship is less resolved than the larger grid.",
+        "image_material": "Native mirror ellipse, base and screwdriver have consistent black line rendering and distinct overlapping joints. Slight multiple rim contours read as a sketch construction, with no conspicuous melted tool or incoherent surface effect; actual assembly cannot be certified from pixels.",
+        "emotion_control": "Blue gives urgency specifically to application and event date, while the spare diagram conveys the repair setting. The graphic has a clear role and the practical conditions do not acquire arbitrary decorative emphasis.",
+        "ai_slop": "The diagram is related to repair and no invented microcopy or logo is present. Clean Korean strokes and coherent line drawing avoid strong synthesis artifacts; the tight URL/contour relationship is a located editing residual, rather than a style-based penalty."
+      },
+      "residuals": [
+        "The trailing join in the blue address is close to the mirror lower-left outline. Shift the diagram or adjust the address-band spacing to give the complete URL a visibly safer buffer while keeping it large."
+      ]
+    },
+    "X762": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "밤에 피는 정원",
+            "observed": "밤에 피는 정원",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1024,
+            "actual_height": 1536,
+            "target": "2:3",
+            "relative_error_percent": 0.0,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "extra_copy": "Only 밤에 피는 정원 is visible; no added label, number, logo or microcopy."
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "Top bud, middle opening flower and large bottom bloom create an explicit blooming progression. 밤에, 피는 and 정원 are assigned to those stages, with the last word held in the open flower center.",
+        "hierarchy": "At 320 the bottom bloom is largest but the top-to-bottom three-word sequence remains immediately readable; at 720 the intermediate stage and its word are unambiguous. Growth in picture and type size supports the progression.",
+        "typography": "Cream calligraphic words echo the soft irregular petal edges; 정원 fits inside the lower flower opening. 피는 has only a narrow breathing interval beneath the middle bloom and above the upper tips of the bottom bloom, making that transition more compressed than the other ones.",
+        "space": "Centered stages increase in size and spread to the side margins at the bottom. The lower bloom has intact edge clearance, while the top bud receives much more surrounding dark space; the center transition is the tightest spatial relationship.",
+        "image_material": "Native salmon/cream petals and olive sepals have gentle paper-like grain and clean, deliberately irregular cut boundaries. The background stays flat navy rather than carrying the same texture indiscriminately. The floral anatomy is stylized, not a physical bloom claim.",
+        "emotion_control": "The restricted palette and three repeated but changing floral stages have clear jobs. The result is warm and graphic against night blue; neither sparse treatment nor paper appearance alone is treated as a quality guarantee.",
+        "ai_slop": "No accidental glowing fringe, fake fine text or malformed glyph is apparent. The size/stage/word relationship is specific enough to resist a generic flower-label package, though the three centered stations remain a familiar poster rhythm."
+      },
+      "residuals": [
+        "At the middle 피는, the gap beneath the middle bloom and above lower petal tips is tighter than the other stage intervals. Give that word a little more breathing room without breaking the growing-stage idea."
+      ]
+    },
+    "X770": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [
+          "Deadline year is not printed beside deadline; no URL protocol is printed."
+        ],
+        "transcription": [
+          {
+            "required": "고쳐 쓰는 토요일",
+            "observed": "고쳐 쓰는 토요일",
+            "equal": true
+          },
+          {
+            "required": "이웃 수리 작업실 참여자 모집",
+            "observed": "이웃 수리 작업실 참여자 모집",
+            "equal": true
+          },
+          {
+            "required": "2026년 12월 5일 토요일",
+            "observed": "2026년 12월 5일 토요일",
+            "equal": true
+          },
+          {
+            "required": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "observed": "오후 2시–5시 · 입장은 오후 1시 40분부터",
+            "equal": true
+          },
+          {
+            "required": "하람시 잇는집 2층 · 수선길 12",
+            "observed": "하람시 잇는집 2층 · 수선길 12",
+            "equal": true
+          },
+          {
+            "required": "대상: 만 16세 이상 · 회차별 12명",
+            "observed": "대상: 만 16세 이상 · 회차별 12명",
+            "equal": true
+          },
+          {
+            "required": "작은 생활용품 한 점을 가져와 주세요.",
+            "observed": "작은 생활용품 한 점을 가져와 주세요.",
+            "equal": true
+          },
+          {
+            "required": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "observed": "전기·배터리 제품과 위험한 물건은 받지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "observed": "도구는 제공하며 부품 비용은 현장에서 안내합니다.",
+            "equal": true
+          },
+          {
+            "required": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "observed": "수리 여부는 상태 확인 후 결정하며 완성을 보장하지 않습니다.",
+            "equal": true
+          },
+          {
+            "required": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "observed": "촬영은 동의한 참여자에 한해 진행합니다.",
+            "equal": true
+          },
+          {
+            "required": "참가비 5,000원 · 현장 결제",
+            "observed": "참가비 5,000원 · 현장 결제",
+            "equal": true
+          },
+          {
+            "required": "12월 2일까지 신청: haram-mend.example/join",
+            "observed": "12월 2일까지 신청: haram-mend.example/join",
+            "equal": true
+          },
+          {
+            "required": "문의: 이웃 수리 운영팀",
+            "observed": "문의: 이웃 수리 운영팀",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1086,
+            "actual_height": 1448,
+            "target": "3:4",
+            "relative_error_percent": 0.0,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "action_first_unchanged": {
+            "event_date": "2026년 12월 5일 토요일",
+            "application_deadline": "12월 2일까지 신청:",
+            "full_application_url": "haram-mend.example/join",
+            "location": "하람시 잇는집 2층 · 수선길 12",
+            "uncertainties": [
+              "Deadline year is not printed beside deadline; no URL protocol is printed."
+            ],
+            "viewed_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round5/blind-correction2/images/X770-usage720.png"
+          },
+          "action_findability_720": "Deadline and complete address both read without supplied copy in the saved preflight; location and event date also read clearly."
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 3,
+        "emotion_control": 4,
+        "ai_slop": 3
+      },
+      "evidence": {
+        "content_form": "Left photo shows a screwdriver meeting a wooden box hinge under 고쳐 쓰는 토요일, directly grounding the repair invitation in a small household object. The right column handles the participation terms.",
+        "hierarchy": "At 320 the huge left title leads and the lower-right bold application deadline remains findable; at 720 the complete URL and all practical copy are clear. The first action is still less immediate than the title/date because it occurs at the foot of the long right column.",
+        "typography": "Heavy condensed title and subtitle are clearly differentiated from regular right-column body copy. Right-column event/date, location and capacity have stronger weights, and line wraps preserve phrases; the URL uses a distinct full line without breaking its address.",
+        "space": "The vertical dividing rule keeps the photographic left strip and long right information column coherent. Photo and title nearly fill the left edge-to-rule span, while the right has consistent paragraph left alignment and enough bottom clearance for inquiry.",
+        "image_material": "Native: hand positions, screwdriver shaft and screw contact are intelligible, with plausible grayscale light. However, the hinge plates show dense irregular etched-looking facets and the wood carries unusually busy, similar short cross-hatched marks across planes; local finish realism is less settled than the clear overall repair scene.",
+        "emotion_control": "Large black title, grayscale practical action and plain white instructions produce a sober local-workshop invitation. Bold date/capacity and bold deadline have roles; there is no ornamental accessory stack.",
+        "ai_slop": "Native hinge surface and wood micrograin are concrete finish uncertainties, not evidence of a specific author. The large-format layout is functional, but those textured areas and the conventional photo-plus-information split prevent an unqualified fully resolved material claim."
+      },
+      "residuals": [
+        "Native hinge plates have irregular etched facets and wood planes show busy cross-hatching, making the photo finish uncertain. Resolve the localized grain/metal finish before treating it as a fully polished photographic candidate; whether hinge mottling represents real corrosion is uncertain.",
+        "The deadline is readable at 720 and findable at 320, but the oversized left title makes it a later stop. A modest reduction of title dominance or more separation around the lower call to action could improve action sequencing."
+      ]
+    },
+    "X340": {
+      "mandatory": {
+        "pass": true,
+        "issues": [],
+        "uncertainties": [],
+        "transcription": [
+          {
+            "required": "밤에 피는 정원",
+            "observed": "밤에 피는 정원",
+            "equal": true
+          }
+        ],
+        "use_readings": {
+          "ratio": {
+            "actual_width": 1024,
+            "actual_height": 1536,
+            "target": "2:3",
+            "relative_error_percent": 0.0,
+            "within_one_percent": true
+          },
+          "copy_720": "All required copy manually readable at actual usage720 view.",
+          "copy_320": "Thumbnail viewed for first-glance hierarchy; not used as a requirement that dense body text remain legible.",
+          "extra_copy": "Only 밤에 피는 정원 is visible; no added label, number, logo or microcopy."
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": "The pale title and pale botanical stem share a drawing language, and the lower rightward terminal of 원 visually continues toward the stem. A night-blue ground connects the otherwise simple botanical sign to the exact title.",
+        "hierarchy": "At 320 the upper flower and middle title are both clear; the two title lines read in order. At 720 the thin vein details recede behind the stronger lettering and main stem.",
+        "typography": "Handwritten-looking Korean maintains legible syllables and related line weight to the drawing. 밤에 피는 forms one line and 정원 sits beneath; its extended terminal participates in the plant composition instead of looking like a detached label.",
+        "space": "The long S-shaped stem encloses the middle title, upper flower balances the lower-right crop, and broad lower-left space gives the curve room. The large left leaf arcs closely over the first text line without crossing it.",
+        "image_material": "Native tapered yellow-green outlines are clean against the dark field and do not depend on fake lighting or an all-over texture. Small interrupted/tapering petal/vein segments in the upper flower remain ambiguous between deliberate free line and unresolved joins.",
+        "emotion_control": "One flower, one stem and two lines of copy keep each element useful; the pale luminous line over dark blue supports the nocturnal mood. This works through line relationships, not because sparseness is intrinsically superior.",
+        "ai_slop": "No meaningless notation or invented fine text is visible. Letter-to-stem continuation is a specific craft relation; the native upper-left petal interruption and fine tapered interior lines deserve inspection before declaring every contour fully resolved."
+      },
+      "residuals": [
+        "Native upper-left flower contour and tapered interior vein breaks are ambiguous; inspect whether these interruptions are intentional drawing terminals, and close only accidental joins. No definite illegible stroke is observed."
+      ]
+    }
+  },
+  "sets": {
+    "title-only": {
+      "diversity": 4,
+      "members": [
+        "X641",
+        "X762",
+        "X300",
+        "X738",
+        "X340"
+      ],
+      "closest_pair": [
+        "X641",
+        "X300"
+      ],
+      "evidence": "X738 turns title counters into densely planted beds; X641 uses a photographic macro bloom with contrast-sited type; X300 sends the words along an illustrated garden path; X762 ties three word groups to bud/opening/full-bloom stages; X340 links drawn lettering to one outlined stem. These are real differences of letter role, scale and space, but all five keep dark botanical grounds and pale/cream accents. Closest pair X641/X300 shares immersive dark foliage, white blooms and calligraphic title treatment; its macro crop versus illustrated path still provides a substantial structural distinction.",
+      "residuals": [
+        "A repeated dark botanical/pale-letter family remains across the five; diversity is strong, without claiming every direction is maximally separate.",
+        "The least resolved tiny relationships are the detached first word in X641 and the tight middle stage in X762; the range should be assessed with those retained."
+      ]
+    },
+    "product": {
+      "diversity": 4,
+      "members": [
+        "X800",
+        "X847"
+      ],
+      "closest_pair": [
+        "X800",
+        "X847"
+      ],
+      "evidence": "X800 is a light studio comparison of tall and compact states, with right headline and lower-right launch details; X847 is a darker carrying action with hand/bag and a left text spine. Product state, scene, contrast, spatial grouping and headline emphasis differ substantively. As the only two members they are necessarily the closest pair; common dark green/white-lid product, photographic language and bold slogan are largely requested content, while the upper headline/lower information rhythm is a remaining structural similarity.",
+      "residuals": [
+        "X800 has a native surface-grain ambiguity that X847 does not resolve by being a different scene; this weak material reading remains part of the pair distribution."
+      ]
+    },
+    "invitation": {
+      "diversity": 5,
+      "members": [
+        "X770",
+        "X943"
+      ],
+      "closest_pair": [
+        "X770",
+        "X943"
+      ],
+      "evidence": "X770 uses a vertical photographic repair strip, monumental black title and a long right practical-information column, with action at its foot. X943 uses a square two-column information grid, top-first blue action and an outlined mirror/tool at upper-right. Their object representation, main first reading, color use, type role and space differ convincingly within the common required invitation copy. They are the only pair and thus the closest pair; the shared sans-serif text is functional, not a requirement for campaign sameness.",
+      "residuals": [
+        "X770 retains native hinge/wood finish ambiguity and later action sequencing; X943 retains the tight address-to-diagram buffer. Strong set distinction does not erase either issue."
+      ]
+    }
+  }
+}
