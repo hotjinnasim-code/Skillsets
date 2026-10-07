@@ -30,3 +30,5 @@ Codex에서 `$ducttape-poster` 또는 `덕테이프 포스터`를 호출하고, 
 평가용 가상 요청은 [평가 사례](evals/ducttape-poster/cases.yaml)에 있습니다. 실제 생성·독립 평가·보정의 개선과 퇴행은 [평가 보고서](evals/ducttape-poster/report.md)와 비교 이미지에 기록했습니다. 스킬의 실제 산출물을 비교하는 방법은 `skills/ducttape-poster/references/evaluation-loop.md`에 있으며, 일반 제작에 다중 에이전트 평가를 필수로 추가하지 않습니다.
 
 제목만 있는 기본 다섯 장, 긴 모집 안내, 제품 사진, 명시적인 3D·크롬·네온을 추가로 실행한 결과와 다섯 제작자 구조의 실제 검증은 [추가 평가 보고서](evals/ducttape-poster/round3/report.md)에 기록합니다. 제작자 수와 실제 동시 실행 한도, 버전별 결과와 보정 후 선택, 평가자 간 차이를 구별합니다.
+
+내용이 글자·이미지·정보 묶음을 결정하도록 방향 비교를 강화한 결과는 [내용별 구성 평가](evals/ducttape-poster/round4/report.md)에 기록합니다. 여섯 가상 요청의 후보별 원본·보정·독립 리뷰와 선택 14장의 파일 해시를 연결했습니다. 새 D 3장의 개별 핵심 항목 통과와 전체 품질 기준 미통과를 구별하며, 미해결 항목도 보존합니다.

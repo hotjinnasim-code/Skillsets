@@ -1,0 +1,363 @@
+{
+  "audit_type": "static_read_only_skill_instruction_regression_audit",
+  "result": "PASS_NO_BLOCKER_IN_REVIEWED_SCOPE",
+  "reviewed_inputs": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/candidate-c-skill/SKILL.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/candidate-c-skill/agents/openai.yaml",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/candidate-c-skill/references/art-direction.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/candidate-c-skill/references/evaluation-loop.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/candidate-c-skill/references/parallel-production.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/candidate-c-skill/references/visual-research.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/candidate-d-skill/SKILL.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/candidate-d-skill/agents/openai.yaml",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/candidate-d-skill/references/art-direction.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/candidate-d-skill/references/evaluation-loop.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/candidate-d-skill/references/parallel-production.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/candidate-d-skill/references/visual-research.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/phase-plan.json",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/candidate-d-hashes.json"
+  ],
+  "change_scope": {
+    "changed_files": [
+      "references/art-direction.md"
+    ],
+    "changed_paragraphs_D_lines": [
+      15,
+      83
+    ],
+    "other_five_files_byte_identical": true
+  },
+  "file_hash_checks": [
+    {
+      "path": "SKILL.md",
+      "C_sha256": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea",
+      "D_sha256": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea",
+      "C_bytes": 18003,
+      "D_bytes": 18003,
+      "unchanged": true,
+      "D_frozen_hash_and_bytes_match": true
+    },
+    {
+      "path": "agents/openai.yaml",
+      "C_sha256": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460",
+      "D_sha256": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460",
+      "C_bytes": 476,
+      "D_bytes": 476,
+      "unchanged": true,
+      "D_frozen_hash_and_bytes_match": true
+    },
+    {
+      "path": "references/art-direction.md",
+      "C_sha256": "f8f03ef6076c337358dff7de0fda0f457ac8c19ef12c5b944a2496a2c9ed0e95",
+      "D_sha256": "b76c20018075f06c790384d16ef5868d675cce7e17f6188df27994bef183c8bb",
+      "C_bytes": 16298,
+      "D_bytes": 17038,
+      "unchanged": false,
+      "D_frozen_hash_and_bytes_match": true
+    },
+    {
+      "path": "references/evaluation-loop.md",
+      "C_sha256": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda",
+      "D_sha256": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda",
+      "C_bytes": 7493,
+      "D_bytes": 7493,
+      "unchanged": true,
+      "D_frozen_hash_and_bytes_match": true
+    },
+    {
+      "path": "references/parallel-production.md",
+      "C_sha256": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657",
+      "D_sha256": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657",
+      "C_bytes": 4390,
+      "D_bytes": 4390,
+      "unchanged": true,
+      "D_frozen_hash_and_bytes_match": true
+    },
+    {
+      "path": "references/visual-research.md",
+      "C_sha256": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a",
+      "D_sha256": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a",
+      "C_bytes": 11842,
+      "D_bytes": 11842,
+      "unchanged": true,
+      "D_frozen_hash_and_bytes_match": true
+    }
+  ],
+  "all_six_D_manifest_checks_pass": true,
+  "local_relative_markdown_links": [
+    {
+      "version": "C",
+      "source": "SKILL.md",
+      "line": 27,
+      "target": "references/art-direction.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "C",
+      "source": "SKILL.md",
+      "line": 33,
+      "target": "references/art-direction.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "C",
+      "source": "SKILL.md",
+      "line": 35,
+      "target": "references/visual-research.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "C",
+      "source": "SKILL.md",
+      "line": 43,
+      "target": "references/parallel-production.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "C",
+      "source": "SKILL.md",
+      "line": 76,
+      "target": "references/evaluation-loop.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "C",
+      "source": "references/evaluation-loop.md",
+      "line": 39,
+      "target": "art-direction.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "D",
+      "source": "SKILL.md",
+      "line": 27,
+      "target": "references/art-direction.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "D",
+      "source": "SKILL.md",
+      "line": 33,
+      "target": "references/art-direction.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "D",
+      "source": "SKILL.md",
+      "line": 35,
+      "target": "references/visual-research.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "D",
+      "source": "SKILL.md",
+      "line": 43,
+      "target": "references/parallel-production.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "D",
+      "source": "SKILL.md",
+      "line": 76,
+      "target": "references/evaluation-loop.md",
+      "exists": true,
+      "within_candidate_skill": true
+    },
+    {
+      "version": "D",
+      "source": "references/evaluation-loop.md",
+      "line": 39,
+      "target": "art-direction.md",
+      "exists": true,
+      "within_candidate_skill": true
+    }
+  ],
+  "local_relative_link_summary": {
+    "C_count": 6,
+    "D_count": 6,
+    "all_valid_and_within_own_skill": true,
+    "root_SKILL_textual_reference_exists_in_C_and_D": true
+  },
+  "invariant_checks": [
+    {
+      "id": "user_priority",
+      "status": "no_conflict",
+      "evidence": [
+        "SKILL.md:17",
+        "SKILL.md:20",
+        "SKILL.md:21",
+        "references/art-direction.md:3",
+        "references/art-direction.md:15",
+        "references/art-direction.md:25",
+        "references/art-direction.md:83"
+      ],
+      "finding": "수량·스타일·참조·배치 등 사용자 조건을 우선하는 원문은 그대로다. 변경 문단은 그 조건 안에서 정보 역할과 판독을 돕는 면적·인접·정렬 판단을 추가한다."
+    },
+    {
+      "id": "five_independent_makers_and_slots",
+      "status": "unchanged",
+      "evidence": [
+        "SKILL.md:10",
+        "SKILL.md:43",
+        "SKILL.md:47",
+        "references/parallel-production.md:3",
+        "references/parallel-production.md:7",
+        "references/parallel-production.md:11",
+        "references/evaluation-loop.md:13"
+      ],
+      "finding": "기본 다섯 역할의 독립 생성, 사용자 지정 수량, 가용 슬롯에 따른 분할 실행, 실행하지 않은 병렬성 주장 금지는 변경되지 않았다."
+    },
+    {
+      "id": "single_image_followup_preservation",
+      "status": "no_conflict",
+      "evidence": [
+        "SKILL.md:10",
+        "SKILL.md:68",
+        "references/art-direction.md:81",
+        "references/art-direction.md:83"
+      ],
+      "finding": "자동 보정에서 원인이 된 자체 배치를 재설계하는 범위와 사용자 후속 부분 수정의 보존 범위를 명시적으로 구분한다. 후속 수정은 지정 이미지·부분만 바꾸는 원문을 따른다."
+    },
+    {
+      "id": "two_corrections_per_original",
+      "status": "no_conflict",
+      "evidence": [
+        "SKILL.md:63",
+        "references/art-direction.md:83",
+        "references/parallel-production.md:17",
+        "references/parallel-production.md:23",
+        "phase-plan.json:corrections_per_new_output_max"
+      ],
+      "finding": "재생성도 이미지당 최대 두 번에 포함하고 중앙·제작자 호출 이력을 합산하는 기준이 유지된다. 변경 문단에 보정 한도 초기화나 추가 보정 허용은 없다."
+    },
+    {
+      "id": "actual_tool_reference",
+      "status": "unchanged",
+      "evidence": [
+        "SKILL.md:46",
+        "SKILL.md:47",
+        "SKILL.md:52",
+        "SKILL.md:53",
+        "references/art-direction.md:81",
+        "phase-plan.json:reference_policy",
+        "current_session:image_gen_schema_and_usage"
+      ],
+      "finding": "실제 참조를 열어 확인하고 현재 도구의 파일·대화 이미지 참조 방식으로 전달하는 의무는 유지된다. 사용자 참조를 누락하지 않는 원문도 그대로다. 계획의 신규 초기 호출에서 양쪽 참조 키를 생략하고 자체 수정은 검증한 자체 원본을 쓰는 구분은 현재 도구 지침과 일치한다."
+    },
+    {
+      "id": "maximum_resolution_limits",
+      "status": "unchanged",
+      "evidence": [
+        "SKILL.md:48",
+        "SKILL.md:49",
+        "SKILL.md:50",
+        "SKILL.md:62",
+        "current_session:image_gen_schema_and_usage"
+      ],
+      "finding": "사용자 크기를 우선하고 지원 가능한 최대 해상도를 요청하되 프롬프트만으로 보장하지 않으며 실제 반환 크기와 제어 한계를 알리는 원문이 유지된다. 변경 문단은 도구 인자나 해상도 보장을 추가하지 않는다."
+    },
+    {
+      "id": "complete_copy",
+      "status": "no_conflict",
+      "evidence": [
+        "SKILL.md:44",
+        "SKILL.md:45",
+        "references/art-direction.md:15",
+        "references/art-direction.md:19",
+        "references/art-direction.md:49",
+        "references/art-direction.md:51",
+        "references/art-direction.md:59",
+        "references/art-direction.md:83"
+      ],
+      "finding": "전체 카피와 대상의 공간 관계를 재배분하는 변경이다. 문구 값·지정 순서·줄바꿈·전체 카피 보존과 삭제·발명 금지가 유지되고 변경 문단도 전체 문구 보존을 명시한다."
+    },
+    {
+      "id": "genre_neutrality",
+      "status": "no_conflict",
+      "evidence": [
+        "SKILL.md:67",
+        "references/art-direction.md:15",
+        "references/art-direction.md:23",
+        "references/art-direction.md:25",
+        "references/art-direction.md:57",
+        "references/art-direction.md:61",
+        "references/art-direction.md:89",
+        "references/art-direction.md:101",
+        "references/evaluation-loop.md:37"
+      ],
+      "finding": "사진·그림·조용한 제목·기능적 표나 목록을 허용하며 글자 변형·물리적 겹침·특이한 장면을 필수로 만들지 않는다. 특정 색·효과·사진·3D를 자동 탈락시키지 않는 기준은 유지된다."
+    }
+  ],
+  "phase_plan_checks": {
+    "scope": "declared plan consistency only; production and ledgers were not inspected",
+    "C_closed_calls_declared": 32,
+    "C_expected_matches_declared_closed": true,
+    "unused_C_calls_retired_declared": true,
+    "new_D_outputs_declared": 3,
+    "new_D_output_ids_declared": [
+      "D-C02",
+      "D-P01",
+      "D-H02"
+    ],
+    "D_initial_calls_declared": 3,
+    "corrections_per_new_output_max_declared": 2,
+    "D_maximum_calls_arithmetic_matches": true,
+    "C_plus_D_maximum_arithmetic_matches": true,
+    "C_plus_D_maximum_within_round4_cap": true,
+    "round3_plus_C_plus_D_maximum_arithmetic_matches": true,
+    "round3_plus_C_plus_D_maximum_within_cap": true,
+    "fresh_D_scope_declared": "three redesigned outputs; eleven retained C outputs; final requested delivery fourteen",
+    "no_C_native_calls_after_closure_declared": true,
+    "frozen_before_new_native_calls_declared": true,
+    "ledgers_independently_verified": false,
+    "actual_calls_or_outputs_verified": false
+  },
+  "blockers": [],
+  "verified_runtime_claims": {
+    "five_simultaneous_makers": false,
+    "fourteen_actual_D_images": false,
+    "actual_image_generation_or_edits": false,
+    "actual_native_call_counts": false,
+    "live_skill_installation": false
+  },
+  "context_premises": {
+    "D_not_installed_live": "provided by parent; no live skill inspected",
+    "C_32_calls_closed": "provided by parent and declared in phase-plan; ledger not read"
+  },
+  "excluded_reads": [
+    "actual output scores",
+    "other agents",
+    "production",
+    "diagnostics",
+    "case copy",
+    "live skill",
+    "call ledgers"
+  ],
+  "actions_performed": [
+    "read approved inputs",
+    "byte/hash comparison",
+    "diff inspection",
+    "local relative Markdown link existence checks",
+    "phase-plan arithmetic consistency inspection",
+    "write the two requested audit artifacts"
+  ],
+  "actions_not_performed": [
+    "execution tests",
+    "image generation",
+    "image editing",
+    "skill modification",
+    "live installation",
+    "additional agent delegation"
+  ],
+  "claim_limit": "This is an instruction-level static regression audit, not proof of runtime behavior or output quality. It does not establish five simultaneous makers or fourteen actually verified D images."
+}

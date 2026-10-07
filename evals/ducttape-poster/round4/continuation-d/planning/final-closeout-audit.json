@@ -1,0 +1,3507 @@
+{
+  "audit_type": "final_closed_delivery_evidence_liveD_and_repository_sync_readonly_proof_audit",
+  "written_at_utc": "2026-10-07T18:18:23.858419+00:00",
+  "status": "PASS_FINAL_METADATA_BINDING_AND_SYNC_WITH_COMBINED_VISUAL_GATE_FAIL",
+  "scope": "Final metadata/record transfer only. No generation, image viewing, visual assessment or quality PASS. Existing raw reviewer scores are preserved without rescoring. Prior audits preserved unchanged.",
+  "errors": [],
+  "blockers": [],
+  "roots": {
+    "R": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4",
+    "D": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d",
+    "repository_eval": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4",
+    "live_skill": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster"
+  },
+  "final_evidence": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/planning/final-delivery-evidence.json",
+    "sha256": "52a2dd9723b9b4c7f14619c8abf5fd1e8f7b06a5b2b4da09ebe8598f9a447879",
+    "selected_count": 14,
+    "set_count": 6,
+    "all_three_final_reports_present_and_parsed": true,
+    "combined14_recorded_gate": "FAIL",
+    "predeclared_gate_pass": false,
+    "all_seven_scores_and_located_evidence_records_checked": 42,
+    "located_gate_failure_records": 17,
+    "other_sub4_score_records": 3,
+    "full_lower_score_retention_matches_raw_reports": true,
+    "located_gate_failures_exact": [
+      {
+        "slot": "G01",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "editorial",
+        "dimension": "ai_slop",
+        "score": 3,
+        "evidence": "제목 오자나 경계 오류는 보이지 않는다. 그러나 중앙 통로·양쪽 보케 식물·하단 명조라는 익숙한 사진 포스터 묶음이 강하고, 작은 원경 식생은 형태가 불명확해 매우 정교한 후보로 단정하지 않는다."
+      },
+      {
+        "slot": "G01",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "craft",
+        "dimension": "content_form",
+        "score": 3,
+        "evidence": "좌우 흰 꽃과 중앙의 어두운 길이 밤의 정원을 직접 보여준다. 다만 사진 속 통로와 아래 제목의 관계는 익숙한 분위기 포스터 수준이다."
+      },
+      {
+        "slot": "G01",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "craft",
+        "dimension": "typography",
+        "score": 3,
+        "evidence": "하단 두 줄의 명조 획은 식물의 가는 줄기와 어울리며 판독된다. ‘밤에 피는’의 넓은 낱말 간격과 매우 큰 ‘정원’은 사진 위 별도 표제처럼 남는다."
+      },
+      {
+        "slot": "G01",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "craft",
+        "dimension": "ai_slop",
+        "score": 3,
+        "evidence": "큰 원근·경계 결함은 안 보이나, 양쪽 꽃 액자와 가운데 길, 아래 크림 명조의 조합은 다른 야간 정원에도 적용 가능한 관습이 남는다."
+      },
+      {
+        "slot": "G02",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "craft",
+        "dimension": "ai_slop",
+        "score": 3,
+        "evidence": "글자 사선이 식물과 연결되지만 기본 재료인 어두운 바탕·크림 식물·굵은 제목의 패키지는 익숙하다. 뚜렷한 합성 붕괴는 없으나 매우 고유한 편집으로 단정하지 않는다."
+      },
+      {
+        "slot": "G03",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "craft",
+        "dimension": "typography",
+        "score": 3,
+        "evidence": "굵은 제목이 아래쪽 검은 띠에 놓여 판독되지만, 위쪽 꽃의 날카로운 줄기 끝이 ‘피’ 시작 근처에서 거의 접하고, 글자는 꽃 윤곽보다 독립된 표제로 남는다."
+      },
+      {
+        "slot": "G03",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "portfolio",
+        "dimension": "typography",
+        "score": 3,
+        "evidence": "약 61–71% 높이의 굵은 고딕 한 줄은 잘 읽히지만 꽃의 곡선과 별도로 놓인 표제 띠처럼 느껴진다. 글자 간격과 식물 흐름의 접속은 기능 수준이다."
+      },
+      {
+        "slot": "G05",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "editorial",
+        "dimension": "typography",
+        "score": 3,
+        "evidence": "왼쪽 벽의 굵은 두 줄 글자는 표면 톤과 잘 붙지만 검푸른 글자와 중간 회색 벽의 대비가 다른 제목 시안보다 낮다."
+      },
+      {
+        "slot": "G05",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "editorial",
+        "dimension": "ai_slop",
+        "score": 3,
+        "evidence": "벽의 과도한 잔효과나 가짜 문자는 없지만 확대된 투영 꽃과 하단 실제 꽃의 가지 대응이 불확실하다. 그림자 장면의 마감 확인이 남아 높은 후보로 확정하지 않는다."
+      },
+      {
+        "slot": "G05",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "craft",
+        "dimension": "typography",
+        "score": 3,
+        "evidence": "‘밤에 피는/정원’의 굵은 글자는 벽의 밝은 부분에서 판독된다. 벽 질감 위의 글자와 물체 그림자는 다른 층으로 읽혀 제목이 장면과 완전히 결합하진 않는다."
+      },
+      {
+        "slot": "G05",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "craft",
+        "dimension": "image_material",
+        "score": 3,
+        "evidence": "벽의 거친 질감과 낮은 따뜻한 빛은 일관되지만, 실제 꽃 세 개와 위쪽 그림자의 꽃잎 수·가지 분기가 정확히 대응하는지는 원본에서도 확신하기 어렵다."
+      },
+      {
+        "slot": "G05",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "craft",
+        "dimension": "ai_slop",
+        "score": 3,
+        "evidence": "작은 꽃에서 큰 그림자로의 발상은 특정 제목에 맞다. 그러나 상단 3개 그림자와 아래 실제 꽃의 모양·분기 대응이 불확실해 합성 흔적이 완전히 해소됐다고 보지 않는다."
+      },
+      {
+        "slot": "G05",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "portfolio",
+        "dimension": "typography",
+        "score": 3,
+        "evidence": "왼쪽 약 42–57% 높이의 두 줄 고딕은 단정하게 묶여 있다. 어두운 잉크색과 거친 벽의 조합은 분위기에 맞지만 작은 제목이 이미지보다 약하다."
+      },
+      {
+        "slot": "H01",
+        "phase": "D",
+        "wave": "d-final",
+        "profile": "craft",
+        "dimension": "typography",
+        "score": 3,
+        "evidence": "Headline and subtitle are even heavy sans blocks; the date and application share a strong right-side anchor. The full-width bottom conditions are large and widely spaced, while eligibility is noticeably smaller in the narrow right field. The size distinction favors width accommodation over consistent information priority."
+      },
+      {
+        "slot": "H01",
+        "phase": "D",
+        "wave": "d-final",
+        "profile": "portfolio",
+        "dimension": "typography",
+        "score": 3,
+        "evidence": "Usage/native: the top title, right date/application block and lower paragraph run are grouped clearly. The lower four caution/provision sentences largely repeat one size and weight, so their roles feel like a list appended below the scene; the fee is the main additional emphasis."
+      },
+      {
+        "slot": "H01",
+        "phase": "D",
+        "wave": "d-final",
+        "profile": "portfolio",
+        "dimension": "ai_slop",
+        "score": 3,
+        "evidence": "Native: technically coherent imagery is specific to repair, but pale-blue background, oversized navy sans title, idealized hands and a bottom text list retain a generic friendly-explainer habit. The score is reduced for the overall editorial package, not because the style is illustrated."
+      },
+      {
+        "case": "foln-product-mixed-copy",
+        "phase": "D",
+        "wave": "d-final",
+        "profile": "portfolio",
+        "dimension": "diversity",
+        "score": 3,
+        "evidence": "X442 shows two static states on warm orange, with title and launch copy in the upper/right column. X251 uses a neutral close photograph of a pressing hand, a separately cropped lid, left-side title and a release block above. The demonstrated gesture and crop are a substantive change beyond palette. However both place a large stacked Fold/Cup next to green product photography over a plain studio field, with the same dark-green sans vocabulary. The current pair, not the comparison image, determines this score."
+      }
+    ],
+    "other_sub4_scores_exact": [
+      {
+        "slot": "G05",
+        "phase": "D",
+        "wave": "d-initial",
+        "profile": "editorial",
+        "dimension": "hierarchy",
+        "score": 3,
+        "evidence": "320뷰에서는 거대한 꽃 그림자가 먼저 보이고 왼쪽 중단 제목은 비교적 작다. 720에서는 두 줄을 읽을 수 있으나 첫 시선에서 제목까지 거리가 있다."
+      },
+      {
+        "slot": "H01",
+        "phase": "D",
+        "wave": "d-final",
+        "profile": "editorial",
+        "dimension": "space",
+        "score": 3,
+        "evidence": "상자와 세 손이 좌우 가장자리를 가로질러 장면의 무게를 만들고 문구는 빈 파랑 면에 둔다. 그러나 우측 대상/지참 줄은 날짜·신청 시작선보다 오른쪽으로 들어가고 하단 전체 폭의 안내와 연결되어 정렬 체계가 일부 느슨하다."
+      },
+      {
+        "slot": "P01",
+        "phase": "D",
+        "wave": "d-final",
+        "profile": "portfolio",
+        "dimension": "space",
+        "score": 3,
+        "evidence": "Native: expanded cup at lower-left and compact cup at lower-right provide a common baseline, with the text above the compact state. The broad upper-left orange field is balanced by the title tower but still feels less purposeful than the tighter product/text relationships elsewhere."
+      }
+    ],
+    "new_D3_raw_core_and_mandatory_checks": [
+      {
+        "slot": "C02",
+        "profile": "editorial",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      },
+      {
+        "slot": "C02",
+        "profile": "craft",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      },
+      {
+        "slot": "C02",
+        "profile": "portfolio",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      },
+      {
+        "slot": "H02",
+        "profile": "editorial",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      },
+      {
+        "slot": "H02",
+        "profile": "craft",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      },
+      {
+        "slot": "H02",
+        "profile": "portfolio",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      },
+      {
+        "slot": "P01",
+        "profile": "editorial",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      },
+      {
+        "slot": "P01",
+        "profile": "craft",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      },
+      {
+        "slot": "P01",
+        "profile": "portfolio",
+        "recorded_core_all_ge4": true,
+        "recorded_mandatory_pass": true
+      }
+    ],
+    "note": "Recorded newD3 core scores do not convert combined14 gate to PASS or establish visual quality by this audit."
+  },
+  "selected14_native_and_raw_review_binding_checks": [
+    {
+      "slot": "C01",
+      "version": "C",
+      "review_wave": "D/d-final",
+      "anonymous_id": "X871",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "eb45e009c26cd1ebcb23e78c7e29dc83a86c74f9d4f18f910d1f4739f677d31b",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 5,
+            "typography": 4,
+            "space": 4,
+            "image_material": 5,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 5,
+            "typography": 4,
+            "space": 4,
+            "image_material": 5,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "C02",
+      "version": "D",
+      "review_wave": "D/d-final",
+      "anonymous_id": "X280",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "fc639332d9ce3415dd7f0fb5581ba880290adede97684ebeb45b6e8fdb7add93",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 5,
+            "typography": 4,
+            "space": 5,
+            "image_material": 4,
+            "emotion_control": 5,
+            "ai_slop": 5
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "G01",
+      "version": "C",
+      "review_wave": "D/d-initial",
+      "anonymous_id": "X445",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "b2c7bf65d275cfb83a143ed424e2c4ebf18580b7085cff63fe32ca9af8a344ed",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 3
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 3,
+            "hierarchy": 4,
+            "typography": 3,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 3
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "G02",
+      "version": "C",
+      "review_wave": "D/d-initial",
+      "anonymous_id": "X190",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "ee42196edf181a4909dc49bffe07e1b95e7904e2cc4e7424c286d683460c19b9",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 3
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "G03",
+      "version": "C",
+      "review_wave": "D/d-initial",
+      "anonymous_id": "X292",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "76a03f97642fd06f59899cf16f91d32fac1a436f7e48da76ee21b8bca84e2f27",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 3,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 3,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "G04",
+      "version": "C",
+      "review_wave": "D/d-initial",
+      "anonymous_id": "X700",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "311fad42f0bb07210fb2520ff95dcefb1be749531eea4b2fabc2256c52df8429",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 5,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 5,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 5
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "G05",
+      "version": "C",
+      "review_wave": "D/d-initial",
+      "anonymous_id": "X399",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "b15145b7e4e335cdc35114c2e21c7ce21436163a95a5708be613aee6a4d62638",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 3,
+            "typography": 3,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 3
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 3,
+            "space": 4,
+            "image_material": 3,
+            "emotion_control": 4,
+            "ai_slop": 3
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 3,
+            "space": 5,
+            "image_material": 4,
+            "emotion_control": 5,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "H01",
+      "version": "C",
+      "review_wave": "D/d-final",
+      "anonymous_id": "X759",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "19ca06decc8dd6a25e8c616d27161eafe4a200bfedf98622028b46f6c1ffac06",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 3,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 3,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 3,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 3
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "H02",
+      "version": "D",
+      "review_wave": "D/d-final",
+      "anonymous_id": "X856",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "f5cd1c2234ff4d3432355c310fa32f455e705df1cb9ec4e4f97c69e30d25e843",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 5,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 5,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "H03",
+      "version": "C",
+      "review_wave": "C/wave1",
+      "anonymous_id": "X314",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "28aa99c4b306148d2b6d6ebf8080b266e13376f8d784cddc56b4add5e853f701",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 5,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 5,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "N01",
+      "version": "C",
+      "review_wave": "C/wave1",
+      "anonymous_id": "X731",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "e18c07736614e2ac42b91da28f0be3ed736da6e6bf407777d9657ac220d81eb7",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 5,
+            "image_material": 4,
+            "emotion_control": 5,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 5,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "N02",
+      "version": "C",
+      "review_wave": "C/wave1",
+      "anonymous_id": "X152",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "9877d996f499455ab0d38197604617718d30338e09790ed5f5b1ad2b39ba8d99",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 5,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 5,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "P01",
+      "version": "D",
+      "review_wave": "D/d-final",
+      "anonymous_id": "X442",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "3c6cc4ddd7c2ae4797f47e82dab50d439070ed5ca6fd9a94675dc343a8c55cd1",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 5,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 4,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 3,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    },
+    {
+      "slot": "P02",
+      "version": "C",
+      "review_wave": "D/d-final",
+      "anonymous_id": "X251",
+      "native_selection_mapper_anonymous_hash_match": true,
+      "selection_metadata_exact": true,
+      "sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+      "reviewers": {
+        "editorial": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 5,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        },
+        "craft": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 5,
+            "image_material": 5,
+            "emotion_control": 5,
+            "ai_slop": 5
+          },
+          "mandatory_pass": true
+        },
+        "portfolio": {
+          "all_seven_scores_and_located_evidence_present": true,
+          "full_raw_image_record_exactly_retained": true,
+          "scores": {
+            "content_form": 5,
+            "hierarchy": 4,
+            "typography": 4,
+            "space": 4,
+            "image_material": 4,
+            "emotion_control": 4,
+            "ai_slop": 4
+          },
+          "mandatory_pass": true
+        }
+      }
+    }
+  ],
+  "six_set_binding_and_raw_review_record_checks": [
+    {
+      "case": "garden-title-only",
+      "review_wave": "D/d-initial",
+      "selected_roles": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "member_hash_binding_pass": true,
+      "full_raw_three_reviewer_set_records_exactly_retained": true
+    },
+    {
+      "case": "coast-cleanup-dense-action",
+      "review_wave": "D/d-final",
+      "selected_roles": [
+        "C01",
+        "C02"
+      ],
+      "member_hash_binding_pass": true,
+      "full_raw_three_reviewer_set_records_exactly_retained": true
+    },
+    {
+      "case": "foln-product-mixed-copy",
+      "review_wave": "D/d-final",
+      "selected_roles": [
+        "P01",
+        "P02"
+      ],
+      "member_hash_binding_pass": true,
+      "full_raw_three_reviewer_set_records_exactly_retained": true
+    },
+    {
+      "case": "moonroll-explicit-3d-neon",
+      "review_wave": "C/wave1",
+      "selected_roles": [
+        "N01",
+        "N02"
+      ],
+      "member_hash_binding_pass": true,
+      "full_raw_three_reviewer_set_records_exactly_retained": true
+    },
+    {
+      "case": "heldout-repair-cafe-dense",
+      "review_wave": "D/d-final",
+      "selected_roles": [
+        "H01",
+        "H02"
+      ],
+      "member_hash_binding_pass": true,
+      "full_raw_three_reviewer_set_records_exactly_retained": true
+    },
+    {
+      "case": "heldout-fold-stand-photograph",
+      "review_wave": "C/wave1",
+      "selected_roles": [
+        "H03"
+      ],
+      "member_hash_binding_pass": true,
+      "full_raw_three_reviewer_set_records_exactly_retained": true
+    }
+  ],
+  "closed_recorded_view_procedure_checks": [
+    {
+      "wave": "D/d-final",
+      "packet_sha256": "fbe833b9d6bd1b47282b2b504bf589db85a19075d0f3a171c8e40087675a7d02",
+      "mapper_sha256": "be6ccb912668eb2497f75e4906480a988ae0f65e611b74c8bd7118d499f15ea3",
+      "variant_count": 9,
+      "required_unique_views_per_profile": 27,
+      "profiles": {
+        "editorial": {
+          "profile": "editorial",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/editorial.json",
+          "report_sha256": "bdc32570d782872330876b1d1ffd5744dffce3f995109b85ec0612282aa8bb51",
+          "expected_unique_views": 27,
+          "recorded_views": 27,
+          "exact_recorded_paths_and_unique_complete_coverage": true,
+          "action_first_report_sha256": "fcbce240eef22229b6ee17c4c89e7ca01dce6efc2505c3bfd471b3024fcfd5cc",
+          "action_first_reading_count": 6,
+          "exact_preflight_raw_record_saved_flag_and_paths_match": true
+        },
+        "craft": {
+          "profile": "craft",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/craft.json",
+          "report_sha256": "61a9a8be0e36d182baf79867ed4a7be5110fe5ecf7718e124076da55e8157ef7",
+          "expected_unique_views": 27,
+          "recorded_views": 27,
+          "exact_recorded_paths_and_unique_complete_coverage": true,
+          "action_first_report_sha256": "1d12a1d2191e77c3da2c260b1f9cd44bf04035b4365da94e2c6d8eec244b341b",
+          "action_first_reading_count": 6,
+          "exact_preflight_raw_record_saved_flag_and_paths_match": true
+        },
+        "portfolio": {
+          "profile": "portfolio",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/portfolio.json",
+          "report_sha256": "f362119bf4160be44b117c5d0cb40b8095b36822611ee4ec345f1ead8192fde3",
+          "expected_unique_views": 27,
+          "recorded_views": 27,
+          "exact_recorded_paths_and_unique_complete_coverage": true,
+          "action_first_report_sha256": "9df2b93847fe3ed39df0a7317b993ee98c4308c3b1b5f39aa0c9fa67a21d8e94",
+          "action_first_reading_count": 6,
+          "exact_preflight_raw_record_saved_flag_and_paths_match": true
+        }
+      }
+    },
+    {
+      "wave": "D/d-initial",
+      "packet_sha256": "4a5d9328ee374e70af50cbed6dac1dfd244ebebc195c0876ff6e1aa1d938d0a6",
+      "mapper_sha256": "f7e2fe746ca5e68869a31376fa5ed7bfe77c6f821dd2eaa3bfa2b46690ccf0ed",
+      "variant_count": 15,
+      "required_unique_views_per_profile": 45,
+      "profiles": {
+        "editorial": {
+          "profile": "editorial",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/editorial.json",
+          "report_sha256": "b0546f467b7848b360e792c995d8c52c3c02ab4eea62217d132895ed973310ae",
+          "expected_unique_views": 45,
+          "recorded_views": 45,
+          "exact_recorded_paths_and_unique_complete_coverage": true,
+          "action_first_report_sha256": "dbdf2e0b7f72582b01f3c4af4acd8b3d1167bf1e6ec100724388037126952961",
+          "action_first_reading_count": 6,
+          "exact_preflight_raw_record_saved_flag_and_paths_match": true
+        },
+        "craft": {
+          "profile": "craft",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/craft.json",
+          "report_sha256": "7d51eb2db509445d650c2c0b5504bcad8537ae79db43ef0414c42037a438701b",
+          "expected_unique_views": 45,
+          "recorded_views": 45,
+          "exact_recorded_paths_and_unique_complete_coverage": true,
+          "action_first_report_sha256": "ff722f0cbf0633f7d6f4fd189b11e1f9762d82af16a503018cb64d5c5399ef52",
+          "action_first_reading_count": 6,
+          "exact_preflight_raw_record_saved_flag_and_paths_match": true
+        },
+        "portfolio": {
+          "profile": "portfolio",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/portfolio.json",
+          "report_sha256": "80b619ac88621cc1839e1630ede312b044e102473d52d015354197bf5887276a",
+          "expected_unique_views": 45,
+          "recorded_views": 45,
+          "exact_recorded_paths_and_unique_complete_coverage": true,
+          "action_first_report_sha256": "3f19307599e5318bd297a8dab4ac4a2eb57aac0f96c4748154e2f6170bcea118",
+          "action_first_reading_count": 6,
+          "exact_preflight_raw_record_saved_flag_and_paths_match": true
+        }
+      }
+    },
+    {
+      "wave": "C/wave1",
+      "packet_sha256": "e9ef2b8e95963fdefe880fe49b24d10fd76fd83dc3c0d06c52723a51e4363215",
+      "mapper_sha256": "6f7d06dc71351f837469d8f44fc0f81a7e0d2a960957ca8a944b5362b5ca0ff0",
+      "variant_count": 24,
+      "required_unique_views_per_profile": 72,
+      "profiles": {
+        "editorial": {
+          "profile": "editorial",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/reviews/editorial.json",
+          "report_sha256": "eff9ddb3f8f6c3a670720138db7ed0b56ad4741d13347ac53f1171f252a96ac3",
+          "expected_unique_views": 72,
+          "recorded_views": 72,
+          "exact_recorded_paths_and_unique_complete_coverage": true
+        },
+        "craft": {
+          "profile": "craft",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/reviews/craft.json",
+          "report_sha256": "6e82156027a553adc805004c1c86c5bda50803f2d65b80eb14829272a13f33cc",
+          "expected_unique_views": 72,
+          "recorded_views": 72,
+          "exact_recorded_paths_and_unique_complete_coverage": true
+        },
+        "portfolio": {
+          "profile": "portfolio",
+          "report_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/reviews/portfolio.json",
+          "report_sha256": "d4ebbe1d5281194f13cf38e0f11d138a14de9bd61ed6c5893bccde93eb1b6b53",
+          "expected_unique_views": 72,
+          "recorded_views": 72,
+          "exact_recorded_paths_and_unique_complete_coverage": true
+        }
+      }
+    }
+  ],
+  "QA_file_hash_checks_at_closeout_against_binding_time_hashes": [
+    {
+      "wave": "D/d-final",
+      "image_id": "X871",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X871-native.png",
+      "actual_sha256": "eb45e009c26cd1ebcb23e78c7e29dc83a86c74f9d4f18f910d1f4739f677d31b",
+      "binding_sha256": "eb45e009c26cd1ebcb23e78c7e29dc83a86c74f9d4f18f910d1f4739f677d31b",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X871",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X871-usage720.png",
+      "actual_sha256": "88bd3cfc388f17d97dbd4170b101939d11c29b7867da5691d2d981e17fcaec8f",
+      "binding_sha256": "88bd3cfc388f17d97dbd4170b101939d11c29b7867da5691d2d981e17fcaec8f",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X871",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X871-thumbnail320.png",
+      "actual_sha256": "eeaa3410b0e067fcbc4d7e2af51b26d960da8b599eb999b5c51501036205b25c",
+      "binding_sha256": "eeaa3410b0e067fcbc4d7e2af51b26d960da8b599eb999b5c51501036205b25c",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X239",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X239-native.png",
+      "actual_sha256": "77f0bccac07b86bba7ff4bc5476bfefe39726f55629aa3599bd03b589d7b6d4e",
+      "binding_sha256": "77f0bccac07b86bba7ff4bc5476bfefe39726f55629aa3599bd03b589d7b6d4e",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X239",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X239-usage720.png",
+      "actual_sha256": "852f2bc0d91d4c78e532e1205d4738c50747575a9756356397b23a8722bb22ca",
+      "binding_sha256": "852f2bc0d91d4c78e532e1205d4738c50747575a9756356397b23a8722bb22ca",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X239",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X239-thumbnail320.png",
+      "actual_sha256": "9d13334c6763d27cf5b14bcb6f3ccee398d78aad222565d94c7d0e98bc815810",
+      "binding_sha256": "9d13334c6763d27cf5b14bcb6f3ccee398d78aad222565d94c7d0e98bc815810",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X101",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X101-native.png",
+      "actual_sha256": "c4146aa2372201e729f0784a871059625becf6a426dbeff4c2284249f5612afb",
+      "binding_sha256": "c4146aa2372201e729f0784a871059625becf6a426dbeff4c2284249f5612afb",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X101",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X101-usage720.png",
+      "actual_sha256": "0c858b484a48b5fae0b04a25d10d1e2d863276edebfc083e45062d40a0f7c76e",
+      "binding_sha256": "0c858b484a48b5fae0b04a25d10d1e2d863276edebfc083e45062d40a0f7c76e",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X101",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X101-thumbnail320.png",
+      "actual_sha256": "f669048deec3c8a232229fa2abd4de06095318bc49ff01acb2ecacd8828c037d",
+      "binding_sha256": "f669048deec3c8a232229fa2abd4de06095318bc49ff01acb2ecacd8828c037d",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X280",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X280-native.png",
+      "actual_sha256": "fc639332d9ce3415dd7f0fb5581ba880290adede97684ebeb45b6e8fdb7add93",
+      "binding_sha256": "fc639332d9ce3415dd7f0fb5581ba880290adede97684ebeb45b6e8fdb7add93",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X280",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X280-usage720.png",
+      "actual_sha256": "cdaf8053d54e19ea925ce9477b9aa594c862e76cc928a3c760e64858c55eb64c",
+      "binding_sha256": "cdaf8053d54e19ea925ce9477b9aa594c862e76cc928a3c760e64858c55eb64c",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X280",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X280-thumbnail320.png",
+      "actual_sha256": "0a38d3c7470f0cc419af822efe80fd05d5dd3e068fce078c752626bebd31933f",
+      "binding_sha256": "0a38d3c7470f0cc419af822efe80fd05d5dd3e068fce078c752626bebd31933f",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X701",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X701-native.png",
+      "actual_sha256": "3ff11beb0fe38e771677706b01e655bfd40867d44a2385ec56be7280dc83b5a5",
+      "binding_sha256": "3ff11beb0fe38e771677706b01e655bfd40867d44a2385ec56be7280dc83b5a5",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X701",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X701-usage720.png",
+      "actual_sha256": "386dc9d72943c40f58bcb89babbb948447175d86fe907dec44dedd5d562e2df7",
+      "binding_sha256": "386dc9d72943c40f58bcb89babbb948447175d86fe907dec44dedd5d562e2df7",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X701",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X701-thumbnail320.png",
+      "actual_sha256": "7e696491d22cbc260c61c778929bdd614ec0828e59bc397270bd9b0133ff0b8f",
+      "binding_sha256": "7e696491d22cbc260c61c778929bdd614ec0828e59bc397270bd9b0133ff0b8f",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X759",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X759-native.png",
+      "actual_sha256": "19ca06decc8dd6a25e8c616d27161eafe4a200bfedf98622028b46f6c1ffac06",
+      "binding_sha256": "19ca06decc8dd6a25e8c616d27161eafe4a200bfedf98622028b46f6c1ffac06",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X759",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X759-usage720.png",
+      "actual_sha256": "696568093a9f06f9aedbd1644f072db95668b68e3a837a134d4c51f2ed1f8dba",
+      "binding_sha256": "696568093a9f06f9aedbd1644f072db95668b68e3a837a134d4c51f2ed1f8dba",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X759",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X759-thumbnail320.png",
+      "actual_sha256": "383551b2c4e4ad48fb75fe7a5bd10a666efa5a8c04fa09e2cc0c747e0f29d941",
+      "binding_sha256": "383551b2c4e4ad48fb75fe7a5bd10a666efa5a8c04fa09e2cc0c747e0f29d941",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X442",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X442-native.png",
+      "actual_sha256": "3c6cc4ddd7c2ae4797f47e82dab50d439070ed5ca6fd9a94675dc343a8c55cd1",
+      "binding_sha256": "3c6cc4ddd7c2ae4797f47e82dab50d439070ed5ca6fd9a94675dc343a8c55cd1",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X442",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X442-usage720.png",
+      "actual_sha256": "615584eee143d684ec48eb53d3eaa1c2973792287f09334cad94183b32ac5262",
+      "binding_sha256": "615584eee143d684ec48eb53d3eaa1c2973792287f09334cad94183b32ac5262",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X442",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X442-thumbnail320.png",
+      "actual_sha256": "f177e7ad0173dbd54e9c66e0aeb6fc3c3aed69b2b5c2b89eca7ba37051818562",
+      "binding_sha256": "f177e7ad0173dbd54e9c66e0aeb6fc3c3aed69b2b5c2b89eca7ba37051818562",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X251",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X251-native.png",
+      "actual_sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+      "binding_sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X251",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X251-usage720.png",
+      "actual_sha256": "d418b128d586fd2de67262182ebb3bfc90c23fb643835572f6f9213801aa8ea2",
+      "binding_sha256": "d418b128d586fd2de67262182ebb3bfc90c23fb643835572f6f9213801aa8ea2",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X251",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X251-thumbnail320.png",
+      "actual_sha256": "1ffc6b0c1a1992eaa250fcce1fba02400ec88fecb982e5f25e2c3bc8c5f7cc38",
+      "binding_sha256": "1ffc6b0c1a1992eaa250fcce1fba02400ec88fecb982e5f25e2c3bc8c5f7cc38",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X856",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X856-native.png",
+      "actual_sha256": "f5cd1c2234ff4d3432355c310fa32f455e705df1cb9ec4e4f97c69e30d25e843",
+      "binding_sha256": "f5cd1c2234ff4d3432355c310fa32f455e705df1cb9ec4e4f97c69e30d25e843",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X856",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X856-usage720.png",
+      "actual_sha256": "790e8b7e2f7597ba28d14bae5e56ed2e454d4c917b43f86187147379636c7159",
+      "binding_sha256": "790e8b7e2f7597ba28d14bae5e56ed2e454d4c917b43f86187147379636c7159",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-final",
+      "image_id": "X856",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/images/X856-thumbnail320.png",
+      "actual_sha256": "fdd94cebf2e2b524be9f2b3c5ecd719d4e4823fad0f0fa0b0551dfab03fc91fd",
+      "binding_sha256": "fdd94cebf2e2b524be9f2b3c5ecd719d4e4823fad0f0fa0b0551dfab03fc91fd",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X445",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X445-native.png",
+      "actual_sha256": "b2c7bf65d275cfb83a143ed424e2c4ebf18580b7085cff63fe32ca9af8a344ed",
+      "binding_sha256": "b2c7bf65d275cfb83a143ed424e2c4ebf18580b7085cff63fe32ca9af8a344ed",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X445",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X445-usage720.png",
+      "actual_sha256": "1a9daa507d8f6364d201c3319966de35716e413153db3dc532a8e560af5d12d5",
+      "binding_sha256": "1a9daa507d8f6364d201c3319966de35716e413153db3dc532a8e560af5d12d5",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X445",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X445-thumbnail320.png",
+      "actual_sha256": "258715835ba019c018ba371856a89aa1b78798934937cc1f3f1e15ec9a6ef0c6",
+      "binding_sha256": "258715835ba019c018ba371856a89aa1b78798934937cc1f3f1e15ec9a6ef0c6",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X353",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X353-native.png",
+      "actual_sha256": "eb45e009c26cd1ebcb23e78c7e29dc83a86c74f9d4f18f910d1f4739f677d31b",
+      "binding_sha256": "eb45e009c26cd1ebcb23e78c7e29dc83a86c74f9d4f18f910d1f4739f677d31b",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X353",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X353-usage720.png",
+      "actual_sha256": "88bd3cfc388f17d97dbd4170b101939d11c29b7867da5691d2d981e17fcaec8f",
+      "binding_sha256": "88bd3cfc388f17d97dbd4170b101939d11c29b7867da5691d2d981e17fcaec8f",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X353",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X353-thumbnail320.png",
+      "actual_sha256": "eeaa3410b0e067fcbc4d7e2af51b26d960da8b599eb999b5c51501036205b25c",
+      "binding_sha256": "eeaa3410b0e067fcbc4d7e2af51b26d960da8b599eb999b5c51501036205b25c",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X463",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X463-native.png",
+      "actual_sha256": "77f0bccac07b86bba7ff4bc5476bfefe39726f55629aa3599bd03b589d7b6d4e",
+      "binding_sha256": "77f0bccac07b86bba7ff4bc5476bfefe39726f55629aa3599bd03b589d7b6d4e",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X463",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X463-usage720.png",
+      "actual_sha256": "852f2bc0d91d4c78e532e1205d4738c50747575a9756356397b23a8722bb22ca",
+      "binding_sha256": "852f2bc0d91d4c78e532e1205d4738c50747575a9756356397b23a8722bb22ca",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X463",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X463-thumbnail320.png",
+      "actual_sha256": "9d13334c6763d27cf5b14bcb6f3ccee398d78aad222565d94c7d0e98bc815810",
+      "binding_sha256": "9d13334c6763d27cf5b14bcb6f3ccee398d78aad222565d94c7d0e98bc815810",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X504",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X504-native.png",
+      "actual_sha256": "c4146aa2372201e729f0784a871059625becf6a426dbeff4c2284249f5612afb",
+      "binding_sha256": "c4146aa2372201e729f0784a871059625becf6a426dbeff4c2284249f5612afb",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X504",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X504-usage720.png",
+      "actual_sha256": "0c858b484a48b5fae0b04a25d10d1e2d863276edebfc083e45062d40a0f7c76e",
+      "binding_sha256": "0c858b484a48b5fae0b04a25d10d1e2d863276edebfc083e45062d40a0f7c76e",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X504",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X504-thumbnail320.png",
+      "actual_sha256": "f669048deec3c8a232229fa2abd4de06095318bc49ff01acb2ecacd8828c037d",
+      "binding_sha256": "f669048deec3c8a232229fa2abd4de06095318bc49ff01acb2ecacd8828c037d",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X376",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X376-native.png",
+      "actual_sha256": "7a05e63451729817e1915a7fe20ed31ce44fd5d7e3c3a2d219b66c3963804033",
+      "binding_sha256": "7a05e63451729817e1915a7fe20ed31ce44fd5d7e3c3a2d219b66c3963804033",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X376",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X376-usage720.png",
+      "actual_sha256": "d8845d90c7264ca92461d05da4aa4e7c709dccd657e548c2d52e2e7a43d842db",
+      "binding_sha256": "d8845d90c7264ca92461d05da4aa4e7c709dccd657e548c2d52e2e7a43d842db",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X376",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X376-thumbnail320.png",
+      "actual_sha256": "a6a716435d7b36bcb9038fa0e83e05907ae85df75a27546ed8c374efa3016e8d",
+      "binding_sha256": "a6a716435d7b36bcb9038fa0e83e05907ae85df75a27546ed8c374efa3016e8d",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X671",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X671-native.png",
+      "actual_sha256": "b77ae3460f01e60b061f999db860de3a392e9710fba78acb983a099d48c41f42",
+      "binding_sha256": "b77ae3460f01e60b061f999db860de3a392e9710fba78acb983a099d48c41f42",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X671",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X671-usage720.png",
+      "actual_sha256": "ba62455b87efae575f0523472ad8cc0b5408a3b1a4c2d13fb8bff972d74a6348",
+      "binding_sha256": "ba62455b87efae575f0523472ad8cc0b5408a3b1a4c2d13fb8bff972d74a6348",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X671",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X671-thumbnail320.png",
+      "actual_sha256": "9c2fe05ba013e77ddcdf041786f0207779975ecabd7a9a01dfa5ab592b6918cf",
+      "binding_sha256": "9c2fe05ba013e77ddcdf041786f0207779975ecabd7a9a01dfa5ab592b6918cf",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X700",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X700-native.png",
+      "actual_sha256": "311fad42f0bb07210fb2520ff95dcefb1be749531eea4b2fabc2256c52df8429",
+      "binding_sha256": "311fad42f0bb07210fb2520ff95dcefb1be749531eea4b2fabc2256c52df8429",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X700",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X700-usage720.png",
+      "actual_sha256": "97d4d963b5c4eaa89c8f15b1f840582e6a27ea38b09dbb063f5da0f13dce6970",
+      "binding_sha256": "97d4d963b5c4eaa89c8f15b1f840582e6a27ea38b09dbb063f5da0f13dce6970",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X700",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X700-thumbnail320.png",
+      "actual_sha256": "6603cb2cab8d46f59c5cfc34e11e9fe56aa9b2b2d635905a1886c517381eba81",
+      "binding_sha256": "6603cb2cab8d46f59c5cfc34e11e9fe56aa9b2b2d635905a1886c517381eba81",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X597",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X597-native.png",
+      "actual_sha256": "19ca06decc8dd6a25e8c616d27161eafe4a200bfedf98622028b46f6c1ffac06",
+      "binding_sha256": "19ca06decc8dd6a25e8c616d27161eafe4a200bfedf98622028b46f6c1ffac06",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X597",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X597-usage720.png",
+      "actual_sha256": "696568093a9f06f9aedbd1644f072db95668b68e3a837a134d4c51f2ed1f8dba",
+      "binding_sha256": "696568093a9f06f9aedbd1644f072db95668b68e3a837a134d4c51f2ed1f8dba",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X597",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X597-thumbnail320.png",
+      "actual_sha256": "383551b2c4e4ad48fb75fe7a5bd10a666efa5a8c04fa09e2cc0c747e0f29d941",
+      "binding_sha256": "383551b2c4e4ad48fb75fe7a5bd10a666efa5a8c04fa09e2cc0c747e0f29d941",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X292",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X292-native.png",
+      "actual_sha256": "76a03f97642fd06f59899cf16f91d32fac1a436f7e48da76ee21b8bca84e2f27",
+      "binding_sha256": "76a03f97642fd06f59899cf16f91d32fac1a436f7e48da76ee21b8bca84e2f27",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X292",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X292-usage720.png",
+      "actual_sha256": "cbae0418b11af3f9a6b7af7bc101400246fff2155d9831fe8b4a43f9ccd0c9ea",
+      "binding_sha256": "cbae0418b11af3f9a6b7af7bc101400246fff2155d9831fe8b4a43f9ccd0c9ea",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X292",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X292-thumbnail320.png",
+      "actual_sha256": "1f36562694e55e5b034f958f1e05a23cf54a840eca7c90bd0d3bf77c6a7642d7",
+      "binding_sha256": "1f36562694e55e5b034f958f1e05a23cf54a840eca7c90bd0d3bf77c6a7642d7",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X979",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X979-native.png",
+      "actual_sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+      "binding_sha256": "68b1aed449926e69e71c121e6ea2b6a8957a03c0f79c5dce88f9edd13fa9e0e8",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X979",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X979-usage720.png",
+      "actual_sha256": "d418b128d586fd2de67262182ebb3bfc90c23fb643835572f6f9213801aa8ea2",
+      "binding_sha256": "d418b128d586fd2de67262182ebb3bfc90c23fb643835572f6f9213801aa8ea2",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X979",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X979-thumbnail320.png",
+      "actual_sha256": "1ffc6b0c1a1992eaa250fcce1fba02400ec88fecb982e5f25e2c3bc8c5f7cc38",
+      "binding_sha256": "1ffc6b0c1a1992eaa250fcce1fba02400ec88fecb982e5f25e2c3bc8c5f7cc38",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X399",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X399-native.png",
+      "actual_sha256": "b15145b7e4e335cdc35114c2e21c7ce21436163a95a5708be613aee6a4d62638",
+      "binding_sha256": "b15145b7e4e335cdc35114c2e21c7ce21436163a95a5708be613aee6a4d62638",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X399",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X399-usage720.png",
+      "actual_sha256": "5f7c5a40a7b37664f21bc623d8a2463627738abaf3687e83f18ed287ded3a089",
+      "binding_sha256": "5f7c5a40a7b37664f21bc623d8a2463627738abaf3687e83f18ed287ded3a089",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X399",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X399-thumbnail320.png",
+      "actual_sha256": "606d717910f83dc43bafcdaffbc4c17c7a5dad578f359c52967aefa4a8a1e08d",
+      "binding_sha256": "606d717910f83dc43bafcdaffbc4c17c7a5dad578f359c52967aefa4a8a1e08d",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X112",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X112-native.png",
+      "actual_sha256": "3ff11beb0fe38e771677706b01e655bfd40867d44a2385ec56be7280dc83b5a5",
+      "binding_sha256": "3ff11beb0fe38e771677706b01e655bfd40867d44a2385ec56be7280dc83b5a5",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X112",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X112-usage720.png",
+      "actual_sha256": "386dc9d72943c40f58bcb89babbb948447175d86fe907dec44dedd5d562e2df7",
+      "binding_sha256": "386dc9d72943c40f58bcb89babbb948447175d86fe907dec44dedd5d562e2df7",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X112",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X112-thumbnail320.png",
+      "actual_sha256": "7e696491d22cbc260c61c778929bdd614ec0828e59bc397270bd9b0133ff0b8f",
+      "binding_sha256": "7e696491d22cbc260c61c778929bdd614ec0828e59bc397270bd9b0133ff0b8f",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X584",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X584-native.png",
+      "actual_sha256": "a2dffaa1da3ccb9c6aaa6ec80b4433adbbdc5d46110c30d6a535d480c5eb2e6c",
+      "binding_sha256": "a2dffaa1da3ccb9c6aaa6ec80b4433adbbdc5d46110c30d6a535d480c5eb2e6c",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X584",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X584-usage720.png",
+      "actual_sha256": "5671ed33a1940cd63c2405b109e9aded1a3e2b67e147646b3300d9dd37361040",
+      "binding_sha256": "5671ed33a1940cd63c2405b109e9aded1a3e2b67e147646b3300d9dd37361040",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X584",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X584-thumbnail320.png",
+      "actual_sha256": "046c26899dfe561bfd56dedeabeaff1d53a4d978b1580639f907fd073560bf97",
+      "binding_sha256": "046c26899dfe561bfd56dedeabeaff1d53a4d978b1580639f907fd073560bf97",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X234",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X234-native.png",
+      "actual_sha256": "980725480988b0ef6332f4e4518191a220516dc0cf99818ddf010dc3b4a0aa83",
+      "binding_sha256": "980725480988b0ef6332f4e4518191a220516dc0cf99818ddf010dc3b4a0aa83",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X234",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X234-usage720.png",
+      "actual_sha256": "f579f4dcda7196cd6018484624f2a8c99188a3ebb19fedfcd7e914a5b2e2f7c4",
+      "binding_sha256": "f579f4dcda7196cd6018484624f2a8c99188a3ebb19fedfcd7e914a5b2e2f7c4",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X234",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X234-thumbnail320.png",
+      "actual_sha256": "aa36772a1093d8da2dde0db32e35de47ce2bdc066baa528da62b61a054fbde78",
+      "binding_sha256": "aa36772a1093d8da2dde0db32e35de47ce2bdc066baa528da62b61a054fbde78",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X190",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X190-native.png",
+      "actual_sha256": "ee42196edf181a4909dc49bffe07e1b95e7904e2cc4e7424c286d683460c19b9",
+      "binding_sha256": "ee42196edf181a4909dc49bffe07e1b95e7904e2cc4e7424c286d683460c19b9",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X190",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X190-usage720.png",
+      "actual_sha256": "42492517386d32bca808a19f4b9af8b06dc305a968905406ac65da998761bccc",
+      "binding_sha256": "42492517386d32bca808a19f4b9af8b06dc305a968905406ac65da998761bccc",
+      "hash_matches": true
+    },
+    {
+      "wave": "D/d-initial",
+      "image_id": "X190",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/images/X190-thumbnail320.png",
+      "actual_sha256": "c3dc2f8391b379c6d61a8e549309d4f46415dbedd989c642e47416d9bb35a976",
+      "binding_sha256": "c3dc2f8391b379c6d61a8e549309d4f46415dbedd989c642e47416d9bb35a976",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X609",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X609-native.png",
+      "actual_sha256": "0c3871bb0ace4c452ba4c88e554c4280f4a8ca80c175f64416910946d76f4b8e",
+      "binding_sha256": "0c3871bb0ace4c452ba4c88e554c4280f4a8ca80c175f64416910946d76f4b8e",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X609",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X609-usage720.png",
+      "actual_sha256": "c33696d48b63230cabdbb3914387bd7f892ece1c99a146c08fbed560cd08c945",
+      "binding_sha256": "c33696d48b63230cabdbb3914387bd7f892ece1c99a146c08fbed560cd08c945",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X609",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X609-thumbnail320.png",
+      "actual_sha256": "2b31bb46d650bcdadfdf23e62cac04af2279c1304c9bd92080ee4ecb2e42eaaa",
+      "binding_sha256": "2b31bb46d650bcdadfdf23e62cac04af2279c1304c9bd92080ee4ecb2e42eaaa",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X698",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X698-native.png",
+      "actual_sha256": "980725480988b0ef6332f4e4518191a220516dc0cf99818ddf010dc3b4a0aa83",
+      "binding_sha256": "980725480988b0ef6332f4e4518191a220516dc0cf99818ddf010dc3b4a0aa83",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X698",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X698-usage720.png",
+      "actual_sha256": "f579f4dcda7196cd6018484624f2a8c99188a3ebb19fedfcd7e914a5b2e2f7c4",
+      "binding_sha256": "f579f4dcda7196cd6018484624f2a8c99188a3ebb19fedfcd7e914a5b2e2f7c4",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X698",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X698-thumbnail320.png",
+      "actual_sha256": "aa36772a1093d8da2dde0db32e35de47ce2bdc066baa528da62b61a054fbde78",
+      "binding_sha256": "aa36772a1093d8da2dde0db32e35de47ce2bdc066baa528da62b61a054fbde78",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X470",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X470-native.png",
+      "actual_sha256": "647b4f1c591cc9f8d12118fe966a4b3ee60cabbd4d879d917e5a31a1ad61f042",
+      "binding_sha256": "647b4f1c591cc9f8d12118fe966a4b3ee60cabbd4d879d917e5a31a1ad61f042",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X470",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X470-usage720.png",
+      "actual_sha256": "b1c2b99046199423c1699298bb7dc83994a3201f6dbbd71f8607aa51ba1c4153",
+      "binding_sha256": "b1c2b99046199423c1699298bb7dc83994a3201f6dbbd71f8607aa51ba1c4153",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X470",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X470-thumbnail320.png",
+      "actual_sha256": "9986826f59a92bfbbaeb22a68f579c0ebcbae97e3d4f97b1c46eccc7189c9f1f",
+      "binding_sha256": "9986826f59a92bfbbaeb22a68f579c0ebcbae97e3d4f97b1c46eccc7189c9f1f",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X670",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X670-native.png",
+      "actual_sha256": "3e41b3ffa146c13e5e7ad00516f40f1bad644b2ad4536b3bccc9ac6999251e4d",
+      "binding_sha256": "3e41b3ffa146c13e5e7ad00516f40f1bad644b2ad4536b3bccc9ac6999251e4d",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X670",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X670-usage720.png",
+      "actual_sha256": "5f48cb5f51293a5aacde15cc9e94c57ef05bbb51b32acbd332c72a30402448e5",
+      "binding_sha256": "5f48cb5f51293a5aacde15cc9e94c57ef05bbb51b32acbd332c72a30402448e5",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X670",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X670-thumbnail320.png",
+      "actual_sha256": "0ec6ab96362c5dcc861c467dd209a700a74ee403be970f1e08cd7b47aa658590",
+      "binding_sha256": "0ec6ab96362c5dcc861c467dd209a700a74ee403be970f1e08cd7b47aa658590",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X399",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X399-native.png",
+      "actual_sha256": "dcf3045e892bd1359ca8c60fee59c01b224501e1ac3ec255684e36888b500b8d",
+      "binding_sha256": "dcf3045e892bd1359ca8c60fee59c01b224501e1ac3ec255684e36888b500b8d",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X399",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X399-usage720.png",
+      "actual_sha256": "f98dc6ac26edfddee9e04b7b6e77eca92ea403a37795ecd419328cbb5343cac5",
+      "binding_sha256": "f98dc6ac26edfddee9e04b7b6e77eca92ea403a37795ecd419328cbb5343cac5",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X399",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X399-thumbnail320.png",
+      "actual_sha256": "ab92ff25c0368cbdaf85da8009703703ee6ed71774c280bbded32702a7e382a8",
+      "binding_sha256": "ab92ff25c0368cbdaf85da8009703703ee6ed71774c280bbded32702a7e382a8",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X287",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X287-native.png",
+      "actual_sha256": "311fad42f0bb07210fb2520ff95dcefb1be749531eea4b2fabc2256c52df8429",
+      "binding_sha256": "311fad42f0bb07210fb2520ff95dcefb1be749531eea4b2fabc2256c52df8429",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X287",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X287-usage720.png",
+      "actual_sha256": "97d4d963b5c4eaa89c8f15b1f840582e6a27ea38b09dbb063f5da0f13dce6970",
+      "binding_sha256": "97d4d963b5c4eaa89c8f15b1f840582e6a27ea38b09dbb063f5da0f13dce6970",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X287",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X287-thumbnail320.png",
+      "actual_sha256": "6603cb2cab8d46f59c5cfc34e11e9fe56aa9b2b2d635905a1886c517381eba81",
+      "binding_sha256": "6603cb2cab8d46f59c5cfc34e11e9fe56aa9b2b2d635905a1886c517381eba81",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X136",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X136-native.png",
+      "actual_sha256": "ae040ff5de6d66621b54a23052be7ca155fe7feab8741a2504912663c2310bb1",
+      "binding_sha256": "ae040ff5de6d66621b54a23052be7ca155fe7feab8741a2504912663c2310bb1",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X136",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X136-usage720.png",
+      "actual_sha256": "377743b97a6429123bd587f58f753cf8ae9e9f8a6f31cc5fe043aa17b34de8ed",
+      "binding_sha256": "377743b97a6429123bd587f58f753cf8ae9e9f8a6f31cc5fe043aa17b34de8ed",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X136",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X136-thumbnail320.png",
+      "actual_sha256": "be0748d3ace1e08bc8cd74a5736c94e54f907ca0a1dc0381d690b6fca206c9df",
+      "binding_sha256": "be0748d3ace1e08bc8cd74a5736c94e54f907ca0a1dc0381d690b6fca206c9df",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X726",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X726-native.png",
+      "actual_sha256": "76a03f97642fd06f59899cf16f91d32fac1a436f7e48da76ee21b8bca84e2f27",
+      "binding_sha256": "76a03f97642fd06f59899cf16f91d32fac1a436f7e48da76ee21b8bca84e2f27",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X726",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X726-usage720.png",
+      "actual_sha256": "cbae0418b11af3f9a6b7af7bc101400246fff2155d9831fe8b4a43f9ccd0c9ea",
+      "binding_sha256": "cbae0418b11af3f9a6b7af7bc101400246fff2155d9831fe8b4a43f9ccd0c9ea",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X726",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X726-thumbnail320.png",
+      "actual_sha256": "1f36562694e55e5b034f958f1e05a23cf54a840eca7c90bd0d3bf77c6a7642d7",
+      "binding_sha256": "1f36562694e55e5b034f958f1e05a23cf54a840eca7c90bd0d3bf77c6a7642d7",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X778",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X778-native.png",
+      "actual_sha256": "5844ea415ecb21e47ce5abfbdb3c2dc3200bd65361fcdad0d5d9d35bf1c3e906",
+      "binding_sha256": "5844ea415ecb21e47ce5abfbdb3c2dc3200bd65361fcdad0d5d9d35bf1c3e906",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X778",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X778-usage720.png",
+      "actual_sha256": "b599c65e0d17fdf4fdcc47cde439359cd9f0150319f9e7f3ecb600107f3c8c5d",
+      "binding_sha256": "b599c65e0d17fdf4fdcc47cde439359cd9f0150319f9e7f3ecb600107f3c8c5d",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X778",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X778-thumbnail320.png",
+      "actual_sha256": "b2e8fddbf8a4e303e8731c0e5a330a40b20c8cb49075c527ce88d10652d23cd1",
+      "binding_sha256": "b2e8fddbf8a4e303e8731c0e5a330a40b20c8cb49075c527ce88d10652d23cd1",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X282",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X282-native.png",
+      "actual_sha256": "7dc681096f12ac2e5071d585b04f1c3d4fc9caad3c04943d82b5a0fb2bdf0c0d",
+      "binding_sha256": "7dc681096f12ac2e5071d585b04f1c3d4fc9caad3c04943d82b5a0fb2bdf0c0d",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X282",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X282-usage720.png",
+      "actual_sha256": "c3d0a4f1376439d16719438898073c3747eb44ff6e3e5e8f54643b083ef93996",
+      "binding_sha256": "c3d0a4f1376439d16719438898073c3747eb44ff6e3e5e8f54643b083ef93996",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X282",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X282-thumbnail320.png",
+      "actual_sha256": "139e60543b49091252cc416200a2a13a80c842e619582d0a0392770d4f59250e",
+      "binding_sha256": "139e60543b49091252cc416200a2a13a80c842e619582d0a0392770d4f59250e",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X659",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X659-native.png",
+      "actual_sha256": "d5b83d70d0c2d3118dc9661cf7b1701548f4a0269920be984494ce377c2cd76c",
+      "binding_sha256": "d5b83d70d0c2d3118dc9661cf7b1701548f4a0269920be984494ce377c2cd76c",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X659",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X659-usage720.png",
+      "actual_sha256": "9df6221ffb9e8dbac6aef651244c6e223809e932e892c4d153115851043cf3a0",
+      "binding_sha256": "9df6221ffb9e8dbac6aef651244c6e223809e932e892c4d153115851043cf3a0",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X659",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X659-thumbnail320.png",
+      "actual_sha256": "6e4fc58a990cad70266674cab69cf2193cc6751099b017d21dc2849f88bbd37e",
+      "binding_sha256": "6e4fc58a990cad70266674cab69cf2193cc6751099b017d21dc2849f88bbd37e",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X671",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X671-native.png",
+      "actual_sha256": "fefb84d27a3de09838278ccff7d4dc2ba64572bca3dcc5b51d62f31638d66976",
+      "binding_sha256": "fefb84d27a3de09838278ccff7d4dc2ba64572bca3dcc5b51d62f31638d66976",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X671",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X671-usage720.png",
+      "actual_sha256": "63e42db6ed4be3e6422bdbfdc6adc06f4dffc25bb4fc26e1dbf5ff2d7ff33f09",
+      "binding_sha256": "63e42db6ed4be3e6422bdbfdc6adc06f4dffc25bb4fc26e1dbf5ff2d7ff33f09",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X671",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X671-thumbnail320.png",
+      "actual_sha256": "a7c2a570d5d89653bdba221a43ae84a66cf4add350db55fa39816669ed54a059",
+      "binding_sha256": "a7c2a570d5d89653bdba221a43ae84a66cf4add350db55fa39816669ed54a059",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X141",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X141-native.png",
+      "actual_sha256": "b2c7bf65d275cfb83a143ed424e2c4ebf18580b7085cff63fe32ca9af8a344ed",
+      "binding_sha256": "b2c7bf65d275cfb83a143ed424e2c4ebf18580b7085cff63fe32ca9af8a344ed",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X141",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X141-usage720.png",
+      "actual_sha256": "1a9daa507d8f6364d201c3319966de35716e413153db3dc532a8e560af5d12d5",
+      "binding_sha256": "1a9daa507d8f6364d201c3319966de35716e413153db3dc532a8e560af5d12d5",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X141",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X141-thumbnail320.png",
+      "actual_sha256": "258715835ba019c018ba371856a89aa1b78798934937cc1f3f1e15ec9a6ef0c6",
+      "binding_sha256": "258715835ba019c018ba371856a89aa1b78798934937cc1f3f1e15ec9a6ef0c6",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X724",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X724-native.png",
+      "actual_sha256": "c95216fd8967f42c482dc12f9ea457f61aa312230f0faa782ddf735c3024c8fe",
+      "binding_sha256": "c95216fd8967f42c482dc12f9ea457f61aa312230f0faa782ddf735c3024c8fe",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X724",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X724-usage720.png",
+      "actual_sha256": "08be7ed209a70437b138b5b50b8ad2fcd559b87a5478f6cc0e0be87a3b1340c2",
+      "binding_sha256": "08be7ed209a70437b138b5b50b8ad2fcd559b87a5478f6cc0e0be87a3b1340c2",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X724",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X724-thumbnail320.png",
+      "actual_sha256": "d6f70f51ff1e3c9b44761277ec3bbda60e134af5437bc23b820527bb1d3d66c8",
+      "binding_sha256": "d6f70f51ff1e3c9b44761277ec3bbda60e134af5437bc23b820527bb1d3d66c8",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X567",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X567-native.png",
+      "actual_sha256": "c59b34392a77b71ba32f996b386e5576ca4af30389eac7efb56c58e059d65716",
+      "binding_sha256": "c59b34392a77b71ba32f996b386e5576ca4af30389eac7efb56c58e059d65716",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X567",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X567-usage720.png",
+      "actual_sha256": "6ed237200d14d5b3e7e5ba0459d882506bb2f6ca22ecd763c87489b950832e6b",
+      "binding_sha256": "6ed237200d14d5b3e7e5ba0459d882506bb2f6ca22ecd763c87489b950832e6b",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X567",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X567-thumbnail320.png",
+      "actual_sha256": "46dc450fa9f6244e7a0f6c2107a63066b981567e5e1a4b5d1a4878e97a3262ae",
+      "binding_sha256": "46dc450fa9f6244e7a0f6c2107a63066b981567e5e1a4b5d1a4878e97a3262ae",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X295",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X295-native.png",
+      "actual_sha256": "55816201a93e4b27a31d4ac8d585d9b00e887ee408f23979e29692cf3089daed",
+      "binding_sha256": "55816201a93e4b27a31d4ac8d585d9b00e887ee408f23979e29692cf3089daed",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X295",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X295-usage720.png",
+      "actual_sha256": "a64d5a3d40b9852e7506074ce4df44a684096984de29f49aa47e77f3e59f32e2",
+      "binding_sha256": "a64d5a3d40b9852e7506074ce4df44a684096984de29f49aa47e77f3e59f32e2",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X295",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X295-thumbnail320.png",
+      "actual_sha256": "899a34835b14076e6de469650f39f17c4fb46ad1aaf5367b20e241a806ec88f6",
+      "binding_sha256": "899a34835b14076e6de469650f39f17c4fb46ad1aaf5367b20e241a806ec88f6",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X918",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X918-native.png",
+      "actual_sha256": "a64ce5c1c1fe3a57c5cccc21c7acb8e5d5fef0cd6baf8301c7001f7ce5ae6c63",
+      "binding_sha256": "a64ce5c1c1fe3a57c5cccc21c7acb8e5d5fef0cd6baf8301c7001f7ce5ae6c63",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X918",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X918-usage720.png",
+      "actual_sha256": "d991f23962bac61a25a33b61d23fceff8be55dd5b46db3bde5d10cb56222377a",
+      "binding_sha256": "d991f23962bac61a25a33b61d23fceff8be55dd5b46db3bde5d10cb56222377a",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X918",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X918-thumbnail320.png",
+      "actual_sha256": "019eeaa841f357e59bb99bc9a0296265cdca8d46f28eea2a25d8e83fd556e782",
+      "binding_sha256": "019eeaa841f357e59bb99bc9a0296265cdca8d46f28eea2a25d8e83fd556e782",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X263",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X263-native.png",
+      "actual_sha256": "1ac0679b79b7b8dfc58dda9ef804f110ca53195624e50a32e3d7495251d00cfc",
+      "binding_sha256": "1ac0679b79b7b8dfc58dda9ef804f110ca53195624e50a32e3d7495251d00cfc",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X263",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X263-usage720.png",
+      "actual_sha256": "b03a52c5cc9aa75c606f493060257df7c5e44506980e1c443d6e5bc9aa1f660c",
+      "binding_sha256": "b03a52c5cc9aa75c606f493060257df7c5e44506980e1c443d6e5bc9aa1f660c",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X263",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X263-thumbnail320.png",
+      "actual_sha256": "dcd4a39067a4909295f4e1ba8604ca89dcabd32dae107ee629dc409eb38d08ae",
+      "binding_sha256": "dcd4a39067a4909295f4e1ba8604ca89dcabd32dae107ee629dc409eb38d08ae",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X152",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X152-native.png",
+      "actual_sha256": "9877d996f499455ab0d38197604617718d30338e09790ed5f5b1ad2b39ba8d99",
+      "binding_sha256": "9877d996f499455ab0d38197604617718d30338e09790ed5f5b1ad2b39ba8d99",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X152",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X152-usage720.png",
+      "actual_sha256": "441358fcd4d3f51b050e73d93d2d33c82d5b17d9f0ea48af34bf5224b64547a5",
+      "binding_sha256": "441358fcd4d3f51b050e73d93d2d33c82d5b17d9f0ea48af34bf5224b64547a5",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X152",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X152-thumbnail320.png",
+      "actual_sha256": "016df235732db464c9bb08883cb02c82fb450ef184b4bb2886448b8a7da16c30",
+      "binding_sha256": "016df235732db464c9bb08883cb02c82fb450ef184b4bb2886448b8a7da16c30",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X741",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X741-native.png",
+      "actual_sha256": "b8490493f1268f007d6ae8f85da8f68311582295a50405c0eb21ea1eb93f5a29",
+      "binding_sha256": "b8490493f1268f007d6ae8f85da8f68311582295a50405c0eb21ea1eb93f5a29",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X741",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X741-usage720.png",
+      "actual_sha256": "27235502d828d95cdc0ba9d0df0415e43c63ae715f911d54086e18d34eecce93",
+      "binding_sha256": "27235502d828d95cdc0ba9d0df0415e43c63ae715f911d54086e18d34eecce93",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X741",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X741-thumbnail320.png",
+      "actual_sha256": "e3ab6870dc1df57d5bd9c53a71ab30eb383e320ca2b58c828fd215209f26975d",
+      "binding_sha256": "e3ab6870dc1df57d5bd9c53a71ab30eb383e320ca2b58c828fd215209f26975d",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X731",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X731-native.png",
+      "actual_sha256": "e18c07736614e2ac42b91da28f0be3ed736da6e6bf407777d9657ac220d81eb7",
+      "binding_sha256": "e18c07736614e2ac42b91da28f0be3ed736da6e6bf407777d9657ac220d81eb7",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X731",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X731-usage720.png",
+      "actual_sha256": "db07ae4c413e53183bdff11fe7efd98c9d718ddd8ce7be521f00cb02584bd117",
+      "binding_sha256": "db07ae4c413e53183bdff11fe7efd98c9d718ddd8ce7be521f00cb02584bd117",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X731",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X731-thumbnail320.png",
+      "actual_sha256": "c7e54101c969b30a0465ba740f69739a8710fb8eea7f18fa905779b78127d738",
+      "binding_sha256": "c7e54101c969b30a0465ba740f69739a8710fb8eea7f18fa905779b78127d738",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X702",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X702-native.png",
+      "actual_sha256": "6eb781689bd832547a7181392b86e399efda230031ab53dba8b826c66e0b4c29",
+      "binding_sha256": "6eb781689bd832547a7181392b86e399efda230031ab53dba8b826c66e0b4c29",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X702",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X702-usage720.png",
+      "actual_sha256": "5005239a8b78849091da512bbee78dba97a8aae73ad9b8cca13b9a242b0067eb",
+      "binding_sha256": "5005239a8b78849091da512bbee78dba97a8aae73ad9b8cca13b9a242b0067eb",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X702",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X702-thumbnail320.png",
+      "actual_sha256": "2570694661fbdb55451459e9e75fc4ff4cc93ea5d8554780192688797af8133e",
+      "binding_sha256": "2570694661fbdb55451459e9e75fc4ff4cc93ea5d8554780192688797af8133e",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X314",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X314-native.png",
+      "actual_sha256": "28aa99c4b306148d2b6d6ebf8080b266e13376f8d784cddc56b4add5e853f701",
+      "binding_sha256": "28aa99c4b306148d2b6d6ebf8080b266e13376f8d784cddc56b4add5e853f701",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X314",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X314-usage720.png",
+      "actual_sha256": "d57dcc47f9da51c1e6c04c9d2bb1dfc422fe4109bb73d1b3a20aa45ba72bd074",
+      "binding_sha256": "d57dcc47f9da51c1e6c04c9d2bb1dfc422fe4109bb73d1b3a20aa45ba72bd074",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X314",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X314-thumbnail320.png",
+      "actual_sha256": "1a736a37843cc9ed04b2b54b5fa860b0f55e4eb750a19d1d993e77669692e0b5",
+      "binding_sha256": "1a736a37843cc9ed04b2b54b5fa860b0f55e4eb750a19d1d993e77669692e0b5",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X572",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X572-native.png",
+      "actual_sha256": "e2974c7f739ac8d1b417927277b9f352ee89023e31b678337150025b7403985d",
+      "binding_sha256": "e2974c7f739ac8d1b417927277b9f352ee89023e31b678337150025b7403985d",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X572",
+      "view": "usage",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X572-usage720.png",
+      "actual_sha256": "5d4a4f3cf0d92580a783aaf1da7f621ee0fc898f8aedc79d14df361c06d3a956",
+      "binding_sha256": "5d4a4f3cf0d92580a783aaf1da7f621ee0fc898f8aedc79d14df361c06d3a956",
+      "hash_matches": true
+    },
+    {
+      "wave": "C/wave1",
+      "image_id": "X572",
+      "view": "thumbnail",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/images/X572-thumbnail320.png",
+      "actual_sha256": "7fda6bf1e3fa2574a99ecd43c47e4b8ef9c940ec3c935c349b268627d8e9ed75",
+      "binding_sha256": "7fda6bf1e3fa2574a99ecd43c47e4b8ef9c940ec3c935c349b268627d8e9ed75",
+      "hash_matches": true
+    }
+  ],
+  "QA_hash_scope": "Current file hashes agree with composer binding-time hashes. This does not certify hashes at reviewer view time.",
+  "procedure_scope": "Exact recorded paths, uniqueness, counts and report/preflight content correspondence. Saved-before flag and reviewer labels are records, not exhaustive tool-history/order/independent-identity certification.",
+  "live_D_installation": {
+    "installation_record_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/live-d-installation.json",
+    "installation_record_sha256": "6ccb8278c146b22178590ed84dfb9ecbafc979c1ef2c0fba64e024225bf9c7dd",
+    "exact_live_six_file_tree": true,
+    "all_six_frozenD_hash_and_byte_matches": true,
+    "files": [
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/SKILL.md",
+        "name": "SKILL.md",
+        "live_sha256": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea",
+        "frozen_sha256": "da8c7b2762a5e138d07ad64529f90c3f33448e523b8210903cbf8b7bb47c47ea",
+        "frozen_bytes": 18003,
+        "live_matches_frozenD_hash_and_bytes": true,
+        "repository_D_snapshot_matches": true
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/agents/openai.yaml",
+        "name": "agents/openai.yaml",
+        "live_sha256": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460",
+        "frozen_sha256": "c5984a5895d0ea97b7cb29db14ab7bb6d0ab7fa437625a192a9b9b8eedb09460",
+        "frozen_bytes": 476,
+        "live_matches_frozenD_hash_and_bytes": true,
+        "repository_D_snapshot_matches": true
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/art-direction.md",
+        "name": "references/art-direction.md",
+        "live_sha256": "b76c20018075f06c790384d16ef5868d675cce7e17f6188df27994bef183c8bb",
+        "frozen_sha256": "b76c20018075f06c790384d16ef5868d675cce7e17f6188df27994bef183c8bb",
+        "frozen_bytes": 17038,
+        "live_matches_frozenD_hash_and_bytes": true,
+        "repository_D_snapshot_matches": true
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/evaluation-loop.md",
+        "name": "references/evaluation-loop.md",
+        "live_sha256": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda",
+        "frozen_sha256": "cbb7c3c8412363cc0549a5009ba6e8e48a35714375d688545c4c400433719dda",
+        "frozen_bytes": 7493,
+        "live_matches_frozenD_hash_and_bytes": true,
+        "repository_D_snapshot_matches": true
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/parallel-production.md",
+        "name": "references/parallel-production.md",
+        "live_sha256": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657",
+        "frozen_sha256": "afb373eb4789a55e2de322ea2702472be06331588c906ba1b44db3ae197bb657",
+        "frozen_bytes": 4390,
+        "live_matches_frozenD_hash_and_bytes": true,
+        "repository_D_snapshot_matches": true
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/skills/ducttape-poster/references/visual-research.md",
+        "name": "references/visual-research.md",
+        "live_sha256": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a",
+        "frozen_sha256": "8b72b1dc0dc3fa1234bc6b4c4fe3943a9cb1e6bbe84a82cfb05db2c6adfa8d7a",
+        "frozen_bytes": 11842,
+        "live_matches_frozenD_hash_and_bytes": true,
+        "repository_D_snapshot_matches": true
+      }
+    ]
+  },
+  "repository_sync": {
+    "exact_copy_checks": [
+      {
+        "label": "delivery14 selection",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/final-delivery-selection.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/final-delivery-selection.json",
+        "source_sha256": "d4d79377ba71a81d8f1a2aec08f87695328d2b03774e2cf79c50ced1ed733289",
+        "repository_sha256": "d4d79377ba71a81d8f1a2aec08f87695328d2b03774e2cf79c50ced1ed733289",
+        "exact_copy": true
+      },
+      {
+        "label": "closed delivery evidence",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/planning/final-delivery-evidence.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/planning/final-delivery-evidence.json",
+        "source_sha256": "52a2dd9723b9b4c7f14619c8abf5fd1e8f7b06a5b2b4da09ebe8598f9a447879",
+        "repository_sha256": "52a2dd9723b9b4c7f14619c8abf5fd1e8f7b06a5b2b4da09ebe8598f9a447879",
+        "exact_copy": true
+      },
+      {
+        "label": "D final3 selection",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/final-selection.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/final-selection.json",
+        "source_sha256": "13b79d51b950961a923bddf0839aab2a15c90e844e194b32d5f72eceef087ea3",
+        "repository_sha256": "13b79d51b950961a923bddf0839aab2a15c90e844e194b32d5f72eceef087ea3",
+        "exact_copy": true
+      },
+      {
+        "label": "liveD installation record",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/live-d-installation.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/planning/live-d-installation.json",
+        "source_sha256": "6ccb8278c146b22178590ed84dfb9ecbafc979c1ef2c0fba64e024225bf9c7dd",
+        "repository_sha256": "6ccb8278c146b22178590ed84dfb9ecbafc979c1ef2c0fba64e024225bf9c7dd",
+        "exact_copy": true
+      },
+      {
+        "label": "final reviewer binding mapper",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/final-review-binding.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/planning/final-review-binding.json",
+        "source_sha256": "50efdc3ecd11d5bfbface366dd8f7b35e70aae32864f7f6c048d72edd543308b",
+        "repository_sha256": "50efdc3ecd11d5bfbface366dd8f7b35e70aae32864f7f6c048d72edd543308b",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-final/editorial raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/editorial.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-final/editorial.json",
+        "source_sha256": "bdc32570d782872330876b1d1ffd5744dffce3f995109b85ec0612282aa8bb51",
+        "repository_sha256": "bdc32570d782872330876b1d1ffd5744dffce3f995109b85ec0612282aa8bb51",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-final/editorial raw preflight",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/editorial-action-first.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-final/editorial-action-first.json",
+        "source_sha256": "fcbce240eef22229b6ee17c4c89e7ca01dce6efc2505c3bfd471b3024fcfd5cc",
+        "repository_sha256": "fcbce240eef22229b6ee17c4c89e7ca01dce6efc2505c3bfd471b3024fcfd5cc",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-final/craft raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/craft.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-final/craft.json",
+        "source_sha256": "61a9a8be0e36d182baf79867ed4a7be5110fe5ecf7718e124076da55e8157ef7",
+        "repository_sha256": "61a9a8be0e36d182baf79867ed4a7be5110fe5ecf7718e124076da55e8157ef7",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-final/craft raw preflight",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/craft-action-first.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-final/craft-action-first.json",
+        "source_sha256": "1d12a1d2191e77c3da2c260b1f9cd44bf04035b4365da94e2c6d8eec244b341b",
+        "repository_sha256": "1d12a1d2191e77c3da2c260b1f9cd44bf04035b4365da94e2c6d8eec244b341b",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-final/portfolio raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/portfolio.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-final/portfolio.json",
+        "source_sha256": "f362119bf4160be44b117c5d0cb40b8095b36822611ee4ec345f1ead8192fde3",
+        "repository_sha256": "f362119bf4160be44b117c5d0cb40b8095b36822611ee4ec345f1ead8192fde3",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-final/portfolio raw preflight",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-final/reviews/portfolio-action-first.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-final/portfolio-action-first.json",
+        "source_sha256": "9df2b93847fe3ed39df0a7317b993ee98c4308c3b1b5f39aa0c9fa67a21d8e94",
+        "repository_sha256": "9df2b93847fe3ed39df0a7317b993ee98c4308c3b1b5f39aa0c9fa67a21d8e94",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-initial/editorial raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/editorial.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-initial/editorial.json",
+        "source_sha256": "b0546f467b7848b360e792c995d8c52c3c02ab4eea62217d132895ed973310ae",
+        "repository_sha256": "b0546f467b7848b360e792c995d8c52c3c02ab4eea62217d132895ed973310ae",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-initial/editorial raw preflight",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/editorial-action-first.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-initial/editorial-action-first.json",
+        "source_sha256": "dbdf2e0b7f72582b01f3c4af4acd8b3d1167bf1e6ec100724388037126952961",
+        "repository_sha256": "dbdf2e0b7f72582b01f3c4af4acd8b3d1167bf1e6ec100724388037126952961",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-initial/craft raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/craft.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-initial/craft.json",
+        "source_sha256": "7d51eb2db509445d650c2c0b5504bcad8537ae79db43ef0414c42037a438701b",
+        "repository_sha256": "7d51eb2db509445d650c2c0b5504bcad8537ae79db43ef0414c42037a438701b",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-initial/craft raw preflight",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/craft-action-first.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-initial/craft-action-first.json",
+        "source_sha256": "ff722f0cbf0633f7d6f4fd189b11e1f9762d82af16a503018cb64d5c5399ef52",
+        "repository_sha256": "ff722f0cbf0633f7d6f4fd189b11e1f9762d82af16a503018cb64d5c5399ef52",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-initial/portfolio raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/portfolio.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-initial/portfolio.json",
+        "source_sha256": "80b619ac88621cc1839e1630ede312b044e102473d52d015354197bf5887276a",
+        "repository_sha256": "80b619ac88621cc1839e1630ede312b044e102473d52d015354197bf5887276a",
+        "exact_copy": true
+      },
+      {
+        "label": "D/d-initial/portfolio raw preflight",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/blind-d-initial/reviews/portfolio-action-first.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/reviews/d-initial/portfolio-action-first.json",
+        "source_sha256": "3f19307599e5318bd297a8dab4ac4a2eb57aac0f96c4748154e2f6170bcea118",
+        "repository_sha256": "3f19307599e5318bd297a8dab4ac4a2eb57aac0f96c4748154e2f6170bcea118",
+        "exact_copy": true
+      },
+      {
+        "label": "C/wave1/editorial raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/reviews/editorial.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/wave1/editorial.json",
+        "source_sha256": "eff9ddb3f8f6c3a670720138db7ed0b56ad4741d13347ac53f1171f252a96ac3",
+        "repository_sha256": "eff9ddb3f8f6c3a670720138db7ed0b56ad4741d13347ac53f1171f252a96ac3",
+        "exact_copy": true
+      },
+      {
+        "label": "C/wave1/craft raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/reviews/craft.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/wave1/craft.json",
+        "source_sha256": "6e82156027a553adc805004c1c86c5bda50803f2d65b80eb14829272a13f33cc",
+        "repository_sha256": "6e82156027a553adc805004c1c86c5bda50803f2d65b80eb14829272a13f33cc",
+        "exact_copy": true
+      },
+      {
+        "label": "C/wave1/portfolio raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave1/reviews/portfolio.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/wave1/portfolio.json",
+        "source_sha256": "d4ebbe1d5281194f13cf38e0f11d138a14de9bd61ed6c5893bccde93eb1b6b53",
+        "repository_sha256": "d4ebbe1d5281194f13cf38e0f11d138a14de9bd61ed6c5893bccde93eb1b6b53",
+        "exact_copy": true
+      },
+      {
+        "label": "C/C01/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/C01/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/C01.json",
+        "source_sha256": "430ba20717a503c25e8c4f07850324670d8cc8be219464dd9fe1387de84a7a77",
+        "repository_sha256": "430ba20717a503c25e8c4f07850324670d8cc8be219464dd9fe1387de84a7a77",
+        "exact_copy": true
+      },
+      {
+        "label": "C/C01/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/C01/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/C01.json",
+        "source_sha256": "5cb555101829f24f8d5e2565309ba06f941d48de54404157706f5dd717d200b2",
+        "repository_sha256": "5cb555101829f24f8d5e2565309ba06f941d48de54404157706f5dd717d200b2",
+        "exact_copy": true
+      },
+      {
+        "label": "C/C01/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/C01/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-2/C01.json",
+        "source_sha256": "00c51c5a000f1acb504e7b40bcfb4aa62984d6d1e8638f86f913629606fb2d99",
+        "repository_sha256": "00c51c5a000f1acb504e7b40bcfb4aa62984d6d1e8638f86f913629606fb2d99",
+        "exact_copy": true
+      },
+      {
+        "label": "C/C02/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/C02/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/C02.json",
+        "source_sha256": "41e5ec4f1ca7a2d98ed0c71db542d5eb1c251932b1baa1dc342acb70bd787638",
+        "repository_sha256": "41e5ec4f1ca7a2d98ed0c71db542d5eb1c251932b1baa1dc342acb70bd787638",
+        "exact_copy": true
+      },
+      {
+        "label": "C/C02/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/C02/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/C02.json",
+        "source_sha256": "b21fc18e97fbfc60a7c7adc85ed1a594d7a81523ac8875efd4ef0b5a7b81728a",
+        "repository_sha256": "b21fc18e97fbfc60a7c7adc85ed1a594d7a81523ac8875efd4ef0b5a7b81728a",
+        "exact_copy": true
+      },
+      {
+        "label": "C/C02/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/C02/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-2/C02.json",
+        "source_sha256": "84c59042dacadb7f3edaf03c89e5f7c219c87466cffc144f43d04565c543c61a",
+        "repository_sha256": "84c59042dacadb7f3edaf03c89e5f7c219c87466cffc144f43d04565c543c61a",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G01/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G01/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/G01.json",
+        "source_sha256": "8d9a1bffb8eca76bcddea3d166faaabafa57802a2178ef56e64d509c88bb14a0",
+        "repository_sha256": "8d9a1bffb8eca76bcddea3d166faaabafa57802a2178ef56e64d509c88bb14a0",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G01/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G01/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/G01.json",
+        "source_sha256": "de2f2ce4dec3f746918a7737cb7c7cb0366b25eae75c15f19605fd94c39b0102",
+        "repository_sha256": "de2f2ce4dec3f746918a7737cb7c7cb0366b25eae75c15f19605fd94c39b0102",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G02/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/G02.json",
+        "source_sha256": "155a5e9b5cfef35ed096c079618510fd3f2f67dc15aa173b5df5a2dedb76fdc7",
+        "repository_sha256": "155a5e9b5cfef35ed096c079618510fd3f2f67dc15aa173b5df5a2dedb76fdc7",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G02/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/G02.json",
+        "source_sha256": "32e355f83600b9804c844a67b4df46dba9fbffc77baa31bc11977497eb148e25",
+        "repository_sha256": "32e355f83600b9804c844a67b4df46dba9fbffc77baa31bc11977497eb148e25",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G02/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G02/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-2/G02.json",
+        "source_sha256": "10abe48cd63738bae03377412bad120b7741e9ccc60df54d938dcbcdfda441fa",
+        "repository_sha256": "10abe48cd63738bae03377412bad120b7741e9ccc60df54d938dcbcdfda441fa",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G03/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G03/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/G03.json",
+        "source_sha256": "a081391f8dc9fdf4ad6cccea0329948a8736dc610dd3263f11e5ad74bc561763",
+        "repository_sha256": "a081391f8dc9fdf4ad6cccea0329948a8736dc610dd3263f11e5ad74bc561763",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G03/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G03/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/G03.json",
+        "source_sha256": "1a82245d7e582a12cab6a1358c96e3938d739b77976028a1155e9d6ef92095ce",
+        "repository_sha256": "1a82245d7e582a12cab6a1358c96e3938d739b77976028a1155e9d6ef92095ce",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G04/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G04/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/G04.json",
+        "source_sha256": "7f0aafad1f9c3d82d7ec5bd7dd4a936d5e7bf4a45f7944a7465f9b070bf00230",
+        "repository_sha256": "7f0aafad1f9c3d82d7ec5bd7dd4a936d5e7bf4a45f7944a7465f9b070bf00230",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G05/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G05/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/G05.json",
+        "source_sha256": "ee8eedece3a1781ee0ab78b79f183968a590a47c69c89a6234ce8d9ad7e9cb87",
+        "repository_sha256": "ee8eedece3a1781ee0ab78b79f183968a590a47c69c89a6234ce8d9ad7e9cb87",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G05/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G05/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/G05.json",
+        "source_sha256": "cc01d688c94e63da5c86628ea5cd574c105e039df5620b993bc5c0fe32500467",
+        "repository_sha256": "cc01d688c94e63da5c86628ea5cd574c105e039df5620b993bc5c0fe32500467",
+        "exact_copy": true
+      },
+      {
+        "label": "C/G05/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/G05/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-2/G05.json",
+        "source_sha256": "bbafa61bfc50d8a85819d164ba00ad57ef1b07324e817c0aa788b1bbe70ed65c",
+        "repository_sha256": "bbafa61bfc50d8a85819d164ba00ad57ef1b07324e817c0aa788b1bbe70ed65c",
+        "exact_copy": true
+      },
+      {
+        "label": "C/H01/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/H01/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/H01.json",
+        "source_sha256": "0b259eee2b6b892b458bff955dac745a30d5edb20fedd89abffe6b383d19f237",
+        "repository_sha256": "0b259eee2b6b892b458bff955dac745a30d5edb20fedd89abffe6b383d19f237",
+        "exact_copy": true
+      },
+      {
+        "label": "C/H01/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/H01/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/H01.json",
+        "source_sha256": "81d82539942cbcafe3ca39098b019ef4afd6507001eafcedb116a45b8d4519dc",
+        "repository_sha256": "81d82539942cbcafe3ca39098b019ef4afd6507001eafcedb116a45b8d4519dc",
+        "exact_copy": true
+      },
+      {
+        "label": "C/H02/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/H02/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/H02.json",
+        "source_sha256": "a1432467dac92631964956c0757e496ddf744d16d0eea4b5c7a9ae80aefaff0c",
+        "repository_sha256": "a1432467dac92631964956c0757e496ddf744d16d0eea4b5c7a9ae80aefaff0c",
+        "exact_copy": true
+      },
+      {
+        "label": "C/H02/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/H02/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/H02.json",
+        "source_sha256": "baa96396983a5e2b3b27d754d6af2d9ade7b50760f3304c88bb33cdc4ca1b7da",
+        "repository_sha256": "baa96396983a5e2b3b27d754d6af2d9ade7b50760f3304c88bb33cdc4ca1b7da",
+        "exact_copy": true
+      },
+      {
+        "label": "C/H02/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/H02/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-2/H02.json",
+        "source_sha256": "346156f6c3223310b5cedef009e294a2f8e5ca462f2a9b16ecf490635c0f0fac",
+        "repository_sha256": "346156f6c3223310b5cedef009e294a2f8e5ca462f2a9b16ecf490635c0f0fac",
+        "exact_copy": true
+      },
+      {
+        "label": "C/H03/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/H03/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/H03.json",
+        "source_sha256": "48daf1b9296a3c3fa216097d5b56c7514123690406dd70ed377498a88ccfe7aa",
+        "repository_sha256": "48daf1b9296a3c3fa216097d5b56c7514123690406dd70ed377498a88ccfe7aa",
+        "exact_copy": true
+      },
+      {
+        "label": "C/H03/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/H03/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/H03.json",
+        "source_sha256": "cb67baf288a0979ded4c7a4cd03b73c990c393bc2ace585221f5c7072256d9c6",
+        "repository_sha256": "cb67baf288a0979ded4c7a4cd03b73c990c393bc2ace585221f5c7072256d9c6",
+        "exact_copy": true
+      },
+      {
+        "label": "C/N01/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/N01/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/N01.json",
+        "source_sha256": "376c5af679773e80cba324acdebd32362ad13f092e0c34b8ea43bc4b0413c99c",
+        "repository_sha256": "376c5af679773e80cba324acdebd32362ad13f092e0c34b8ea43bc4b0413c99c",
+        "exact_copy": true
+      },
+      {
+        "label": "C/N01/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/N01/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/N01.json",
+        "source_sha256": "b6043d21efed4dc2ab2bc7452b6cf9122fd57d0a6ab4e79f816566d3bc292b45",
+        "repository_sha256": "b6043d21efed4dc2ab2bc7452b6cf9122fd57d0a6ab4e79f816566d3bc292b45",
+        "exact_copy": true
+      },
+      {
+        "label": "C/N02/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/N02/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/N02.json",
+        "source_sha256": "a66cab26326b565505069b2d770104df3a06e59b44c42725269b0fdb0ca7fc9c",
+        "repository_sha256": "a66cab26326b565505069b2d770104df3a06e59b44c42725269b0fdb0ca7fc9c",
+        "exact_copy": true
+      },
+      {
+        "label": "C/P01/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P01/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/P01.json",
+        "source_sha256": "5416fa4706573f2579f51d90c0bcc37e7ad888e32bb863117b277fd535ce4bbc",
+        "repository_sha256": "5416fa4706573f2579f51d90c0bcc37e7ad888e32bb863117b277fd535ce4bbc",
+        "exact_copy": true
+      },
+      {
+        "label": "C/P01/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P01/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/P01.json",
+        "source_sha256": "064227620eecd4c9f52f640b632cc30541fea50cc457cec1ee2730d1b23517ff",
+        "repository_sha256": "064227620eecd4c9f52f640b632cc30541fea50cc457cec1ee2730d1b23517ff",
+        "exact_copy": true
+      },
+      {
+        "label": "C/P01/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P01/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-2/P01.json",
+        "source_sha256": "6881d95f48eb58f764fdfdfc0396a07f870d4e3963beaa8be85d4c7bfd461dcf",
+        "repository_sha256": "6881d95f48eb58f764fdfdfc0396a07f870d4e3963beaa8be85d4c7bfd461dcf",
+        "exact_copy": true
+      },
+      {
+        "label": "C/P02/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/initial/P02.json",
+        "source_sha256": "0344dfb4a441cc126bcb0056a9df66c5ea9bd266378a69ab3532ff863c4abe01",
+        "repository_sha256": "0344dfb4a441cc126bcb0056a9df66c5ea9bd266378a69ab3532ff863c4abe01",
+        "exact_copy": true
+      },
+      {
+        "label": "C/P02/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/production-c/P02/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/manifests/repair-1/P02.json",
+        "source_sha256": "82039641456876267ab5649f23f7512d5d34ffa92a4e2b15b01ed642b6a68a92",
+        "repository_sha256": "82039641456876267ab5649f23f7512d5d34ffa92a4e2b15b01ed642b6a68a92",
+        "exact_copy": true
+      },
+      {
+        "label": "D/C02/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/C02/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/initial/C02.json",
+        "source_sha256": "564135de39a15694f65ebfc31cb43984b4cbbba4e19b4cbe319e805b67b16bf7",
+        "repository_sha256": "564135de39a15694f65ebfc31cb43984b4cbbba4e19b4cbe319e805b67b16bf7",
+        "exact_copy": true
+      },
+      {
+        "label": "D/C02/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/C02/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/repair-1/C02.json",
+        "source_sha256": "faef3116b1af741788f97a2f0683b177f902dd6bce61c7d1375dfab02a78657e",
+        "repository_sha256": "faef3116b1af741788f97a2f0683b177f902dd6bce61c7d1375dfab02a78657e",
+        "exact_copy": true
+      },
+      {
+        "label": "D/C02/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/C02/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/repair-2/C02.json",
+        "source_sha256": "31287df6ac0016faf296f51b3ab708c9d9296c34848f31c2e0ce167957775893",
+        "repository_sha256": "31287df6ac0016faf296f51b3ab708c9d9296c34848f31c2e0ce167957775893",
+        "exact_copy": true
+      },
+      {
+        "label": "D/H02/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/H02/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/initial/H02.json",
+        "source_sha256": "38a54009d00ebd940e0a59741456204020535aa0e0ea97cdfbf09bba2fc80ed5",
+        "repository_sha256": "38a54009d00ebd940e0a59741456204020535aa0e0ea97cdfbf09bba2fc80ed5",
+        "exact_copy": true
+      },
+      {
+        "label": "D/H02/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/H02/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/repair-1/H02.json",
+        "source_sha256": "19e7a15adf916c0a554972ca7db05f0ed1ce9eb73aae70838c8fd81b05954ea5",
+        "repository_sha256": "19e7a15adf916c0a554972ca7db05f0ed1ce9eb73aae70838c8fd81b05954ea5",
+        "exact_copy": true
+      },
+      {
+        "label": "D/H02/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/H02/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/repair-2/H02.json",
+        "source_sha256": "a107852ab0f132f6cadef6abe4857bfb3c27392aa994d79cf1a420700878aeb9",
+        "repository_sha256": "a107852ab0f132f6cadef6abe4857bfb3c27392aa994d79cf1a420700878aeb9",
+        "exact_copy": true
+      },
+      {
+        "label": "D/P01/initial native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/P01/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/initial/P01.json",
+        "source_sha256": "61618c695c03d7c622a83e5d60d272f98a067efbf31720c32e1659892f2796a6",
+        "repository_sha256": "61618c695c03d7c622a83e5d60d272f98a067efbf31720c32e1659892f2796a6",
+        "exact_copy": true
+      },
+      {
+        "label": "D/P01/repair-1 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/P01/repair-1/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/repair-1/P01.json",
+        "source_sha256": "4eb619433e91b1c86895fe2b32d76d952fbff41d9eb9a7ee86a4bb4df3a12a25",
+        "repository_sha256": "4eb619433e91b1c86895fe2b32d76d952fbff41d9eb9a7ee86a4bb4df3a12a25",
+        "exact_copy": true
+      },
+      {
+        "label": "D/P01/repair-2 native manifest",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/P01/repair-2/manifest.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/manifests/repair-2/P01.json",
+        "source_sha256": "9b7eb47cd43bb49909b8b15561ee4f33fe5b31216c21854d4cbfbf6730ce5a87",
+        "repository_sha256": "9b7eb47cd43bb49909b8b15561ee4f33fe5b31216c21854d4cbfbf6730ce5a87",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C final-selection.json",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/final-selection.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/final-selection.json",
+        "source_sha256": "e0b007c172671fbce75031c7df7ceb85ac0c04b3c47b4d16c36f77e19a55e41e",
+        "repository_sha256": "e0b007c172671fbce75031c7df7ceb85ac0c04b3c47b4d16c36f77e19a55e41e",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C initial-selection.json",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/initial-selection.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/initial-selection.json",
+        "source_sha256": "1cb41becd4f5d68672f41bc3b8f755c31942d2371a040e83689e90c74323b361",
+        "repository_sha256": "1cb41becd4f5d68672f41bc3b8f755c31942d2371a040e83689e90c74323b361",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C wave1-selection.json",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/wave1-selection.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/wave1-selection.json",
+        "source_sha256": "e5650d4c69d80a0e0295354aac7ad39c3afbf6e46b7720403c9e93198c17af2e",
+        "repository_sha256": "e5650d4c69d80a0e0295354aac7ad39c3afbf6e46b7720403c9e93198c17af2e",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C wave2-selection.json",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/wave2-selection.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/wave2-selection.json",
+        "source_sha256": "9971db6c70a974795cd32bc3f587c49e911c52331eb66d7bdf68a16025cf181e",
+        "repository_sha256": "9971db6c70a974795cd32bc3f587c49e911c52331eb66d7bdf68a16025cf181e",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C/initial/editorial raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-initial/reviews/editorial.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/initial/editorial.json",
+        "source_sha256": "1b6f2287401fd8969fa8278f05ca6d47204bb1d7fc33577e6593bffc63425f85",
+        "repository_sha256": "1b6f2287401fd8969fa8278f05ca6d47204bb1d7fc33577e6593bffc63425f85",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C/initial/craft raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-initial/reviews/craft.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/initial/craft.json",
+        "source_sha256": "cd95e2d45533aff853a3f3f7f0e368b3ceeaf03be958556315cc4ad44db074a5",
+        "repository_sha256": "cd95e2d45533aff853a3f3f7f0e368b3ceeaf03be958556315cc4ad44db074a5",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C/initial/portfolio raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-initial/reviews/portfolio.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/initial/portfolio.json",
+        "source_sha256": "96f8716aa049a9094af62e6768b017eaaaf21f5d7d81bc6a2b0150c0e194741a",
+        "repository_sha256": "96f8716aa049a9094af62e6768b017eaaaf21f5d7d81bc6a2b0150c0e194741a",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C/wave2/editorial raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave2/reviews/editorial.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/wave2/editorial.json",
+        "source_sha256": "183c20df40d41a61af40c10fd7c59e818f2ef3cec9514a1e7097b9076311d1d9",
+        "repository_sha256": "183c20df40d41a61af40c10fd7c59e818f2ef3cec9514a1e7097b9076311d1d9",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C/wave2/craft raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave2/reviews/craft.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/wave2/craft.json",
+        "source_sha256": "19e9cc264357cfdd551988fdd59cd4c543441b140015fe13dd53d97f99e32529",
+        "repository_sha256": "19e9cc264357cfdd551988fdd59cd4c543441b140015fe13dd53d97f99e32529",
+        "exact_copy": true
+      },
+      {
+        "label": "Preserved C/wave2/portfolio raw report",
+        "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/blind-wave2/reviews/portfolio.json",
+        "repository": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/reviews/wave2/portfolio.json",
+        "source_sha256": "4831d00c3aab9056bae63eb02baa35c2abaa6dc017a70db000502891fca90de8",
+        "repository_sha256": "4831d00c3aab9056bae63eb02baa35c2abaa6dc017a70db000502891fca90de8",
+        "exact_copy": true
+      }
+    ],
+    "canonical_report_checks": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/report.md",
+      "sha256": "dcf1ef06628509dbded73a9919cc357ae505f7ee1670f2af77d89cc065adbf65",
+      "nonempty": true,
+      "explicit_combined14_FAIL": true,
+      "retained_C11_plus_D3_explicit": true,
+      "recorded_final_27_views_explicit": true,
+      "source": "D/build_report.py writes the canonical repository report directly; no separate workspace report copy is expected.",
+      "relative_link_check": "Outside this audit; root responsibility."
+    },
+    "C_preview_count": 32,
+    "D_preview_count": 9,
+    "total_native_stage_preview_count": 41,
+    "preview_role_stage_sets_match_closed_ledger": true,
+    "reduced_preview_records": [
+      {
+        "version": "C",
+        "role": "C01",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/C01.png",
+        "preview_sha256": "89ebb189a3257b34d3e03b95eef9a736f9f83e78019c01f22f564d4261d4064f",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "C01",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/C01.png",
+        "preview_sha256": "20df7b4c5244017624d2a8dc50be0da24d3ea0012d6bce8bd27484b00e8bb8a2",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "C01",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-2/C01.png",
+        "preview_sha256": "229b1a95d1682d6d25a50a2056f69dc1b7ae50fc4ac9c238178ec5fa6ac4aeb9",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "C02",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/C02.png",
+        "preview_sha256": "f0b75d8ca41ca0c9f2c9ce25bb6ef9b639724ecd1e4f32c3a48869d9307facc1",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "C02",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/C02.png",
+        "preview_sha256": "7f953d758aad6a177b98ae1f1d0becb7af0653f7ca36b4c1bd7f136da07dcbc6",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "C02",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-2/C02.png",
+        "preview_sha256": "4a4828acefefa49b8f59950c6e6a08392bd11a9da05a36c169cbde072761e3df",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G01",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/G01.png",
+        "preview_sha256": "d408f4a9945f001a8e87cce8ae26a14fa3886725d180c5e032d98b140de61605",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G01",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/G01.png",
+        "preview_sha256": "1696f28160be454403e42e7009a0d9c26f3d872b36165008d36088c249c3cff7",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G02",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/G02.png",
+        "preview_sha256": "eb046e34be2bf3f557c8d1f0d1ccc33bab3ac684c43ce0408d4199a5d1360c7f",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G02",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/G02.png",
+        "preview_sha256": "5c0612425f84e01fcedf8cf4143e29d5d4645f060d52a3e2a69614ead1ea1b35",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G02",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-2/G02.png",
+        "preview_sha256": "37df1e6c731c4f8be6c9fe60ff14ec311705b38a94741eab6d12b3b760359be0",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G03",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/G03.png",
+        "preview_sha256": "d8e75993a8a9554e54c1a9e1e668e4c99036b1ed3a96f66e005141ba27cfe4e3",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G03",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/G03.png",
+        "preview_sha256": "6530ed5705723e97528c94d98844fc4a81979f526b313b639220f29814383483",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G04",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/G04.png",
+        "preview_sha256": "195b4b3065f4fc8d64dd1123daafe86a2f6e27e93fc9e465e472165a695719fa",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G05",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/G05.png",
+        "preview_sha256": "c6b1c84509276d08c2d591e6a78710cce3ddfbbea26cd2b93ffd2c421c77f23e",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G05",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/G05.png",
+        "preview_sha256": "21122d9a0ddbd86b6df40a536859af5a37b274a2dcf80cbdb74cedd2adbfc212",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "G05",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-2/G05.png",
+        "preview_sha256": "3c705e914b0ef1ae7368bee42f252f499be53347981450bf4e46e4e96f72f0ec",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "H01",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/H01.png",
+        "preview_sha256": "3d95645d82df83a657bd06514d9eae8a20cd11a80519afc0f76cd7942b7e7a97",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "H01",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/H01.png",
+        "preview_sha256": "d56585688a2d7a5240587f1227ada9208f2783db80e6b7e845508f3d18af2614",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "H02",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/H02.png",
+        "preview_sha256": "e90adf239b7be1aabf239fefaa2a21080de99bf20baee899ef3b6d458c138c42",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "H02",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/H02.png",
+        "preview_sha256": "7cb1f864bd1c28ae6551aca07d8dd95a3060caa4166daf3ba93b25364c70d267",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "H02",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-2/H02.png",
+        "preview_sha256": "eb9aa5432e9d3f1cce266635509452ce79440351da2d4d0c77c516271038365a",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "H03",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/H03.png",
+        "preview_sha256": "aa3486267a0b07aba2fbb18e15b80e3184c65c807bc81c90a857d7e4ebcef242",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "H03",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/H03.png",
+        "preview_sha256": "51a612f328c1a5f96df88f54b7e3e735afaef1f05306e4aa39cfd38cde1a7f4e",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "N01",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/N01.png",
+        "preview_sha256": "915829c38284cc4b8d15f38fa29c977d8b36dd4190f3771313c2ce3c4d99b5e2",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "N01",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/N01.png",
+        "preview_sha256": "51dce4d3e7b3f148fdbb69689053cc2c12c1c7acc7e245779b0abff23f78ac46",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "N02",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/N02.png",
+        "preview_sha256": "9d059959bfa1f2caa749668aee1d6b8cbae29ae5fb70cdabc18dac8626a40609",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "P01",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/P01.png",
+        "preview_sha256": "5b0f23f9b49240ce2bc322eb660da2c454848250a0ad7b87500ddb7ca0cf41f0",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "P01",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/P01.png",
+        "preview_sha256": "fa5e4ffe0198730a6ace36fe789eca6c2e4eab0a7063138121cf126de6a267ba",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "P01",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-2/P01.png",
+        "preview_sha256": "bfeebffd2a8af42d6afa27357026c1a90b7d0a2170f6e446d49f07059e284aed",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "P02",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/initial/P02.png",
+        "preview_sha256": "5cae8bba1c8a0cf1397df39a5f72975cf1b25301602381e627dc31256f2c0f1b",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "C",
+        "role": "P02",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/previews/repair-1/P02.png",
+        "preview_sha256": "92dc6a09cf8ad1bffc82b60c6e67ed439aaef70f5f5f9ab6ccf91a987f6be114",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "C02",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/initial/C02.png",
+        "preview_sha256": "b3a0e9d080d078821558c7fa2a1d5edccd967dc32640c8e3b030a6e97e2c4f58",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "C02",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/repair-1/C02.png",
+        "preview_sha256": "eba380caaf0fb64a177806172f9273940ebd9079361b0f2b14999fd959f07dba",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "C02",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/repair-2/C02.png",
+        "preview_sha256": "9f67a4e5de868deadaa2bc510c8ae04b593dd8bcb0dcaf6cee800c1ec302bac8",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "H02",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/initial/H02.png",
+        "preview_sha256": "7b424242ceb5399938a2807a1ec6d5d5b17b50b1988ad93bcdea363ef3805f75",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "H02",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/repair-1/H02.png",
+        "preview_sha256": "d8565cd6c45398dbdd1d220aa9dda6da882639c3c5cbb01db5bf171c2a12192b",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "H02",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/repair-2/H02.png",
+        "preview_sha256": "1cc34f5486558557803f7b063c72fcbb535409b6d44e04838e8491eb0ff46499",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "P01",
+        "stage": "initial",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/initial/P01.png",
+        "preview_sha256": "c14d09a3a547207bd0334eaa53b4f1a68d8872c094c53f186e9b942d01d09092",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "P01",
+        "stage": "repair-1",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/repair-1/P01.png",
+        "preview_sha256": "0c3663ef6abfc2f7edf8867ff7c5ef4520cf2b42accad03ab1ab3d0ea0694ff9",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      },
+      {
+        "version": "D",
+        "role": "P01",
+        "stage": "repair-2",
+        "preview_path": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round4/continuation-d/previews/repair-2/P01.png",
+        "preview_sha256": "44403f7d1a4333e8fd4fbf686cc48a7d56973dd462810a0337f91b8fc9d1b3b6",
+        "scope": "Reduced repository preview file presence/hash only; no image viewing or visual judgment"
+      }
+    ],
+    "audit_self_sync": "Root will copy final-closeout-audit.md/.json to repository after this completion; excluded from current copy checks.",
+    "selection_scope_note": "Root final-selection.json is the preserved closed C physical selection, not the current delivery alias. It is correctly unchanged and copied exactly. Current selected14 is final-delivery-selection.json and separately passes exact final evidence binding."
+  },
+  "prior_audits_preserved": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/final-nine-binding-audit.md",
+      "sha256_at_start": "bc07878eefdecc3bc43c82ad127b5dfaf139fafd826ed0452d4d4d244f09448a",
+      "sha256_at_end": "bc07878eefdecc3bc43c82ad127b5dfaf139fafd826ed0452d4d4d244f09448a",
+      "unchanged_during_closeout_audit": true
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/final-nine-binding-audit.json",
+      "sha256_at_start": "e7a72fb6fec13f864666bf7760f150dff830ce54835823a99473f2c1e15d8967",
+      "sha256_at_end": "e7a72fb6fec13f864666bf7760f150dff830ce54835823a99473f2c1e15d8967",
+      "unchanged_during_closeout_audit": true
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/final-metadata-audit.md",
+      "sha256_at_start": "f3dd2745d54969e1d254b8fa607c33a2ef6dc079e853f365db3980c74f85008b",
+      "sha256_at_end": "f3dd2745d54969e1d254b8fa607c33a2ef6dc079e853f365db3980c74f85008b",
+      "unchanged_during_closeout_audit": true
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/planning/final-metadata-audit.json",
+      "sha256_at_start": "24ce4f185436c38b302f2a9bd10d9a4e19c2bed81a36343d74564add64094a3a",
+      "sha256_at_end": "24ce4f185436c38b302f2a9bd10d9a4e19c2bed81a36343d74564add64094a3a",
+      "unchanged_during_closeout_audit": true
+    }
+  ],
+  "actions": "Read/hash/JSON record comparison only, then write this new requested .md/.json audit. No skill, production, review, final evidence or previous audit mutation.",
+  "limitations": [
+    "This audit issues no visual quality PASS. Metadata/hash correspondence does not prove visible Unicode copy, physical operation, authorship, print suitability or universal future quality.",
+    "Raw independent reviewer labels and saved preflight flags do not constitute exhaustive identity or tool-history certification.",
+    "Canonical report relative link checking is root responsibility and outside this audit."
+  ]
+}

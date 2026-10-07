@@ -1,0 +1,15 @@
+{
+  "status": "FAIL",
+  "scope": "Recorded native bytes and accounting only; not a visual quality certificate.",
+  "precall_scope": "Exact saved input equality and filesystem timestamp consistency with one-second clock precision; not exhaustive tool-history or native invocation-order certification. Prompt comparison ignores terminal LF only.",
+  "D_calls": 9,
+  "C_plus_D_calls": 41,
+  "round3_C_D_calls": 75,
+  "errors": [
+    "saved exact call-input mismatch P01/repair-2",
+    "pre-call file timestamp inconsistent with recorded start P01/repair-2/call-input.json"
+  ],
+  "missing": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round4/continuation-d/production-d/P01/repair-2/call-input.json"
+  ]
+}

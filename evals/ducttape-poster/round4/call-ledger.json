@@ -1,0 +1,176 @@
+{
+  "historical_round3_calls": 34,
+  "new_phase_call_cap": 42,
+  "combined_round3_round4_cap": 76,
+  "calls": [
+    {
+      "slot_id": "C01",
+      "stage": "initial",
+      "manifest_path": "production-c/C01/manifest.json"
+    },
+    {
+      "slot_id": "C01",
+      "stage": "repair-1",
+      "manifest_path": "production-c/C01/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "C01",
+      "stage": "repair-2",
+      "manifest_path": "production-c/C01/repair-2/manifest.json"
+    },
+    {
+      "slot_id": "C02",
+      "stage": "initial",
+      "manifest_path": "production-c/C02/manifest.json"
+    },
+    {
+      "slot_id": "C02",
+      "stage": "repair-1",
+      "manifest_path": "production-c/C02/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "C02",
+      "stage": "repair-2",
+      "manifest_path": "production-c/C02/repair-2/manifest.json"
+    },
+    {
+      "slot_id": "G01",
+      "stage": "initial",
+      "manifest_path": "production-c/G01/manifest.json"
+    },
+    {
+      "slot_id": "G01",
+      "stage": "repair-1",
+      "manifest_path": "production-c/G01/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "G02",
+      "stage": "initial",
+      "manifest_path": "production-c/G02/manifest.json"
+    },
+    {
+      "slot_id": "G02",
+      "stage": "repair-1",
+      "manifest_path": "production-c/G02/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "G02",
+      "stage": "repair-2",
+      "manifest_path": "production-c/G02/repair-2/manifest.json"
+    },
+    {
+      "slot_id": "G03",
+      "stage": "initial",
+      "manifest_path": "production-c/G03/manifest.json"
+    },
+    {
+      "slot_id": "G03",
+      "stage": "repair-1",
+      "manifest_path": "production-c/G03/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "G04",
+      "stage": "initial",
+      "manifest_path": "production-c/G04/manifest.json"
+    },
+    {
+      "slot_id": "G05",
+      "stage": "initial",
+      "manifest_path": "production-c/G05/manifest.json"
+    },
+    {
+      "slot_id": "G05",
+      "stage": "repair-1",
+      "manifest_path": "production-c/G05/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "G05",
+      "stage": "repair-2",
+      "manifest_path": "production-c/G05/repair-2/manifest.json"
+    },
+    {
+      "slot_id": "H01",
+      "stage": "initial",
+      "manifest_path": "production-c/H01/manifest.json"
+    },
+    {
+      "slot_id": "H01",
+      "stage": "repair-1",
+      "manifest_path": "production-c/H01/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "H02",
+      "stage": "initial",
+      "manifest_path": "production-c/H02/manifest.json"
+    },
+    {
+      "slot_id": "H02",
+      "stage": "repair-1",
+      "manifest_path": "production-c/H02/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "H02",
+      "stage": "repair-2",
+      "manifest_path": "production-c/H02/repair-2/manifest.json"
+    },
+    {
+      "slot_id": "H03",
+      "stage": "initial",
+      "manifest_path": "production-c/H03/manifest.json"
+    },
+    {
+      "slot_id": "H03",
+      "stage": "repair-1",
+      "manifest_path": "production-c/H03/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "N01",
+      "stage": "initial",
+      "manifest_path": "production-c/N01/manifest.json"
+    },
+    {
+      "slot_id": "N01",
+      "stage": "repair-1",
+      "manifest_path": "production-c/N01/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "N02",
+      "stage": "initial",
+      "manifest_path": "production-c/N02/manifest.json"
+    },
+    {
+      "slot_id": "P01",
+      "stage": "initial",
+      "manifest_path": "production-c/P01/manifest.json"
+    },
+    {
+      "slot_id": "P01",
+      "stage": "repair-1",
+      "manifest_path": "production-c/P01/repair-1/manifest.json"
+    },
+    {
+      "slot_id": "P01",
+      "stage": "repair-2",
+      "manifest_path": "production-c/P01/repair-2/manifest.json"
+    },
+    {
+      "slot_id": "P02",
+      "stage": "initial",
+      "manifest_path": "production-c/P02/manifest.json"
+    },
+    {
+      "slot_id": "P02",
+      "stage": "repair-1",
+      "manifest_path": "production-c/P02/repair-1/manifest.json"
+    }
+  ],
+  "recorded_native_calls": 32,
+  "new_phase_complete": true,
+  "note": "Additional C calls are a separate user-requested skill-evaluation phase, not hidden old-phase repairs. Initial manifests and repair-stage manifests each record exactly one call.",
+  "completed_initial_count": 14,
+  "maximum_overlapping_recorded_native_call_intervals": 3,
+  "initial_wave_complete": true,
+  "completed_repair_count": 18,
+  "quality_gate": "FAIL; closed C failures preserved; no further C calls",
+  "unused_C_calls_retired": 10
+}
