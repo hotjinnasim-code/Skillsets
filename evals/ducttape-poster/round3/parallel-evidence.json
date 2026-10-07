@@ -1,0 +1,41 @@
+{
+  "logical_default_makers": 5,
+  "default_maker_agents": [
+    "/root/round3_b_g01",
+    "/root/round3_b_g02",
+    "/root/round3_b_g03",
+    "/root/round3_b_g04",
+    "/root/round3_b_g05"
+  ],
+  "actual_default_native_calls": 5,
+  "native_output_count": 5,
+  "environment_total_agent_capacity": 4,
+  "root_coordinator_slots": 1,
+  "actual_maximum_concurrent_makers": 3,
+  "five_simultaneous_makers_tested": false,
+  "first_wave_native_call_intervals_utc": [
+    {
+      "role": "G01",
+      "start": "2026-10-07T13:58:23.698Z",
+      "end": "2026-10-07T13:58:55.183Z"
+    },
+    {
+      "role": "G02",
+      "start": "2026-10-07T13:58:32.717Z",
+      "end": "2026-10-07T13:59:05.961Z"
+    },
+    {
+      "role": "G03",
+      "start": "2026-10-07T13:58:33.084Z",
+      "end": "2026-10-07T13:59:15.961Z"
+    }
+  ],
+  "three_native_calls_overlap_utc": {
+    "start": "2026-10-07T13:58:33.084Z",
+    "end": "2026-10-07T13:58:55.183Z",
+    "seconds": 22.099
+  },
+  "isolation": "Each role received only its own packet/frozen skill. No peer generated image references. Each returned exactly1 independent native image.",
+  "explicit_two_cases": "C01/C02,P01/P02,N01/N02 each actual distinct maker role and one native output.",
+  "limit": "Actual5 simultaneous execution cannot be measured under current3worker cap; instructions launch5 when supported and batch otherwise."
+}
