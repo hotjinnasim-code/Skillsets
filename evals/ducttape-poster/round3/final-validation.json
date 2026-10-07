@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "instruction artifacts, exact file paths, dimensions, SHA256, and recorded call accounting; no pixel-quality certification or exhaustive tool-history proof",
+  "summary": {
+    "skill_files_matched": 6,
+    "local_skill_links_checked": 5,
+    "initial_candidate_native_calls": 11,
+    "prior_native_calls": 5,
+    "production_b_completed_manifest_calls": 18,
+    "production_b_completed_manifest_count": 18,
+    "completed_recorded_native_calls": 34,
+    "post_initial_calls_by_original_slot": {
+      "G01": 2,
+      "G02": 2,
+      "G03": 1,
+      "G04": 2,
+      "G05": 1,
+      "C01": 2,
+      "C02": 2,
+      "P01": 2,
+      "P02": 1,
+      "N01": 2,
+      "N02": 1
+    },
+    "initial-evidence.json_records": 16,
+    "fresh-b-evidence.json_records": 11,
+    "repair-evidence.json_records": 7,
+    "selected_finals_checked": 11,
+    "selection_high_end_gate": "not_unanimously_passed",
+    "unique_image_paths_checked": 187
+  },
+  "errors": [],
+  "warnings": []
+}
