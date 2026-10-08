@@ -1,0 +1,183 @@
+{
+  "role": "R6-C2-M4",
+  "case_id": "R6-C2",
+  "stage": "initial",
+  "inspected_at_utc": "2026-10-07T22:17:35+00:00",
+  "method": "Actual manual viewing through view_image, native original detail, 720-width, 320-longside. No OCR substituted for manual text inspection.",
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M4/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M4/initial/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M4/initial/thumbnail320.png"
+  ],
+  "copy": [
+    {
+      "required": "이름 바꾸는 물건들",
+      "observed": "이름 바꾸는 물건들",
+      "equal": true
+    },
+    {
+      "required": "OBJECT NAME EXCHANGE",
+      "observed": "OBJECT NAME EXCHANGE",
+      "equal": true
+    },
+    {
+      "required": "2026.11.21(토) 13:30–16:00",
+      "observed": "2026.11.21(토) 13:30–16:00",
+      "equal": true
+    },
+    {
+      "required": "가상 공간 여울실험실 2층 / YEOUL LAB",
+      "observed": "가상 공간 여울실험실 2층 / YEOUL LAB",
+      "equal": true
+    },
+    {
+      "required": "한국어·English, 어느 언어로 적어도 좋아요.",
+      "observed": "한국어·English, 어느 언어로 적어도 좋아요.",
+      "equal": true
+    },
+    {
+      "required": "이름을 바꾸고 싶은 작은 물건 1개를 가져오세요.",
+      "observed": "이름을 바꾸고 싶은 작은 물건 1개를 가져오세요.",
+      "equal": true
+    },
+    {
+      "required": "깨지기 쉬운 물건과 음식은 받지 않아요.",
+      "observed": "깨지기 쉬운 물건과 음식은 받지 않아요.",
+      "equal": true
+    },
+    {
+      "required": "만 16세 이상 · 무료 · 24명",
+      "observed": "만 16세 이상 · 무료 · 24명",
+      "equal": true
+    },
+    {
+      "required": "11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.",
+      "observed": "11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.",
+      "equal": true
+    },
+    {
+      "required": "yeoul.example/NAME?lang=ko&slot=pm",
+      "observed": "yeoul.example/NAME?lang=ko&slot=pm",
+      "equal": true
+    }
+  ],
+  "copy_line_break_observations": [
+    {
+      "string": "이름 바꾸는 물건들",
+      "visible_lines": [
+        "이름 바꾸는",
+        "물건들"
+      ],
+      "normalized_equal": true
+    },
+    {
+      "string": "OBJECT NAME EXCHANGE",
+      "visible_lines": [
+        "OBJECT NAME",
+        "EXCHANGE"
+      ],
+      "normalized_equal": true
+    },
+    {
+      "string": "한국어·English, 어느 언어로 적어도 좋아요.",
+      "visible_lines": [
+        "한국어·English,",
+        "어느 언어로 적어도 좋아요."
+      ],
+      "normalized_equal": true
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "required": "전체 10개 문자열을 다섯 장 모두 정확히 보존한다. 새 소제목·가짜 라벨 내용·장식 문자·QR코드를 추가하지 않는다.",
+      "observed": "All ten required strings are visible once; two name spaces contain no writing; no extra title, fake label, microtext, logo, QR code or watermark is visible.",
+      "pass": true
+    },
+    {
+      "required": "휴대폰 화면에서 준비물·제외 조건·참가 대상·마감·URL까지 읽혀야 한다. 작은 하단 띠에 나머지 카피를 몰지 않는다.",
+      "observed": "At the actual 720x1080 view, each preparation, exclusion, eligibility, deadline and URL line is legible. Lower information area extends from approximately y660 through y1030, with separate roomy text groups rather than a miniature footer strip.",
+      "pass": true
+    },
+    {
+      "required": "행사의 핵심은 실제 물건을 가져와 이름을 바꾸어 보는 참여다. 물건은 특정 브랜드 없이 단순하고 견고한 작은 생활 물건으로 표현할 수 있다.",
+      "observed": "One intact, unbranded metal spoon occupies the middle band, between one long blank naming rectangle and one shorter blank naming rectangle. The full bring-one-object sentence remains explicit below.",
+      "pass": true
+    },
+    {
+      "required": "이름표나 사전 같은 시각 장치를 쓸 때 제공 문구를 배치하거나 무문자로 두며, 새 물건 이름·번역·로고·미세 문자를 발명하지 않는다.",
+      "observed": "Both naming spaces are empty. No invented spoon name, translation or label text is visible.",
+      "pass": true
+    },
+    {
+      "required": "가상 주소를 표시만 하고 외부 접수나 URL 방문을 하지 않는다.",
+      "observed": "The full printed URL was manually read; no browser navigation, application registration or external submission was performed.",
+      "pass": true
+    },
+    {
+      "required": "전체 다섯 장 안에서 2:3 두 장·4:5 두 장·1:1 한 장으로 배분한다.",
+      "observed": "This assigned role is 1024x1536, precisely 2:3; coordinator owns whole-set allocation.",
+      "pass": true
+    }
+  ],
+  "ratio": {
+    "requested": "2:3",
+    "width": 1024,
+    "height": 1536,
+    "relative_error": 0,
+    "tolerance": 0.01,
+    "pass": true
+  },
+  "self_observations": [
+    {
+      "type": "content_form",
+      "location": "Native x60–962, y455–875",
+      "evidence": "One horizontally fixed spoon has a long blank field directly above and a shorter blank field directly below, with shared left edges and measured gaps.",
+      "impact": "Object identity remains stable while the available naming space changes; static adjacency and scale implement the assigned relation.",
+      "correction_needed": false
+    },
+    {
+      "type": "typography",
+      "location": "Title x58–970, y84–394",
+      "evidence": "Korean title uses broad dense letterforms and two balanced lines; English title fits beside the second Korean line at substantially smaller size.",
+      "impact": "Korean title leads; English remains easy to read without diminishing the practical copy.",
+      "correction_needed": false
+    },
+    {
+      "type": "typography",
+      "location": "Native y944–1468 / usage720 y662–1034",
+      "evidence": "Body letters are bold, naturally proportioned and high contrast; long sentences remain on readable full-width lines. Deadline punctuation, slash, middle dots and URL case are visually intact.",
+      "impact": "Practical information reads at the inspected 720-width size. Hierarchy is somewhat emphatic across the whole body, but spacing separates roles.",
+      "correction_needed": false
+    },
+    {
+      "type": "space",
+      "location": "Blank field and bilingual invitation, native y785–875",
+      "evidence": "The small empty field and adjacent two-line language invitation have an intentional clear gap with no touching outlines or characters.",
+      "impact": "Language permission connects to the act of naming rather than drifting into the footer.",
+      "correction_needed": false
+    },
+    {
+      "type": "material",
+      "location": "Spoon bowl x61–341, y577–747, handle x328–962, y623–712",
+      "evidence": "Bowl and handle form one continuous plausible spoon silhouette; restrained steel reflection, horizontal brushed marks and short shadow are coherent.",
+      "impact": "Metal remains recognisable without melting edges, plastic gloss or arbitrary decoration.",
+      "correction_needed": false
+    },
+    {
+      "type": "ai_slop",
+      "location": "Whole poster",
+      "evidence": "No decorative dummy numbers, fake lettering, extra objects or repeated grain motifs are visible. A slight soft mottling is visible in the green field; it does not obscure text. The spoon is very prominent relative to the naming rectangles.",
+      "impact": "The result retains a specific object-versus-name relation. Its interpretation still benefits from the explicit headline and invitation, which remain visible.",
+      "correction_needed": false
+    }
+  ],
+  "uncertainties": [
+    "Legibility was inspected at native 1024x1536 and screen reductions, not on a physical phone or a printed poster.",
+    "At 213x320 thumbnail size the title, spoon, empty fields, date and address structure remain visible, but detailed body text is too small for full reading; the phone-use criterion was inspected at 720 width.",
+    "No peer posters or external critic feedback were inspected; whole-set diversity is owned by the coordinator."
+  ],
+  "own_correction_decision": {
+    "perform": false,
+    "reason": "No mandatory-copy or ratio defect found. Static name-space/object relation, readable practical copy and coherent material are all retained without a speculative extra sample."
+  }
+}

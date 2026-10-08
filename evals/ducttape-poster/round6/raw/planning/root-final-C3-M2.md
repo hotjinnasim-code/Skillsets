@@ -1,0 +1,3 @@
+# Ordinary root selected-stage inspection before external review
+
+Actually viewed R6-C3-M2 repair-1 final/native, usage720 and thumbnail320 in the root turn before compaction. All six supplied strings are on the large gripped memo and readable at 720. The spring is silver; the displaced external silicone patch was removed and pads moved toward the paper gripping height. The back pad/contact remains partly hidden. An attached adult arm and finger contact at the rear lever remain visible; the image shows a static held state, not independently tested function. Cork chip contrast increased from the first image. Preserve this material change rather than claiming exact photo preservation. No independent critique received.

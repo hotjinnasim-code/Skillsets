@@ -1,0 +1,142 @@
+{
+  "role": "R6-C3-M3",
+  "case_id": "R6-C3",
+  "stage": "repair-2",
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M3/repair-2/final.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M3/repair-2/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M3/repair-2/thumbnail320.png"
+  ],
+  "native_view_detail": "original",
+  "actual_copy_checks": [
+    {
+      "required": "온틈",
+      "observed": "온틈",
+      "displayed_lines": [
+        "온틈"
+      ],
+      "equal": true
+    },
+    {
+      "required": "ONE-HAND MEMO HOLDER",
+      "observed": "ONE-HAND MEMO HOLDER",
+      "displayed_lines": [
+        "ONE-HAND",
+        "MEMO HOLDER"
+      ],
+      "equal": true
+    },
+    {
+      "required": "누르면 열리고, 놓으면 잡아요.",
+      "observed": "누르면 열리고, 놓으면 잡아요.",
+      "displayed_lines": [
+        "누르면 열리고,",
+        "놓으면 잡아요."
+      ],
+      "equal": true
+    },
+    {
+      "required": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "observed": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "displayed_lines": [
+        "코르크 받침 · 스테인리스 집게 · 실리콘 턱"
+      ],
+      "equal": true
+    },
+    {
+      "required": "책상 위 메모를 한 손으로.",
+      "observed": "책상 위 메모를 한 손으로.",
+      "displayed_lines": [
+        "책상 위 메모를 한 손으로."
+      ],
+      "equal": true
+    },
+    {
+      "required": "ontteum.example",
+      "observed": "ontteum.example",
+      "displayed_lines": [
+        "ontteum.example"
+      ],
+      "equal": true
+    }
+  ],
+  "copy_comparison_rule": "Text is manually transcribed from actual view; natural layout-only line wrapping is joined with one space for logical string equality. Displayed lines are also preserved.",
+  "mandatory_conditions": [
+    {
+      "required": "Photo-like single adult using one hand, with attached arm or torso",
+      "observed": "Blue-shirted cropped adult upper-right has sleeve connected to a forearm spanning behind product and one visible hand at right depressing rear lever.",
+      "met": true
+    },
+    {
+      "required": "Cylindrical cork base, stainless spring clip, two front silicone jaw pads and rear lever",
+      "observed": "Large warm cork cylinder center-right supports coherent stainless lower and upper arms, visible pivot screw/coiled spring, two sage front silicone pads left and pressed rear lever right.",
+      "met": true
+    },
+    {
+      "required": "Press rear lever opens front jaws; release grips paper visibly inferable",
+      "observed": "Fingertip presses rear lever down, connected upper arm raises front pad, clear gap above paper supported by lower pad. Spring hinge visible; release inferred from the open-state geometry.",
+      "met": true,
+      "uncertainty": "Single static photograph cannot demonstrate actual mechanical performance; release state is inferred rather than separately pictured."
+    },
+    {
+      "required": "Essential base, clip and pads remain visible without decorative occlusion/extreme crop/DOF",
+      "observed": "Base, both silicone pads, clip arms, rear lever, spring and pivot all in-frame and sharp. Small left paper-edge crop does not hide product or supplied copy.",
+      "met": true
+    },
+    {
+      "required": "Materials have separate surface/light reactions",
+      "observed": "Cork has physical aggregate pores, brushed steel quiet directional specular, silicone smooth matte, paper faint fibers/ink, skin natural nail sheen and joint creases; tabletop and shirt do not share cork texture.",
+      "met": true
+    },
+    {
+      "required": "Every copy string once; no additional memo text, logo or false lettering",
+      "observed": "Two supplied strings printed once on paper; four remaining supplied strings shown once as poster type; no extra memo writing or symbols.",
+      "met": true
+    },
+    {
+      "required": "Fictional product; no unsupported dimensions/performance/actual-model claims",
+      "observed": "No extra claims or measures printed.",
+      "met": true
+    },
+    {
+      "required": "Assigned square ratio",
+      "observed": "1254 × 1254, 1:1 exactly.",
+      "met": true
+    }
+  ],
+  "ratio_relative_error": 0,
+  "observations": [
+    {
+      "type": "content_form",
+      "location": "Center-right object and lower-left memo",
+      "evidence": "Actual three-material holder leads a larger central photograph, printed memo name/type visibly belongs to the held-paper surface, and materials sentence is directly below the cork.",
+      "impact": "Assigned material/type adjacency now appears in object-sized surfaces and their associated caption rather than a distant masthead."
+    },
+    {
+      "type": "typography",
+      "location": "Paper and other four copy blocks",
+      "evidence": "Native and 720 show all exact words; English printed on card wraps after ONE-HAND; action wraps after comma. Normal Hangul structure and spaced middle dots are readable.",
+      "impact": "All copy retained. At 320, perspective English and full materials sentence are small; thumbnail supports main name/action/product rather than every detail."
+    },
+    {
+      "type": "space",
+      "location": "Card/clip/cork/caption",
+      "evidence": "Large diagonal paper carries title below raised jaws; product is enlarged and shifted up/right; materials baseline sits immediately beneath cork; use/URL at lower-right.",
+      "impact": "Former top-left brand/type masthead and full lower-left footer arrangement changed. Small paper edge reaches left border, but no letters clipped."
+    },
+    {
+      "type": "image_material",
+      "location": "Spring/pads/paper/hand",
+      "evidence": "Pressed rear fingertip and spring gap are distinct; lower pad supports the card, whose lower edge contacts tabletop. Separate steel, silicone, paper, cork and skin responses maintained.",
+      "impact": "Physical support and visible mechanism preserved across redesign."
+    },
+    {
+      "type": "ai_slop",
+      "location": "Whole poster",
+      "evidence": "No false microtext, fake logo or unrelated ornament; no obvious disconnected arm or implausible clip part. Photo details regenerated, skin remains somewhat smooth and actual mechanical function only inferred from static open state.",
+      "impact": "No exact photo-preservation or universal absence-of-generated-artifacts claim."
+    }
+  ],
+  "decision": "Select repair-2: more specific material-to-type relation while preserving exact copy, one adult/one hand and essential mechanism. Bound of two own corrections exhausted.",
+  "external_critique_received": false
+}

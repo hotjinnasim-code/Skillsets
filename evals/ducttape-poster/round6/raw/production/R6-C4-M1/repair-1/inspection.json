@@ -1,0 +1,119 @@
+{
+  "role": "R6-C4-M1",
+  "case_id": "R6-C4",
+  "stage": "repair-1",
+  "actual_views": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M1/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M1/repair-1/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M1/repair-1/thumbnail320.png"
+  ],
+  "viewed_native_detail": "original",
+  "copy": [
+    {
+      "required": "말랑한 중력",
+      "observed": "말랑한 중력",
+      "equal": true
+    },
+    {
+      "required": "SOFT GRAVITY",
+      "observed": "SOFT GRAVITY",
+      "equal": true
+    },
+    {
+      "required": "움직이는 점토 조각전",
+      "observed": "움직이는 점토 조각전",
+      "equal": true
+    },
+    {
+      "required": "누르고, 늘리고, 다시 놓기",
+      "observed": "누르고, 늘리고, 다시 놓기",
+      "equal": true
+    },
+    {
+      "required": "2026.12.05–12.13",
+      "observed": "2026.12.05–12.13",
+      "equal": true
+    },
+    {
+      "required": "가상 전시장 둥근방 / ROUND ROOM",
+      "observed": "가상 전시장 둥근방 / ROUND ROOM",
+      "equal": true
+    }
+  ],
+  "copy_transcription_notes": [
+    "All six strings are legible at 720/native. Date separator visually has en-dash proportions; raster cannot establish its Unicode codepoint.",
+    "Title now has a clear word space, but oversized final consonants keep an abnormal two-band proportion; legible transcription does not resolve this glyph-quality concern."
+  ],
+  "mandatory_conditions": [
+    {
+      "required": "클레이 3D·두툼하게 솟은 입체 한글·강한 보색을 다섯 장 모두 충분히 구현한다. 표면 효과를 없애 평면 미니멀로 변경하지 않는다.",
+      "met": true,
+      "observed": "Orange/blue complement, thick raised orange Hangul and blue molded-clay body remain prominent."
+    },
+    {
+      "required": "말랑한 조각의 누름·늘어짐·다시 놓임 중 하나 이상의 행동을 각 이미지에서 식별한다.",
+      "met": true,
+      "observed": "Letter bases bear on blue top depressions; slab spreads sideways with broad ground contact."
+    },
+    {
+      "required": "입체 제목은 완전한 정상 한글로 읽혀야 한다. 획의 속공간을 막거나 이웃 글자를 녹여 합치지 않는다.",
+      "met": false,
+      "observed": "No letter melting or blocked counters; complete intended Hangul is legible, but jamo ratio remains excessively tall/two-band to certify normal letter construction."
+    },
+    {
+      "required": "점토의 한 가지 일관된 형태·표면·빛 규칙을 세우고 정보가 놓이는 읽는 면을 충분히 확보한다.",
+      "met": true,
+      "observed": "One pressure slab without face; readable lower info ground; clay lighting is consistent."
+    },
+    {
+      "required": "전체 여섯 문자열을 각 이미지에 한 번씩 보존하며 장식 문자·로고·가짜 전시 라벨을 추가하지 않는다.",
+      "met": true,
+      "observed": "All six strings once; no added text/logo."
+    },
+    {
+      "required": "전체 다섯 장 안에서 2:3 두 장·1:1 두 장·3:2 한 장으로 배분한다.",
+      "met": true,
+      "observed": "Assigned member 1024×1536 exact 2:3; full allocation is coordinator scope."
+    }
+  ],
+  "type_observations": [
+    {
+      "location": "hero Korean title",
+      "evidence": "Title now has about 50px word gap, but same oversized final-consonant band and roughly 350px overall height.",
+      "impact": "Title is readable but lacks normal syllable proportion and splits perceptually into jamo rows.",
+      "repair": "Replace title with conventional complete glyph silhouettes about 200px high; keep thick clay depth and pressure contact."
+    },
+    {
+      "location": "support text",
+      "evidence": "All lines clearly legible at 720; baselines and margins orderly.",
+      "impact": "Event details work.",
+      "repair": "Preserve exact text and grouping."
+    }
+  ],
+  "space_observations": [
+    "Pressure slab silhouette is clearer without mascot details.",
+    "Hero text nearly touches side frame and continues to demand reconstruction at smaller scale.",
+    "Lower text remains readable at 720."
+  ],
+  "material_observations": [
+    "Clay extrusions and shadows coherent.",
+    "Blue body retains dense uniform pebbly grain across curved surfaces, slightly artificial."
+  ],
+  "ai_slop_observations": [
+    {
+      "location": "blue slab center and lower bulges",
+      "evidence": "Uniform fine pebbly grain covers most surfaces rather than responding selectively to pressure zones.",
+      "impact": "Model texture pattern remains a visible finish limitation.",
+      "repair": "Request subtler sparse clay tool marks while prioritizing title repair."
+    }
+  ],
+  "uncertainties": [
+    "Date dash Unicode cannot be established from raster."
+  ],
+  "residuals": [
+    "Title normal proportion remains unresolved despite corrected word gap.",
+    "Blue surface has uniformly dense grain."
+  ],
+  "next_action": "Second and final own correction targets retained title proportion and surface grain.",
+  "external_critic_feedback_received": false
+}

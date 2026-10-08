@@ -1,0 +1,3 @@
+# Ordinary root selected-stage inspection before external review
+
+Actually viewed repair-1 final/native original-detail, usage720 and thumbnail320 before maker FINAL. Clay hand fragments now have simplified nail/skin detail relative to first pass; skinlike microtexture remains. Six strings are readable at720, with action copy distributed along one continuous press/stretch/rest body. Strong violet/yellow and raised title remain, as explicitly requested. Oversized lower title jamo and tight right/top margin are retained as type questions, not claimed repaired by the hand-material edit. Static recovery is implied by a pooled bottom mass. Fine clay grain is widespread. No external critic feedback; selected repair-1, two calls.

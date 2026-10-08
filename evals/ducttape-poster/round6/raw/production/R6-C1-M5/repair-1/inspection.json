@@ -1,0 +1,95 @@
+{
+  "role": "R6-C1-M5",
+  "case_id": "R6-C1",
+  "stage": "repair-1",
+  "inspected_at_utc": "2026-10-07T22:10:39.773335+00:00",
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M5/repair-1/final.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M5/repair-1/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M5/repair-1/thumbnail320.png"
+  ],
+  "view_details": {
+    "native": "original",
+    "usage720": "original",
+    "thumbnail320": "original"
+  },
+  "copy": [
+    {
+      "required": "숨과 숨 사이",
+      "observed": "숨과 숨 사이",
+      "equal": true
+    }
+  ],
+  "copy_count": {
+    "required": 1,
+    "observed": 1,
+    "equal": true
+  },
+  "mandatory_conditions": [
+    {
+      "required": "검은 글자와 흰 단색 배경만 사용한다.",
+      "observed": "검은 글자와 흰색에 가까운 바탕이지만 넓은 빈 영역에 매우 옅은 사선 결이 계속 보인다.",
+      "pass": false
+    },
+    {
+      "required": "원문 한 문자열을 각 이미지에 정확히 한 번 표시한다. 원문에 있는 두 번의 숨을 임의 중복으로 오판하지 않는다.",
+      "observed": "숨과 / 숨 / 사이가 왼쪽에서 오른쪽으로 정확히 한 번 읽힌다.",
+      "pass": true
+    },
+    {
+      "required": "그림·아이콘·도형·테두리·구분선·질감·장식 문자·추가 카피가 없어야 한다.",
+      "observed": "추가 요소는 없지만 요청되지 않은 극히 옅은 바탕 결이 남는다.",
+      "pass": false
+    },
+    {
+      "required": "어절을 보존하고 어절 사이 줄바꿈만 허용한다. 글자 내부 구조를 장식 그림으로 해체하지 않는다.",
+      "observed": "온전한 세 어절과 정상 한글 획을 보존한다.",
+      "pass": true
+    },
+    {
+      "required": "세로 2:3.",
+      "observed": "1024 × 1536, 상대 비율 오차 0.0.",
+      "pass": true
+    }
+  ],
+  "observations": [
+    {
+      "type": "typography",
+      "location": "중앙의 세 어절 전부",
+      "observed": "숨과 숨 사이의 모든 글자가 정확하고 획 구조가 유지됐다. 일부 가로획 아래에는 얇은 흐린 회색 평행 흔적이 남아 보인다.",
+      "impact": "카피 판독은 모든 보기에서 명확하나 원본에서 가장자리 마감이 완전히 평평하지 않다.",
+      "action": "온전한 글자와 위치를 유지하며 흐린 회색 가장자리만 제거한다."
+    },
+    {
+      "type": "space",
+      "location": "중앙의 좌우 상승 경로",
+      "observed": "첫 어절, 가운데 숨, 오른쪽 사이의 점진적 상승과 넓은 어절 사이 간격이 첫 생성과 실질적으로 같다.",
+      "impact": "읽기의 걸음과 여백 관계가 유지됐다.",
+      "action": "현재 위치 관계를 보존한다."
+    },
+    {
+      "type": "material",
+      "location": "상부, 하부, 어절 사이의 빈 흰 영역",
+      "observed": "최초 생성의 매우 옅은 사선 결이 계속 보인다. 첫 보정이 요청된 단색 정리에 충분한 개선을 만들지 못했다.",
+      "impact": "단색·무질감 필수 조건을 충족했다고 말할 수 없다.",
+      "action": "빈 영역을 기존 픽셀 모사가 아닌 완전한 평평한 백색 면으로 재정리한다."
+    },
+    {
+      "type": "ai_slop",
+      "location": "전체 흰 필드와 가로획의 아래쪽",
+      "observed": "임의 장식과 가짜 문자는 없지만 미세한 물성 흔적이 지속된다.",
+      "impact": "요청한 글자와 여백만의 표현에 불필요한 생성 흔적이 있다.",
+      "action": "효과를 더하지 않고 배경과 문자 경계만 정리한다."
+    }
+  ],
+  "uncertainties": [
+    "아주 얇은 회색 획 가장자리와 보통의 앤티앨리어싱을 일부 위치에서 완전히 구분하기 어렵다.",
+    "한글 자형이 특정 서체를 정확하게 구현했다는 주장은 하지 않는다."
+  ],
+  "correction_decision": {
+    "needed": true,
+    "own_correction_number_next": 2,
+    "reason": "실제 남아 있는 사선 바탕 결과 가로획 아래의 흐린 경계를 정리한다."
+  },
+  "external_critic_feedback_received": false
+}

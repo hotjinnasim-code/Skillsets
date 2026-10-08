@@ -1,0 +1,47 @@
+{
+  "role": "R6-C3-M4",
+  "case_id": "R6-C3",
+  "stage": "repair-1",
+  "native_call_number_for_role": 2,
+  "own_correction_number": 1,
+  "started_at_utc": "2026-10-07T22:27:34+00:00",
+  "completed_at_utc": "2026-10-07T22:28:14+00:00",
+  "call_input": {
+    "prompt": "가상 제품 '온틈'의 덕테이프 포스터 5장을 만들어줘. 모두 제품 사진처럼 표현하고, 성인 한 명이 한 손으로 사용하는 모습을 넣어줘. 손만 떠 있게 하지 말고 팔이나 상반신이 이어져 보이면 돼. 온틈은 원통형 코르크 받침 위에 스테인리스 스프링 집게가 있고, 앞쪽 두 턱에는 실리콘 패드가 붙어 있어. 뒤쪽 레버를 누르면 앞 턱이 열리고 놓으면 종이를 잡아. 다섯 장에서 이 구조는 같게 유지하고 기능도 각각 보이게 해줘. 메모 종이에는 아래 카피 외의 글자나 로고를 넣지 마. 세로 2:3 두 장, 정사각형 두 장, 가로 3:2 한 장으로 총 5장 부탁해. 문구는 아래 그대로 써줘.\n\n온틈\nONE-HAND MEMO HOLDER\n누르면 열리고, 놓으면 잡아요.\n코르크 받침 · 스테인리스 집게 · 실리콘 턱\n책상 위 메모를 한 손으로.\nontteum.example\n\n--- Own correction from inspected initial poster ---\nEdit the supplied initial poster only for the specific actual defect: it currently uses two hands. This role is ONE flat 3:2 landscape poster; other posters are centrally managed. Opaque background. 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력.\n\nPreserve every one of the six existing exact copy strings once, their size, natural proportions, positions, punctuation, spacing and clarity. Preserve broad desk, title-to-working-reach relationship, charcoal torso, soft upper-left daylight and holder's lower-right location. Preserve cylindrical cork granules and contact shadow, smooth directional stainless reflections, matte gray silicone, clean blank memo and natural skin rather than adding general grain.\n\nCorrection: show exactly ONE active right hand, attached continuously via its forearm to the single adult's torso at upper right. Remove completely the upper-center/left paper-holding hand and its forearm, replacing that area with the existing clear background. No second hand visible anywhere. Redraw the retained right hand as a plausible compact coordinated grip at the holder: thumb presses down the stainless rear lever; the same hand's index and middle fingertips hold the nearby lower-right edge of a smaller blank memo just above the receiving front jaws. Keep fingers distinct and joints natural. Place the smaller paper close enough to the lever that this single hand can both steady its edge and press the lever. The paper leans slightly left; its lower edge is visibly entering the open front mouth. The working reach must be a single actual one-handed action, not two different hands, not a detached hand, not a hovering pose.\n\nMake the spring clip mechanically coherent: rear lever connected to hinge/spring body and compressed down by the thumb; two opposed front jaws visibly separated with a small gap; both have distinct soft matte gray silicone contact pads. Angle the blank paper slightly to reveal the near and far pad at the mouth. Maintain one stainless spring clamp securely mounted atop one cylindrical cork base. No new parts or invented claims.\n\nPreserve all copy absolutely. Only permitted printed copy is:\n온틈\nONE-HAND MEMO HOLDER\n누르면 열리고, 놓으면 잡아요.\n코르크 받침 · 스테인리스 집게 · 실리콘 턱\n책상 위 메모를 한 손으로.\nontteum.example\nThe memo is blank. No extra letters, logos, labels, arrows, numbers, watermark or microtype. Keep 1536x1024-like landscape framing's 3:2 ratio without borders; request maximum supported native resolution, not upscaling. Do not redesign typography or introduce decorative effects.",
+    "referenced_image_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/initial/final.png"
+    ],
+    "transparent_background": false
+  },
+  "call_input_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-1/call-input.json",
+  "precall_plan_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-1/pre-call.json",
+  "tool_source": {
+    "path": "/Users/nahyeonbin/.codex/generated_images/01a11878-35b0-7d11-92b9-1d9d4e115bda/exec-fec05bd5-24dc-4c16-b6ec-bd5a358f827c.png",
+    "sha256": "1d1f93236118dd3ad0638bb6cd3fed2cd5f4ae03f47260a1a8260a2ae3846ff5"
+  },
+  "original": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-1/original.png",
+    "sha256": "1d1f93236118dd3ad0638bb6cd3fed2cd5f4ae03f47260a1a8260a2ae3846ff5"
+  },
+  "final": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-1/final.png",
+    "sha256": "1d1f93236118dd3ad0638bb6cd3fed2cd5f4ae03f47260a1a8260a2ae3846ff5"
+  },
+  "width": 1536,
+  "height": 1024,
+  "target_ratio": "3:2",
+  "qa_views": {
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-1/usage720.png",
+      "sha256": "59cf41cf2e35e1dde582efe5d1d7942d0a054595c34bb5a1564cc56c0ffd99a9",
+      "width": 720,
+      "height": 480
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-1/thumbnail320.png",
+      "sha256": "f3792150e4e7c0cd325fe38da9d790d41213825ad82d48a1e87b950490e37b57",
+      "width": 320,
+      "height": 213
+    }
+  }
+}

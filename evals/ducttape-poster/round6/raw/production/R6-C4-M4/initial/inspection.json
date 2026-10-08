@@ -1,0 +1,117 @@
+{
+  "role": "R6-C4-M4",
+  "case_id": "R6-C4",
+  "stage": "initial",
+  "context_fresh": false,
+  "prior_history_disclosed": "Prior R5 portfolio review in this reused thread; no old review/image was opened for R6 design.",
+  "actual_view_paths": [
+    {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M4/initial/final.png",
+      "detail": "original"
+    },
+    {
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M4/initial/usage720.png"
+    },
+    {
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M4/initial/thumbnail320.png"
+    }
+  ],
+  "transcription": [
+    {
+      "required": "말랑한 중력",
+      "observed": "말랑한 중력",
+      "equal": true
+    },
+    {
+      "required": "SOFT GRAVITY",
+      "observed": "SOFT GRAVITY",
+      "equal": true
+    },
+    {
+      "required": "움직이는 점토 조각전",
+      "observed": "움직이는 점토 조각전",
+      "equal": true
+    },
+    {
+      "required": "누르고, 늘리고, 다시 놓기",
+      "observed": "누르고, 늘리고, 다시 놓기",
+      "equal": true
+    },
+    {
+      "required": "2026.12.05–12.13",
+      "observed": "2026.12.05–12.13",
+      "equal": true
+    },
+    {
+      "required": "가상 전시장 둥근방 / ROUND ROOM",
+      "observed": "가상 전시장 둥근방 / ROUND ROOM",
+      "equal": true
+    }
+  ],
+  "transcription_method": "Actual visual transcription at original and720; semantic line breaks joined. Action fragments observed as 누르고, / 늘리고, / 다시 놓기.",
+  "mandatory": {
+    "pass": false,
+    "conditions": [
+      {
+        "condition": "Assigned portrait2:3, ratio within1%",
+        "pass": true,
+        "observed": "1024×1536, exact2:3, relative error0%."
+      },
+      {
+        "condition": "One independent poster; exactly six strings once, no extra words/logo",
+        "pass": true,
+        "observed": "Each required string appears once; action text is split beside the three states. No added label or logo."
+      },
+      {
+        "condition": "Strong complementary colors, bold playful clay3D and thick raised Hangul",
+        "pass": true,
+        "observed": "Violet volumetric title and flow on saturated yellow; substantial cast shadows. Not flattened."
+      },
+      {
+        "condition": "At least one identifiable clay action",
+        "pass": true,
+        "observed": "Upper-left finger visibly depresses a pad; middle-right pinch pulls the continuous neck; lower end gathers into a rounded mound."
+      },
+      {
+        "condition": "Raised title is intact readable normal Hangul",
+        "pass": true,
+        "observed": "말랑한 over 중력; all Hangul strokes and internal holes remain distinguishable at720 and320."
+      },
+      {
+        "condition": "Coherent clay form/surface/light system",
+        "pass": false,
+        "observed": "Purple title and sculpture read as clay; upper-left pressing finger and middle-right pinch have realistic skin creases/pores and nails instead of the specified ivory clay fragments. Material system needs one local repair."
+      },
+      {
+        "condition": "All mandatory copy readable at720",
+        "pass": true,
+        "observed": "Title, English, descriptor, three action fragments, date and bilingual venue all read without native enlargement."
+      }
+    ],
+    "issues": [
+      "Upper-left pressing finger and middle-right pinch are realistic flesh-like hands with detailed nails/skin, weakening the all-clay material logic."
+    ],
+    "uncertainties": [
+      "A single still image conveys the resting return through the rounded lower end and adjacent 다시 놓기 wording; actual elastic motion is not measured.",
+      "Prompt asked maximum supported resolution; actual returned1024×1536 does not certify a maximum."
+    ]
+  },
+  "observations": {
+    "type": "Native: rounded violet title syllables have thick, separated strokes; SOFT GRAVITY and descriptor remain readable despite all-violet weight. 720: full venue fits without horizontal crushing. 320: title/action survive; venue becomes small.",
+    "space": "Continuous clay occupies left/top through center to lower resting mass. Three action fragments align beside those states. Upper title fits close to the right boundary; no clipping, but right margin is tight.",
+    "material": "Native: violet clay has directional pull striations, plump contact masses and lower-right shadows. Hands instead contain detailed skin and nail modeling, creating the concrete mixed-material defect to repair.",
+    "ai_slop": "No decorative numbers, fake labels or unrelated props. Title/action/sculpture directly relate to this exhibition. Dense skin texture on the two hands overrides the planned clay-medium rule, so it is not passed as flawless."
+  },
+  "repair_decision": {
+    "needed": true,
+    "own_correction_number_next": 1,
+    "target": "Only the two realistic hands: turn them into coherent ivory clay sculptural hand fragments without photorealistic skin pores or nails; preserve copy, violet flow, layout, depth and yellow/violet palette."
+  },
+  "residuals": [
+    "Close right margin around the upper raised title, with no current cropping.",
+    "Lower resting end remains attached to the elongated flow; recovery is represented as a connected form rather than actual animation."
+  ]
+}

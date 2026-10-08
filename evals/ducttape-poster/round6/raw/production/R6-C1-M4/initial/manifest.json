@@ -1,0 +1,44 @@
+{
+  "role": "R6-C1-M4",
+  "case_id": "R6-C1",
+  "stage": "initial",
+  "native_call_number_for_role": 1,
+  "own_correction_number": 0,
+  "started_at_utc": "2026-10-07T22:07:00Z",
+  "completed_at_utc": "2026-10-07T22:07:22Z",
+  "call_input": {
+    "prompt": "Create ONE finished flat typographic poster, portrait 2:3. This is role R6-C1-M4, one image; do not show several posters, a mockup, wall, frame or presentation sheet.\n\nOriginal user request (authoritative): 덕테이프 포스터로 '숨과 숨 사이'를 5장 만들어줘. 검은 글자와 흰 여백만 써줘. 문구는 한 번만 넣고, 그림·도형·테두리·구분선·질감·장식 기호·추가 문구는 넣지 마. 줄바꿈은 어절 사이에서만 해도 좋아.\nThe total requested five is handled separately: here render only this one poster.\n\nUse case: ads-marketing, typography-only poster.\nExact complete printed text, once in its natural Korean reading order: 숨과 숨 사이\nUse exactly these two semantic line groups:\n숨과\n숨 사이\nNo quotation marks or labels are printed. Preserve every syllable and the space between 숨 and 사이. These are the only characters in the poster. The two occurrences of 숨 are both necessary parts of the single complete phrase.\n\nArt direction: The first word group 숨과 and the second group 숨 사이 form two moments of breathing. Make the empty interval between these groups the subject of the poster, without drawing a breath symbol or any other object. Place 숨과 in the upper-left-middle area, then place 숨 사이 in the lower-right-middle area, so the reader crosses an unmistakable broad white interval to reach the second group. The pause should feel measured and intentional. The two groups use the SAME generous character height, weight and typographic family: neither is a caption. The first group begins around 16 percent of the page width and has its text top around 28 percent of page height; the second begins around 35 percent width and has its text top around 66 percent of page height. Use natural upright Korean sans-serif letterforms at about 14 percent of page width per full Hangul square, with medium-bold solid black strokes and clear inner counters. Optical kerning is controlled and natural, the word space in 숨 사이 is clearly visible. Groups occupy their own clean spaces; do not overlap, stretch, compress, fragment or embellish any Hangul structure. Whitespace remains generous at every outside edge. Only actual typography makes the composition.\n\nMandatory conditions: Black letters and a pure opaque flat white background only. No pictures, icons, shapes, borders, rules, texture, paper grain, shading, gradients, decorative symbols, punctuation, logos, watermarks or additional copy. A single complete phrase appears exactly once; do not repeat the title as ornament or add small text. Break lines only at original word boundaries. Keep full readable intact Hangul glyphs. Portrait 2:3 ratio.\n\n요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력\n",
+    "transparent_background": false
+  },
+  "call_input_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/call-input.json",
+  "precall_plan_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/pre-call.json",
+  "tool_source": {
+    "path": "/Users/nahyeonbin/.codex/generated_images/01a11866-db91-7502-b911-ca26e61319a5/exec-7a42b779-d0bc-4bc4-8236-1e66a7c0f2cf.png",
+    "sha256": "f5b47720793e61cb46828509849f5bb007523ba7e8e57888a741f4e02d8e309d"
+  },
+  "original": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/original.png",
+    "sha256": "f5b47720793e61cb46828509849f5bb007523ba7e8e57888a741f4e02d8e309d"
+  },
+  "final": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/final.png",
+    "sha256": "f5b47720793e61cb46828509849f5bb007523ba7e8e57888a741f4e02d8e309d"
+  },
+  "width": 1024,
+  "height": 1536,
+  "target_ratio": "2:3",
+  "qa_views": {
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/usage720.png",
+      "width": 720,
+      "height": 1080,
+      "sha256": "fa847d649ba7ee0efaba85ed933842920de272bd58cf184db176ca828ac936f1"
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/thumbnail320.png",
+      "width": 213,
+      "height": 320,
+      "sha256": "b6298442e18880158e07bd7d767c9b7723942b37ecfb90e59cdd65487bd7f312"
+    }
+  }
+}

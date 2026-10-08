@@ -1,0 +1,119 @@
+{
+  "role": "R6-C4-M1",
+  "case_id": "R6-C4",
+  "stage": "initial",
+  "actual_views": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M1/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M1/initial/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M1/initial/thumbnail320.png"
+  ],
+  "viewed_native_detail": "original",
+  "copy": [
+    {
+      "required": "말랑한 중력",
+      "observed": "말랑한중력",
+      "equal": false
+    },
+    {
+      "required": "SOFT GRAVITY",
+      "observed": "SOFT GRAVITY",
+      "equal": true
+    },
+    {
+      "required": "움직이는 점토 조각전",
+      "observed": "움직이는 점토 조각전",
+      "equal": true
+    },
+    {
+      "required": "누르고, 늘리고, 다시 놓기",
+      "observed": "누르고, 늘리고, 다시 놓기",
+      "equal": true
+    },
+    {
+      "required": "2026.12.05–12.13",
+      "observed": "2026.12.05–12.13",
+      "equal": true
+    },
+    {
+      "required": "가상 전시장 둥근방 / ROUND ROOM",
+      "observed": "가상 전시장 둥근방 / ROUND ROOM",
+      "equal": true
+    }
+  ],
+  "copy_transcription_notes": [
+    "Title syllables are recognizable as intended 말랑한중력, but word separation between 한 and 중 is no stronger than the other syllable gaps. Initial jamo are stretched into a top band and final consonants a second band; do not normalize that missing visible word gap in the observed string.",
+    "Date separator visually has en-dash proportions, but a raster image cannot establish the Unicode codepoint; observed is a visual transcription."
+  ],
+  "mandatory_conditions": [
+    {
+      "required": "클레이 3D·두툼하게 솟은 입체 한글·강한 보색을 다섯 장 모두 충분히 구현한다. 표면 효과를 없애 평면 미니멀로 변경하지 않는다.",
+      "met": true,
+      "observed": "Raised orange Hangul, blue yielding clay, orange/blue complement and dramatic 3D all prominent."
+    },
+    {
+      "required": "말랑한 조각의 누름·늘어짐·다시 놓임 중 하나 이상의 행동을 각 이미지에서 식별한다.",
+      "met": true,
+      "observed": "Large letter bases visibly press into the blue mass and it bulges sideways."
+    },
+    {
+      "required": "입체 제목은 완전한 정상 한글로 읽혀야 한다. 획의 속공간을 막거나 이웃 글자를 녹여 합치지 않는다.",
+      "met": false,
+      "observed": "Normal one-block Hangul perception weakened by oversized separate jamo bands; word space not reliable."
+    },
+    {
+      "required": "점토의 한 가지 일관된 형태·표면·빛 규칙을 세우고 정보가 놓이는 읽는 면을 충분히 확보한다.",
+      "met": true,
+      "observed": "Consistent molded clay and directional shadows, clear reading ground for support lines; face elements are an unnecessary alternate visual focus."
+    },
+    {
+      "required": "전체 여섯 문자열을 각 이미지에 한 번씩 보존하며 장식 문자·로고·가짜 전시 라벨을 추가하지 않는다.",
+      "met": false,
+      "observed": "All six intended lines once, no added text or logo; exact visible title spacing differs."
+    },
+    {
+      "required": "전체 다섯 장 안에서 2:3 두 장·1:1 두 장·3:2 한 장으로 배분한다.",
+      "met": true,
+      "observed": "This assigned member is 1024×1536, exact 2:3; total-case allocation is coordinator scope."
+    }
+  ],
+  "type_observations": [
+    {
+      "location": "hero title upper-middle",
+      "evidence": "Title is extremely tall with enormous isolated final consonants; 한/중 gap looks like interletter gap.",
+      "impact": "A reader can reconstruct the title but normal Hangul rhythm and requested exact wording are weak.",
+      "repair": "Reform five complete normally proportioned syllables, smaller hero height and clear word-space, keeping thick depth."
+    },
+    {
+      "location": "bottom group",
+      "evidence": "All four information lines read at 720; last line has enough width without squeeze.",
+      "impact": "Reliable event details.",
+      "repair": "Preserve."
+    }
+  ],
+  "space_observations": [
+    "1024×1536 native; exact requested ratio.",
+    "Hero consumes much more height than planned, making title reconstruction harder; lower information still has adequate margins.",
+    "At 320-longside, title and blob dominate; date/location can only be assessed reliably at 720/native."
+  ],
+  "material_observations": [
+    "Soft orange title fronts and blue clay have directional shadows and substantial depth.",
+    "Uniform orange surface stippling is mildly heavy but consistent within clay material."
+  ],
+  "ai_slop_observations": [
+    {
+      "location": "central blue sculpture",
+      "evidence": "Eyes, open mouth and footlike lobes form a familiar frightened mascot although the direction required a pressure slab.",
+      "impact": "Invented facial expression substitutes a character cliché for the physical pressure relation.",
+      "repair": "Remove all facial features and paws, make one neutral compressed slab with the same clay response."
+    }
+  ],
+  "uncertainties": [
+    "Unicode identity of raster date dash is not independently recoverable."
+  ],
+  "residuals": [
+    "Unreliable title word gap and exaggerated jamo separation.",
+    "Unrequested mascot-like face distracts from the direct compression concept."
+  ],
+  "next_action": "One own native correction using immediately preceding own original as edit target.",
+  "external_critic_feedback_received": false
+}

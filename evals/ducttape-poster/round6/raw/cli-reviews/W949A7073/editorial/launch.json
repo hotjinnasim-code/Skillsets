@@ -1,0 +1,39 @@
+{
+  "started_utc": "2026-10-07T23:28:56.879381+00:00",
+  "wave": "W949A7073",
+  "profile": "editorial",
+  "argv": [
+    "codex",
+    "--no-daemon",
+    "--ask-for-approval",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--json",
+    "--skip-git-repo-check",
+    "--sandbox",
+    "workspace-write",
+    "-C",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073",
+    "--output-last-message",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/cli-reviews/W949A7073/editorial/final.txt",
+    "-"
+  ],
+  "prompt": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/cli-reviews/W949A7073/editorial/prompt.txt",
+    "sha256": "c638fe9ddb0dcb0e8a2b3201f5c679cf32622cc2718313e10d2b8c2f40558747"
+  },
+  "dispatch_plan": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/cli-reviews/dispatch-plan.json",
+    "sha256": "d3f8feb7987b2cfe24d2381b1c5146b8d2cfe3775b44cc0a27a181a7d4e3f481"
+  },
+  "raw_outputs_absent_at_dispatch": true,
+  "input_pins": {
+    "packet.json": "2fcfa7f0c4330db032ec9b3652ee56b667f6dd087e449b16c59cb2d653db57c0",
+    "preflight.json": "e51cbc0e5fbebac2205f7d459af73fd5251340f1f4e24d7640472e0208c9c736",
+    "review-protocol.md": "775f05ff893ea8779bdaf16a76434902859a94ec64cc67691cbcb8ce57e0fb46"
+  },
+  "model_override": null,
+  "fresh_session": true,
+  "scope": "One opaque complete case; no prior conversation supplied"
+}

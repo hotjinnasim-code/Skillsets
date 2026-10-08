@@ -1,0 +1,36 @@
+{
+  "role":"R6-C2-M1","case_id":"R6-C2","stage":"repair-2",
+  "inspection_type":"actual_manual_self_inspection","external_feedback_received":false,
+  "actual_view_paths":["/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M1/repair-2/original.png","/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M1/repair-2/usage720.png","/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M1/repair-2/thumbnail320.png"],
+  "copy":[
+    {"required":"이름 바꾸는 물건들","observed":"이름 바꾸는 물건들","equal":true},
+    {"required":"OBJECT NAME EXCHANGE","observed":"OBJECT NAME EXCHANGE","equal":true},
+    {"required":"2026.11.21(토) 13:30–16:00","observed":"2026.11.21(토) 13:30–16:00","equal":true},
+    {"required":"가상 공간 여울실험실 2층 / YEOUL LAB","observed":"가상 공간 여울실험실 2층 / YEOUL LAB","equal":true},
+    {"required":"한국어·English, 어느 언어로 적어도 좋아요.","observed":"한국어·English, 어느 언어로 적어도 좋아요.","equal":true,"uncertainty":"Middle-dot glyph has visibly broad spacing on either side; the words and punctuation match, but raster whitespace cannot be certified as encoded character spaces."},
+    {"required":"이름을 바꾸고 싶은 작은 물건 1개를 가져오세요.","observed":"이름을 바꾸고 싶은 작은 물건 1개를 가져오세요.","equal":true},
+    {"required":"깨지기 쉬운 물건과 음식은 받지 않아요.","observed":"깨지기 쉬운 물건과 음식은 받지 않아요.","equal":true},
+    {"required":"만 16세 이상 · 무료 · 24명","observed":"만 16세 이상 · 무료 · 24명","equal":true},
+    {"required":"11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.","observed":"11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.","equal":true},
+    {"required":"yeoul.example/NAME?lang=ko&slot=pm","observed":"yeoul.example/NAME?lang=ko&slot=pm","equal":true}
+  ],
+  "mandatory_conditions":[
+    {"condition":"전체 10개 문자열을 다섯 장 모두 정확히 보존한다. 새 소제목·가짜 라벨 내용·장식 문자·QR코드를 추가하지 않는다.","observed":"All ten strings manually read once. No new names, logo, caption or QR. Broad visual middle-dot spacing recorded as uncertainty.","met":true,"uncertainty":"Exact character-level whitespace around bilingual middle dot is not recoverable from this raster; its visual gap remains wider than requested tight fit."},
+    {"condition":"휴대폰 화면에서 준비물·제외 조건·참가 대상·마감·URL까지 읽혀야 한다. 작은 하단 띠에 나머지 카피를 몰지 않는다.","observed":"Actually viewed at 720×1080: preparation, exclusion, eligibility, deadline and entire single-line URL readable; action copy has a substantial label face.","met":true},
+    {"condition":"행사의 핵심은 실제 물건을 가져와 이름을 바꾸어 보는 참여다. 물건은 특정 브랜드 없이 단순하고 견고한 작은 생활 물건으로 표현할 수 있다.","observed":"Small brandless key and binder clip beside detachable punched tags; participation stated clearly in large preparation copy.","met":true},
+    {"condition":"이름표나 사전 같은 시각 장치를 쓸 때 제공 문구를 배치하거나 무문자로 두며, 새 물건 이름·번역·로고·미세 문자를 발명하지 않는다.","observed":"Only supplied copy appears on label faces; no invented item name or microtext.","met":true},
+    {"condition":"가상 주소를 표시만 하고 외부 접수나 URL 방문을 하지 않는다.","observed":"Displayed only. No URL navigation or registration occurred.","met":true},
+    {"condition":"전체 다섯 장 안에서 2:3 두 장·4:5 두 장·1:1 한 장으로 배분한다.","observed":"This role is exact 2:3 at 1024×1536; whole-set allocation belongs to coordinator.","met":true}
+  ],
+  "ratio_check":{"requested":"2:3","width":1024,"height":1536,"relative_error":0,"tolerance":0.01,"met":true},
+  "located_observations":[
+    {"type":"typography","location":"Top title, event tag and bottom application tag","observation":"Title now two lines with visibly broader syllables and open counters. Location now two lines and deadline three, improving proportions and group rhythm. Full English heading and URL remain single lines.","impact":"The main line-fitting compression is reduced without copy loss."},
+    {"type":"typography","location":"Blue tag language line, eligibility and exclusion","observation":"All required text is readable at 720. Body remains very bold across most groups, and the bilingual middle dot has a broader visual gap than the prompt's tight spacing request.","impact":"Fine hierarchy between body items is fairly coarse and dot spacing is a residual concern."},
+    {"type":"space","location":"Four punched labels and right-side object lane","observation":"Detachable tag boundaries organize title, event, preparation and application. Objects are smaller than title and do not intersect letter edges; lower application tag remains large.","impact":"Assigned exchangeable-label relationship survives in the result and reading path leads to action."},
+    {"type":"material","location":"Cream/cobalt faces, rope, brass key and binder clip","observation":"Quiet paper texture remains, without equal-texture treatment across every object. Rope braid, brass metal and dark clip are materially distinct. Key and clip are recognizable; shadows broadly coherent. Exact original photo details have regenerated.","impact":"No major material regression found, though subtle microtexture remains on all tag faces."},
+    {"type":"ai_slop","location":"Whole poster, especially label text","observation":"No fake words, microtext, logo or unrelated objects. All-body heavy boldness and mildly synthetic paper grain remain visible finish limitations; composition itself is specific to the name-exchange event.","impact":"The result is functional and organized, with residual typographic/material polish limits rather than new decorative effects."},
+    {"type":"thumbnail","location":"213×320 actual view","observation":"Two-line Korean title and wide blue participant label establish the first glance; the deadline label reads as a distinct application group. Fine strings are assessed at 720 rather than claimed readable at this thumbnail.","impact":"Hierarchy remains clear after reduction."}
+  ],
+  "uncertainties":["Broad visual spacing around bilingual middle dot remains; words and punctuation match, but no exact whitespace/font certification is made.","No maximum-resolution, photo-preservation or physical-print claim is made."],
+  "decision":"Select repair-2: the natural-width title/location/deadline wraps improve the actual typography while retaining readable full copy, ratio and label/object concept. Own correction cap reached at two."
+}

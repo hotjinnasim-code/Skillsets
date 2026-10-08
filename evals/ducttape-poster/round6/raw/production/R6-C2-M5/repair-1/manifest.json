@@ -1,0 +1,47 @@
+{
+  "role": "R6-C2-M5",
+  "case_id": "R6-C2",
+  "stage": "repair-1",
+  "native_call_number_for_role": 2,
+  "own_correction_number": 1,
+  "started_at_utc": "2026-10-07T22:18:48+00:00",
+  "completed_at_utc": "2026-10-07T22:19:53+00:00",
+  "call_input": {
+    "prompt": "아래 내용으로 덕테이프 포스터 5장 부탁해. 물건을 가져와 서로 이름을 바꿔 보는 가상 행사야. 제목만 멋있게 보이기보다 준비물·제외 조건·참가 방법까지 휴대폰 화면에서 읽히게 만들어줘. 세로 2:3 두 장, 세로 4:5 두 장, 정사각형 한 장으로 나눠줘. 문구는 그대로 쓰고 추가 문구나 QR코드는 넣지 마. 아래 URL은 포스터용 가상 주소이니 실제 접수나 링크 방문은 하지 마.\n\n이름 바꾸는 물건들\nOBJECT NAME EXCHANGE\n2026.11.21(토) 13:30–16:00\n가상 공간 여울실험실 2층 / YEOUL LAB\n한국어·English, 어느 언어로 적어도 좋아요.\n이름을 바꾸고 싶은 작은 물건 1개를 가져오세요.\n깨지기 쉬운 물건과 음식은 받지 않아요.\n만 16세 이상 · 무료 · 24명\n11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.\nyeoul.example/NAME?lang=ko&slot=pm\n\nDESIGN SPECIFICATION — one native edit of the supplied immediate parent poster, exactly one flat 4:5 portrait poster. Opaque full background. 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력.\nUse case: precise-object-edit. Input image is the complete poster to preserve. The original request above is literal; the whole five-poster set is managed separately, and this call makes only this assigned 4:5 slot.\nChange only the physically discontinuous cord connection around the middle and left margin. In the parent, the terracotta tag cord fades to nothing beneath the bringing sentence while a separate cord starts under the left edge of that sentence. Replace these broken segments with exactly ONE physically coherent plain terracotta cord from the hole of the blank name tag, curving through the narrow left gutter down toward the application area. It can pass behind the object but must never cross a letter. Keep the route simple. Its single loose end near the lower application group must have an actual clean fibrous tip, not a soft fade or a second duplicate segment. If necessary move the middle cord curve only, using the empty gaps between text and left edge. Do not move, resize or rewrite any text to accommodate it.\nPreserve all ten supplied strings exactly once, including all spelling, spaces, punctuation, capitalization, numeral sequence, question mark, ampersand, equals signs and the en dash. Preserve title, English line, event/time/location grouping, oversized bringing sentence, language/exclusion/age detail group and the substantial deadline/URL area. Preserve exact URL, full deadline, no extra words, no QR, no logos, no labels. Preserve the charcoal and terracotta colors, pale background, original typographic proportions and readable contrast. Preserve the clothespin's two wooden blades, coherent metal spring, its wood grain scale and direction, blank paper tag and their current light/shadow treatment. Keep rope distinct from paper and text. No added ornaments, material-wide noise, glow or extra objects. Maintain a single flat poster, no mockup or border.\nDirection remains the semantic order of preparing an object and then indicating participation, arranged as one continuous reading route across the whole poster, with all participant information readable at 720-width phone-screen use.\n",
+    "referenced_image_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/initial/final.png"
+    ],
+    "transparent_background": false
+  },
+  "call_input_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-1/call-input.json",
+  "precall_plan_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-1/pre-call.json",
+  "tool_source": {
+    "path": "/Users/nahyeonbin/.codex/generated_images/01a1186f-ad12-7fa0-b7a4-a49ac1b7d60d/exec-192bc01c-bf07-44dc-97ab-16d52bc00416.png",
+    "sha256": "72c8408dd78daae723968af64067773b3d07e45407cefd12f805e63c022205ff"
+  },
+  "original": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-1/original.png",
+    "sha256": "72c8408dd78daae723968af64067773b3d07e45407cefd12f805e63c022205ff"
+  },
+  "final": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-1/final.png",
+    "sha256": "72c8408dd78daae723968af64067773b3d07e45407cefd12f805e63c022205ff"
+  },
+  "width": 1122,
+  "height": 1402,
+  "target_ratio": "4:5",
+  "qa_views": {
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-1/usage720.png",
+      "width": 720,
+      "height": 900,
+      "sha256": "4548db1d30b94d5877871494925ce96582d9602e680723be5873bf4e8f010d9c"
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-1/thumbnail320.png",
+      "width": 256,
+      "height": 320,
+      "sha256": "4dfc14181476624320541c90abee9979f245866141e273bea4337ef4c41ac327"
+    }
+  }
+}

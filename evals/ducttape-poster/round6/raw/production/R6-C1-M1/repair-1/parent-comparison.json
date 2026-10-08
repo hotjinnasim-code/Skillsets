@@ -1,0 +1,39 @@
+{
+  "role": "R6-C1-M1",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M1/initial/final.png",
+  "current_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M1/repair-1/final.png",
+  "actual_comparison_views": {
+    "parent": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M1/initial/original.png",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M1/initial/usage720.png",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M1/initial/thumbnail320.png"
+    ],
+    "current": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M1/repair-1/original.png",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M1/repair-1/usage720.png",
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M1/repair-1/thumbnail320.png"
+    ]
+  },
+  "preserved": [
+    {
+      "region": "Entire one-line phrase",
+      "observed": "Exact five syllables, size, baseline and word spacing visibly preserved."
+    },
+    {
+      "region": "Outer white margins",
+      "observed": "Major layout and balanced margins preserved."
+    }
+  ],
+  "changed": [
+    {
+      "region": "White field and glyph-edge traces",
+      "observed": "The returned native file differs, but there is no confident visible improvement to the faint streaking; the targeted texture removal is incomplete."
+    }
+  ],
+  "regressed": [],
+  "residuals": [
+    "Faint diagonal white-field texture and gray lower-edge traces remain."
+  ]
+}

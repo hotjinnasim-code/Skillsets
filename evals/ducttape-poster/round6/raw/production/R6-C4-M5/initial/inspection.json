@@ -1,0 +1,107 @@
+{
+  "role": "R6-C4-M5",
+  "case_id": "R6-C4",
+  "stage": "initial",
+  "inspected_at_utc": "2026-10-07T22:44:22.511136+00:00",
+  "method": "Actually displayed original.png at original detail, then actual usage720.png and thumbnail320.png at original detail; all text manually read, no OCR or text compositing.",
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M5/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M5/initial/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M5/initial/thumbnail320.png"
+  ],
+  "views": [
+    {
+      "kind": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M5/initial/original.png",
+      "width": 1254,
+      "height": 1254,
+      "observations": "Whole title and subordinate six strings read. Title appears as normal syllable blocks with raised rounded forms; blue gaps remain between neighbouring Hangul shapes."
+    },
+    {
+      "kind": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M5/initial/usage720.png",
+      "width": 720,
+      "height": 720,
+      "observations": "All six strings read without zoom, including action commas, date range and entire venue/ROUND ROOM line."
+    },
+    {
+      "kind": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M5/initial/thumbnail320.png",
+      "width": 320,
+      "height": 320,
+      "observations": "Orange raised Hangul and rounded clay shape dominate. Title and English clear; smaller four lines remain identifiable, date/venue small but not relied on as full use-size proof."
+    }
+  ],
+  "copy_transcription": [
+    {
+      "required": "말랑한 중력",
+      "observed": "말랑한 중력",
+      "equal": true
+    },
+    {
+      "required": "SOFT GRAVITY",
+      "observed": "SOFT GRAVITY",
+      "equal": true
+    },
+    {
+      "required": "움직이는 점토 조각전",
+      "observed": "움직이는 점토 조각전",
+      "equal": true
+    },
+    {
+      "required": "누르고, 늘리고, 다시 놓기",
+      "observed": "누르고, 늘리고, 다시 놓기",
+      "equal": true
+    },
+    {
+      "required": "2026.12.05–12.13",
+      "observed": "2026.12.05–12.13",
+      "equal": true
+    },
+    {
+      "required": "가상 전시장 둥근방 / ROUND ROOM",
+      "observed": "가상 전시장 둥근방 / ROUND ROOM",
+      "equal": true
+    }
+  ],
+  "extra_copy_or_logo_observed": false,
+  "mandatory_conditions": [
+    {
+      "condition": "Assigned one independent flat 1:1 poster",
+      "observed": true,
+      "located_evidence": "One 1254×1254 square native image. Root manages total five outputs/ratio allocation."
+    },
+    {
+      "condition": "Clay 3D, thick raised Hangul, strong complementary colour, bold/playful",
+      "observed": true,
+      "located_evidence": "Orange thick moulded title and sculpture against saturated blue; cream raised subordinate type. Volume is substantial, not flattened."
+    },
+    {
+      "condition": "Normal readable Hangul; open internal spaces and separate glyphs",
+      "observed": true,
+      "located_evidence": "Main upper 말랑한 and lower 중력 identifiable at native/720/320. ㅁ/ㅇ openings remain visible; letters do not melt into one mass."
+    },
+    {
+      "condition": "Soft sculpture action",
+      "observed": true,
+      "located_evidence": "Connected rounded orange mass has a curled/recoiling neck and settled foot at right of 중력. Return/destination interpretation is uncertain; animal-like curl is a clarity defect for own repair."
+    },
+    {
+      "condition": "Six complete strings exactly once, no invented label/logo",
+      "observed": true,
+      "located_evidence": "Title across upper/middle; English below title; remaining four lines bottom-left. No added phrase/logo seen."
+    }
+  ],
+  "located_self_observations": {
+    "type": "Upper title uses very large rounded raised syllable blocks; subordinate Hangul/Latin coherent thick clay letter faces. Small body copy is uncompressed and readable at720.",
+    "space": "Right sculpture settles alongside title; compact information block beneath. Lower venue has about30 nativepx bottom margin, adequate but dense.",
+    "material": "One orange/cream moulded clay rule, coherent upper-left highlights and lower-right contact shadows. Fine pebbled orange and blue microtexture is visible; not certified as physically handmade clay.",
+    "ai_slop": "No fake label, logo, obvious broken letters or repeated shadow ghosts. Curled neck can read as an animal head/appendage rather than recovered clay; relation requires clearer form."
+  },
+  "uncertainties": [
+    "Recovery motion is an interpretation of one still image; current curled neck may read as animal-like.",
+    "Raster view cannot prove exact underlying Unicode punctuation or human authorship.",
+    "Requested maximum supported resolution is not confirmed; actual returned size is1254×1254."
+  ],
+  "self_repair_reason": "Improve recovery/action clarity by changing only connected sculpture; preserve text/volume/palette/spacing."
+}

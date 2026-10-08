@@ -1,0 +1,135 @@
+{
+  "role": "R6-C3-M1",
+  "case_id": "R6-C3",
+  "stage": "repair-1",
+  "inspected_at_utc": "2026-10-07T22:24:05Z",
+  "actual_view_paths": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M1/repair-1/final.png",
+      "detail": "original",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M1/repair-1/usage720.png",
+      "detail": "original",
+      "width": 720,
+      "height": 1080
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M1/repair-1/thumbnail320.png",
+      "detail": "original",
+      "width": 213,
+      "height": 320
+    }
+  ],
+  "copy": [
+    {
+      "required": "온틈",
+      "observed": "온틈",
+      "equal": true
+    },
+    {
+      "required": "ONE-HAND MEMO HOLDER",
+      "observed": "ONE-HAND MEMO HOLDER",
+      "equal": true
+    },
+    {
+      "required": "누르면 열리고, 놓으면 잡아요.",
+      "observed": "누르면 열리고, 놓으면 잡아요.",
+      "observed_linebreaks": "누르면 열리고,\n놓으면 잡아요.",
+      "equal": true
+    },
+    {
+      "required": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "observed": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "equal": true
+    },
+    {
+      "required": "책상 위 메모를 한 손으로.",
+      "observed": "책상 위 메모를 한 손으로.",
+      "equal": true
+    },
+    {
+      "required": "ontteum.example",
+      "observed": "ontteum.example",
+      "equal": true
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "required": "사진적 표현과 성인 한 명의 한 손 사용 장면. 팔·상반신과 손의 연결",
+      "observed": "Photographic shirted adult torso, connected sleeve/forearm/hand at right. One index fingertip visibly contacts and depresses rear lever; no second hand or person.",
+      "satisfied": true
+    },
+    {
+      "required": "원통형 코르크 받침 위 스테인리스 스프링 집게, 앞 실리콘 패드 두 턱, 뒤 레버",
+      "observed": "Full low cork cylinder supports connected steel lower and raised upper clip arms, coil spring/pivot and rear lever. Upper pad now lines inner underside of raised front jaw and faces lower pad.",
+      "satisfied": true
+    },
+    {
+      "required": "누르면 앞 턱이 열리고 놓으면 종이를 잡는 기능이 이미지에서 식별",
+      "observed": "Rear lever depressed by one finger; corresponding upper front jaw is lifted with open gap over blank paper and lower pad. Opposed pads and spring visibly support closure/grip on release, which is expressed by the preserved functional sentence.",
+      "satisfied": true,
+      "uncertainty": "Single open still is not physical testing and does not simultaneously depict closed state."
+    },
+    {
+      "required": "받침·집게·실리콘 턱을 숨기지 않음",
+      "observed": "Full base, steel arms, visible spring/pivot, rear lever and both front pads remain sharply readable.",
+      "satisfied": true
+    },
+    {
+      "required": "코르크·금속·실리콘·종이·피부 각각의 표면과 빛 반응",
+      "observed": "Coarse irregular cork granules; steel directional sheen; silicone low-gloss broad smooth faces; paper diffuse cream with low surface contrast; skin localized creases and nail reflectance. No equal microtexture on all surfaces.",
+      "satisfied": true
+    },
+    {
+      "required": "각 문자열 한 번. 별도 메모 내용·로고·가짜 문자 없음",
+      "observed": "All six exact strings each once. Memo card blank. No added labels, symbols, logos or readable fake text.",
+      "satisfied": true
+    },
+    {
+      "required": "가상 제품. 미제공 치수·성능·실제모델 재현 주장 없음",
+      "observed": "No added model, measurement or performance claims.",
+      "satisfied": true
+    },
+    {
+      "required": "배정 2:3 세로 비율",
+      "observed": "Measured 1024×1536, ratio relative error 0.",
+      "satisfied": true
+    }
+  ],
+  "self_observations": [
+    {
+      "type": "typography",
+      "location": "title, function and bottom three text groups",
+      "observation": "All Korean syllables, punctuation, centered dots, hyphenated English descriptor and URL read correctly. Korean strokes and counters remain open; smallest material string readable at 720 width.",
+      "impact": "Required copy retains clear hierarchy."
+    },
+    {
+      "type": "space",
+      "location": "function at upper-left, arm-to-lever diagonal, main product lower-middle",
+      "observation": "Function block leads into index finger pressure and enlarged open mouth, while full base and lower information remain unclipped. No cramped text-to-finger collision.",
+      "impact": "Assigned pressure-to-opening relationship remains the main subject-specific connection."
+    },
+    {
+      "type": "material",
+      "location": "upper front jaw and full lower-middle product",
+      "observation": "Upper silicone pad is now visibly under its steel arm, facing lower pad across the opening. Steel tip is separately visible above it. Cork was locally regenerated with changed granules but remains natural irregular cork.",
+      "impact": "Contact logic improves without merging metal and silicone finishes."
+    },
+    {
+      "type": "ai_slop",
+      "location": "whole image and scene margins",
+      "observation": "No fake logo, meaningless microtext, added symbols or ornament. Desk props are generic softly focused staging; the explicit single hand lever actuation and resolved inward pads anchor the content. No halo at hand/steel/skin boundaries.",
+      "impact": "No additional visual effect is needed."
+    }
+  ],
+  "uncertainties": [
+    "Single generated still cannot verify actual spring performance or certify a fabricated product.",
+    "Blank paper overlaps part of the lower pad, so its exact microscopic contact is partially occluded; both pads and the open gap remain readable.",
+    "320 long-side view is for overall form; the smallest material copy requires the 720-width view."
+  ],
+  "decision": "select repair-1; no further correction is justified by this inspection",
+  "external_critique_received": false
+}

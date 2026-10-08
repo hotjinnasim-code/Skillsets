@@ -1,0 +1,156 @@
+{
+  "scope": "Control-flow fixtures inject JSON changes after the real confined reader verifies immutable archived bytes. These exercise acceptance logic, not a byte-consistent alternate archive; the source archive was never changed. All real pins and actual joins were independently checked separately. No pixels displayed or decoded.",
+  "results": [
+    {
+      "test": "different native/manifest binding for sealed role",
+      "expected_rejection": true,
+      "actual_status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "archive_byte_integrity": "PASS",
+      "image_critic_records_first_and_final": 120,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C1-M1/final selection/binding native/manifest join differs",
+        "R6-C1-M1/final selected row/manifest identity differs",
+        "R6-C1-M1/final accepted summary binding differs",
+        "R6-C1-M1/final recorded exact views missing",
+        "R6-C1-M1/final recorded exact views missing",
+        "R6-C1-M1/final recorded exact views missing"
+      ]
+    },
+    {
+      "test": "changed case declared unchanged",
+      "expected_rejection": true,
+      "actual_status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "archive_byte_integrity": "PASS",
+      "image_critic_records_first_and_final": 120,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C1 full five-role SHA change decision differs"
+      ]
+    },
+    {
+      "test": "raw observation declares another role",
+      "expected_rejection": true,
+      "actual_status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "archive_byte_integrity": "PASS",
+      "image_critic_records_first_and_final": 120,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C1-M1/final combined/derived-summary observation records differ",
+        "R6-C1-M1/final observation role/case/profile/anonymous ID differs from bound slot"
+      ]
+    },
+    {
+      "test": "raw observation declares another anonymous image ID",
+      "expected_rejection": true,
+      "actual_status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "archive_byte_integrity": "PASS",
+      "image_critic_records_first_and_final": 120,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C1-M1/final combined/derived-summary observation records differ",
+        "R6-C1-M1/final observation role/case/profile/anonymous ID differs from bound slot"
+      ]
+    },
+    {
+      "test": "retained invalid stage drops one observation without changing declared counts",
+      "expected_rejection": true,
+      "actual_status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "archive_byte_integrity": "PASS",
+      "image_critic_records_first_and_final": 119,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C2-M1/final combined/derived-summary observation records differ",
+        "R6-C2-M1/final complete preserved reviewer records absent",
+        "R6-C2/final actual combined/raw counts differ from derived summary",
+        "R6-C2/final actual/declared fifteen observations differ, including invalid procedure",
+        "R6-C2/final actual/declared 105 all-seven score values differ, including invalid procedure",
+        "final actual/declared total observations differ (only explicit missing NA stages exempt)",
+        "final actual/declared all-seven score count differs (only explicit missing NA stages exempt)",
+        "Actual first/final 120-record preservation differs, including invalid stages",
+        "Actual first/final 840-score preservation differs, including invalid stages"
+      ]
+    },
+    {
+      "test": "valid adverse final image relabelled PASS while terminal remains invalid",
+      "expected_rejection": true,
+      "actual_status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "archive_byte_integrity": "PASS",
+      "image_critic_records_first_and_final": 120,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C1-M1/final declared image gate differs from raw accepted/invalid records"
+      ]
+    },
+    {
+      "test": "completion session ID differs from trace and procedure",
+      "expected_rejection": true,
+      "actual_status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "archive_byte_integrity": "PASS",
+      "image_critic_records_first_and_final": 120,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C1/first/editorial completion/trace/procedure session identity differs"
+      ]
+    },
+    {
+      "test": "unused repair outcome unavailable",
+      "expected_rejection": true,
+      "actual_status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "errors": [
+        "Synthetic unmapped unused outcome",
+        "R6-C1-M1/repair-1 outcome identity differs",
+        "R6-C1-M1/repair-1 native call numbering differs",
+        "Malformed/incomplete archive graph: KeyError: 'call_input_path'"
+      ],
+      "evidence_errors": []
+    },
+    {
+      "test": "confined path ../outside.json",
+      "expected_rejection": true,
+      "expectation_met": true,
+      "error": "Unsafe archive-relative path: ../outside.json"
+    },
+    {
+      "test": "confined path /absolute.json",
+      "expected_rejection": true,
+      "expectation_met": true,
+      "error": "Unsafe archive-relative path: /absolute.json"
+    },
+    {
+      "test": "confined path C:\\absolute.json",
+      "expected_rejection": true,
+      "expectation_met": true,
+      "error": "Unsafe archive-relative path: C:\\absolute.json"
+    },
+    {
+      "test": "confined path sub\\file.json",
+      "expected_rejection": true,
+      "expectation_met": true,
+      "error": "Unsafe archive-relative path: sub\\file.json"
+    },
+    {
+      "test": "confined path link.json",
+      "expected_rejection": true,
+      "expectation_met": true,
+      "error": "Archive symlinks are disallowed: link.json"
+    }
+  ],
+  "unexpected_acceptances": []
+}
