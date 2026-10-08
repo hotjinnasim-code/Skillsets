@@ -1,0 +1,274 @@
+# Craft review
+
+Reviewer: craft. Order compliant: true.
+
+Manual visual transcription from actual view_image calls on the exact provided files. review-protocol.md was read, then preflight.json; its five usage720 paths were viewed with original detail. reviews/craft-action-first.json was saved and read back before packet.json/full copy was opened; its initial readings are preserved unchanged. After reading the packet, all five images were actually viewed again at native, usage720 and thumbnail320 (15 calls), each with original detail requested and returned. No crop, substitute, altered image, OCR, web, connector, peer file, external directory or agent was used. Observed strings below are manually read pixels with visible line wraps retained; required strings are exact supplied copy. Equality removes whitespace only and retains all other characters, punctuation and case. The pixel form of the time dash is legible but its underlying code point is uncertain. The viewer supplied full images at original detail; no zoom/crop was used, and tiny thumbnail strings not independently recoverable are disclosed rather than inferred. PNG headers were read only to confirm dimensions: X8289 1254×1254, X3584/X6105 1024×1536, X3557/X8148 1122×1402. Ratio errors are respectively 0%, 0%, and 0.035663%, all below 1%; the set has two 2:3, two 4:5 and one 1:1 images. Review uses only the unchanged supplied rubric. Familiar type, color, illustration, gloss and texture are judged for execution; no extra monochrome, handlettering or campaign-uniformity requirement is imposed. Scores are separate integer judgments, with no total or average. Pixels do not certify authorship, actual object mechanics, event capacity, URL function or physical printing performance; no link was visited.
+
+## Scores
+
+| Image | content_form | hierarchy | typography | space | image_material | emotion_control | ai_slop |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| X8289 | 3 | 3 | 3 | 3 | 4 | 3 | 3 |
+| X3584 | 3 | 3 | 4 | 2 | 4 | 3 | 3 |
+| X3557 | 4 | 4 | 3 | 3 | 4 | 4 | 4 |
+| X6105 | 4 | 4 | 4 | 4 | 4 | 3 | 4 |
+| X8148 | 3 | 4 | 3 | 3 | 3 | 3 | 3 |
+
+No scores are summed or averaged. Mandatory copy/ratio compliance does not imply high-end craft.
+
+## Actual packet views
+
+| image_id | view | path |
+| --- | --- | --- |
+| X8289 | native | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X8289-native.png |
+| X8289 | usage720 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X8289-usage720.png |
+| X8289 | thumbnail320 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X8289-thumbnail320.png |
+| X3584 | native | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X3584-native.png |
+| X3584 | usage720 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X3584-usage720.png |
+| X3584 | thumbnail320 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X3584-thumbnail320.png |
+| X3557 | native | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X3557-native.png |
+| X3557 | usage720 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X3557-usage720.png |
+| X3557 | thumbnail320 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X3557-thumbnail320.png |
+| X6105 | native | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X6105-native.png |
+| X6105 | usage720 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X6105-usage720.png |
+| X6105 | thumbnail320 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X6105-thumbnail320.png |
+| X8148 | native | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X8148-native.png |
+| X8148 | usage720 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X8148-usage720.png |
+| X8148 | thumbnail320 | /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WF23AFD2C/images/X8148-thumbnail320.png |
+
+The five earlier preflight usage720 calls and unchanged full-field readings are recorded separately in craft-action-first.json. They are not substituted for these fifteen packet calls.
+
+## X8289
+
+Mandatory pass: true. Issues: none. No missing, altered or additional wording or QR code was observed. Native ratio is within the required 1% tolerance.
+
+all_required_copy_legible_at720: true. All ten full required items were manually readable at usage720, including the complete deadline sentence and entire case-sensitive URL with ?lang=ko&slot=pm. Thumbnail320 retains unusually readable body blocks for its square size, but the dense bottom deadline/URL receives less breathing room than the title. Native confirms clip finish and intact text.
+
+### Evidence and scores
+
+- **content_form — 3/5:** Upper half: Korean title on lime and English title on blue are joined visually by an orange binder clip across the central seam. The two languages and ordinary small object relate to the event, but the clip and color split convey joining more clearly than changing a name; the concept is functional rather than fully specific.
+- **hierarchy — 3/5:** At thumbnail320 the two title masses lead, with the date immediately below the clip. At usage720 the language, bring-item, exclusion, eligibility, deadline and URL blocks are all readable, but nearly all use similarly heavy black type. The lower instructions compete instead of giving the bring-item and application steps a distinct second level.
+- **typography — 3/5:** Upper left Korean and upper right English both occupy three tight bold lines; their different letter widths are deliberately fitted to the two halves. Lower single-line instructions and the URL remain intact, but the nearly universal bold weight and compressed long lines reduce differentiation and breathing room.
+- **space — 3/5:** Usage720: text follows a consistent approximately 24-pixel left inset. The centered color seam continues through the full-width date and body rather than organizing their groups; the URL at about y=675–701 sits close to the bottom. The layout is balanced but not finely resolved in its large/small spatial relationships.
+- **image_material — 4/5:** Native center: the orange clip has distinct enamel-like faces, crisp folded edges, separately drawn silver wire handles, and a restrained cast shadow. Highlights and boundaries are visually coherent, with no conspicuous melting or texture indiscriminately covering the text.
+- **emotion_control — 3/5:** The lime/blue field and small orange clip produce a lively, accessible event tone. The persistent heavy black typography from title through exclusions and application sentence sustains the same loudness, so the energy is appropriate but insufficiently modulated.
+- **ai_slop — 3/5:** Whole poster: oversized bilingual sans blocks, split bright background and isolated glossy stationery object form a familiar reusable poster package. Letters and clip edges are clean; the residual issue is generic editorial habit rather than proof of any maker or generation process.
+
+### Full manual transcription
+
+Equality ignores whitespace only. Observed line breaks are shown as `<br>`; visible punctuation and case are retained.
+
+| required (exact supplied string) | observed (manual pixels) | equal |
+| --- | --- | --- |
+| 이름 바꾸는 물건들 | 이름<br>바꾸는<br>물건들 | true |
+| OBJECT NAME EXCHANGE | OBJECT<br>NAME<br>EXCHANGE | true |
+| 2026.11.21(토) 13:30–16:00 | 2026.11.21(토) 13:30–16:00 | true |
+| 가상 공간 여울실험실 2층 / YEOUL LAB | 가상 공간 여울실험실 2층 / YEOUL LAB | true |
+| 한국어·English, 어느 언어로 적어도 좋아요. | 한국어·English, 어느 언어로 적어도 좋아요. | true |
+| 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요. | 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요. | true |
+| 깨지기 쉬운 물건과 음식은 받지 않아요. | 깨지기 쉬운 물건과 음식은 받지 않아요. | true |
+| 만 16세 이상 · 무료 · 24명 | 만 16세 이상 · 무료 · 24명 | true |
+| 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요. | 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요. | true |
+| yeoul.example/NAME?lang=ko&slot=pm | yeoul.example/NAME?lang=ko&slot=pm | true |
+
+### Uncertainties
+
+- The time-range dash is transcribed as an en dash by visible form; pixels do not establish the underlying Unicode code point.
+
+### Residual findings and concrete corrections
+
+- Nearly all lower text is equally bold → preparation, exclusions and application compete for attention → keep the exact copy while differentiating weights and spacing, with the bring-item and deadline/URL groups clearly dominant.
+- The vertical color seam crosses every full-width text group → the strong split lacks an information role beyond the title → give the split a clear bilingual/header role or align the lower groups independently of it.
+- The long URL sits near the bottom and side limits → the application step has little visual breathing room → increase its safe visual inset by reallocating title/body spacing without reducing usage720 legibility.
+
+## X3584
+
+Mandatory pass: true. Issues: none. No missing, altered or additional wording or QR code was observed. Native ratio is within the required 1% tolerance.
+
+all_required_copy_legible_at720: true. All ten full required items were manually readable at usage720. The language sentence occupies two lines; the complete event, location, preparation, exclusion, deadline and URL are intact. At thumbnail320 (213×320), title/date and object remain clear, but I cannot independently certify every tiny bottom URL character from that view. Native confirms the spoon surface; usage720 supplies the full-copy reading.
+
+### Evidence and scores
+
+- **content_form — 3/5:** Center: a recognizable everyday spoon sits between a full-width empty rectangle and a shorter empty rectangle. These can suggest spaces for new names, but their unequal sizes and lack of a visible relation to the spoon leave that reading tentative. The ordinary object connects to the request; the naming mechanism is only partly articulated.
+- **hierarchy — 3/5:** Thumbnail320 preserves the large Korean title, spoon and bold date. Usage720 puts the date around y=660 after title, empty field, spoon and a separate language block. Preparation, exclusions and application are legible below, but the empty forms delay the practical reading sequence.
+- **typography — 4/5:** Upper title: the English two-line block nests beside the second Korean line, giving the two scripts distinct roles. Usage720 body glyphs have even strokes, intact words and consistent grouping; the language sentence wraps cleanly into two lines. The long lower sentences remain readable without accidental glyph deformation.
+- **space — 2/5:** Usage720: the empty rectangle at about y=320–383, spoon at y=405–522 and smaller rectangle at y=550–615 form three separately spaced structures before the date. Their boundaries do not establish a common label/object relationship, while all participation information is compressed into the lower portion. This is an unresolved allocation of space, not merely generous whitespace.
+- **image_material — 4/5:** Native spoon: directional brushed-metal texture follows the long handle and curved bowl, with a continuous rim and coherent bowl highlight. Its soft lower-right shadow separates it from the mint field without a conspicuous cutout halo. The representation is materially convincing at the visible level.
+- **emotion_control — 3/5:** Mint, dark green and the quiet horizontal spoon establish a calm invitation. The orange URL makes the application destination distinct, though at thumbnail320 it is less visually robust than the darker body text. The tone functions; the unresolved rectangles contribute little emotional precision.
+- **ai_slop — 3/5:** The two empty outlined boxes occupy major information-like positions without an unambiguous purpose. Together with the isolated object on a smooth field, they retain a generic product-poster habit. Text and metal are technically coherent, but the empty forms should be related more specifically to naming before this is treated as a high-end candidate.
+
+### Full manual transcription
+
+Equality ignores whitespace only. Observed line breaks are shown as `<br>`; visible punctuation and case are retained.
+
+| required (exact supplied string) | observed (manual pixels) | equal |
+| --- | --- | --- |
+| 이름 바꾸는 물건들 | 이름 바꾸는<br>물건들 | true |
+| OBJECT NAME EXCHANGE | OBJECT NAME<br>EXCHANGE | true |
+| 2026.11.21(토) 13:30–16:00 | 2026.11.21(토) 13:30–16:00 | true |
+| 가상 공간 여울실험실 2층 / YEOUL LAB | 가상 공간 여울실험실 2층 / YEOUL LAB | true |
+| 한국어·English, 어느 언어로 적어도 좋아요. | 한국어·English,<br>어느 언어로 적어도 좋아요. | true |
+| 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요. | 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요. | true |
+| 깨지기 쉬운 물건과 음식은 받지 않아요. | 깨지기 쉬운 물건과 음식은 받지 않아요. | true |
+| 만 16세 이상 · 무료 · 24명 | 만 16세 이상 · 무료 · 24명 | true |
+| 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요. | 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요. | true |
+| yeoul.example/NAME?lang=ko&slot=pm | yeoul.example/NAME?lang=ko&slot=pm | true |
+
+### Uncertainties
+
+- The visible time-range dash is readable, but its underlying Unicode code point cannot be certified from pixels.
+- The two empty rectangles may intentionally represent new-name fields; their precise purpose is not labeled or otherwise unambiguous.
+- Every tiny URL character is not independently certain at thumbnail320; the full URL is legible at usage720.
+
+### Residual findings and concrete corrections
+
+- Full-width empty field above the spoon and a shorter field below are disconnected → the naming idea reads as unresolved placeholder geometry and pushes practical information downward → place the empty forms in a visibly related arrangement with the spoon or remove the redundant form; add no wording.
+- Language block floats beside the short field before the date → its role interrupts the date-to-preparation sequence → regroup it with the other participation conditions while preserving the full sentence.
+- Orange URL is weaker than the dark body at thumbnail320 → the application destination loses emphasis at small size → darken or increase its visual contrast while preserving the exact URL.
+
+## X3557
+
+Mandatory pass: true. Issues: none. No missing, altered or additional wording or QR code was observed. Native ratio is within the required 1% tolerance.
+
+all_required_copy_legible_at720: true. All ten full required items were manually readable at usage720. The bring-item sentence spans three lines and the application sentence two; the entire URL is readable on one line. Thumbnail320 preserves the bring-item and deadline emphasis, while supporting sentences are much smaller and their exact punctuation is less secure. Native confirms the visible material finish and color split inside 1개를.
+
+### Evidence and scores
+
+- **content_form — 4/5:** Middle: a wooden clothespin holds a blank card beside the enlarged bring-one-small-object sentence. The blank writable surface, ordinary object and explicit preparation command reinforce the event action. The image does not fully depict renaming, but the information and visual idea are usefully connected.
+- **hierarchy — 4/5:** The top title and date lead, the middle bring-item sentence becomes the main instruction, and the lower red deadline plus red URL form a clear application destination. At thumbnail320 these major steps still separate visibly; at usage720 supporting language, exclusions and eligibility are all readable.
+- **typography — 3/5:** The condensed English heading pairs coherently with the broad Korean title, and the bring-item sentence is broken into three intact lines. In its second line the red emphasis ends inside the written unit 1개를, leaving 를 black; this visually splits the unit. Almost every remaining line is bold, limiting refinement despite sound legibility.
+- **space — 3/5:** Usage720: instruction at the left and clothespin/card at the right balance each other without contact. The supporting rows start around x=76 while the title/date start around x=40 and the URL around x=30; these changing insets do not form a clear secondary grid. The wide URL is also close to both side edges.
+- **image_material — 4/5:** Native right: wood grain, silver spring coil, card edge and soft cast shadow use distinct visual materials. The blank card retains subtle paper texture while the letters stay crisp; there is no conspicuous indiscriminate gloss or edge melting. This is a convincing visible finish without certifying physical mechanics.
+- **emotion_control — 4/5:** Burnt red is concentrated on key title words, the bring-item phrase, deadline and URL, supporting a purposeful invitation. The quiet object and uncluttered field keep that emphasis controlled. The remaining heavy support text prevents a more nuanced level of restraint.
+- **ai_slop — 4/5:** The blank naming card beside the large preparation instruction and the explicitly emphasized deadline make the editing content-specific. Korean letters, URL punctuation and the object boundaries remain coherent. The warm-background stationery arrangement is familiar, but no conspicuous synthesis defect dominates the result.
+
+### Full manual transcription
+
+Equality ignores whitespace only. Observed line breaks are shown as `<br>`; visible punctuation and case are retained.
+
+| required (exact supplied string) | observed (manual pixels) | equal |
+| --- | --- | --- |
+| 이름 바꾸는 물건들 | 이름 바꾸는 물건들 | true |
+| OBJECT NAME EXCHANGE | OBJECT NAME EXCHANGE | true |
+| 2026.11.21(토) 13:30–16:00 | 2026.11.21(토) 13:30–16:00 | true |
+| 가상 공간 여울실험실 2층 / YEOUL LAB | 가상 공간 여울실험실 2층 / YEOUL LAB | true |
+| 한국어·English, 어느 언어로 적어도 좋아요. | 한국어·English, 어느 언어로 적어도 좋아요. | true |
+| 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요. | 이름을 바꾸고 싶은<br>작은 물건 1개를<br>가져오세요. | true |
+| 깨지기 쉬운 물건과 음식은 받지 않아요. | 깨지기 쉬운 물건과 음식은 받지 않아요. | true |
+| 만 16세 이상 · 무료 · 24명 | 만 16세 이상 · 무료 · 24명 | true |
+| 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요. | 11.18(수) 18:00까지 아래 주소로<br>참가 의사를 남겨주세요. | true |
+| yeoul.example/NAME?lang=ko&slot=pm | yeoul.example/NAME?lang=ko&slot=pm | true |
+
+### Uncertainties
+
+- The time-range dash is transcribed as an en dash by visible form; pixels do not establish the underlying Unicode code point.
+- Exact punctuation in tiny supporting sentences is less secure at thumbnail320, although usage720 is fully readable.
+
+### Residual findings and concrete corrections
+
+- Red emphasis stops after 1개 and leaves 를 black → color divides the written unit 1개를 → apply one color to the complete unit without altering the sentence.
+- Title/date, supporting rows and URL use three different left insets → lower information groups feel less deliberately aligned → establish a shared grid or a clearly consistent secondary inset.
+- Isolated clothespin and blank card on a pale field remain a familiar object layout → specificity relies heavily on the instruction text → strengthen the spatial relation between the blank naming surface and the title/instruction, without adding copy.
+
+## X6105
+
+Mandatory pass: true. Issues: none. No missing, altered or additional wording or QR code was observed. Native ratio is within the required 1% tolerance.
+
+all_required_copy_legible_at720: true. All ten full required items were manually readable at usage720. The venue, language, preparation and deadline use multiple lines, which are recorded in observed strings. The language line visibly spaces the centered dot more widely than the supplied copy; equality ignores whitespace only. Thumbnail320 (213×320) preserves the tag sequence, but its full tiny URL is not independently certain. Native confirms texture and text boundaries.
+
+### Evidence and scores
+
+- **content_form — 4/5:** Whole poster: information is printed on four visibly separate tags, so a writable naming object becomes the layout itself. The key and binder clip are plausible ordinary small objects. This links title, preparation and material vocabulary more closely than merely placing an unrelated hero image above the copy.
+- **hierarchy — 4/5:** Title tag, date/venue tag, blue participation-condition tag and bottom application tag create a clear downward sequence. Usage720 keeps every required sentence readable; the red backing under the application tag gives the final step a distinct boundary. Within the blue block the language sentence receives almost as much emphasis as the bring-item instruction.
+- **typography — 4/5:** Native/usage720: printed letters follow the tag surfaces cleanly, and the English subtitle remains anchored to the title tag. Venue, language, bring-item and deadline sentences wrap into stable groups, with no lost characters. Thin rules in the blue block separate complete conditions; the long URL is intact on its own line.
+- **space — 4/5:** Usage720: holes and cord stay in the left margins, leaving clear text starts around x=112–125. The broad blue tag gives multiple conditions room, and the bottom tag leaves a separate URL band. The key and clip use the narrow upper-right margin; their proximity adds some crowding but does not collide with copy.
+- **image_material — 4/5:** Native: braided cord fibers, the blue ring on the title tag, cut paper corners, mottled gold key and silver binder handles have distinguishable textures and edges. Shadows consistently separate tag layers from the background, while the printed letters remain sharp. The clipped-off cord paths cannot establish a real assembly, but no obvious material confusion is visible.
+- **emotion_control — 3/5:** The tag system, strong blue conditions panel and red-backed application panel create a practical, tactile tone. Repeated cords on every tag plus two loose objects add more stationery display than the reading task needs. The expression is coherent but not maximally selective.
+- **ai_slop — 4/5:** Information is actually integrated into the tag motif rather than surrounded by fake numbers or microtext. Paper, cord and metal are differentiated, and all required Korean/English text remains coherent. The familiar stationery kit still carries some generic habit, but the tag-as-information structure provides a content-specific reason for it.
+
+### Full manual transcription
+
+Equality ignores whitespace only. Observed line breaks are shown as `<br>`; visible punctuation and case are retained.
+
+| required (exact supplied string) | observed (manual pixels) | equal |
+| --- | --- | --- |
+| 이름 바꾸는 물건들 | 이름 바꾸는<br>물건들 | true |
+| OBJECT NAME EXCHANGE | OBJECT NAME EXCHANGE | true |
+| 2026.11.21(토) 13:30–16:00 | 2026.11.21(토) 13:30–16:00 | true |
+| 가상 공간 여울실험실 2층 / YEOUL LAB | 가상 공간 여울실험실 2층 /<br>YEOUL LAB | true |
+| 한국어·English, 어느 언어로 적어도 좋아요. | 한국어 · English, 어느 언어로<br>적어도 좋아요. | true |
+| 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요. | 이름을 바꾸고 싶은 작은 물건<br>1개를 가져오세요. | true |
+| 깨지기 쉬운 물건과 음식은 받지 않아요. | 깨지기 쉬운 물건과 음식은 받지 않아요. | true |
+| 만 16세 이상 · 무료 · 24명 | 만 16세 이상 · 무료 · 24명 | true |
+| 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요. | 11.18(수) 18:00까지<br>아래 주소로 참가 의사를<br>남겨주세요. | true |
+| yeoul.example/NAME?lang=ko&slot=pm | yeoul.example/NAME?lang=ko&slot=pm | true |
+
+### Uncertainties
+
+- The time-range dash is transcribed as an en dash by visible form; pixels do not establish the underlying Unicode code point.
+- Complete cord attachment paths leave the crop; the image does not verify an actual physical assembly.
+- Every tiny URL character is not independently certain at thumbnail320; the full URL is legible at usage720.
+
+### Residual findings and concrete corrections
+
+- Language and bring-item sentences have similar large white weight on the blue tag → the practical preparation instruction does not lead as strongly as it could → differentiate their weight or spacing while retaining all required copy at usage720.
+- Every tag has a cord and the upper right contains both a key and a clip → repeated prop emphasis competes with the title/date cards → reduce one ancillary prop or repeated cord element and return that space to the information groups.
+- Cords exit the left crop rather than showing complete paths → actual attachment/assembly remains unverified → judge the visible material coherence only; if a fully convincing assembly is intended, clarify those junctions in the illustration.
+
+## X8148
+
+Mandatory pass: true. Issues: none. No missing, altered or additional wording or QR code was observed. Native ratio is within the required 1% tolerance.
+
+all_required_copy_legible_at720: true. All ten full required items were manually readable at usage720, including the full deadline sentence and URL. The language line visibly has wider whitespace around the centered dot; equality ignores whitespace only. Thumbnail320 retains title/date/bring-item hierarchy; supporting copy and URL become tiny, so exact tiny punctuation is not certified from that view alone. Native was used to inspect the hand/box contact contours.
+
+### Evidence and scores
+
+- **content_form — 3/5:** Upper half: two people pass a small box bearing a blank hanging tag. This connects the event to participants and an everyday object, but the visible action stresses handing over a possession rather than visibly changing its name. The subject is conveyed with a familiar workshop illustration rather than a distinctive naming idea.
+- **hierarchy — 4/5:** Centered title leads, the date/venue follows immediately under the illustrated table, and the larger bring-item sentence is clearly stronger than exclusions and eligibility. Coral rules separate the lower groups. At usage720 the full application sentence and URL are readable; thumbnail320 retains title/date/bring-item priorities.
+- **typography — 3/5:** Korean title has consistent heavy strokes, and the English subtitle has a stable single-line relationship beneath it. The lower half uses centered bold lines almost throughout; the bring-item sentence spans nearly the full width. Grouping is functional but lacks finer differences in weight and line measure.
+- **space — 3/5:** The edge-cropped people frame a clear central title and object without textual overlap. The illustration/table occupies about the upper half, leaving the lower half as a dense centered checklist. The long bring-item line approaches both edges more closely than neighboring centered blocks; spacing is consistent in broad bands but less precise at sentence level.
+- **image_material — 3/5:** Native center: black contour lines, blue clothing, peach skin and the coral tabletop maintain a coherent flat illustration system. The giver’s grip and receiver’s lower fingers are compressed into a few joined curves, with limited separation where the hands approach the box. This may be intentional simplification, but the contact contours are less carefully resolved than the large faces and clothing.
+- **emotion_control — 3/5:** Smiling participants and a plain tagged object make the event approachable, and the palette supports that tone without piling on effects. The conventional friendly tutorial character treatment has limited specificity to this event. Coral rules organize the information but add no distinctive emotional idea.
+- **ai_slop — 3/5:** Upper illustration and lower checklist use a familiar cream/blue/coral community-workshop package. No garbled letters or obvious accidental object melting are visible, but the generic characters and coarse hand-contact contours leave editorial and finish concerns. The score does not identify authorship; these residuals prevent an unqualified high-end claim.
+
+### Full manual transcription
+
+Equality ignores whitespace only. Observed line breaks are shown as `<br>`; visible punctuation and case are retained.
+
+| required (exact supplied string) | observed (manual pixels) | equal |
+| --- | --- | --- |
+| 이름 바꾸는 물건들 | 이름 바꾸는<br>물건들 | true |
+| OBJECT NAME EXCHANGE | OBJECT NAME EXCHANGE | true |
+| 2026.11.21(토) 13:30–16:00 | 2026.11.21(토) 13:30–16:00 | true |
+| 가상 공간 여울실험실 2층 / YEOUL LAB | 가상 공간 여울실험실 2층 / YEOUL LAB | true |
+| 한국어·English, 어느 언어로 적어도 좋아요. | 한국어 · English, 어느 언어로 적어도 좋아요. | true |
+| 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요. | 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요. | true |
+| 깨지기 쉬운 물건과 음식은 받지 않아요. | 깨지기 쉬운 물건과 음식은 받지 않아요. | true |
+| 만 16세 이상 · 무료 · 24명 | 만 16세 이상 · 무료 · 24명 | true |
+| 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요. | 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요. | true |
+| yeoul.example/NAME?lang=ko&slot=pm | yeoul.example/NAME?lang=ko&slot=pm | true |
+
+### Uncertainties
+
+- The time-range dash is transcribed as an en dash by visible form; pixels do not establish the underlying Unicode code point.
+- Simplified joined finger contours may be intentional stylization; no extra-finger or authorship claim is made.
+- Exact tiny supporting punctuation is not certified from thumbnail320 alone; usage720 is fully readable.
+
+### Residual findings and concrete corrections
+
+- The central action is passing a tagged box → the illustration can be read as exchanging possessions rather than changing names → make the existing blank tag more central to the hand interaction without adding text.
+- Joined finger/grip contours near the box are less distinct than faces and clothing → the key action has a coarser finish → clarify overlaps and finger separation within the same flat drawing style; stylization itself is valid.
+- The bring-item sentence is very wide and the lower checklist is almost uniformly bold → sentence-level spacing and emphasis are less controlled than the overall bands → adjust its line measure and supporting text weights while keeping all copy readable at usage720.
+
+## R6-C2: complete five-member set
+
+Members: X6105, X8148, X8289, X3584, X3557.
+
+Diversity: 4/5. All five members are considered: X6105 makes the information itself a four-tag material stack; X8148 uses a two-person illustrated handover and centered checklist; X8289 organizes the title into two color/language halves with a clip bridging the seam; X3584 centers a spoon among empty outlined fields; X3557 pairs a clip/card with an enlarged preparation command. These are structural and representational differences rather than color-only variants. Across the whole distribution, heavy sans titles, bold body copy and familiar stationery/everyday-object motifs recur. The weaker spoon field relationship, square text competition and generic character treatment keep the set below 5; the more integrated tag and preparation-led directions do not erase those weaker members.
+
+Closest pair: X3584, X3557. Score: 3/5. Score is pair diversity on the unchanged 1–5 diversity scale (1 repeated, 5 strongly separated). Both use large bold sans titles at the top, a date/venue block, an isolated realistic everyday object associated with a blank naming surface, and lower aligned bold participation/application copy. X3584 places a horizontal spoon between outlined fields on mint; X3557 puts a vertical wooden clip/card beside an enlarged bring-item sentence on a pale field with red emphasis. Object placement and text role differ, so they are distinguishable, but their underlying object-plus-bold-editorial structure is the closest in this set.
+
+Residuals:
+
+- Heavy sans and mostly bold participation copy recur across all five → several distinct concepts share the same information voice → vary hierarchy, line grouping and spatial roles within the exact copy rather than relying only on object/color changes.
+- X3584 has unresolved empty fields, X8289 persistent text competition, and X8148 a generic handover illustration → the weakest directions remain less specific despite the stronger tag/clothespin members → resolve those members individually; do not average them into a set-level pass or declare all five high-end.

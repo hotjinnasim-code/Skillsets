@@ -1,0 +1,92 @@
+{
+  "scope": "Only the two targeted v2 fixes: closure-canonical summary availability/path binding and complete typed nonnegative gate distributions. Post-reader in-memory mutations; original archive unchanged; no visual rescore.",
+  "results": [
+    {
+      "test": "unmodified archive baseline",
+      "expected_rejection": false,
+      "status": "PASS",
+      "exit_code": 0,
+      "expectation_met": true,
+      "errors": [],
+      "evidence_errors": []
+    },
+    {
+      "test": "available=false and empty ref.path cannot hide existing closure canonical summary",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C2/final available closure-canonical summary concealed by missing-stage declaration"
+      ]
+    },
+    {
+      "test": "available=false and repointed ref.path cannot hide existing closure canonical summary",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "errors": [],
+      "evidence_errors": [
+        "R6-C2/final available closure-canonical summary concealed by missing-stage declaration"
+      ]
+    },
+    {
+      "test": "first gate distribution changed with PASS count held fixed",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "errors": [],
+      "evidence_errors": [
+        "first complete PASS/FAIL/NOT_ASSESSABLE distribution differs from recomputed image gates"
+      ]
+    },
+    {
+      "test": "final gate distribution changed with PASS count held fixed",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "errors": [],
+      "evidence_errors": [
+        "final complete PASS/FAIL/NOT_ASSESSABLE distribution differs from recomputed image gates"
+      ]
+    },
+    {
+      "test": "boolean cannot masquerade as integer PASS count",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "errors": [],
+      "evidence_errors": [
+        "final complete PASS/FAIL/NOT_ASSESSABLE distribution differs from recomputed image gates"
+      ]
+    },
+    {
+      "test": "unknown distribution key rejected",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "errors": [],
+      "evidence_errors": [
+        "final complete PASS/FAIL/NOT_ASSESSABLE distribution differs from recomputed image gates"
+      ]
+    },
+    {
+      "test": "negative distribution value rejected",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "errors": [],
+      "evidence_errors": [
+        "final complete PASS/FAIL/NOT_ASSESSABLE distribution differs from recomputed image gates"
+      ]
+    }
+  ],
+  "unexpected_results": []
+}

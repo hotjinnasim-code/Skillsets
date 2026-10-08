@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-08T00:05:09.242874+00:00",
+  "status": "PASS",
+  "revision": "v2 standalone utility only",
+  "independent_technical_review_status": "FAIL (preserved; not relabelled)",
+  "scope": "Exactly two FT03 assertions added to v1: closure-canonical summary path/availability and full typed nonnegative PASS/FAIL/NOT_ASSESSABLE distributions. No score, image, observation, selection, skill, original archive/checks or v1 edits.",
+  "fixed_gaps": [
+    "Canonical summary source derived from closure.review_waves[phase], so empty/repointed ref.path cannot conceal an existing archived summary; all available summary refs must match the canonical source.",
+    "Entire initial_image_gate_counts and final_image_gate_counts dictionaries must have exactly PASS/FAIL/NOT_ASSESSABLE keys and nonnegative type(value) is int values, and equal recomputed individual-gate distributions."
+  ],
+  "regression_suites": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6-final-auditor-fixes-v2/auditor-control-flow-checks.json",
+      "cases": 13,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6-final-auditor-fixes-v2/additional-control-flow-checks.json",
+      "cases": 11,
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6-final-auditor-fixes-v2/v2-control-flow-checks.json",
+      "cases": 8,
+      "status": "PASS"
+    }
+  ],
+  "total_fixture_cases": 32,
+  "actual_archive_audit_status": "PASS",
+  "archive_mode": "evidence-only",
+  "actual_records": 120,
+  "actual_all_seven_score_values": 840,
+  "unchanged_terminal_gate": "NOT_ASSESSABLE",
+  "unchanged_distributions": {
+    "first": {
+      "PASS": 1,
+      "FAIL": 14,
+      "NOT_ASSESSABLE": 5
+    },
+    "final": {
+      "PASS": 1,
+      "FAIL": 14,
+      "NOT_ASSESSABLE": 5
+    }
+  },
+  "immutability": {
+    "created_utc": "2026-10-08T00:05:09.241071+00:00",
+    "v1_directory_exact_files_unchanged": true,
+    "v1_file_count": 24,
+    "v1_manifest_sha256": "1e6bf7470a3a0ba11d051223a2dd1ce7fe77c97f1c37522785210ad560974532",
+    "v1_script_sha256": "bf1a77ce54a7525b40df716d03e7763e54cea9771fe01cd2c5a7a8eea56f2fcf",
+    "archive_exact_files_unchanged": true,
+    "archive_file_count": 965,
+    "archive_index_sha256": "11da7acce150aa6dda259230e44fdd92d39fe929abbb9f3d0aab2d12e381f7ac",
+    "archived_auditor_sha256": "90c818bdc3f5f26293602fb7ad9fcf7dca8e34eacdff9b2625286eb1a954f183"
+  },
+  "limitations": [
+    "Control-flow fixtures inject metadata after reader byte checks; they are not byte-consistent alternate archives.",
+    "Standalone utility regression PASS does not replace the preserved independent technical FAIL, validate source review procedure, or certify visual quality. Evidence-only status and NOT_ASSESSABLE causes remain unchanged.",
+    "No PNG is displayed or decoded and no score is changed; original byte hashes and header-dimension checks remain.",
+    "The generic failed-initial utility/sealer branch is unchanged. This bounded revision tests the current complete closed dataset and explicit unavailable-stage assertions only."
+  ],
+  "no_commit": true,
+  "ready": true
+}

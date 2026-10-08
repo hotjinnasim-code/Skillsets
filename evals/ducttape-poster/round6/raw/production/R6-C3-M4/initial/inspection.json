@@ -1,0 +1,114 @@
+{
+  "role": "R6-C3-M4",
+  "case_id": "R6-C3",
+  "stage": "initial",
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/initial/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/initial/thumbnail320.png"
+  ],
+  "view_detail": "original",
+  "copy": [
+    {
+      "required": "온틈",
+      "observed": "온틈",
+      "equal": true
+    },
+    {
+      "required": "ONE-HAND MEMO HOLDER",
+      "observed": "ONE-HAND MEMO HOLDER",
+      "equal": true
+    },
+    {
+      "required": "누르면 열리고, 놓으면 잡아요.",
+      "observed": "누르면 열리고, 놓으면 잡아요.",
+      "equal": true
+    },
+    {
+      "required": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "observed": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "equal": true
+    },
+    {
+      "required": "책상 위 메모를 한 손으로.",
+      "observed": "책상 위 메모를 한 손으로.",
+      "equal": true
+    },
+    {
+      "required": "ontteum.example",
+      "observed": "ontteum.example",
+      "equal": true
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "condition": "다섯 장 모두 사진적 표현과 성인 한 명의 한 손 사용 장면을 유지한다. 팔·상반신과 손의 연결을 보여 준다.",
+      "observed": "One adult torso with two connected active hands: upper-center hand holds paper, right hand presses rear lever. The required single-hand use is violated.",
+      "pass": false
+    },
+    {
+      "condition": "원통형 코르크 받침 위의 스테인리스 스프링 집게, 앞쪽 실리콘 패드 두 턱, 뒤 레버라는 공통 구조를 유지한다.",
+      "observed": "Lower-right cork cylinder supports a coherent stainless spring clip with rear hinged lever; near matte gray silicone jaw visible, farther jaw is partly hidden behind paper.",
+      "pass": true,
+      "uncertainty": "The second pad is not fully exposed."
+    },
+    {
+      "condition": "뒤 레버를 누르면 앞 턱이 열리고 놓으면 종이를 잡는 기능이 각 이미지 자체에서 식별되어야 한다.",
+      "observed": "Right hand presses rear lever; paper approaches front mouth, but two hands perform the action and the jaw opening is partly occluded.",
+      "pass": false
+    },
+    {
+      "condition": "필수 제품의 받침·집게·실리콘 턱을 장식·극단적 크롭·과도한 피사계 심도로 숨기지 않는다.",
+      "observed": "Cork base, rear lever, spring and near silicone jaw remain sharp and identifiable at 720.",
+      "pass": true
+    },
+    {
+      "condition": "코르크·금속·실리콘·종이·피부는 각각의 표면과 빛 반응을 갖는다. 모든 면에 같은 미세 무늬나 광택을 입히지 않는다.",
+      "observed": "Cork has warm granules, steel smooth directional reflections, silicone matte, paper subtle fibers, skin natural highlights; background desktop less detailed.",
+      "pass": true
+    },
+    {
+      "condition": "각 문자열은 한 번씩 보존한다. 종이에 제공된 카피를 배치할 수 있으나 별도 메모 내용·로고·가짜 문자는 추가하지 않는다.",
+      "observed": "All six strings appear once, blank memo, no extra text/logo.",
+      "pass": true
+    },
+    {
+      "condition": "가상 제품이며 제공되지 않은 치수·성능·실제 모델의 정확한 재현을 주장하지 않는다.",
+      "observed": "No dimensional, performance or exact-model claims in image.",
+      "pass": true
+    },
+    {
+      "condition": "전체 다섯 장 안에서 2:3 두 장·1:1 두 장·3:2 한 장으로 배분한다.",
+      "observed": "1536×1024 = 3:2, this assigned slot matches requested landscape allocation; other roles not inspected.",
+      "pass": true
+    }
+  ],
+  "self_observations": [
+    {
+      "type": "typography",
+      "location": "Left half",
+      "observation": "Korean title is heavy but proportionate; English and Korean body have intact spaces and punctuation. All required copy readable at 720."
+    },
+    {
+      "type": "space",
+      "location": "Left text corridor and lower-right holder",
+      "observation": "Clear editorial grouping and wide work surface. At 320 title and action are first; fine materials/URL need the 720 view."
+    },
+    {
+      "type": "material",
+      "location": "Cork base, clip and hands",
+      "observation": "Materials remain distinct with coherent contact shadow and moderately soft background."
+    },
+    {
+      "type": "AI-slop",
+      "location": "Upper center and right action hands",
+      "observation": "Generated scene substitutes a familiar two-handed insertion pose for the requested one-handed operation; mandatory defect."
+    }
+  ],
+  "uncertainties": [
+    "Far silicone jaw/pad mostly occluded by memo.",
+    "Photographic depiction does not establish real-world mechanical performance."
+  ],
+  "correction_decision": "repair-1: redraw action as exactly one connected active hand with thumb on rear lever and nearby fingers holding lower-right memo edge; remove the other hand. Preserve all copy, ratio, light and material distinctions.",
+  "external_critique_received": false
+}

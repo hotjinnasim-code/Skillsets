@@ -1,0 +1,86 @@
+{
+  "role": "R6-C1-M2",
+  "case_id": "R6-C1",
+  "stage": "repair-2",
+  "inspected_at_utc": "2026-10-07T22:05:33.617455+00:00",
+  "actual_views": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M2/repair-2/original.png",
+      "detail": "original"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M2/repair-2/usage720.png",
+      "detail": "original"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M2/repair-2/thumbnail320.png",
+      "detail": "original"
+    }
+  ],
+  "copy": [
+    {
+      "required": "숨과 숨 사이",
+      "observed": "숨과 숨 사이",
+      "observed_lines": [
+        "숨과",
+        "숨",
+        "사이"
+      ],
+      "equal": true,
+      "note": "Manual transcription; intact words and allowed word breaks only."
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "condition": "검은 글자와 흰 단색 배경만 사용한다.",
+      "pass": false,
+      "observed": "A faint nonuniform surface grain remains in white areas, and gray edge bands remain under selected strokes."
+    },
+    {
+      "condition": "원문 한 문자열을 각 이미지에 정확히 한 번 표시한다. 원문에 있는 두 번의 숨을 임의 중복으로 오판하지 않는다.",
+      "pass": true,
+      "observed": "숨과 / 숨 / 사이 shown once; both original 숨 present."
+    },
+    {
+      "condition": "그림·아이콘·도형·테두리·구분선·질감·장식 문자·추가 카피가 없어야 한다.",
+      "pass": false,
+      "observed": "No extra text, pictorial objects or decoration; subtle generated surface texture remains."
+    },
+    {
+      "condition": "어절을 보존하고 어절 사이 줄바꿈만 허용한다. 글자 내부 구조를 장식 그림으로 해체하지 않는다.",
+      "pass": true,
+      "observed": "Each word remains whole, all Hangul glyph structures readable."
+    },
+    {
+      "condition": "세로 2:3으로 만든다.",
+      "pass": true,
+      "observed": "1024 × 1536, ratio error 0% inside 1% tolerance."
+    }
+  ],
+  "located_observations": [
+    {
+      "type": "typography",
+      "location": "top 숨과, central 숨, bottom 사이",
+      "observed": "Exact wording and all internal structures preserved; middle word remains substantially larger; clean open counters."
+    },
+    {
+      "type": "space",
+      "location": "all three vertical positions and two gaps",
+      "observed": "Same sequential vertical reading and spacious pauses as repair-1; each word is recognizable at 320 longside."
+    },
+    {
+      "type": "material",
+      "location": "white margin and white area right of center 숨",
+      "observed": "Faint background grain survives second targeted correction; no meaningful visible surface improvement over repair-1."
+    },
+    {
+      "type": "ai_slop",
+      "location": "beneath center bar and base of 숨, lower ends of 사이",
+      "observed": "Very faint parallel gray fringe persists rather than a strictly flat boundary; no additional fake text, shape or ornament."
+    }
+  ],
+  "uncertainties": [
+    "The small tonal difference between repair-1 and repair-2 is below confident visible improvement; neither warrants a strict flat-surface pass."
+  ],
+  "decision": "Do not automatically select newest. Select repair-1, which already had subtly flatter black interiors than initial, while repair-2 offers no visible gain."
+}

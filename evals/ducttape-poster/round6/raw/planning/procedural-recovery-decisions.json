@@ -1,0 +1,38 @@
+{
+  "scope": "Procedural recovery decisions only. No image, observation, score, frozen input or valid adverse judgment is replaced.",
+  "predeclared_maximum_additional_assignments_per_case_stage": 1,
+  "decisions": [
+    {
+      "case_id": "R6-C2",
+      "stage": "first",
+      "wave": "WE25C715F",
+      "invalid_profiles": [
+        "editorial",
+        "craft",
+        "portfolio"
+      ],
+      "issue": "Reported equal=true conflicts with the summarizer's whitespace-collapse comparison where observations contain spaces around the middle dot in 한국어·English. This is a transcription/equality annotation discrepancy, not proof of omitted glyphs.",
+      "additional_assignments": 0,
+      "decision": "All three primary profiles have the procedural discrepancy. A single allowed additional assignment cannot provide the required three valid reports. Preserve the complete original records and NOT_ASSESSABLE stage rather than reset the finite limit or silently change comparator/observations after seeing results.",
+      "retained_available_image_critic_records": 15,
+      "retained_available_score_observations": 105,
+      "terminal_stage_gate": "NOT_ASSESSABLE"
+    },
+    {
+      "case_id": "R6-C2",
+      "stage": "final",
+      "wave": "WF23AFD2C",
+      "invalid_profiles": [
+        "editorial",
+        "craft",
+        "portfolio"
+      ],
+      "issue": "Reported equal=true conflicts with the summarizer's whitespace-collapse comparison where observations contain spaces around the middle dot in 한국어·English. This is a transcription/equality annotation discrepancy, not proof of omitted glyphs.",
+      "additional_assignments": 0,
+      "decision": "All three primary profiles have the procedural discrepancy. A single allowed additional assignment cannot provide the required three valid reports. Preserve the complete original records and NOT_ASSESSABLE stage rather than reset the finite limit or silently change comparator/observations after seeing results.",
+      "retained_available_image_critic_records": 15,
+      "retained_available_score_observations": 105,
+      "terminal_stage_gate": "NOT_ASSESSABLE"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "role": "R6-C1-M2",
+  "case_id": "R6-C1",
+  "stage": "initial",
+  "inspected_at_utc": "2026-10-07T22:02:41.595692+00:00",
+  "actual_views": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M2/initial/original.png",
+      "detail": "original"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M2/initial/usage720.png",
+      "detail": "original"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M2/initial/thumbnail320.png",
+      "detail": "original"
+    }
+  ],
+  "copy": [
+    {
+      "required": "숨과 숨 사이",
+      "observed": "숨과 숨 사이",
+      "observed_lines": [
+        "숨과",
+        "숨",
+        "사이"
+      ],
+      "equal": true,
+      "note": "Manual transcription of all three actual word-lines; only allowed word breaks differ from one-line source."
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "condition": "검은 글자와 흰 단색 배경만 사용한다.",
+      "pass": false,
+      "observed": "Black letters and white-looking background only, but a faint allover grain is visible at original detail, with faint soft gray fringes under a few strokes."
+    },
+    {
+      "condition": "원문 한 문자열을 각 이미지에 정확히 한 번 표시한다. 원문에 있는 두 번의 숨을 임의 중복으로 오판하지 않는다.",
+      "pass": true,
+      "observed": "숨과 / 숨 / 사이 once; both required 숨 present, no third."
+    },
+    {
+      "condition": "그림·아이콘·도형·테두리·구분선·질감·장식 문자·추가 카피가 없어야 한다.",
+      "pass": false,
+      "observed": "No pictorial elements or extra characters; subtle generated surface grain remains."
+    },
+    {
+      "condition": "어절을 보존하고 어절 사이 줄바꿈만 허용한다. 글자 내부 구조를 장식 그림으로 해체하지 않는다.",
+      "pass": true,
+      "observed": "Three whole words, all Hangul structures intact."
+    },
+    {
+      "condition": "세로 2:3으로 만든다.",
+      "pass": true,
+      "observed": "1024 × 1536; ratio relative error 0%, inside 1% tolerance."
+    }
+  ],
+  "located_observations": [
+    {
+      "type": "typography",
+      "location": "upper 숨과, center 숨, lower 사이",
+      "observed": "All syllables are correctly formed and naturally proportioned; middle 숨 is larger, line left edges are optically aligned and counters remain open."
+    },
+    {
+      "type": "space",
+      "location": "two white intervals between three word-lines",
+      "observed": "Large clean intervals produce the vertical breathing sequence; middle word anchors it. At 320-longside all three words remain recognizable."
+    },
+    {
+      "type": "material",
+      "location": "blank right side, top white margin, black glyph interiors",
+      "observed": "Faint allover background grain and slight black mottling; no intentional material needed here. This weakens the explicit flat-white requirement."
+    },
+    {
+      "type": "ai_slop",
+      "location": "beneath center 숨 horizontal/base edges and lower 사이 stems",
+      "observed": "Faint soft fringes look like an unwanted generated print/shadow effect. No fake microcopy, ornaments, duplicated words or deformed Hangul seen."
+    }
+  ],
+  "uncertainties": [
+    "The extent of near-white pixel variation is not treated as print material certification; visual surface grain is enough to target a correction."
+  ],
+  "decision": "repair-1 to flatten background and letter surfaces while preserving the typography and space."
+}

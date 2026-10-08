@@ -1,0 +1,85 @@
+{
+  "role": "R6-C1-M3",
+  "case_id": "R6-C1",
+  "stage": "initial",
+  "inspected_at_utc": "2026-10-07T22:03:05.458550+00:00",
+  "actual_view_paths": {
+    "native_original_detail": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M3/initial/original.png",
+    "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M3/initial/usage720.png",
+    "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M3/initial/thumbnail320.png"
+  },
+  "copy": [
+    {
+      "required": "숨과 숨 사이",
+      "observed": "숨과 숨\n사이",
+      "equal": true,
+      "comparison_rule": "Only allowed word-boundary line break normalized to one space; observed contains exactly five Korean syllables and two source occurrences of 숨."
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "required": "검은 글자와 흰 단색 배경만 사용한다.",
+      "observed": "Black words on near-white page, but original-detail view reveals faint pale-gray shadow bands immediately beneath horizontal/bottom edges and subtle light page variation.",
+      "pass": false
+    },
+    {
+      "required": "원문 한 문자열을 각 이미지에 정확히 한 번 표시한다. 원문에 있는 두 번의 숨을 임의 중복으로 오판하지 않는다.",
+      "observed": "Exactly 숨과 and 숨 on upper line, exactly 사이 below; no extra text.",
+      "pass": true
+    },
+    {
+      "required": "그림·아이콘·도형·테두리·구분선·질감·장식 문자·추가 카피가 없어야 한다.",
+      "observed": "No illustration, icon, shape, border, divider, ornament or extra copy. Faint shadow/near-white field variation risks unwanted surface treatment.",
+      "pass": false
+    },
+    {
+      "required": "어절을 보존하고 어절 사이 줄바꿈만 허용한다. 글자 내부 구조를 장식 그림으로 해체하지 않는다.",
+      "observed": "All intact syllables, compact words; sole line break before 사이.",
+      "pass": true
+    },
+    {
+      "required": "세로 2:3",
+      "observed": "Measured 1024×1536, ratio relative error 0.0, within predeclared 1%.",
+      "pass": true
+    }
+  ],
+  "located_observations": [
+    {
+      "type": "typography",
+      "location": "First-line 숨과 and 숨",
+      "evidence": "Same large size/weight, shared baseline; counters and internal glyph structures stay open. All five syllables readable in all three views.",
+      "impact": "Assigned first-line relationship is present.",
+      "proposed_change": null
+    },
+    {
+      "type": "space",
+      "location": "Lower word 사이, roughly x=367–650 on 1024-pixel page; first-line interval is roughly x=506–721",
+      "evidence": "Lower word midpoint is around page x=509, while the top gap midpoint is around x=613. It extends far left of the interval.",
+      "impact": "The interval-specific assigned relation is weakened to a centered subtitle.",
+      "proposed_change": "Move 사이 right to center under the actual top-line interval and modestly reduce if needed so its extent fits the interval."
+    },
+    {
+      "type": "material",
+      "location": "Beneath bottom edges of first-line letters and lower word",
+      "evidence": "Subtle pale gray bands/light edging beneath flat black strokes in original-detail view.",
+      "impact": "Violates the strictly flat lettering/background intention.",
+      "proposed_change": "Remove shadow and every surface/lighting effect; render flat solid black glyphs on solid white."
+    },
+    {
+      "type": "ai_slop",
+      "location": "Lower centered word and faint letter-edge shadows",
+      "evidence": "The model substitutes a generic centered two-line title treatment and gives the lettering a faint physical effect.",
+      "impact": "Weakens the content-specific gap relation and strict no-effect constraint.",
+      "proposed_change": "Correct actual placement and remove effects instead of adding decorations."
+    }
+  ],
+  "view_findings": {
+    "native_original_detail": "Copy intact; dark counters clear; faint gray edge bands present; lower word misaligned with actual gap.",
+    "usage720": "Whole phrase comfortably readable; strong first-line contrast; lower word reads as centered subtitle.",
+    "thumbnail320": "Two large first-line blocks then smaller centered lower word; intended shared-first-line relation survives, but gap alignment does not."
+  },
+  "uncertainties": [
+    "Faint page variation is subtle in rendered view; no claim of print suitability or maximum native resolution."
+  ],
+  "decision": "Correct observed gap alignment and gray shadow treatment in repair-1; preserve every initial native byte and QA view."
+}

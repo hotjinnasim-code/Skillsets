@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "archive_byte_integrity": "PASS",
+  "evidence_binding_integrity": "FAIL",
+  "archive_mode": "evidence-only",
+  "scope": "Confined portable bytes, caller-derived complete native inventory and exact recorded joins only. No source-path fallback, visual rescore, semantic view/order proof or authenticity certificate. Evidence-only PASS describes archive bytes, never review validity.",
+  "mapped_sources": 1125,
+  "unique_files_checked": 902,
+  "required_sources": 1125,
+  "reconstructed_attempts": 47,
+  "reconstructed_unique_native_images": 47,
+  "image_critic_records_first_and_final": 120,
+  "final_quality_gate": "NOT_ASSESSABLE",
+  "raw_final_mandatory_core_diversity_failures": 47,
+  "errors": [],
+  "evidence_errors": [],
+  "prompt_file_adapters": [
+    {
+      "role": "R6-C2-M2",
+      "stage": "initial",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    },
+    {
+      "role": "R6-C2-M3",
+      "stage": "initial",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    },
+    {
+      "role": "R6-C2-M3",
+      "stage": "repair-1",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    },
+    {
+      "role": "R6-C2-M3",
+      "stage": "repair-2",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    },
+    {
+      "role": "R6-C2-M4",
+      "stage": "initial",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    },
+    {
+      "role": "R6-C4-M4",
+      "stage": "initial",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    },
+    {
+      "role": "R6-C4-M4",
+      "stage": "repair-1",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    },
+    {
+      "role": "R6-C4-M5",
+      "stage": "initial",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    },
+    {
+      "role": "R6-C4-M5",
+      "stage": "repair-1",
+      "adapter": "One additional terminal LF in text-file wrapper only; saved tool-input prompt remains exact and raw bytes unchanged."
+    }
+  ],
+  "score_observations_first_and_final": 840,
+  "actual_phase_record_counts": {
+    "first": 60,
+    "final": 60
+  },
+  "actual_phase_score_counts": {
+    "first": 420,
+    "final": 420
+  },
+  "declared_missing_na_stages": {},
+  "recomputed_image_gates": {
+    "first": {
+      "R6-C1-M1": "FAIL",
+      "R6-C1-M2": "FAIL",
+      "R6-C1-M3": "FAIL",
+      "R6-C1-M4": "FAIL",
+      "R6-C1-M5": "FAIL",
+      "R6-C2-M1": "NOT_ASSESSABLE",
+      "R6-C2-M2": "NOT_ASSESSABLE",
+      "R6-C2-M3": "NOT_ASSESSABLE",
+      "R6-C2-M4": "NOT_ASSESSABLE",
+      "R6-C2-M5": "NOT_ASSESSABLE",
+      "R6-C3-M1": "FAIL",
+      "R6-C3-M2": "FAIL",
+      "R6-C3-M3": "FAIL",
+      "R6-C3-M4": "FAIL",
+      "R6-C3-M5": "FAIL",
+      "R6-C4-M1": "FAIL",
+      "R6-C4-M2": "FAIL",
+      "R6-C4-M3": "FAIL",
+      "R6-C4-M4": "PASS",
+      "R6-C4-M5": "FAIL"
+    },
+    "final": {
+      "R6-C1-M1": "FAIL",
+      "R6-C1-M2": "FAIL",
+      "R6-C1-M3": "FAIL",
+      "R6-C1-M4": "FAIL",
+      "R6-C1-M5": "FAIL",
+      "R6-C2-M1": "NOT_ASSESSABLE",
+      "R6-C2-M2": "NOT_ASSESSABLE",
+      "R6-C2-M3": "NOT_ASSESSABLE",
+      "R6-C2-M4": "NOT_ASSESSABLE",
+      "R6-C2-M5": "NOT_ASSESSABLE",
+      "R6-C3-M1": "FAIL",
+      "R6-C3-M2": "FAIL",
+      "R6-C3-M3": "FAIL",
+      "R6-C3-M4": "FAIL",
+      "R6-C3-M5": "FAIL",
+      "R6-C4-M1": "FAIL",
+      "R6-C4-M2": "FAIL",
+      "R6-C4-M3": "FAIL",
+      "R6-C4-M4": "PASS",
+      "R6-C4-M5": "FAIL"
+    }
+  },
+  "recomputed_case_gates": {
+    "first": {
+      "R6-C1": "FAIL",
+      "R6-C2": "NOT_ASSESSABLE",
+      "R6-C3": "FAIL",
+      "R6-C4": "FAIL"
+    },
+    "final": {
+      "R6-C1": "FAIL",
+      "R6-C2": "NOT_ASSESSABLE",
+      "R6-C3": "FAIL",
+      "R6-C4": "FAIL"
+    }
+  },
+  "recomputed_terminal_gate": "NOT_ASSESSABLE"
+}

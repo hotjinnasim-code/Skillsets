@@ -1,0 +1,66 @@
+{
+  "started_utc": "2026-10-07T23:23:42.334323+00:00",
+  "wave": "WDD74A96E",
+  "profile": "craft",
+  "argv": [
+    "codex",
+    "--no-daemon",
+    "--ask-for-approval",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--json",
+    "--skip-git-repo-check",
+    "--sandbox",
+    "workspace-write",
+    "-C",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WDD74A96E",
+    "--output-last-message",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/cli-reviews/WDD74A96E/craft/final.txt",
+    "-"
+  ],
+  "prompt": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/cli-reviews/WDD74A96E/craft/prompt.txt",
+    "sha256": "c697449c79af588b36ac3af2490f6b0ceb4ef36fabc139d6bb036e2725ccc11a"
+  },
+  "dispatch_plan": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/cli-reviews/dispatch-plan.json",
+    "sha256": "d3f8feb7987b2cfe24d2381b1c5146b8d2cfe3775b44cc0a27a181a7d4e3f481"
+  },
+  "raw_outputs_absent_at_dispatch": true,
+  "input_pins": {
+    "packet.json": "e2cbb9d5406940ce6ac9b8570f1f6aadbb552f5ec37bdef402cfa00236e9a95a",
+    "preflight.json": "f4c43ae6bb3369a7b8edcdbcb4d5fb84392619451c4b328a0c7d50c7fe9aa790",
+    "review-protocol.md": "775f05ff893ea8779bdaf16a76434902859a94ec64cc67691cbcb8ce57e0fb46"
+  },
+  "model_override": null,
+  "fresh_session": true,
+  "scope": "One opaque complete case; no prior conversation supplied",
+  "completed_utc": "2026-10-07T23:29:40.378180+00:00",
+  "exit_code": 0,
+  "input_pins_unchanged": true,
+  "reports": {
+    "craft-action-first.json": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WDD74A96E/reviews/craft-action-first.json",
+      "sha256": "8bbc718ebe06ac3170e8ecc2b691f3568fe9cfd46d914d2d60b1022721e9714d"
+    },
+    "craft.json": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WDD74A96E/reviews/craft.json",
+      "sha256": "82211f56ae562a0748f315d06734fc6c8faac2e118d77dbfec26b07915a238de"
+    },
+    "craft.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-WDD74A96E/reviews/craft.md",
+      "sha256": "d2a4bba00b29cb21d7df1060f9d539f447b04ff1beb39d99bb5329b99ca62b03"
+    }
+  },
+  "cli_session_id": "01a118ae-0da4-7622-a856-2a2bd31cceba",
+  "thread_started_event_count": 1,
+  "trace": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/cli-reviews/WDD74A96E/craft/trace.jsonl",
+    "sha256": "2a16f08d97b3c510d1872864202f829649c32c19e9dbcac87d41500b2c7c4730"
+  },
+  "stderr": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/cli-reviews/WDD74A96E/craft/stderr.log",
+    "sha256": "6abd5f80fccaf56b1a2735601efdcb39afee9bb49f55b8c275251e2cbe454dd2"
+  }
+}

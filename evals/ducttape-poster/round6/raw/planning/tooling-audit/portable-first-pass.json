@@ -1,0 +1,27 @@
+{
+  "status": "FAIL",
+  "archive_byte_integrity": "FAIL",
+  "evidence_binding_integrity": "FAIL",
+  "archive_mode": "evidence-only",
+  "scope": "Confined portable bytes, caller-derived complete native inventory and exact recorded joins only. No source-path fallback, visual rescore, semantic view/order proof or authenticity certificate. Evidence-only PASS describes archive bytes, never review validity.",
+  "mapped_sources": 1124,
+  "unique_files_checked": 901,
+  "required_sources": 1124,
+  "reconstructed_attempts": 47,
+  "reconstructed_unique_native_images": 47,
+  "image_critic_records_first_and_final": 120,
+  "final_quality_gate": "NOT_ASSESSABLE",
+  "raw_final_mandatory_core_diversity_failures": 47,
+  "errors": [
+    "R6-C2-M2/initial prompt.txt differs from actual saved input",
+    "R6-C2-M3/initial prompt.txt differs from actual saved input",
+    "R6-C2-M3/repair-1 prompt.txt differs from actual saved input",
+    "R6-C2-M3/repair-2 prompt.txt differs from actual saved input",
+    "R6-C2-M4/initial prompt.txt differs from actual saved input",
+    "R6-C4-M4/initial prompt.txt differs from actual saved input",
+    "R6-C4-M4/repair-1 prompt.txt differs from actual saved input",
+    "R6-C4-M5/initial prompt.txt differs from actual saved input",
+    "R6-C4-M5/repair-1 prompt.txt differs from actual saved input"
+  ],
+  "evidence_errors": []
+}

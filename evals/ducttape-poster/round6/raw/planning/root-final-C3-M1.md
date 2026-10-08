@@ -1,0 +1,3 @@
+# Ordinary root selected-stage inspection before external review
+
+Actually viewed production/R6-C3-M1/repair-1/{final,usage720,thumbnail320}.png at original detail. All six supplied strings remain readable720. Upper pad is now shown along the underside facing the lower pad across the open gap, rather than primarily on the outside face; lower pad is partly covered by the entering memo. Rear lever/finger contact, visible spring, cork base and connected human arm/torso remain. Paper and upper jaw angles changed in the edit; do not describe pixels outside the target as perfectly unchanged. Visible assembly/lighting looks coherent at these views, with actual mechanical performance untested. No independent critique yet.

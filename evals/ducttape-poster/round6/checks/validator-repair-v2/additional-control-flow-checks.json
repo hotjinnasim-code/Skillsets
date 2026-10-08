@@ -1,0 +1,161 @@
+{
+  "scope": "Post-reader in-memory metadata/trace control-flow injection. Original archive bytes and report observations stay unchanged; no pixels displayed or decoded. Baseline success is tested separately.",
+  "results": [
+    {
+      "test": "unmodified baseline evidence-only archive is accepted",
+      "expected_rejection": false,
+      "status": "PASS",
+      "exit_code": 0,
+      "expectation_met": true,
+      "evidence_errors": [],
+      "errors": []
+    },
+    {
+      "test": "copied observation case identity cannot change",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "R6-C1-M1/final combined/derived-summary observation records differ",
+        "R6-C1-M1/final observation role/case/profile/anonymous ID differs from bound slot"
+      ],
+      "errors": []
+    },
+    {
+      "test": "copied observation profile identity cannot change",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "R6-C1-M1/final combined/derived-summary observation records differ",
+        "R6-C1-M1/final complete preserved reviewer records absent",
+        "R6-C1-M1/final raw report reviewer identity differs",
+        "R6-C1-M1/final raw observation/procedure report differs"
+      ],
+      "errors": []
+    },
+    {
+      "test": "declared first-stage all-seven score count cannot change",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "first actual/declared all-seven score count differs (only explicit missing NA stages exempt)"
+      ],
+      "errors": []
+    },
+    {
+      "test": "declared final-stage record count cannot change",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "final actual/declared total observations differ (only explicit missing NA stages exempt)"
+      ],
+      "errors": []
+    },
+    {
+      "test": "declared first image gate cannot flip",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "R6-C1-M1/first declared image gate differs from raw accepted/invalid records"
+      ],
+      "errors": []
+    },
+    {
+      "test": "declared final case gate cannot flip",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "R6-C1/final declared case gate differs from raw accepted/invalid reports"
+      ],
+      "errors": []
+    },
+    {
+      "test": "accepted=false cannot conceal an available valid source stage",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "R6-C1/final declared acceptance differs from source summary integrity",
+        "final complete PASS/FAIL/NOT_ASSESSABLE distribution differs from recomputed image gates"
+      ],
+      "errors": []
+    },
+    {
+      "test": "available=false cannot conceal archived source stage",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "R6-C1/final available closure-canonical summary concealed by missing-stage declaration",
+        "final complete PASS/FAIL/NOT_ASSESSABLE distribution differs from recomputed image gates"
+      ],
+      "errors": []
+    },
+    {
+      "test": "successful assignment requires turn.completed trace event",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "R6-C1/first/editorial completed CLI assignment has no turn.completed trace event",
+        "R6-C1/first/craft completed CLI assignment has no turn.completed trace event",
+        "R6-C1/first/portfolio completed CLI assignment has no turn.completed trace event",
+        "R6-C1/final/editorial completed CLI assignment has no turn.completed trace event",
+        "R6-C1/final/craft completed CLI assignment has no turn.completed trace event",
+        "R6-C1/final/portfolio completed CLI assignment has no turn.completed trace event",
+        "R6-C2/first/editorial completed CLI assignment has no turn.completed trace event",
+        "R6-C2/first/craft completed CLI assignment has no turn.completed trace event",
+        "R6-C2/first/portfolio completed CLI assignment has no turn.completed trace event",
+        "R6-C2/final/editorial completed CLI assignment has no turn.completed trace event",
+        "R6-C2/final/craft completed CLI assignment has no turn.completed trace event",
+        "R6-C2/final/portfolio completed CLI assignment has no turn.completed trace event",
+        "R6-C3/first/editorial completed CLI assignment has no turn.completed trace event",
+        "R6-C3/first/craft completed CLI assignment has no turn.completed trace event",
+        "R6-C3/first/portfolio completed CLI assignment has no turn.completed trace event",
+        "R6-C3/final/editorial completed CLI assignment has no turn.completed trace event",
+        "R6-C3/final/craft completed CLI assignment has no turn.completed trace event",
+        "R6-C3/final/portfolio completed CLI assignment has no turn.completed trace event",
+        "R6-C4/first/editorial completed CLI assignment has no turn.completed trace event",
+        "R6-C4/first/craft completed CLI assignment has no turn.completed trace event",
+        "R6-C4/first/portfolio completed CLI assignment has no turn.completed trace event",
+        "R6-C4/final/editorial completed CLI assignment has no turn.completed trace event",
+        "R6-C4/final/craft completed CLI assignment has no turn.completed trace event",
+        "R6-C4/final/portfolio completed CLI assignment has no turn.completed trace event"
+      ],
+      "errors": []
+    },
+    {
+      "test": "source summary exact profile identities required",
+      "expected_rejection": true,
+      "status": "FAIL",
+      "exit_code": 1,
+      "expectation_met": true,
+      "evidence_errors": [
+        "R6-C1/first source summary recorded profile identities differ",
+        "R6-C1/final source summary recorded profile identities differ",
+        "R6-C2/first source summary recorded profile identities differ",
+        "R6-C2/final source summary recorded profile identities differ",
+        "R6-C3/first source summary recorded profile identities differ",
+        "R6-C3/final source summary recorded profile identities differ",
+        "R6-C4/first source summary recorded profile identities differ",
+        "R6-C4/final source summary recorded profile identities differ"
+      ],
+      "errors": []
+    }
+  ],
+  "unexpected_results": []
+}

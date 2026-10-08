@@ -1,0 +1,85 @@
+{
+  "role": "R6-C1-M3",
+  "case_id": "R6-C1",
+  "stage": "repair-2",
+  "inspected_at_utc": "2026-10-07T22:06:21.176068+00:00",
+  "actual_view_paths": {
+    "native_original_detail": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M3/repair-2/original.png",
+    "usage720": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M3/repair-2/usage720.png",
+    "thumbnail320": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M3/repair-2/thumbnail320.png"
+  },
+  "copy": [
+    {
+      "required": "숨과 숨 사이",
+      "observed": "숨과 숨\n사이",
+      "equal": true,
+      "comparison_rule": "Only allowed word-boundary line break normalized to one space."
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "required": "검은 글자와 흰 단색 배경만 사용한다.",
+      "observed": "Black text on near-white field; faint gray bands persist beneath horizontal letter edges. Blank top RGB extrema remain253–255.",
+      "pass": false
+    },
+    {
+      "required": "원문 한 문자열을 각 이미지에 정확히 한 번 표시한다. 원문에 있는 두 번의 숨을 임의 중복으로 오판하지 않는다.",
+      "observed": "Exactly 숨과 and 숨 on upper line, exactly 사이 below; no additional copy.",
+      "pass": true
+    },
+    {
+      "required": "그림·아이콘·도형·테두리·구분선·질감·장식 문자·추가 카피가 없어야 한다.",
+      "observed": "No added drawings, shapes, icons, dividers, border, ornaments or copy; residual faint gray material/shadow effect remains.",
+      "pass": false
+    },
+    {
+      "required": "어절을 보존하고 어절 사이 줄바꿈만 허용한다. 글자 내부 구조를 장식 그림으로 해체하지 않는다.",
+      "observed": "Whole Korean words and syllables intact; sole word-boundary break before 사이.",
+      "pass": true
+    },
+    {
+      "required": "세로2:3",
+      "observed": "1024×1536, ratio relative error0.0.",
+      "pass": true
+    }
+  ],
+  "located_observations": [
+    {
+      "type": "typography",
+      "location": "All five syllables",
+      "evidence": "Exact copy survives; top-line strokes/counters remain clear; lower label reduced further and still readable.",
+      "impact": "No copy error, but reduced lower label is less comfortable at thumbnail than repair1.",
+      "proposed_change": null
+    },
+    {
+      "type": "space",
+      "location": "Lower 사이",
+      "evidence": "Lower word moved slightly left compared with repair1 and is about10–12 percent smaller; its center remains left of the actual word interval.",
+      "impact": "The requested rightward alignment correction did not occur; repair1 is closer.",
+      "proposed_change": "Do not automatically select newest stage; retain repair1."
+    },
+    {
+      "type": "material",
+      "location": "Edges of upper black text and blank field",
+      "evidence": "Faint gray bands still visible in native original detail; 253–255 blank region variation persists.",
+      "impact": "Strict flat/no-shadow treatment remains unresolved.",
+      "proposed_change": "No further native corrections permitted; report residual."
+    },
+    {
+      "type": "ai_slop",
+      "location": "Lower word positioning and letter shadow bands",
+      "evidence": "Model retained generic near-centered lower label behavior and physical-looking faint edge treatment.",
+      "impact": "Content-specific interval relation is only partially realized.",
+      "proposed_change": "Choose most suitable earlier inspected stage and state residuals."
+    }
+  ],
+  "view_findings": {
+    "native_original_detail": "Exact phrase and intact glyphs; lower label remains left of interval; shadows retained.",
+    "usage720": "All words readable; lower label slightly smaller and further left than repair1.",
+    "thumbnail320": "Phrase readable but lower word less prominent than repair1."
+  },
+  "uncertainties": [
+    "Near-white variation is very subtle at720/320 but visible/raw-confirmed at native; no printing or maximum-resolution claim."
+  ],
+  "decision": "Reject repair2 as final selection; select repair1 based on actual comparison. Own correction cap exhausted."
+}

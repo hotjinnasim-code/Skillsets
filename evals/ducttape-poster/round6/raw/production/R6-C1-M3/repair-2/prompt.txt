@@ -1,0 +1,28 @@
+Use case: ads-marketing
+Asset type: One flat Korean typographic poster, opaque solid white canvas, portrait2:3.
+Input image: the immediate own repair-1 poster is the edit target, one poster only.
+
+Original user request, as production instructions and not extra display copy: 덕테이프 포스터로 '숨과 숨 사이'를 5장 만들어줘. 검은 글자와 흰 여백만 써줘. 문구는 한 번만 넣고, 그림·도형·테두리·구분선·질감·장식 기호·추가 문구는 넣지 마. 줄바꿈은 어절 사이에서만 해도 좋아.
+Only ONE assigned poster here; central coordinator handles the five-poster quantity.
+
+Exact entire visible copy, exactly once: 숨과 숨 사이
+Keep these whole-word lines and this reading order:
+숨과 숨
+사이
+The original two 숨 occurrences remain; the first is attached to 과. No other text or punctuation.
+
+Assigned visual relationship: 같은 줄의 두 '숨'이 만든 간격을 아래의 '사이'가 시각적으로 받아 준다. First-line 숨과 and 숨 are equal-weight partners on one shared baseline, followed by smaller 사이 directly under their actual white interval.
+
+Final targeted edit from manual inspection:
+Keep the TOP LINE in its exact current location, relative sizes, normal glyph structure and shared baseline. The upper word-space spans about x506–721 on the1024-wide parent, midpoint613. The smaller lower word currently has center about573, which is40px too far left. Move the complete lower word 사이40px RIGHT, centering it at x613. Reduce the lower word about22 percent from its current size so its complete visible extent occupies about x526–700 (175px wide on the1024 parent). Preserve its normal proportions and within-word spacing. Keep the lower word at approximately the same vertical center, with clear white separation from top text. This makes the lower word visibly nest beneath the blank gap. Do not center it on the canvas.
+
+Redraw the typography as PURE FLAT BLACK DIGITAL TYPE with crisp unhaloed edges. No physical depth or gray shadow whatsoever. The parent retains faint gray shadow bands beneath upper horizontal letter strokes: completely remove those bands and any fuzzy gray edge aura outside glyph contours. Use solid RGB0,0,0 glyph interiors, only necessary narrow edge antialiasing. The ENTIRE backdrop is uniformly RGB255,255,255 white, blank flat digital canvas: remove all near-white surface variation. Do not preserve the parent's subtle gray surface or shadow effect. No grain, paper, relief, embossing, drop shadow, ambient occlusion, reflection, vignette, lighting, gradient or texture. Normal clean robust Korean sans-serif lettering, intact counters and all strokes.
+
+Mandatory conditions:
+1. Black lettering and solid white opaque background only.
+2. The exact original phrase once, preserving its two source occurrences of 숨.
+3. No illustration, icon, shape, border, divider, texture, ornament, decorative symbol, extra copy, logo, watermark or microtext.
+4. Whole words intact; only word-boundary line break before 사이. Do not break glyphs into pictures or decorative structures.
+5. Portrait2:3, one full flat poster, no mockup, contact sheet or panels.
+
+요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력

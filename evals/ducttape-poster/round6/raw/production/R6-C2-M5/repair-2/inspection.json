@@ -1,0 +1,162 @@
+{
+  "role": "R6-C2-M5",
+  "case_id": "R6-C2",
+  "stage": "repair-2",
+  "views_actually_seen": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-2/final.png",
+      "detail": "original",
+      "width": 1122,
+      "height": 1402,
+      "note": "Original.png display incomplete; byte-identical final.png separately viewed fully at original detail."
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-2/usage720.png",
+      "detail": "original",
+      "width": 720,
+      "height": 900
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-2/thumbnail320.png",
+      "detail": "original",
+      "width": 256,
+      "height": 320
+    }
+  ],
+  "copy": [
+    {
+      "required": "이름 바꾸는 물건들",
+      "observed": "이름 바꾸는 물건들",
+      "equal": true
+    },
+    {
+      "required": "OBJECT NAME EXCHANGE",
+      "observed": "OBJECT NAME EXCHANGE",
+      "equal": true
+    },
+    {
+      "required": "2026.11.21(토) 13:30–16:00",
+      "observed": "2026.11.21(토) 13:30–16:00",
+      "equal": true
+    },
+    {
+      "required": "가상 공간 여울실험실 2층 / YEOUL LAB",
+      "observed": "가상 공간 여울실험실 2층 / YEOUL LAB",
+      "equal": true
+    },
+    {
+      "required": "한국어·English, 어느 언어로 적어도 좋아요.",
+      "observed": "한국어·English, 어느 언어로 적어도 좋아요.",
+      "equal": true
+    },
+    {
+      "required": "이름을 바꾸고 싶은 작은 물건 1개를 가져오세요.",
+      "observed": "이름을 바꾸고 싶은 작은 물건 1개를 가져오세요.",
+      "equal": true
+    },
+    {
+      "required": "깨지기 쉬운 물건과 음식은 받지 않아요.",
+      "observed": "깨지기 쉬운 물건과 음식은 받지 않아요.",
+      "equal": true
+    },
+    {
+      "required": "만 16세 이상 · 무료 · 24명",
+      "observed": "만 16세 이상 · 무료 · 24명",
+      "equal": true
+    },
+    {
+      "required": "11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.",
+      "observed": "11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.",
+      "equal": true
+    },
+    {
+      "required": "yeoul.example/NAME?lang=ko&slot=pm",
+      "observed": "yeoul.example/NAME?lang=ko&slot=pm",
+      "equal": true
+    }
+  ],
+  "copy_transcription_note": "Manually transcribed at native and 720; meaningful line wraps rejoined at original spaces. Printed glyph codepoints cannot be independently certified from bitmap encoding.",
+  "action_fields_preflight_720": {
+    "actual_view_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C2-M5/repair-2/usage720.png",
+    "event_date_time_line": "2026.11.21(토) 13:30–16:00",
+    "location_line": "가상 공간 여울실험실 2층 / YEOUL LAB",
+    "application_deadline_line": "11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.",
+    "full_application_url": "yeoul.example/NAME?lang=ko&slot=pm"
+  },
+  "mandatory_conditions": [
+    {
+      "required": "전체 10개 문자열을 다섯 장 모두 정확히 보존한다. 새 소제목·가짜 라벨 내용·장식 문자·QR코드를 추가하지 않는다.",
+      "observed": "All ten strings appear once; no added wording, labels, glyph ornaments, fake marks, logos or QR.",
+      "met": true
+    },
+    {
+      "required": "휴대폰 화면에서 준비물·제외 조건·참가 대상·마감·URL까지 읽혀야 한다. 작은 하단 띠에 나머지 카피를 몰지 않는다.",
+      "observed": "At 720x900 all preparation/exclusion/age/free/capacity/deadline/URL information remains readable. No tiny footer compression.",
+      "met": true
+    },
+    {
+      "required": "행사의 핵심은 실제 물건을 가져와 이름을 바꾸어 보는 참여다. 물건은 특정 브랜드 없이 단순하고 견고한 작은 생활 물건으로 표현할 수 있다.",
+      "observed": "Single small sturdy wooden clothespin, unbranded, grips a blank name tag next to preparation instruction.",
+      "met": true
+    },
+    {
+      "required": "이름표나 사전 같은 시각 장치를 쓸 때 제공 문구를 배치하거나 무문자로 두며, 새 물건 이름·번역·로고·미세 문자를 발명하지 않는다.",
+      "observed": "Tag is completely blank; no invented names, translations or microtext.",
+      "met": true
+    },
+    {
+      "required": "가상 주소를 표시만 하고 외부 접수나 URL 방문을 하지 않는다.",
+      "observed": "URL printed only; no URL visit or external registration performed.",
+      "met": true
+    },
+    {
+      "required": "전체 다섯 장 안에서 2:3 두 장·4:5 두 장·1:1 한 장으로 배분한다.",
+      "observed": "Assigned 4:5 slot measures 1122x1402, relative ratio error 0.0003566333808844302 within predeclared 1%; remaining roles managed centrally.",
+      "met": true
+    }
+  ],
+  "observations": [
+    {
+      "type": "hierarchy",
+      "location": "Whole poster at 320",
+      "observation": "Title identifies event, the bringing instruction occupies central mass with actual object, then body conditions and terracotta deadline lead directly to full URL."
+    },
+    {
+      "type": "typography",
+      "location": "All text at native and 720",
+      "observation": "All ten copy strings readable without found omissions or duplicates. Condensed Latin heading and URL remain tight; Korean counters and spacing are legible. The title has a heavy graphic face and body remains lighter."
+    },
+    {
+      "type": "space",
+      "location": "Preparation paragraph, object, condition and application groups",
+      "observation": "Cord removal gives distinct text margins and eliminates two arbitrary loose elements. The event preparation and participation actions remain the semantic reading path through grouping, adjacent object and color hierarchy."
+    },
+    {
+      "type": "material",
+      "location": "Former cord regions left gutter and beneath preparation sentence",
+      "observation": "Both rope pieces and tag-hole loop fully removed; background is continuous without conspicuous edit seams."
+    },
+    {
+      "type": "material",
+      "location": "Wooden pin faces at native",
+      "observation": "Wood grain changed unintentionally into more pronounced wavy/ridged patterns, less natural than initial and repair-1; geometry and matte wood color are preserved, no gross mechanism fault found."
+    },
+    {
+      "type": "material",
+      "location": "Blank tag and shadow at native",
+      "observation": "Blank matte paper and angle retained. Fine paper texture is somewhat swirled; shadow remains localized at right and bottom."
+    },
+    {
+      "type": "ai_slop",
+      "location": "Wood grain and paper surfaces at native",
+      "observation": "Disconnected cord artifact solved, but changed wavy surface motifs remain a bounded material concern. No invented microtext, duplicated symbols or decorative noise found."
+    }
+  ],
+  "uncertainties": [
+    "Exact dash/space codepoint from a raster is visually inferred; no source-font encoding guarantee.",
+    "Wood-grain fidelity is not exact after the native edit.",
+    "Screen QA does not certify print readiness or maximum supported resolution.",
+    "No peer images, old outcomes or external critique were inspected."
+  ],
+  "decision": "Select repair-2: removes prominent broken cord without losing copy, contrast, object preparation and application hierarchy; preserve explicit material regression residual."
+}

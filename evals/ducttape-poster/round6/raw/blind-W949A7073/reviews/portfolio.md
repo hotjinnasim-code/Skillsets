@@ -1,0 +1,255 @@
+# Portfolio review
+
+Reviewer: portfolio. Order compliant: true.
+
+manual visual transcription from actual view_image calls, without OCR, crops, image generation, editing or substitute images. Read review-protocol.md then preflight.json; viewed all five exact preflight usage720 paths; saved and read back portfolio-action-first.json before opening packet.json/full copy. Those first observations remain unchanged. After packet access, actually viewed all five images at each exact native, usage720 and thumbnail320 path:15 additional calls, recorded below. Requested original detail for every call; the tool returned original detail and reported no viewer limitation. Small thumbnail glyphs are explicitly treated as uncertain where appropriate rather than inferred from larger views. All six provided strings were manually read at720; observed strings retain actual line breaks/spacing and are not replaced by supplied strings. Equal normalizes whitespace runs only; it does not remove missing spaces or alter punctuation. Underlying dash code points cannot be certified from raster pixels. Native aspect ratios were checked from read-only PNG dimensions with0% error. No private material, peer report, skill, external directory, web source or connector was inspected. No fabrication/authorship or physical/printing performance claim is made. Unchanged protocol/rubric applied throughout, with no added score target; closest-pair score denotes distinctness on the set-diversity1–5 scale.
+
+## Actual main views
+
+- X2019 / native / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X2019-native.png`
+- X2019 / usage720 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X2019-usage720.png`
+- X2019 / thumbnail320 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X2019-thumbnail320.png`
+- X4771 / native / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X4771-native.png`
+- X4771 / usage720 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X4771-usage720.png`
+- X4771 / thumbnail320 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X4771-thumbnail320.png`
+- X3863 / native / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X3863-native.png`
+- X3863 / usage720 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X3863-usage720.png`
+- X3863 / thumbnail320 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X3863-thumbnail320.png`
+- X4542 / native / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X4542-native.png`
+- X4542 / usage720 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X4542-usage720.png`
+- X4542 / thumbnail320 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X4542-thumbnail320.png`
+- X7260 / native / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X7260-native.png`
+- X7260 / usage720 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X7260-usage720.png`
+- X7260 / thumbnail320 / `/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/blind-W949A7073/images/X7260-thumbnail320.png`
+
+The unchanged preflight file is `portfolio-action-first.json`. Its five actual usage720 readings each record the full date `2026.12.05–12.13` and full location `가상 전시장 둥근방 / ROUND ROOM`, with the dash-code-point uncertainty retained. It was saved and read back before packet access.
+
+## X2019
+
+Mandatory pass: **false**. All required copy legible at720: **true**.
+
+At the exact 720×720 usage view, all six full strings were manually readable, including both commas, the complete date and the complete Korean/English location. The title is grouped as 말랑한 above 중력. At the exact 320×320 thumbnail, the title and cream information block remain recognizable; the small Korean location is more demanding and is not used to certify copy. Native 1254×1254: raised orange Korean letters, cream raised supporting copy, blue background and orange curled sculpture are visible. No extra text or logo found. Native ratio 1:1, error 0%; this is one of the two requested squares. Style/color conditions are met; the action issue accounts for mandatory failure.
+
+Mandatory issues:
+
+- The right-hand orange sculpture has a curled tip and a compact standing foot, but no clearly stretched span, pressure contact, or conspicuously sagging mass. The requested soft-sculpture action is not clearly demonstrated. Its shape might suggest drooping, but that remains ambiguous rather than a confirmed action cue.
+
+Uncertainties:
+
+- The printed date separator is a horizontal dash, transcribed as an en dash. Pixels do not establish its underlying Unicode code point; the digits and visible punctuation otherwise agree.
+- The down-curled tip may have been intended to show drooping. The image does not resolve whether it is a deformed state or simply the sculpture's fixed shape.
+
+Full manual transcription (line breaks shown with `<br>`; equal collapses whitespace only):
+
+| Required | Observed | Equal |
+|---|---|---|
+| 말랑한 중력 | 말랑한<br>중력 | true |
+| SOFT GRAVITY | SOFT GRAVITY | true |
+| 움직이는 점토 조각전 | 움직이는 점토 조각전 | true |
+| 누르고, 늘리고, 다시 놓기 | 누르고, 늘리고, 다시 놓기 | true |
+| 2026.12.05–12.13 | 2026.12.05–12.13 | true |
+| 가상 전시장 둥근방 / ROUND ROOM | 가상 전시장 둥근방 / ROUND ROOM | true |
+
+| Dimension | Integer score | Located visible evidence |
+|---|---:|---|
+| Content and form (content_form) | 3 | Upper/left: enormous orange 말랑한 중력 and the right orange curl express a soft object through thickness and rounded contours. The detached curl does not clearly enact pressing, stretching or sagging, so the idea is less specific than the hand-contact and title-stretch designs. Show a visibly compressed or elongated part of this same sculpture to connect the concept to the request. |
+| Hierarchy (hierarchy) | 4 | At thumbnail, the orange Korean title dominates, then the large cream SOFT GRAVITY at the lower-left leads into four smaller cream lines. At720, the date and complete location remain readable. The title-to-detail route functions well, although the English heading competes with the sculpture's foot at the same horizontal level. |
+| Typography (typography) | 4 | At native/720, the open counters in 말, 랑 and 중 survive the rounded raised treatment, and the cream commas and date punctuation remain distinct. Supporting rows share a left edge. The location is close to the lower edge but retains an intact margin; the lettering is substantially integrated rather than a flat overlay. |
+| Space (space) | 3 | At native, the title fills most of the top and left, while the sculpture crowds the right edge and its foot sits close to the English heading. The information block then packs toward the bottom edge. This creates a forceful square but little optical breathing room at those junctions; add a small blue gap between the foot and English line while preserving the large title. |
+| Image and material (image_material) | 4 | Native: the curl's highlight rolls across its swollen body, a dark interior belongs to the hooked tip, and a grounded shadow sits under the foot. Orange letters and cream details have readable rounded edges and coherent shadows. Fine clay texture remains visible without obscuring text; no conspicuous perspective break is visible. |
+| Emotion and control (emotion_control) | 3 | The orange/blue complementary pair and pillowy letter mass produce the requested bold playfulness. The right object is calmer and more emblematic than active, so it contributes less behavioral energy than the huge title promises. A stronger bend or contact cue would make the excess purposeful without changing the 3D genre. |
+| AI-slop avoidance (ai_slop) | 3 | Native: no conspicuous malformed syllables, fake microtext or accidental edge melting is visible. However, the large inflated title plus an isolated toy-like curl and a stacked embossed footer remains a broadly reusable package. This is a specificity score of 3, not an authorship judgment; give the curl an unmistakable action tied to the exact exhibition. |
+
+Residual findings:
+
+- Right curled sculpture → action reads as a static emblem → make compression, pulling or a gravitationally drooping section visibly explicit.
+- Sculpture foot/English heading and lower information block → compressed junctions → open a small blue separation and rebalance the bottom margin.
+- AI-slop score 3 reflects a generic toy-and-inflated-title package; do not label this an unqualified high-end candidate before resolving the subject-specific action.
+
+## X4771
+
+Mandatory pass: **true**. All required copy legible at720: **true**.
+
+At the exact 720×480 usage view, I manually read the separated left/right Korean title, SOFT GRAVITY, the full subtitle, the complete comma-separated action sentence, date and full location. All agree after whitespace normalization. At 320×213 the separated title and clay bridge remain clear; tiny Korean footer glyphs are less secure, so full-copy certification uses720. Native 1536×1024 shows the title's lower forms drawn into a thin bridge and a smiling central mass. No extra copy or logo found. Native ratio 3:2, error 0%; this is the requested single landscape. Clay3D, raised readable Korean, strong orange/blue color and visible stretching are met.
+
+Mandatory issues:
+
+- None.
+
+Uncertainties:
+
+- The printed date separator is a horizontal dash, transcribed as an en dash. Pixels do not establish its underlying Unicode code point; the digits and visible punctuation otherwise agree.
+- The stretched clay bridge is a visible action cue; a still image cannot establish actual recovery, elasticity or physical operation.
+
+Full manual transcription (line breaks shown with `<br>`; equal collapses whitespace only):
+
+| Required | Observed | Equal |
+|---|---|---|
+| 말랑한 중력 | 말랑한 중력 | true |
+| SOFT GRAVITY | SOFT GRAVITY | true |
+| 움직이는 점토 조각전 | 움직이는 점토 조각전 | true |
+| 누르고, 늘리고, 다시 놓기 | 누르고, 늘리고, 다시 놓기 | true |
+| 2026.12.05–12.13 | 2026.12.05–12.13 | true |
+| 가상 전시장 둥근방 / ROUND ROOM | 가상 전시장 둥근방 / ROUND ROOM | true |
+
+| Dimension | Integer score | Located visible evidence |
+|---|---:|---|
+| Content and form (content_form) | 4 | Across the upper half, 말랑한 at left and 중력 at right are joined through pulled lower clay forms into a narrow bridge, making the title participate in stretching rather than merely label it. The central smiling lump gives the deformation a playful focus. The concept connects words and material convincingly, though the face is a familiar mascot device. |
+| Hierarchy (hierarchy) | 4 | At thumbnail, the separated orange title and bridge read first as one horizontal unit. The large centered SOFT GRAVITY then leads down through subtitle, action, date and location. At720 every line can be read, but the similar relief on all lower rows reduces differentiation between descriptive copy and practical details. |
+| Typography (typography) | 4 | Native: the stretched lower edges remain attached to the title while the main Korean syllable counters stay readable; the English heading spans the central lower width cleanly. Commas and slash survive at720. Lower rows use almost the same thick orange modeling, so more deliberate size/line-space separation would improve the practical-reading rhythm. |
+| Space (space) | 4 | Native/720: the wide blue gap between the two word groups gives the bridge room to sag, and the central mass occupies that gap rather than becoming an unrelated prop. The centered lower stack is balanced against this wide upper span. A narrow interval between the bridge and English heading keeps the layout dense but avoids overlap. |
+| Image and material (image_material) | 4 | Native: longitudinal folds narrow into the bridge, the rounded central lump retains volume, and directional shadows sit consistently below/right of the raised lettering. Black eyes and smile are clearly bounded inset details rather than random marks. The stretched areas and thick end masses use related but distinct surface behavior. |
+| Emotion and control (emotion_control) | 4 | The cheerful center face, extended orange span and saturated blue field support the requested bold playfulness. There are no stray ornaments or pseudo-information. The smile is conventional, but it has a located role as the focus of the stretched mass rather than filling an empty corner. |
+| AI-slop avoidance (ai_slop) | 4 | Native: the stretched material connects to the actual title forms, and text counters, face boundaries and thin folds remain coherent. No obvious fake logo, meaningless number or fused glyph defect was observed. Familiar clay/mascot vocabulary remains, but the content-specific bridge makes it more resolved than a generic effect package. |
+
+Residual findings:
+
+- Lower centered information stack → all rows have comparable extrusion and visual insistence → distinguish subtitle/action from date/location with measured scale and spacing while retaining the 3D style.
+- Central smiling face → conventional mascot shorthand → refine its relation to the strain in the bridge if greater exhibition-specific character is desired.
+
+## X3863
+
+Mandatory pass: **true**. All required copy legible at720: **true**.
+
+At the exact 720×1080 usage view, all six full strings are legible. The action sentence is read across three separate left-side labels: 누르고, / 늘리고, / 다시 놓기; its printed commas are retained in the transcription, with line breaks preserved. The complete date and full Korean/English location were readable independently in preflight and again here. At the exact 213×320 thumbnail, pressing and pulling plus the large title remain clear; the small right subtitle and bottom location are too fine for confident character-by-character assurance at that size. Native 1024×1536 shows an upper finger pressing into purple clay and a right hand pinching a narrow stretched section. No extra text or logo found. Native ratio 2:3, error 0%; one of two requested portraits. All requested style and visible-action conditions are met.
+
+Mandatory issues:
+
+- None.
+
+Uncertainties:
+
+- The printed date separator is a horizontal dash, transcribed as an en dash. Pixels do not establish its underlying Unicode code point; the digits and visible punctuation otherwise agree.
+- Pressing and pulling are clear static cues. The final label 다시 놓기 and settled bottom mass do not establish an actual release or return sequence. No physical operation or authorship is inferred.
+
+Full manual transcription (line breaks shown with `<br>`; equal collapses whitespace only):
+
+| Required | Observed | Equal |
+|---|---|---|
+| 말랑한 중력 | 말랑한<br>중력 | true |
+| SOFT GRAVITY | SOFT GRAVITY | true |
+| 움직이는 점토 조각전 | 움직이는 점토 조각전 | true |
+| 누르고, 늘리고, 다시 놓기 | 누르고,<br>늘리고,<br>다시 놓기 | true |
+| 2026.12.05–12.13 | 2026.12.05–12.13 | true |
+| 가상 전시장 둥근방 / ROUND ROOM | 가상 전시장 둥근방 / ROUND ROOM | true |
+
+| Dimension | Integer score | Located visible evidence |
+|---|---:|---|
+| Content and form (content_form) | 5 | Upper-left finger visibly sinks into the purple mass; mid-right fingers pinch and extend a narrow strand; the broad bottom mass sits beside 다시 놓기. The three supplied verb groups are placed near these stages. This is the clearest connection of wording, action and overall form in the set, without needing an external explanation. |
+| Hierarchy (hierarchy) | 4 | At thumbnail, the upper-right clay title, upper-left pressing finger and long descending purple strand organize the page. At720, left-side verb labels can be followed downward and the large bottom date/location remain clear. The right subtitle is smaller and competes slightly with the adjacent strand, but the reading groups are intact. |
+| Typography (typography) | 4 | Native/720: the title keeps readable syllable counters while using thick irregular clay forms. The action phrase is deliberately distributed as three labels with both original commas retained; date and location form a separate footer. Those labels are large enough to guide the action, although their varied left offsets introduce a less precise textual rhythm. |
+| Space (space) | 4 | The native strand travels from an upper-left swollen mass through a mid-right pinch to the lower central base, using the portrait height. Yellow negative space on the left holds the verb labels, and the right hand is cropped firmly at the edge. Title and upper clay nearly touch, but no words are hidden. Slightly standardizing label offsets would make the small spatial relationships as deliberate as the big diagonal. |
+| Image and material (image_material) | 4 | Native: the upper depression wraps around the fingertip, the pinch narrows the material into directional strands, and the bottom volume has grounded shadow. Beige hands have clay-like texture and clear nail outlines, distinct from the purple object. This consistent stylized sculpting supports the requested material; it does not prove a real hand or real elastic behavior. |
+| Emotion and control (emotion_control) | 4 | Vivid purple against yellow, extreme vertical stretching and oversized action verbs make the forceful playfulness specific. The hands have a functional role, and no extra decorative symbols compete with the interaction. The final state is less demonstrative than the press/pull states, so the release idea depends partly on its adjacent supplied label. |
+| AI-slop avoidance (ai_slop) | 4 | Native: pressure contact, pinch contact and stretched striations relate to the actual verbs; Korean strokes and information groups remain readable. The thumbnail silhouette is driven by action rather than accumulated glow or props. No conspicuous synthesized glyph or boundary defect was seen. Familiar inflated title forms remain, and exact real-world mechanics are outside what these pixels can establish. |
+
+Residual findings:
+
+- Left verb labels have different horizontal offsets → their sequence is conceptually clear but optically less regular → tune the offsets against the strand contour.
+- Bottom mass beside 다시 놓기 → release/return is less explicit than the two hand actions → clarify a visible settled deformation or separation while retaining the same text and lively clay treatment.
+- Tiny subtitle/location at213×320 → full character-level reading is uncertain there; required usage720 reading succeeds.
+
+## X4542
+
+Mandatory pass: **true**. All required copy legible at720: **true**.
+
+At the exact 720×720 usage view, I read all six complete strings, including both action commas, all date digits and the entire location. The title reads as 말랑한 above 중력. At 320×320 the title and yellow/purple sheet remain clear; the bottom location is much smaller and is not the basis of the full-copy check. Native 1254×1254 shows yellow raised letters on a thick purple sheet with hanging corner lobes, side folds and a pooled bottom edge. No extra text or logo found. Native ratio 1:1, error 0%; the second requested square. Clay3D, thick readable Korean, purple/yellow complementary color and drooping cues meet the request.
+
+Mandatory issues:
+
+- None.
+
+Uncertainties:
+
+- The printed date separator is a horizontal dash, transcribed as an en dash. Pixels do not establish its underlying Unicode code point; the digits and visible punctuation otherwise agree.
+- The hanging corner lobes and pooling lower edge visibly suggest drooping. A still rendering does not establish support, actual gravity response, rebound or print performance.
+
+Full manual transcription (line breaks shown with `<br>`; equal collapses whitespace only):
+
+| Required | Observed | Equal |
+|---|---|---|
+| 말랑한 중력 | 말랑한<br>중력 | true |
+| SOFT GRAVITY | SOFT GRAVITY | true |
+| 움직이는 점토 조각전 | 움직이는 점토 조각전 | true |
+| 누르고, 늘리고, 다시 놓기 | 누르고, 늘리고, 다시 놓기 | true |
+| 2026.12.05–12.13 | 2026.12.05–12.13 | true |
+| 가상 전시장 둥근방 / ROUND ROOM | 가상 전시장 둥근방 / ROUND ROOM | true |
+
+| Dimension | Integer score | Located visible evidence |
+|---|---:|---|
+| Content and form (content_form) | 4 | The purple sheet has downward-hanging corner lobes, vertical folds and a pooled lower edge, making gravity visible in the information-bearing surface itself. The yellow title is modeled as thick clay rather than an unrelated flat label. The straight lower text stack is less connected to this drooping behavior than the surface carrying it. |
+| Hierarchy (hierarchy) | 4 | At thumbnail, the oversized yellow Korean title dominates the purple interior; SOFT GRAVITY and the subtitle lead into action, date and location below. At720, every row remains readable. The middle subtitle and English heading are both strongly raised and close in prominence, so the hierarchy is functional rather than exceptionally discriminating. |
+| Typography (typography) | 3 | Native/720: the rotated/rounded title components remain recognizable, but the lower five lines largely repeat the same glossy raised yellow lettering in a dense centered stack. The date is larger than the action line, while the subtitle competes with SOFT GRAVITY. Refine group gaps and relative scale to give headline, description and practical details distinct roles without losing thick clay lettering. |
+| Space (space) | 4 | At native, the yellow field frames the entire purple sheet; hanging corners occupy the upper sides and the bottom pooled edge anchors the square. The centered text fits within the folds without touching the outer boundary. The title fills the upper surface strongly, but the regular lower stack leaves the folds acting mainly as a decorative frame. |
+| Image and material (image_material) | 4 | Native: highlights trace raised purple folds, darker crease channels remain within the sheet, and the pooled bottom casts a grounded shadow. Yellow letter counters are clean and the clay surface is consistent across the title and smaller rows. The upper sheet's support is unspecified, but the visual droop is coherent as a stylized virtual sculpture. |
+| Emotion and control (emotion_control) | 4 | The thick drooping frame and vivid yellow/purple opposition are bold and playful as requested. The excess is organized into one material surface rather than many unrelated effects. Every text row receives similarly emphatic modeling, however, which makes the lower half more relentlessly decorative than precisely tuned. |
+| AI-slop avoidance (ai_slop) | 3 | Native: no obvious garbled Korean, meaningless microtext or randomly melted edge is visible. Nevertheless, the lower half is a reusable centered embossed event panel inside a clay frame; the straight text has little relationship to the distinctive drooping edges. The score of3 records this generic compositional habit, not a ban on saturated color or3D. Make a more deliberate relationship between title weight, sheet deformation and lower reading groups. |
+
+Residual findings:
+
+- Lower centered rows repeat the same raised yellow emphasis → descriptive and practical copy compete → adjust scale/group spacing and relief distinction while preserving bold3D.
+- Straight text stack inside drooping frame → the surface behavior and information design feel partly separate → make title weight visibly organize the droop or contour the reading groups more deliberately.
+- AI-slop score3 leaves a generic embossed-panel habit unresolved; this is not an unconditional high-end candidate.
+
+## X7260
+
+Mandatory pass: **false**. All required copy legible at720: **true**.
+
+At the exact 720×1080 usage view, all five title syllables and all five other full supplied text items are readable. The title is visibly contiguous, transcribed 말랑한중력; readable words do not resolve the missing/indistinct word space. The complete action sentence, date and full location remain clear. At the exact 213×320 thumbnail, the compressed blue character and orange title dominate; the fine location line is not securely readable character by character. Native 1024×1536 shows orange letter masses pressing onto the flattened blue body, with eyes directed upward. No extra text or logo found. Native ratio 2:3, error0%; the second portrait. Raised clay lettering, orange/blue complementary color and visible compression are met. Exact title-spacing fidelity is not confirmed, so mandatory pass is false despite usage720 legibility.
+
+Mandatory issues:
+
+- The visible Korean title reads as 말랑한중력: no distinct word space between 한 and 중 is evident beyond the gaps between other syllables. The exact supplied title 말랑한 중력 therefore has an unresolved spacing disagreement; the observed transcription is kept contiguous and equal is false.
+
+Uncertainties:
+
+- The printed date separator is a horizontal dash, transcribed as an en dash. Pixels do not establish its underlying Unicode code point; the digits and visible punctuation otherwise agree.
+- The title's underlying text may include a word space, but its clay layout does not visibly distinguish it. This is a visible spacing uncertainty, not uncertainty about the five Korean syllables.
+- The heavy letters visibly compress the blue character; pixels cannot establish actual physical loading, capacity or recovery.
+
+Full manual transcription (line breaks shown with `<br>`; equal collapses whitespace only):
+
+| Required | Observed | Equal |
+|---|---|---|
+| 말랑한 중력 | 말랑한중력 | false |
+| SOFT GRAVITY | SOFT GRAVITY | true |
+| 움직이는 점토 조각전 | 움직이는 점토 조각전 | true |
+| 누르고, 늘리고, 다시 놓기 | 누르고, 늘리고, 다시 놓기 | true |
+| 2026.12.05–12.13 | 2026.12.05–12.13 | true |
+| 가상 전시장 둥근방 / ROUND ROOM | 가상 전시장 둥근방 / ROUND ROOM | true |
+
+| Dimension | Integer score | Located visible evidence |
+|---|---:|---|
+| Content and form (content_form) | 4 | The central orange title rests on and visibly flattens the blue character, whose eyes look upward toward that weight. Letter mass therefore performs the exhibition's pressure/gravity idea rather than merely accompanying it. The familiar surprised face makes the action direct, though less distinctive than the portrait's hand/verb relationship. |
+| Hierarchy (hierarchy) | 4 | At thumbnail, the huge orange Korean title and compressed blue body form the first-read unit; the smaller SOFT GRAVITY sits above it, and a left-aligned four-row information block follows below. At720 the date/location are strong enough to read. The top English line can briefly compete as a separate heading, but the main subject remains dominant. |
+| Typography (typography) | 3 | Native/720: all five Korean title syllables are recognizable, but the gap between 한 and 중 is no clearer than the other inter-syllable gaps, producing the observed 말랑한중력. The giant title is packed tightly against itself, while the four lower rows repeat similar orange extrusion. Open a distinct word space and tune the lower group hierarchy without thinning the requested heavy Korean letterforms. |
+| Space (space) | 3 | Native/720: a broad blue band occupies the top before the English heading, while the title/body expands almost across the entire width. The information rows then pack the lower quarter. The imbalance between the empty top and crowded central lateral edges feels less exact than the strong weight metaphor; redistribute a little vertical space into title-word separation and the lower block. |
+| Image and material (image_material) | 4 | Native: orange blocks have rounded clay contours and directional dark shadows; the blue body bulges outward beneath their load and has a textured surface following the folds. White eye inserts are cleanly bounded, and small blue lobes remain visibly connected to the character rather than becoming stray text-like marks. No conspicuous lighting or perspective discontinuity was observed. |
+| Emotion and control (emotion_control) | 4 | The exaggerated heavy title, flattened body, upward-looking eyes and startled mouth fulfill the requested bold playful mood. The facial details explain the load rather than merely decorate the corner. The crowded title slightly diminishes the precision of that otherwise direct expression. |
+| AI-slop avoidance (ai_slop) | 4 | Native: the title's visible load deforms the blue body, material boundaries remain clean, and no fake information or logo is present. This is a content-specific use of a familiar cartoon-clay vocabulary. No conspicuous synthesis artifact was seen, but the unresolved title word boundary prevents an unqualified claim of complete typographic finish. |
+
+Residual findings:
+
+- Title gap between 한 and 중 → exact supplied word spacing is not visibly preserved → separate those word groups while retaining the heavy raised style; do not replace the observed transcription with supplied copy.
+- Large top blue band versus crowded central title/body → uneven spatial precision → move a little unused upper space into the hero and lower information relationships.
+- Thumbnail213×320 location → character-level reading remains uncertain there; all required copy is readable at720.
+
+## Whole set R6-C4
+
+Exact members, in packet set order: X7260, X4771, X4542, X3863, X2019.
+
+Diversity: **3/5**.
+
+Exactly five members are present: two1024×1536 portraits, two1254×1254 squares and one1536×1024 landscape; all native ratio errors are0%. Within the requested shared clay3D/raised-Korean/complementary-color style, directions differ visibly: X3863 organizes pressing and pulling around hands and distributed verbs; X4771 joins separated title words with a horizontal stretched bridge; X4542 uses a drooping purple sheet as the information surface; X7260 compresses a blue character beneath the title; X2019 places a separate curled sculpture beside a giant title. The strongest content/form resolution is the hand/action/verb connection in X3863. X2019 has the weakest action specificity, and X7260 retains a title-spacing uncertainty. Persistent inflated title forms and raised stacked details across four layouts, plus repeated orange/blue and purple/yellow pairs, keep whole-set diversity at3 rather than5. The score is not an average and does not require abandoning the expressly requested3D or strong color.
+
+Closest pair: **X2019, X7260**, distinctness **3/5**.
+
+Pair score uses the same1–5 distinctness scale as set diversity:1 near repetition,3 visibly different with structural habits,5 convincingly separate directions. Both use saturated blue fields, oversized orange clay Korean title masses, an adjacent/below-title rounded sculpture and a stacked raised information block. X2019 is square with a right curled orange form and cream footer; X7260 is portrait with a flattened blue face under the title and orange footer. Those differences are real, but their title/object/footer grammar is closer than the hand-driven portrait, draped sheet or split-title bridge.
+
+Residual findings:
+
+- X2019 action ambiguity and X7260 title-word spacing remain mandatory findings; strong sibling designs do not compensate for them.
+- Most supporting copy is a raised stack with similar stroke mass → shared visual habits limit five-direction differentiation → vary the role and grouping of supplied words within the same clay3D/color conditions.
+- Neither a rendering nor this review certifies human authorship, actual elasticity/rebound, physical support, printing quality or suitability. No unconditional high-end claim is made for the two images with ai_slop scores of3.
+
+The review contains no total or average. Visible disagreement and uncertainty are retained. The three review files become immutable on completion.

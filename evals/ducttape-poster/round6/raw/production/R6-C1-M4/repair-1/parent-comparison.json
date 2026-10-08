@@ -1,0 +1,40 @@
+{
+  "role": "R6-C1-M4",
+  "case_id": "R6-C1",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/final.png",
+  "current_native": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/repair-1/final.png",
+  "actual_compared_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/final.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/initial/thumbnail320.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/repair-1/final.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/repair-1/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C1-M4/repair-1/thumbnail320.png"
+  ],
+  "preserved": [
+    {
+      "region": "Upper-left 숨과 and lower-right 숨 사이",
+      "observation": "Phrase, semantic grouping, large black character height, readable intact glyphs and broad inter-group whitespace retained."
+    },
+    {
+      "region": "Outside margins and full image",
+      "observation": "No new element or copy, exact portrait 2:3 retained."
+    }
+  ],
+  "changed": [
+    {
+      "region": "Glyph outlines",
+      "observation": "Very small contour/top-edge shifts are visible when comparing native views; the general type construction and placement remain visually equivalent."
+    }
+  ],
+  "regressed": [],
+  "unresolved": [
+    {
+      "region": "White field and black fills",
+      "observation": "Requested surface flattening did not visibly eliminate faint grain at native detail."
+    }
+  ],
+  "selection_implication": "Neither stage clears the surface-flatness condition; keep both, attempt the remaining bounded correction."
+}

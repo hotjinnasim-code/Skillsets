@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "indexed_source_count": 1125,
+  "unique_indexed_files": 902,
+  "raw_source_count": 1077,
+  "pinned_source_count": 1125,
+  "closed_native_calls": 47,
+  "returned_native_calls": 47,
+  "failed_native_calls": 0,
+  "pending_calls": [],
+  "missing_roles": [],
+  "native_peak": 3,
+  "cli_peak": 3,
+  "cli_assignments": 24,
+  "unique_cli_sessions": 24,
+  "resumed_roles": [
+    "R6-C4-M3",
+    "R6-C4-M4",
+    "R6-C4-M5"
+  ],
+  "native_dimension_counts": {
+    "1024x1536": 28,
+    "1122x1402": 4,
+    "1254x1254": 10,
+    "1536x1024": 5
+  },
+  "first_final_native_union": 33,
+  "unused_native_stages_outside_first_final_reviews": 14,
+  "prompt_extra_terminal_lf": [
+    [
+      "R6-C2-M2",
+      "initial"
+    ],
+    [
+      "R6-C2-M3",
+      "initial"
+    ],
+    [
+      "R6-C2-M3",
+      "repair-1"
+    ],
+    [
+      "R6-C2-M3",
+      "repair-2"
+    ],
+    [
+      "R6-C2-M4",
+      "initial"
+    ],
+    [
+      "R6-C4-M4",
+      "initial"
+    ],
+    [
+      "R6-C4-M4",
+      "repair-1"
+    ],
+    [
+      "R6-C4-M5",
+      "initial"
+    ],
+    [
+      "R6-C4-M5",
+      "repair-1"
+    ]
+  ],
+  "case_closures": [
+    {
+      "case_id": "R6-C1",
+      "changed_roles": [
+        "R6-C1-M2",
+        "R6-C1-M3"
+      ],
+      "physical_set_changed": true,
+      "case_gates": {
+        "first": "FAIL",
+        "final": "FAIL"
+      },
+      "first_sessions": [
+        "01a11897-a009-77d0-bbfe-1a6909002ec2",
+        "01a11897-a009-7ab2-a870-b0b050923cdc",
+        "01a11897-a014-78f3-b0fa-3ac6fa27ff44"
+      ],
+      "final_sessions": [
+        "01a1189a-b43f-7770-ad8d-bcd747c12d95",
+        "01a1189a-e0ea-7bb0-852f-9b07d0fd15c9",
+        "01a1189a-f51c-7453-ab8b-7c913e7fa7c1"
+      ]
+    },
+    {
+      "case_id": "R6-C2",
+      "changed_roles": [
+        "R6-C2-M1",
+        "R6-C2-M3",
+        "R6-C2-M5"
+      ],
+      "physical_set_changed": true,
+      "case_gates": {
+        "first": "NOT_ASSESSABLE",
+        "final": "NOT_ASSESSABLE"
+      },
+      "first_sessions": [
+        "01a1189e-0336-7db1-8fd7-d07eb664281f",
+        "01a1189f-17cc-7bf1-b7bb-6ad5d3bec6e1",
+        "01a1189f-2e83-78a3-8574-cef16d758adc"
+      ],
+      "final_sessions": [
+        "01a118a3-d105-7be0-9257-8128cd14af13",
+        "01a118a4-38b6-7892-9273-1d3040f014c8",
+        "01a118a4-e151-72c0-b2ee-2713ceeec17b"
+      ]
+    },
+    {
+      "case_id": "R6-C3",
+      "changed_roles": [
+        "R6-C3-M1",
+        "R6-C3-M2",
+        "R6-C3-M3",
+        "R6-C3-M4"
+      ],
+      "physical_set_changed": true,
+      "case_gates": {
+        "first": "FAIL",
+        "final": "FAIL"
+      },
+      "first_sessions": [
+        "01a118a9-11bf-7573-90ac-f2628b5efd4a",
+        "01a118a9-56de-7fd0-826c-de840b035d75",
+        "01a118aa-06c9-7e80-8938-f6cec7f48550"
+      ],
+      "final_sessions": [
+        "01a118ad-8f72-7553-b3d3-93c455865774",
+        "01a118ae-0da4-7622-a856-2a2bd31cceba",
+        "01a118ae-6d9c-7f92-8483-0e33903ec738"
+      ]
+    },
+    {
+      "case_id": "R6-C4",
+      "changed_roles": [
+        "R6-C4-M1",
+        "R6-C4-M2",
+        "R6-C4-M4",
+        "R6-C4-M5"
+      ],
+      "physical_set_changed": true,
+      "case_gates": {
+        "first": "FAIL",
+        "final": "FAIL"
+      },
+      "first_sessions": [
+        "01a118b2-da53-7482-bda2-b7b78cdc731c",
+        "01a118b3-8440-7983-bcaa-840b019277c1",
+        "01a118b4-3afb-7aa1-aa2b-10a6ddc225e3"
+      ],
+      "final_sessions": [
+        "01a118b7-dbaf-7831-9408-1bda616ffc59",
+        "01a118b8-12f4-77d0-9f71-7ad5cfc5eb5f",
+        "01a118b9-9aed-7192-b58f-e593e1460f5c"
+      ]
+    }
+  ],
+  "image_critic_counts": {
+    "first": 60,
+    "final": 60
+  },
+  "raw_score_counts": {
+    "first": 420,
+    "final": 420
+  },
+  "image_gate_counts": {
+    "first": {
+      "FAIL": 14,
+      "NOT_ASSESSABLE": 5,
+      "PASS": 1
+    },
+    "final": {
+      "FAIL": 14,
+      "NOT_ASSESSABLE": 5,
+      "PASS": 1
+    }
+  },
+  "whitespace_discrepancy_count": 16,
+  "trace_serialized_image_view_counts": [
+    0
+  ],
+  "reported_main_views": 360,
+  "gallery_cards": 20,
+  "checks_executed": 5425,
+  "check_failures": []
+}

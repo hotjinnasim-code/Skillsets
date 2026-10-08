@@ -1,0 +1,110 @@
+{
+  "role": "R6-C3-M2",
+  "case_id": "R6-C3",
+  "stage": "repair-1",
+  "inspection_kind": "actual maker visual self-inspection",
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M2/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M2/repair-1/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M2/repair-1/thumbnail320.png"
+  ],
+  "view_detail": "Native loaded with original detail; full image also re-emitted with high display detail. 720 and 320 loaded with original detail.",
+  "copy": [
+    {
+      "required": "온틈",
+      "observed": "온틈",
+      "equal": true
+    },
+    {
+      "required": "ONE-HAND MEMO HOLDER",
+      "observed": "ONE-HAND MEMO HOLDER",
+      "equal": true
+    },
+    {
+      "required": "누르면 열리고, 놓으면 잡아요.",
+      "observed": "누르면 열리고, 놓으면 잡아요.",
+      "equal": true
+    },
+    {
+      "required": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "observed": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "equal": true
+    },
+    {
+      "required": "책상 위 메모를 한 손으로.",
+      "observed": "책상 위 메모를 한 손으로.",
+      "equal": true
+    },
+    {
+      "required": "ontteum.example",
+      "observed": "ontteum.example",
+      "equal": true
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "required": "사진적 표현, 성인 한 명의 한 손 사용; 팔·상반신 연결",
+      "observed": "Right-side adult navy torso continuously joins forearm, wrist and single hand; index fingertip touches rear lever. No other adult or hand.",
+      "status": "observed"
+    },
+    {
+      "required": "원통형 코르크 받침 위 스테인리스 스프링 집게, 앞 실리콘 두 턱, 뒤 레버",
+      "observed": "Full cork cylinder, brushed silver stainless clip, silver coil spring, rear pivot and lever. Two dark pad edges are now at the upper paper-gripping jaw assembly; former body-bottom black patch removed. Rear pad contact is partly hidden by paper and metal.",
+      "status": "observed with partial contact occlusion"
+    },
+    {
+      "required": "뒤 레버 누름→앞 턱 열림, 놓음→종이 잡음 기능 자체 식별",
+      "observed": "Finger lightly contacts raised rear lever, closed front jaw assembly holds upright paper; visible spring and pivot link rear lever to front grip. Image depicts release/closed grip state. No open state or motion overlay is present.",
+      "status": "closed grip release phase observed; dynamic motion not independently demonstrated"
+    },
+    {
+      "required": "제품의 받침·집게·실리콘 턱을 장식·극단 크롭·과도한 피사계심도로 숨기지 않음",
+      "observed": "Holder fills lower center and is fully in-frame/focused. Silicone edge near paper contact visible; rear pad inward face naturally occluded by sheet.",
+      "status": "observed"
+    },
+    {
+      "required": "재질별 표면·빛, 같은 미세무늬나 광택 금지",
+      "observed": "Cork large irregular chips, brushed steel highlights, matte dark silicone, near-matte uncoated paper, soft skin and woven shirt retain distinct responses. Cork chips more pronounced than parent, still material-specific.",
+      "status": "observed"
+    },
+    {
+      "required": "각 문자열 한 번, 추가 메모·로고·가짜 문자 없음",
+      "observed": "All six copy strings appear once on the paper. No other visible letters, logos, symbols, badges or memo content.",
+      "status": "observed"
+    },
+    {
+      "required": "가상 제품이며 치수·성능·실제 모델 재현 주장 금지",
+      "observed": "No dimensions or fabricated product claims in image. This is a generated fictional product scene.",
+      "status": "observed"
+    },
+    {
+      "required": "배정된 세로 2:3",
+      "observed": "1024×1536, exact 2:3, relative deviation 0 within declared 1%.",
+      "status": "observed"
+    }
+  ],
+  "located_self_observations": {
+    "typography": [
+      "Title at upper-left stays bold with open counters and regular Korean geometry. English subtitle, action sentence, material line, second Korean sentence and URL remain distinct readable groups at 720 width. All required text transcribed from view without substitutions. At 320 only hierarchy and headline are reliably assessed, small copy is not certified there."
+    ],
+    "space": [
+      "The sheet fills left and upper center, with its lower edge joined to clamp. Adult torso and arm make the right side continuous. Background removed incidental props, leaving quiet photographic room and desk surfaces."
+    ],
+    "material": [
+      "Lower-center coil is silver rather than brass. Cork at base has larger and higher-contrast chip boundaries than initial. Paper, skin, steel and cloth do not share those boundaries."
+    ],
+    "ai_slop": [
+      "No fake small writing or ornamental badges. Former decorative lower silicone patch is gone. Pad contact remains partly occluded at the paper edge; the still image cannot mechanically prove a moving linkage."
+    ]
+  },
+  "uncertainties": [
+    "Rear pad inner face is naturally obscured by paper/foreground jaw; its dark side edge is visible but detailed contact is not fully exposed.",
+    "Cork chip contrast increased in the edit; remains plausible but the parent surface was subtler.",
+    "One static image shows the released/closed grip phase, not independently verified real-world operation."
+  ],
+  "correction_decision": {
+    "number": 1,
+    "result": "Select correction 1 as the most suitable actually inspected stage; no second correction taken."
+  },
+  "external_critique_received": false
+}

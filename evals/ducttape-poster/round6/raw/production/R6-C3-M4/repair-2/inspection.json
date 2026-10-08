@@ -1,0 +1,118 @@
+{
+  "role": "R6-C3-M4",
+  "case_id": "R6-C3",
+  "stage": "repair-2",
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-2/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-2/usage720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C3-M4/repair-2/thumbnail320.png"
+  ],
+  "view_detail": "original",
+  "copy": [
+    {
+      "required": "온틈",
+      "observed": "온틈",
+      "equal": true
+    },
+    {
+      "required": "ONE-HAND MEMO HOLDER",
+      "observed": "ONE-HAND MEMO HOLDER",
+      "equal": true
+    },
+    {
+      "required": "누르면 열리고, 놓으면 잡아요.",
+      "observed": "누르면 열리고, 놓으면 잡아요.",
+      "equal": true
+    },
+    {
+      "required": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "observed": "코르크 받침 · 스테인리스 집게 · 실리콘 턱",
+      "equal": true
+    },
+    {
+      "required": "책상 위 메모를 한 손으로.",
+      "observed": "책상 위 메모를 한 손으로.",
+      "equal": true
+    },
+    {
+      "required": "ontteum.example",
+      "observed": "ontteum.example",
+      "equal": true
+    }
+  ],
+  "mandatory_conditions": [
+    {
+      "condition": "다섯 장 모두 사진적 표현과 성인 한 명의 한 손 사용 장면을 유지한다. 팔·상반신과 손의 연결을 보여 준다.",
+      "observed": "Exactly one adult torso and one visible active hand. Hand continues into wrist and short forearm at right crop; no detached hand or second hand behind paper.",
+      "pass": true
+    },
+    {
+      "condition": "원통형 코르크 받침 위의 스테인리스 스프링 집게, 앞쪽 실리콘 패드 두 턱, 뒤 레버라는 공통 구조를 유지한다.",
+      "observed": "Cylindrical cork base supports connected stainless spring clamp, clear rear lever/hinge and near silicone pad. Far jaw contact pad is concealed behind the paper and not separately legible.",
+      "pass": false,
+      "residual": "Two silicone pads are not both clearly identifiable."
+    },
+    {
+      "condition": "뒤 레버를 누르면 앞 턱이 열리고 놓으면 종이를 잡는 기능이 각 이미지 자체에서 식별되어야 한다.",
+      "observed": "Single index finger presses the rear lever while thumb stabilizes beneath; memo is already at front jaw mouth. Dark mouth/gap visible around lower paper edge, but opening-versus-closed jaw relationship is less explicit because far pad is occluded.",
+      "pass": false,
+      "residual": "Rear lever use is clear; full open/close mechanism remains only partly demonstrated."
+    },
+    {
+      "condition": "필수 제품의 받침·집게·실리콘 턱을 장식·극단적 크롭·과도한 피사계 심도로 숨기지 않는다.",
+      "observed": "Base, steel spring clamp, rear lever and near pad remain large and sharp. Far pad is hidden by memo rather than extreme crop or blur.",
+      "pass": false,
+      "residual": "Paper hides farther pad."
+    },
+    {
+      "condition": "코르크·금속·실리콘·종이·피부는 각각의 표면과 빛 반응을 갖는다. 모든 면에 같은 미세 무늬나 광택을 입히지 않는다.",
+      "observed": "Cork has coarse porous warm granules; metal smooth bright/dark directional reflections; near silicone softly matte; paper smooth with restrained fibers; skin natural detail; desk subtle and background softer.",
+      "pass": true
+    },
+    {
+      "condition": "각 문자열은 한 번씩 보존한다. 종이에 제공된 카피를 배치할 수 있으나 별도 메모 내용·로고·가짜 문자는 추가하지 않는다.",
+      "observed": "All six exact strings printed once; memo completely blank; no extra logos or lettering.",
+      "pass": true
+    },
+    {
+      "condition": "가상 제품이며 제공되지 않은 치수·성능·실제 모델의 정확한 재현을 주장하지 않는다.",
+      "observed": "No fabricated measurements, performance claims or exact-real-model reproduction claims.",
+      "pass": true
+    },
+    {
+      "condition": "전체 다섯 장 안에서 2:3 두 장·1:1 두 장·3:2 한 장으로 배분한다.",
+      "observed": "Native 1536×1024 gives exact assigned 3:2; this maker did not inspect other slots.",
+      "pass": true
+    }
+  ],
+  "self_observations": [
+    {
+      "type": "typography",
+      "location": "Left corridor",
+      "observation": "Intact Korean strokes, spaces and punctuation; six strings readable at 720. Title compact/large, English subordinate, benefits and materials grouped."
+    },
+    {
+      "type": "space",
+      "location": "Left desk to right product",
+      "observation": "Removing extra limb restores clear tabletop corridor. Title and one-hand lever arrival are balanced; paper is at endpoint rather than shown being carried."
+    },
+    {
+      "type": "material",
+      "location": "Cork base lower-right",
+      "observation": "Texture is more patchy/dense after correction than parent, while still different from smooth steel, silicone, paper and skin. No pixel preservation claimed."
+    },
+    {
+      "type": "AI-slop",
+      "location": "Near/far front clamp mouth",
+      "observation": "Far silicone pad remains inadequately exposed. No extra decorative text, logo, arrows or obvious disconnected metal pieces; cannot infer complete physical function."
+    }
+  ],
+  "uncertainties": [
+    "Far silicone pad cannot be confidently verified as separate visible surface.",
+    "Functional open/close relationship is partial rather than fully explicit.",
+    "The broad desk reach now records lever operation at paper arrival, not simultaneous paper transport.",
+    "Photographic depiction cannot establish actual mechanical performance."
+  ],
+  "correction_decision": "Correction cap reached after initial + two repairs; choose repair-2 because it resolves two-hand mandatory defect while preserving accurate copy and material distinctions. Disclose remaining jaw visibility/function limitations.",
+  "external_critique_received": false
+}

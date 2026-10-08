@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-10-07T23:57:35.714086+00:00",
+  "task": "Standalone bounded FT-01/FT-02/FT-03 auditor fixes; immutable current archive preserved",
+  "independent_technical_review_status": "FAIL",
+  "independent_report_preserved": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6-final-auditor-fixes/original-sources/report.json",
+  "standalone_patched_utility_regressions": "PASS",
+  "original_fixture_cases": 13,
+  "additional_fixture_cases": 11,
+  "all_fixture_expectations_met": true,
+  "actual_archive_audit_status": "PASS",
+  "archive_mode": "evidence-only",
+  "archive_byte_integrity": "PASS",
+  "evidence_binding_integrity": "FAIL",
+  "unchanged_terminal_quality_gate": "NOT_ASSESSABLE",
+  "actual_observation_records": 120,
+  "actual_all_seven_score_values": 840,
+  "recomputed_image_pass_counts": {
+    "first": 1,
+    "final": 1
+  },
+  "raw_final_failures": 47,
+  "reconstructed_native_attempts": 47,
+  "archive_unchanged": {
+    "archive": "/Users/nahyeonbin/Desktop/_Codex/Skillsets/evals/ducttape-poster/round6",
+    "before_file_count": 938,
+    "after_file_count": 938,
+    "all_archive_files_identical": true,
+    "archive_index_sha256": "11da7acce150aa6dda259230e44fdd92d39fe929abbb9f3d0aab2d12e381f7ac",
+    "archived_auditor_sha256": "90c818bdc3f5f26293602fb7ad9fcf7dca8e34eacdff9b2625286eb1a954f183",
+    "original_auditor_snapshot_sha256": "90c818bdc3f5f26293602fb7ad9fcf7dca8e34eacdff9b2625286eb1a954f183"
+  },
+  "fixed_conditions": [
+    "Copied image observation role/case/profile/anonymous-ID and raw reviewer identity must match bound slot and source summary.",
+    "All available stages preserve exact three-by-five observations, including declared invalid stages, and actual first/final 120 records / 840 all-seven values match source and terminal counts.",
+    "Accepted/invalid image, case and terminal gates plus pass counts are recomputed from preserved raw records and derived summary without changing scores or NOT_ASSESSABLE causes.",
+    "Reference acceptance equals source summary integrity and recorded profile/wave identities; false accepted/unavailable labels cannot conceal an available source stage.",
+    "CLI completion, trace and procedure session IDs must match; successful assignments require turn.completed while existing launch freshness/pins remain checked."
+  ],
+  "limits": [
+    "No image is displayed or decoded and no visual score is changed. Archive image-byte hashing and PNG header dimensions retain the original auditor behavior.",
+    "Fixtures inject metadata or trace reads after byte verification; they are control-flow tests, not byte-consistent alternate archives.",
+    "Regression PASS applies to this patched standalone utility and complete closed 47-call/24-review dataset; independent technical review remains FAIL.",
+    "Generic failed-initial sealer branch remains unmodified and disclosed, with no failed native calls in this dataset. Explicit genuinely unavailable NA stages permit accurate zero counts, never fabricated records.",
+    "Evidence-only archive PASS establishes byte preservation and strict joins. Source review integrity remains FAIL and terminal quality remains NOT_ASSESSABLE.",
+    "Actual viewing/order remains attested; neither hashes nor metadata certify semantic viewing, authorship or external historical authenticity."
+  ],
+  "no_commit": true,
+  "no_archive_edits": true
+}

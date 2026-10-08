@@ -1,0 +1,119 @@
+{
+  "role": "R6-C4-M4",
+  "case_id": "R6-C4",
+  "stage": "repair-1",
+  "context_fresh": false,
+  "prior_history_disclosed": "Prior R5 portfolio review in this reused thread; no old review/image was opened for this R6 design.",
+  "actual_view_paths": [
+    {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M4/repair-1/final.png",
+      "detail": "original"
+    },
+    {
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M4/repair-1/usage720.png"
+    },
+    {
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round6/production/R6-C4-M4/repair-1/thumbnail320.png"
+    }
+  ],
+  "transcription": [
+    {
+      "required": "말랑한 중력",
+      "observed": "말랑한 중력",
+      "equal": true
+    },
+    {
+      "required": "SOFT GRAVITY",
+      "observed": "SOFT GRAVITY",
+      "equal": true
+    },
+    {
+      "required": "움직이는 점토 조각전",
+      "observed": "움직이는 점토 조각전",
+      "equal": true
+    },
+    {
+      "required": "누르고, 늘리고, 다시 놓기",
+      "observed": "누르고, 늘리고, 다시 놓기",
+      "equal": true
+    },
+    {
+      "required": "2026.12.05–12.13",
+      "observed": "2026.12.05–12.13",
+      "equal": true
+    },
+    {
+      "required": "가상 전시장 둥근방 / ROUND ROOM",
+      "observed": "가상 전시장 둥근방 / ROUND ROOM",
+      "equal": true
+    }
+  ],
+  "transcription_method": "Repeated actual visual transcription at original and720 after repair; semantic line breaks joined. Action fragments observed in order as 누르고, / 늘리고, / 다시 놓기. No observed text was changed to hide an error.",
+  "mandatory": {
+    "pass": true,
+    "conditions": [
+      {
+        "condition": "Assigned portrait2:3, ratio within1%",
+        "pass": true,
+        "observed": "1024×1536; exact2:3, relative error0%."
+      },
+      {
+        "condition": "One independent poster; exactly six strings once, no extra words/logo",
+        "pass": true,
+        "observed": "Each required string appears once; action sentence is split beside three states. No added text/logo/fake label."
+      },
+      {
+        "condition": "Full clay3D, thick raised readable Hangul, strong complementary color, bold playful effects",
+        "pass": true,
+        "observed": "Large rounded violet clay title and substantial continuous sculpture on saturated yellow, with strong depth and cast shadows. Effects not flattened."
+      },
+      {
+        "condition": "At least one clay action identifiable",
+        "pass": true,
+        "observed": "Upper-left ivory clay finger visibly compresses purple pad; middle-right ivory thumb/index stretch the continuous neck; bottom gathers into a rounded resting mound."
+      },
+      {
+        "condition": "Raised title has readable intact Hangul and open internal spaces",
+        "pass": true,
+        "observed": "말랑한 over 중력 is readable at720 and320. Thick strokes do not merge neighboring syllables or fill their counters."
+      },
+      {
+        "condition": "Coherent clay form/surface/light rule",
+        "pass": true,
+        "observed": "Ivory hand fragments now have same-color rounded tips, no distinct realistic nail plates, and clay modeling texture. Violet title/pad/neck/mound share cohesive clay surfaces. Upper-left lighting/lower-right shadows remain consistent."
+      },
+      {
+        "condition": "All required copy readable at720 with adequate information surface",
+        "pass": true,
+        "observed": "Six strings read without enlargement; bilingual venue stays complete, upright and unclipped at bottom."
+      }
+    ],
+    "issues": [],
+    "uncertainties": [
+      "The upper fingertip retains a shallow oval modeling indentation, but it no longer has the separate tone or edge of a realistic nail plate.",
+      "A still connected sculpture represents return through its rounded resting end and nearby 다시 놓기 copy; actual motion or mechanical behavior is not measured.",
+      "Maximum resolution was requested literally; returned1024×1536 is measured, not certified as maximum."
+    ]
+  },
+  "observations": {
+    "type": "Native: title remains thick raised normal Korean, with clear counters and separate syllables. 720: title, English, descriptor, action fragments and long venue are all readable. 320: title and each action label remain recognizable; date is visible, venue naturally much smaller.",
+    "space": "Single continuous purple flow connects upper-left compression to middle-right pinch and lower rounded resting mass. Existing action fragments remain adjacent to their corresponding zones. Title is tight to the top/right edges without clipping. Date/venue retain a clear bottom area.",
+    "material": "Native: repaired ivory forms are clay sculptures with simplified same-color tips. Purple stretch striations, rounded masses and lower-right cast shadows still explain deformation. There are fine microtexture changes outside the hands, especially the upper purple pad and thin neck, but no new halo or torn boundary is visible.",
+    "ai_slop": "No arbitrary decoration, fake exhibition labels, extra glyphs, logo, or unrelated effect objects. The action sentence genuinely organizes the pressure/pull/rest image. Repair solves the mixed skin/clay logic; some dense modeling texture and tight title margin remain concrete finish limits."
+  },
+  "repair_decision": {
+    "needed": false,
+    "own_corrections_used": 1,
+    "remaining_cap": 1,
+    "reason": "The observed material defect is sufficiently corrected while mandatory copy, clay3D energy and the assigned continuous action relation remain intact. No further actual mandatory defect identified."
+  },
+  "residuals": [
+    "Raised title fits close to the top/right edges, without current clipping.",
+    "The resting mound stays attached to the elongated neck; returning/recovery is conveyed by form and action copy rather than visible time progression.",
+    "Clay surfaces retain fairly dense modeling marks; the repair did not produce a perfectly smooth surface and no smoothness claim is made."
+  ],
+  "external_critic_feedback_received": false
+}

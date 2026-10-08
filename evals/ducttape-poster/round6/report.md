@@ -1,0 +1,935 @@
+# 덕테이프 포스터: 추가 20장 검증
+
+[핵심 발견과 판정 불가 사유](findings.md) · [증거 검수와 도구 보완](checks/verification-notes.md)
+
+고정한 메인 커밋: `df0a87f9d5b1e453517f3b42706fbfcc5f94bf1d`. 네 요청의 모든 예정 역할을 포함한다. 선택 원본은 20/20장, 반환된 최초 원본은 20/20장이다. 이전 평가 이미지나 다른 스킬 버전을 새 표본에 섞지 않았다.
+
+최종 사전 선언 핵심·다양성 게이트: **NOT_ASSESSABLE**. 평가기록 정합성: **FAIL — 전사 일치 표기 불일치**. 수락된 사례별 평가에서 확인된 개별 이미지 통과는 최초 **1/20**, 제한된 자체 보정과 선택 후 **1/20**이다. **NOT_ASSESSABLE은 평가 절차·자료가 부족하거나 무효인 경우이며 통과로 세지 않는다.** 세트 다양성은 별도로 모두 통과해야 한다. 이 수치는 요청 문맥에 묶인 관찰값이며 향후 성공률이 아니다.
+
+최종 이미지 판정은 **통과 1장 · 품질 미통과 14장 · 판정 불가 5장**이다. 판정 불가를 이미지 품질 실패로 합치지 않는다. 개별 원점수와 미수락 이유는 모든 이미지에 남겼다.
+
+보존된 이미지·평가자 기록은 최초 60개, 최종 60개다. 점수 관찰은 각각 420개와 420개이며, 부분 자료를 완전한 60개 기록으로 채우지 않는다.
+
+최초·최종의 완전한 세트에 배정한 서로 다른 네이티브 바이트는 33개다. 같은 선택 원본이 두 단계에 포함되는 경우도 있다. 모든 미선택 보정본까지 외부 평가자가 검토했다고 주장하지 않으며, 해당 원본과 제작 검수·선택 이력은 별도로 보존한다.
+
+[전체 갤러리](gallery.html) · [전체 결합 평가 자료](raw/planning/final-evidence.json) · [기록 조회 인덱스](archive-index.json)
+
+| 요청 | 최초 세트 | 최종 세트 | 최초/최종 이미지 통과 | 기록된 최종 다양성 |
+| --- | --- | --- | --- | --- |
+| 글자와 여백만 — 숨과 숨 사이 | FAIL | FAIL | 0/5 → 0/5 | 3/3/3 |
+| 긴 이중언어 안내 — 이름 바꾸는 물건들 | NOT_ASSESSABLE | NOT_ASSESSABLE | 0/5 → 0/5 | 3/4/3 |
+| 인물과 재료가 있는 제품 사진 — 온틈 | FAIL | FAIL | 0/5 → 0/5 | 3/3/3 |
+| 명시된 강한 표현 — 말랑한 중력 | FAIL | FAIL | 1/5 → 1/5 | 3/3/3 |
+
+### R6-C1-M1: FAIL → FAIL
+[1024 × 1536 선택 원본](images/native/66b20d11e4a9375a5fe173fcd4e9f3e6059b6a864f46e182612fd3860bac9bbf.png) · [최초 원본](images/native/66b20d11e4a9375a5fe173fcd4e9f3e6059b6a864f46e182612fd3860bac9bbf.png) · [선택·보정 기록](raw/production/R6-C1-M1/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 4 | 4 | 4 | 2 | 4 | 3 |
+| craft | 3 | 4 | 4 | 4 | 3 | 4 | 3 |
+| portfolio | 4 | 4 | 4 | 4 | 3 | 4 | 3 |
+
+잔여 관찰:
+- editorial/image_material=2: Native detail shows faint pale contours along the lower edges of the 숨 strokes and subtle surface variation in the white field. The letter shapes are otherwise consistent; the residual non-flat appearance remains unresolved under this brief.
+- editorial/ai_slop=3: The edited word spacing is tied to the actual phrase, with no fake ornament or malformed syllables. Faint edge/surface effects remain, however, and the basic heavy-type-on-white vocabulary alone does not establish a fully resolved high-end result.
+- craft/content_form=3: The single line sits slightly above the vertical midpoint, with a visibly enlarged space between 숨과 and the second 숨. That pause echoes the wording, but the basic centered line remains a familiar arrangement whose concept is carried largely by one word gap.
+- craft/image_material=3: At native the silhouettes are consistent and contain no malformed letters. Faint diagonal grain across the broad upper and lower fields and slight pale edge fringes keep the ostensibly flat black/white finish from being fully clean.
+- craft/ai_slop=3: The enlarged gap has a visible connection to the title and there are no fake logos, numbers, or broken syllables. The conventional heavy centered phrase is only partly specialized, and the faint paper-like field and edge haze remain unnecessary visual habits under this exact request; monochrome alone is not evidence of exceptional resolution.
+- portfolio/image_material=3: The glyphs present a consistent flat black system with clear counters and no confusing material simulation. Native viewing still exposes very faint diagonal streaks in the field and pale lower-stroke fringes, limiting the finish of an otherwise demanding plain design.
+- portfolio/ai_slop=3: The unequal word gaps are a specific editorial response to this phrase, and no false microcopy or synthetic letter corruption is visible. The plain field and lower stroke fringes are not fully resolved at native, so this remains below an unqualified high-end designation despite the strong typographic idea. Authorship is not assessed.
+- Faint surface variation and pale edge contours remain unresolved under the explicit no-texture brief. If present in the artwork, make the background uniform white and the letter fills solid black, removing offset effects; verify the unaltered supplied-size result.
+- The wide first gap makes 숨 사이 a tight unit, so the two occurrences of 숨 are not equally paired. Refine that gap relationship if the intended emphasis is specifically the interval between the two breaths rather than the phrase ending.
+- The strict flat finish is not confirmed: native view shows faint pale edging beneath the 숨 bars/bowls and subtle fine variation in the extensive white field. No distinct picture, shape, border, divider, ornament, or extra wording is visible.
+- At native detail the blank field has very faint fine surface variation, and some strokes have pale gray edging. The viewer does not let this review reliably distinguish a source texture/shadow from rasterisation or display behaviour. This uncertainty is retained rather than certified as a flat-finish pass.
+- The very faint textured white field violates the no-texture condition; remove the surface variation.
+- The slight pale letter-edge fringes warrant inspection at original size; retain only necessary antialiasing in an otherwise flat silhouette.
+- The single-line concept is competent but close to X2792 in word roles and overall mass. A stronger relation between the two breath units would distinguish it without adding prohibited graphics.
+- At native, the extensive white area above and below the single phrase shows very faint diagonal/mottled surface variation. This conflicts with the request for no texture.
+- The faint background variation cannot be assigned to a production process. Thin pale gray fringes near the lower edges of 숨 and 과 may be partly normal raster smoothing; their origin remains uncertain.
+- Very faint diagonal streaks across the native white expanses and pale fringes beneath strokes → the most austere single-line design reveals small finish defects and does not fully satisfy the no-texture condition → use an even white field and clean flat glyph boundaries.
+- The broad opening after 숨과 carries nearly all of the concept → the design has a clear idea but limited development beyond one spacing decision → refine the optical interval and line placement at both 720 and 320 while retaining the single phrase and avoiding added marks.
+- At native, the empty white field above and below the single line contains very faint diagonal streaking. This is a visible departure from the explicit no-texture condition.
+- The cause of the faint field streaks cannot be determined from the view. Pale gray fringes below horizontal strokes could partly be antialiasing; they are retained as finish uncertainty rather than attributed to intentional shadows or a maker.
+- Faint diagonal background streaking persists; white field is not fully flat/untextured.
+- Thin gray parallel traces below some black glyphs persist.
+- These mandatory texture/background defects remain after the two allowed corrections.
+
+### R6-C1-M2: FAIL → FAIL
+[1024 × 1536 선택 원본](images/native/0b92b89da509b64756309a8709f338ef649d2f0bf15608a537bc830b1ec2fcdf.png) · [최초 원본](images/native/7c9bc9e50faacf616fe8e50a6cc888e1a12d1b7697b71a1f1daa290800376d0e.png) · [선택·보정 기록](raw/production/R6-C1-M2/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 2 | 2 | 3 | 3 | 2 | 3 | 3 |
+| craft | 3 | 3 | 4 | 4 | 3 | 3 | 3 |
+| portfolio | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+
+잔여 관찰:
+- editorial/content_form=2: The three words form a tall stack on the left half, with the second 숨 nearly twice the syllable height of the first. The size contrast foregrounds one breath but does not clearly articulate the relation between the two breaths.
+- editorial/hierarchy=2: At thumbnail320 the enormous middle 숨 wins the first glance, ahead of the beginning 숨과 above. The top-to-bottom sequence is recoverable at usage720, but the initial emphasis interrupts the sentence order.
+- editorial/typography=3: All native Hangul is readable with coherent heavy strokes, and the top and bottom word groups have similar scale. The greatly enlarged middle syllable changes the visual cadence more than the copy itself calls for.
+- editorial/space=3: The three groups share an approximate left edge near one fifth of the width, and their vertical gaps are orderly. The large unused right column keeps the stack asymmetric but has little visible relation to the two-breath interval.
+- editorial/image_material=2: Native view shows a pale offset strip under the middle 숨 bar and bowl and faint fine modulation in the blank field. The silhouette is consistent, but this residual edging is not an unequivocally flat black-on-white finish.
+- editorial/emotion_control=3: There are only three bold word groups and blank space, so the effect is controlled. The expanded central 숨 creates a shout-like beat amid the phrase; that beat is stronger than the quiet interval suggested by the wording.
+- editorial/ai_slop=3: There is no pseudo-information or damaged Hangul, but the single oversized central word resembles a transferable emphasis device. Its unresolved pale edging and the weak reason for its scale leave the result below a clearly content-specific, fully resolved finish.
+- craft/content_form=3: The enlarged second 숨 occupies the middle of three vertically separated word groups. This gives breath a strong central emphasis, but makes a big noun the main idea more than the interval between two breaths; a three-line stack could carry many short titles.
+- craft/hierarchy=3: At thumbnail320 the oversized middle 숨 attracts the first glance before top 숨과. The top-to-bottom sequence is still easy at720, but visual emphasis and sentence entry do not coincide, so the hierarchy is functional with a competing entry point.
+- craft/image_material=3: At native the middle 숨 has a clean recognizable counter and strong outline; pale gray edging below its broad bars and faint grain across the white right strip remain visible. These small finish treatments work against the requested flat execution.
+- craft/emotion_control=3: The central 숨 is nearly twice the height of the top line, creating a monumental, emphatic pause. The elements are few and controlled, but the large block places more emphasis on mass than on a developed relation between the two breaths; restraint alone does not resolve that relation.
+- craft/ai_slop=3: There are no malformed syllables, invented microcopy, or unrelated icons. The generic large-middle-word stack and shared faint paper-like surface/edge haze keep the design from being convincingly exceptional for this particular copy, without implying any authorship.
+- portfolio/content_form=3: In the left-of-center column, a much larger middle 숨 is separated from the smaller upper 숨과 and lower 사이. The three beats suggest pauses, but the second 숨's enlargement is more an emphasis decision than a clear account of the space between two breaths.
+- portfolio/hierarchy=3: At thumbnail320 the oversized central 숨 catches the eye ahead of the first row. The top-to-bottom sequence is still recoverable and all rows are legible at usage720, but visual entry and grammatical beginning compete.
+- portfolio/typography=3: At native, the same bold sans construction is legible in all rows, with complete Hangul components and clear counters. The top and bottom two-syllable rows have similar spans while the single central syllable expands to nearly that span; this functions as a scale contrast but gives the phrase a blunt, poster-title cadence.
+- portfolio/space=3: The three rows share a roughly common left edge and clear vertical intervals. A much larger white reserve remains on the right than on the left, yet no counterpart on the right activates that reserve; the balance works as a column but is not unusually precise.
+- portfolio/image_material=3: All three rows use consistent black silhouettes. At native, the large middle 숨 exposes pale fringes beneath long horizontal strokes, and the broad right white field has faint diagonal streaking; these visible finish concerns remain unresolved.
+- portfolio/emotion_control=3: The middle 숨 is almost twice the height of the top-row glyphs, giving the otherwise spare layout a forceful rather than delicate center. With no extra decoration the expression is controlled, but the large emphasis carries more volume than the evenly paced pause implied by the words.
+- portfolio/ai_slop=3: The upper/middle/lower arrangement uses actual supplied words without fake labels or logos. The stock-feeling bold stack, the weakly explained central enlargement, and faint native edge/field artifacts leave a functional but broadly reusable typographic treatment, not a confidently finished high-end candidate. No maker is inferred.
+- Faint surface variation and pale edge contours remain unresolved under the explicit no-texture brief. If present in the artwork, make the background uniform white and the letter fills solid black, removing offset effects; verify the unaltered supplied-size result.
+- The second 숨 attracts attention before the opening 숨과. Reduce its disproportionate scale or re-balance the first word so the intended sentence order survives the thumbnail glance.
+- The large right-side void does not visibly explain the between-ness. Reconsider the word groups and their interval together rather than preserving that void merely as spare margin.
+- The strict flat finish is not confirmed: the native central 숨 has a pale strip beneath its long horizontal bar and bowl, and the white field shows faint fine variation. No distinct picture, shape, border, divider, ornament, or extra wording is visible.
+- At native detail the blank field has very faint fine surface variation, and some strokes have pale gray edging. The viewer does not let this review reliably distinguish a source texture/shadow from rasterisation or display behaviour. This uncertainty is retained rather than certified as a flat-finish pass.
+- The faint white-field grain conflicts with the no-texture brief; use a flat white field.
+- The giant middle 숨 can be the first read at thumbnail size, putting the second word before the first. Rebalance its relative size or the top group position to strengthen sentence entry without adding marks.
+- Native pale fringes under the middle bars reduce silhouette precision; distinguish necessary edge smoothing from any removable finish effect.
+- At native, faint diagonal/mottled variation is visible in the large white field, particularly the wide open strip to the right of the stacked words. It conflicts with the explicit prohibition on texture.
+- The faint white-field variation has an indeterminate source. The pale fringe beneath the large middle 숨 horizontal bar and lower rectangular contour may partly be raster smoothing; it cannot be certified as a separate physical shadow or relief.
+- The central 숨 is much larger than the opening 숨과 → initial attention can enter at the second word and the phrase becomes an emphasis stack → adjust its scale or vertical interval so the first row and the intervening pause set the reading rhythm.
+- The broad right reserve has no specific relationship to the three row intervals → asymmetry reads mainly as a placed column → tune column position and row spacing around a clearer repeated-pause relationship without adding forbidden marks.
+- Faint streaking in the white ground and pale bands below central strokes → the plain-letter finish loses exactness and the no-texture condition is unmet → use a uniform white background and remove displaced edge fringes while preserving clean raster edges.
+- At native size, faint diagonal streaking is visible in the white areas, including the broad empty right field. The ground is not fully uniform in appearance, conflicting with the explicit no-texture instruction.
+- The source of the very faint field streaks is unknown. Pale fringes below the large middle 숨's horizontal bar and bottom edge may partly be raster antialiasing; they are not treated as proof of a separate intentional shadow or of a production process.
+- Faint generated grain in otherwise white background remains; strict single-color/no-texture conditions are not fully met.
+- Faint pale parallel fringes beneath some strokes, especially center 숨 horizontal/base edges, remain after both allowed native corrections.
+
+### R6-C1-M3: FAIL → FAIL
+[1024 × 1536 선택 원본](images/native/28e83512dbc0866bff807c8a44c77178ab62a77334ca1bd4346c751197830a7d.png) · [최초 원본](images/native/6ad3b96082803ca5b2ff44671c8e28e86f9b2074f8816b65d864eff9b9e22387.png) · [선택·보정 기록](raw/production/R6-C1-M3/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 4 | 4 | 4 | 2 | 3 | 3 |
+| craft | 4 | 4 | 3 | 4 | 3 | 4 | 3 |
+| portfolio | 4 | 4 | 3 | 3 | 3 | 4 | 3 |
+
+잔여 관찰:
+- editorial/image_material=2: At native detail, faint pale contours below the large 숨 horizontal/bottom strokes and the 과 stem, plus fine variation in the white field, interrupt the requested fully flat finish. Their exact cause is uncertain.
+- editorial/emotion_control=3: The two broad black masses and the quiet white interval carry a restrained pause without added symbols. The very heavy weight makes that pause forceful rather than especially delicate; the smaller label-like 사이 partly explains the space.
+- editorial/ai_slop=3: The gap and the placed word 사이 are specific to this copy, and there is no fake microcopy or broken Hangul. However, pale edge relief around the upper type and faint surface variation leave an unresolved finish trace; a clean high-end designation is not warranted.
+- craft/typography=3: The heavy strokes and open rectangular counters of both 숨 characters are readable at720, and 사이 forms a coherent smaller group below. The change in scale makes 사이 look somewhat detached from the main line, so the letter system is functional rather than fully integrated.
+- craft/image_material=3: At native the black letterforms have coherent outlines, but faint gray fringes are visible below their horizontal bars and faint diagonal grain occupies the white field. In this explicitly texture-free request, those small finish residues keep the material execution at functional rather than exceptional.
+- craft/ai_slop=3: The gap between the two 숨 blocks is specific to the copy, and no fake information or broken Korean is visible. At native the faint surface grain and edge haze nevertheless leave a familiar paper-like field and pale edge haze unrelated to the requested plain black/white treatment; this score does not identify a maker.
+- portfolio/typography=3: At native, the bold Hangul has intact strokes and open counters, and 숨과 is grouped tightly enough to read as a word. The smaller 사이 sits partly beneath the right side of 과 rather than directly beneath the full central opening, making its alignment less resolved than its semantic role.
+- portfolio/space=3: The outer left/right margins of the large upper row are close to balanced, and substantial clear areas remain above and below. The lower 사이 is visibly left of the center of the gap between the upper blocks, so the largest and smallest spatial relationships do not quite reinforce each other.
+- portfolio/image_material=3: The letter silhouettes form a consistent flat black system with no inconsistent modeled light or perspective. At native, pale fringes under the horizontal strokes and very faint diagonal streaks across the upper white field weaken the otherwise plain finish; the cause is uncertain.
+- portfolio/ai_slop=3: The deliberate opening between the two upper blocks is content-specific, and the glyphs are readable rather than pseudo-lettering. At native, faint edge ghosts and background streaks remain finish concerns; the lower word's imprecise relation to the opening prevents treating minimalism alone as a fully resolved portfolio result. This is not an authorship finding.
+- Faint surface variation and pale edge contours remain unresolved under the explicit no-texture brief. If present in the artwork, make the background uniform white and the letter fills solid black, removing offset effects; verify the unaltered supplied-size result.
+- 사이 sits below and somewhat right of the interval it names, so the relation is partly explanatory. Move it closer to the optical centre of that interval, within the word-only restriction, to make the connection more exact.
+- The strict flat black-type/white-space finish is not confirmed: pale gray offset edging is visible below the two large 숨 bowls and the 과 stem in the native view, with faint variation in the otherwise white field. No distinct picture, shape, border, divider, ornament, or extra wording is visible.
+- At native detail the blank field has very faint fine surface variation, and some strokes have pale gray edging. The viewer does not let this review reliably distinguish a source texture/shadow from rasterisation or display behaviour. This uncertainty is retained rather than certified as a flat-finish pass.
+- Faint diagonal/mottled variation in the broad white field makes the strict no-texture condition unresolved in the delivered pixels; remove the visible surface treatment and retain plain white.
+- The pale fringe below the large 숨 bars weakens the flat black silhouette; inspect the original letter edges and remove any effect beyond necessary raster smoothing.
+- The small lower 사이 reads as a caption to the gap. Adjust its scale or placement relative to the interval if a more unified phrase is desired, while preserving one occurrence and word-boundary line breaks.
+- At native, the broad white areas above and below the words contain faint diagonal/mottled surface variation rather than an entirely flat white field. This is a visible residual against the explicit no-texture condition.
+- The surface variation is faint; its origin cannot be determined from this view. Pale gray fringes below the horizontal strokes of both 숨 characters may include raster smoothing as well as a shadow-like edge treatment. They are not evidence of physical relief or a known production process.
+- The lower 사이 lies left of the opening's center → the visual label for the interval is only partly anchored to that interval → move it optically into the opening's center or align it explicitly to a selected upper edge.
+- Faint diagonal white-field streaks and pale fringes under heavy strokes at native → a surface treatment is visible despite the no-texture instruction, and the flat finish feels less exact → use a uniform white field and clean flat letter edges, retaining necessary raster antialiasing.
+- At native size, the large empty upper field has very faint diagonal streaking rather than a uniformly blank white appearance. This conflicts with the explicit no-texture condition; the effect is subtle, not a large decorative object.
+- The source of the faint white-field streaks cannot be determined visually. Pale gray fringes just below the horizontal strokes and the lower edge of the two 숨 glyphs are also visible at native; raster antialiasing may account for part of them, so no separate shadow object is asserted.
+- Lower 사이 in repair1 remains about40px left of the actual first-line word-interval midpoint, although considerably nearer than initial and repair2.
+- Faint pale-gray bands below letter edges and tiny near-white field variation remain; strict flat-white/no-shadow conditions are not asserted as passed.
+- Maximum supported resolution was requested; actual returned size is1024×1536, without a verified maximum-resolution claim.
+
+### R6-C1-M4: FAIL → FAIL
+[1024 × 1536 선택 원본](images/native/f5b47720793e61cb46828509849f5bb007523ba7e8e57888a741f4e02d8e309d.png) · [최초 원본](images/native/f5b47720793e61cb46828509849f5bb007523ba7e8e57888a741f4e02d8e309d.png) · [선택·보정 기록](raw/production/R6-C1-M4/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 3 | 3 | 3 | 3 | 2 | 3 | 3 |
+| craft | 4 | 3 | 3 | 3 | 3 | 3 | 3 |
+| portfolio | 4 | 4 | 3 | 4 | 3 | 4 | 3 |
+
+잔여 관찰:
+- editorial/content_form=3: The upper-left 숨과 and lower-right 숨 사이 leave a very large central interval. This is a literal use of between-space, but the displacement also turns the sentence into two remote blocks without a more exact relation between its two breaths.
+- editorial/hierarchy=3: At thumbnail320 the upper-left block can start the reading before the longer lower-right block; both are similar in syllable scale. The large jump between them delays sentence completion, unlike the immediate horizontal alternatives.
+- editorial/typography=3: Native view retains coherent heavy Hangul and intact words. The lower line has the same approximate syllable height as the upper, with a normal gap between 숨 and 사이; the long interline distance creates most of the rhythm rather than finer type relationships.
+- editorial/space=3: The top block begins around one eighth of the page width and one quarter of its height; the second begins much farther right and around two thirds down. Their diagonal balance is legible, but the expansive middle has no precise optical anchor.
+- editorial/image_material=2: Faint pale contours are visible at native scale near the upper 과 horizontal/stem edges and the lower 숨 bars, with fine variation across the blank central field. The requested fully flat surface cannot be confidently confirmed.
+- editorial/emotion_control=3: Two remote black groups create a long pause without decorative accumulation. The distance is so large that the mood can become disconnected rather than simply suspended; its magnitude needs a clearer relationship to the sentence.
+- editorial/ai_slop=3: There is no invented microcopy or visibly malformed Hangul, and the large gap has some content rationale. The familiar opposite-corner arrangement plus pale surface/edge finish still feels broadly reusable, so absence of ornament alone is not grounds for a top score.
+- craft/hierarchy=3: At thumbnail320 the upper-left to lower-right sequence is recognizable, and at720 it reads correctly. The larger total black mass of the three-syllable lower block attracts substantial attention, so the sentence start and the first visual emphasis are not fully secured.
+- craft/typography=3: At native both blocks use the same strong stroke language, and all counters remain legible. The substantial gap between lower 숨 and 사이 and the very long break between lines make the copy function as two separate text objects more than a single integrated typographic relation.
+- craft/space=3: The upper block sits inward from the left edge while the longer lower block reaches closer to the right edge; the open middle field is the principal event. The diagonal balance is functional, but the lower-right mass and unequal side margins are less tightly related than the central gap arrangement in X8499.
+- craft/image_material=3: At native the glyph outlines remain coherent, but the open central field reveals faint diagonal/mottled grain. Pale gray fringes around parts of the lower 숨 and 사이 strokes weaken the plain black silhouette and are not supported by the texture-free request.
+- craft/emotion_control=3: The long interval between upper and lower blocks gives a prolonged pause using very few elements. The bottom group has more black mass and pulls the composition downward/rightward, making the pause feel partly like separation of two headings rather than a fully controlled single breath sequence.
+- craft/ai_slop=3: The gap is connected to the supplied phrase and no extraneous information appears. A familiar diagonal two-block arrangement and shared faint background/edge treatment still remain; these do not prove a production history, but they limit the claim that every visible choice is resolved for this particular content.
+- portfolio/typography=3: At native, both blocks use the same bold sans size and recognizable Hangul. The lower block combines 숨 and 사이 with an ordinary space, so the text is coherent, but the glyph treatment itself remains conventional and the two blocks gain their distinct roles chiefly from placement.
+- portfolio/image_material=3: Both text blocks maintain flat black silhouettes and consistent stroke construction. The large blank middle makes very faint native diagonal field streaks especially apparent, while pale fringes along some strokes keep the finish short of exact plain black on white.
+- portfolio/ai_slop=3: The large interval between the two actual breath references is specific to the copy and avoids arbitrary information-like decoration. The same conventional bold letter system used elsewhere and faint native field/edge artifacts limit refinement; the restrained appearance alone does not establish high-end finish or human authorship.
+- Faint surface variation and pale edge contours remain unresolved under the explicit no-texture brief. If present in the artwork, make the background uniform white and the letter fills solid black, removing offset effects; verify the unaltered supplied-size result.
+- The long diagonal jump weakens the connection between the opening and ending. Tighten or optically align the two blocks enough to preserve a deliberate pause while keeping the sentence connected.
+- The strict flat finish is not confirmed: native view has pale edge relief around the upper 과 and lower 숨 strokes, along with faint fine variation in the white space. No distinct picture, shape, border, divider, ornament, or extra wording is visible.
+- At native detail the blank field has very faint fine surface variation, and some strokes have pale gray edging. The viewer does not let this review reliably distinguish a source texture/shadow from rasterisation or display behaviour. This uncertainty is retained rather than certified as a flat-finish pass.
+- The faint variation through the empty central field conflicts with the no-texture requirement; make the field flat white.
+- The longer bottom block pulls the first glance away from the upper sentence start. Adjust relative scale or placement to strengthen the intended two-stage reading.
+- The large central interval and unequal side margins create separation but not a precise common spatial relation. Refine the block positions and lower word gap while retaining one occurrence and word-boundary breaks.
+- Inspect pale fringes around the lower text at native size and remove any effect beyond necessary raster smoothing.
+- Faint diagonal/mottled variation is visible across the native white field, including the large empty interval between the two text blocks. Texture is explicitly forbidden.
+- The faint surface variation has an unknown source. Pale gray fringes below the lower 숨 and along parts of the large black strokes may include raster smoothing rather than a separate finish effect; no physical shadow or printing behavior is inferred.
+- The large central white interval contains faint diagonal streaks → the spatial pause also exposes a surface finish that the request forbids → make that field uniformly white and clean displaced letter fringes.
+- The two blocks rely on the same familiar bold sans treatment as the rest of the set → the individual spatial idea is clear but typographic roles remain conventional → refine their optical spacing and relative block placement, using the words themselves rather than adding decoration.
+- The large native white interval between the two text blocks shows faint diagonal streaking, also perceptible elsewhere in the empty ground. The requested ban on texture is not fully met.
+- The source of the faint white-field streaks is unknown. Pale fringes close to the letter boundaries may partly come from antialiasing and are not assigned to a deliberate shadow or a production technique.
+- Faint native-size grain/diagonal mottling remains in white field and broad black strokes. Explicit flat-white/no-texture conditions are not fully met after two own corrections.
+
+### R6-C1-M5: FAIL → FAIL
+[1024 × 1536 선택 원본](images/native/730b15f633a4a36e71e52db769b3c1cbca8d6c6d171291256f7de64411f6894d.png) · [최초 원본](images/native/730b15f633a4a36e71e52db769b3c1cbca8d6c6d171291256f7de64411f6894d.png) · [선택·보정 기록](raw/production/R6-C1-M5/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 3 | 4 | 3 | 3 | 2 | 3 | 3 |
+| craft | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| portfolio | 2 | 3 | 3 | 3 | 3 | 3 | 3 |
+
+잔여 관찰:
+- editorial/content_form=3: The three word groups rise in small steps from lower left to upper right across the middle. The open word intervals reflect a pause, but the rising baseline supplies motion whose specific connection to the copy remains loose.
+- editorial/typography=3: The three groups use coherent heavy Hangul of roughly equal syllable height. The repeated baseline shifts are readable, but the two equally broad separations and stepped placement feel more like a positioning exercise than an exact typographic account of 사이.
+- editorial/space=3: The phrase runs from roughly the left eighth to the right edge margin, with generous blank space above and below. The central word remains isolated between two large gaps; the shallow rise barely activates the much larger vertical field.
+- editorial/image_material=2: The native middle 숨 has a faint light-gray edge below its straight bars, and fine pale variation is visible in the otherwise white upper field. These small finish traces are uncertain in origin but work against the literal flat restriction.
+- editorial/emotion_control=3: The shallow rising path gives the sparse phrase a mild lift. Its force stays contained because the word sizes are similar, though that directional lift is less precisely tied to an interval than a clearly articulated gap would be.
+- editorial/ai_slop=3: All syllables are intact and there are no decorative data fragments. The equal heavy word groups, shallow staircase, and faint finish traces retain a reusable layout habit rather than demonstrating entirely specific editing for this sentence.
+- craft/content_form=3: The three word groups climb from lower left to upper right across the middle band, with white pauses between them. This creates a readable rhythm, but the upward progression gives 사이 no particular role beyond being the last and highest block; its relation to the phrase is only partly specific.
+- craft/hierarchy=3: At thumbnail320 the eye can follow the left-to-right staircase, and at720 all words are equally easy to read. Similar heavy sizes provide little difference in emphasis; the elevated right-hand 사이 competes with the lower-left start rather than producing a strongly directed entry.
+- craft/typography=3: At native each group retains the same heavy stroke language, and the counters of both 숨 and the round ㅇ in 이 remain open. The staggered baselines deliberately interrupt one line, but the word gaps and three equal-weight blocks feel like separately placed units rather than a tightly resolved phrase.
+- craft/space=3: The phrase spans almost the full width around mid-height, with generous top and bottom fields. The three upward offsets are visible and orderly, but they introduce an extra spatial rule whose connection to the two breaths is not as direct as an actual shared interval.
+- craft/image_material=3: At native the Korean outlines are coherent, yet faint mottled diagonal variation persists across the otherwise empty white field, with small pale fringes at black edges. The modest artifacts are visible finish residues in a design that has no other material system to justify them.
+- craft/emotion_control=3: The three rises supply motion without adding ornaments or icons. The result is controlled and lively, but the staircase imposes a fairly familiar upbeat rhythm on this particular phrase; the visible treatment does not develop a more precise emotional relation to its pauses.
+- craft/ai_slop=3: The wording is intact and there is no simulated information. The equally bold ascending word blocks are a transferable typographic habit, and the native background grain/edge haze provide an unnecessary common finish package. Both are located observations, not a claim of generated origin.
+- portfolio/content_form=2: The word blocks rise in a shallow staircase across the middle: 숨과 low left, 숨 higher center, 사이 higher right. The two substantial gaps can suggest a pause, but the ascending motion supplies a generic dynamic that is not clearly tied to 'between'; the layout could carry many other short phrases.
+- portfolio/hierarchy=3: At thumbnail320 the three separate word blocks are visible and the conventional left-to-right sequence is easy to recover. Their similar cap heights give no strong initial entry beyond that sequence; usage720 readability is nevertheless complete.
+- portfolio/typography=3: At native the glyph shapes are coherent, upright, and consistently bold. Internal word spacing is compact and the interword gaps are much larger; the block steps are clear, but the uniform weight and near-uniform height make the phrase's roles only lightly differentiated.
+- portfolio/space=3: The rising band spans almost the full width with reasonably matched outer margins and large white areas above and below. The text concentrates around the page's middle; most of the vertical field is passive, and the shallow rise provides limited additional spatial reasoning.
+- portfolio/image_material=3: The three blocks share one flat black treatment, with no incompatible lighting or perspective. Native white expanses have faint diagonal streaking and some glyph edges have pale fringes, so the otherwise simple surface is not completely clean.
+- portfolio/emotion_control=3: The modest rise from left to right adds motion without ornament and the strong black words remain controlled. That motion feels more like a general energetic title arrangement than an especially precise held interval, so the emotional specificity is moderate.
+- portfolio/ai_slop=3: There are no garbled syllables, fake information marks, or excessive visual effects. However, the familiar bold sans plus a diagonal word staircase is broadly reusable, and native field/edge artifacts remain; the low content specificity is not cured by its monochrome appearance. No authorship is claimed.
+- Faint surface variation and pale edge contours remain unresolved under the explicit no-texture brief. If present in the artwork, make the background uniform white and the letter fills solid black, removing offset effects; verify the unaltered supplied-size result.
+- The rising baseline changes the mood without clearly defining the space between breaths. Make the rise and the two word intervals serve a single visible relation, or simplify the shift.
+- The broad empty upper/lower fields are balanced but weakly engaged. Adjust the scale or vertical placement only in relation to the word sequence, keeping the requested word-only vocabulary.
+- The strict flat finish is not confirmed: the native middle 숨 shows faint pale edging under its horizontal/bottom strokes, and the large white field has subtle fine variation. No distinct picture, shape, border, divider, ornament, or extra wording is visible.
+- At native detail the blank field has very faint fine surface variation, and some strokes have pale gray edging. The viewer does not let this review reliably distinguish a source texture/shadow from rasterisation or display behaviour. This uncertainty is retained rather than certified as a flat-finish pass.
+- Faint background variation undermines the explicit no-texture requirement; remove it.
+- The three ascending baselines supply motion more clearly than a copy-specific interval. Refine the word spacing or offsets around the two 숨 units so the relation follows the wording.
+- The first and last blocks compete at thumbnail size because both have similar heavy emphasis. Reconsider their relative scale or placement to clarify entry without introducing new content.
+- The native white field contains faint diagonal/mottled surface variation above and below the ascending words. The brief explicitly disallows texture.
+- The origin of the faint background variation is unknown. Pale gray edges near the first 숨 baseline and central 숨 bar may include ordinary raster smoothing; I cannot establish that they are a deliberate shadow.
+- The three upright word blocks ascend by similar small steps → a generic rising-title gesture competes with the particular idea of an interval → give one gap or one word relationship a deliberate semantic role, using only placement, scale, and letter spacing allowed by the request.
+- Most vertical white space sits passively above and below a shallow central band → the 2:3 field contributes little beyond framing → tune band position or the gap proportions so the field itself participates in the pause.
+- Faint diagonal background streaks and pale native edge fringes → the explicitly plain finish remains imperfect → replace the streaked ground with uniform white and clean the letter boundaries without adding effects.
+- The native upper and lower white expanses show very faint diagonal streaking. That visible nonuniform ground conflicts with the requested absence of texture.
+- The very faint ground pattern's cause cannot be established from this viewer. Light fringes around some black strokes may include antialiasing and are not proof of added shadow objects. The ascending placement is clearly visible; its intended symbolism is not known.
+- 넓은 흰 영역에 아주 옅은 사선 결과 비균일 색 흔적이 남아 단색·무질감 조건을 엄격히 통과했다고 말할 수 없다.
+- 일부 가로획 아래 매우 얇은 회색 평행 흔적이 남아 보이며 정상 앤티앨리어싱과의 구별이 일부 불확실하다.
+
+### R6-C2-M1: NOT_ASSESSABLE → NOT_ASSESSABLE
+[1024 × 1536 선택 원본](images/native/a08327de9739b96c8b9e249f845e9ad48632f88e7a2e2e177afde1c88ddfafab.png) · [최초 원본](images/native/1271d5d2d36b47634b255c588ac7c80abac8c9ac43699c872cc2bd7fd95d3f48.png) · [선택·보정 기록](raw/production/R6-C2-M1/selection.json)
+
+미수락·부분 관찰: 통과 판정에 사용하지 않음. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 3 | 3 | 3 | 4 | 3 | 3 |
+| craft | 4 | 4 | 4 | 4 | 4 | 3 | 4 |
+| portfolio | 4 | 4 | 3 | 3 | 4 | 3 | 3 |
+
+잔여 관찰:
+- editorial/hierarchy=3: Top cream title tag leads to a cream date/venue tag, a large blue conditions tag and a bottom cream registration tag. The groups are easy to find at usage720. At thumbnail320 the blue card dominates much of the lower middle, while its language invitation and preparation begin with very similar white weights; the action priority inside the card is only moderate.
+- editorial/typography=3: Usage720 shows intact high-contrast black-on-cream and white-on-blue lettering. The venue wraps after the slash, leaving YEOUL LAB alone below; the deadline takes three short lines. Blue-card rules separate the sentences, but language and preparation receive similar large bold treatment and create several equally strong starts.
+- editorial/space=3: Near-full-width tags stack from top to bottom, with ropes entering at the left and key/clip occupying the upper-right gutter. Text insets are generally stable, but the venue tag is narrowed by the props and the cards, rope loops and red backing nearly fill the perimeter, limiting clear breathing room.
+- editorial/emotion_control=3: Cream paper, blue conditions panel and red backing give an inviting workshop kit tone. Tag shapes have a real semantic role, but repeated rope holes, two loose props and four layered cards accumulate more display activity than the short event needs.
+- editorial/ai_slop=3: Lettering is coherent and tags are relevant to names. The multiple beveled labels, decorative cords, shiny key and binder clip also form a familiar assembled-stationery package; their accumulation makes the effect system noticeable before a specific act of renaming. This residual is recorded despite competent 3D material execution.
+- craft/emotion_control=3: The tag system, strong blue conditions panel and red-backed application panel create a practical, tactile tone. Repeated cords on every tag plus two loose objects add more stationery display than the reading task needs. The expression is coherent but not maximally selective.
+- portfolio/typography=3: Usage720: text stays within each tag and the blue tag's white rules group meaningful conditions. Most strings use the same heavy weight; the date nearly fills its tag width and the footer URL is markedly smaller. The system is functional but the tag surfaces do more organizing work than typography.
+- portfolio/space=3: Native: the cream, blue, and red-backed tags are stacked with narrow gaps and large left cord/hole areas; the blue tag extends almost to the right edge. The pile has a deliberate silhouette, but crowded surfaces and the upper-right key/clip leave few quiet transitions between information levels.
+- portfolio/emotion_control=3: Usage720: cream, saturated blue, red backing, repeated cords, a gold key, and a black clip all contribute to a tactile stationery mood. Blue usefully isolates participation, but the red underlayer and two loose props add visual activity without carrying distinct information.
+- portfolio/ai_slop=3: Native, upper-right and lower-right: the loose key/clip and conspicuous red backing are familiar mockup props layered onto an already complete four-tag concept. No strong letter corruption is visible, but this accumulation makes the ready-made stationery package more prominent than the particular naming event; it remains a residual editing concern, not proof of production method.
+- Upper right and left perimeter: key, clip and several rope segments surround four substantial tags → the stationery package competes with participation information → remove one redundant prop/cord gesture and give the event/registration groups more clear space.
+- Date/venue tag: the slash ends the Korean venue line and YEOUL LAB sits alone → one location reads as a less cohesive unit → reclaim gutter width or rebalance the venue lines as one compact group.
+- Blue tag: language and preparation start in similar large bold white type → the required bring-one-object action is not clearly prioritized inside the strongest colored panel → strengthen that sentence through proportion/spacing while keeping exclusions readable.
+- The glossy key/clip and layered-tag effect remain a generic package → specificity is weaker than material competence → edit the object-to-name relationships before adding further finish. AI-slop 3 prevents an unqualified high-end designation.
+- Cords are cropped at the left edge, so pixels do not establish whether the separate tags share a continuous cord or any actual physical linkage. This is not asserted as a rendering defect.
+- Language and bring-item sentences have similar large white weight on the blue tag → the practical preparation instruction does not lead as strongly as it could → differentiate their weight or spacing while retaining all required copy at usage720.
+- Every tag has a cord and the upper right contains both a key and a clip → repeated prop emphasis competes with the title/date cards → reduce one ancillary prop or repeated cord element and return that space to the information groups.
+- Cords exit the left crop rather than showing complete paths → actual attachment/assembly remains unverified → judge the visible material coherence only; if a fully convincing assembly is intended, clarify those junctions in the illustration.
+- The time-range dash is transcribed as an en dash by visible form; pixels do not establish the underlying Unicode code point.
+- Complete cord attachment paths leave the crop; the image does not verify an actual physical assembly.
+- Every tiny URL character is not independently certain at thumbnail320; the full URL is legible at usage720.
+- The time-range separator was initially read as a short hyphen and remains recorded that way; its equality to the supplied en dash is unresolved from pixels. Verify that separator directly in the displayed source text before certifying exact-copy compliance.
+- The upper-right key and clip plus the red backing add three accents to an already explicit label system; removing or reducing redundant props would make the information-bearing tags more decisive.
+- The nearly full-width date and much smaller footer URL create uneven type pressure; adjust those tag/text proportions so their scale feels deliberate while retaining complete phone-size legibility.
+- Unresolved exact-copy punctuation discrepancy: required time range uses –; the preserved pixel reading uses -. The unequal transcription is retained, so exact-copy compliance is not certified. This is not a confirmed wording omission.
+- The printed time-range stroke looks short; raster pixels cannot establish hyphen versus en-dash code point. Initial hyphen observation is unchanged after cross-check.
+- Most body groups remain uniformly heavy bold.
+- Bilingual middle dot has broad visual side spacing; words/punctuation match but exact raster whitespace is uncertain.
+- Subtle paper-face microtexture remains; no print/max-resolution/photo-preservation certification.
+- 절차·무결성: R6-C2 summary procedure/integrity is not PASS
+- 절차·무결성: editorial recorded equality contradicts transcription: X3557
+- 절차·무결성: editorial recorded equality contradicts transcription: X6105
+- 절차·무결성: editorial recorded equality contradicts transcription: X8148
+- 절차·무결성: craft recorded equality contradicts transcription: X6105
+- 절차·무결성: craft recorded equality contradicts transcription: X8148
+- 절차·무결성: portfolio recorded equality contradicts transcription: X3557
+- 절차·무결성: portfolio recorded equality contradicts transcription: X6105
+- 절차·무결성: portfolio recorded equality contradicts transcription: X8148
+
+### R6-C2-M2: NOT_ASSESSABLE → NOT_ASSESSABLE
+[1122 × 1402 선택 원본](images/native/2c17f29a54e16be19cbf33f373410f6ac661d695deb4a6d68de1be631df4fa44.png) · [최초 원본](images/native/2c17f29a54e16be19cbf33f373410f6ac661d695deb4a6d68de1be631df4fa44.png) · [선택·보정 기록](raw/production/R6-C2-M2/selection.json)
+
+미수락·부분 관찰: 통과 판정에 사용하지 않음. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 4 | 3 | 3 | 4 | 4 | 4 |
+| craft | 3 | 4 | 3 | 3 | 3 | 3 | 3 |
+| portfolio | 4 | 4 | 3 | 4 | 4 | 4 | 3 |
+
+잔여 관찰:
+- editorial/typography=3: The Korean two-line title fits between the portraits, with the English title immediately below. Lower half uses intact centered heavy sans type and coral rules. The preparation line is larger than the surrounding conditions, but the repeated centered rows and mostly one weight keep the footer closer to a conventional information table than a finely differentiated composition.
+- editorial/space=3: Opposed cropped shoulders and hands create a balanced top frame around the box, with the table edge providing a clear divider. The lower rows share centered alignment and near-full-width rules; each is orderly, but the long preparation row and repeated separators leave relatively little variation in the lower half.
+- craft/content_form=3: Upper half: two people pass a small box bearing a blank hanging tag. This connects the event to participants and an everyday object, but the visible action stresses handing over a possession rather than visibly changing its name. The subject is conveyed with a familiar workshop illustration rather than a distinctive naming idea.
+- craft/typography=3: Korean title has consistent heavy strokes, and the English subtitle has a stable single-line relationship beneath it. The lower half uses centered bold lines almost throughout; the bring-item sentence spans nearly the full width. Grouping is functional but lacks finer differences in weight and line measure.
+- craft/space=3: The edge-cropped people frame a clear central title and object without textual overlap. The illustration/table occupies about the upper half, leaving the lower half as a dense centered checklist. The long bring-item line approaches both edges more closely than neighboring centered blocks; spacing is consistent in broad bands but less precise at sentence level.
+- craft/image_material=3: Native center: black contour lines, blue clothing, peach skin and the coral tabletop maintain a coherent flat illustration system. The giver’s grip and receiver’s lower fingers are compressed into a few joined curves, with limited separation where the hands approach the box. This may be intentional simplification, but the contact contours are less carefully resolved than the large faces and clothing.
+- craft/emotion_control=3: Smiling participants and a plain tagged object make the event approachable, and the palette supports that tone without piling on effects. The conventional friendly tutorial character treatment has limited specificity to this event. Coral rules organize the information but add no distinctive emotional idea.
+- craft/ai_slop=3: Upper illustration and lower checklist use a familiar cream/blue/coral community-workshop package. No garbled letters or obvious accidental object melting are visible, but the generic characters and coarse hand-contact contours leave editorial and finish concerns. The score does not identify authorship; these residuals prevent an unqualified high-end claim.
+- portfolio/typography=3: Usage720, lower half: the preparation sentence stays on one long, bold line and is readable, while the other centered statements each occupy a row. Consistent glyph shapes support comprehension. The repeated heavy centered treatment has less finesse than the image framing, and the long preparation line approaches both side margins.
+- portfolio/ai_slop=3: Native and thumbnail320: the smiling two-person exchange scene above a centered, ruled information table is a familiar community-poster package. The object tag links it to this content, and the illustration is coherent, but the naming act remains mostly a blank-label cue. No authorship inference is made; the generic editorial structure is the residual concern.
+- Lower half: four repeated coral separators and centered heavy rows → practical information reads as a conventional table and registration has limited extra emphasis → reduce redundant separator weight and give the bottom deadline/URL a clearer group boundary.
+- Upper half: the bilateral portrait scene uses a familiar workshop-illustration formula → the transfer is clear but naming remains a blank-tag cue → make the existing tag/title relationship more distinctive without adding words.
+- Receiving hand at center-right: finger contours partly merge → local anatomical finish remains uncertain → clarify the overlapping contour in any later revision while retaining the simple illustration style.
+- The receiving hand below/right of the box has simplified, partly overlapping finger outlines. I cannot resolve whether every contour represents separate anatomy; the shared drawing style supports intentional simplification, so no definite anatomical error is claimed.
+- The central action is passing a tagged box → the illustration can be read as exchanging possessions rather than changing names → make the existing blank tag more central to the hand interaction without adding text.
+- Joined finger/grip contours near the box are less distinct than faces and clothing → the key action has a coarser finish → clarify overlaps and finger separation within the same flat drawing style; stylization itself is valid.
+- The bring-item sentence is very wide and the lower checklist is almost uniformly bold → sentence-level spacing and emphasis are less controlled than the overall bands → adjust its line measure and supporting text weights while keeping all copy readable at usage720.
+- The time-range dash is transcribed as an en dash by visible form; pixels do not establish the underlying Unicode code point.
+- Simplified joined finger contours may be intentional stylization; no extra-finger or authorship claim is made.
+- Exact tiny supporting punctuation is not certified from thumbnail320 alone; usage720 is fully readable.
+- The upper scene shows giving an object more clearly than changing its name; strengthen the existing tag/title relationship so the specific activity reads beyond a general exchange illustration.
+- The centered lower rows repeat the same heavy type and rule treatment, making conditions feel like a table; use subtle size/spacing distinctions to help preparation and application lead.
+- The long preparation line nearly spans the full width at 720; reserve a little more side space while preserving its current prominence and readability.
+- The time-range stroke was read as an en dash; its precise Unicode code point cannot be established from raster pixels.
+- The receiver's fingers are simplified at full-poster scale; no clear anatomical defect is established, and fine anatomy remains less certain than the exchange gesture.
+- Deadline and date use more condensed type than title and bring instruction; still readable at 720.
+- Illustration uses a familiar editorial cartoon style.
+- Fine participation copy is not fully readable at 320-longside thumbnail; readability inspected at 720 width.
+- Maximum resolution and print readiness are not certified.
+- 절차·무결성: R6-C2 summary procedure/integrity is not PASS
+- 절차·무결성: editorial recorded equality contradicts transcription: X3557
+- 절차·무결성: editorial recorded equality contradicts transcription: X6105
+- 절차·무결성: editorial recorded equality contradicts transcription: X8148
+- 절차·무결성: craft recorded equality contradicts transcription: X6105
+- 절차·무결성: craft recorded equality contradicts transcription: X8148
+- 절차·무결성: portfolio recorded equality contradicts transcription: X3557
+- 절차·무결성: portfolio recorded equality contradicts transcription: X6105
+- 절차·무결성: portfolio recorded equality contradicts transcription: X8148
+
+### R6-C2-M3: NOT_ASSESSABLE → NOT_ASSESSABLE
+[1254 × 1254 선택 원본](images/native/72abaefe24b92578dbe053eb66df0b1daf60d3c2a0796044340c05b4e9ea7fbf.png) · [최초 원본](images/native/b7e8710a999c16fa65ba5b2ba154d65b991f35ae48dfd76e55288b3736c5544a.png) · [선택·보정 기록](raw/production/R6-C2-M3/selection.json)
+
+미수락·부분 관찰: 통과 판정에 사용하지 않음. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 3 | 3 | 3 | 3 | 4 | 3 | 3 |
+| craft | 3 | 3 | 3 | 3 | 4 | 3 | 3 |
+| portfolio | 4 | 4 | 3 | 3 | 4 | 4 | 4 |
+
+잔여 관찰:
+- editorial/content_form=3: Top half: Korean title on lime and English title on blue, with an orange binder clip crossing the central seam, gives the bilingual exchange a visible bridge. The clip alone does not show renaming; the split-color/title device remains broadly reusable.
+- editorial/hierarchy=3: At thumbnail320 the two title columns dominate, followed by the date at mid-page. At usage720 all instructions are readable, but preparation, exclusion, eligibility and registration retain similar heavy weights; the participation sequence depends mainly on paragraph gaps.
+- editorial/typography=3: The upper Korean three-line block and English three-line block have intact, decisive silhouettes. Lower half: the bold date, venue and instruction rows share nearly the same voice, and the final URL runs almost the full width, reducing differentiation among actions.
+- editorial/space=3: A consistent left inset links the lower text groups and the split is exactly central. The orange clip occupies the title-to-date gap effectively, but the deadline and URL are compressed against the bottom margin; the final URL ends close to the right edge.
+- editorial/emotion_control=3: Lime/blue halves and the small orange bridge give a lively public-workshop tone. The color has a bilingual organizing role, but uniformly emphatic lower text makes routine exclusions sound as forceful as the invitation.
+- editorial/ai_slop=3: The bilingual split and center-crossing clip are tied to the copy, and lettering is intact. Nevertheless, the isolated glossy office object above a uniformly bold information list is a familiar reusable poster package; renaming remains mostly verbal. This is a residual editorial weakness, not an authorship claim.
+- craft/content_form=3: Upper half: Korean title on lime and English title on blue are joined visually by an orange binder clip across the central seam. The two languages and ordinary small object relate to the event, but the clip and color split convey joining more clearly than changing a name; the concept is functional rather than fully specific.
+- craft/hierarchy=3: At thumbnail320 the two title masses lead, with the date immediately below the clip. At usage720 the language, bring-item, exclusion, eligibility, deadline and URL blocks are all readable, but nearly all use similarly heavy black type. The lower instructions compete instead of giving the bring-item and application steps a distinct second level.
+- craft/typography=3: Upper left Korean and upper right English both occupy three tight bold lines; their different letter widths are deliberately fitted to the two halves. Lower single-line instructions and the URL remain intact, but the nearly universal bold weight and compressed long lines reduce differentiation and breathing room.
+- craft/space=3: Usage720: text follows a consistent approximately 24-pixel left inset. The centered color seam continues through the full-width date and body rather than organizing their groups; the URL at about y=675–701 sits close to the bottom. The layout is balanced but not finely resolved in its large/small spatial relationships.
+- craft/emotion_control=3: The lime/blue field and small orange clip produce a lively, accessible event tone. The persistent heavy black typography from title through exclusions and application sentence sustains the same loudness, so the energy is appropriate but insufficiently modulated.
+- craft/ai_slop=3: Whole poster: oversized bilingual sans blocks, split bright background and isolated glossy stationery object form a familiar reusable poster package. Letters and clip edges are clean; the residual issue is generic editorial habit rather than proof of any maker or generation process.
+- portfolio/typography=3: Usage720, lower half: Korean glyphs and Latin punctuation remain readable, and the English title is grouped into three complete words. Date, instructions, exclusion, and URL all use similarly heavy sans-serif strokes; this works but gives the supporting information little tonal range.
+- portfolio/space=3: Native: the seam at the exact vertical midpoint anchors the clip and title columns. Full-width body lines repeatedly cross that seam, while the deadline and long URL sit close to the lower edge; the compact square is balanced but crowded below the spacious headline.
+- Lower half: nearly every line uses heavy black type → preparation, exclusions and registration compete → reserve the strongest secondary emphasis for the bring-one-object instruction and deadline while keeping every supplied sentence readable.
+- Bottom: the long URL sits close to both side edges and the last line close to the bottom → the action block feels squeezed → free vertical room above the footer and give the unchanged URL a larger clear margin.
+- Center: a single clip bridges colored halves without depicting a changed name → the idea can read as a general stationery event → connect the existing bilingual title more directly to the object/label relationship. AI-slop 3 leaves this outside an unqualified high-end designation.
+- Nearly all lower text is equally bold → preparation, exclusions and application compete for attention → keep the exact copy while differentiating weights and spacing, with the bring-item and deadline/URL groups clearly dominant.
+- The vertical color seam crosses every full-width text group → the strong split lacks an information role beyond the title → give the split a clear bilingual/header role or align the lower groups independently of it.
+- The long URL sits near the bottom and side limits → the application step has little visual breathing room → increase its safe visual inset by reallocating title/body spacing without reducing usage720 legibility.
+- The time-range dash is transcribed as an en dash by visible form; pixels do not establish the underlying Unicode code point.
+- The similarly heavy preparation, exclusion, eligibility, and application lines in the lower half reduce scanning distinctions; vary size or weight within the supplied copy while retaining the current legibility.
+- The full-width deadline and URL near the bottom leave little optical breathing room; reduce headline height slightly or redistribute the inter-group gaps.
+- The seam/clip concept communicates joining more directly than changing names; strengthen the connection between the existing title and object placement without adding copy.
+- The time-range stroke was read as an en dash; its precise Unicode code point cannot be established from raster pixels.
+- EXCHANGE still has narrower proportions than OBJECT and NAME; full uniform-font correction was not achieved.
+- Deadline remains the smallest body line but is legible at720.
+- Original-detail tool blocks rendered tiny previews; useful full native1254x1254 inspection used the same file displayed at high detail.
+- 절차·무결성: R6-C2 summary procedure/integrity is not PASS
+- 절차·무결성: editorial recorded equality contradicts transcription: X3557
+- 절차·무결성: editorial recorded equality contradicts transcription: X6105
+- 절차·무결성: editorial recorded equality contradicts transcription: X8148
+- 절차·무결성: craft recorded equality contradicts transcription: X6105
+- 절차·무결성: craft recorded equality contradicts transcription: X8148
+- 절차·무결성: portfolio recorded equality contradicts transcription: X3557
+- 절차·무결성: portfolio recorded equality contradicts transcription: X6105
+- 절차·무결성: portfolio recorded equality contradicts transcription: X8148
+
+### R6-C2-M4: NOT_ASSESSABLE → NOT_ASSESSABLE
+[1024 × 1536 선택 원본](images/native/06e583333b88d9d41d478d80d3daf563dbdbd3a062d8b7572d6c28cb77611cce.png) · [최초 원본](images/native/06e583333b88d9d41d478d80d3daf563dbdbd3a062d8b7572d6c28cb77611cce.png) · [선택·보정 기록](raw/production/R6-C2-M4/selection.json)
+
+미수락·부분 관찰: 통과 판정에 사용하지 않음. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 3 | 3 | 3 | 2 | 4 | 3 | 3 |
+| craft | 3 | 3 | 4 | 2 | 4 | 3 | 3 |
+| portfolio | 3 | 3 | 3 | 3 | 4 | 3 | 3 |
+
+잔여 관찰:
+- editorial/content_form=3: Middle third: a recognizable spoon lies between one long empty outline and one shorter empty outline. These can suggest name fields, which fits the event, but their different lengths and detached positions do not make the naming relationship self-evident.
+- editorial/hierarchy=3: Thumbnail320 preserves the large Korean title, spoon and date. Usage720 makes all practical details readable, and orange singles out the URL. The language invitation beside the short blank box occurs above the date, while preparation and exclusions sit lower, so the editorial sequence is less direct than the visible size hierarchy.
+- editorial/typography=3: Top: the two-line Korean title and English block beside its second line form a deliberate interlock. Lower half: intact bold letters and straightforward line spacing support reading, but most detail lines receive the same strong weight; the language sentence is isolated into a separate two-line block.
+- editorial/space=2: From roughly 30% to 57% of the page, two empty frames and the horizontal spoon consume a large central band. Date, venue, preparation, exclusions, eligibility and registration then occupy the lower 40%. The frames have neither a shared edge nor an obvious attachment to the spoon, leaving the allocation of this band unresolved.
+- editorial/emotion_control=3: Pale green with dark green type makes a calm invitation, and orange gives the actual URL a useful accent. The blank frames are restrained rather than effect-heavy, but their uncertain role introduces a form-like pause before the event information.
+- editorial/ai_slop=3: The spoon is an appropriate small object and there are no fake logos, numbers or microtext. However, a floating polished cutout plus two disconnected empty boxes remains a familiar template vocabulary; the boxes do not yet demonstrate a specific editorial idea. The weakness is in relation and space, not the use of realism or green.
+- craft/content_form=3: Center: a recognizable everyday spoon sits between a full-width empty rectangle and a shorter empty rectangle. These can suggest spaces for new names, but their unequal sizes and lack of a visible relation to the spoon leave that reading tentative. The ordinary object connects to the request; the naming mechanism is only partly articulated.
+- craft/hierarchy=3: Thumbnail320 preserves the large Korean title, spoon and bold date. Usage720 puts the date around y=660 after title, empty field, spoon and a separate language block. Preparation, exclusions and application are legible below, but the empty forms delay the practical reading sequence.
+- craft/space=2: Usage720: the empty rectangle at about y=320–383, spoon at y=405–522 and smaller rectangle at y=550–615 form three separately spaced structures before the date. Their boundaries do not establish a common label/object relationship, while all participation information is compressed into the lower portion. This is an unresolved allocation of space, not merely generous whitespace.
+- craft/emotion_control=3: Mint, dark green and the quiet horizontal spoon establish a calm invitation. The orange URL makes the application destination distinct, though at thumbnail320 it is less visually robust than the darker body text. The tone functions; the unresolved rectangles contribute little emotional precision.
+- craft/ai_slop=3: The two empty outlined boxes occupy major information-like positions without an unambiguous purpose. Together with the isolated object on a smooth field, they retain a generic product-poster habit. Text and metal are technically coherent, but the empty forms should be related more specifically to naming before this is treated as a high-end candidate.
+- portfolio/content_form=3: Usage720, upper-middle: a familiar metal spoon and two empty outlined rectangles can suggest an object awaiting a new label. Their relation is only implied: one rectangle is above the spoon, while the smaller one shares a row with the language sentence. The act of renaming is less specific than the literal object.
+- portfolio/hierarchy=3: Thumbnail320: large Korean title, empty frame, spoon, and another empty frame occupy the initial scan before the date and participation instructions. All action copy is readable at usage720, but the blank frames invite attention as though information might be missing.
+- portfolio/typography=3: Usage720: the English subtitle fits beside the second Korean title line, and the lower instructions are intact with sensible line lengths. Almost all supporting lines share a heavy weight; the smaller deadline and orange URL are distinctions, but preparation/exclusion/eligibility have little typographic modulation.
+- portfolio/space=3: Native: the spoon spans most of the page width and is centered under the long rectangle. The small rectangle below it is aligned left while the language sentence begins far to its right. This produces a disjointed middle tier and consumes substantial space above a dense, left-aligned information block.
+- portfolio/emotion_control=3: Usage720: pale green and dark green keep the overall register calm, with the orange URL as a useful accent. The pair of blank outlined boxes is less controlled because its purpose is unresolved and can make the poster feel like an unfinished form.
+- portfolio/ai_slop=3: Native and usage720, both blank rectangles: they resemble empty information containers without explicit content or a clear connection to the spoon. This is a visible form-imitation risk rather than a proven synthesis defect. The spoon is technically coherent, but the generic object-plus-bold-copy package and vacant frames remain insufficiently edited.
+- Middle: the long frame above and short frame below are detached from the spoon → they consume attention without clearly explaining the name exchange → attach or align the blank-field motif to the object and reduce it to the amount of space the relation needs, without adding copy.
+- Lower 40%: all action details are pushed beneath the large object/frame band → practical reading becomes a dense second phase → transfer some central space to the preparation/exclusion/registration groups.
+- Lower text: similar heavy weights across instructions and restrictions → emphasis relies mostly on position → give preparation and the deadline a clearer size or spacing role. AI-slop 3 preserves the unresolved template-like relation; no unqualified high-end claim is made.
+- The intended relationship of the two empty rectangles to the spoon is not determined by pixels; they may be naming fields. This uncertainty is retained rather than treating them as definitely meaningless decoration.
+- Full-width empty field above the spoon and a shorter field below are disconnected → the naming idea reads as unresolved placeholder geometry and pushes practical information downward → place the empty forms in a visibly related arrangement with the spoon or remove the redundant form; add no wording.
+- Language block floats beside the short field before the date → its role interrupts the date-to-preparation sequence → regroup it with the other participation conditions while preserving the full sentence.
+- Orange URL is weaker than the dark body at thumbnail320 → the application destination loses emphasis at small size → darken or increase its visual contrast while preserving the exact URL.
+- The visible time-range dash is readable, but its underlying Unicode code point cannot be certified from pixels.
+- The two empty rectangles may intentionally represent new-name fields; their precise purpose is not labeled or otherwise unambiguous.
+- Every tiny URL character is not independently certain at thumbnail320; the full URL is legible at usage720.
+- The two blank frames above and below the spoon can look like omitted fields, slowing the path to date and instructions; relate them unmistakably to the spoon using placement, or remove one.
+- The small frame beside the language sentence gives that sentence an arbitrary form-like context; align the existing text and object-label areas as one clear relationship.
+- The lower preparation, exclusion, and eligibility lines share heavy emphasis; introduce clearer spacing or weight distinctions while keeping every supplied string readable.
+- The time-range stroke was read as an en dash; its precise Unicode code point cannot be established from raster pixels.
+- Legibility was inspected at native 1024x1536 and screen reductions, not on a physical phone or a printed poster.
+- At 213x320 thumbnail size the title, spoon, empty fields, date and address structure remain visible, but detailed body text is too small for full reading; the phone-use criterion was inspected at 720 width.
+- No peer posters or external critic feedback were inspected; whole-set diversity is owned by the coordinator.
+- 절차·무결성: R6-C2 summary procedure/integrity is not PASS
+- 절차·무결성: editorial recorded equality contradicts transcription: X3557
+- 절차·무결성: editorial recorded equality contradicts transcription: X6105
+- 절차·무결성: editorial recorded equality contradicts transcription: X8148
+- 절차·무결성: craft recorded equality contradicts transcription: X6105
+- 절차·무결성: craft recorded equality contradicts transcription: X8148
+- 절차·무결성: portfolio recorded equality contradicts transcription: X3557
+- 절차·무결성: portfolio recorded equality contradicts transcription: X6105
+- 절차·무결성: portfolio recorded equality contradicts transcription: X8148
+
+### R6-C2-M5: NOT_ASSESSABLE → NOT_ASSESSABLE
+[1122 × 1402 선택 원본](images/native/97711efce79374f8159d54c3efd5c42bc485cee8542d11916a35d5def9e14767.png) · [최초 원본](images/native/9fed66e6403d2d4de0c1a429ad42e0ed2dd8dd14924d567fde808978e327fc98.png) · [선택·보정 기록](raw/production/R6-C2-M5/selection.json)
+
+미수락·부분 관찰: 통과 판정에 사용하지 않음. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 4 | 4 | 3 | 4 | 4 | 4 |
+| craft | 4 | 4 | 3 | 3 | 4 | 4 | 4 |
+| portfolio | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
+
+잔여 관찰:
+- editorial/space=3: The large preparation block balances the clothespin/card on its right without contact. Title and date begin near the outer left inset, while the smaller body and deadline shift farther inward; the URL returns to a wider outer axis. These changing axes leave the lower composition less exact than the main pairing.
+- craft/typography=3: The condensed English heading pairs coherently with the broad Korean title, and the bring-item sentence is broken into three intact lines. In its second line the red emphasis ends inside the written unit 1개를, leaving 를 black; this visually splits the unit. Almost every remaining line is bold, limiting refinement despite sound legibility.
+- craft/space=3: Usage720: instruction at the left and clothespin/card at the right balance each other without contact. The supporting rows start around x=76 while the title/date start around x=40 and the URL around x=30; these changing insets do not form a clear secondary grid. The wide URL is also close to both side edges.
+- Left side: body/deadline use a deeper inset than title/date/preparation, and URL uses another axis → the lower editorial grid looks less settled → choose a consistent text axis or make the inset a clearer group relationship.
+- Center right: blank card and clothespin express labeling but remain a reusable still-life motif → the exchange idea is less distinctive than the practical hierarchy → strengthen the relationship between this card and the existing bilingual title while preserving all supplied wording.
+- Preparation block: red 1개 changes to black 를 within one phrase → the color change attracts a small extra pause → apply emphasis to the full quantity phrase or a complete phrase group.
+- Red emphasis stops after 1개 and leaves 를 black → color divides the written unit 1개를 → apply one color to the complete unit without altering the sentence.
+- Title/date, supporting rows and URL use three different left insets → lower information groups feel less deliberately aligned → establish a shared grid or a clearly consistent secondary inset.
+- Isolated clothespin and blank card on a pale field remain a familiar object layout → specificity relies heavily on the instruction text → strengthen the spatial relation between the blank naming surface and the title/instruction, without adding copy.
+- The time-range dash is transcribed as an en dash by visible form; pixels do not establish the underlying Unicode code point.
+- Exact punctuation in tiny supporting sentences is less secure at thumbnail320, although usage720 is fully readable.
+- The long red URL is close to both footer side edges; give it a little more breathing room by redistributing nearby vertical space or modestly narrowing its type without losing 720 legibility.
+- The bold English subtitle and very large preparation sentence compete strongly with the main title; a small weight or size adjustment could make their reading order more fluent.
+- The blank-card metaphor still implies labelling more directly than exchanging names; refine the relation of card, title, and preparation text through placement while keeping the copy unchanged.
+- The time-range stroke was read as an en dash; its precise Unicode code point cannot be established from raster pixels.
+- At native detail, wooden clothespin grain is more wavy/ridged and less natural after repair-2; paper texture is faintly swirled.
+- Condensed English title and URL remain visually tight but readable at 720.
+- Exact font/source punctuation encoding, print readiness and maximum supported resolution are not certified.
+- 절차·무결성: R6-C2 summary procedure/integrity is not PASS
+- 절차·무결성: editorial recorded equality contradicts transcription: X3557
+- 절차·무결성: editorial recorded equality contradicts transcription: X6105
+- 절차·무결성: editorial recorded equality contradicts transcription: X8148
+- 절차·무결성: craft recorded equality contradicts transcription: X6105
+- 절차·무결성: craft recorded equality contradicts transcription: X8148
+- 절차·무결성: portfolio recorded equality contradicts transcription: X3557
+- 절차·무결성: portfolio recorded equality contradicts transcription: X6105
+- 절차·무결성: portfolio recorded equality contradicts transcription: X8148
+
+### R6-C3-M1: FAIL → FAIL
+[1024 × 1536 선택 원본](images/native/5f1f6e275859614697ddcd7cd9bcb5701daf59ef74c5140889c674072ae441b8.png) · [최초 원본](images/native/a5206a66d7b61875bb2579b9fb52a23d2a1a9e71f31b9916523cd5b6e28e49a0.png) · [선택·보정 기록](raw/production/R6-C3-M1/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 3 | 3 | 3 | 4 | 3 | 3 |
+| craft | 4 | 4 | 4 | 3 | 3 | 4 | 3 |
+| portfolio | 4 | 4 | 3 | 4 | 3 | 4 | 3 |
+
+잔여 관찰:
+- editorial/hierarchy=3: The upper-left name, large two-line action and bold bottom benefit are three strong textual anchors around the clip. At thumbnail320 both name and action remain clear, but the bottom benefit competes for headline status rather than yielding a single easy descent to the URL.
+- editorial/typography=3: Korean forms are clean and the comma creates a sensible two-line break in the action claim. The name/action/benefit all have very heavy weights; the top groups are left aligned while the lower groups are centered, giving functional readability but a less unified typographic system.
+- editorial/space=3: The hand descends from upper-right toward the center-lower clip and the blank sheet extends left, a useful diagonal action relationship. The upper-left headline mass and separate centered footer divide the portrait into stacked advertising zones; cropped laptop left and books/pen lower-right add border weight without explaining the mechanism.
+- editorial/emotion_control=3: The warmly lit close-up and assertive action copy suit a simple practical product demonstration. Repeating heavy emphasis in the name, action and benefit, plus several office edge props, adds more promotional force than the small one-hand task requires.
+- editorial/ai_slop=3: The jaw opening is content-specific and all supplied lettering survives without fake annotations. A familiar plant/laptop/books/pen desk package surrounds it, and pad/lever fittings change across the set. The result is technically functional but retains reusable staging habits and a concrete product-identity residual.
+- craft/space=3: Upper-left type balances the torso and finger at upper right, with a deliberate opening between headline and product. The projecting memo sends the eye toward the lower pad. Bottom-right books and pen press close to the footer area and add a second diagonal; the separated top-left and centered-bottom text systems do not fully share an alignment.
+- craft/image_material=3: At native the brushed upper arm, pivot/coil, dark soft-looking pads, cork grain, matte memo, and skin are differentiated. The sheet projects into space from the lower-jaw area without a hand touching it; this can be a release instant, but the exact sheet support/contact is unclear. The upper-arm section also differs in appearance from X2995’s thinner leaf/olive blocks.
+- craft/ai_slop=3: The specific fingertip/lever/open-pad relationship and intact copy keep the image from being merely an effect package. The projecting sheet’s contact is pictorially unresolved, and the dark pads/deeper upper arm do not match X2995’s visible treatment. Fix the sheet-contact explanation and shared hardware before certifying the finish as a high-end candidate.
+- portfolio/typography=3: Brand, action sentence and bottom benefit all use heavy black Korean; descriptor/material/URL are lighter and fully legible at720. Repeated heavy groups flatten distinctions → reduce footer benefit size/weight.
+- portfolio/image_material=3: Native steel grain, matte pads, cork and skin are differentiated; base has a visible shadow. The projecting sheet has no clearly resolved support point at its right overlap → reveal definite pad contact or a visible insertion grip.
+- portfolio/ai_slop=3: Purpose-specific open jaw is clear, but apparently unsupported memo and repeated laptop/plant/notebook framing leave a polished catalogue habit. This is a visible staging/contact concern, not a penalty for photography → clarify the junction and edit redundant props.
+- Black inset pads and an angular rear tab differ from the other exposed fittings → the identity of one fixed product is less convincing → standardize jaw, pad and lever design across the five views.
+- Name, action and lower benefit all carry heavy headline emphasis → the reading has competing peaks → reduce benefit emphasis and connect the lower copy to one consistent alignment.
+- The open-mouth note contact is partly hidden → its relation to the lower pad is visually uncertain → expose the contact edge more clearly without claiming physical stability from the picture.
+- Laptop, plant and foreground books/pen repeat generic desk cues → the demonstration feels broadly packaged → simplify those edges and let the visible lever-to-jaw relation carry the image.
+- The same-structure requirement across the set remains unresolved: this exposed horizontal mouth with black inset pads and an angular raised rear tab differs from X1467's vertical front paddle and X9777's stacked front-facing blocks; even X2995 uses sage wraparound pads and a flatter rear-tab profile. Keep one pad fitting, jaw shape and hinge/lever structure across all five.
+- The blank note approaches the lower pad while the mouth is open; its support/contact is partially hidden, so actual physical stability cannot be inferred.
+- Paper occlusion and angle affect the closed-view comparison, but exposed pad fitting and lever silhouettes still do not establish a consistent product.
+- At thumbnail320 the material line's fine characters and separators are not independently reliable; usage720 and native permit full reading.
+- Memo projects left from an open clamp without a hand on the sheet → the exact release/insertion contact is unclear in a still → show an unambiguous paper-to-pad relationship or a clear captured release position.
+- Dark-pad/folded-looking upper arm contrasts with the olive blocks/thin exposed leaf of X2995 → a near-identical action composition appears to feature a different product finish/construction → keep one shared jaw/pad/lever design.
+- Bottom-right book/pen crop and another heavy desk sentence compete with the footer → the lower field is less controlled than the main action → simplify that crop and reduce secondary emphasis while retaining the exact copy.
+- The five-poster same-structure condition is not visually established. X2995 has a thin exposed upper steel leaf terminating in deep olive pad blocks; X8708 has a deeper folded-looking upper arm with dark underside pads; X9777 has two gray front blocks and a narrow curved raised rear lever; X1467 presents a broad tall steel front/side cheek with a dark edge strip. These visible jaw/arm finishes and silhouettes do not read as one fixed product construction across the set. Shared cork-cylinder/spring-clamp component categories are present. This is a set-level compliance failure, not a claim about actual operability.
+- Camera angle, jaw state, and paper occlusion explain some apparent shape changes. Exact hidden construction cannot be recovered from these photographs; the same-structure judgment concerns the visible differences, especially the exposed upper-arm and pad treatments.
+- The projecting sheet may depict a transient release/insertion moment. I cannot establish its support, motion, or equilibrium from a still; its hanging appearance is a visible ambiguity, not proof of an impossible physical mechanism.
+- Pixels establish depicted appearance only; they do not certify adult age, actual material composition, spring force, mounting, physical operation, authorship, capacity, or printing performance. The person appears adult and only one connected hand is shown.
+- Projecting memo lacks clear contact/grip → suspended-sheet ambiguity accompanies the clear open state → show a definite lower-pad touch or visible one-hand insertion.
+- Three heavy Korean copy groups → name/action/benefit compete → reduce bottom benefit emphasis.
+- Detailed pad/chassis differs across the set → same-product recognition is uncertain → confirm a consistent assembly in comparable angles.
+- The still clearly depicts pressed/open phase, but does not establish subsequent release or actual holding performance.
+- The blank memo projects left without a visible hand grasp. Its right edge overlaps the lower-pad area but support/contact is unresolved. An insertion/release instant is possible; I cannot conclude physical impossibility.
+- Dark inward pads/compact raised jaw differ in detail from sage caps in X2995 and grey front blocks in X9777. General structure recurs, but identical detailed geometry remains uncertain.
+- Single generated still cannot verify actual spring performance or certify a fabricated product.
+- Blank paper overlaps part of the lower pad, so its exact microscopic contact is partially occluded; both pads and the open gap remain readable.
+- 320 long-side view is for overall form; the smallest material copy requires the 720-width view.
+
+### R6-C3-M2: FAIL → FAIL
+[1024 × 1536 선택 원본](images/native/038c65b6b7858fc1e1a8cb6983ee11e922ccae9bf948bc8c3019dd69d5d4d75b.png) · [최초 원본](images/native/05c825d4dc4e60a46567121c0c29c5864223029edae081ead494b1ebb10e33fb.png) · [선택·보정 기록](raw/production/R6-C3-M2/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 3 | 3 | 3 | 3 | 3 | 4 | 3 |
+| craft | 4 | 3 | 3 | 3 | 3 | 3 | 3 |
+| portfolio | 4 | 3 | 4 | 3 | 4 | 4 | 3 |
+
+잔여 관찰:
+- editorial/content_form=3: The oversized memo at left carries every line and is visibly supported by the product below, connecting message and holder. However, the memo covers the operative jaw area and the front-paddle geometry differs from the clear opening versions, so the content-specific idea sacrifices the requested functional explanation.
+- editorial/hierarchy=3: The paper's large name leads, followed by descriptor and a linear sequence of spaced lines; all are readable at usage720. At thumbnail320 the sheet becomes the dominant object and the clip a small footer-like detail, which weakens the product/action priority.
+- editorial/typography=3: The black copy is grouped as a clean left-aligned column on the paper plane, with an emphatic name and smaller lines. Large, similar vertical intervals between action, specification, benefit and URL make these unlike information roles feel equally scheduled rather than tightly grouped.
+- editorial/space=3: The tall paper plane fills most of the left and middle frame while the connected hand occupies the lower-right; the cork anchors the bottom. A generous gap follows the URL before the clip, and the sheet covers the jaw area, so available space favors the text surface over the advertised mechanism.
+- editorial/image_material=3: At native size the paper texture, brushed steel face, small spring turns, nail/skin and coarse cork grain are distinct under a consistent warm light. The black front-pad edge is clear, but the opposite jaw and sheet-contact geometry are concealed, reducing material/mechanism completeness.
+- editorial/ai_slop=3: Printing the actual required copy on the memo is content-specific and letterforms are intact. The mostly hidden working mouth, changed paddle-shaped front and evenly separated catalog-like lines leave unresolved mechanism and editorial decisions; matte paper and minimal staging alone do not clear them.
+- craft/hierarchy=3: At thumbnail320 the white sheet and 온틈 are immediately visible, then the English label and serial copy lines. The clamp is a small object at the sheet’s bottom edge. At usage720 each line is readable, but the long vertical sequence of similarly separated lines prioritizes the copy sheet over the lever/opening explanation.
+- craft/typography=3: Native lettering follows the sheet plane with clean Korean strokes and an intact ONE-HAND hyphen. At usage720 the materials line is legible despite being the longest row. The English descriptor is visually broad, and the repeated generous vertical gaps between sentence/material/desk/URL rows give the sheet a straightforward list rhythm rather than a finely differentiated reading sequence.
+- craft/space=3: The oversized paper makes a purposeful tall rectangle with narrow margins above and left; the connected forearm/hand fits at right and the cork anchors the bottom. Because the sheet covers most of the clip and much of the person, the actual jaw and rear lever occupy a compressed strip below an expansive text field.
+- craft/image_material=3: At native the paper grain, cork chips, brushed steel cheek, coil highlights, and skin remain distinct; there is no indiscriminate texture overlay. Only a dark narrow pad edge is clearly visible beside the broad steel front/side cheek, and the sheet masks the opposing front-jaw construction and opening. Good surface rendering does not settle that construction.
+- craft/emotion_control=3: Warm light, a navy sleeve, and a quiet wooden desk keep the printed memo calm and direct. Effects do not overwhelm the text. The very large advertising sheet gives a catalog-display feeling, while the actual one-hand interaction is visually subordinate.
+- craft/ai_slop=3: The printed-copy-on-paper concept is specific and the glyphs are clean. The broad steel cheek/dark edge-strip construction looks different from the gray paired blocks in X9777; the sheet hides the operative area under a contacting finger. Resolve the consistent product and visible jaw relationship before calling the clean paper treatment a high-end result.
+- portfolio/hierarchy=3: At320 the large upper sheet/brand leads through stacked lines; the actual clip is small at the sheet’s lower edge. At720 text reads, but the product arrives after a long descent → enlarge the action relative to the page.
+- portfolio/space=3: The sheet fills most of left/centre height, arm occupies right and cork anchors bottom. This is coherent, but oversized blank intervals push the grip low → reduce internal leading and sheet height.
+- portfolio/ai_slop=3: On-memo typography is content-specific with no fake logo or decorative microtext. However, the polished photo conceals the two-pad action and the front treatment changes visibly across members → retain identifiable geometry and reveal contact; clean paper alone does not resolve that residual.
+- The tall padded paddle and low spring differ from other members' open opposing jaws → the same-product condition remains unresolved → use the same exposed clip design throughout.
+- The huge memo masks the second jaw and opening while the finger contacts the lever → the main functional claim is not visibly explained → reduce/reposition the paper or change the view to expose both pads and their gap.
+- Similar large gaps separate action, materials, benefit and URL → supporting information reads like an evenly spaced list → group action/benefit more closely and make materials/URL a smaller supporting group.
+- At thumbnail size the paper greatly outweighs the hardware → the object can read as a sign support instead of a memo mechanism → enlarge the clamp's share of the composition while keeping all copy readable.
+- The exposed tall vertical front paddle/black pad, low horizontal spring and rear lever differ from X2995/X8708's horizontal opposing-jaw mouth. The requested consistent product structure across five views is not convincingly satisfied.
+- The large sheet hides the second jaw and the opening interface while the fingertip contacts the rear lever. This view does not clearly demonstrate the claimed press-opens action; show the gap and both padded jaws with the same mechanism exposed.
+- The paper obscures the other jaw and much of the upper hardware. A second pad and any opening cannot be independently confirmed in this view.
+- Fingertip contact is visible, but force, release state and actual paper retention are not determinable from the still image.
+- At thumbnail320 the material sentence and its separators are too small for reliable full reading; the exact usage720 path makes them legible.
+- Large sheet obscures the second pad and front opening while a finger contacts the rear lever → the central use mechanism is less demonstrable than the copy → shift the sheet or camera to reveal both pads and the relevant gap.
+- Six text groups are distributed down most of the white sheet with similarly generous intervals → the information works as a list but gives little priority to the action versus materials → distinguish action, supporting materials, and URL through a more deliberate spacing/size sequence.
+- Broad tall steel cheek and narrow dark edge treatment differ visibly from the paired gray-block holder → the same-product condition is not secure → use one fixed jaw/lever construction for the set.
+- The five-poster same-structure condition is not visually established. X2995 has a thin exposed upper steel leaf terminating in deep olive pad blocks; X8708 has a deeper folded-looking upper arm with dark underside pads; X9777 has two gray front blocks and a narrow curved raised rear lever; X1467 presents a broad tall steel front/side cheek with a dark edge strip. These visible jaw/arm finishes and silhouettes do not read as one fixed product construction across the set. Shared cork-cylinder/spring-clamp component categories are present. This is a set-level compliance failure, not a claim about actual operability.
+- The requested two front silicone-pad contacts and press-to-open state are not clearly demonstrable in this view: the sheet conceals the opposing pad/gap while a finger contacts the rear lever. This is an unresolved visual demonstration, not a definite assertion of a missing pad.
+- Camera angle, jaw state, and paper occlusion explain some apparent shape changes. Exact hidden construction cannot be recovered from these photographs; the same-structure judgment concerns the visible differences, especially the exposed upper-arm and pad treatments.
+- The paper hides the opposing pad and the front jaw gap. The finger contacts the rear lever, but the image does not establish the amount of depression or whether the pictured sheet is released, loosely inserted, or gripped. A hidden second pad should not be reported as definitely absent.
+- Pixels establish depicted appearance only; they do not certify adult age, actual material composition, spring force, mounting, physical operation, authorship, capacity, or printing performance. The person appears adult and only one connected hand is shown.
+- Oversized memo hides second pad and jaw gap → mandatory depiction remains unresolved → reposition the sheet and show both padded faces plus lever state.
+- Large gaps between printed groups → clip becomes secondary → tighten the text layout and enlarge the mechanism area.
+- Narrow black front-pad profile differs across members → detailed product consistency is uncertain → confirm the same chassis/pads in comparable visible angles.
+- Large printed memo covers the front mechanism while the finger contacts the rear lever. Only one narrow black pad edge is clearly exposed; second pad and opening/closing gap are hidden, leaving the required two-pad working action unresolved.
+- The memo hides the opposing jaw and capture line. The fingertip may depict pressing or contact before/after pressing; actual operation cannot be determined from this still.
+- The tall near metal side/narrow black vertical pad edge differs visibly from broad grey blocks in X9777 and sage caps in X2995. View angle may explain some difference, but identical detailed structure is not established.
+- Rear pad inner face is naturally obscured by paper/foreground jaw; its dark side edge is visible but detailed contact is not fully exposed.
+- Cork chip contrast increased in the edit; remains plausible but the parent surface was subtler.
+- One static image shows the released/closed grip phase, not independently verified real-world operation.
+
+### R6-C3-M3: FAIL → FAIL
+[1254 × 1254 선택 원본](images/native/86f2f40891fe385bb7527d2fc92780d6dd507fe5422eeeca0b897c65eac5bb86.png) · [최초 원본](images/native/13a2a1e450a0942a9735f168c11a8f29d9f7e6bb3c8a44b3a75d882f271ef63b.png) · [선택·보정 기록](raw/production/R6-C3-M3/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
+| craft | 4 | 4 | 4 | 4 | 4 | 4 | 3 |
+| portfolio | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
+
+잔여 관찰:
+- craft/ai_slop=3: The actual open-jaw action and memo-integrated name are content-specific, and no malformed copy is visible. At native the olive pad blocks and thin upper leaf differ conspicuously from X8708’s dark pads/deeper arm, weakening the precision of a single-product campaign. Fix the shared hardware depiction before treating the finish as a high-end candidate.
+- Horizontal mouth, sage wraparound pads and low rear tab differ from the upright-note members → the set reads as related product variants rather than one clearly stable mechanism → retain one exposed hardware design in all five views.
+- The material line and benefit/URL block begin at different lower-right positions → the final reading feels split → align or more deliberately group this supporting copy.
+- Both upper action and lower benefit are bold headline-sized groups → they compete after the product/name → reduce the lower benefit's emphasis slightly.
+- The requested identical product structure across five posters is not convincingly satisfied: this long horizontal opposing-jaw clip has sage wraparound pad blocks and a low rear tab, whereas X1467 exposes a tall vertical front paddle and X9777 shows stacked front-facing blocks with a steep rear lever. Standardize the exposed jaw, pad, hinge and lever geometry across the set.
+- Paper and viewing angle hide parts of the closed clips in other members; exact internal construction cannot be determined. The visibly different exposed silhouettes remain a product-consistency concern.
+- The open gap and fingertip contact demonstrate the intended action pictorially; spring force, attachment to cork and actual operation cannot be certified from these pixels.
+- Native upper leaf/olive pad treatment differs from the exposed dark-pad construction in X8708 → the product identity feels variable across otherwise related action pictures → keep one visible jaw, pad, pivot, and lever design in every view.
+- Lower-right desk sentence is another heavy headline beneath the materials line → the branded memo has to compete with a second emphasis block → reduce the footer’s weight or size while keeping all copy readable.
+- The five-poster same-structure condition is not visually established. X2995 has a thin exposed upper steel leaf terminating in deep olive pad blocks; X8708 has a deeper folded-looking upper arm with dark underside pads; X9777 has two gray front blocks and a narrow curved raised rear lever; X1467 presents a broad tall steel front/side cheek with a dark edge strip. These visible jaw/arm finishes and silhouettes do not read as one fixed product construction across the set. Shared cork-cylinder/spring-clamp component categories are present. This is a set-level compliance failure, not a claim about actual operability.
+- Camera angle, jaw state, and paper occlusion explain some apparent shape changes. Exact hidden construction cannot be recovered from these photographs; the same-structure judgment concerns the visible differences, especially the exposed upper-arm and pad treatments.
+- Pixels establish depicted appearance only; they do not certify adult age, actual material composition, spring force, mounting, physical operation, authorship, capacity, or printing performance. The person appears adult and only one connected hand is shown.
+- Paper edge partly disappears at the lower pad → insertion/contact is less clear than the open gap → expose the corner and pad contact.
+- Detailed pad shape and jaw proportions vary against other members → one fixed product is less recognisable → confirm consistent chassis/pad geometry; colour alone is not the defect.
+- The still depicts the pressed/open phase, not the subsequent motion or actual holding performance.
+- At the paper’s upper-right edge, contact with the lower silicone pad is partly obscured. The paper is not visibly gripped while the upper jaw is open.
+- Sage-green broad pad caps and the long low jaw profile differ from the grey blocks in X9777 and narrow black pad edge in X1467. The general assembly recurs, but identical detailed geometry is not established by these angles.
+- Static open-state view implies spring release grip; actual physical function is not demonstrated.
+- English descriptor on angled paper and long materials caption are small at 320 thumbnail; both readable at 720.
+- Small left paper-edge crop; no supplied copy or essential product part clipped.
+- Photo detail was regenerated during edits, so pixel-exact photo preservation is not claimed.
+
+### R6-C3-M4: FAIL → FAIL
+[1536 × 1024 선택 원본](images/native/16db832c0b8ec6b0252b05b728da22ead15db05ff6bf1a7ac79d50efce02fd6e.png) · [최초 원본](images/native/122189d8944c67fd82a538ce34c4cdeb2df4adbea53451c648424021fd2c2541.png) · [선택·보정 기록](raw/production/R6-C3-M4/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 3 | 4 | 4 | 4 | 3 | 3 | 3 |
+| craft | 3 | 4 | 4 | 3 | 3 | 3 | 3 |
+| portfolio | 3 | 4 | 4 | 3 | 4 | 3 | 3 |
+
+잔여 관찰:
+- editorial/content_form=3: The right-hand pinch at the clip and the upright blank sheet make the one-hand holder subject concrete. The left typographic stack and blurred plant/books/pencil cup in the upper-left are a familiar desk-product advertisement arrangement, with less specific editorial integration than X2995's printed note.
+- editorial/image_material=3: The native image separates sweater knit, skin, matte gray pad, steel reflections and cork grain. The dark rear hinge/spring area beneath the fingers is visually compressed, while the second pad and insertion interface are concealed, leaving the advertised mechanism less inspectable.
+- editorial/emotion_control=3: Soft beige desk lighting and a restrained black copy column suit an everyday memo aid. Plant, books, pencil cup, laptop corner and paper stack add a full familiar lifestyle package rather than each contributing to the one-hand action.
+- editorial/ai_slop=3: The letterforms are intact and the hand is attached to a visible torso; no meaningless tiny labels appear. Upper-left plant/books/cup and opposite lower-corner accessories form a reusable office-product package, and the product's short-tab geometry is not stable across the set. These keep the result at a functional rather than high-end judgment.
+- craft/content_form=3: The left text block names a one-hand memo holder and the right-hand scene shows one attached hand at a spring clip on a cork cylinder. This serves the request directly, but the blank upright memo and plant/books desk setting add little further product-specific idea.
+- craft/space=3: Left text and right product do not collide, and the upright sheet has breathing room above the clamp. The upper third is mostly blurred books/plant and dark sweater, leaving the functional object relatively small within the wide frame. Bottom corner laptop and paper-stack crops add weight without advancing the action.
+- craft/image_material=3: At native the cork, brushed steel, skin, knit sweater, and matte paper are differentiated. At the front of the clip only one broad gray face is clearly exposed, while the paper hides the opposing contact. The finger-to-rear-lever contact is clear but the front opening is not, so the exact two-pad action is less resolved pictorially.
+- craft/emotion_control=3: Warm neutral desk light and soft-focus room props suit a calm product photograph. The plant, books, laptop corner, and stack of paper follow a familiar home-office staging pattern; their cumulative role is atmosphere more than explanation.
+- craft/ai_slop=3: The typography is coherent and there are no invented memo words or decorative pseudo-labels. The front gray pad/paper junction at center-right leaves the operative gap concealed while a finger sits on the lever, and the familiar prop package does not resolve that central information. Show the contact geometry and use one common hardware design before adding more scene detail.
+- portfolio/content_form=3: The right-side hand/memo establish desk use, but the left title-and-copy block is a familiar catalogue arrangement. The hidden jaw means the one-hand proposition is clearer in words than in the image → rotate the view to reveal the working mouth.
+- portfolio/space=3: Title lower left and product lower right balance, with pots/books and sweater framing the top. The broad blank upper-middle wall/table contributes little to the action → frame more tightly to allocate area to the pad gap.
+- portfolio/emotion_control=3: Neutral warm light and modest black lettering establish calm office use. Plant/books/stationery supply conventional atmosphere with few individually necessary roles → reduce surrounding props to concentrate on the grip.
+- portfolio/ai_slop=3: Plant/books at upper left and laptop/notepad at lower corners form a familiar desk-photo package, while the foreground sheet hides the promised action. Coherent surfaces retain generic staging habits → expose both pads and remove redundant stock desk props.
+- Short rear tabs and compact rounded front face differ from the other exposed clip forms → recognition of one product is weakened → standardize visible jaw, pad and hinge geometry.
+- The paper and hand conceal the front interface and much of the rear mechanism → the claimed press/open sequence remains ambiguous → choose an angle that shows the same hardware's pad gap while the hand contacts the lever.
+- Plant/books/cup plus laptop and paper stack frame the product → the scene relies on a common office-ad package → remove one or two peripheral props and give the clamp interface more image area.
+- The same-structure condition across the set is unresolved: the compact rounded front face and short rear tabs here differ visibly from the long horizontal open jaws of X2995/X8708 and the tall front paddle of X1467. Use one front-jaw, pad-fitting and hinge profile across all five.
+- One gray front pad is fully exposed; the other jaw/pad is largely concealed by the upright paper and viewing angle, so its fitting cannot be independently confirmed.
+- Two digits contact the rear tabs while a sheet appears held. Whether pressure is being applied, whether the jaws are opening and whether the spring can actually hold this sheet are not established by a still image.
+- At thumbnail320 the material line's small characters and separators are not dependable for independent full transcription; usage720 is clear.
+- One exposed gray front face and a sheet hiding the opposing jaw → the image does not clearly explain the requested two-pad opening under the contacting finger → choose a viewpoint or paper position that exposes both pads and the relevant jaw gap.
+- Books/plant above and laptop/paper-stack corner crops surround a comparatively small clamp → the broad lifestyle scene dominates the functional detail → tighten the scene around the hand, lever, and sheet without compromising the left copy column.
+- Compact rear lever and front face differ in appearance from the open-jaw posters → the set’s product identity remains unresolved → lock the jaw/lever construction across the five depictions.
+- The five-poster same-structure condition is not visually established. X2995 has a thin exposed upper steel leaf terminating in deep olive pad blocks; X8708 has a deeper folded-looking upper arm with dark underside pads; X9777 has two gray front blocks and a narrow curved raised rear lever; X1467 presents a broad tall steel front/side cheek with a dark edge strip. These visible jaw/arm finishes and silhouettes do not read as one fixed product construction across the set. Shared cork-cylinder/spring-clamp component categories are present. This is a set-level compliance failure, not a claim about actual operability.
+- The requested two front silicone-pad contacts and press-to-open state are not clearly demonstrable in this view: the sheet conceals the opposing pad/gap while a finger contacts the rear lever. This is an unresolved visual demonstration, not a definite assertion of a missing pad.
+- Camera angle, jaw state, and paper occlusion explain some apparent shape changes. Exact hidden construction cannot be recovered from these photographs; the same-structure judgment concerns the visible differences, especially the exposed upper-arm and pad treatments.
+- The second silicone pad and front-jaw separation are concealed by the paper/viewpoint. A finger contacting the rear lever does not prove it is depressed; the image does not let me distinguish an opening state from merely touching the lever while the sheet is held.
+- Pixels establish depicted appearance only; they do not certify adult age, actual material composition, spring force, mounting, physical operation, authorship, capacity, or printing performance. The person appears adult and only one connected hand is shown.
+- Memo occludes mouth/opposing pad → mandatory operating depiction is unresolved → show paper edge, both pads and lever state in one visible angle.
+- Blank upper-middle field and conventional corner props → less space/specificity for the action → tighten the framing while keeping the connected arm.
+- Required visible operation is unresolved: a finger contacts the rear lever while the upright memo hides the front jaw gap and second pad. The opened state or release-to-grip relationship is not clearly demonstrated.
+- The memo and near grey front face obscure the opposing jaw and paper contact; insertion, holding and release cannot be distinguished in this still. This is not a claim of mechanical impossibility.
+- The spring/cork assembly is visible, but the second front silicone pad cannot be independently inspected behind the memo.
+- The compact folded clip and broad grey front treatment share the general assembly but do not establish identical detailed geometry to other members.
+- Far silicone pad cannot be confidently verified as separate visible surface.
+- Functional open/close relationship is partial rather than fully explicit.
+- The broad desk reach now records lever operation at paper arrival, not simultaneous paper transport.
+- Photographic depiction cannot establish actual mechanical performance.
+
+### R6-C3-M5: FAIL → FAIL
+[1254 × 1254 선택 원본](images/native/78c06f003d07745a1aaa2181ebab2b81832f6d0960d6963d09fff46a9f97e0f9.png) · [최초 원본](images/native/78c06f003d07745a1aaa2181ebab2b81832f6d0960d6963d09fff46a9f97e0f9.png) · [선택·보정 기록](raw/production/R6-C3-M5/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| craft | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| portfolio | 4 | 3 | 3 | 3 | 4 | 3 | 3 |
+
+잔여 관찰:
+- editorial/content_form=3: At center the upright blank note and at right the hand lifted away from the lever communicate the release/hold idea. The large blank rectangle and surrounding plant/books/laptop/notebook remain conventional desk staging, and the note-to-pad interface is less specific than the clear open gap in X2995.
+- editorial/hierarchy=3: At thumbnail320 the top-left name and large white sheet lead; the action line sits to their upper-right while the small clip is much lower. The reader must move between the two top groups and the lower-left footer, so the functional sequence is visible but not especially continuous.
+- editorial/typography=3: The name/descriptor group is clean, and the action has heavier weight than the benefit below it. The separate top-left and top-middle groups use different starts and a near-shared descriptor/action height, giving a serviceable but slightly disconnected heading row; lower copy is also detached by a large photo interval.
+- editorial/space=3: The central-left blank sheet and right hand balance the square, with the base below. The tall memo claims much more area than the working jaws, while laptop at right and notebook/pen in the lower-right fill the edges without clarifying use. The bottom-left footer is reasonably clear but far from the top text.
+- editorial/image_material=3: Native pixels show paper grain, cork chips, distinct matte gray pads, steel highlights and sweater knit consistently. The sheet's lower edge is hidden behind the upper block and the pad meeting area is dark, so the contact that explains retention remains visually underresolved.
+- editorial/emotion_control=3: Warm window light and the relaxed lifted hand give a calm everyday tone. Plant, stacked books, laptop, foreground notebook and pen accumulate familiar office comfort cues; they have less definite roles than the hand and product.
+- editorial/ai_slop=3: Copy is intact and no fake labels appear on the blank sheet. The repeated plant/books plus laptop/notebook/pen arrangement is a familiar generic package, and the partially hidden sheet/pad contact and changed rear-lever silhouette remain specific unresolved finish/identity concerns. The score does not identify a maker.
+- craft/content_form=3: The large blank memo stands above two gray front blocks on the cork base, and the connected hand is withdrawn at right. This plausibly depicts the released/holding state described by the sentence, but the hovering gesture is less explicit as a one-hand use demonstration than the pressing scenes.
+- craft/hierarchy=3: At thumbnail320 the oversized upper-left name and tall white memo are dominant; the action sentence is a separate upper-right band. At usage720 all text is readable, but the eye must move from the split header to the tall sheet, then a long distance to the bottom-left materials/URL.
+- craft/typography=3: The name/English descriptor are grouped at upper left, while a heavier action sentence and lighter desk sentence form a second group at upper right. Letterforms and punctuation are intact at720. The two competing header groups and small descriptor are functional, but not as unified as a single deliberate title-to-action progression.
+- craft/space=3: The sheet/cork creates a strong vertical just left of center and the hand occupies the right midground without touching the copy. Plant/books at left, laptop at right, and the foreground pen/notebook spread attention across three edges. The lower materials block is detached from the header by most of the picture height.
+- craft/image_material=3: At native the gray pads have distinct matte faces against bright steel, and the cork, paper, knit, and desk textures are coherent. The paper emerges behind the upper gray block while the lower block sits below, making the exact pinch plane difficult to inspect. The narrow curved rear lever is clearly visible, but its geometry does not visually match every other member.
+- craft/emotion_control=3: Soft daylight, a relaxed withdrawn hand, and modest surface contrast give a quiet held-memo scene appropriate to the request. The several office props and large blank sheet contribute a familiar lifestyle mood; the gesture’s relation to the lever is weaker at thumbnail size.
+- craft/ai_slop=3: No scrambled main lettering or fake memo information is visible. The central paper/pad pinch junction is not fully explained, and the plant/books/laptop/pen/notebook setting repeats an interchangeable office-photo package. Make the release gesture and paper contact exact, and unify the hardware, rather than treating the tidy neutral palette as proof of exceptional craft.
+- portfolio/hierarchy=3: At320 upper-left brand and long upper-middle operating sentence compete across two blocks, while the large blank memo is a third strong shape. At720 footer and benefit read, but the route is scattered → clarify one leading top block.
+- portfolio/typography=3: Brand and operating line are both strongly bold; lighter benefit sits below the latter. The small English label has limited breathing room beside the other top block at720 → redistribute block spacing and weights. The actual copy remains readable.
+- portfolio/space=3: Tall blank memo dominates centre-left and hand/sweater dominate right; books, laptop and blurred pen/notebook populate three edges. Balance is functional but the borders are crowded → simplify props and clear space around the released lever.
+- portfolio/emotion_control=3: Soft side light and navy/grey support quiet desk use. Laptop/books/plant/pen/notebook repeat the same office cue → keep only props necessary for context so each element has a clearer role.
+- portfolio/ai_slop=3: The three-edge plant/books, laptop and blurred pen/notebook collection is a familiar staged-workspace package. No obvious pseudo copy or indiscriminate gloss appears, but hidden sheet contact and redundant props keep editing generic → simplify the desk and reveal the capture point.
+- Stacked front blocks and steep lever differ from the open-jaw members → one product's construction is not clearly stable → use the identical jaw, hinge and pad fittings for the release view.
+- The sheet ends behind the upper pad with little exposed insertion detail → the hold demonstration is less persuasive → reveal the sheet edge entering the pad interface from a clearer angle.
+- Two top text groups, a large blank sheet and a distant footer fragment the route → the product action takes extra scanning → tighten the header relationship and give the working jaws more relative area.
+- Several office props occupy the left and lower-right borders → the imagery remains broadly reusable → retain only props that help establish a one-hand desk task.
+- The set's identical-structure condition is not convincingly met: the stacked front-facing gray blocks and steep raised rear lever here do not match the long horizontal opposing pads and low rear tab of X2995/X8708. Maintain a consistent exposed jaw orientation, pad fitting and lever/hinge profile.
+- The sheet's lower edge runs behind the upper front block; the exact insertion into the pad interface is partly hidden. It appears held with the hand clear of the lever, but contact and actual retention cannot be certified.
+- Paper occlusion and viewpoint limit a complete structural comparison; the visible silhouette differences are still unresolved.
+- At thumbnail320 the English descriptor and material punctuation are too small for dependable independent full transcription; all required copy is clear at usage720.
+- Withdrawn fingers hover well away from the narrow raised lever → release/holding is a plausible but ambiguous reading → depict the release gesture closer to the lever while leaving the jaw/paper contact visible.
+- Two header groups plus materials far below and props at three edges → the reading path is spread across the scene → organize the text around one clearer sequence and reduce the least informative edge props.
+- Paper/pad intersection at the lower sheet edge is partly hidden → exact holding geometry remains uncertain → expose the contact plane in the chosen view and preserve the same jaw construction across the set.
+- The five-poster same-structure condition is not visually established. X2995 has a thin exposed upper steel leaf terminating in deep olive pad blocks; X8708 has a deeper folded-looking upper arm with dark underside pads; X9777 has two gray front blocks and a narrow curved raised rear lever; X1467 presents a broad tall steel front/side cheek with a dark edge strip. These visible jaw/arm finishes and silhouettes do not read as one fixed product construction across the set. Shared cork-cylinder/spring-clamp component categories are present. This is a set-level compliance failure, not a claim about actual operability.
+- Camera angle, jaw state, and paper occlusion explain some apparent shape changes. Exact hidden construction cannot be recovered from these photographs; the same-structure judgment concerns the visible differences, especially the exposed upper-arm and pad treatments.
+- The raised hand can read as just released or as reaching toward the holder; a single static image cannot establish which. The sheet appears held, but the exact clamping/contact plane is partly occluded by the front pads.
+- Pixels establish depicted appearance only; they do not certify adult age, actual material composition, spring force, mounting, physical operation, authorship, capacity, or printing performance. The person appears adult and only one connected hand is shown.
+- Competing top copy blocks and large blank memo → dispersed reading order → give brand or action sentence a clearer lead.
+- Contact hidden behind upper grey block → apparent retention reads but exact pad relationship is uncertain → expose the edge between padded faces.
+- Repeated peripheral office cues → less distinctive composition → remove redundant objects and strengthen the released-hand silhouette.
+- Lifted hand and upright memo depict an apparent released/holding state; one still cannot establish preceding motion or actual holding performance.
+- The paper edge disappears behind the upper grey block, partly hiding the inward silicone contact, although two front blocks and the spring are visible.
+- Broad stacked grey front blocks and short raised lever differ in appearance from X2995/X1467. Viewpoint explains some variation, but identical detailed geometry remains uncertain.
+- Static release state cannot certify actual physical spring operation.
+- Front pads partly obscure the precise internal paper contact surface, while the gripped-paper state is legible.
+- Contextual desk props were added; no added readable text or logo identified.
+- No print-size validation or maximum-resolution certification.
+
+### R6-C4-M1: FAIL → FAIL
+[1024 × 1536 선택 원본](images/native/1f479d6341b662d4b6a893630c388aa947a3a53b0df1186f2d3b6cf7a4f5c1a6.png) · [최초 원본](images/native/344b7dbe261b57a36c6ad6e596fc1f3cbe2eb3388cf6bed05c47dd1ae56878c4.png) · [선택·보정 기록](raw/production/R6-C4-M1/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 3 | 3 | 3 | 4 | 3 | 3 |
+| craft | 4 | 3 | 3 | 3 | 3 | 4 | 3 |
+| portfolio | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+
+잔여 관찰:
+- editorial/hierarchy=3: Thumbnail320: English header and enormous Korean title are both strongly prominent, followed by the blue mass; the smaller orange information block sits below. Usage720: the four bottom lines are all emphatic, so description, action and date compete rather than form a precise secondary sequence. Make their sizes and spacing more distinct.
+- editorial/typography=3: Native and usage720: the swollen Korean title preserves recognizable syllable structure, and all lower text is readable. The lower description, action sentence and date share thick glossy raised strokes; the venue becomes condensed to fit. The same treatment across roles weakens editorial differentiation; retain the clay title while using shallower, more evenly spaced secondary forms.
+- editorial/space=3: Native: a large empty blue band sits above the English title, whereas the Korean title nearly spans both edges and tightly meets the cushion. The lower block is consistently left-aligned but has uneven line lengths. The balance functions, yet the top reserve is not strongly connected to the pressure idea; move some of it between the information groups.
+- editorial/emotion_control=3: All sizes: saturated blue/orange and a visibly compressed mound meet the requested bold clay mood. The upper English header and every lower line receive the same toy-like shine, making the composition feel more like a static display of puffed type than a controlled action narrative. Vary the secondary relief instead of adding effects.
+- editorial/ai_slop=3: Native: clear text and coherent contact shadows avoid obvious synthesis faults. However, the inflated headline-on-soft-mound plus uniformly extruded footer is a familiar effect package; the compression is localized while the rest of the information is stylistically interchangeable. At score 3 this remains a residual editorial problem, not an assured high-end candidate.
+- craft/hierarchy=3: The large Korean title is the first thumbnail read, but SOFT GRAVITY floats prominently above it, and all four bottom information lines use similar orange relief and strong size → reading functions without a fully refined distinction between description, action, date, and venue.
+- craft/typography=3: The giant title remains readable at720, but its syllable components pack tightly against one another; the subtitle, action, date, and location all have the same swollen extrusion and emphasis → the lettering has consistency but insufficient role differentiation.
+- craft/space=3: Large quiet blue space occupies the top before the English title, while the Korean title nearly spans both side edges and the four-line footer is substantial → balance is functional, but the upper air and heavy middle/lower blocks feel only loosely calibrated.
+- craft/image_material=3: Native shows coherent shadows under the title and along the blue mound's spreading base, but orange glyphs and the broad blue surface carry similar fine wrinkled texture across both stressed and unstressed areas → material consistency is adequate, with limited contact-specific finish.
+- craft/ai_slop=3: The blue troughs tie the sculpture to gravity and text is coherent, yet inflated type, omnipresent pebbly finish, and a large blob above an equally extruded footer create a familiar render package → no authorship claim, but enough generic habit remains to withhold a high-end conclusion.
+- portfolio/content_form=3: The central orange title sits in shallow troughs of a bulging blue clay cushion, suggesting compression under weight. This relates to soft gravity, but the broad pillow-like body provides a less specific action than the finger-and-web composition.
+- portfolio/hierarchy=3: The central Korean title wins at thumbnail320, with English floating above it. At usage720 the four lower lines are legible, but descriptor, instruction and date are very similar in size and orange volume, so the action information has limited separation.
+- portfolio/typography=3: The large Korean counters and 받침 are readable. Below the cushion, thick glossy orange lines share nearly one weight; the long location line occupies almost the entire available width and reads as another display line rather than a distinct footer.
+- portfolio/space=3: A substantial empty blue band precedes the centered English line, followed by a dense title/cushion mass. The lower left-aligned block is orderly, but the abrupt change from centered upper display to wide lower rows leaves the vertical rhythm only moderately resolved.
+- portfolio/image_material=3: Native shows consistent upper-left highlights on orange type and blue clay, and blue folds beneath the title. The cushion has dense wrinkling across large bulges; local compression at each letter contact is less clearly articulated than the overall texture.
+- portfolio/emotion_control=3: Orange against saturated blue and a swollen supporting mass communicate the requested buoyant exaggeration. The lower information receives the same sculptural emphasis as the hero, making the mood more uniformly loud than selectively controlled.
+- portfolio/ai_slop=3: No visible copy corruption or fake detail appears. The repeated balloon-like letter volume across every information tier and the generic wrinkled cushion make a familiar 3D display package more prominent than a precisely edited compression study.
+- The upper empty band and tight central title/cushion junction are unevenly distributed; move some reserve into the secondary information groups.
+- The descriptor, action sentence and date have similar raised emphasis. Differentiate their sizes, spacing or relief to improve editorial reading order.
+- AI-slop score 3: the title-on-mound and uniformly inflated footer remain a familiar package. This is not an assured high-end candidate without further editing.
+- Range dash manually read as an en dash, as in preflight; Unicode identity of visually equivalent dash glyphs cannot be certified from pixels.
+- All four footer lines are bold orange relief with similar spacing → subtitle/action/date/venue compete instead of providing a quieter reading progression → vary size, spacing, and relief depth of the supplied lines.
+- The quiet upper blue band contrasts with edge-packed title letters and a heavy footer → the tall format's space feels unevenly apportioned → rebalance the top air and title-to-mound/footer intervals.
+- Fine wrinkles remain distributed across the entire mound and every orange letter → deformation is less specifically described than the silhouette → reserve sharper marks for title contact troughs and outward spread.
+- Date separator visually matches an en dash (–), as recorded before the supplied-copy cross-check; pixels cannot certify its Unicode encoding.
+- The blue troughs and spreading base visually imply weight/pressure under the letters; a static image does not prove motion or actual compression.
+- Broad cushion bulges and all-over wrinkles dominate over specific compression at letter contacts; define localized depressions and fold directions so pressing reads more decisively.
+- The four orange lower rows have similar sculptural force, slowing recognition of action and date; adjust sizes and spacing to distinguish their roles.
+- AI-slop score 3 reflects generic display-package habits, not an authorship judgment; content-specific deformation and information editing remain unresolved, so this is not established as a high-end candidate.
+- The date separator is visually a single horizontal dash, transcribed as –; pixel appearance cannot certify its Unicode code point.
+- Normal compact title proportion remains unresolved: oversized 받침 create an exaggerated two-band jamo rhythm. The intended title is readable, but condition requiring fully normal Hangul is not certified.
+- Blue clay retains dense fairly uniform fine grain; no claim of complete AI-slop removal.
+- Date dash visually reads as en dash; Unicode cannot be established from raster.
+
+### R6-C4-M2: FAIL → FAIL
+[1536 × 1024 선택 원본](images/native/86c661953a1b61b7c1b9838a30de9a37a70ab9156eefbcdffcd596e652bc7c50.png) · [최초 원본](images/native/1c7ce26790184d02c2a3eef51801c987c69d6991a1853c55021a61b3f1d26ce6.png) · [선택·보정 기록](raw/production/R6-C4-M2/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 3 | 4 | 4 | 4 | 4 | 4 |
+| craft | 4 | 4 | 3 | 4 | 4 | 4 | 4 |
+| portfolio | 4 | 3 | 3 | 3 | 4 | 4 | 4 |
+
+잔여 관찰:
+- editorial/hierarchy=3: Thumbnail320: the separated title words and orange bridge register first, then a large English title; exhibition, action, date and venue form a compact stack underneath. Usage720 makes all copy readable, but English and the upper Korean title create two headline stops. Slightly reduce the English group and increase separation among practical lines.
+- craft/typography=3: The large title keeps open counters and recognizable components; the English line is a clear secondary anchor. Subtitle/action/date/location all remain rounded relief and closely stacked in the lower center → legibility is good but the supporting type roles are only moderately differentiated.
+- portfolio/hierarchy=3: Thumbnail320 presents two large Korean groups and the stretched specimen first, then SOFT GRAVITY. Usage720 makes every lower line legible, but the descriptor and action line are close in size and weight, weakening the transition to practical information.
+- portfolio/typography=3: The separated Korean groups read as the full title with clear counters. Every lower line uses the same rounded raised construction; central alignment is consistent, yet descriptor and action are packed tightly below the already prominent English subtitle.
+- portfolio/space=3: The clay strand uses the landscape width purposefully, with end masses below the two title groups. Its central sag comes close to the English top edge, and the tightly centered lower stack uses the remaining height with limited breathing room.
+- The large English title adds a second headline stop below the Korean words; reduce it slightly and give the date/venue more interline air.
+- The stretched bridge is visibly thematic, but the centered inflated footer repeats the set's most conventional layout habit. Real motion and material performance cannot be inferred.
+- Range dash manually read as an en dash, as in preflight; Unicode identity of visually equivalent dash glyphs cannot be certified from pixels.
+- The lower centered block gives subtitle and action very similar relief weight and places date/location close below → the practical reading sequence is denser than the clear upper action → refine spacing and reduce supporting relief depth while preserving720 readability.
+- The bridge is visibly stretched, but its endpoints do not directly merge into the nearby word groups → the title/action connection stays conceptual rather than fully integrated → sharpen their spatial alignment or relate one endpoint to a letter without damaging readable Hangul.
+- Date separator visually matches an en dash (–), as recorded before the supplied-copy cross-check; pixels cannot certify its Unicode encoding.
+- The thin orange bridge with a sagging center visually describes stretching and gravity; its real mechanics or rebound cannot be established from the image.
+- The sagging strand nearly touches the English headline, crowding the boundary between specimen and subtitle; slightly separate these two masses.
+- Descriptor, instruction and date inherit very similar raised lettering and tight centered spacing; differentiate these information tiers while preserving the requested material treatment.
+- The date separator is visually a single horizontal dash, transcribed as –; pixel appearance cannot certify its Unicode code point.
+- Bridge endpoints sit very close beneath the lower corners of 말 and 력; their independent outlines are discernible but the blue separation is narrow there.
+- Clay grain is somewhat uniformly scratchy across title and bridge at native view; coherent matte 3D material remains.
+- Observed date dash is a single medium-length dash and transcribed as en dash; an image contains visible shape rather than an encoded character.
+
+### R6-C4-M3: FAIL → FAIL
+[1254 × 1254 선택 원본](images/native/c8e3ec891a414ddacd1c52475f11fd98ba5576cc9b5f9e0f2578fee25a5e5798.png) · [최초 원본](images/native/c8e3ec891a414ddacd1c52475f11fd98ba5576cc9b5f9e0f2578fee25a5e5798.png) · [선택·보정 기록](raw/production/R6-C4-M3/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 4 | 4 | 3 | 4 | 4 | 4 | 4 |
+| craft | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
+| portfolio | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
+
+잔여 관찰:
+- editorial/typography=3: Usage720 upper half: round title counters and separated final consonants remain readable despite generous swelling. Lower half: the exhibition description and English title both use thick inflated forms, and the venue is a wide, small, equally sculpted line. This is functional grouping rather than finely differentiated editorial type; reduce the secondary letters' extrusion while keeping the title fully raised.
+- Lower information repeats nearly the same inflated weight for English and the exhibition description; differentiate secondary relief/size while keeping the bold clay title.
+- The sagging sheet makes an action visible, but a still image cannot establish real recoil or material behavior. Venue detail is substantially less immediate at thumbnail320 than at usage720.
+- Range dash manually read as an en dash, as in preflight; Unicode identity of visually equivalent dash glyphs cannot be certified from pixels.
+- The lower SOFT GRAVITY/subtitle/action/date/location sequence is entirely centered and clay raised → it works but becomes predictable against the more particular hanging sheet → adjust the relative spacing and relief depth of these existing groups.
+- The purple sheet carries dense fine texture over large calm areas → the finish can compete with the subtler deformed edges at native → concentrate surface marks near the folds and contact zones while preserving clay character.
+- Date separator visually matches an en dash (–), as recorded before the supplied-copy cross-check; pixels cannot certify its Unicode encoding.
+- The hanging sheet visibly suggests sagging; a still image does not establish a return cycle or real clay mechanics.
+- The lower descriptor, instruction and date all use swollen yellow lettering, reducing information-tier contrast; vary their scale and spacing while retaining the required 3D expression.
+- Near-mirrored upper drapes and side folds make the sag look staged; introduce an asymmetry tied to the sheet weight so the deformation has a more particular visual cause.
+- The date separator is visually a single horizontal dash, transcribed as –; pixel appearance cannot certify its Unicode code point.
+- Some fine purple creases suggest a soft sheet; the single thick clay slab and drooping lobes remain visible.
+- Large first-line title syllables are close in a few places, but native and720 gaps/strokes stay distinct.
+- Maximum-resolution, physical-mechanics, authorship and print-readiness claims remain outside verification.
+
+### R6-C4-M4: PASS → PASS
+[1024 × 1536 선택 원본](images/native/5217c3f804e90f23b4ad605562de9a1c709eb4d647ff208010589fd602042497.png) · [최초 원본](images/native/1cc79092617f2ac22cd843d97faa451b178ad91608dd636cf6cfc2b1a2eb20f8.png) · [선택·보정 기록](raw/production/R6-C4-M4/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 5 | 4 | 4 | 4 | 4 | 4 | 4 |
+| craft | 5 | 4 | 4 | 4 | 4 | 5 | 4 |
+| portfolio | 5 | 4 | 4 | 4 | 4 | 4 | 4 |
+
+잔여 관찰:
+- The top-right title has a narrow right margin; shift it inward slightly to prevent the largest stroke from feeling pinned to the edge.
+- The cream thumb/index junction at the right-hand pinch is bulky and softly joined; clarify the crease/contact silhouette. Static imagery does not establish actual stretching mechanics or return motion.
+- Range dash manually read as an en dash, as in preflight; Unicode identity of visually equivalent dash glyphs cannot be certified from pixels.
+- The upper-right title/English/subtitle cluster is much tighter than the spacious left action labels → attention briefly splits between lettering and the upper pressing scene → slightly open that cluster or align its vertical rhythm with the action stages.
+- The lower cream pinch contact is a small dark junction at native → the exact meeting of fingers and stretched clay is less clear than the upper depression → clarify the contact boundary and local shadows while keeping the stylized hands.
+- At320 the lower footer and subtitle are very small → thumbnail viewers mainly receive action and title → preserve the verified 720 legibility if adjusting scale.
+- Date separator visually matches an en dash (–), as recorded before the supplied-copy cross-check; pixels cannot certify its Unicode encoding.
+- A cream finger is visibly pressing the upper mass and a second hand pinches the narrow middle; release or return is suggested by the bottom resting mass and phrase, not independently proven in a still frame.
+- The cream hands are stylized clay-like forms; their appearance does not certify anatomical or physical realism.
+- The stretched central web has a smoother elastic sheen than the finger-pressed clay above, weakening material continuity; carry the clay fold/crease character through the web-to-base transition.
+- The base nearly crowds the date footer and the action sentence follows a second reading route; open the footer gap and sharpen the alignment of the three left action fragments.
+- The date separator is visually a single horizontal dash, transcribed as –; pixel appearance cannot certify its Unicode code point.
+- Raised title fits close to the top/right edges, without current clipping.
+- The resting mound stays attached to the elongated neck; returning/recovery is conveyed by form and action copy rather than visible time progression.
+- Clay surfaces retain fairly dense modeling marks; the repair did not produce a perfectly smooth surface and no smoothness claim is made.
+
+### R6-C4-M5: FAIL → FAIL
+[1254 × 1254 선택 원본](images/native/3324388e1de38085c62c06793521768b4f6383b2f01391185b1a754b689cd3aa.png) · [최초 원본](images/native/aadb0c58ca38065eef49d3d7e09058c3d41e1a39a37e11c96c9403996504f157.png) · [선택·보정 기록](raw/production/R6-C4-M5/selection.json)
+
+유효한 평가 기록. 선택본과 평가 바인딩의 경로·해시 연결을 검사했다.
+
+| 평가자 | 내용과 형태 | 정보 계층 | 타이포그래피 | 공간 | 이미지·재질 | 정서·제어 | AI 슬롭 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| editorial | 3 | 3 | 3 | 3 | 4 | 3 | 3 |
+| craft | 2 | 4 | 3 | 3 | 3 | 3 | 3 |
+| portfolio | 3 | 3 | 3 | 2 | 4 | 3 | 3 |
+
+잔여 관찰:
+- editorial/content_form=3: Usage720 lower-right: the orange sculpture has a curled top lobe and a short rounded foot, but no clear pressing contact, elongated tension or return cue. It communicates softness more readily than a specific action. The huge title and separate blob could serve other playful events; reshape the lobe to show unmistakable droop or deformation.
+- editorial/hierarchy=3: Thumbnail320: the orange Korean title fills most of the upper area, with the orange sculpture beside 중력. Cream English title starts the lower block and date/venue remain legible at usage720. The similar raised weight of all cream lines makes the practical details less differentiated; give description, action and date more deliberate emphasis levels.
+- editorial/typography=3: Native and usage720: the very large title strokes and counters remain identifiable, and the cream lines retain correct Korean and punctuation. English title, description and action all use plump letters with pronounced shadows. The lower stack is readable but feels packed beneath the title rather than optically integrated; refine interline gaps and secondary stroke weight.
+- editorial/space=3: Native: title, right-hand sculpture and English line occupy adjoining zones with tight gaps; the last venue line is close to the bottom. A broad blue patch to the right of the shorter description/action lines contrasts with that crowded upper junction. Left alignment is consistent, but redistribute some upper mass to open the information block.
+- editorial/emotion_control=3: All sizes: bright blue/orange, cream copy and inflated Korean produce the requested playful, forceful 3D character. The sculpture adds visual volume but its action role is weak, so excess is less exact than in X5251. Keep the strong color and raised title while giving the sculpture a clearer verb.
+- editorial/ai_slop=3: Native lower-right and lower text block: the generic curled blob beside giant puffed type, followed by equally puffed practical copy, lets the familiar effect combination precede the event's action idea. There is no visible gibberish or fake logo, but the blob's unclear function is a concrete residual. Score 3 does not certify a high-end finish; clarify deformation and edit the secondary hierarchy.
+- craft/content_form=2: The dominant orange title tiles convey softness, but the center-right curled bulb on a foot has no clear pressed point, suspended load, or return relation → the action named by the exhibition is not clearly carried by the principal sculpture → clarify deformation rather than relying on the mascot-like silhouette.
+- craft/typography=3: The title's strongly enlarged and separated components remain readable, while rounded cream Latin/Korean relief gives supporting copy a consistent family. The four lower lines are similar in weight, and the giant title's component spacing feels more tiled than articulated into syllable units → competent readability with limited refinement.
+- craft/space=3: The huge title fills upper-left space, the curled sculpture occupies the right-side gap, and the cream information block anchors the bottom-left → balance is clear but tightly filled. The curled object appears to occupy a leftover title gap rather than generate the layout.
+- craft/image_material=3: At native, title and sculpture share consistent orange lighting and readable cast shadows; the curl has a clean edge. Fine wrinkled texture is broadly uniform over title, object, and blue field → the surface is coherent but not especially responsive to the curl's deformation.
+- craft/emotion_control=3: The orange/cobalt and cream contrast and inflated glyphs achieve playfulness, but the static-looking curled figure mainly supplies charm → emotional tone is appropriate without a precise action-driven payoff.
+- craft/ai_slop=3: The copy is coherent and there are no fake labels or logos. The orange bubble-letter tile arrangement, cream inflated footer, all-over render texture, and detached curled mascot-like sculpture create a recognizable generic clay-poster package → residual specificity problems remain despite clean edges.
+- portfolio/content_form=3: The huge orange title and curled orange bulb at right establish softness, but the bulb is a self-contained ornament. Its bent neck only suggests droop; a specific pressing, stretching or returning action is not securely communicated.
+- portfolio/hierarchy=3: At thumbnail320 the Korean title fills most of the first glance. English and four cream rows below are readable at usage720, but the extreme title/body size contrast compresses the participation information into a tight bottom band.
+- portfolio/typography=3: The expanded Korean components remain readable despite widely separated upper strokes and 받침. Cream English and body copy are grouped consistently, but similar swollen forms and close line spacing limit distinction among descriptor, action and date.
+- portfolio/space=2: The right sculpture nearly meets the end of SOFT GRAVITY, while the title occupies the upper two-thirds. The four lower lines are squeezed toward the bottom edge; this crowding leaves little buffer between hero, subtitle and practical information.
+- portfolio/emotion_control=3: Blue/orange and thick raised lettering deliver the requested boldness. The right blob duplicates the title material without adding a clearly read action, so some of the exaggeration operates as decoration rather than a directed gesture.
+- portfolio/ai_slop=3: Native text and edges are technically coherent. The swollen orange title plus glossy abstract blob and cream stacked footer is a familiar effect package; the ambiguous blob action and cramped footer leave content-specific editing only partly resolved.
+- Mandatory action remains unresolved: the right-hand curl may suggest drooping, but a specific press, stretch or rebound is not unambiguously visible. Add a more legible deformation/contact silhouette while preserving the requested 3D and color.
+- The English line, large title and sculpture meet closely while the shorter footer lines leave a broad unused right patch; redistribute mass and interline space.
+- AI-slop score 3: the puffed-title/curled-blob combination and homogeneous cream footer are insufficiently specific to the action theme. This is not an assured high-end candidate.
+- Lower-right curled sculpture has no unambiguous pressing contact, tensile extension or rebound cue. It may suggest droop, but the required visible soft-sculpture action is not sufficiently established; mandatory pass is withheld for this condition. Copy, ratio and specified 3D/color are satisfied.
+- Range dash manually read as an en dash, as in preflight; Unicode identity of visually equivalent dash glyphs cannot be certified from pixels.
+- The upper curled lobe could be intended as drooping or return, but the still silhouette does not resolve that reading. This ambiguity is retained, not silently passed.
+- The curled object at center-right has a rounded foot and self-contained hook → it reads as a posed figure more readily than an action → show a clear pressed indentation, a drooping suspended neck, or a recovering shape tied to the layout.
+- The lower subtitle/action/date/location use nearly equal bold cream relief → practical hierarchy becomes a block of similarly emphasized lines → differentiate these roles through size, interval, and depth.
+- Broad surface texture is similar across orange title, orange sculpture, and blue ground → the finish obscures the difference between formed letters, strained clay, and background → localize marks to each role while retaining the requested vivid 3D.
+- At center-right, the orange curled object rests on a small foot and reads as a static sculptural/mascot-like shape. Its curl suggests softness, but I cannot clearly identify pressing, suspended sagging, or return to position from the visible form. The required visible-action condition is unresolved and is not marked passed.
+- Date separator visually matches an en dash (–), as recorded before the supplied-copy cross-check; pixels cannot certify its Unicode encoding.
+- The curl could be intended as a droop or recovering shape, but the still silhouette and lack of a clear force/contact relation leave that interpretation uncertain.
+- The curled bulb suggests softness but leaves the mandatory action unresolved; articulate a definite sagging tip with support/tension, a visible press contact, or an extended strand so the behavior can be read directly.
+- The large title and right bulb squeeze the cream information rows against the bottom; rebalance hero scale and reserve a clearer gap above and below the footer.
+- AI-slop score 3 reflects a generic abstract-blob/puffy-type package plus weak action editing; the visible result does not establish a high-end candidate.
+- The requested soft-sculpture action is not unambiguously demonstrated by the right curled bulb; the action condition remains unresolved.
+- The date separator is visually a single horizontal dash, transcribed as –; pixel appearance cannot certify its Unicode code point.
+- The bent orange neck may intend drooping, but the still silhouette can also read as a deliberately shaped static ornament.
+- Recovery/destination relation is depicted by the integrated fold and settled mass beside the title; literal recovery history remains a still-image interpretation.
+- Upper folded silhouette remains somewhat neck-like though less separate than initial.
+- Native fine clay/background microtexture changed outside the sculpture target; exact pixel/material preservation is not claimed.
+- Maximum resolution, human authorship and print suitability are not certified.
+
+## 검증 방법과 범위
+
+제작은 20개 역할로 수행했다. 모든 제작자가 새 문맥이었다고 주장하지 않는다. 제작 폐쇄 레지스트리에 기록된 기존 작업자 재개 예외는 **R6-C4-M3, R6-C4-M4, R6-C4-M5**다. 이 역할들은 이전 작업의 문맥을 지울 수 없는 상태에서 새 역할을 맡았다. [제작 폐쇄 레지스트리](raw/planning/production-closed-registry.json)에 역할·재개 작업자·선택 핀이 남아 있다. 환경 한도 안에서 나누어 작업했으며 실제 호출 구간의 최고 동시 수는 3였다.
+
+새 R6 네이티브 도구 시도는 47/60회, 실패한 도구 시도는 0회였다. 최초 생성 1회와 이미지당 최대 자체 보정 2회만 허용했다. 사용하지 않은 잔여 한도는 종료했으며 이전 라운드의 닫힌 한도를 재개하지 않았다.
+
+모든 일반 제작 검수와 선택을 닫은 뒤 독립 평가를 진행한다. 계획된 **24개 독립 평가는 이전 문맥을 전달하지 않는 새 CLI 세션**으로 실행하며 재개·포크를 사용하지 않는다. 현재 증거에 남은 고유 CLI 세션은 24개, 런타임 배정 유효성이 확인된 세션은 24개다. 제작자의 재개 예외와 새 평가 세션은 별개다. 완전한 최초 세트와 실제 바이트가 바뀐 최종 세트에는 각각 세 평가자가 필요하며, 변경된 최종 세션 ID는 최초 세 개와 모두 달라야 한다. 다섯 역할의 원본 SHA가 모두 같은 경우에만 최초 평가 전체를 재사용한다. 외부 점수로 이미지를 추가 생성하거나 스킬을 수정하지 않는다.
+
+증거 연결은 폐쇄 기록의 최초·최종 선택 핀, 정확한 다섯 역할과 단계, 원본·매니페스트·원천 파일 해시, 평가 요약과 수락된 CLI 세션을 대조한다. 기록 개수만으로 평가를 수락하지 않는다. 누락·무효 평가의 낮은 점수와 원시 실패는 보존하지만 이미지 PASS나 통과 수에 넣지 않는다.
+
+원본/720px 폭/320px 긴 변의 조회 기록과 720px 행동 정보의 카피 제공 전 전사 절차를 검증 대상으로 삼았다. **파일 해시와 세션 출처 검증은 자료의 연결을 입증하며, 실제 시각 조회·전사·읽는 순서는 별도의 평가자 진술이다.** CLI 흔적에 기계적으로 드러난 사건 이외의 시각 판단이나 순서를 파일 해시만으로 증명하지 않는다. 메타데이터로 만든 갤러리 링크도 평가자가 그 이미지를 실제 봤다는 뜻은 아니다.
+
+게이트는 변경하지 않았다. 필수 조건 통과와 내용·타이포그래피·이미지/재질·AI 슬롭 각 4 이상을 유효한 세 평가자 모두에게 요구하며 세트 다양성도 각각 4 이상이어야 한다. 일곱 점수, 4 미만 비핵심 점수, 구체적인 위치와 평가자 차이를 평균 없이 남겼다. 생성한 이미지로 인간 제작을 판별하지 않으며 클레이 3D와 강한 색의 요청은 실제 구현으로 평가한다.
+
+이 표본은 네 요청에 묶인 20장이다. 사용자 제공 로고·실제 화면·외부 사진 보존, 모든 장르, 후속 부분 수정, 실제 제품 기능, 인쇄 결과, 미래의 보편적 품질을 검증하지 않았다. 최대 지원 해상도는 요청했지만 실제 반환 픽셀만 기록한다. 원본은 코드로 바꾸지 않았고 QA 축소 보기만 만들었다. 새 외부 레퍼런스 조사를 수행했다는 주장도 하지 않는다.
+
+모든 최초·보정·미선택 원본과 이용 가능한 원시 실패·평가 자료를 아카이브에 보존한다. 원래 절대 경로는 원본 기록에 남고 archive-index.json이 상대 경로의 해시 파일에 대응한다. 평가 자료가 부분적이어도 기대한 이미지 역할을 갤러리에서 삭제하지 않는다. 현재 라운드는 최초 20장이 모두 반환되었으며, 일반 유틸리티의 실패한 최초 생성 봉인 분기는 지원하지 않는다. 해당 분기를 이후 선택 이미지로 메우지 않는다.
