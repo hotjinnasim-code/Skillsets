@@ -1,0 +1,21 @@
+test_blocked_role_does_not_hide_a_valid_selection_or_deliver_a_failure_image (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_corrupt_original_cannot_be_bypassed_with_complete_dialog_refs (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_declared_dimensions_must_match_a_readable_original_in_both_modes (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_duplicate_ids_and_requested_count_errors_reject_schema (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_explicit_simulated_dialog_refs_prepare_with_declared_unverified_metadata (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_five_selections_have_individual_original_cards_and_deterministic_report (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_local_display_must_be_an_available_image (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_missing_or_null_dialog_refs_block_without_implicit_local_fallback (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_none_cannot_carry_a_finished_image_and_requires_a_reason (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_none_remains_partial_and_user_text_cannot_inject_finished_cards (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_prepared_output_directory_is_never_overwritten (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_scheme_less_opaque_dialog_ids_require_native_fallback (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_single_edited_selection_does_not_expand_the_request (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_thumbnail_and_same_size_earlier_revision_downloads_are_blocked (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_unreadable_optional_dialog_source_is_not_marked_verified (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+test_unsafe_or_multiline_refs_reject_schema_before_creating_outputs (test_prepare_delivery.PrepareDeliveryRegressionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.895s
+
+OK

@@ -1,0 +1,1610 @@
+{
+  "finished_utc": "2026-10-09T06:44:05.242507+00:00",
+  "helper_sha256_start": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+  "helper_sha256_end": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+  "case_count": 44,
+  "passed": 43,
+  "failed": 1,
+  "failed_cases": [
+    "10-dialog-opaque-no-scheme"
+  ],
+  "fixtures_and_source_files_unchanged": true,
+  "input_after": {
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/five-and-edit-observation.json": {
+      "sha256": "280104b72af10311451899803b1be9b51b058a567c07502e4f7a108ce183ebe2",
+      "byte_count": 7069
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/partial-observation.json": {
+      "sha256": "a73cb73d1f8689b5f4f7af1d17302565758b10af8a67a1a009566a64b4b96781",
+      "byte_count": 8411
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/one-edited.json": {
+      "sha256": "7d12628265081703919fee0dca274e1d16ba4db415c3e74297e28aec24687b33",
+      "byte_count": 1033
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/four-plus-none.json": {
+      "sha256": "31d5f229bcf291a171ebf33eb3e1a1be12b843cd3050b9c723d6ce90746b2453",
+      "byte_count": 3437
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/five-selected.json": {
+      "sha256": "e9a6aa9d46ca1232e14f1c03cf6268b2c892407cc19b2c01b96df69e763f15fd",
+      "byte_count": 3889
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M1/stages/repair-1/original.png": {
+      "sha256": "5b2a8e9099cb0319527fef3ecf62230d60a1a3e7d617e01c7e2552477aafbbf2",
+      "byte_count": 2240404
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/initial/original.png": {
+      "sha256": "6836f2c388cbc31987704673a25f1e13777550fc88b1da8e92b445659882476b",
+      "byte_count": 1402252
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/repair-1/original.png": {
+      "sha256": "255197efe702bc8286806c4e51b727d22b8893a1803c4d494bbfd812817425ff",
+      "byte_count": 1741295
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/original.png": {
+      "sha256": "b6fe5002d8d1faf576363997a2e0b4672f3ea53554dd1580e2d74030056252de",
+      "byte_count": 2795120
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/repair-1/original.png": {
+      "sha256": "d0fcea8fb19628aee90bf2117346fb4d749cf241e0a940567e19ea5fba74ea0f",
+      "byte_count": 2831960
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M1/stages/repair-1/usage-720.png": {
+      "sha256": "979ff86fa24eab5ad2f331055aeccfda643b3c6cd5c988fd7389f64a2e27d1ca",
+      "byte_count": 504249
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/initial/usage-720.png": {
+      "sha256": "71d90112f47abd0e723fc8e821507002620898c7d587d29729818367ceaff6d6",
+      "byte_count": 300127
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/repair-1/usage-720.png": {
+      "sha256": "f104fc429f006fd6badcaa1868c5afcb51f41d75c7e89b3efc36fe862492a749",
+      "byte_count": 867946
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/usage-720.png": {
+      "sha256": "f21dfe4e0ce0ac4fb57ea0b6b1ebe29a4ad4a9ab4aec1615d7fdba91e78186fb",
+      "byte_count": 1367222
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/repair-1/usage-720.png": {
+      "sha256": "2b9e8e54fa702f90d441eeb3501988924ad4133704a3feb147bd52f3785e69cf",
+      "byte_count": 1455114
+    },
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/initial/original.png": {
+      "sha256": "81e0f0b9785c7ecd365efcc396686879c830516afcbb2e11c5d2ba11f570e783",
+      "byte_count": 2343606
+    }
+  },
+  "observations": [
+    {
+      "name": "01-five-selected-local",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/01-five-selected-local/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/01-five-selected-local/prepared"
+      ],
+      "input_sha256": "ec4a0f69aba7edc151c787ec80f2f89555b91d2302659926a0bb7741827b2fd5",
+      "expected": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "02-single-edited-result",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/02-single-edited-result/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/02-single-edited-result/prepared"
+      ],
+      "input_sha256": "23ecada08452d4e271596cb8ec362a187789cdfe937f373ce46409432cb911b1",
+      "expected": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "one_image": true,
+        "one_original_download": true,
+        "edited_original_downloaded": true,
+        "previous_original_absent": true
+      },
+      "passed": true
+    },
+    {
+      "name": "03-four-selected-plus-none",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/03-four-selected-plus-none/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/03-four-selected-plus-none/prepared"
+      ],
+      "input_sha256": "3ed1127b153eb8a375777346fff4ec9065d06d21d94a5c86e0e14df53597f7a3",
+      "expected": {
+        "exit_code": 0,
+        "status": "PARTIAL",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 0,
+        "status": "PARTIAL",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "four_images": true,
+        "four_downloads": true,
+        "none_not_promoted": true,
+        "none_reason_visible": true
+      },
+      "passed": true
+    },
+    {
+      "name": "04-dialog-with-declared-dimensions",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/04-dialog-with-declared-dimensions/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/04-dialog-with-declared-dimensions/prepared"
+      ],
+      "input_sha256": "28f5fadf4f9d65290cfd85f677009a7f217da739673d9bd6ee0273835e2d4f2e",
+      "expected": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "source_unavailable_disclosed": true,
+        "both_refs_explicit_unverified": true
+      },
+      "passed": true
+    },
+    {
+      "name": "05-dialog-missing-display",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/05-dialog-missing-display/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/05-dialog-missing-display/prepared"
+      ],
+      "input_sha256": "f31be9d9311cd0e3a1b0183acef0f93cb720c355774eb35b3e29c812bc14c3e2",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "06-dialog-missing-download",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/06-dialog-missing-download/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/06-dialog-missing-download/prepared"
+      ],
+      "input_sha256": "ed8df10da8154a32487d2b65e698dcc1f2a53e1d4faf1b56d2e04b6a25853dca",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "07-dialog-null-display",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/07-dialog-null-display/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/07-dialog-null-display/prepared"
+      ],
+      "input_sha256": "5ece61d0ac470efc46638510f77a001bfde2df0e7389b1e54a0d63d63383bec5",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "08-dialog-null-download",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/08-dialog-null-download/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/08-dialog-null-download/prepared"
+      ],
+      "input_sha256": "8789bca3ef5cd689e2f4d21c2fb08cdf86bfae9a6498a6ebc74b3f99bfa0bcf2",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "09-dialog-both-null",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/09-dialog-both-null/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/09-dialog-both-null/prepared"
+      ],
+      "input_sha256": "e00ee67b648f465d33c73f4edd8c1828d35c4bd144df27e489cff293c6145276",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "10-dialog-opaque-no-scheme",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/10-dialog-opaque-no-scheme/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/10-dialog-opaque-no-scheme/prepared"
+      ],
+      "input_sha256": "dee59ce37235175c7238c189e992493f1dad6861556ec30260f2865bf7342b26",
+      "expected": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": false,
+        "status": false,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": false,
+        "original_link_count": false
+      },
+      "passed": false
+    },
+    {
+      "name": "11-dialog-unavailable-optional-source",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/11-dialog-unavailable-optional-source/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/11-dialog-unavailable-optional-source/prepared"
+      ],
+      "input_sha256": "bfaa7fe61412ea2872be1cedd44cd3edfff75e37ff470f26eb69b06256929295",
+      "expected": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "12-dialog-corrupt-readable-source",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/12-dialog-corrupt-readable-source/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/12-dialog-corrupt-readable-source/prepared"
+      ],
+      "input_sha256": "1154449502f8555a037ee376237bcbb1de85a6e1765fb76d22df03761fccb4c9",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "13-dialog-crc-corrupt-source",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/13-dialog-crc-corrupt-source/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/13-dialog-crc-corrupt-source/prepared"
+      ],
+      "input_sha256": "d0ad2225b84d56b0a7a8b66cc375e9fe769c40ffcd9cf8cfca35a992dd8a0cc5",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "14-dialog-nonimage-source",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/14-dialog-nonimage-source/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/14-dialog-nonimage-source/prepared"
+      ],
+      "input_sha256": "9f088e7efc4408704f885d7d8403b1626ca34788713191dd0edaa6d4bc7971ed",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "image_card_count": true,
+        "original_link_count": true
+      },
+      "passed": true
+    },
+    {
+      "name": "15-dialog-without-dimensions",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/15-dialog-without-dimensions/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/15-dialog-without-dimensions/prepared"
+      ],
+      "input_sha256": "8195d546621223cb1a634bfc977d0fac3ab4328e05edb0392e06c0d2b6446da8",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "16-local-thumbnail-download",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/16-local-thumbnail-download/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/16-local-thumbnail-download/prepared"
+      ],
+      "input_sha256": "0388df4def431f4dca22bd4819dc0fc9d931308b1fb33a3816f23b1f77d3ddc2",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true,
+        "download_rejected": true,
+        "no_image_card": true
+      },
+      "passed": true
+    },
+    {
+      "name": "17-local-wrong-original-download",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/17-local-wrong-original-download/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/17-local-wrong-original-download/prepared"
+      ],
+      "input_sha256": "5123ba089ac51edef6552e67e23b55961eff62bc8164b9c322bc7320e6b4e1aa",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "18-local-missing-preview",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/18-local-missing-preview/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/18-local-missing-preview/prepared"
+      ],
+      "input_sha256": "fb69e7b0cffbac6121ef288ffc2650d88da22180dc86b49c98a15b0e1137d157",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "19-local-corrupt-original",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/19-local-corrupt-original/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/19-local-corrupt-original/prepared"
+      ],
+      "input_sha256": "d4c8ec832f9558293e87150f63e072e9b5b8dc74077985064de9712c14ec579b",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "20-declared-local-dimensions-mismatch",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/20-declared-local-dimensions-mismatch/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/20-declared-local-dimensions-mismatch/prepared"
+      ],
+      "input_sha256": "2bba11dcc16de8586d8df2ecdaf927c2d3b7d567a73e9e2b2ac2637a6617e987",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "21-local-default-original-refs",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/21-local-default-original-refs/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/21-local-default-original-refs/prepared"
+      ],
+      "input_sha256": "1cc3bf225f6ee84de9b95f0b5442336b89a6cf6177a1700c274cc16a426b590f",
+      "expected": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 0,
+        "status": "READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "22-local-null-display",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/22-local-null-display/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/22-local-null-display/prepared"
+      ],
+      "input_sha256": "76bf2f18ccddf19b48d8e0b87ccf506ae0d5ce5a2e74a1e03b064b0c001eace5",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "23-local-null-download",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/23-local-null-download/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/23-local-null-download/prepared"
+      ],
+      "input_sha256": "2cb622c6294ecc3a933024c5d3d9d81cefdb18da72159447fc226fc8395c4308",
+      "expected": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "actual": {
+        "exit_code": 2,
+        "status": "NOT_READY",
+        "report_exists": true,
+        "response_exists": true
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "stdout_matches_response": true,
+        "requested_items_preserved": true,
+        "no_source_claim_beyond_container": true,
+        "no_conversation_delivery_claim": true
+      },
+      "passed": true
+    },
+    {
+      "name": "24-unsafe-data",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/24-unsafe-data/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/24-unsafe-data/prepared"
+      ],
+      "input_sha256": "2ee73e9922ecb95885ff15d91e86f481a19a0c09d78d6952d15906321dfbcbe4",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "25-unsafe-javascript",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/25-unsafe-javascript/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/25-unsafe-javascript/prepared"
+      ],
+      "input_sha256": "813240b7c808e84563409bedd3189683d2fcf4b5851913d89c90a87b767e0604",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "26-unsafe-file-scheme",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/26-unsafe-file-scheme/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/26-unsafe-file-scheme/prepared"
+      ],
+      "input_sha256": "fb2be8eb18caf19edf712ce6cf3ce0aeaaf582e936bee2a97168b3f4c5e0854c",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "27-unsafe-html",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/27-unsafe-html/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/27-unsafe-html/prepared"
+      ],
+      "input_sha256": "26b0eafdf55f8f0ace406c062ef940ef70babd0f2338c9b16328409b3d47712e",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "28-unsafe-newline",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/28-unsafe-newline/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/28-unsafe-newline/prepared"
+      ],
+      "input_sha256": "e09d50b9f2d5ac9ec96cb474ac4720a7ec7aa48983da22ef942d56f7f3a12671",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "29-unsafe-backslash",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/29-unsafe-backslash/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/29-unsafe-backslash/prepared"
+      ],
+      "input_sha256": "678a8954e639710d8926f78eae139fd810c3e860a3759ac5bc6b48621b4c9775",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "30-hostless-https",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/30-hostless-https/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/30-hostless-https/prepared"
+      ],
+      "input_sha256": "3a15dd06764f0e2e413fc922c608f502c5f5e977f017ad997271bd6725a70149",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "31-outer-whitespace",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/31-outer-whitespace/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/31-outer-whitespace/prepared"
+      ],
+      "input_sha256": "6d70dba66c674e8719c6a2be14ee70df9fbee69af6398301a82b4daf5e9ccd8f",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "32-boolean-count",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/32-boolean-count/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/32-boolean-count/prepared"
+      ],
+      "input_sha256": "42433db79bead3baf22807984a82e626dd28270d2bd979cacadab85648604b69",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "33-role-count-mismatch",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/33-role-count-mismatch/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/33-role-count-mismatch/prepared"
+      ],
+      "input_sha256": "1952b44dbbb7241164f2b2bcc492c1b2b81eb4157b1271ee7cbe74a670019511",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "34-boolean-dimension",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/34-boolean-dimension/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/34-boolean-dimension/prepared"
+      ],
+      "input_sha256": "3b26edbbe51fcca86790c047d6041be0ea1c48e2bf97c5bb09e38454cf2bc308",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "35-relative-original-path",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/35-relative-original-path/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/35-relative-original-path/prepared"
+      ],
+      "input_sha256": "2a3add8713b9657ef9177fe927ed672d586c1fff40db7e1fb708f30b6e97ac33",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "36-one-dimension-only",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/36-one-dimension-only/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/36-one-dimension-only/prepared"
+      ],
+      "input_sha256": "0c45ef9210e6761a7807d6a5ff0e51e243c0af2ec337f91d21323d8927ab1d7b",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "37-duplicate-role-ids",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/37-duplicate-role-ids/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/37-duplicate-role-ids/prepared"
+      ],
+      "input_sha256": "a82eee007d6977b285f100e1e51b962713a5e5a8a311e6e880fdc213ca786184",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "38-none-carries-image",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/38-none-carries-image/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/38-none-carries-image/prepared"
+      ],
+      "input_sha256": "6a69aa9f25664b92e55f2c4d54f642909bdcc936e7025a1dec6e2e715889d33b",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "39-malformed-json",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/39-malformed-json/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/39-malformed-json/prepared"
+      ],
+      "input_sha256": "9a4b31170ce305c058a741528dd8082617b58dea65a4085c96f8fa71a6cee2e0",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "40-root-list",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/40-root-list/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/40-root-list/prepared"
+      ],
+      "input_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true
+      },
+      "passed": true
+    },
+    {
+      "name": "41-existing-output-directory",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/41-existing-output-directory/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/41-existing-output-directory/prepared"
+      ],
+      "input_sha256": "23ecada08452d4e271596cb8ec362a187789cdfe937f373ce46409432cb911b1",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "sentinel_unchanged": true
+      },
+      "passed": true
+    },
+    {
+      "name": "42-existing-output-file",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/42-existing-output-file/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/42-existing-output-file/prepared"
+      ],
+      "input_sha256": "23ecada08452d4e271596cb8ec362a187789cdfe937f373ce46409432cb911b1",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "sentinel_unchanged": true
+      },
+      "passed": true
+    },
+    {
+      "name": "43-broken-output-symlink",
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/43-broken-output-symlink/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/43-broken-output-symlink/prepared"
+      ],
+      "input_sha256": "23ecada08452d4e271596cb8ec362a187789cdfe937f373ce46409432cb911b1",
+      "expected": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "actual": {
+        "exit_code": 1,
+        "status": null,
+        "report_exists": false,
+        "response_exists": false
+      },
+      "checks": {
+        "exit_code": true,
+        "status": true,
+        "report_exists": true,
+        "response_exists": true,
+        "symlink_unchanged": true
+      },
+      "passed": true
+    },
+    {
+      "name": "44-rerun-no-overwrite",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/44-rerun-no-overwrite/manifest.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/forward-independent/run-20261009T064223255410Z/01-five-selected-local/prepared"
+      ],
+      "helper_sha256": "1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f",
+      "exit_code": 1,
+      "before": {
+        "delivery.json": "79edabcdb8e34ef00aa0f2d3b74e96d34081132bd42075fb65276857b9cd11b3",
+        "response.md": "d2b1f9d32b1e39bef1f329ae84d14809373318aef18ecbcce1e2b2d45d78dcab"
+      },
+      "after": {
+        "delivery.json": "79edabcdb8e34ef00aa0f2d3b74e96d34081132bd42075fb65276857b9cd11b3",
+        "response.md": "d2b1f9d32b1e39bef1f329ae84d14809373318aef18ecbcce1e2b2d45d78dcab"
+      },
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Opaque refs are simulated test inputs, no live dialog-reference provenance was supplied.",
+    "No full image decode or live GPT Work display/download proof.",
+    "Container acceptance alone is not visual-quality approval."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-10-09T06:57:12.695059+00:00",
+  "source": "User-attached mobile screenshot, visually inspected in conversation.",
+  "local_evidence": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/received/work-first-response-omission.jpg",
+    "sha256": "9a2d04aecb6b6d0fb7c714114232368a94279c7efd91a44c7397cd29fd60e6cc",
+    "width": 1153,
+    "height": 1280
+  },
+  "observations": {
+    "initial_invocation_visible": true,
+    "skill_chip_visible": "덕테이프 포스터",
+    "brief_structure": "Eyebrow, Title, Body and a title-composition instruction; 16:9 request. Actual event copy omitted from this note.",
+    "first_completed_answer": "Says there are five drafts and recommends one style; its displayed answer region has no image and no original download link.",
+    "user_followup": "User explicitly asks again for images and original links despite updated skill.",
+    "corrective_answer": "Acknowledges the skill already requires individual images and original links; says tool-displayed results were mistakenly considered completed delivery. First poster is visibly displayed below the correction.",
+    "original_download_visibility": "Lower corrected content is cropped; this screenshot does not demonstrate original download success."
+  },
+  "limits": [
+    "Loaded skill version and internal tool/handoff outputs are not visible.",
+    "The first-answer omission is visible; no fresh run of the modified skill in GPT Work has been performed.",
+    "User screenshot stays in local task history; no screenshot binary or event copy is published to the repository."
+  ],
+  "relation_to_change": "The structured prepared answer should be sent in the first completion reply. A summary and recommendation alone do not complete delivery."
+}
