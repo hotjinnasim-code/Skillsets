@@ -1,0 +1,422 @@
+{
+  "helper_sha256": "f9f3b9efa6a9fba884d37653c032a4167551bb07380b7c7e1aa2f17369a6878c",
+  "cases": [
+    {
+      "case": "png-palette",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette-answer"
+      ],
+      "exit_code": 0,
+      "stdout": "png\\-palette (M1)\n\n![png\\-palette](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette.png>)\n\n[원본 다운로드](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette.png>) · 17 × 11 px\n",
+      "stderr": "",
+      "source_sha256": "12e8cc572103be800255a4d6862e810dd05fac94722c67389396532fb00510f8",
+      "report": {
+        "status": "READY",
+        "reference_mode": "local",
+        "counts": {
+          "requested": 1,
+          "selected": 1,
+          "prepared": 1,
+          "none": 0,
+          "blocked": 0
+        },
+        "meaning": "Answer prepared only; display and download in the user conversation are not confirmed.",
+        "checks": "Local file bytes, SHA-256, container structure and header dimensions only; no full image decoding or visual review.",
+        "items": [
+          {
+            "id": "M1",
+            "label": "png-palette",
+            "selection": "selected",
+            "source": {
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette.png",
+              "availability": "checked",
+              "sha256": "12e8cc572103be800255a4d6862e810dd05fac94722c67389396532fb00510f8",
+              "byte_count": 90,
+              "format": "PNG",
+              "width": 17,
+              "height": 11
+            },
+            "display": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette.png",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette.png",
+              "sha256": "12e8cc572103be800255a4d6862e810dd05fac94722c67389396532fb00510f8",
+              "byte_count": 90,
+              "format": "PNG",
+              "width": 17,
+              "height": 11
+            },
+            "download": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette.png",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/png-palette.png",
+              "sha256": "12e8cc572103be800255a4d6862e810dd05fac94722c67389396532fb00510f8",
+              "byte_count": 90,
+              "format": "PNG",
+              "width": 17,
+              "height": 11
+            },
+            "status": "prepared",
+            "width": 17,
+            "height": 11,
+            "errors": []
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": "jpeg-baseline",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline-answer"
+      ],
+      "exit_code": 0,
+      "stdout": "jpeg\\-baseline (M1)\n\n![jpeg\\-baseline](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline.jpeg>)\n\n[원본 다운로드](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline.jpeg>) · 17 × 11 px\n",
+      "stderr": "",
+      "source_sha256": "1c9691b49a1eeb5092482d84aba75cb0e366163e5afd119bffa81e1dd0bb8274",
+      "report": {
+        "status": "READY",
+        "reference_mode": "local",
+        "counts": {
+          "requested": 1,
+          "selected": 1,
+          "prepared": 1,
+          "none": 0,
+          "blocked": 0
+        },
+        "meaning": "Answer prepared only; display and download in the user conversation are not confirmed.",
+        "checks": "Local file bytes, SHA-256, container structure and header dimensions only; no full image decoding or visual review.",
+        "items": [
+          {
+            "id": "M1",
+            "label": "jpeg-baseline",
+            "selection": "selected",
+            "source": {
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline.jpeg",
+              "availability": "checked",
+              "sha256": "1c9691b49a1eeb5092482d84aba75cb0e366163e5afd119bffa81e1dd0bb8274",
+              "byte_count": 637,
+              "format": "JPEG",
+              "width": 17,
+              "height": 11
+            },
+            "display": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline.jpeg",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline.jpeg",
+              "sha256": "1c9691b49a1eeb5092482d84aba75cb0e366163e5afd119bffa81e1dd0bb8274",
+              "byte_count": 637,
+              "format": "JPEG",
+              "width": 17,
+              "height": 11
+            },
+            "download": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline.jpeg",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-baseline.jpeg",
+              "sha256": "1c9691b49a1eeb5092482d84aba75cb0e366163e5afd119bffa81e1dd0bb8274",
+              "byte_count": 637,
+              "format": "JPEG",
+              "width": 17,
+              "height": 11
+            },
+            "status": "prepared",
+            "width": 17,
+            "height": 11,
+            "errors": []
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": "jpeg-progressive",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive-answer"
+      ],
+      "exit_code": 0,
+      "stdout": "jpeg\\-progressive (M1)\n\n![jpeg\\-progressive](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive.jpeg>)\n\n[원본 다운로드](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive.jpeg>) · 17 × 11 px\n",
+      "stderr": "",
+      "source_sha256": "4d9cb2822747019415dfa3b925a71415a3eeeabdd381d3be860128d362dca5bb",
+      "report": {
+        "status": "READY",
+        "reference_mode": "local",
+        "counts": {
+          "requested": 1,
+          "selected": 1,
+          "prepared": 1,
+          "none": 0,
+          "blocked": 0
+        },
+        "meaning": "Answer prepared only; display and download in the user conversation are not confirmed.",
+        "checks": "Local file bytes, SHA-256, container structure and header dimensions only; no full image decoding or visual review.",
+        "items": [
+          {
+            "id": "M1",
+            "label": "jpeg-progressive",
+            "selection": "selected",
+            "source": {
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive.jpeg",
+              "availability": "checked",
+              "sha256": "4d9cb2822747019415dfa3b925a71415a3eeeabdd381d3be860128d362dca5bb",
+              "byte_count": 523,
+              "format": "JPEG",
+              "width": 17,
+              "height": 11
+            },
+            "display": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive.jpeg",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive.jpeg",
+              "sha256": "4d9cb2822747019415dfa3b925a71415a3eeeabdd381d3be860128d362dca5bb",
+              "byte_count": 523,
+              "format": "JPEG",
+              "width": 17,
+              "height": 11
+            },
+            "download": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive.jpeg",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/jpeg-progressive.jpeg",
+              "sha256": "4d9cb2822747019415dfa3b925a71415a3eeeabdd381d3be860128d362dca5bb",
+              "byte_count": 523,
+              "format": "JPEG",
+              "width": 17,
+              "height": 11
+            },
+            "status": "prepared",
+            "width": 17,
+            "height": 11,
+            "errors": []
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": "webp-lossy",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy-answer"
+      ],
+      "exit_code": 0,
+      "stdout": "webp\\-lossy (M1)\n\n![webp\\-lossy](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy.webp>)\n\n[원본 다운로드](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy.webp>) · 17 × 11 px\n",
+      "stderr": "",
+      "source_sha256": "b9325d2783a680f57bbf4808cc33acead2bb2df199e6074e447d41289a623dc0",
+      "report": {
+        "status": "READY",
+        "reference_mode": "local",
+        "counts": {
+          "requested": 1,
+          "selected": 1,
+          "prepared": 1,
+          "none": 0,
+          "blocked": 0
+        },
+        "meaning": "Answer prepared only; display and download in the user conversation are not confirmed.",
+        "checks": "Local file bytes, SHA-256, container structure and header dimensions only; no full image decoding or visual review.",
+        "items": [
+          {
+            "id": "M1",
+            "label": "webp-lossy",
+            "selection": "selected",
+            "source": {
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy.webp",
+              "availability": "checked",
+              "sha256": "b9325d2783a680f57bbf4808cc33acead2bb2df199e6074e447d41289a623dc0",
+              "byte_count": 70,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "display": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy.webp",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy.webp",
+              "sha256": "b9325d2783a680f57bbf4808cc33acead2bb2df199e6074e447d41289a623dc0",
+              "byte_count": 70,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "download": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy.webp",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossy.webp",
+              "sha256": "b9325d2783a680f57bbf4808cc33acead2bb2df199e6074e447d41289a623dc0",
+              "byte_count": 70,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "status": "prepared",
+            "width": 17,
+            "height": 11,
+            "errors": []
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": "webp-lossless",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless-answer"
+      ],
+      "exit_code": 0,
+      "stdout": "webp\\-lossless (M1)\n\n![webp\\-lossless](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless.webp>)\n\n[원본 다운로드](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless.webp>) · 17 × 11 px\n",
+      "stderr": "",
+      "source_sha256": "782d2c7f68a5e4c9dd0f53c081bef71e7da40a9acf2bdaae2c20afbe52a3d410",
+      "report": {
+        "status": "READY",
+        "reference_mode": "local",
+        "counts": {
+          "requested": 1,
+          "selected": 1,
+          "prepared": 1,
+          "none": 0,
+          "blocked": 0
+        },
+        "meaning": "Answer prepared only; display and download in the user conversation are not confirmed.",
+        "checks": "Local file bytes, SHA-256, container structure and header dimensions only; no full image decoding or visual review.",
+        "items": [
+          {
+            "id": "M1",
+            "label": "webp-lossless",
+            "selection": "selected",
+            "source": {
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless.webp",
+              "availability": "checked",
+              "sha256": "782d2c7f68a5e4c9dd0f53c081bef71e7da40a9acf2bdaae2c20afbe52a3d410",
+              "byte_count": 38,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "display": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless.webp",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless.webp",
+              "sha256": "782d2c7f68a5e4c9dd0f53c081bef71e7da40a9acf2bdaae2c20afbe52a3d410",
+              "byte_count": 38,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "download": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless.webp",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-lossless.webp",
+              "sha256": "782d2c7f68a5e4c9dd0f53c081bef71e7da40a9acf2bdaae2c20afbe52a3d410",
+              "byte_count": 38,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "status": "prepared",
+            "width": 17,
+            "height": 11,
+            "errors": []
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": "webp-alpha",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/scripts/prepare_delivery.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha-answer"
+      ],
+      "exit_code": 0,
+      "stdout": "webp\\-alpha (M1)\n\n![webp\\-alpha](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha.webp>)\n\n[원본 다운로드](</Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha.webp>) · 17 × 11 px\n",
+      "stderr": "",
+      "source_sha256": "33caab8c1b4ea37073685ae2cf0692e8c41d73ff0066872c121a0614318e7cb9",
+      "report": {
+        "status": "READY",
+        "reference_mode": "local",
+        "counts": {
+          "requested": 1,
+          "selected": 1,
+          "prepared": 1,
+          "none": 0,
+          "blocked": 0
+        },
+        "meaning": "Answer prepared only; display and download in the user conversation are not confirmed.",
+        "checks": "Local file bytes, SHA-256, container structure and header dimensions only; no full image decoding or visual review.",
+        "items": [
+          {
+            "id": "M1",
+            "label": "webp-alpha",
+            "selection": "selected",
+            "source": {
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha.webp",
+              "availability": "checked",
+              "sha256": "33caab8c1b4ea37073685ae2cf0692e8c41d73ff0066872c121a0614318e7cb9",
+              "byte_count": 106,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "display": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha.webp",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha.webp",
+              "sha256": "33caab8c1b4ea37073685ae2cf0692e8c41d73ff0066872c121a0614318e7cb9",
+              "byte_count": 106,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "download": {
+              "ref": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha.webp",
+              "availability": "checked",
+              "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-reliability/root/formats/webp-alpha.webp",
+              "sha256": "33caab8c1b4ea37073685ae2cf0692e8c41d73ff0066872c121a0614318e7cb9",
+              "byte_count": 106,
+              "format": "WebP",
+              "width": 17,
+              "height": 11
+            },
+            "status": "prepared",
+            "width": 17,
+            "height": 11,
+            "errors": []
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "passed": 6,
+  "total": 6,
+  "scope": "Synthetic test-only format containers. No poster creation, full decode guarantee, dialog reference or live UI validation."
+}

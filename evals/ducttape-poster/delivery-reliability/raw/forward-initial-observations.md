@@ -1,0 +1,13 @@
+# Independent structural forward test
+
+The first code read, before the root agent's null-reference change, showed `validate()` sending every present display/download reference through `safe_ref()`, including explicit nulls. This was a code-read observation, not an executed failing case, and no SHA was recorded for that pre-change read. The root agent changed null handling before this suite ran. No pre-change execution is claimed.
+
+This suite executed 44 cases against stable helper SHA-256 `1c6c4fd5c074be128cacd5aaa6b2a05cc0012fbb5abb40595943da843a17123f`. It used the bundled Python with `-B`, kept raw manifests, exact argv, raw stdout/stderr, exit codes and emitted reports, and did not modify repository code or documentation.
+
+43 cases passed the stated expected structural behavior. Five local selections emitted five image/link pairs. The edited-result case emitted one pair for the preserved selected edit. Four selected roles plus one NONE emitted four pairs and retained the unresolved reason. Omitted and explicit-null dialog refs, null local refs, readable corrupt sources, a thumbnail download, an older original download, missing preview, and mismatched dimensions were blocked. Unsafe references and malformed schema were input errors. Existing output directories, files, broken symlinks and previously prepared output were refused without changing their contents.
+
+One contract question remains: explicit safe scheme-less dialog strings were blocked (`10-dialog-opaque-no-scheme`). The test supplied `generated_image_0001` and `original_download_0001` as simulated reference strings with declared 1024 × 1536 dimensions and no local source. The report treated both references as unavailable because `prepare()` requires a URI scheme. These strings were not actual acquired GPT Work handles, so the suite cannot establish whether a live environment supplies such references; it only identifies a scheme assumption not stated in the string-reference contract. Scheme-bearing simulated `attachment://` and `sandbox:` references were prepared and explicitly marked unverified.
+
+The existing fixture JSON and selected original/preview bytes stayed unchanged. The helper's start/end SHA stayed unchanged during the run. `summary.json` contains individual checks and metadata, and each case directory preserves its raw input and execution outputs.
+
+These are container, reference and answer-structure checks. They do not fully decode image pixels, establish aesthetic quality, or prove GPT Work displays inline media or allows original downloads. No new images were generated, and no network, publishing, installing or goal tools were used.
