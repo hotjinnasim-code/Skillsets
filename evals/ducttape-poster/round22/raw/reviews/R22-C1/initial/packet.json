@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "case_id": "R22-C1",
+  "candidate_label": "anonymous-single-five",
+  "wave": "initial",
+  "expected_count": 5,
+  "critic_profiles": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "full_request": "덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 스타일이 확연히 다르게 느껴지면 좋겠어. 레이아웃은 각 스타일과 읽기 흐름에 맞게 선택하고, 잘 작동하는 구도는 여러 시안에서 공유해도 돼. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.\n\n집 안의 작은 숲\nLEAVES & LIVING\n초록을 고르고, 일상을 가꿉니다.\n작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.\n성수 주말 식물 마켓\n2027.06.12–06.13\n토·일 11:00–19:00\n성수 온실마당\n입장 무료 · 분갈이 시연\n식물 구매 시 관리 안내 제공\n편하게 들러 천천히 둘러보세요.\nleaves.example/market",
+  "literal_case_sha256": "acd080b4ff9624e8baf78220b63148e32a5fadd5ad45b8be5137414971cd700a",
+  "normalization": "nfc-ws-optical-v1",
+  "copy": [
+    {
+      "text": "집 안의 작은 숲",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "LEAVES & LIVING",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "초록을 고르고, 일상을 가꿉니다.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "성수 주말 식물 마켓",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2027.06.12–06.13",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "토·일 11:00–19:00",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "성수 온실마당",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "입장 무료 · 분갈이 시연",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "식물 구매 시 관리 안내 제공",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "편하게 들러 천천히 둘러보세요.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "leaves.example/market",
+      "kind": "url",
+      "fixed_newlines": false
+    }
+  ],
+  "requirements": {
+    "style": "덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 스타일이 확연히 다르게 느껴지면 좋겠어. 레이아웃은 각 스타일과 읽기 흐름에 맞게 선택하고, 잘 작동하는 구도는 여러 시안에서 공유해도 돼. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.\n\n집 안의 작은 숲\nLEAVES & LIVING\n초록을 고르고, 일상을 가꿉니다.\n작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.\n성수 주말 식물 마켓\n2027.06.12–06.13\n토·일 11:00–19:00\n성수 온실마당\n입장 무료 · 분갈이 시연\n식물 구매 시 관리 안내 제공\n편하게 들러 천천히 둘러보세요.\nleaves.example/market\n\nLiteral client styles:\n{\"mode\": \"open\", \"invocation_interpretation\": \"Skill invocation is not a tape material requirement\"}\n\nLiteral mandatory client conditions:\nEach copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.\nFive independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.\nFive clearly distinct achieved styles: imagery and graphic language, color relationships, typography, material and emotion work as an intentional style identity. A good layout, text-role order or alignment may be shared. Five unique layouts or reading routes are not required. Mere filter, palette or font substitutions do not by themselves establish a new style.\nSubstantive content-grounded nonglyph visuals express choosing and caring for living houseplants.\nFull explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.\nExclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override.",
+    "ratio": [
+      16,
+      9
+    ],
+    "ratio_rounding": "nearest-integer-single-edge",
+    "no_type_only": true
+  },
+  "review_rules": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/review_rules.md",
+    "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495",
+    "bytes": 14119
+  },
+  "critic_rubric": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/critic_rubric.md",
+    "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c",
+    "bytes": 6580
+  },
+  "ratio_policy": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/planning/ratio-policy-before-generation.json",
+    "sha256": "80a54213d72c297aad21980df4c38c1a8c2bcb58d61c30fe115eca158bfdcb2c",
+    "bytes": 250
+  },
+  "helper_pins": {
+    "evidence_io.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2",
+      "bytes": 15373
+    },
+    "summarize.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+      "bytes": 38350
+    },
+    "run_agent.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+      "bytes": 2390
+    },
+    "prepare_reviews_compact.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+      "bytes": 33273
+    },
+    "compact_critic_adapter.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "README.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+      "bytes": 10025
+    },
+    "compact-recording-addendum.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+      "bytes": 7465
+    },
+    "audit_compact_bindings.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+      "bytes": 21050
+    }
+  },
+  "source_assets": [],
+  "protected_layouts": [],
+  "images": [
+    {
+      "image_id": "R22-C1-M1",
+      "role": "R22-C1-M1",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M1/stages/initial/manifest.json",
+        "sha256": "ad1a9cd0ab2bad95bb1146e3b90dec1c76f727e38398d0d15e5f15bd3ae2c685",
+        "bytes": 2673
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M1/stages/initial/original.png",
+          "sha256": "cdca9240056e5c2ef8a5d2a0048297c3e9e100249eb505c3824314d041dc1809",
+          "bytes": 2156519,
+          "width": 1672,
+          "height": 940
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M1/stages/initial/usage-720.png",
+          "sha256": "d8396fa7f74581ad465d9912b474d7dd494733daf77795bc8fd18580e9791391",
+          "bytes": 491568,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M1/stages/initial/thumbnail-320.png",
+          "sha256": "fd4bf5498fed1f94115f014f6e80c7d28ecc3bb53f2ac5e235d6e515032f5cd0",
+          "bytes": 112906,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 스타일이 확연히 다르게 느껴지면 좋겠어. 레이아웃은 각 스타일과 읽기 흐름에 맞게 선택하고, 잘 작동하는 구도는 여러 시안에서 공유해도 돼. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.\n\n집 안의 작은 숲\nLEAVES & LIVING\n초록을 고르고, 일상을 가꿉니다.\n작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.\n성수 주말 식물 마켓\n2027.06.12–06.13\n토·일 11:00–19:00\n성수 온실마당\n입장 무료 · 분갈이 시연\n식물 구매 시 관리 안내 제공\n편하게 들러 천천히 둘러보세요.\nleaves.example/market\n\nLiteral client styles:\n{\"mode\": \"open\", \"invocation_interpretation\": \"Skill invocation is not a tape material requirement\"}\n\nLiteral mandatory client conditions:\nEach copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.\nFive independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.\nFive clearly distinct achieved styles: imagery and graphic language, color relationships, typography, material and emotion work as an intentional style identity. A good layout, text-role order or alignment may be shared. Five unique layouts or reading routes are not required. Mere filter, palette or font substitutions do not by themselves establish a new style.\nSubstantive content-grounded nonglyph visuals express choosing and caring for living houseplants.\nFull explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.\nExclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override."
+    },
+    {
+      "image_id": "R22-C1-M2",
+      "role": "R22-C1-M2",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/manifest.json",
+        "sha256": "eaa394ac3e58b6f9d0538a51f97d2c982724caff12f487694e21f544830063cd",
+        "bytes": 2674
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/original.png",
+          "sha256": "564b6d2145c31371b14822b9309cb263fd4a478a2a883e08c6a0342a3eca2dc8",
+          "bytes": 2605033,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/usage-720.png",
+          "sha256": "f849ff0a3dc2e3373c8522d5045139f2c1fccc74c72aa33969eda50d1cfc886a",
+          "bytes": 576618,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/thumbnail-320.png",
+          "sha256": "a193773b42d0fe78107a1a929331530f2cfaad4aa9a5ca1482a6a57048f0dff4",
+          "bytes": 130947,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 스타일이 확연히 다르게 느껴지면 좋겠어. 레이아웃은 각 스타일과 읽기 흐름에 맞게 선택하고, 잘 작동하는 구도는 여러 시안에서 공유해도 돼. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.\n\n집 안의 작은 숲\nLEAVES & LIVING\n초록을 고르고, 일상을 가꿉니다.\n작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.\n성수 주말 식물 마켓\n2027.06.12–06.13\n토·일 11:00–19:00\n성수 온실마당\n입장 무료 · 분갈이 시연\n식물 구매 시 관리 안내 제공\n편하게 들러 천천히 둘러보세요.\nleaves.example/market\n\nLiteral client styles:\n{\"mode\": \"open\", \"invocation_interpretation\": \"Skill invocation is not a tape material requirement\"}\n\nLiteral mandatory client conditions:\nEach copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.\nFive independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.\nFive clearly distinct achieved styles: imagery and graphic language, color relationships, typography, material and emotion work as an intentional style identity. A good layout, text-role order or alignment may be shared. Five unique layouts or reading routes are not required. Mere filter, palette or font substitutions do not by themselves establish a new style.\nSubstantive content-grounded nonglyph visuals express choosing and caring for living houseplants.\nFull explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.\nExclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override."
+    },
+    {
+      "image_id": "R22-C1-M3",
+      "role": "R22-C1-M3",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M3/stages/initial/manifest.json",
+        "sha256": "85ddffb7beccbd46c2ed0901f9fe83fd0064d90f27c190f039166fa568b61faf",
+        "bytes": 2673
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M3/stages/initial/original.png",
+          "sha256": "19340fc3781b96db235ba1f1d868db8b44035205f1530b55f76adf82a4739bd8",
+          "bytes": 2257582,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M3/stages/initial/usage-720.png",
+          "sha256": "ae90e520486436fe293158bdc9c915bcb22f8f1a62f717839747e8241b71b945",
+          "bytes": 484609,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M3/stages/initial/thumbnail-320.png",
+          "sha256": "58f53e52e6e8e9651407a6db69f1fe375e215271c6d8a0802fa014bb01a5f246",
+          "bytes": 109985,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 스타일이 확연히 다르게 느껴지면 좋겠어. 레이아웃은 각 스타일과 읽기 흐름에 맞게 선택하고, 잘 작동하는 구도는 여러 시안에서 공유해도 돼. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.\n\n집 안의 작은 숲\nLEAVES & LIVING\n초록을 고르고, 일상을 가꿉니다.\n작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.\n성수 주말 식물 마켓\n2027.06.12–06.13\n토·일 11:00–19:00\n성수 온실마당\n입장 무료 · 분갈이 시연\n식물 구매 시 관리 안내 제공\n편하게 들러 천천히 둘러보세요.\nleaves.example/market\n\nLiteral client styles:\n{\"mode\": \"open\", \"invocation_interpretation\": \"Skill invocation is not a tape material requirement\"}\n\nLiteral mandatory client conditions:\nEach copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.\nFive independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.\nFive clearly distinct achieved styles: imagery and graphic language, color relationships, typography, material and emotion work as an intentional style identity. A good layout, text-role order or alignment may be shared. Five unique layouts or reading routes are not required. Mere filter, palette or font substitutions do not by themselves establish a new style.\nSubstantive content-grounded nonglyph visuals express choosing and caring for living houseplants.\nFull explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.\nExclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override."
+    },
+    {
+      "image_id": "R22-C1-M4",
+      "role": "R22-C1-M4",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/manifest.json",
+        "sha256": "69c9f4d0c49ee7d2cc3bb3b55b96ddcad62fd6e0e0d81f1a9901a5219201166f",
+        "bytes": 2674
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/original.png",
+          "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+          "bytes": 2298058,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/usage-720.png",
+          "sha256": "81258c131fdbc869501b3a755ededc20f3f8c72dd4ddba5921083b48e3db8e5c",
+          "bytes": 481679,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/thumbnail-320.png",
+          "sha256": "69e8845df63bf2f49ac3fbbd59efc1cdd42688296d78bf9e025241903ea5a82e",
+          "bytes": 106217,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 스타일이 확연히 다르게 느껴지면 좋겠어. 레이아웃은 각 스타일과 읽기 흐름에 맞게 선택하고, 잘 작동하는 구도는 여러 시안에서 공유해도 돼. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.\n\n집 안의 작은 숲\nLEAVES & LIVING\n초록을 고르고, 일상을 가꿉니다.\n작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.\n성수 주말 식물 마켓\n2027.06.12–06.13\n토·일 11:00–19:00\n성수 온실마당\n입장 무료 · 분갈이 시연\n식물 구매 시 관리 안내 제공\n편하게 들러 천천히 둘러보세요.\nleaves.example/market\n\nLiteral client styles:\n{\"mode\": \"open\", \"invocation_interpretation\": \"Skill invocation is not a tape material requirement\"}\n\nLiteral mandatory client conditions:\nEach copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.\nFive independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.\nFive clearly distinct achieved styles: imagery and graphic language, color relationships, typography, material and emotion work as an intentional style identity. A good layout, text-role order or alignment may be shared. Five unique layouts or reading routes are not required. Mere filter, palette or font substitutions do not by themselves establish a new style.\nSubstantive content-grounded nonglyph visuals express choosing and caring for living houseplants.\nFull explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.\nExclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override."
+    },
+    {
+      "image_id": "R22-C1-M5",
+      "role": "R22-C1-M5",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/stages/initial/manifest.json",
+        "sha256": "0d9ece480aac021a2672a03111744b7956d9e9460d99d54b6d45d209ed49b2db",
+        "bytes": 2673
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/stages/initial/original.png",
+          "sha256": "e84854839ca85569a522c2c71707daf8363ffafe2caa7b2ece8057844af207bd",
+          "bytes": 2518129,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/stages/initial/usage-720.png",
+          "sha256": "596790d1ec80d48e94c1485bd427334528b3673256ba190788fb118ed5fe2862",
+          "bytes": 503265,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/stages/initial/thumbnail-320.png",
+          "sha256": "309310a0077d7eeb3feaca220d801780574c1cdddd55d2b5770223cb056cc5f6",
+          "bytes": 110061,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 스타일이 확연히 다르게 느껴지면 좋겠어. 레이아웃은 각 스타일과 읽기 흐름에 맞게 선택하고, 잘 작동하는 구도는 여러 시안에서 공유해도 돼. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.\n\n집 안의 작은 숲\nLEAVES & LIVING\n초록을 고르고, 일상을 가꿉니다.\n작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.\n성수 주말 식물 마켓\n2027.06.12–06.13\n토·일 11:00–19:00\n성수 온실마당\n입장 무료 · 분갈이 시연\n식물 구매 시 관리 안내 제공\n편하게 들러 천천히 둘러보세요.\nleaves.example/market\n\nLiteral client styles:\n{\"mode\": \"open\", \"invocation_interpretation\": \"Skill invocation is not a tape material requirement\"}\n\nLiteral mandatory client conditions:\nEach copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.\nFive independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.\nFive clearly distinct achieved styles: imagery and graphic language, color relationships, typography, material and emotion work as an intentional style identity. A good layout, text-role order or alignment may be shared. Five unique layouts or reading routes are not required. Mere filter, palette or font substitutions do not by themselves establish a new style.\nSubstantive content-grounded nonglyph visuals express choosing and caring for living houseplants.\nFull explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.\nExclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override."
+    }
+  ],
+  "compact_recording": {
+    "schema_version": 2,
+    "kind": "compact_critic_observations",
+    "pin_schema": "path-sha256-bytes-v2",
+    "python": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "adapter": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "method": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+      "bytes": 10025
+    },
+    "addendum": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+      "bytes": 7465
+    },
+    "binding_audit": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+      "bytes": 21050
+    },
+    "preparer": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+      "bytes": 33273
+    },
+    "expected_outputs": [
+      "PROFILE.observations.json",
+      "PROFILE.json",
+      "PROFILE.md"
+    ],
+    "execution": "Inside the same fresh critic session before immutable CLI completion; no post-completion export"
+  }
+}

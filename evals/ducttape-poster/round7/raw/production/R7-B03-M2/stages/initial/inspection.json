@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "role": "R7-B03-M2",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M2/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M2/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M2/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "누름클립",
+    "한 손으로 열고,\n메모를 잡다",
+    "상부 레버를 누르면 집게턱이 열립니다",
+    "알루미늄 몸체 / 고무 패드",
+    "책상 가장자리에 고정하는 메모 집게",
+    "제품 소개 example.org/press-clip"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "누름클립",
+      "raw_observed": "누름클립",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "누름클립",
+      "normalized_observed": "누름클립",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, no crop or overlap observed.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "location": "paper upper-left"
+    },
+    {
+      "copy_index": 1,
+      "required": "한 손으로 열고, 메모를 잡다",
+      "raw_observed": "한 손으로 열고,\n메모를 잡다",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "한 손으로 열고, 메모를 잡다",
+      "normalized_observed": "한 손으로 열고, 메모를 잡다",
+      "equal": true,
+      "layout": {
+        "observations": "Two lines at the permitted word boundary after comma; words retain spacing.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "location": "paper upper-left, two lines below title"
+    },
+    {
+      "copy_index": 2,
+      "required": "상부 레버를 누르면 집게턱이 열립니다",
+      "raw_observed": "상부 레버를 누르면 집게턱이 열립니다",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "상부 레버를 누르면 집게턱이 열립니다",
+      "normalized_observed": "상부 레버를 누르면 집게턱이 열립니다",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, no crop or overlap observed.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "location": "paper lower interior near leading edge"
+    },
+    {
+      "copy_index": 3,
+      "required": "알루미늄 몸체 / 고무 패드",
+      "raw_observed": "알루미늄 몸체 / 고무 패드",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "알루미늄 몸체/고무 패드",
+      "normalized_observed": "알루미늄 몸체/고무 패드",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, no crop or overlap observed.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "location": "lower-right outside paper, below desk edge"
+    },
+    {
+      "copy_index": 4,
+      "required": "책상 가장자리에 고정하는 메모 집게",
+      "raw_observed": "책상 가장자리에 고정하는 메모 집게",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "책상 가장자리에 고정하는 메모 집게",
+      "normalized_observed": "책상 가장자리에 고정하는 메모 집게",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, no crop or overlap observed.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "location": "paper middle-left"
+    },
+    {
+      "copy_index": 5,
+      "required": "제품 소개 example.org/press-clip",
+      "raw_observed": "제품 소개 example.org/press-clip",
+      "kind": "url",
+      "fixed_newlines": false,
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "제품 소개 example.org/press-clip",
+      "normalized_observed": "제품 소개 example.org/press-clip",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, no crop or overlap observed.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "location": "paper middle-left under descriptor"
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "checked": true,
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "누름클립",
+          "raw_observed": "누름클립",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "누름클립",
+          "normalized_observed": "누름클립",
+          "equal": true,
+          "layout": {
+            "observations": "Single line, no crop or overlap observed.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "location": "paper upper-left"
+        },
+        {
+          "copy_index": 1,
+          "required": "한 손으로 열고, 메모를 잡다",
+          "raw_observed": "한 손으로 열고,\n메모를 잡다",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "한 손으로 열고, 메모를 잡다",
+          "normalized_observed": "한 손으로 열고, 메모를 잡다",
+          "equal": true,
+          "layout": {
+            "observations": "Two lines at the permitted word boundary after comma; words retain spacing.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "location": "paper upper-left, two lines below title"
+        },
+        {
+          "copy_index": 2,
+          "required": "상부 레버를 누르면 집게턱이 열립니다",
+          "raw_observed": "상부 레버를 누르면 집게턱이 열립니다",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "상부 레버를 누르면 집게턱이 열립니다",
+          "normalized_observed": "상부 레버를 누르면 집게턱이 열립니다",
+          "equal": true,
+          "layout": {
+            "observations": "Single line, no crop or overlap observed.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "location": "paper lower interior near leading edge"
+        },
+        {
+          "copy_index": 3,
+          "required": "알루미늄 몸체 / 고무 패드",
+          "raw_observed": "알루미늄 몸체 / 고무 패드",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "알루미늄 몸체/고무 패드",
+          "normalized_observed": "알루미늄 몸체/고무 패드",
+          "equal": true,
+          "layout": {
+            "observations": "Single line, no crop or overlap observed.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "location": "lower-right outside paper, below desk edge"
+        },
+        {
+          "copy_index": 4,
+          "required": "책상 가장자리에 고정하는 메모 집게",
+          "raw_observed": "책상 가장자리에 고정하는 메모 집게",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "책상 가장자리에 고정하는 메모 집게",
+          "normalized_observed": "책상 가장자리에 고정하는 메모 집게",
+          "equal": true,
+          "layout": {
+            "observations": "Single line, no crop or overlap observed.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "location": "paper middle-left"
+        },
+        {
+          "copy_index": 5,
+          "required": "제품 소개 example.org/press-clip",
+          "raw_observed": "제품 소개 example.org/press-clip",
+          "kind": "url",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "제품 소개 example.org/press-clip",
+          "normalized_observed": "제품 소개 example.org/press-clip",
+          "equal": true,
+          "layout": {
+            "observations": "Single line, no crop or overlap observed.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "location": "paper middle-left under descriptor"
+        }
+      ],
+      "ambiguities": [],
+      "observations": "All six supplied copy entries read; no additional displayed copy observed."
+    },
+    "style": {
+      "checked_requirement": "진짜 제품 촬영 같은 표현",
+      "observations": [
+        {
+          "view": "native",
+          "location": "whole scene",
+          "observation": "Continuous photographic product scene with skin, paper and metal lit from upper-left; no diagram or collage."
+        }
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "requested_ratio": "2:3",
+      "nearest_integer_edge_difference_pixels": 0,
+      "resized": false,
+      "maximum_resolution_verified": false
+    },
+    "substantive_visual": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "lower-middle and right",
+          "observation": "One large clip at desk edge, open jaws and a pressing finger form the core nonglyph action."
+        }
+      ]
+    },
+    "hangul": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "title and six copy areas",
+          "observation": "Title counters and final consonants remain open; smaller copy keeps readable word gaps and URL baseline. No squeezed glyph widths observed."
+        }
+      ]
+    },
+    "information_relationship": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "paper copy leading to lower edge",
+          "observation": "Title, slogan, descriptor and URL occupy one paper face; function sentence is closest to physical jaws; material line sits outside sheet."
+        }
+      ]
+    },
+    "function_contact": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "lower-middle",
+          "observation": "Single silver pivot visible between front open jaws and rear short lever. One index fingertip contacts lever. Lower pad faces upward; upper pad edge faces the gap. Paper leading edge approaches left/front of gap; other paper face extends onto desk. Integral lower body wraps visible desk edge, with no separate fastening hardware."
+        }
+      ],
+      "limitations": [
+        "Static depiction does not prove real mechanical operation or dimensions."
+      ]
+    },
+    "local_material_edge_finish": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "pivot and finger contact",
+          "observation": "Silver circular pivot has localized metal reflection; fingertip has natural nail and folds. Jaw edges are clean. Aluminum and rubber share visible granular finish."
+        }
+      ]
+    }
+  },
+  "view_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M2/stages/initial/original.png",
+    "sha256": "e1160b33dfdadf73b92e810fc058f75294cc00bb8174122b8a08dca35bc4c18c",
+    "initial_display_observation": "First native view appeared as a small dark patch and did not permit native-detail reading.",
+    "resolution": "One revisit of exactly the same original path rendered the full 1024×1536 poster at native detail.",
+    "resolved": true,
+    "reason": "Display limitation, not a changed asset or repeated transcription sampling."
+  },
+  "viewing_procedure_limit": "The first native-view invocation preceded usage720 and thumbnail320, but full meaningful native reading occurred on the one revisit after those QA views.",
+  "residuals": [
+    {
+      "view": "native",
+      "location": "upper jaw underside, approximately x390–615/y805–875 of 1024×1536",
+      "observation": "Upper black pad is identifiable mostly as its side edge; broad contacting underside is less exposed than the lower pad.",
+      "impact": "Two opposing rubber pad surfaces are not equally clear."
+    },
+    {
+      "view": "native",
+      "location": "aluminum jaw planes and lower rubber pad",
+      "observation": "Fine granular surface is prominent on both matte aluminum and rubber.",
+      "impact": "Material separation depends more on shape and edge reflection than distinct surface response."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "upper half versus clip lower-middle",
+      "observation": "Large bold title is the first strong contrast; clip and hand are still large and recognizable, but the thin paper entry edge is subtle.",
+      "impact": "Fine paper-to-gap alignment requires usage or native view."
+    },
+    {
+      "kind": "procedure",
+      "location": "stages/initial/native-call.json",
+      "observation": "Exact post-await caller end timestamp lost in bookkeeping error; native call returned and its source is preserved. No end time inferred."
+    }
+  ]
+}

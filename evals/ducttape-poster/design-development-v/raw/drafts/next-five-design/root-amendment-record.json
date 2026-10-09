@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-08T17:52:47.456236+00:00",
+  "source_plan_sha256": "846887557a10b9545f4dc4386a7c5ff85282115a136c6f6eadf4d12ea6ef1881",
+  "root_plan_sha256": "6e7e8818ec39943d3f68764a4123af391c15718c97a8820dd63ebd5ddc371c70",
+  "request_exact": true,
+  "all_copy_exact": true,
+  "all_body_line_groups_rejoin_exactly": true,
+  "schema_adaptations": [
+    "common_constraints object to strings list",
+    "direction role_id key to role"
+  ],
+  "design_change": "M4 actual first copy role, practical arrangement and image/copy ground relationship redesigned before generation; other4 direction objects unchanged except role-key adaptation.",
+  "misreading_correction": "Decoded JSON check found exact request match. Apparent newline mismatch in escaped tool display was a ROOT reading error; no request correction was needed.",
+  "limits": [
+    "Central plan comparison is not image quality scoring or an extra mandatory quality gate.",
+    "No generated images or future critic scores are available for this prospective case."
+  ]
+}

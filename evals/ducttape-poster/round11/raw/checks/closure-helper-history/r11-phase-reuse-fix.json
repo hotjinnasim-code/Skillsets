@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-10-08T06:23:23.469223+00:00",
+  "state": "PROSPECTIVE_READY_SYNTHETIC_ONLY",
+  "scope": "ROOT-only closure helpers; no actor/base/method/runtime/case evidence changed",
+  "files": [
+    {
+      "file": "verify_archive.py",
+      "before_file": "checks/closure-helper-history/verify_archive.before-r11-phase-reuse.py",
+      "before_sha256": "2455a957c6e7372380d917b9231b2ecbf962c7874d61b54f895f563ab154c962",
+      "before_bytes": 17743,
+      "after_sha256": "777fd1a3e3b98a24fd7ed662b59ba555ba322335197b33011f8cce32b48ff517",
+      "after_bytes": 18169,
+      "change": "Replay v4 and source for both logical phases; count unique summary sessions and scores once; retain per-wave compact or reuse proof."
+    },
+    {
+      "file": "seal_single_five.py",
+      "before_file": "checks/closure-helper-history/seal_single_five.before-r11-phase-reuse.py",
+      "before_sha256": "d36202da32f90de88efd3e57ab29df9433835d7a45a55eee3296ef46ef8c5097",
+      "before_bytes": 18005,
+      "after_sha256": "fd3ef77896ca2b7378efc2b82e2f6f3ff46f30fbf20384e35c80832936ff00fb",
+      "after_bytes": 18005,
+      "change": "Rename stale internal closed_r10_auditor_ module label to closed_r11_auditor_; behavior unchanged."
+    }
+  ],
+  "completed_utc": "2026-10-08T06:27:55.277114+00:00",
+  "audit": {
+    "checked_helpers": [
+      "seal_single_five.py",
+      "archive_single_five.py",
+      "verify_archive.py",
+      "close_review_phase.py",
+      "close_production.py",
+      "build_closed_report.py"
+    ],
+    "stale_candidate_or_copy_count_logic": false,
+    "remaining_R10_and_J_mentions": "Historical bounded-transfer context only.",
+    "legacy_R7_branch": "Dormant branch retained; no R11 effect.",
+    "raw_report": "Full 30 displayed raw-score rows, seven dimensions; selected whole initial reuse reads actual initial summary source directory; eleven literal entries remain declared."
+  },
+  "limits": [
+    "Only ROOT closure helpers and new checks/history were written.",
+    "No actor/base/method/runtime/snapshot/case/coordinator/research/README/Git changed.",
+    "No actual future outputs, selected scores, native images, seal, archive or repository copy accessed.",
+    "Actual frozen v4/source/compact replay remains pending whole selected closure and raw-report readiness."
+  ],
+  "derived_check_sources": [
+    {
+      "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/checks/closure_archive_integration.py",
+      "source_sha256": "ce7df0f971eff18a82ea84ff7ed15bbfa508c64151165d39c5d2651b04c31d33",
+      "r11_path": "checks/closure_archive_integration.py",
+      "r11_sha256": "d487f8e652497438dbc62bf7f915a508823c08a8941b3c285d11d483c87df1ee",
+      "unchanged": false
+    },
+    {
+      "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/checks/wholecopy_inventory.py",
+      "source_sha256": "9c1be831e5df838ff7c8c255286bb902342e59187ade369407ab368cb5280d10",
+      "r11_path": "checks/wholecopy_inventory.py",
+      "r11_sha256": "9c1be831e5df838ff7c8c255286bb902342e59187ade369407ab368cb5280d10",
+      "unchanged": true
+    },
+    {
+      "source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/checks/closure-method.md",
+      "source_sha256": "e79649b171e48d571f0e103f2dbc549e3dc70f2cbd03af60b3170e09377ffb04",
+      "r11_path": "checks/closure-method.md",
+      "r11_sha256": "0ed64d2a504edf918751977ccdfeb6250b1a5c23bf10453d3c7f46bfb62750c5",
+      "unchanged": false
+    }
+  ],
+  "synthetic_preflight": {
+    "path": "checks/synthetic-containment-preflight.json",
+    "sha256": "3a5905ab1cb8bc05f4a1aab7eea3ccde0b0b4307f4a2bd978015bf35f9e788f3",
+    "status": "PASS",
+    "containment_negative_cases": 13,
+    "external_fixture_metadata_and_read_attempts": 0,
+    "fresh_and_complete_initial_reuse_fixtures": 2,
+    "logical_phases_each": 2,
+    "selected_scores_or_reports_read": false,
+    "actual_quality_engines_actors_native_calls": 0
+  },
+  "synthetic_wholecopy_preflight": {
+    "path": "checks/synthetic-wholecopy-preflight.json",
+    "sha256": "a85fe58d832831a30f03bfb6f1136f00fe6f7018173f53a96a86e027a65a609e",
+    "status": "PASS",
+    "ignored_looking_files_and_empty_hidden_directories_included": true,
+    "changed_file_detected": true,
+    "symlink_rejected": true,
+    "actual_archive_or_repository_copy_read": false
+  }
+}

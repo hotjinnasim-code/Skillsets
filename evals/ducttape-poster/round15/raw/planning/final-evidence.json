@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "closed_utc": "2026-10-08T13:11:20.676372+00:00",
+  "candidate": "P",
+  "poster_calls_closed": true,
+  "poster_role_denominator": 5,
+  "cases": 1,
+  "poster_native_attempts": 6,
+  "poster_attempt_cap": 15,
+  "native_failures": 0,
+  "production_closure": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round15/planning/single-five-production-closure.json",
+    "sha256": "d00b900e3f25d241f1e7f1d14a51b642f484c7418938f2905a3420920a614b09",
+    "bytes": 7813
+  },
+  "pre_generation_freeze": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round15/planning/candidate-p-pre-generation-freeze.json",
+    "sha256": "4cd31cdf91f5e07ea0892d03a0809102fafbc8065ed5e3f3d5de404ea1099e46",
+    "bytes": 36571
+  },
+  "migration": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/migration-plan.json",
+    "sha256": "493aaac311551fc2b7d668949092b61cc09bf20b5c1edb4053d3bdde4ae66139",
+    "bytes": 24320
+  },
+  "initial": {
+    "closure": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round15/reviews/R15-C1/initial/whole-phase-closure.json",
+      "sha256": "1913a867f9ab51e6b07b8f3ce8e7eb5af6de889b080a0732b1b710fa1e6486d1",
+      "bytes": 1505
+    },
+    "summary": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round15/reviews/R15-C1/initial/summary.json",
+      "sha256": "49aab6f312abab5cf35e513e8e5491b13554a4fc9eb44e1f2b71fa9c5e1369d3",
+      "bytes": 1047930
+    },
+    "image_gate_counts": {
+      "PASS": 1,
+      "FAIL": 3,
+      "NA": 1
+    },
+    "set_gate": "NA",
+    "sessions": [
+      "01a11b86-bf99-7e40-8513-f90aff7e5aa2",
+      "01a11b86-bf9f-7332-96ab-30dd2533c44f",
+      "01a11b86-bfa6-72e1-9226-d7a05c380c47"
+    ],
+    "completed_reviews": 3,
+    "valid_scores": 105
+  },
+  "selected": {
+    "closure": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round15/reviews/R15-C1/selected/whole-phase-closure.json",
+      "sha256": "36c15345a03f69fc31d917661baf2d7b97be76517f6dfb89969daa0ca9894f31",
+      "bytes": 1294
+    },
+    "interruption": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round15/reviews/R15-C1/selected/interrupted-phase.json",
+      "sha256": "ec6c67810ddb82026c345132e83ec1783bebd40ce3625309b5d758ec553b0c30",
+      "bytes": 4052
+    },
+    "summary": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round15/reviews/R15-C1/selected/summary.json",
+      "sha256": "9c2aecf8c64cd3efde300c5eeeea8f151f944ffa8b707ba3e03f7051b74f879c",
+      "bytes": 58718
+    },
+    "image_gate_counts": {
+      "PASS": 0,
+      "FAIL": 0,
+      "NA": 5
+    },
+    "set_gate": "NA",
+    "started_reviews": 3,
+    "completed_reviews": 0,
+    "valid_scores": 0
+  },
+  "actual_started_quality_sessions": [
+    "01a11b86-bf99-7e40-8513-f90aff7e5aa2",
+    "01a11b86-bf9f-7332-96ab-30dd2533c44f",
+    "01a11b86-bfa6-72e1-9226-d7a05c380c47",
+    "01a11b90-9f44-75d3-8820-086eaab637ad",
+    "01a11b90-9f3f-7521-a178-5cfc43755067",
+    "01a11b90-9f47-7dd0-8aa0-05b12b98406c"
+  ],
+  "actual_completed_quality_sessions": [
+    "01a11b86-bf99-7e40-8513-f90aff7e5aa2",
+    "01a11b86-bf9f-7332-96ab-30dd2533c44f",
+    "01a11b86-bfa6-72e1-9226-d7a05c380c47"
+  ],
+  "limits": [
+    "All five roles retained; four selected initial and M1 selected its own repair1 before critics. Six returned native posters, no failed native call.",
+    "Selected reviewers stopped after parent interruption; no completion or ratings invented and no replacement session. Selected stage is NA, not quality FAIL or PASS.",
+    "Same original105 initial ratings, original thresholds, source and compact gates retained. No score feedback generation or selection changes.",
+    "This closes observed facts and process interruption, not a portable v4 replay certification. Historical path identifiers are resolved through the workspace migration map.",
+    "One new-content16:9 request with three completed initial critics does not establish all future quality, authorship or isolated causality."
+  ]
+}

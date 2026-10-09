@@ -1,0 +1,354 @@
+{
+  "role": "R15-C1-M5",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M5/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M5/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M5/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "밤의 식탁",
+    "NIGHT MARKET",
+    "제철 음식 · 동네 음악",
+    "2027.03.13 토요일",
+    "18:00–21:00",
+    "망원 작은마당",
+    "17:30부터 입장",
+    "입장 무료 · 음식 별도 구매",
+    "현장 참여 · 누구나 환영",
+    "다회용 컵을\n가져와 주세요",
+    "이웃과 천천히 머물러요"
+  ],
+  "first_transcription_view": "usage720",
+  "viewing_order": [
+    "native original: tool emitted only a small upper-left leaf fragment, so no full native transcription was claimed",
+    "usage720: whole poster displayed and all copy first read",
+    "thumbnail320: whole poster displayed",
+    "one exact-native-asset revisit: full poster displayed at original detail"
+  ],
+  "native_view_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M5/stages/initial/original.png",
+    "sha256": "bf34f06abb60b661766597da76c691d7a29e5a16d25bbf233866722b179df1df",
+    "initial_read": "Only a small upper-left leaf fragment displayed; native whole/copy reading unavailable on the first display.",
+    "raw_observed": [
+      "밤의 식탁",
+      "NIGHT MARKET",
+      "제철 음식 · 동네 음악",
+      "2027.03.13 토요일",
+      "18:00–21:00",
+      "망원 작은마당",
+      "17:30부터 입장",
+      "입장 무료 · 음식 별도 구매",
+      "현장 참여 · 누구나 환영",
+      "다회용 컵을\n가져와 주세요",
+      "이웃과 천천히 머물러요"
+    ],
+    "resolution": "The exact same pinned original rendered completely on the single revisit. Its full layout, letter contours and practical copy were visible, confirming the earlier usage720 read.",
+    "resolved": true,
+    "reason": "Initial native-display limitation; no pixel modification, crop or regeneration."
+  },
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "whole landscape",
+      "observation": "Large cropped salad at lower left and cropped accordion at upper right dominate the image area. Blue and coral undulating boundaries connect them, enclosing differently sized openings for copy."
+    },
+    {
+      "view": "usage720",
+      "location": "upper-left to upper-center",
+      "observation": "The large Korean/English title pair is the first type anchor; the adjacent date/time is the next useful practical group. The central subtitle and right venue/entry follow the same curved route."
+    },
+    {
+      "view": "usage720",
+      "location": "left-middle and lower-middle/right notches",
+      "observation": "Cup reminder is a two-line local group beside the plate rim. Participation/invitation share a nearby cream notch below the connecting contour; the admission line follows the right-lower band. All can be located and read without a fixed footer."
+    },
+    {
+      "view": "native",
+      "location": "salad, accordion and color joins",
+      "observation": "Food leaves/radish slices and instrument keys/bellows are recognizable substantive subjects. Accordion outlines and color joins are clear; salad has more detailed tonal modeling than the broad flat color bands."
+    },
+    {
+      "view": "native",
+      "location": "all Korean copy",
+      "observation": "Hangul syllable proportions and counters remain recognizable. Word spaces are visible; title and instructions are very heavy sans forms. Copy stays clear of the detailed salad and bellows."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "copy_count_observed": 11,
+      "additional_copy_observed": false,
+      "duplicate_copy_observed": false,
+      "normalization": "nfc-ws-optical-v1",
+      "issues": [],
+      "ambiguities": [],
+      "raster_limit": "Observed punctuation classes and optical spacing are recorded; raster appearance does not certify original Unicode code points.",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "밤의 식탁",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "밤의 식탁",
+          "first_observed_view": "usage720",
+          "location": "upper-left cream bend, shared title baseline",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "밤의 식탁",
+          "normalized_observed": "밤의 식탁",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "NIGHT MARKET",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "NIGHT MARKET",
+          "first_observed_view": "usage720",
+          "location": "upper-left below Korean title",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "NIGHT MARKET",
+          "normalized_observed": "NIGHT MARKET",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "제철 음식 · 동네 음악",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "제철 음식 · 동네 음악",
+          "first_observed_view": "usage720",
+          "location": "center cream bend",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "제철 음식·동네 음악",
+          "normalized_observed": "제철 음식·동네 음악",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2027.03.13 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2027.03.13 토요일",
+          "first_observed_view": "usage720",
+          "location": "upper-center yellow-green bend, first line",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2027.03.13 토요일",
+          "normalized_observed": "2027.03.13 토요일",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "18:00–21:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "18:00–21:00",
+          "first_observed_view": "usage720",
+          "location": "upper-center yellow-green bend, second line",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "18:00–21:00",
+          "normalized_observed": "18:00–21:00",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "망원 작은마당",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "망원 작은마당",
+          "first_observed_view": "usage720",
+          "location": "right-middle cream bend, first line",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "망원 작은마당",
+          "normalized_observed": "망원 작은마당",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "17:30부터 입장",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "17:30부터 입장",
+          "first_observed_view": "usage720",
+          "location": "right-middle cream bend, second line",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "17:30부터 입장",
+          "normalized_observed": "17:30부터 입장",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "입장 무료 · 음식 별도 구매",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "입장 무료 · 음식 별도 구매",
+          "first_observed_view": "usage720",
+          "location": "right-lower yellow-green curved band",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "입장 무료·음식 별도 구매",
+          "normalized_observed": "입장 무료·음식 별도 구매",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "Cup reminder soft-wraps at an existing word boundary; other entries are unwrapped. Admission follows a curved baseline."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "현장 참여 · 누구나 환영",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "현장 참여 · 누구나 환영",
+          "first_observed_view": "usage720",
+          "location": "lower-middle/right cream notch, first line",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "현장 참여·누구나 환영",
+          "normalized_observed": "현장 참여·누구나 환영",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "다회용 컵을 가져와 주세요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "다회용 컵을\n가져와 주세요",
+          "first_observed_view": "usage720",
+          "location": "left-middle cream notch, two lines",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "다회용 컵을 가져와 주세요",
+          "normalized_observed": "다회용 컵을 가져와 주세요",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "Cup reminder soft-wraps at an existing word boundary; other entries are unwrapped. Admission follows a curved baseline."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "이웃과 천천히 머물러요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "이웃과 천천히 머물러요",
+          "first_observed_view": "usage720",
+          "location": "lower-middle/right cream notch, second line",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "이웃과 천천히 머물러요",
+          "normalized_observed": "이웃과 천천히 머물러요",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_applicable": false,
+            "observations": "One visible entry; no fixed newline requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "substantive_visual": {
+      "observed": true,
+      "location": "lower-left salad / upper-right accordion / connecting broad contours",
+      "observation": "Food and music subjects carry the event concept and organize the spaces around the information, rather than serving as small illustrations beside a universal title/date/info panel."
+    },
+    "assigned_style": {
+      "checked": "Bold digital contour weave joining spring salad and opening accordion.",
+      "observed": "Broad blue/coral curves, sharp frame crops, recognizable green salad and accordion. Title is one upper-left group rather than split baselines; admission follows a curved baseline; food rendering is detailed. These are planning departures rather than observed user-copy or use-size defects."
+    },
+    "ratio": {
+      "requested": [
+        16,
+        9
+      ],
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "exact_height_for_observed_width": 940.5,
+      "edge_rounding_px": 0.5,
+      "policy": "Permitted nearest-integer native edge rounding, <=0.5 pixel; no resize performed."
+    },
+    "format": {
+      "single_flat_opaque_landscape": true,
+      "observation": "One complete flat poster image; no panels, room mockup, frame or visible transparent area."
+    },
+    "excluded_template": {
+      "observed_relation": "Large cropped content subjects and continuous contour editing set the whole composition. Title, schedule, venue and participation occupy local unequal openings; pictures are substantive rather than subordinate additions to a uniform information template."
+    },
+    "adult_neighborhood_event": {
+      "observation": "Fresh food and a modest unbranded instrument share the same continuous image flow; no identifiable business or performer promotion is visible."
+    },
+    "hangul": {
+      "observation": "Counters and syllable blocks are intact at native display and all required words remain readable at usage720; practical word boundaries are preserved."
+    },
+    "information_relationship": {
+      "reading_route": "title/English and major subjects → upper date/time → central food/music subtitle → right venue/entry and admission → lower participation/invitation and left cup reminder",
+      "observation": "The continuous bands provide a common route; required practical groups are dispersed but legible in their own openings."
+    },
+    "function_contact": {
+      "applicability": "No real hand action, functional demonstration, contact details, URL or logo reproduction requested.",
+      "instrument_observation": "Recognizable keyboard, bellows and button end; illustration does not claim mechanically documented instrument fidelity."
+    },
+    "local_finish": {
+      "observation": "Contour joins and object crops are clean. Detail density and shading are richer in the salad than in the flat connecting bands; no obvious broken synthesis boundary or copy collision was observed."
+    }
+  },
+  "residuals": [
+    "The title stays together in the upper-left opening, and the admission text follows the curved band rather than the planned separate/horizontal baselines. They remain readable; no repair was made solely for plan fidelity.",
+    "Salad rendering uses detailed tonal shading rather than uniformly flat bodies; the main connecting contours and accordion remain digitally illustrated.",
+    "1672×941 uses the permitted +0.5-pixel height rounding relative to exact 16:9 at the returned width.",
+    "Small practical copy is readable in the inspected 720-wide view; the 320-wide thumbnail supports whole-composition inspection rather than all-detail reading. Cross-poster diversity was outside this isolated role's viewing scope."
+  ],
+  "selection_rationale": "Select initial: all required entries were read once, practical information is legible at usage720, and the substantive food/music contour system works as one event. No actual copy, user-condition, use-size-reading or obvious structural defect was identified that warrants a repair."
+}

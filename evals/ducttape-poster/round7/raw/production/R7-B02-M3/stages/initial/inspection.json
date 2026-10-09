@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "role": "R7-B02-M3",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/initial/thumbnail-320.png"
+  ],
+  "viewing_order": "original at native detail, usage720, thumbnail320; one revisit of exact original after initial display limitation",
+  "raw_observed_text": [
+    "도시를 읽는 데이터",
+    "Reading the City Through Data",
+    "도시 데이터 실무 포럼 2026",
+    "Urban Data Practice Forum2026",
+    "2026.11.26 13:30–17:30",
+    "성수공유홀 3층",
+    "Seongsu Shared Hall, 3F",
+    "13:30    등록 / Registration",
+    "14:00    생활 데이터의 빈틈 / Gaps in Everyday Data",
+    "15:00    지역을 설명하는 지도 / Mapping Local Context",
+    "16:00    작은 팀의 협업 / Collaboration in Small Teams",
+    "17:00    질의응답 / Questions and Answers",
+    "대상  공공기관 실무자와 지역 데이터 팀",
+    "For public-sector practitioners\nand local data teams",
+    "참가비 무료 / Free admission",
+    "정원 80명  / Capacity 80",
+    "신청 마감 2026.11.20 18:00",
+    "Registration closes 2026.11.20 18:00",
+    "신청 example.org/city-data",
+    "Register example.org/city-data",
+    "문의 city-data@example.org",
+    "Contact city-data@example.org",
+    "주최  도시실무연구회",
+    "Organised by Urban Practice Network"
+  ],
+  "copy_index_base": 0,
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "도시를 읽는 데이터",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "도시를 읽는 데이터",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "도시를 읽는 데이터",
+          "normalized_observed": "도시를 읽는 데이터",
+          "equal": true,
+          "layout": {
+            "location": "central Korean headline",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "Reading the City Through Data",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "Reading the City Through Data",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "Reading the City Through Data",
+          "normalized_observed": "Reading the City Through Data",
+          "equal": true,
+          "layout": {
+            "location": "central English headline",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "도시 데이터 실무 포럼 2026",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "도시 데이터 실무 포럼 2026",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "도시 데이터 실무 포럼 2026",
+          "normalized_observed": "도시 데이터 실무 포럼 2026",
+          "equal": true,
+          "layout": {
+            "location": "overview, first line",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "Urban Data Practice Forum 2026",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "Urban Data Practice Forum2026",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "Urban Data Practice Forum 2026",
+          "normalized_observed": "Urban Data Practice Forum2026",
+          "equal": false,
+          "layout": {
+            "location": "overview, second line",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": "Initial usage720 read had uncertain gap between Forum and 2026.",
+          "revisit": {
+            "view": "native",
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/initial/original.png",
+            "sha256": "2bceb33384cd414acf2b9f3f9d9d6b0286aa9a6669231f9d2153e5ebffc0a3a5",
+            "raw_observed": "Urban Data Practice Forum2026",
+            "resolution": "Native revisit displays Forum and 2026 with no clearly separated word gap; retain the concatenated observed reading rather than insert the required space.",
+            "resolved": true,
+            "reason": "Native display now shows full poster and confirms the first raw read."
+          }
+        },
+        {
+          "copy_index": 4,
+          "required": "2026.11.26 13:30–17:30",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2026.11.26 13:30–17:30",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2026.11.26 13:30–17:30",
+          "normalized_observed": "2026.11.26 13:30–17:30",
+          "equal": true,
+          "layout": {
+            "location": "overview, date/time",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "성수공유홀 3층",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "성수공유홀 3층",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "성수공유홀 3층",
+          "normalized_observed": "성수공유홀 3층",
+          "equal": true,
+          "layout": {
+            "location": "overview, venue Korean",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "Seongsu Shared Hall, 3F",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "Seongsu Shared Hall, 3F",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "Seongsu Shared Hall, 3F",
+          "normalized_observed": "Seongsu Shared Hall, 3F",
+          "equal": true,
+          "layout": {
+            "location": "overview, venue English",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "13:30 등록 / Registration",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "13:30    등록 / Registration",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "13:30 등록/Registration",
+          "normalized_observed": "13:30 등록/Registration",
+          "equal": true,
+          "layout": {
+            "location": "top row 1",
+            "observations": "Time column has broad alignment gap before topic; optical spaces around slash retained in raw.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "14:00 생활 데이터의 빈틈 / Gaps in Everyday Data",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "14:00    생활 데이터의 빈틈 / Gaps in Everyday Data",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "14:00 생활 데이터의 빈틈/Gaps in Everyday Data",
+          "normalized_observed": "14:00 생활 데이터의 빈틈/Gaps in Everyday Data",
+          "equal": true,
+          "layout": {
+            "location": "top row 2",
+            "observations": "Time column has broad alignment gap before topic; optical spaces around slash retained in raw.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "15:00 지역을 설명하는 지도 / Mapping Local Context",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "15:00    지역을 설명하는 지도 / Mapping Local Context",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "15:00 지역을 설명하는 지도/Mapping Local Context",
+          "normalized_observed": "15:00 지역을 설명하는 지도/Mapping Local Context",
+          "equal": true,
+          "layout": {
+            "location": "top row 3",
+            "observations": "Time column has broad alignment gap before topic; optical spaces around slash retained in raw.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "16:00 작은 팀의 협업 / Collaboration in Small Teams",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "16:00    작은 팀의 협업 / Collaboration in Small Teams",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "16:00 작은 팀의 협업/Collaboration in Small Teams",
+          "normalized_observed": "16:00 작은 팀의 협업/Collaboration in Small Teams",
+          "equal": true,
+          "layout": {
+            "location": "top row 4",
+            "observations": "Time column has broad alignment gap before topic; optical spaces around slash retained in raw.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 11,
+          "required": "17:00 질의응답 / Questions and Answers",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "17:00    질의응답 / Questions and Answers",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "17:00 질의응답/Questions and Answers",
+          "normalized_observed": "17:00 질의응답/Questions and Answers",
+          "equal": true,
+          "layout": {
+            "location": "top row 5",
+            "observations": "Time column has broad alignment gap before topic; optical spaces around slash retained in raw.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 12,
+          "required": "대상 공공기관 실무자와 지역 데이터 팀",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "대상  공공기관 실무자와 지역 데이터 팀",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "대상 공공기관 실무자와 지역 데이터 팀",
+          "normalized_observed": "대상 공공기관 실무자와 지역 데이터 팀",
+          "equal": true,
+          "layout": {
+            "location": "lower-left first line",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 13,
+          "required": "For public-sector practitioners and local data teams",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "For public-sector practitioners\nand local data teams",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "For public-sector practitioners and local data teams",
+          "normalized_observed": "For public-sector practitioners and local data teams",
+          "equal": true,
+          "layout": {
+            "location": "lower-left two English lines",
+            "observations": "English target visually wraps after practitioners; no fixed newline required.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 14,
+          "required": "참가비 무료 / Free admission",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "참가비 무료 / Free admission",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "참가비 무료/Free admission",
+          "normalized_observed": "참가비 무료/Free admission",
+          "equal": true,
+          "layout": {
+            "location": "lower-left free line",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 15,
+          "required": "정원 80명 / Capacity 80",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "정원 80명  / Capacity 80",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "정원 80명/Capacity 80",
+          "normalized_observed": "정원 80명/Capacity 80",
+          "equal": true,
+          "layout": {
+            "location": "lower-left capacity line",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 16,
+          "required": "신청 마감 2026.11.20 18:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "신청 마감 2026.11.20 18:00",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "신청 마감 2026.11.20 18:00",
+          "normalized_observed": "신청 마감 2026.11.20 18:00",
+          "equal": true,
+          "layout": {
+            "location": "lower-right first line",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 17,
+          "required": "Registration closes 2026.11.20 18:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "Registration closes 2026.11.20 18:00",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "Registration closes 2026.11.20 18:00",
+          "normalized_observed": "Registration closes 2026.11.20 18:00",
+          "equal": true,
+          "layout": {
+            "location": "lower-right second line",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 18,
+          "required": "신청 example.org/city-data",
+          "kind": "url",
+          "fixed_newlines": false,
+          "raw_observed": "신청 example.org/city-data",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "신청 example.org/city-data",
+          "normalized_observed": "신청 example.org/city-data",
+          "equal": true,
+          "layout": {
+            "location": "lower-right URL Korean",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 19,
+          "required": "Register example.org/city-data",
+          "kind": "url",
+          "fixed_newlines": false,
+          "raw_observed": "Register example.org/city-data",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "Register example.org/city-data",
+          "normalized_observed": "Register example.org/city-data",
+          "equal": true,
+          "layout": {
+            "location": "lower-right URL English",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 20,
+          "required": "문의 city-data@example.org",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "문의 city-data@example.org",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "문의 city-data@example.org",
+          "normalized_observed": "문의 city-data@example.org",
+          "equal": true,
+          "layout": {
+            "location": "lower-right contact Korean",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 21,
+          "required": "Contact city-data@example.org",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "Contact city-data@example.org",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "Contact city-data@example.org",
+          "normalized_observed": "Contact city-data@example.org",
+          "equal": true,
+          "layout": {
+            "location": "lower-right contact English",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 22,
+          "required": "주최 도시실무연구회",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "주최  도시실무연구회",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "주최 도시실무연구회",
+          "normalized_observed": "주최 도시실무연구회",
+          "equal": true,
+          "layout": {
+            "location": "overview organiser Korean",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 23,
+          "required": "Organised by Urban Practice Network",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "Organised by Urban Practice Network",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "Organised by Urban Practice Network",
+          "normalized_observed": "Organised by Urban Practice Network",
+          "equal": true,
+          "layout": {
+            "location": "overview organiser English",
+            "observations": "Horizontal unbroken entry; spacing as transcribed.",
+            "fixed_newline_fidelity": "not_fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "ambiguities": [
+        {
+          "copy_index": 3,
+          "description": "Uncertain Forum/2026 word gap on first read; native revisit retains concatenation.",
+          "resolved": true
+        }
+      ],
+      "issues": [
+        "Copy index 3 normalized word-space mismatch."
+      ]
+    },
+    "ratio": {
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "edge_rounding_error_pixels": 0,
+      "observation": "Native dimensions from PNG manifest; no resize."
+    },
+    "format": {
+      "observation": "One flat opaque portrait artwork; no contact sheet or mockup."
+    },
+    "style": {
+      "checked_requirement": {
+        "mode": "open",
+        "tone": "신뢰할 수 있고 활기 있는 행사"
+      },
+      "observation": "Editorial high-view drawing of two sheets, anonymous cropped hands and colourful clear information; broad assigned arrangement retained."
+    },
+    "substantive_non_glyph": {
+      "observation": "Large doorway, paving and tree scene divided between yellow and mint surfaces; opposite hands grasp sheet edges and red matching seam links the urban scene.",
+      "location": "middle to lower-center",
+      "limits": [
+        "Seam shows urban juxtaposition, but surrounding skyline diffuses focus."
+      ]
+    },
+    "hangul": {
+      "observation": "Title and body have recognizable syllable blocks, open internal counters and meaningful word gaps. English title is much narrower in proportions.",
+      "locations": [
+        "central title",
+        "top programme",
+        "lower participant/registration"
+      ]
+    },
+    "information_relationship": {
+      "observation": "All five programme lines are above titles in order; overview pairs adjacent at center; participants/free/capacity left and registration/contact right; organiser near overview. All smallest lines readable at usage720."
+    },
+    "function_contact": {
+      "observation": "Both unbroken example.org/city-data URLs and city-data@example.org emails visible; no QR or invented functional claims.",
+      "limits": [
+        "Only visual transcription checked, not link operation."
+      ]
+    },
+    "material_edges": {
+      "observation": "Strong black edges distinguish both sheets; thumbs sit on visible sheet tops and curled digits behind. Foliage and surface grain occur outside intended sheets; some crowded botanical detail."
+    },
+    "extra_copy": {
+      "observation": "No additional headings, logos, sponsors, map labels or numeric measures observed."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "central/lower scene",
+      "observation": "Both hands and yellow/mint city surfaces remain identifiable; title has the highest contrast."
+    },
+    {
+      "view": "usage720",
+      "location": "lower left/right",
+      "observation": "Participant phrase and registration/contact remain readable in separate adjacent surfaces."
+    },
+    {
+      "view": "native",
+      "location": "join of yellow and mint surfaces",
+      "observation": "Paved planes and entrance continue to central red seam; hand tips do not cover seam."
+    }
+  ],
+  "revisit_display": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/initial/original.png",
+    "sha256": "2bceb33384cd414acf2b9f3f9d9d6b0286aa9a6669231f9d2153e5ebffc0a3a5",
+    "resolved": true,
+    "reason": "Second exact-original display showed full image; no further revisit performed."
+  },
+  "residuals": [
+    {
+      "location": "overview English forum line",
+      "observation": "Forum2026 reads as concatenated, unlike the required Forum 2026.",
+      "impact": "Required word spacing is not established.",
+      "action": "Repair a clearly visible normal word space."
+    },
+    {
+      "location": "central English headline",
+      "observation": "The heavy Latin headline has conspicuously narrow letterforms compared with the programme and overview type.",
+      "impact": "Natural mixed-language proportions are weaker than the planned normal-width title.",
+      "action": "Use a naturally proportioned normal-width bold Latin sans-serif without compressing."
+    },
+    {
+      "location": "outside central observation sheets, both sides and lower corners",
+      "observation": "A distant skyline and repeated tree foliage spread through surrounding copy areas.",
+      "impact": "Extra landscape competes with the actual two-sheet collaboration and weakens the flat shared observation surface.",
+      "action": "Remove external skyline/foliage while retaining all urban forms inside the large sheets."
+    }
+  ]
+}

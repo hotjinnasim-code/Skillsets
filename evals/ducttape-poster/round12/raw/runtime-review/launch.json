@@ -1,0 +1,59 @@
+{
+  "started_utc": "2026-10-08T07:58:33.393496+00:00",
+  "argv": [
+    "codex",
+    "--no-daemon",
+    "--ask-for-approval",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--json",
+    "--skip-git-repo-check",
+    "--sandbox",
+    "workspace-write",
+    "-C",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/runtime-review",
+    "--output-last-message",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/runtime-review/final.txt",
+    "-"
+  ],
+  "fresh_session": true,
+  "case_id": "R12-C1",
+  "wave": "preproduction",
+  "profile": "runtime-static",
+  "model_override": null,
+  "prompt": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/runtime-review/prompt.txt",
+    "sha256": "6afb82b0bae391bf4132fa1ede16d919d83fb7a3901f66c61631498aa09054fd"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/SKILL.md",
+      "sha256": "20f69c62939de8378623270035a1212d533b4f122deb07a3302431a2916649ff"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/agents/openai.yaml",
+      "sha256": "18e733c202cc1b8d153d2f1dc8bac85826787a88fe336f0e1aa5fa65f523f7e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/references/art-direction.md",
+      "sha256": "4269b982be3bc8f5d2327f3d956920951add394e7a03ff451a3cbb682bdfcb39"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/references/parallel-production.md",
+      "sha256": "4ba73e78ccada54b15db093b8c98942fe44878ba47d7469f2dfea27695210ce2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/references/visual-research.md",
+      "sha256": "2bf486e75e252dd27960c499b5c4ef4a68a8d6a967823d2f5bbd6148abf5e705"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/references/evaluation-loop.md",
+      "sha256": "cf94b86511ab5295a7235c624757889906c49eb1bb9febea5b8145926f6bcb00"
+    }
+  ],
+  "job": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/runtime-review/job.json",
+    "sha256": "518c65b204ceb9535f1a94b099a29effdfc8948b3be09ce00193d8446cfd6e58"
+  }
+}

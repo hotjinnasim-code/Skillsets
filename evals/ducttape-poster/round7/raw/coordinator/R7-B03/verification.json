@@ -1,0 +1,50 @@
+{
+  "case_id": "R7-B03",
+  "scope": "Plan-only review: saved JSON schema, exact request/copy/conditions, requested count, role/ratio mapping, complete fullcopy, valid cross-role comparison, and a manual comparison of proposed action visibility and information space. No generated poster or actual rendered typography was inspected.",
+  "checks": {
+    "requested_count": true,
+    "case_id_exact": true,
+    "request_exact": true,
+    "copy_entries_exact": true,
+    "every_literal_condition_preserved": true,
+    "top_level_schema": true,
+    "direction_schema": true,
+    "exact_role_and_ratio_assignment": true,
+    "fullcopy_exact_in_every_direction": true,
+    "closest_other_role_valid": true,
+    "distinct_role_ids": true,
+    "nonempty_direction_content": true
+  },
+  "references_read": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/SKILL.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/art-direction.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/parallel-production.md"
+  ],
+  "assets": {
+    "listed_count": 0,
+    "files_inspected": [],
+    "manifests_read": [],
+    "native_view_image_calls": 0,
+    "note": "Both exact role asset arrays are empty; no image file or manifest was supplied in case.json."
+  },
+  "image_generation_calls": 0,
+  "image_edit_calls": 0,
+  "image_correction_calls": 0,
+  "agents_spawned": 0,
+  "agents_resumed": 0,
+  "messages_sent": 0,
+  "manual_plan_review": {
+    "shared_product": "Both directions retain the same stated matte black aluminum body, one silver pivot, two black rubber pads, short upper lever and opposing jaws; only camera and composition differ. No supplied product asset exists to compare.",
+    "actual_content_relation": "M1 starts with index pressure and follows the lever–pivot–jaw chain. M2 starts at the open receiving gap and follows the memo plane back to the pressing index.",
+    "substantial_non_glyph_visual": "Each proposed poster uses a large single photographed-use scene of the clip, one hand and one memo sheet; this is a design specification, not visual verification.",
+    "typography_and_information": "M1 places copy beside the corresponding stages of the horizontal mechanism. M2 uses the memo plane for the main information and keeps the entry edge clear; its material copy sits beside the body. These different spatial relationships were reviewed together.",
+    "feasibility_limits": "The proposed camera angles explicitly expose lever, pivot, both jaws/pads and paper entry edge. No physical prototype, motion test, rendered type, actual image resolution, use-size readability or print suitability was verified."
+  },
+  "actual_image_verification": {
+    "performed": false,
+    "thumbnail": false,
+    "use_size": false,
+    "original_size": false,
+    "reason": "User requested planning only and prohibited image generation and editing."
+  }
+}

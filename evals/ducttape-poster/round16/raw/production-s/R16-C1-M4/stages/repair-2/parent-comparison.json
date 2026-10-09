@@ -1,0 +1,32 @@
+{
+  "role": "R16-C1-M4",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "f7a8dd26c4d19cf78db1272a89f5c580e5869bca903dcdbf28a054aa20d78d14",
+  "parent_native_sha256": "0537d155aeac2855fbe0e9e4c33155ecf23ad8d8fb98b8b1981540e3da1874e1",
+  "changes": [
+    {
+      "location": "usage720 right paper",
+      "observed": "Visit/bring-book/URL text is visibly enlarged and heavier, improving the final useful information group."
+    },
+    {
+      "location": "usage720 left page",
+      "observed": "Description enlarged and bolder; exact three-line reading retained. Title stayed large rather than shrinking but paragraph distinction improved."
+    },
+    {
+      "location": "native book/paper",
+      "observed": "Right paper moves slightly left and increases visible copy area; book spread/light relation remains continuous. All required text inside frame."
+    },
+    {
+      "location": "native lamp and background",
+      "observed": "Entire lamp shape and forest-green color, brush planes, support/base connections, warm desk illumination preserved; background objects remain active."
+    }
+  ],
+  "residuals": [
+    "Description remains the densest, relatively smallest text group at usage720, though larger and heavier than prior stages.",
+    "Text baselines retain a slight pictorial incline with page edges rather than perfectly horizontal editorial axes.",
+    "Background foliage, cup and stacked books remain visually active beside the lamp.",
+    "Exact source Unicode punctuation encoding and maximum native resolution cannot be established from the returned raster."
+  ]
+}

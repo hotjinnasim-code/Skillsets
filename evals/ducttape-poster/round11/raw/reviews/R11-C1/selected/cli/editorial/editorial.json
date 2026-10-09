@@ -1,0 +1,1737 @@
+{
+  "schema_version": 1,
+  "case_id": "R11-C1",
+  "wave": "selected",
+  "profile": "editorial",
+  "session_id": null,
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "order_compliant": true,
+    "method": "Fresh independent editorial session with no spawning, resuming, forking, producer records or peer reviews. Read the exact pinned packet, case, rubric, rules, recording addendum and README; verified declared file hashes/bytes. Packet source_assets and protected_layouts are both empty, so no source opens or protected-layout reads were applicable. Read all five exact pinned repair-2 native-evidence manifests before opening posters, without following their embedded source/call-input/pre-call/final paths. Actually opened and visually inspected every poster using tools.view_image(detail=\"original\") and emitted the returned image at original detail: M1 native, usage720, thumbnail320; M2 native, usage720, thumbnail320; M3 native, usage720, thumbnail320; M4 native, usage720, thumbnail320; M5 native, usage720, thumbnail320. All fifteen successful exact image opens preceded the first poster text-reading/transcription stage, mandatory judgment, image rating and set rating. First raw readings were then recorded from the visible images, retaining the M1/M3 title wraps. No copy revisit was needed. PNG headers independently confirmed 1672×941 natives, 720×405 usage views and 320×180 thumbnails, all RGB without alpha. Native ratio uses the predeclared height-edge half-pixel rounding rule; reduced views are exact 16:9. The adapter invocation follows the exclusive completed raw write in this same session. No tool event ID or session identity is invented.",
+    "source_assets_viewed": [],
+    "protected_layouts_read": [],
+    "viewed_count": 15,
+    "adapter_binding_errors": []
+  },
+  "viewed": [
+    {
+      "image_id": "R11-C1-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/repair-2/original.png",
+      "sha256": "2a6be79dd3f9cbd31026701ef0372afac5080307be7df38c9cef1e421dfd99d3"
+    },
+    {
+      "image_id": "R11-C1-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/repair-2/usage-720.png",
+      "sha256": "f6a03c3612e27a2574102d9b6979b364e748ae532540be53e05e68108af9a5bd"
+    },
+    {
+      "image_id": "R11-C1-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/repair-2/thumbnail-320.png",
+      "sha256": "64cec66f32d138a472baa6541d164a5d8f5141fde45da630762b5c8189d4d8bf"
+    },
+    {
+      "image_id": "R11-C1-M2",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/repair-2/original.png",
+      "sha256": "fb93123e0aa68aa1c1736813110a46754b9ec553b9b4f4e4285f391d21d3df9e"
+    },
+    {
+      "image_id": "R11-C1-M2",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/repair-2/usage-720.png",
+      "sha256": "971176ec3492659c5bef3c0108cdd1663402f634afcfb938f258ac7775b0399d"
+    },
+    {
+      "image_id": "R11-C1-M2",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/repair-2/thumbnail-320.png",
+      "sha256": "fb9130edc37a1400187eb8f8cdbcb0a5d0247114d89d47bf3c0d7ed75c9c7e08"
+    },
+    {
+      "image_id": "R11-C1-M3",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-2/original.png",
+      "sha256": "b18cc41aaf2bf774e6db8eaa008ff29b0cf450a078910a59e7ac16d5701c8258"
+    },
+    {
+      "image_id": "R11-C1-M3",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-2/usage-720.png",
+      "sha256": "f308e9be2b41413b253cbf2c30c36f8bd075ef5589404c596f9adc93fe05b35e"
+    },
+    {
+      "image_id": "R11-C1-M3",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-2/thumbnail-320.png",
+      "sha256": "0c5de9b7d3c3c9b0b0fdfa28dba1800b1ff1dcdd49c4163d1166881e35eaf9b5"
+    },
+    {
+      "image_id": "R11-C1-M4",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M4/stages/repair-2/original.png",
+      "sha256": "dd29236b78109742a4298246075c17f6cfa77ea3eed171f1b784936f67477c58"
+    },
+    {
+      "image_id": "R11-C1-M4",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M4/stages/repair-2/usage-720.png",
+      "sha256": "a5c14fa6eee3075f3afae1b5288ce1dc42ead51499a6c8840739923ec3a539e7"
+    },
+    {
+      "image_id": "R11-C1-M4",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M4/stages/repair-2/thumbnail-320.png",
+      "sha256": "b8580641d01457eecb977fceddf7e4dc7862e85120b6eaf11b33bc9d41a91122"
+    },
+    {
+      "image_id": "R11-C1-M5",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M5/stages/repair-2/original.png",
+      "sha256": "43c1bb2f6615aa04a7ddb7274de800f6ef805e97c8c1d1705d5717ed0582e518"
+    },
+    {
+      "image_id": "R11-C1-M5",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M5/stages/repair-2/usage-720.png",
+      "sha256": "0d1c99e741bdf98131532e0ab8d1fea02628c145f5eea04a2a5e1dff851cf0bf"
+    },
+    {
+      "image_id": "R11-C1-M5",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M5/stages/repair-2/thumbnail-320.png",
+      "sha256": "0354b3fe41cb99992147274d37ecbe94daf5e32ada4d486d6d73cb7312229895"
+    }
+  ],
+  "images": {
+    "R11-C1-M1": {
+      "image_id": "R11-C1-M1",
+      "role": "R11-C1-M1",
+      "stage": "repair-2",
+      "case_id": "R11-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "transcriptions": [
+            {
+              "required": "인쇄하고 읽는 밤",
+              "raw_observed": "인쇄하고\n읽는 밤",
+              "normalized_required": "인쇄하고 읽는 밤",
+              "normalized_observed": "인쇄하고 읽는 밤",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native upper-left headline wraps after 인쇄하고; the word space becomes a soft line break. Both lines remain clear at usage720; title dominates thumbnail320."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "PRINT & READ",
+              "raw_observed": "PRINT & READ",
+              "normalized_required": "PRINT & READ",
+              "normalized_observed": "PRINT & READ",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One bold line on the sheet held by the two adults, center-right; clear at native and usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "고무판 인쇄 · 짧은 낭독",
+              "raw_observed": "고무판 인쇄 · 짧은 낭독",
+              "normalized_required": "고무판 인쇄·짧은 낭독",
+              "normalized_observed": "고무판 인쇄·짧은 낭독",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line above the illustrated adults; middle dot is separated optically. Clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "2026.12.12 토요일",
+              "raw_observed": "2026.12.12 토요일",
+              "normalized_required": "2026.12.12 토요일",
+              "normalized_observed": "2026.12.12 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First line of the left practical-information stack; readable at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "18:00–20:30",
+              "raw_observed": "18:00–20:30",
+              "normalized_required": "18:00–20:30",
+              "normalized_observed": "18:00–20:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line immediately under the date; the horizontal en dash sits between the two times."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "망원 생활문화센터",
+              "raw_observed": "망원 생활문화센터",
+              "normalized_required": "망원 생활문화센터",
+              "normalized_observed": "망원 생활문화센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line under the time; visible word separation after 망원."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "17:40부터 입장",
+              "raw_observed": "17:40부터 입장",
+              "normalized_required": "17:40부터 입장",
+              "normalized_observed": "17:40부터 입장",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line below the venue; no wrap or clipping."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "참가비 5,000원 · 재료 포함",
+              "raw_observed": "참가비 5,000원 · 재료 포함",
+              "normalized_required": "참가비 5,000원·재료 포함",
+              "normalized_observed": "참가비 5,000원·재료 포함",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line across the left column; comma and middle dot visible, and the optical dot spacing is narrower at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "신청 후 참여 · 정원 24명",
+              "raw_observed": "신청 후 참여 · 정원 24명",
+              "normalized_required": "신청 후 참여·정원 24명",
+              "normalized_observed": "신청 후 참여·정원 24명",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line below the fee; both participation and capacity clauses readable at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "앞치마 지참",
+              "raw_observed": "앞치마 지참",
+              "normalized_required": "앞치마 지참",
+              "normalized_observed": "앞치마 지참",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One short line below participation; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "처음 해도 괜찮아요",
+              "raw_observed": "처음 해도 괜찮아요",
+              "normalized_required": "처음 해도 괜찮아요",
+              "normalized_observed": "처음 해도 괜찮아요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One final line of the left column; fully inside the bottom margin and clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "ambiguities": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole landscape canvas",
+              "observation": "One flat opaque poster: yellow field, left headline and information, right adult workshop scene. Open style permits this bold illustration; physical tape is not a literal requirement."
+            },
+            {
+              "view": "native",
+              "location": "right-hand sheet, block and adult faces",
+              "observation": "A substantial hand-held block, two matching inked impressions on paper, and two adults looking at the held printed sheet connect making and shared reading. Smiling adult faces and an apron communicate a welcoming cultural workshop."
+            },
+            {
+              "view": "usage720",
+              "location": "left information column and top activity line",
+              "observation": "All supplied event, date/time, venue, admission, fee/materials, application/capacity, apron and welcome information is readable. The eleven supplied entries each appear once; the abstract ink design is a print image, with no added wording, branding, QR or watermark visible."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "whole composition relative to the other four members",
+              "observation": "The massive stacked sans headline and uninterrupted left list against a yellow field, with an illustrative hero on the right, differ from M2 diptych, M3 tabletop/corner information, M4 horizontal bands and M5 central held-page layout. The set has five members and substantive compositional differences."
+            },
+            {
+              "view": "native",
+              "location": "canvas extent",
+              "observation": "Actual 1672×941 landscape native; nearest-integer single-edge 16:9 policy is met at the height-edge error of exactly 0.5 pixel. All three PNG views are RGB/opaque. No supplied source identity or protected geometry applies because the packet declares neither."
+            }
+          ],
+          "checked_requirement": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n인쇄하고 읽는 밤\nPRINT & READ\n고무판 인쇄 · 짧은 낭독\n2026.12.12 토요일\n18:00–20:30\n망원 생활문화센터\n17:40부터 입장\n참가비 5,000원 · 재료 포함\n신청 후 참여 · 정원 24명\n앞치마 지참\n처음 해도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nRubber-block printing onto paper and shared reading of that printed work must be visibly connected, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": [],
+          "observed_dimensions": [
+            1672,
+            941
+          ],
+          "dimension_source": "exact packet native-view metadata; frozen summary independently checks native PNG header"
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "right two-thirds",
+              "observation": "Adult figures, table, held paper, block and repeated printed design constitute a large nonglyph scene that explains the printing-and-reading activity."
+            }
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "right half of canvas",
+              "observation": "The large block and inked paper are still distinct at use size, while the adults share attention to the printed sheet; this is substantive event content, not a small ornament or texture."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "right workshop scene",
+            "observation": "The block-to-impression relationship is explicit through the repeated crescent-and-bars design; the two adults jointly inspect a printed sheet that also carries the English event line. The practical copy occupies a separate readable zone."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "upper-left title through left list",
+            "observation": "The two-line Korean title leads, then date/time and venue; the large held-sheet English line anchors the illustrated action. Supporting lines have consistent alignment, although fee, entry and preparation receive similar weight."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "whole canvas",
+            "observation": "The Korean title and the print/people scene remain the two stable focal areas. Fine practical copy recedes at this preview size."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "left headline and practical column",
+            "observation": "Heavy Hangul is intact, with clear word divisions and punctuation; the headline line break is soft and the English ampersand remains legible."
+          },
+          {
+            "view": "usage720",
+            "location": "left practical column",
+            "observation": "The dense bold list retains enough glyph size and contrast for every condition to be read. Optical spacing around the middle dots is compact but discernible."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "upper-left title",
+            "observation": "The title survives reduction clearly; the small activity descriptor is less prominent."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "boundary between left copy and right scene",
+            "observation": "The left margin and stacked text align consistently; the scene expands into the lower-right without obscuring the practical column. The diagonal table edge creates a purposeful transition."
+          },
+          {
+            "view": "usage720",
+            "location": "top edge above the figures",
+            "observation": "The descriptor fits a narrow top zone without touching the headline or faces; the right male head is intentionally cropped by the edge."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "paper impressions, block and clothing",
+            "observation": "Flat navy shapes, warm skin and rough ink speckling form a coherent illustrated scene. The two visible paper impressions and substantial block describe relief printing; the paper, block and table remain separate forms."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "adult faces and bright yellow field",
+            "observation": "Smiles, shared downward attention and the warm yellow/navy contrast make the event accessible while the adult faces and substantial workshop action keep it appropriate for an adult audience."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "hands, printed sheet and full composition",
+            "observation": "Hands visibly hold the paper and block; no pseudo-lettering or arbitrary decorative icons appear. Repetition of the ink design establishes the action rather than filling empty areas. The abstract design itself supplies limited event-specific character."
+          }
+        ]
+      },
+      "residuals": [
+        "The abstract crescent-and-bars print is a fairly generic workshop output; specific character comes chiefly from the adult action and copy.",
+        "The lower-left conditions form a dense, nearly equal-weight list. They are readable at usage720, but the thumbnail communicates chiefly title and scene.",
+        "The stamp is shown lifted near an impression; compression/contact during printing is not depicted. Native ratio compliance uses the declared height-edge rounding exception, not mathematical equality."
+      ],
+      "source_fidelity": [],
+      "unjudgable_score_reasons": {}
+    },
+    "R11-C1-M2": {
+      "image_id": "R11-C1-M2",
+      "role": "R11-C1-M2",
+      "stage": "repair-2",
+      "case_id": "R11-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "transcriptions": [
+            {
+              "required": "인쇄하고 읽는 밤",
+              "raw_observed": "인쇄하고 읽는 밤",
+              "normalized_required": "인쇄하고 읽는 밤",
+              "normalized_observed": "인쇄하고 읽는 밤",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One white headline line in the navy panel on the right; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "PRINT & READ",
+              "raw_observed": "PRINT & READ",
+              "normalized_required": "PRINT & READ",
+              "normalized_observed": "PRINT & READ",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One serif line on the sheet held in the lower-left photographic scene; legible at native and usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "고무판 인쇄 · 짧은 낭독",
+              "raw_observed": "고무판 인쇄 · 짧은 낭독",
+              "normalized_required": "고무판 인쇄·짧은 낭독",
+              "normalized_observed": "고무판 인쇄·짧은 낭독",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One white line immediately below the Korean title in the navy panel; dot and word spaces readable."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "2026.12.12 토요일",
+              "raw_observed": "2026.12.12 토요일",
+              "normalized_required": "2026.12.12 토요일",
+              "normalized_observed": "2026.12.12 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One oversized line at the top of the salmon right panel; no clipping."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "18:00–20:30",
+              "raw_observed": "18:00–20:30",
+              "normalized_required": "18:00–20:30",
+              "normalized_observed": "18:00–20:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Oversized line immediately below the date; the horizontal dash is intact and the colon pairs are clear."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "망원 생활문화센터",
+              "raw_observed": "망원 생활문화센터",
+              "normalized_required": "망원 생활문화센터",
+              "normalized_observed": "망원 생활문화센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First line in the lower-right cream practical-information area; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "17:40부터 입장",
+              "raw_observed": "17:40부터 입장",
+              "normalized_required": "17:40부터 입장",
+              "normalized_observed": "17:40부터 입장",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second line in the lower-right list; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "참가비 5,000원 · 재료 포함",
+              "raw_observed": "참가비 5,000원 · 재료 포함",
+              "normalized_required": "참가비 5,000원·재료 포함",
+              "normalized_observed": "참가비 5,000원·재료 포함",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line below admission; comma, middle dot and word spaces remain visible."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "신청 후 참여 · 정원 24명",
+              "raw_observed": "신청 후 참여 · 정원 24명",
+              "normalized_required": "신청 후 참여·정원 24명",
+              "normalized_observed": "신청 후 참여·정원 24명",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line below the fee/material line; no wrap and no edge collision."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "앞치마 지참",
+              "raw_observed": "앞치마 지참",
+              "normalized_required": "앞치마 지참",
+              "normalized_observed": "앞치마 지참",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One short line below application/capacity; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "처음 해도 괜찮아요",
+              "raw_observed": "처음 해도 괜찮아요",
+              "normalized_required": "처음 해도 괜찮아요",
+              "normalized_observed": "처음 해도 괜찮아요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Final line of the lower-right list; complete and clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "ambiguities": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole canvas",
+              "observation": "One flat opaque landscape poster with photographic making/reading panels on the left and structured salmon/navy/cream information on the right. This is allowed by the open style request; no physical-tape treatment is prescribed."
+            },
+            {
+              "view": "native",
+              "location": "upper-left block and lower-left held print",
+              "observation": "The large inked relief block, roller/tray, fresh matching impression and the same design on a sheet jointly held by two apron-wearing adults make a visible making-to-shared-reading sequence. Warm faces and workshop context provide approachable adult tone."
+            },
+            {
+              "view": "usage720",
+              "location": "right information panels and left printed English line",
+              "observation": "All eleven supplied entries occur once and remain readable, including timing, venue, entry, price/materials, application/capacity, preparation and welcome. No extra words, pseudo-print, brand label, QR or watermark is visible; the curved image is the depicted print design."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "composition relative to M1, M3, M4 and M5",
+              "observation": "The left two-scene montage and right date-first modular stack create a distinct reading route, rather than M1 left-title list, M3 tabletop focal plane, M4 panoramic bands or M5 face-framed central page. Five visibly separate posters are supplied."
+            },
+            {
+              "view": "native",
+              "location": "canvas extent",
+              "observation": "Actual native is 1672×941, opaque RGB; height differs from exact 16:9 by 0.5 pixel and is valid under the pinned rounding policy. No source/reference or protected-layout roles are declared."
+            }
+          ],
+          "checked_requirement": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n인쇄하고 읽는 밤\nPRINT & READ\n고무판 인쇄 · 짧은 낭독\n2026.12.12 토요일\n18:00–20:30\n망원 생활문화센터\n17:40부터 입장\n참가비 5,000원 · 재료 포함\n신청 후 참여 · 정원 24명\n앞치마 지참\n처음 해도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nRubber-block printing onto paper and shared reading of that printed work must be visibly connected, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": [],
+          "observed_dimensions": [
+            1672,
+            941
+          ],
+          "dimension_source": "exact packet native-view metadata; frozen summary independently checks native PNG header"
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "left half",
+              "observation": "Two large photographic activity scenes contain real-sized hands, roller, relief block, paper and adult participants, doing substantial explanatory work beyond typography."
+            }
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "left upper/lower scene relationship",
+              "observation": "The curved print motif visibly connects the block demonstration above to the adults sharing the printed sheet below; both steps occupy a substantial part of the poster."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "two left photographic panels",
+            "observation": "The upper scene establishes printing tools and block-to-paper correspondence; the lower scene presents the resulting design with the printed English line to two adults. The sequence directly supports the paired event activities."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "right salmon and navy bands",
+            "observation": "Date and duration lead at very large size, followed by event name and activity descriptor, then all participation details. This is a usable date-first sequence, although the event name has to compete with the schedule."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "left/right division",
+            "observation": "The making-and-sharing montage and right information stack remain recognizable; schedule and Korean event name survive reduction."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "right panels and lower-left sheet",
+            "observation": "Clean heavy Hangul contrasts with the rough serif English line on the paper; punctuation and word spaces are intact."
+          },
+          {
+            "view": "usage720",
+            "location": "lower-right information list",
+            "observation": "Every practical line stays legible, with clear navy-on-cream contrast and enough leading. The middle dots have compact optical gaps."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "schedule and title panels",
+            "observation": "Large schedule and title remain readable; fine terms become secondary without confusing the main order."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "outer cream border and right panel edges",
+            "observation": "Consistent outer framing and aligned right blocks create order. The adults and held sheet fill the lower-left scene, and the repeated print connects the two photographic crops."
+          },
+          {
+            "view": "usage720",
+            "location": "lower-right area",
+            "observation": "The practical list has comfortable left alignment and breathing room below the navy band; unused cream to its right keeps the text from being squeezed."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "roller tray, upper block, paper and lower adult hands",
+            "observation": "Blue ink residue, carved relief, paper grain, skin and apron details create a coherent photographic workshop. The repeated motif is identifiable across the block and both sheets; the held sheet has clear edges and plausible grips."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "lower-left adult pair",
+            "observation": "Relaxed smiles and attentive shared handling of the paper communicate a welcoming activity for adults. Salmon schedule emphasis adds energy without making the participants seem childish."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "left montage and right text zones",
+            "observation": "There are no visible extra labels, mangled characters or decorative filler. The image repetition serves the process sequence. The pair holding an abstract graphic is familiar promotional imagery, limiting exceptional specificity."
+          }
+        ]
+      },
+      "residuals": [
+        "The date and duration are visually larger than the event name, so recognition initially favors the schedule.",
+        "Both making and reading scenes center a familiar abstract curved print; the reading action is conveyed by shared attention and the English line rather than a longer printed passage.",
+        "Practical details are readable at usage720; thumbnail320 is primarily a schedule/title preview. Native aspect compliance uses the declared 0.5-pixel height rounding tolerance."
+      ],
+      "source_fidelity": [],
+      "unjudgable_score_reasons": {}
+    },
+    "R11-C1-M3": {
+      "image_id": "R11-C1-M3",
+      "role": "R11-C1-M3",
+      "stage": "repair-2",
+      "case_id": "R11-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "transcriptions": [
+            {
+              "required": "인쇄하고 읽는 밤",
+              "raw_observed": "인쇄하고\n읽는 밤",
+              "normalized_required": "인쇄하고 읽는 밤",
+              "normalized_observed": "인쇄하고 읽는 밤",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two slanted display lines on the central sheet; a soft wrap after 인쇄하고 preserves the word space. Clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "PRINT & READ",
+              "raw_observed": "PRINT & READ",
+              "normalized_required": "PRINT & READ",
+              "normalized_observed": "PRINT & READ",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One spaced sans line in the upper-right corner; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "고무판 인쇄 · 짧은 낭독",
+              "raw_observed": "고무판 인쇄 · 짧은 낭독",
+              "normalized_required": "고무판 인쇄·짧은 낭독",
+              "normalized_observed": "고무판 인쇄·짧은 낭독",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line below the English heading at upper right; middle dot and spaces discernible."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "2026.12.12 토요일",
+              "raw_observed": "2026.12.12 토요일",
+              "normalized_required": "2026.12.12 토요일",
+              "normalized_observed": "2026.12.12 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First upper-left line; visible on the lavender background and clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "18:00–20:30",
+              "raw_observed": "18:00–20:30",
+              "normalized_required": "18:00–20:30",
+              "normalized_observed": "18:00–20:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second upper-left line, larger than the surrounding practical text; intact dash and colons."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "망원 생활문화센터",
+              "raw_observed": "망원 생활문화센터",
+              "normalized_required": "망원 생활문화센터",
+              "normalized_observed": "망원 생활문화센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One upper-left line below time; word separation visible."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "17:40부터 입장",
+              "raw_observed": "17:40부터 입장",
+              "normalized_required": "17:40부터 입장",
+              "normalized_observed": "17:40부터 입장",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One upper-left line below venue; no wrap."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "참가비 5,000원 · 재료 포함",
+              "raw_observed": "참가비 5,000원 · 재료 포함",
+              "normalized_required": "참가비 5,000원·재료 포함",
+              "normalized_observed": "참가비 5,000원·재료 포함",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First lower-left line outside the orange table; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "신청 후 참여 · 정원 24명",
+              "raw_observed": "신청 후 참여 · 정원 24명",
+              "normalized_required": "신청 후 참여·정원 24명",
+              "normalized_observed": "신청 후 참여·정원 24명",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second lower-left line; complete and readable at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "앞치마 지참",
+              "raw_observed": "앞치마 지참",
+              "normalized_required": "앞치마 지참",
+              "normalized_observed": "앞치마 지참",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First lower-right line; right-aligned and clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "처음 해도 괜찮아요",
+              "raw_observed": "처음 해도 괜찮아요",
+              "normalized_required": "처음 해도 괜찮아요",
+              "normalized_observed": "처음 해도 괜찮아요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second lower-right line; right-aligned and fully inside the margin."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "ambiguities": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole landscape canvas",
+              "observation": "One flat opaque lavender/orange/navy illustrated poster. The open style request allows rough carved illustration and slanted display type; neither physical tape nor a fixed house style is required."
+            },
+            {
+              "view": "native",
+              "location": "central tabletop paper and participants",
+              "observation": "A hand holds a botanical relief block immediately beside a matching botanical impression and the Korean title printed on paper. Two adults lean toward this same printed sheet with smiling/open mouths, visibly connecting making with shared reading in an adult gathering."
+            },
+            {
+              "view": "usage720",
+              "location": "four corner information groups",
+              "observation": "All supplied schedule, place, admission, participation/capacity, cost/materials and preparation/welcome lines are readable. The eleven strings occur once; the leaf drawing is nonglyph print content, and no extra copy, branding, pseudo-print, QR or watermark is visible."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "whole composition relative to all other members",
+              "observation": "The orange oval table and central printed Korean title form the dominant plane, with practical information distributed around its corners. This differs in viewpoint, image/type roles and reading order from M1 side headline, M2 photo diptych, M4 bands and M5 vertical held page. Five separate members are present."
+            },
+            {
+              "view": "native",
+              "location": "canvas extent",
+              "observation": "The 1672×941 opaque RGB native meets the declared landscape16:9 nearest-integer single-edge policy through a 0.5-pixel height discrepancy. Packet source and protected-layout arrays are empty."
+            }
+          ],
+          "checked_requirement": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n인쇄하고 읽는 밤\nPRINT & READ\n고무판 인쇄 · 짧은 낭독\n2026.12.12 토요일\n18:00–20:30\n망원 생활문화센터\n17:40부터 입장\n참가비 5,000원 · 재료 포함\n신청 후 참여 · 정원 24명\n앞치마 지참\n처음 해도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nRubber-block printing onto paper and shared reading of that printed work must be visibly connected, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": [],
+          "observed_dimensions": [
+            1672,
+            941
+          ],
+          "dimension_source": "exact packet native-view metadata; frozen summary independently checks native PNG header"
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "large central orange tabletop scene",
+              "observation": "The adults, hand, relief block, botanical impression and table occupy most of the frame and directly communicate the workshop; the image is substantial rather than an icon or texture backdrop."
+            }
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "central sheet between the two adult faces",
+              "observation": "The matching carved and printed foliage links the block action to the sheet the adults read. This content remains identifiable after use-size reduction."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "central paper with title, relief block and botanical image",
+            "observation": "Putting the event name on the printed sheet makes the shared reading object explicit. The nearby hand-held matching relief and the inward-facing adults connect the two requested activities."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "central title and four corner text groups",
+            "observation": "The Korean title on the sheet is the main verbal focus; top-left schedule/place and top-right English/activity form a second level. Bottom terms are legible but require a broader scan than the linear lists in M1/M2."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "central table and corner copy",
+            "observation": "The title remains readable on the pale sheet, framed by the orange oval and faces. Fine corner terms recede."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "central slanted Korean title and peripheral text",
+            "observation": "The expressive slanted title remains readable with intact Hangul; peripheral sans text supplies a controlled contrast. The title wrap is separate from literal copy fidelity."
+          },
+          {
+            "view": "usage720",
+            "location": "upper-left and lower corner details",
+            "observation": "All practical terms remain legible with clear navy-on-lavender contrast and intact punctuation."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "upper-right English line and sheet title",
+            "observation": "The English line and Korean title survive at small size; the sheet title has a recognizable two-line silhouette."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "orange ellipse and lavender perimeter",
+            "observation": "The table creates a clear common focal zone; aligned corner groups use the remaining background deliberately. Figures lean inward rather than blocking practical information."
+          },
+          {
+            "view": "usage720",
+            "location": "bottom corners",
+            "observation": "Both lower information groups have space outside the oval, though this separation makes the complete practical scan less compact."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "carved foliage, block, sleeves and orange table",
+            "observation": "Rough navy cuts and paper/wood textures form a consistent print-like illustration. The raised block face and the botanical impression are readable distinct objects. Contours of the table and paper organize the texture rather than relying on it alone."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "adult faces leaning over the table",
+            "observation": "The close shared attention and relaxed smiles create an intimate community gathering. Lavender and vivid orange add an expressive cultural-event character without undermining the adult setting."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "central scene and peripheral background",
+            "observation": "Texture follows the carved illustration and tabletop forms; the botanical repetition explains printing. No nonsensical lettering or extra mini ornaments are visible. The exposed block sits beside the print rather than showing pressure transfer, simplifying the process."
+          }
+        ]
+      },
+      "residuals": [
+        "Practical information is split among corners, so participation terms require a wider scan than the main title and schedule.",
+        "The block is held beside the print rather than shown making contact; the visible matching botanical form supplies the process link.",
+        "The upper adult head is cropped at the canvas edge. Fine corner terms are not the dominant thumbnail content, although they are readable at usage720. Ratio PASS uses the declared height-edge rounding exception."
+      ],
+      "source_fidelity": [],
+      "unjudgable_score_reasons": {}
+    },
+    "R11-C1-M4": {
+      "image_id": "R11-C1-M4",
+      "role": "R11-C1-M4",
+      "stage": "repair-2",
+      "case_id": "R11-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "transcriptions": [
+            {
+              "required": "인쇄하고 읽는 밤",
+              "raw_observed": "인쇄하고 읽는 밤",
+              "normalized_required": "인쇄하고 읽는 밤",
+              "normalized_observed": "인쇄하고 읽는 밤",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One cream Korean display line at the upper left of the navy header; readable at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "PRINT & READ",
+              "raw_observed": "PRINT & READ",
+              "normalized_required": "PRINT & READ",
+              "normalized_observed": "PRINT & READ",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One serif line on the long cream strip held by the adult pair in the photo; visible perspective curvature does not break readability."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "고무판 인쇄 · 짧은 낭독",
+              "raw_observed": "고무판 인쇄 · 짧은 낭독",
+              "normalized_required": "고무판 인쇄·짧은 낭독",
+              "normalized_observed": "고무판 인쇄·짧은 낭독",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One bold cream line in the lower-left navy band, above the venue; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "2026.12.12 토요일",
+              "raw_observed": "2026.12.12 토요일",
+              "normalized_required": "2026.12.12 토요일",
+              "normalized_observed": "2026.12.12 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First upper-right header line; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "18:00–20:30",
+              "raw_observed": "18:00–20:30",
+              "normalized_required": "18:00–20:30",
+              "normalized_observed": "18:00–20:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second upper-right header line; en dash and colon pairs visible."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "망원 생활문화센터",
+              "raw_observed": "망원 생활문화센터",
+              "normalized_required": "망원 생활문화센터",
+              "normalized_observed": "망원 생활문화센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line at the lower left under the activity descriptor; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "17:40부터 입장",
+              "raw_observed": "17:40부터 입장",
+              "normalized_required": "17:40부터 입장",
+              "normalized_observed": "17:40부터 입장",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line below the venue; no wrap or clipping."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "참가비 5,000원 · 재료 포함",
+              "raw_observed": "참가비 5,000원 · 재료 포함",
+              "normalized_required": "참가비 5,000원·재료 포함",
+              "normalized_observed": "참가비 5,000원·재료 포함",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First line in the middle footer column; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "신청 후 참여 · 정원 24명",
+              "raw_observed": "신청 후 참여 · 정원 24명",
+              "normalized_required": "신청 후 참여·정원 24명",
+              "normalized_observed": "신청 후 참여·정원 24명",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second middle-footer line; complete and readable at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "앞치마 지참",
+              "raw_observed": "앞치마 지참",
+              "normalized_required": "앞치마 지참",
+              "normalized_observed": "앞치마 지참",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First right-footer line; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "처음 해도 괜찮아요",
+              "raw_observed": "처음 해도 괜찮아요",
+              "normalized_required": "처음 해도 괜찮아요",
+              "normalized_observed": "처음 해도 괜찮아요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second right-footer line; completely inside the right margin."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "ambiguities": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole landscape canvas",
+              "observation": "One flat opaque landscape event poster with navy header/footer and a broad photographic middle. Open style permits this cinematic workshop photograph and restrained display type; no physical-tape styling is required."
+            },
+            {
+              "view": "native",
+              "location": "middle panoramic scene from left block to right readers",
+              "observation": "At left a large inked block is lifted near its matching paper impression; the paper continues into a long strip held by two attentive adult readers, carrying the same design and English line. The continuous object connects the two activities clearly. Warm workshop lighting, aprons and adult expressions create a welcoming cultural setting."
+            },
+            {
+              "view": "usage720",
+              "location": "header and three footer groups",
+              "observation": "The title, date/time, activity, venue/entry, fee/materials, application/capacity, apron and welcome terms are all readable; each of the eleven supplied strings occurs once. No added copy, pseudo-print, QR, brand text or watermark is visible."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "full composition in relation to the other four",
+              "observation": "The wide scene framed by a title/schedule header and three-column practical footer creates a horizontal reading route absent from M1, M2, M3 and M5. It differs from M2 photographic diptych in crop, information architecture and role of the printed strip; the packet contains five separate members."
+            },
+            {
+              "view": "native",
+              "location": "canvas extent",
+              "observation": "Actual 1672×941 native is opaque RGB. It meets 16:9 through the pinned nearest-integer single-edge height error of 0.5 pixel, not exact mathematical equality. No source asset or protected-layout role is declared."
+            }
+          ],
+          "checked_requirement": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n인쇄하고 읽는 밤\nPRINT & READ\n고무판 인쇄 · 짧은 낭독\n2026.12.12 토요일\n18:00–20:30\n망원 생활문화센터\n17:40부터 입장\n참가비 5,000원 · 재료 포함\n신청 후 참여 · 정원 24명\n앞치마 지참\n처음 해도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nRubber-block printing onto paper and shared reading of that printed work must be visibly connected, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": [],
+          "observed_dimensions": [
+            1672,
+            941
+          ],
+          "dimension_source": "exact packet native-view metadata; frozen summary independently checks native PNG header"
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "broad middle photographic band",
+              "observation": "Substantial hands, inked block, impression, long paper, adults and workshop surroundings explain the event independently of the lettering."
+            }
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "middle strip spanning printing and reading",
+              "observation": "The same physical paper connects the left printing setup and right shared attention; it is large and legible at use size rather than a token ornament."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "continuous long printed strip",
+            "observation": "The continuous sheet creates a particularly direct visual link from the block/impression at left to the adults reading at right. Title/schedule and participation information remain outside the scene for practical clarity."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "header, image band and footer",
+            "observation": "The Korean event name and schedule introduce the event, the large scene explains it, and the footer groups venue/admission, fee/application and preparation/welcome. The activity descriptor leads the footer effectively."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "three horizontal bands",
+            "observation": "The title, workshop and English line remain identifiable; the footer is subordinate and finer at preview size."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "cream header title and printed English line",
+            "observation": "The Korean display face and English serif give the reading theme a deliberate literary tone; all required words and punctuation remain intact."
+          },
+          {
+            "view": "usage720",
+            "location": "footer columns",
+            "observation": "The practical text has clear contrast, consistent alignment and enough glyph size to read every term. Thin separators make the groups visible without touching text."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "header title",
+            "observation": "The title remains legible at reduction; fine footer terms recede predictably."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "header/footer margins and central crop",
+            "observation": "Broad bands have intentional proportions; the scene uses the full width and keeps the text on clear fields. Footer dividers and aligned text resolve its occupied space."
+          },
+          {
+            "view": "usage720",
+            "location": "right end of the photo and footer",
+            "observation": "The paper and the reader hand stop inside the photo boundary, with adequate room for the right preparation column below."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "inked block, curved paper and hands",
+            "observation": "Paper grain, ink speckling, carved surface, grip shapes and warm wood/light form a coherent photographic workshop. The curve of the long strip provides a readable surface while preserving a physical paper object."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "two adult readers and evening workshop light",
+            "observation": "The attentive smiles and warm illuminated interior make an adult evening activity feel convivial. Navy framing gives the practical invitation sufficient calm without suppressing the scene’s warmth."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "central scene and text bands",
+            "observation": "The repeated image on block/paper has a clear process purpose. No garbled copy, decorative filler or broken text geometry is visible. The emblem-like abstract print and staged shared reading are polished but familiar promotional devices."
+          }
+        ]
+      },
+      "residuals": [
+        "The abstract circular print and staged smiling readers give a familiar workshop-advertising impression rather than exceptional local specificity.",
+        "The lifted block and prior impression communicate printing, but do not depict the moment of pressure transfer.",
+        "Footer terms remain readable at usage720 but are fine in thumbnail320. Native aspect correctness relies on the declared 0.5-pixel height rounding tolerance."
+      ],
+      "source_fidelity": [],
+      "unjudgable_score_reasons": {}
+    },
+    "R11-C1-M5": {
+      "image_id": "R11-C1-M5",
+      "role": "R11-C1-M5",
+      "stage": "repair-2",
+      "case_id": "R11-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "transcriptions": [
+            {
+              "required": "인쇄하고 읽는 밤",
+              "raw_observed": "인쇄하고 읽는 밤",
+              "normalized_required": "인쇄하고 읽는 밤",
+              "normalized_observed": "인쇄하고 읽는 밤",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One rough brush headline across the top of the yellow sheet. Uneven glyph height and stroke edges are expressive, but all syllables and word gaps remain readable at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "PRINT & READ",
+              "raw_observed": "PRINT & READ",
+              "normalized_required": "PRINT & READ",
+              "normalized_observed": "PRINT & READ",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One serif line directly under the Korean title on the central sheet; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "고무판 인쇄 · 짧은 낭독",
+              "raw_observed": "고무판 인쇄 · 짧은 낭독",
+              "normalized_required": "고무판 인쇄·짧은 낭독",
+              "normalized_observed": "고무판 인쇄·짧은 낭독",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One bold sans line under the English line; middle dot visible."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "2026.12.12 토요일",
+              "raw_observed": "2026.12.12 토요일",
+              "normalized_required": "2026.12.12 토요일",
+              "normalized_observed": "2026.12.12 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First right-hand schedule line on the sheet, beside the block impression; no wrap."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "18:00–20:30",
+              "raw_observed": "18:00–20:30",
+              "normalized_required": "18:00–20:30",
+              "normalized_observed": "18:00–20:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second schedule line; colon pairs and horizontal dash clear."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "망원 생활문화센터",
+              "raw_observed": "망원 생활문화센터",
+              "normalized_required": "망원 생활문화센터",
+              "normalized_observed": "망원 생활문화센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One schedule line below duration; the word gap after 망원 remains visible."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "17:40부터 입장",
+              "raw_observed": "17:40부터 입장",
+              "normalized_required": "17:40부터 입장",
+              "normalized_observed": "17:40부터 입장",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line below venue; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "참가비 5,000원 · 재료 포함",
+              "raw_observed": "참가비 5,000원 · 재료 포함",
+              "normalized_required": "참가비 5,000원·재료 포함",
+              "normalized_observed": "참가비 5,000원·재료 포함",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "First line below the horizontal rule on the yellow sheet; punctuation and word spaces intact."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "신청 후 참여 · 정원 24명",
+              "raw_observed": "신청 후 참여 · 정원 24명",
+              "normalized_required": "신청 후 참여·정원 24명",
+              "normalized_observed": "신청 후 참여·정원 24명",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Second line below the rule; complete and clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "앞치마 지참",
+              "raw_observed": "앞치마 지참",
+              "normalized_required": "앞치마 지참",
+              "normalized_observed": "앞치마 지참",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Third lower-sheet line; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "required": "처음 해도 괜찮아요",
+              "raw_observed": "처음 해도 괜찮아요",
+              "normalized_required": "처음 해도 괜찮아요",
+              "normalized_observed": "처음 해도 괜찮아요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Fourth lower-sheet line above the bottom edge; clear at usage720."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "ambiguities": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole landscape canvas",
+              "observation": "One flat opaque rough-print illustration: a large yellow printed sheet against burgundy, framed by close-cropped adult faces and orange/teal hands. Brush headline and vivid colors are legitimate open-style choices; physical tape and a muted house style are not prescribed."
+            },
+            {
+              "view": "native",
+              "location": "left block, central impression and inward-facing adult pair",
+              "observation": "A substantial dark relief block carries the same curved motif shown freshly printed beside it on the sheet. Two adults hold/read that sheet, with open smiling mouths directed inward. The scene connects block printing and shared reading while retaining adult anatomy and a welcoming cultural-event tone."
+            },
+            {
+              "view": "usage720",
+              "location": "central yellow sheet",
+              "observation": "All eleven supplied strings occur once and remain readable, including date/time, venue, admission, fee/materials, application/capacity, apron and welcome. The motif is pictorial print content; no extra words, logos, pseudo-print, QR or watermark are visible."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "composition relative to the four other members",
+              "observation": "The central near-vertical sheet acts as both image and information panel, with large face crops at either side and a brush/serif/sans title sequence. This differs from M1 side column, M2 split photo montage, M3 oblique tabletop/corner copy and M4 panoramic bands. Five separate members are visibly supplied."
+            },
+            {
+              "view": "native",
+              "location": "canvas extent",
+              "observation": "Actual native is 1672×941 opaque RGB and meets landscape16:9 via exactly 0.5-pixel height-edge rounding. No source identity or protected layout is supplied in the packet."
+            }
+          ],
+          "checked_requirement": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n인쇄하고 읽는 밤\nPRINT & READ\n고무판 인쇄 · 짧은 낭독\n2026.12.12 토요일\n18:00–20:30\n망원 생활문화센터\n17:40부터 입장\n참가비 5,000원 · 재료 포함\n신청 후 참여 · 정원 24명\n앞치마 지참\n처음 해도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nRubber-block printing onto paper and shared reading of that printed work must be visibly connected, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": [],
+          "observed_dimensions": [
+            1672,
+            941
+          ],
+          "dimension_source": "exact packet native-view metadata; frozen summary independently checks native PNG header"
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "large cropped faces, hands and relief block surrounding the page",
+              "observation": "The nonglyph human/action forms occupy a major share of the frame and establish a communal printing-and-reading moment; the page is not merely typography on an abstract background."
+            }
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "left-center block next to impression and face-framed sheet",
+              "observation": "The block/image correspondence and people jointly holding the print remain clear at use size, contributing direct event content rather than token decoration."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "held sheet and block/impression relationship",
+            "observation": "The page is simultaneously the event-information surface and the object being printed and read. Large inward-facing adult profiles make shared activity unmistakable; the relief block and matching curved impression explain the making component."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "top-to-bottom central sheet",
+            "observation": "Brush Korean title, serif English line and sans activity line lead into schedule beside the impression, then the ruled participation/preparation area. The line separates practical groups clearly."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "central page and side profiles",
+            "observation": "The title and people/page relationship remain recognizable; the small practical list becomes secondary."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "brush headline and English serif",
+            "observation": "The headline has irregular baseline/stroke sizes but keeps all Hangul syllables readable. The English serif and sans secondary copy produce a deliberate three-level type contrast."
+          },
+          {
+            "view": "usage720",
+            "location": "schedule and lower practical list",
+            "observation": "All terms remain readable against yellow, including middle dots, comma, word spaces and the time dash."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "top headline",
+            "observation": "The rough headline retains an identifiable readable silhouette, while the finest body terms recede."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "yellow sheet bounded by cropped faces and fingers",
+            "observation": "The close edge crops frame the sheet purposefully. Schedule sits to the right of the block/impression, and the rule creates a lower information zone without colliding with the hands."
+          },
+          {
+            "view": "usage720",
+            "location": "lower sheet margin",
+            "observation": "Preparation and welcome lines retain room below; the sheet edges remain recognizable despite the surrounding grips."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "carved block, ink marks, faces and paper",
+            "observation": "Teal/black cuts, orange skin, burgundy field and yellow paper are consistent with the rough printed illustration. Carving and speckled impression are distinct from the brush lettering; the prominent hands and faces remain coherent forms."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "close adult profiles and intense warm palette",
+            "observation": "The close profiles and open smiles give a lively communal-reading energy. High saturation and expressive strokes are controlled around a readable page, retaining an adult cultural-event character rather than becoming a children’s craft scene."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "central page, hands and patterned block",
+            "observation": "No arbitrary filler motifs or pseudo-copy appear. The curved mark repeats for the demonstrable printing relationship and all text has a clear layout role. Dense texture on faces and paper is coherent but does not add much specific narrative detail."
+          }
+        ]
+      },
+      "residuals": [
+        "The extreme face crops and saturated orange/yellow create the highest intensity in the set; the welcoming effect depends on the smiles and controlled central page.",
+        "The rough headline has deliberately uneven syllable scale and baseline. It remains readable but is less optically even than the practical text.",
+        "The print motif is abstract, and pressure/contact is simplified. Fine practical copy is a usage720 feature rather than the main thumbnail message. Aspect PASS uses the declared half-pixel height rounding exception."
+      ],
+      "source_fidelity": [],
+      "unjudgable_score_reasons": {}
+    }
+  },
+  "recording_adapter": {
+    "kind": "declared_deterministic_export",
+    "normalization": "nfc-ws-optical-v1",
+    "packet": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/reviews/R11-C1/selected/packet.json",
+      "sha256": "2afc1eee3aa68623577fa903187e723316495f3e4568423cd572cc205c0cf35e",
+      "bytes": 29134
+    },
+    "raw_observations": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/reviews/R11-C1/selected/cli/editorial/editorial.observations.json",
+      "sha256": "ea520f3fecad7506ee358d03bea33bd5c432ae1b71d84cfd07ebb3e9b1e49a97",
+      "bytes": 63878
+    },
+    "adapter": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "compatible_summary_sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+    "limit": "Metadata bindings and attestations do not prove semantic viewing or source fidelity"
+  },
+  "set": {
+    "members": [
+      "R11-C1-M1",
+      "R11-C1-M2",
+      "R11-C1-M3",
+      "R11-C1-M4",
+      "R11-C1-M5"
+    ],
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 5,
+      "issues": [],
+      "required_count": 5
+    },
+    "diversity": 4,
+    "evidence": [
+      {
+        "view": "thumbnail320",
+        "location": "whole composition",
+        "observation": "The large two-line left sans title and vertical practical list share a yellow field with a right flat illustrated scene. This asymmetry and title/hero balance differ from M2 date-first right panels, M3 central table and M4 horizontal framing.",
+        "image_id": "R11-C1-M1"
+      },
+      {
+        "view": "thumbnail320",
+        "location": "two left photographs and right modular stack",
+        "observation": "A left making/reading diptych pairs with right salmon schedule, navy event title and cream terms. Photo sequence and date-first reading order distinguish it from the continuous photo strip in M4 and the illustrative systems in M1/M3/M5.",
+        "image_id": "R11-C1-M2"
+      },
+      {
+        "view": "thumbnail320",
+        "location": "oblique oval table and four corner groups",
+        "observation": "The Korean title is printed on the central tabletop sheet, surrounded by the inward-leaning figures. Practical text sits around the lavender perimeter; this integrates title into the image differently from M1 and distributes information differently from M2/M4/M5.",
+        "image_id": "R11-C1-M3"
+      },
+      {
+        "view": "thumbnail320",
+        "location": "wide photographic strip and navy bands",
+        "observation": "A continuous panoramic scene joins printing and reading across one paper strip; header title/schedule and footer columns frame it. It has a horizontal route and broader crop than M2 photo montage and a more separated image/type relationship than M3/M5.",
+        "image_id": "R11-C1-M4"
+      },
+      {
+        "view": "thumbnail320",
+        "location": "central held page between close side profiles",
+        "observation": "A large near-vertical yellow sheet carries brush/serif/sans title levels and the practical information, while close adult profiles dominate the edges. This frontal page and strong crop differ from M3 tabletop perspective and from the external information columns/bands of M1/M2/M4.",
+        "image_id": "R11-C1-M5"
+      },
+      {
+        "view": "native",
+        "location": "relationships among the five scenes",
+        "observation": "All five use an adult pair, a block and matching printed image, so the motif vocabulary remains related. Nonetheless, viewpoint, physical paper orientation, crop, information structure and typographic role change substantially: side-list illustration, modular photo sequence, oblique tabletop, panoramic photo band and face-framed page. Distinction is not inferred from material names or palette alone.",
+        "image_id": "R11-C1-M3"
+      }
+    ],
+    "residuals": [
+      "All five directions retain closely related narrative ingredients: adults sharing a printed sheet, a nearby block and repeated print imagery. Three are rough/flat illustrated scenes and two are photographic workshop scenes, limiting exceptional breadth despite their distinct visual systems.",
+      "Each native is valid only through the predeclared half-pixel height-edge ratio tolerance; all usage and thumbnail dimensions are exact 16:9.",
+      "This is one editorial critic’s assessment of the exact selected packet. It does not establish the separate craft/portfolio records or the all-three final gate, and no external source-fidelity claim applies because no source assets or protected layouts are declared."
+    ],
+    "requested_count": 5
+  }
+}

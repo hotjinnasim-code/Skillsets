@@ -1,0 +1,153 @@
+{
+  "role": "R7-D1-M3",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M3/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M3/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M3/stages/repair-1/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "서로\n다른\n속도"
+  ],
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "서로 다른 속도",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "서로\n다른\n속도",
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One compact three-line block: 서로, 다른, 속도. The line breaks are between whole words and are permitted soft wrapping.",
+        "fixed_newlines_required": false,
+        "whole_word_wrapping": true
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "normalized_required": "서로 다른 속도",
+      "normalized_observed": "서로 다른 속도",
+      "equal": true
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "occurrences_observed": 1,
+      "additional_copy_observed": [],
+      "ambiguities": [],
+      "observations": "All six syllables are readable in all three views, in their required order."
+    },
+    "style": {
+      "checked_requirement": "Constructed cut-paper gear pair, coherent shallow planes, larger angular sweep on smaller wheel, compact firm Hangul near mesh.",
+      "observations": [
+        {
+          "view": "native",
+          "location": "two wheel faces",
+          "observation": "Cobalt and vermilion matte paper, pale layered arc sectors and plain hubs remain. Diagonal center arrangement and unequal radii remain."
+        }
+      ],
+      "issues": [
+        "Contact is still shallow. Fine curled paper texture is more conspicuous than the initial view."
+      ]
+    },
+    "ratio": {
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "nearest_integer_rounding_needed": false
+    },
+    "no_type_only": {
+      "observations": [
+        {
+          "view": "thumbnail320",
+          "location": "whole field",
+          "observation": "Unequal substantial gear silhouettes dominate the field independently of the title."
+        }
+      ]
+    },
+    "substantive_visual": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "two pale sectors and gear bodies",
+          "observation": "The small wheel retains a substantially greater swept angle; the unequal toothed bodies are connected along the shared diagonal."
+        }
+      ],
+      "issues": [
+        "Tooth engagement does not extend cleanly into two or three opposing valleys."
+      ]
+    },
+    "hangul": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "upper-left dark title",
+          "observation": "Unwarped six syllables with intact component proportions and open counters; the title stays in one firm three-line block."
+        }
+      ],
+      "issues": []
+    },
+    "information_relationship": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "shared wedge left of orange wheel",
+          "observation": "Title is still a counterweight beside the wheels, clear of the diagonal contact. The bottom line stays just above the blue teeth."
+        }
+      ],
+      "issues": []
+    },
+    "function_contact": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "approximately x570-670,y700-810",
+          "observation": "The orange wheel sits closer to blue. A blue tooth and orange tooth contact oblique edges, but broad tooth ends remain near the mouths of opposing gaps rather than deeper alternating tooth-into-valley engagement."
+        }
+      ],
+      "issues": [
+        "Rebuild compatible local tooth phasing and deeper tooth-valley engagement."
+      ]
+    },
+    "material_edge_finish": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "blue face and warm-gray background",
+          "observation": "Short down-right shadows remain coherent. Fine curled or maze-like fibers now cover most broad surfaces with similar prominence, reducing the calm solid-paper character."
+        }
+      ],
+      "issues": [
+        "Lower the fine fiber contrast without replacing the cut-paper material."
+      ]
+    }
+  },
+  "observations": [
+    {
+      "view": "thumbnail320",
+      "location": "whole field",
+      "observation": "Overall weight, title reading and recognizable wheel pair were preserved; the orange wheel moved lower, tightening the connection."
+    },
+    {
+      "view": "native",
+      "location": "pale sectors",
+      "observation": "Sector widths now vary slightly in opposite senses; the change is too subtle to make opposite rotations clear at thumbnail size."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "shared diagonal tooth contact",
+      "limit": "The connection is closer but still shallow; clear engagement of alternating teeth into matching valleys remains uncertain."
+    },
+    {
+      "location": "broad paper surfaces",
+      "limit": "More conspicuous curled texture repeats across background and wheels."
+    },
+    {
+      "location": "both swept sectors",
+      "limit": "Opposite rotation is only weakly suggested by sector width changes, especially at reduced size."
+    }
+  ]
+}

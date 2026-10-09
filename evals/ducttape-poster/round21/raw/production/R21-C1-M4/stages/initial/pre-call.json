@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "role": "R21-C1-M4",
+  "stage": "initial",
+  "prepared_at_utc": "2026-10-08T20:52:16.218914+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "attempt_number": 1,
+  "planned_arguments_sha256": "6f88205e76811a8cea336371eadc9bd35fe76e59e7f057e62e9be95b3c38edb4",
+  "planned_arguments_hash_method": "UTF-8 canonical JSON, sorted keys, compact separators",
+  "call_input": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M4/stages/initial/call-input.json",
+    "sha256": "8564274f084fd21d8d4e4afb8feb0602313d1490baee1029bca3d42269778f57"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M4/case.json",
+      "sha256": "e3200286fdcb9e56c7bbab494d7684862c5b405420c471c1f1e2fc5aa7930a4c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M4/assignment.json",
+      "sha256": "72a876add6a72d5291e3e824f9e525968981a5104b7398a6dfb794e547a97bac"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/SKILL.md",
+      "sha256": "b2107dfc0a8792ba59716a24d5f89ecb6d939185d6b8743819cec58e3b63ecf8"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/agents/openai.yaml",
+      "sha256": "7a9e257f2cdcdbbab372a4574faea6b69b208584275a2d66f86ae01fe4386be4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/art-direction.md",
+      "sha256": "d8f5587ed18dd2cc2a7ebc4bba7bf44f14effea2129393c7bfd23bd63dfd771b"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/parallel-production.md",
+      "sha256": "c72b5657de5a46f84281a92aa986ca02d6991d751fc76590bb528d83bf43016c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/visual-research.md",
+      "sha256": "677bb0b121b226ddcdb7cecd526bdc75f29b433caf1b1ea808b4fed3e71cbb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/evaluation-loop.md",
+      "sha256": "97449098b56468636519330a32a8f1ccbc5881cf92cd97c21315bc68705bd3d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/production-brief.md",
+      "sha256": "3ad3a49dc5e43e9dbee0cfd186da3891815de9e353e951847f6399dfa0116928"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/design-grammar.md",
+      "sha256": "77418552f2fa1310063983eeb4ea274bc6d29d7971c9b880afdedd2981daa6ff"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/layout-guide.md",
+      "sha256": "ab65d49d9b3bf795474ccc0712a55af87b3c6d1c7f91581d8869ea84589655a3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/layout-guide-contract.md",
+      "sha256": "e5476c1aed79b9ab2c2308a86cd747cc580ff931efefd4c4a2d756e8891cd492"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/capability-probe/result.json",
+      "sha256": "846b62232dde3286969225f9292b36a12fbb88ce666141950504bc2b4b97e1fd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M4/guides/layout.spec.json",
+      "sha256": "cf3d39eda0c888c02e5aad54d17bf615a6acd671e7854bd9ac887fbbb8c6f9bd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M4/guides/layout.manifest.json",
+      "sha256": "93dc3f21df556453944595a54461c1236716adaf1355ce0939220a46336048af"
+    }
+  ],
+  "supplied_reference_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M4/guides/layout.png",
+      "sha256": "95252c65d6241626fb051fc67e39a23e1e59779c1998d66982a911cf97325ae5",
+      "role": "own supporting guide: actual copy/type anatomy and content/crop/reading geometry; not client asset, not protected coordinates, not final neutral style",
+      "actually_viewed": true,
+      "view_detail": "original"
+    }
+  ],
+  "client_assets": [],
+  "observed_repair_cause": null,
+  "maintained_features": [],
+  "actual_target_stage": null
+}

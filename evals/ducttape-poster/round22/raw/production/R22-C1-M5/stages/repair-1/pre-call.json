@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "role": "R22-C1-M5",
+  "stage": "repair-1",
+  "attempt_number": 2,
+  "prepared_at_utc": "2026-10-08T22:04:25.110811+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "planned_argument_pin": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/stages/repair-1/call-input.json",
+    "sha256": "298ce42c3285051f9bbd4dbb9a7a870424cbc1ca0fc3bb6a157b300372cbe8ab"
+  },
+  "planned_argument_value_sha256": "8b67fcc00774abecdcccd1c4263a01711709804bd1ff4ed9c6342fddb2af432a",
+  "argument_hash_method": "UTF-8 canonical JSON sorted keys, compact separators; exact call-input file pin separate",
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/case.json",
+      "sha256": "d5561e9978d9b53a65641fb84dda7c403e39617af2438323abf7ee4995a3bc88"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/assignment.json",
+      "sha256": "a8f0f3b785857d47b8a3a19f73edec33a13f9c0325dd6525f8704541045a6f8b"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/stages/initial/manifest.json",
+      "sha256": "0d9ece480aac021a2672a03111744b7956d9e9460d99d54b6d45d209ed49b2db"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/stages/initial/inspection.json",
+      "sha256": "e4173f3357b823dab649cd23bd7c3d0db9b3f6da54799a09654ba40ccdd61a17"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/guides/layout.spec.json",
+      "sha256": "663138f26d41427ead5eabed70b70318c4b5f196dd81b4001d2c4955252bf63d"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/guides/layout.manifest.json",
+      "sha256": "7eabea4ebb217c7241a2e2d231a2788b6f7f64c84a169d09577cc80840094095"
+    }
+  ],
+  "supplied_references": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/stages/initial/original.png",
+      "sha256": "e84854839ca85569a522c2c71707daf8363ffafe2caa7b2ece8057844af207bd",
+      "role": "Actually inspected own native edit target"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M5/guides/layout.png",
+      "sha256": "6d3b1c9659c3df8d4211eacd01cc83f47d023d69f73be0b08b01373bba08e3fe",
+      "role": "Own supporting layout/type planning guide"
+    }
+  ],
+  "client_assets": [],
+  "own_observed_repair_cause": [
+    "Dominant natural green/ochre and volumetric watercolor rather than plum/lavender fine pen contour wash",
+    "Modeled cream roots and flesh realism weaken assigned drawn expression",
+    "Practical footer remains serif throughout rather than compatible sans; optical size is modest at usage720",
+    "Dappled ground shadow rather than restrained soft anchoring wash"
+  ],
+  "maintained_features": [
+    "All twelve literal entries once, exact word spaces/punctuation",
+    "Dominant broad contrast-stroke Title and mature regular serif body",
+    "Single right reading axis from paragraph end through visit and participation/invitation/URL",
+    "Substantive connected stem/root crown, differentiated leaves and adult hand contact"
+  ],
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "0d9ece480aac021a2672a03111744b7956d9e9460d99d54b6d45d209ed49b2db",
+  "parent_native_sha256": "e84854839ca85569a522c2c71707daf8363ffafe2caa7b2ece8057844af207bd",
+  "target_stage": "initial"
+}

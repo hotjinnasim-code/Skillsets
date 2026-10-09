@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "role": "R12-C1-M5",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "08a09921bf790243b0b286b972a33850a9cbd735969bfb82009b7c7dd304f316",
+  "parent_native_sha256": "e7fea8eef095d4b06f0e55bacc240ec7bc3dcab6d6c8462abe1b2c5d1ad474d8",
+  "changes": [
+    {
+      "relationship": "Emblem scale/location",
+      "before": "Source shirt begins near x304 at usage720; scene ends near y266.",
+      "after": "Source shirt begins near x329 and scene ends near y263; further right, still outside planned compact bounds."
+    },
+    {
+      "relationship": "Masthead and Korean identity",
+      "before": "English visible caps about71px; Korean title roughly46px visible.",
+      "after": "English caps about62px; Korean title roughly49px, so English scale improves while title weight/size does not."
+    },
+    {
+      "relationship": "Activity/attendance",
+      "before": "Activity soft-wraps after middle dot; attendance extra-black.",
+      "after": "Activity is one intact line with all words/dot; attendance slightly lighter, same date/time row, venue and entry cluster."
+    },
+    {
+      "relationship": "Right practical block",
+      "before": "Begins near x441/y274.",
+      "after": "Begins near x447/y273; all four entries intact, small horizontal regression."
+    },
+    {
+      "relationship": "Material and support",
+      "before": "Reduced cloth grain with soft internal wrist tail.",
+      "after": "Flat matte ink shapes with firmer left wrist edge; broader cloth contour/grain still remains. Each pouch stays separately supported."
+    },
+    {
+      "relationship": "Protected source/result/sharing",
+      "before": "Two orange notched bands on shirt and charcoal pouch; separate blue offering.",
+      "after": "Ordered bands/steps, seams, zipper mouths and opposite completed offerings remain; detailed notch proportions vary."
+    }
+  ],
+  "residuals": [
+    "Scene begins near x329 at usage720, still left of intended x397; its height/width exceed the planned compact field.",
+    "Masthead visible height is about62px, reduced from repair-1 but larger than planned42px; Korean title remains heavy and about49px visible height.",
+    "Right facts start near x447 rather than x397; activity uses one line instead of planned two.",
+    "Cloth texture remains broader than sparse localized halftone; fine source/remade notch proportions are not identical.",
+    "Original-detail display needed a MIME-header-only correction; repeated tile emissions are preserved in the tool trace, with no new image generation or pixel editing."
+  ]
+}

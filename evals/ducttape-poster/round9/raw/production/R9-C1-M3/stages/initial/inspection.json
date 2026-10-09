@@ -1,0 +1,329 @@
+{
+  "role": "R9-C1-M3",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/thumbnail-320.png"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "raw_observed_text": [
+    {
+      "copy_index": 0,
+      "raw_observed": "다리 아래 영화관",
+      "location": "upper-left, one line"
+    },
+    {
+      "copy_index": 1,
+      "raw_observed": "BRIDGE CINEMA",
+      "location": "beneath Korean title"
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "야외 단편 상영 · 감독과의 대화",
+      "location": "lower-right first line"
+    },
+    {
+      "copy_index": 3,
+      "raw_observed": "2026.12.05 토요일",
+      "location": "upper-right first line"
+    },
+    {
+      "copy_index": 4,
+      "raw_observed": "18:00–20:30",
+      "location": "upper-right second line"
+    },
+    {
+      "copy_index": 5,
+      "raw_observed": "홍제천 연가교 아래",
+      "location": "upper-right third line"
+    },
+    {
+      "copy_index": 6,
+      "raw_observed": "17:30부터 입장",
+      "location": "lower-left first line"
+    },
+    {
+      "copy_index": 7,
+      "raw_observed": "돗자리 지참",
+      "location": "lower-left second line"
+    },
+    {
+      "copy_index": 8,
+      "raw_observed": "무료 관람 · 선착순 80명",
+      "location": "lower-left third line"
+    },
+    {
+      "copy_index": 9,
+      "raw_observed": "우천 시 실내로 변경",
+      "location": "lower-right second line"
+    }
+  ],
+  "viewing": {
+    "initial_order": [
+      "native original-detail",
+      "usage720",
+      "thumbnail320"
+    ],
+    "native_display_revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/original.png",
+      "sha256": "678288b6b780783e30b61fff3c060d939b2d260475297f7e768c71ace2a9288f",
+      "initial_read": "Only a cream fragment was rendered; no native text read possible in that first output.",
+      "raw_observed": [
+        "다리 아래 영화관",
+        "BRIDGE CINEMA",
+        "야외 단편 상영 · 감독과의 대화",
+        "2026.12.05 토요일",
+        "18:00–20:30",
+        "홍제천 연가교 아래",
+        "17:30부터 입장",
+        "돗자리 지참",
+        "무료 관람 · 선착순 80명",
+        "우천 시 실내로 변경"
+      ],
+      "resolution": "One revisit of the same exact original with detail high displayed the full 1672×941 image; all text and scenic detail were visible.",
+      "resolved": true,
+      "reason": "Native-detail display limitation in the first tool output."
+    }
+  },
+  "observations": [
+    {
+      "view": "usage720",
+      "location": "upper-left x3–59%, y4–25%",
+      "observation": "The Korean title is one heavy line; English directly beneath. Title reaches about x59%, exceeding assigned x49%, and is about 53px high at width720."
+    },
+    {
+      "view": "usage720",
+      "location": "upper-right x65–95%, y5–25%",
+      "observation": "Date, time and venue are a clear three-line group, but start substantially farther right than the assigned x52%."
+    },
+    {
+      "view": "native",
+      "location": "middle band x0–100%, y27–77%",
+      "observation": "Kneeling adult at left spreads a mat, central seated adults face a bridge film on a framed outdoor screen, and right-hand director and seated attendee hold microphones toward one another."
+    },
+    {
+      "view": "native",
+      "location": "background and figure surfaces",
+      "observation": "Detailed foliage, shaded bridge piers, distant buildings, facial shading and fabric folds produce a scenic editorial illustration rather than the assigned few-line angular frieze."
+    },
+    {
+      "view": "usage720",
+      "location": "lower-left and lower-right",
+      "observation": "Three arrival entries and two programme/weather entries are separately readable on cream, with solid dark letterforms."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "The title dominates first gaze; the connected outdoor audience scene remains recognizable. The scenic background forms a dense central band."
+    },
+    {
+      "view": "native",
+      "location": "Korean title and lower practical entries",
+      "observation": "Counters, consonant/vowel structures, straight baselines and word gaps are distinct; no definite missing Hangul glyph was observed."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "entry_count": 10,
+      "visually_observed_occurrences": "one of each required entry",
+      "added_text_observed": false,
+      "ambiguities": [],
+      "unicode_limit": "Raster observation establishes visible glyph classes, not original Unicode code points.",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "다리 아래 영화관",
+          "raw_observed": "다리 아래 영화관",
+          "normalized_required": "다리 아래 영화관",
+          "normalized_observed": "다리 아래 영화관",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. upper-left, one line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "BRIDGE CINEMA",
+          "raw_observed": "BRIDGE CINEMA",
+          "normalized_required": "BRIDGE CINEMA",
+          "normalized_observed": "BRIDGE CINEMA",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. beneath Korean title"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "야외 단편 상영 · 감독과의 대화",
+          "raw_observed": "야외 단편 상영 · 감독과의 대화",
+          "normalized_required": "야외 단편 상영·감독과의 대화",
+          "normalized_observed": "야외 단편 상영·감독과의 대화",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. lower-right first line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2026.12.05 토요일",
+          "raw_observed": "2026.12.05 토요일",
+          "normalized_required": "2026.12.05 토요일",
+          "normalized_observed": "2026.12.05 토요일",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. upper-right first line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "18:00–20:30",
+          "raw_observed": "18:00–20:30",
+          "normalized_required": "18:00–20:30",
+          "normalized_observed": "18:00–20:30",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. upper-right second line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "홍제천 연가교 아래",
+          "raw_observed": "홍제천 연가교 아래",
+          "normalized_required": "홍제천 연가교 아래",
+          "normalized_observed": "홍제천 연가교 아래",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. upper-right third line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "17:30부터 입장",
+          "raw_observed": "17:30부터 입장",
+          "normalized_required": "17:30부터 입장",
+          "normalized_observed": "17:30부터 입장",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. lower-left first line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "돗자리 지참",
+          "raw_observed": "돗자리 지참",
+          "normalized_required": "돗자리 지참",
+          "normalized_observed": "돗자리 지참",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. lower-left second line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "무료 관람 · 선착순 80명",
+          "raw_observed": "무료 관람 · 선착순 80명",
+          "normalized_required": "무료 관람·선착순 80명",
+          "normalized_observed": "무료 관람·선착순 80명",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. lower-left third line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "우천 시 실내로 변경",
+          "raw_observed": "우천 시 실내로 변경",
+          "normalized_required": "우천 시 실내로 변경",
+          "normalized_observed": "우천 시 실내로 변경",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One complete line, visible word boundaries retained. lower-right second line"
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Expressive drawn continuous angular frieze, selective solid fills, decisive lines, vermilion/charcoal on warm light ground.",
+      "observed_departure": "Detailed scene and tonal modelling dominate; line-and-fill abstraction was not implemented."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": "16:9",
+      "rounding_policy": "nearest-integer one-edge tolerance <=0.5px",
+      "exact_height_for_width": 940.5,
+      "height_difference_px": 0.5,
+      "within_predeclared_rounding": true
+    },
+    "substantive_visual": {
+      "observation": "Mat arrival, adults watching a projected bridge image, and director-audience microphone interaction are substantive content-grounded actions joined by ground and creek railing."
+    },
+    "hangul": {
+      "observation": "All required Korean words were readable at usage720, with discernible counters and word spacing; heavy title scale exceeds assignment."
+    },
+    "information_relationship": {
+      "observation": "Identity, schedule, arrival and programme/weather groups are present; title and schedule boundaries differ from assignment."
+    },
+    "function_contact": {
+      "requested": true,
+      "observation": "The mat lies under the kneeling adult and seated audience; screen has supports; microphone gestures show conversation. Fine fingers and microphone exchange are simplified."
+    },
+    "material_edge_finish": {
+      "observation": "Text edges are crisp; illustration has consistent scenic shading, but more surface detail than the assigned restrained drawing."
+    },
+    "format": {
+      "observation": "One opaque landscape poster, no contact sheet, mockup, logo, watermark or QR observed."
+    }
+  },
+  "residuals": [
+    "Scenic shading and dense background replace the assigned angular, selective-fill drawn frieze.",
+    "Korean title reaches approximately x59%; assigned identity boundary is x49%, and schedule starts around x65% rather than x52%.",
+    "Illustration band extends approximately y27–77%, occupying more vertical area than assigned y31–69%.",
+    "Native first-display limitation required one exact-source revisit; this is retained in the viewing record."
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "role": "R8-C1-M4",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/thumbnail-320.png"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "raw_observed_text": [
+    "한 번 더 쓰는 하루",
+    "동네 수선 · 교환 모임",
+    "2026.11.14 토요일",
+    "13:00–17:00",
+    "연희 생활센터",
+    "고칠 물건 하나,\n바꿀 물건 하나",
+    "작은 옷 수선 · 생활물건 교환",
+    "참가비 없음",
+    "천천히 들러요"
+  ],
+  "residuals": [
+    "At the 213×320 thumbnail, the activity line and bottom invitation are too small for reliable independent character-by-character reading; they are readable at the inspected 720×1080 usage view.",
+    "The edit slightly re-rendered cloth/book/canvas surface details and individual repair stitches; it preserves their recognizable geometry and repair meaning rather than identical pixels."
+  ],
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "middle-right bring module",
+      "observation": "Pale-blue rectangle has straight printed edges and clear padding around two lines; irregular blob is removed."
+    },
+    {
+      "view": "native",
+      "location": "book/mug/bag silhouettes",
+      "observation": "External fuzzy cast shadows no longer surround the cutouts; material shading remains inside the object forms."
+    },
+    {
+      "view": "native",
+      "location": "bottom invitation",
+      "observation": "Black invitation sits directly on pale ivory with no brush swatch or detached blue rays."
+    },
+    {
+      "view": "usage720",
+      "location": "upper-left date/time/place",
+      "observation": "Date, en-dash-shaped time separator and location are readable as a three-line aligned group."
+    },
+    {
+      "view": "usage720",
+      "location": "middle-right",
+      "observation": "Bring text wraps at comma and activity text stays on one line, both readable with intact Hangul and visible word spacing."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "lower quarter",
+      "observation": "Full-width heavy title and event/free companion row retain the strong lower anchor; blue shirt, ochre book, mug and bag remain distinct distributed shapes."
+    },
+    {
+      "view": "native",
+      "location": "shirt/mug/bag",
+      "observation": "Stitched plaid shirt patch, plausible handle, shoulder strap and buckle form remain visible; no object branding or additional copy is visible."
+    }
+  ],
+  "viewing_record": {
+    "first_order": [
+      "native",
+      "usage720",
+      "thumbnail320"
+    ],
+    "first_native_display": "A tiny pale swatch appeared; the complete native image was not available to semantic inspection on that display.",
+    "initial_read_source": "usage720",
+    "one_revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/original.png",
+      "sha256": "59d95c31f28ff3d4c37e3228ac7e1ecfb15d95b18ca2805a24040fd2c39ae8fe",
+      "raw_observed": [
+        "한 번 더 쓰는 하루",
+        "동네 수선 · 교환 모임",
+        "2026.11.14 토요일",
+        "13:00–17:00",
+        "연희 생활센터",
+        "고칠 물건 하나,\n바꿀 물건 하나",
+        "작은 옷 수선 · 생활물건 교환",
+        "참가비 없음",
+        "천천히 들러요"
+      ],
+      "resolution": "The exact same pinned original appeared completely on the single revisit. All copy and object/type edges were then inspectable at native detail.",
+      "resolved": true,
+      "reason": "Incomplete first native display; no asset change or regeneration."
+    }
+  },
+  "mandatory": {
+    "text": {
+      "ambiguities": [],
+      "issues": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "한 번 더 쓰는 하루",
+          "raw_observed": "한 번 더 쓰는 하루",
+          "normalized_required": "한 번 더 쓰는 하루",
+          "normalized_observed": "한 번 더 쓰는 하루",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "동네 수선·교환 모임",
+          "raw_observed": "동네 수선 · 교환 모임",
+          "normalized_required": "동네 수선·교환 모임",
+          "normalized_observed": "동네 수선·교환 모임",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line; optical spaces surround the exact middle-dot-shaped glyph."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "2026.11.14 토요일",
+          "raw_observed": "2026.11.14 토요일",
+          "normalized_required": "2026.11.14 토요일",
+          "normalized_observed": "2026.11.14 토요일",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "13:00–17:00",
+          "raw_observed": "13:00–17:00",
+          "normalized_required": "13:00–17:00",
+          "normalized_observed": "13:00–17:00",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "연희 생활센터",
+          "raw_observed": "연희 생활센터",
+          "normalized_required": "연희 생활센터",
+          "normalized_observed": "연희 생활센터",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "고칠 물건 하나, 바꿀 물건 하나",
+          "raw_observed": "고칠 물건 하나,\n바꿀 물건 하나",
+          "normalized_required": "고칠 물건 하나, 바꿀 물건 하나",
+          "normalized_observed": "고칠 물건 하나, 바꿀 물건 하나",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Two lines split at comma; intact word boundaries."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "작은 옷 수선 · 생활물건 교환",
+          "raw_observed": "작은 옷 수선 · 생활물건 교환",
+          "normalized_required": "작은 옷 수선·생활물건 교환",
+          "normalized_observed": "작은 옷 수선·생활물건 교환",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line; optical spaces surround the exact middle-dot-shaped glyph."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 없음",
+          "raw_observed": "참가비 없음",
+          "normalized_required": "참가비 없음",
+          "normalized_observed": "참가비 없음",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "천천히 들러요",
+          "raw_observed": "천천히 들러요",
+          "normalized_required": "천천히 들러요",
+          "normalized_observed": "천천히 들러요",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "assigned": "Asymmetric photographic object catalog with distributed information and large lower title",
+      "observed": "Four recognizable photographic cutouts in unequal regions; clean information modules, lower large title and clear event/free companion group.",
+      "limits": []
+    },
+    "ratio": {
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "width_error_at_fixed_height": 0,
+      "height_error_at_fixed_width": 0,
+      "rounding_policy": "Nearest integer <=0.5px permitted; no rounding needed."
+    },
+    "substantive_visual": {
+      "observed": "Different worn everyday objects and a visibly repaired shirt show concrete items for reuse/repair/exchange; the photos occupy most of the upper field."
+    },
+    "hangul": {
+      "observed": "Consistent bold sans-serif Hangul proportions, open counters, readable syllables and normal word gaps; no uncertain glyph class observed at usage720 or native revisit."
+    },
+    "information_relationship": {
+      "observed": "Schedule/place group remains upper-left; bring/activity is beside repaired shirt and bag; event/free row is attached to large lower title; invitation remains last."
+    },
+    "function_contact": {
+      "requested": false,
+      "observation": "No URL/contact supplied or added."
+    },
+    "material_edges": {
+      "observed": "Precise photographic cutouts with internal dimensional shading; external soft shadows and arbitrary decorative blue rays are removed. Fine material/stitch textures re-render slightly."
+    }
+  },
+  "selection_reason": "Compared with initial, repair-1 better maintains the assigned precise catalog finish while retaining all copy, asymmetry, repaired objects and bold lower title/event/free relationship."
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R7-D1",
+  "role": "R7-D1-M1",
+  "candidate": "H",
+  "ordinal": 1,
+  "expected_count": 5,
+  "ratio": "2:3",
+  "direction": {
+    "role": "R7-D1-M1",
+    "ratio": "2:3",
+    "fullcopy": "서로 다른 속도",
+    "concept": "Different human paces coexist in the same place and the same captured moment.",
+    "substantive_non_glyph_visual": "A shared pedestrian ground contains one person pausing with weight visibly settled on a foot while another passes in a sustained directional motion blur. Their recognizable bodies, foot contact and unequal movement occupy the main scene; the still figure and moving passage must both survive a small view. Use a single continuous exposure-like scene rather than a montage or decorative streaks.",
+    "expression_system": "Observational location photography with a fixed viewpoint, credible ground, consistent light and selective motion blur. The contrast comes from bodily state within one space, rather than a filter applied to everything. The title uses clear, restrained, medium-weight Hangul with normal proportions and a steady horizontal baseline.",
+    "copy_visual_relationship": "The title acts as the still point of observation within the shared ground plane, close enough to the paused figure and passing trajectory to bind them. It remains completely sharp while movement passes beside it. Let the scene determine an open reading surface and crop; avoid turning the title into a remote header or a small caption beneath the photograph.",
+    "closest_other_role": "R7-D1-M5",
+    "distinction": "M1 is an inhabited, continuous place with lateral passage and a quiet stationary title. M5 isolates two material processes under gravity and makes the title's downward grouping participate in their unequal descent; it must not inherit M1's environmental scene or horizontal viewing baseline."
+  },
+  "common_constraints": [
+    "Print the supplied title exactly once, with intact readable Hangul and the original word spacing. Line breaks may occur between whole words. The directions are internal guidance and must not be printed.",
+    "No other copy, supporting text, labels, numbers, logos, series identifiers, style names or watermarks. Depicted clothing, objects and surfaces must be unbranded and free of incidental text.",
+    "Each assigned maker produces only its own independent, single flat opaque poster, portrait 2:3. No panels, contact sheets, poster mockups or borrowing another maker's generated image as a reference.",
+    "The substantial non-glyph relation must remain recognizable with the title hidden and at reduced viewing size. Tiny ornament, wallpaper, background texture, gradients and 3D lettering alone do not satisfy it.",
+    "Preserve the assigned relation and distinction while solving practical crop, proportion, palette, alignment and title placement independently. There is no shared title-object-footer layout or common allocation of image and copy area.",
+    "Downstream native-tool production must request the maximum resolution supported by the current tool and model while preserving 2:3; verify the actual returned dimensions and readable copy after generation."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "382f0b028ce29455905ff77cc868e3d973816cf10311957fa8e8a71238416906",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "1e452fe193e537ace783b36014fc65fb17d96c03b4a0ee66dfc4ddf4a5d392cd"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M1/case.json",
+    "sha256": "d375db3616c7bcb8b4d321916accf11a8aad234b2580ee725c2dc234b088401c"
+  }
+}

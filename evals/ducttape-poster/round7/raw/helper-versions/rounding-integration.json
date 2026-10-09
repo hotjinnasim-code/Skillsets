@@ -1,0 +1,16 @@
+{
+  "change": "predeclared optional R7-only nearest-integer-single-edge ratio policy; default exact, explicit pixel dimensions disallow rounding",
+  "old_sha256": "74ae443ffc39c901830596cceb6c607da952cc5615dea1ff50e075479c1c8525",
+  "new_sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+  "synthetic_only": true,
+  "passed": 6,
+  "checks": [
+    "1122x1402 4:5 rejected by default exact",
+    "1122x1402 4:5 accepted only under declared half-pixel single-edge policy",
+    "explicit pixel dimensions prohibit rounding exception",
+    "1123x1402 rejected (>0.5 on both axes)",
+    "1122x1404 rejected (>0.5 on both axes)",
+    "1536x1024 3:2 exact remains accepted"
+  ],
+  "unchanged_scope": "all-seven score and mandatory style/text/count gates; no R6 changes and no image edits"
+}

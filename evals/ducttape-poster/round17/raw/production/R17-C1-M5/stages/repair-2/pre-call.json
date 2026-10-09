@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "role": "R17-C1-M5",
+  "stage": "repair-2",
+  "attempt_number": 3,
+  "prepared_at_utc": "2026-10-08T15:35:31.955415+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "planned_argument_sha256": "4e61f03de11148f6476c121e7065acd60186e08ccd05dc04547fb93642fae1a6",
+  "planned_argument_hash_method": "UTF-8 canonical JSON sorted keys no extra whitespace",
+  "prompt_utf8_sha256": "a56ce3a79e5091cc8c6aea8b7f0e4b17cef3e3545f16b109234a25121c7f55ad",
+  "call_input": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M5/stages/repair-2/call-input.json",
+    "sha256": "7220f3954df72de84da0a36de3890425815a723dcb86224df22804b5d0702a99"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M5/case.json",
+      "sha256": "8d09205ca1bc58d8174b87d2db50f851d428adf4f1efdc7bce241fe4bc329a4a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M5/assignment.json",
+      "sha256": "af795a39b5f32b769f5945f1d494b3d618b28591bc5b71652a4675e6bd280a15"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/SKILL.md",
+      "sha256": "547844894e052075ea192edffd74d69ef6e2a5865d132b6bff52e2167cdb3a39"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/agents/openai.yaml",
+      "sha256": "7a9e257f2cdcdbbab372a4574faea6b69b208584275a2d66f86ae01fe4386be4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/art-direction.md",
+      "sha256": "d8f5587ed18dd2cc2a7ebc4bba7bf44f14effea2129393c7bfd23bd63dfd771b"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/parallel-production.md",
+      "sha256": "eb5f07f5b11e405e31d935547ba7468d8f7f76f4817634719ce739d1b0d25e70"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/visual-research.md",
+      "sha256": "677bb0b121b226ddcdb7cecd526bdc75f29b433caf1b1ea808b4fed3e71cbb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/evaluation-loop.md",
+      "sha256": "97449098b56468636519330a32a8f1ccbc5881cf92cd97c21315bc68705bd3d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/capability-probe/result.json",
+      "sha256": "846b62232dde3286969225f9292b36a12fbb88ce666141950504bc2b4b97e1fd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/production-brief.md",
+      "sha256": "c52ebdafd32bcc1f75b2fbc725d9abebd943feb849fdf8ca6f1a7e99d0651ca4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/design-grammar.md",
+      "sha256": "bd05bb9e43c20e155cbb5337614b80273d7d090bdd06b3565bbd290d96dab543"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M5/stages/repair-1/manifest.json",
+      "sha256": "72aa3e6c989900b16163fe7beee5e225d9020e923d878494e41cc6cb0d7d9f76"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M5/stages/repair-1/inspection.json",
+      "sha256": "978535e2fa6c4decaf551d771bae188c0112dd8303a122c9a8dc1af21ec2a378"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M5/stages/repair-1/native-call.json",
+      "sha256": "7ede80d6f14b5506f0d111e4565a60e8fcc21a14616b0d07f9e79e4a7e8fbfed"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M5/stages/repair-1/parent-comparison.json",
+      "sha256": "c88b6f65ad28873751132ad1a63b2d0d3da11136171a5e23b0fe27ed4669b8ed"
+    }
+  ],
+  "supplied_reference_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M5/stages/repair-1/original.png",
+      "sha256": "88211f6d4b141b22414cf92cca423b6a4630df9aaa28ae2ab3edbcbdfb34601c",
+      "role": "own inspected edit target"
+    }
+  ],
+  "required_client_asset_pins": [],
+  "immediate_parent_stage": "repair-1",
+  "immediate_parent_outcome": "returned",
+  "repair_target_stage": "repair-1",
+  "observed_repair_cause": [
+    "Practical fee/deadline/invitation/place at usage720 remain noticeably smaller than the now-readable explanation.",
+    "Oversized slogan/date consume space that could strengthen practical typography; place is centered instead of sharing event start."
+  ],
+  "maintained_features": [
+    "Readable larger paragraph and moderate title/Latin relationship.",
+    "Unequal large photographic chair/stitched-garment boundaries and concrete shared chair repair contact.",
+    "Exact 12 copy entries, adjacent functional groups, invitation and URL connection.",
+    "Native1672×941 within declared one-edge rounding tolerance; no pixel editing."
+  ]
+}

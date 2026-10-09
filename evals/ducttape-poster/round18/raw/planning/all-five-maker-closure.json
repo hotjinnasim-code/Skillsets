@@ -1,0 +1,168 @@
+{
+  "utc": "2026-10-08T17:04:20.422777+00:00",
+  "all_five_completed": true,
+  "makers": [
+    {
+      "role": "R18-C1-M1",
+      "completion": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M1/completion.json",
+      "sessions": [
+        "01a11c64-a44f-74b0-a591-3b1d7af8cd14"
+      ],
+      "selection": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M1/selection.json",
+      "selected_stage": "repair-2",
+      "counts": {
+        "native_calls": 3,
+        "returned": 3,
+        "failed": 0,
+        "repair_calls": 2
+      }
+    },
+    {
+      "role": "R18-C1-M2",
+      "completion": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M2/completion.json",
+      "sessions": [
+        "01a11c64-a44b-79f1-988c-cb119a796b55"
+      ],
+      "selection": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M2/selection.json",
+      "selected_stage": "initial",
+      "counts": {
+        "native_calls": 3,
+        "returned": 3,
+        "failed": 0,
+        "repair_calls": 2
+      }
+    },
+    {
+      "role": "R18-C1-M3",
+      "completion": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M3/completion.json",
+      "sessions": [
+        "01a11c64-a458-79a3-b7cc-606ee39ead08"
+      ],
+      "selection": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M3/selection.json",
+      "selected_stage": "initial",
+      "counts": {
+        "native_calls": 1,
+        "returned": 1,
+        "failed": 0,
+        "repair_calls": 0
+      }
+    },
+    {
+      "role": "R18-C1-M4",
+      "completion": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M4/completion.json",
+      "sessions": [
+        "01a11c69-eae2-7b90-b93a-5f6409550279"
+      ],
+      "selection": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M4/selection.json",
+      "selected_stage": "repair-2",
+      "counts": {
+        "native_calls": 3,
+        "returned": 3,
+        "failed": 0,
+        "repair_calls": 2
+      }
+    },
+    {
+      "role": "R18-C1-M5",
+      "completion": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M5/completion.json",
+      "sessions": [
+        "01a11c70-af92-70a0-9085-cf831199de10"
+      ],
+      "selection": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M5/selection.json",
+      "selected_stage": "repair-1",
+      "counts": {
+        "native_calls": 2,
+        "returned": 2,
+        "failed": 0,
+        "repair_calls": 1
+      }
+    }
+  ],
+  "counts": {
+    "native_calls": 12,
+    "returned": 12,
+    "failed": 0,
+    "repair_calls": 7
+  },
+  "initial_selected": 2,
+  "initial_retained_without_repairs": 1,
+  "all_native_inputs_pass_own_support_guide": [
+    {
+      "role": "R18-C1-M1",
+      "stage": "initial",
+      "guide_passed": true,
+      "guide_sha256": "2839852fa2600fb368c037ad0e7907dbc7fd492b7827276818edfd7b187fbbf1"
+    },
+    {
+      "role": "R18-C1-M1",
+      "stage": "repair-1",
+      "guide_passed": true,
+      "guide_sha256": "2839852fa2600fb368c037ad0e7907dbc7fd492b7827276818edfd7b187fbbf1"
+    },
+    {
+      "role": "R18-C1-M1",
+      "stage": "repair-2",
+      "guide_passed": true,
+      "guide_sha256": "2839852fa2600fb368c037ad0e7907dbc7fd492b7827276818edfd7b187fbbf1"
+    },
+    {
+      "role": "R18-C1-M2",
+      "stage": "initial",
+      "guide_passed": true,
+      "guide_sha256": "3ad1de96a768689efe12e8981026cff2a834f6a11474e83f2660109926afec4f"
+    },
+    {
+      "role": "R18-C1-M2",
+      "stage": "repair-1",
+      "guide_passed": true,
+      "guide_sha256": "3ad1de96a768689efe12e8981026cff2a834f6a11474e83f2660109926afec4f"
+    },
+    {
+      "role": "R18-C1-M2",
+      "stage": "repair-2",
+      "guide_passed": true,
+      "guide_sha256": "3ad1de96a768689efe12e8981026cff2a834f6a11474e83f2660109926afec4f"
+    },
+    {
+      "role": "R18-C1-M3",
+      "stage": "initial",
+      "guide_passed": true,
+      "guide_sha256": "aee6e1ae26fdce62dd83d09a69364990e88fd44f55728a86e9de36cac19c86c3"
+    },
+    {
+      "role": "R18-C1-M4",
+      "stage": "initial",
+      "guide_passed": true,
+      "guide_sha256": "4d471ff206aa0b54b8205f18778915fcf1d6d2a3ed435a82ba398813b2181ec3"
+    },
+    {
+      "role": "R18-C1-M4",
+      "stage": "repair-1",
+      "guide_passed": true,
+      "guide_sha256": "4d471ff206aa0b54b8205f18778915fcf1d6d2a3ed435a82ba398813b2181ec3"
+    },
+    {
+      "role": "R18-C1-M4",
+      "stage": "repair-2",
+      "guide_passed": true,
+      "guide_sha256": "4d471ff206aa0b54b8205f18778915fcf1d6d2a3ed435a82ba398813b2181ec3"
+    },
+    {
+      "role": "R18-C1-M5",
+      "stage": "initial",
+      "guide_passed": true,
+      "guide_sha256": "e9c0a2fb9893ff66a5a2e986de581b171c51ac235e493dd410e397b64b9883f4"
+    },
+    {
+      "role": "R18-C1-M5",
+      "stage": "repair-1",
+      "guide_passed": true,
+      "guide_sha256": "e9c0a2fb9893ff66a5a2e986de581b171c51ac235e493dd410e397b64b9883f4"
+    }
+  ],
+  "client_assets_remain_empty": true,
+  "new_quality_gates": 0,
+  "native_tools_not_claimed_to_apply_font_files": true,
+  "no_external_scores_seen_before_selections": true,
+  "preparation_note": "Closure writer initially failed before any write on completion field name; changed sessions lookup to actual session_ids. Critic preparation independently confirmed all five closed before launch."
+}

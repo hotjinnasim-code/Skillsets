@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "case_id": "R7-B05",
+  "candidate_label": "H",
+  "wave": "selected",
+  "expected_count": 1,
+  "critic_profiles": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "full_request": "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요. 세로 4:5입니다. 사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다. 작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요. 작품을 새로 그리거나 다른 작품으로 바꾸지 마세요. 주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요. 아래 문구를 모두 그대로 넣어 주세요. 날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.",
+  "literal_case_sha256": "f79a626d697e66a8797620c7f18d351bd4b7930598a45005e69f1a0997d78456",
+  "normalization": "nfc-ws-optical-v1",
+  "copy": [
+    {
+      "text": "작업실의 오후",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "김서안 오픈 스튜디오",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.11.28 14:00–19:00",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "연희로 18길 24, 2층",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "작품과 제작 과정을 함께 보는 시간",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "방문 예약 example.org/atelier-afternoon",
+      "kind": "url",
+      "fixed_newlines": false
+    }
+  ],
+  "requirements": {
+    "style": "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요. 세로 4:5입니다. 사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다. 작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요. 작품을 새로 그리거나 다른 작품으로 바꾸지 마세요. 주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요. 아래 문구를 모두 그대로 넣어 주세요. 날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.\n\nLiteral client styles:\n{\"mode\": \"actual supplied synthetic photograph preservation\"}\n\nLiteral mandatory client conditions:\n첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요.\n세로 4:5입니다.\n사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다.\n작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.\n작품을 새로 그리거나 다른 작품으로 바꾸지 마세요.\n주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요.\n아래 문구를 모두 그대로 넣어 주세요.\n날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.\nThe actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+    "ratio": [
+      4,
+      5
+    ],
+    "ratio_rounding": "nearest-integer-single-edge",
+    "no_type_only": true
+  },
+  "review_rules": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/review_rules.md",
+    "sha256": "c80926b19a05bd34ce5dcc3261f03fbcbfa0bc7c403bc8d3290f43cb10861b82",
+    "bytes": 14110
+  },
+  "critic_rubric": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/critic_rubric.md",
+    "sha256": "01cacc9325fa9883df2deed9c0e33daee7072be764c56e47a4f5bb94c147de44",
+    "bytes": 5918
+  },
+  "ratio_policy": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/planning/ratio-policy-before-generation.json",
+    "sha256": "ea9c88b7191e689107b0636ab25af47fd0326c4d5f7b4543e3e15b2d53047350",
+    "bytes": 1105
+  },
+  "helper_pins": {
+    "evidence_io.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2",
+      "bytes": 15373
+    },
+    "summarize.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+      "bytes": 38350
+    },
+    "run_agent.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+      "bytes": 2390
+    },
+    "prepare_reviews_v2.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/prepare_reviews_v2.py",
+      "sha256": "6fcb2f3e792c174f65c38684b0447b5a137f5de72f01df3cf0bd029968996771",
+      "bytes": 29562
+    }
+  },
+  "source_assets": [
+    {
+      "asset_id": "A1",
+      "attachment_alias": "atelier-photo.jpg",
+      "actual_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+      "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+      "width": 1122,
+      "height": 1402,
+      "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/manifest.json",
+      "manifest_sha256": "16057e224f6c2211345306be6906bf4ef6abe51fb419e93d75d0216a85a74d1d",
+      "kind": "synthetic studio photograph-style fixture",
+      "ready": true,
+      "synthetic_authorized_fixture": true,
+      "real_client_photo": false,
+      "real_product": false,
+      "source_artwork_substitute": false,
+      "not_a_corpus_poster_candidate": true,
+      "viewed_by_corpus_author": false
+    }
+  ],
+  "protected_layouts": [],
+  "images": [
+    {
+      "image_id": "R7-B05-M1",
+      "role": "R7-B05-M1",
+      "stage": "repair-2",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/manifest.json",
+        "sha256": "07d3fec441626bc4f65085fa388519cb62331c0135c7f8ba389b8fd2ed54223a",
+        "bytes": 2648
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/original.png",
+          "sha256": "1cb283db37eaeb4b8e32529ec46edb96d4815c4f912f78ce47394d91d19297ef",
+          "bytes": 2232337,
+          "width": 1122,
+          "height": 1402
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/usage-720.png",
+          "sha256": "f454b74b7ed06b4381bd852c425fa756072c497bc117147fbdc26ce0b49c98a4",
+          "bytes": 869198,
+          "width": 720,
+          "height": 900
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/thumbnail-320.png",
+          "sha256": "10a2608fb057466fe55588887006c5aca691af1052ad2f748daada5757387fbd",
+          "bytes": 106819,
+          "width": 256,
+          "height": 320
+        }
+      },
+      "ratio_requirement": [
+        4,
+        5
+      ],
+      "style_requirement": "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요. 세로 4:5입니다. 사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다. 작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요. 작품을 새로 그리거나 다른 작품으로 바꾸지 마세요. 주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요. 아래 문구를 모두 그대로 넣어 주세요. 날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.\n\nLiteral client styles:\n{\"mode\": \"actual supplied synthetic photograph preservation\"}\n\nLiteral mandatory client conditions:\n첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요.\n세로 4:5입니다.\n사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다.\n작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.\n작품을 새로 그리거나 다른 작품으로 바꾸지 마세요.\n주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요.\n아래 문구를 모두 그대로 넣어 주세요.\n날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.\nThe actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic."
+    }
+  ]
+}

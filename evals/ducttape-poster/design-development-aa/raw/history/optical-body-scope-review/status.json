@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "completion": "completed_independent_narrow_scope_review",
+  "reviewer": "/root/blind_final_review",
+  "scope": "Static review of unadopted optical-body draft against current LIVE and specified history; not visual quality evidence",
+  "draft_root": "drafts/candidate-optical-body",
+  "live_root": "Skillsets/skills/ducttape-poster",
+  "comparison": {
+    "draft_files": 12,
+    "live_files": 12,
+    "changed_files": [
+      "references/layout-guide.md",
+      "references/production-brief.md"
+    ],
+    "unchanged_files_byte_equal": 10,
+    "live_baseline_sha256_and_bytes_match": true,
+    "live_baseline_checked_files": 12
+  },
+  "scope_findings": {
+    "general_first_generation_body_and_title_method": "supported",
+    "actual_title_only": "preserved_without_invented_body_or_roles",
+    "actual_title_plus_body": "preserved_without_invented_practical_information",
+    "mandatory_complex_guide_for_simple_copy": false,
+    "style_first_and_shared_good_layouts": "preserved",
+    "new_numerical_font_or_ratio_floors": false,
+    "new_qa_views_or_gates": false,
+    "new_environment_installation": false,
+    "new_reference_reopening_requirement": false,
+    "native_actual_font_file_application_claim": false,
+    "helper_or_existing_numeric_rules_changed": false,
+    "blocking_scope_risks": []
+  },
+  "interpretation_notes": [
+    "Apply optical body guidance only to actual supplied copy roles; existing contextual exceptions remain explicit.",
+    "Do not turn rejection of automatic proportional Title scaling into a ban on independently appropriate Title resizing.",
+    "Keep a chosen reading-situation design assumption distinct from actual observed final-image readability."
+  ],
+  "validation": {
+    "quick_validate_pass": "reported_by_coordinator",
+    "independently_rerun": false,
+    "reported_runtime": "TASK/evaluation/base/.venv/bin/python -B quick_validate.py",
+    "historical_missing_pyyaml_record": "read_as_past_record_and_preserved"
+  },
+  "quality_evidence": {
+    "new_visual_review": false,
+    "new_optical_measurement": false,
+    "first_generation_quality_improvement_established": false,
+    "font_file_or_unicode_certification": false
+  },
+  "actions": {
+    "live_edits": 0,
+    "draft_edits": 0,
+    "helper_or_case_edits": 0,
+    "r22_or_old_raw_edits": 0,
+    "adoption": 0,
+    "next_five_plan_or_generation": 0,
+    "native_calls": 0,
+    "renders": 0,
+    "environment_installation": 0,
+    "validation_reruns": 0,
+    "written_artifacts": [
+      "history/optical-body-scope-review/review.md",
+      "history/optical-body-scope-review/status.json"
+    ]
+  },
+  "decision": "No blocking scope expansion found; draft remains unadopted and visual-quality effect is not established."
+}

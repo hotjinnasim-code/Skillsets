@@ -1,0 +1,159 @@
+{
+  "status": "method_design_review_complete_no_rule_or_score_change",
+  "recorded_utc": "2026-10-08T22:27:53.103892+00:00",
+  "scope": "Factual optical-range-spacing review based on existing authored guide, frozen normalization and generic evaluation rules; not R22 score review",
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/coordinator/guides/R22-C1-M5/layout.spec.json",
+      "sha256": "663138f26d41427ead5eabed70b70318c4b5f196dd81b4001d2c4955252bf63d",
+      "bytes": 11949
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/coordinator/guides/R22-C1-M5/layout.manifest.json",
+      "sha256": "7eabea4ebb217c7241a2e2d231a2788b6f7f64c84a169d09577cc80840094095",
+      "bytes": 29943
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/coordinator/guides/R22-C1-M5/layout.png",
+      "sha256": "6d3b1c9659c3df8d4211eacd01cc83f47d023d69f73be0b08b01373bba08e3fe",
+      "bytes": 110084
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/snapshots/candidate-z/scripts/make_layout_guide.py",
+      "sha256": "00e21b3220d22f750fd2e142fd5d91d2c84bc2ace25e60ebaa1201b5449b4472",
+      "bytes": 29315
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+      "bytes": 38350
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495",
+      "bytes": 14119
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/critic_rubric.md",
+      "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c",
+      "bytes": 6580
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/snapshots/candidate-z/references/evaluation-loop.md",
+      "sha256": "91553006db6ed19d26bb0d75e7e0227d8285099a3c77909edb0b32eb45db950c",
+      "bytes": 20321
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/snapshots/candidate-z/references/production-brief.md",
+      "sha256": "35722c7e973787b0a0e2df9726308d8b03bfc434fd20b77899a6415f70d9bc6e",
+      "bytes": 18097
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/z-five-design/plan.json",
+      "sha256": "bd0639e3ebba20df6e2a4734a2aaf5a3e696605e6c525802ddc097e2a7a88c4d",
+      "bytes": 239223
+    }
+  ],
+  "guide_literal_checks": [
+    {
+      "literal": "2027.06.12–06.13",
+      "en_dash_codepoint": "U+2013",
+      "ascii_space_before_or_after_dash": false,
+      "spec_and_manifest_lines_equal_literal": true,
+      "font_record": {
+        "family": "AppleMyungjo",
+        "style": "Regular",
+        "size_px": 34,
+        "sha256_reported": "f2017df4b5dd45cd790567f318791045b0379f6fda6e0348997d36edfdbcc70c",
+        "layout_engine": "BASIC"
+      },
+      "whole_line_advance_px": 340.0
+    },
+    {
+      "literal": "토·일 11:00–19:00",
+      "en_dash_codepoint": "U+2013",
+      "ascii_space_before_or_after_dash": false,
+      "spec_and_manifest_lines_equal_literal": true,
+      "font_record": {
+        "family": "AppleMyungjo",
+        "style": "Regular",
+        "size_px": 34,
+        "sha256_reported": "f2017df4b5dd45cd790567f318791045b0379f6fda6e0348997d36edfdbcc70c",
+        "layout_engine": "BASIC"
+      },
+      "whole_line_advance_px": 350.0
+    }
+  ],
+  "guide_view": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/coordinator/guides/R22-C1-M5/layout.png",
+    "sha256": "6d3b1c9659c3df8d4211eacd01cc83f47d023d69f73be0b08b01373bba08e3fe",
+    "detail": "original",
+    "actually_viewed": true,
+    "kind": "already rendered own planning guide, not a native poster",
+    "observation": "Visible open ink spacing around the date/time range dash despite source strings having no U+0020 adjacent to U+2013; no quality score assigned"
+  },
+  "external_primary_source": {
+    "title": "OpenType hmtx — Horizontal Metrics Table",
+    "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/hmtx",
+    "read_scope": "Glyph advance width, side bearings and outline bounds are separate layout quantities; no AppleMyungjo-specific verification"
+  },
+  "factual_conclusion": {
+    "one_pinned_exact_literal_guide_demonstrates_visible_gap_without_literal_spaces": true,
+    "gap_alone_identifies_encoded_ascii_space": false,
+    "native_font_or_unicode_codepoint_proven_from_pixels": false,
+    "specific_sidebearing_allocation_remeasured": false,
+    "one_guide_establishes_every_native_result_is_faithful": false,
+    "existing_v1_exception_symbols": [
+      "U+00B7 middle dot",
+      "U+002F slash"
+    ],
+    "en_dash_optical_exception_in_current_v1": false,
+    "fixed_newlines_false_means_fixed_spacing_false": false
+  },
+  "recommendation": {
+    "current_r22": "Preserve the frozen strict nfc-ws-optical-v1, all raw transcriptions, comparisons, FAIL/low/NA judgments and selected-phase rules. No rescore, reinterpretation, recalculated equality or rerun.",
+    "prospective_general_scope": "A separately versioned, predeclared optical-range convention is defensible only for clearly declared numeric date/time range spans when the client has not fixed literal spacing. Visible range gap is a layout observation, not proof of an added ASCII-space codepoint.",
+    "minimal_form": "For declared numeric date/time range spans in kind=text only, treat optional spaces immediately adjacent to the same exact U+2013 as optical for normalized fidelity, preserving the raw read and layout observation. Do not generalize to all dashes or all punctuation.",
+    "preserve": [
+      "Same separator symbol class/order with uncertainty retained as ambiguity",
+      "All endpoint numerals and punctuation; no spaces inside date/time numeric tokens ignored",
+      "All meaningful word boundaries, including the weekday-to-hour boundary",
+      "URLs without any optical exception",
+      "Client-fixed spaces and line breaks; fixed_newlines:false alone gives no permission to ignore fixed spacing",
+      "Original raw_observed, required, normalized comparison, layout and ambiguity as separate fields",
+      "Seven numerical floors and all three diversity floors, all low/NA records and independent typography judgments"
+    ],
+    "not_permitted": [
+      "Unicode substitution or native font/codepoint certification from glyph appearance",
+      "Universal whitespace removal or automatic dash exceptions in prose, IDs, math, negative values or URLs",
+      "Applying a new rule to either R22 wave or changing an existing score",
+      "Treating normalized equality as a typography score floor waiver"
+    ],
+    "positive_design_guidance": "Keep the literal supplied numeric range and a clearly readable range separator; arrange endpoint spacing so the range reads as one useful group in the chosen regular numeral/type anatomy. Inspect letter and numeric rhythm as typography, not as evidence of a native font file.",
+    "numerical_floors_changed": false,
+    "quality_pass_implied": false,
+    "implementation_authorized_or_performed_by_this_review": false
+  },
+  "actions": {
+    "guide_images_viewed": 1,
+    "native_posters_viewed": 0,
+    "new_renders": 0,
+    "new_cases": 0,
+    "native_calls": 0,
+    "critics": 0,
+    "new_scores": 0,
+    "rescoring_or_old_raw_reinterpretation": 0,
+    "code_or_rule_changes": 0,
+    "child_agents": 0,
+    "git_actions": 0
+  },
+  "only_written_artifacts": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-optical-type-method-review/review.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-optical-type-method-review/status.json"
+  ],
+  "limits": [
+    "Only one already rendered own guide was visually inspected; no native image or critic raw was opened or rescored.",
+    "Manifest and renderer source support the guide input/output chain, not native applied fonts or Unicode encoding.",
+    "The current R22 strict convention remains applicable regardless of this future-method recommendation."
+  ]
+}

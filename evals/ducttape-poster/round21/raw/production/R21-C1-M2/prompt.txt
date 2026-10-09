@@ -1,0 +1,1386 @@
+You are one fresh, isolated ducttape-poster maker. Own exactly R21-C1-M2, one final independent poster.
+Your working/output directory is /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2. Do not spawn agents or create tasks. Do not read the full corpus, coordinator plans, other makers' directions/prompts/results, critic files, prior rounds, parent evaluation history or unrelated projects. Only read this job's pinned inputs and your own newly written evidence (plus the exact native source paths explicitly returned by your own tool). Never run another project executable or a wrapper/image-generation API, SDK, image CLI, credential/config/environment lookup. The only project helper you may execute is the pinned evidence_io.py below. Read-only access to exact pinned text and own-directory exclusive metadata writes/hash checks using the bundled Python are allowed. No Python/Pillow image or asset editing; the helper's QA-only reduction is the only pixel operation.
+
+First read these exact pinned inputs, applying the current SKILL and needed references. Read review_rules.md's native evidence/transcription contract. The evaluation reference does not authorize you to judge or inspect peers/critics:
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/case.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/assignment.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/agents/openai.yaml
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/art-direction.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/parallel-production.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/visual-research.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/evaluation-loop.md
+- /Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/review_rules.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/evidence_io.py
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/run_agent.py
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/capability-probe/result.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/prepare_production.py
+Read case.json and assignment.json. They contain the complete literal user input/common conditions and ONLY your assigned direction. Before designing, actually view every supplied image with tools.view_image through functions.exec, emitting it via image(...,'original'). Honor each supplied asset role and every requested identity/style/ratio/copy condition. Preserve reference geometry or measured_layout only when the user requests composition/position/proportion preservation; a style-only reference does not impose its coordinates. Old reference-poster copy is not new copy. All supplied images for this role are:
+[]
+
+COMPLETE ORIGINAL USER REQUEST (maker understanding and full verification context, not a compulsory native-prompt prefix):
+덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 각각 전체 스타일과 레이아웃이 달랐으면 좋겠어. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.
+
+집 안의 작은 숲
+LEAVES & LIVING
+초록을 고르고, 일상을 가꿉니다.
+작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.
+성수 주말 식물 마켓
+2027.06.12–06.13
+토·일 11:00–19:00
+성수 온실마당
+입장 무료 · 분갈이 시연
+식물 구매 시 관리 안내 제공
+편하게 들러 천천히 둘러보세요.
+leaves.example/market
+
+ALL LITERAL COPY ENTRIES (full verification context; initial native spec prints this copy once, preserving exact strings, kinds, word spaces, punctuation and fixed-newline rules):
+[
+  {
+    "text": "집 안의 작은 숲",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "LEAVES & LIVING",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "초록을 고르고, 일상을 가꿉니다.",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "성수 주말 식물 마켓",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "2027.06.12–06.13",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "토·일 11:00–19:00",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "성수 온실마당",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "입장 무료 · 분갈이 시연",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "식물 구매 시 관리 안내 제공",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "편하게 들러 천천히 둘러보세요.",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "leaves.example/market",
+    "kind": "url",
+    "fixed_newlines": false
+  }
+]
+
+COMMON USER CONDITIONS/STYLES/RATIOS (honor every applicable condition in the result; the role's ratio is "16:9"):
+{
+  "conditions": [
+    "Each copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.",
+    "Five independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.",
+    "Five genuinely distinct whole visual systems in spatial organization, image editing, type roles and reading routes, not different media over a common scaffold.",
+    "Substantive content-grounded nonglyph visuals express choosing and caring for living houseplants.",
+    "Full explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.",
+    "Exclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override."
+  ],
+  "styles": {
+    "mode": "open",
+    "invocation_interpretation": "Skill invocation is not a tape material requirement"
+  },
+  "ratios": [
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9"
+  ]
+}
+COMMON COORDINATOR CONSTRAINTS:
+[
+  "Each copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.",
+  "Five independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.",
+  "Five genuinely distinct whole visual systems in spatial organization, image editing, type roles and reading routes, not different media over a common scaffold.",
+  "Substantive content-grounded nonglyph visuals express choosing and caring for living houseplants.",
+  "Full explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.",
+  "Exclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override.",
+  "1600x900 is the authored neutral guide canvas, not a new client preservation or final pixel condition. Usage720 remains the same internal reading assumption.",
+  "All guide inputs are new own code/text/shapes. No prior poster, source artwork, bitmap input or manual final typography composition is used.",
+  "The installed Mac font paths/faces are explicit current-case planning choices. Native generation is not certified to apply those font bytes.",
+  "No character clipart, clay/toy package, passive black/gray information field, repeated big-object/title/tiny-footer scaffold or generic invitation separated from event purpose.",
+  "Every first encounter locally links identity or market to the supplied promise and useful visit participation. No fabricated new heading, bullet, pipe, arrow, label or plant tag.",
+  "Keep original en dashes, middle dots, ampersand, punctuation and spaces. Give dates, times and URL clear consistent numeral/Latin forms.",
+  "Substantive image geometry and full actual copy were authored together; material names or alternate first words do not establish whole-system diversity.",
+  "No new source-reading obligation, font installation, fixed five-style runtime menu, quality gate or expected score. Final posters require actual image observation later.",
+  "Latest human hierarchy instruction applies: actual Korean Title is immediately recognizable as the primary typographic anchor in all five; eyebrow, Latin companion, subtitle, bodycopy and practical/footer roles are explicit and harmonious. This current authoring choice does not make Title always the largest future runtime element irrespective of user instructions."
+]
+YOUR OWN DIRECTION, no peer plan:
+{
+  "role": "R21-C1-M2",
+  "ratio": "16:9",
+  "working_name_not_printed": "The market is a lively horizon of different plants",
+  "whole_relationship": "A dominant upper-left Title and nearby lower-weight schedule identify the market above a substantive full-width botanical horizon; below it, a two-line wide paragraph descends into two generous action rows.",
+  "positive_direction": "Retain the full-width market plant horizon, where distinct small pots, upright blades and branching established plants rise and fall across the actual table. One close supporting hand and planted soil detail express selection and care without a mascot or invented plant label. Printed color planes and observed contour density, not texture garnish, organize the major picture.\n\nGive the actual Korean Title a clearly dominant 80-pixel planning body in the same mature sans family used throughout. The smaller market eyebrow sits immediately above, Latin and the promise subtitle immediately below. Date/hours/venue form a nearby upper schedule cluster with plainly lower size and weight; the Title remains recognizable before any date. Use medium for prose and useful information, semibold for Title and subtitle, consistent glyph width, stable baselines and harmonious Korean/Latin/numeral optical size.\n\nThe substantive plant horizon leads down to the actual two-line wide paragraph. Its first sentence introduces the range, its second links the grower's story to choosing for home. Access/care and invitation/URL follow directly on that paragraph's left start in two generous rows. Keep these substantial readable elements rather than a tiny footer. Strong coral and ochre details, olive plant structure and crisp type make a deliberate graphic market poster, with no large right tree and upper-left prose scaffold.",
+  "hierarchy": {
+    "primary": {
+      "entry": 1,
+      "role": "Immediate recognizable Korean Title; dominant typography with sufficient relative scale, weight, contrast and space."
+    },
+    "support": [
+      {
+        "entry": 5,
+        "role": "Smaller market eyebrow locally identifying the Title's purpose."
+      },
+      {
+        "entry": 2,
+        "role": "Quieter English companion adjoining the Title."
+      },
+      {
+        "entry": 3,
+        "role": "Secondary promise subtitle leading into the full explanation."
+      }
+    ],
+    "explanation": {
+      "entries": [
+        4
+      ],
+      "shape": [
+        "작은 화분부터 오래 키운 나무까지 만납니다.",
+        "재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요."
+      ]
+    },
+    "visit": {
+      "entries": [
+        6,
+        7,
+        8
+      ],
+      "shape": "Coherent local visit group at visibly lower hierarchy than Title."
+    },
+    "next_action": {
+      "entries": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "shape": "Access/care and invitation/URL remain functionally adjacent and readable."
+    }
+  },
+  "body_line_groups": [
+    "작은 화분부터 오래 키운 나무까지 만납니다.",
+    "재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요."
+  ],
+  "body_end_to_next_info": "The dominant Title's promise connects through the market horizon to the wide two-line paragraph. Its final line leads directly down to access/care, then invitation/URL. The lower-weight nearby upper schedule is available in that same first market encounter.",
+  "nearest_peer": {
+    "role_id": "R21-C1-M1",
+    "structural_distinction": "M2's dominant image is a mid-height full-width horizon, with schedule above and prose/action below. M1 uses a full-height left encounter plus upper-right detail crop, with all useful prose/schedule/actions inside the right reading plane.",
+    "style_distinction": "M2 uses observed ink contours and controlled bold printed color planes; M1 uses camera-specific botanical surfaces and light."
+  },
+  "guide_geometry_concept": {
+    "status": "Authored neutral planning spec only; not rendered or generated",
+    "canvas": {
+      "width": 1600,
+      "height": 900,
+      "background": "#F2F1EE"
+    },
+    "image_geometry_concepts": [
+      {
+        "bounds": [
+          0,
+          272,
+          1600,
+          242
+        ],
+        "content": "A full-width rising/falling market-table plant horizon; many actual attached pots and leaf types organize this major image."
+      },
+      {
+        "bounds": [
+          1070,
+          344,
+          450,
+          156
+        ],
+        "content": "A closer pot rim and soil detail joins the horizon's right end; one cropped supporting hand makes the market selection/care relationship concrete."
+      }
+    ],
+    "text_regions": [
+      {
+        "entry": 5,
+        "copy": "성수 주말 식물 마켓",
+        "lines": [
+          "성수 주말 식물 마켓"
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 39,
+        "align": "left",
+        "line_spacing": 43,
+        "area": {
+          "width": 910,
+          "height": 44
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 4,
+          "size": 32
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 1,
+        "copy": "집 안의 작은 숲",
+        "lines": [
+          "집 안의 작은 숲"
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 91,
+        "align": "left",
+        "line_spacing": 108,
+        "area": {
+          "width": 910,
+          "height": 104
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 4,
+          "size": 80
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 2,
+        "copy": "LEAVES & LIVING",
+        "lines": [
+          "LEAVES & LIVING"
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 211,
+        "align": "left",
+        "line_spacing": 38,
+        "area": {
+          "width": 330,
+          "height": 42
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 28
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 3,
+        "copy": "초록을 고르고, 일상을 가꿉니다.",
+        "lines": [
+          "초록을 고르고, 일상을 가꿉니다."
+        ],
+        "fixed_newlines": false,
+        "x": 448,
+        "y": 211,
+        "align": "left",
+        "line_spacing": 46,
+        "area": {
+          "width": 530,
+          "height": 47
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 4,
+          "size": 34
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 4,
+        "copy": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+        "lines": [
+          "작은 화분부터 오래 키운 나무까지 만납니다.",
+          "재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요."
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 555,
+        "align": "left",
+        "line_spacing": 62,
+        "area": {
+          "width": 1472,
+          "height": 126
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 40
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 6,
+        "copy": "2027.06.12–06.13",
+        "lines": [
+          "2027.06.12–06.13"
+        ],
+        "fixed_newlines": false,
+        "x": 1060,
+        "y": 78,
+        "align": "left",
+        "line_spacing": 51,
+        "area": {
+          "width": 476,
+          "height": 53
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 38
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 7,
+        "copy": "토·일 11:00–19:00",
+        "lines": [
+          "토·일 11:00–19:00"
+        ],
+        "fixed_newlines": false,
+        "x": 1060,
+        "y": 140,
+        "align": "left",
+        "line_spacing": 49,
+        "area": {
+          "width": 476,
+          "height": 50
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 36
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 8,
+        "copy": "성수 온실마당",
+        "lines": [
+          "성수 온실마당"
+        ],
+        "fixed_newlines": false,
+        "x": 1060,
+        "y": 199,
+        "align": "left",
+        "line_spacing": 49,
+        "area": {
+          "width": 476,
+          "height": 50
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 36
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 9,
+        "copy": "입장 무료 · 분갈이 시연",
+        "lines": [
+          "입장 무료 · 분갈이 시연"
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 710,
+        "align": "left",
+        "line_spacing": 49,
+        "area": {
+          "width": 650,
+          "height": 50
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 36
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 10,
+        "copy": "식물 구매 시 관리 안내 제공",
+        "lines": [
+          "식물 구매 시 관리 안내 제공"
+        ],
+        "fixed_newlines": false,
+        "x": 830,
+        "y": 710,
+        "align": "left",
+        "line_spacing": 49,
+        "area": {
+          "width": 706,
+          "height": 50
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 36
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 11,
+        "copy": "편하게 들러 천천히 둘러보세요.",
+        "lines": [
+          "편하게 들러 천천히 둘러보세요."
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 773,
+        "align": "left",
+        "line_spacing": 46,
+        "area": {
+          "width": 750,
+          "height": 47
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 34
+        },
+        "color": "#202624"
+      },
+      {
+        "entry": 12,
+        "copy": "leaves.example/market",
+        "lines": [
+          "leaves.example/market"
+        ],
+        "fixed_newlines": false,
+        "x": 830,
+        "y": 773,
+        "align": "left",
+        "line_spacing": 43,
+        "area": {
+          "width": 706,
+          "height": 44
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 32
+        },
+        "color": "#202624"
+      }
+    ],
+    "shapes": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            464
+          ],
+          [
+            1600,
+            444
+          ],
+          [
+            1600,
+            514
+          ],
+          [
+            0,
+            512
+          ]
+        ],
+        "fill": "#B3B7AE"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            36,
+            410
+          ],
+          [
+            185,
+            408
+          ],
+          [
+            165,
+            501
+          ],
+          [
+            58,
+            503
+          ]
+        ],
+        "fill": "#949C8C"
+      },
+      {
+        "type": "ellipse",
+        "x": 20,
+        "y": 300,
+        "width": 190,
+        "height": 103,
+        "fill": "#BDC6B2"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            276,
+            412
+          ],
+          [
+            420,
+            401
+          ],
+          [
+            406,
+            496
+          ],
+          [
+            297,
+            501
+          ]
+        ],
+        "fill": "#A6AD9E"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            323,
+            409
+          ],
+          [
+            284,
+            280
+          ],
+          [
+            319,
+            309
+          ],
+          [
+            347,
+            408
+          ]
+        ],
+        "fill": "#899680"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            360,
+            408
+          ],
+          [
+            403,
+            280
+          ],
+          [
+            392,
+            335
+          ],
+          [
+            373,
+            408
+          ]
+        ],
+        "fill": "#A0AA95"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            505,
+            405
+          ],
+          [
+            675,
+            397
+          ],
+          [
+            651,
+            497
+          ],
+          [
+            531,
+            500
+          ]
+        ],
+        "fill": "#909A87"
+      },
+      {
+        "type": "ellipse",
+        "x": 477,
+        "y": 272,
+        "width": 217,
+        "height": 127,
+        "fill": "#B4BFAB"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            817,
+            407
+          ],
+          [
+            978,
+            400
+          ],
+          [
+            960,
+            491
+          ],
+          [
+            839,
+            494
+          ]
+        ],
+        "fill": "#AAB2A1"
+      },
+      {
+        "type": "ellipse",
+        "x": 760,
+        "y": 288,
+        "width": 251,
+        "height": 112,
+        "fill": "#8F9C83"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1100,
+            405
+          ],
+          [
+            1263,
+            399
+          ],
+          [
+            1246,
+            486
+          ],
+          [
+            1123,
+            490
+          ]
+        ],
+        "fill": "#969F8C"
+      },
+      {
+        "type": "ellipse",
+        "x": 1037,
+        "y": 277,
+        "width": 286,
+        "height": 117,
+        "fill": "#C0C8B6"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1400,
+            412
+          ],
+          [
+            1569,
+            404
+          ],
+          [
+            1546,
+            487
+          ],
+          [
+            1419,
+            490
+          ]
+        ],
+        "fill": "#A7AF9D"
+      },
+      {
+        "type": "ellipse",
+        "x": 1330,
+        "y": 305,
+        "width": 270,
+        "height": 93,
+        "fill": "#B7C0AC"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1270,
+            369
+          ],
+          [
+            1356,
+            369
+          ],
+          [
+            1431,
+            402
+          ],
+          [
+            1420,
+            434
+          ],
+          [
+            1350,
+            419
+          ],
+          [
+            1290,
+            398
+          ]
+        ],
+        "fill": "#C2C6B7"
+      }
+    ],
+    "limits": [
+      "1600x900 and installed-font anatomy are current planning choices, not new client pixel rules or final-font certification.",
+      "Neutral object and crop shapes denote substantive image structure. They are new own planning inputs, not final poster style or a borrowed raster.",
+      "No shape, stem, pot edge, divider or shadow mark is placed inside text or immediately beside glyphs; broad separate mass boundaries carry transitions.",
+      "Later native generation makes the complete final poster including all copy directly; no manual type overlay or bitmap final composition.",
+      "Coordinates and line counts may change where the actual result preserves conditions, meaningful reading and substantial whole-system distinction."
+    ]
+  },
+  "guide_spec": {
+    "canvas": {
+      "width": 1600,
+      "height": 900,
+      "background": "#F2F1EE"
+    },
+    "shapes": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            464
+          ],
+          [
+            1600,
+            444
+          ],
+          [
+            1600,
+            514
+          ],
+          [
+            0,
+            512
+          ]
+        ],
+        "fill": "#B3B7AE"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            36,
+            410
+          ],
+          [
+            185,
+            408
+          ],
+          [
+            165,
+            501
+          ],
+          [
+            58,
+            503
+          ]
+        ],
+        "fill": "#949C8C"
+      },
+      {
+        "type": "ellipse",
+        "x": 20,
+        "y": 300,
+        "width": 190,
+        "height": 103,
+        "fill": "#BDC6B2"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            276,
+            412
+          ],
+          [
+            420,
+            401
+          ],
+          [
+            406,
+            496
+          ],
+          [
+            297,
+            501
+          ]
+        ],
+        "fill": "#A6AD9E"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            323,
+            409
+          ],
+          [
+            284,
+            280
+          ],
+          [
+            319,
+            309
+          ],
+          [
+            347,
+            408
+          ]
+        ],
+        "fill": "#899680"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            360,
+            408
+          ],
+          [
+            403,
+            280
+          ],
+          [
+            392,
+            335
+          ],
+          [
+            373,
+            408
+          ]
+        ],
+        "fill": "#A0AA95"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            505,
+            405
+          ],
+          [
+            675,
+            397
+          ],
+          [
+            651,
+            497
+          ],
+          [
+            531,
+            500
+          ]
+        ],
+        "fill": "#909A87"
+      },
+      {
+        "type": "ellipse",
+        "x": 477,
+        "y": 272,
+        "width": 217,
+        "height": 127,
+        "fill": "#B4BFAB"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            817,
+            407
+          ],
+          [
+            978,
+            400
+          ],
+          [
+            960,
+            491
+          ],
+          [
+            839,
+            494
+          ]
+        ],
+        "fill": "#AAB2A1"
+      },
+      {
+        "type": "ellipse",
+        "x": 760,
+        "y": 288,
+        "width": 251,
+        "height": 112,
+        "fill": "#8F9C83"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1100,
+            405
+          ],
+          [
+            1263,
+            399
+          ],
+          [
+            1246,
+            486
+          ],
+          [
+            1123,
+            490
+          ]
+        ],
+        "fill": "#969F8C"
+      },
+      {
+        "type": "ellipse",
+        "x": 1037,
+        "y": 277,
+        "width": 286,
+        "height": 117,
+        "fill": "#C0C8B6"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1400,
+            412
+          ],
+          [
+            1569,
+            404
+          ],
+          [
+            1546,
+            487
+          ],
+          [
+            1419,
+            490
+          ]
+        ],
+        "fill": "#A7AF9D"
+      },
+      {
+        "type": "ellipse",
+        "x": 1330,
+        "y": 305,
+        "width": 270,
+        "height": 93,
+        "fill": "#B7C0AC"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1270,
+            369
+          ],
+          [
+            1356,
+            369
+          ],
+          [
+            1431,
+            402
+          ],
+          [
+            1420,
+            434
+          ],
+          [
+            1350,
+            419
+          ],
+          [
+            1290,
+            398
+          ]
+        ],
+        "fill": "#C2C6B7"
+      }
+    ],
+    "text_blocks": [
+      {
+        "copy": "성수 주말 식물 마켓",
+        "lines": [
+          "성수 주말 식물 마켓"
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 39,
+        "align": "left",
+        "line_spacing": 43,
+        "area": {
+          "width": 910,
+          "height": 44
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 4,
+          "size": 32
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "집 안의 작은 숲",
+        "lines": [
+          "집 안의 작은 숲"
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 91,
+        "align": "left",
+        "line_spacing": 108,
+        "area": {
+          "width": 910,
+          "height": 104
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 4,
+          "size": 80
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "LEAVES & LIVING",
+        "lines": [
+          "LEAVES & LIVING"
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 211,
+        "align": "left",
+        "line_spacing": 38,
+        "area": {
+          "width": 330,
+          "height": 42
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 28
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "초록을 고르고, 일상을 가꿉니다.",
+        "lines": [
+          "초록을 고르고, 일상을 가꿉니다."
+        ],
+        "fixed_newlines": false,
+        "x": 448,
+        "y": 211,
+        "align": "left",
+        "line_spacing": 46,
+        "area": {
+          "width": 530,
+          "height": 47
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 4,
+          "size": 34
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+        "lines": [
+          "작은 화분부터 오래 키운 나무까지 만납니다.",
+          "재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요."
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 555,
+        "align": "left",
+        "line_spacing": 62,
+        "area": {
+          "width": 1472,
+          "height": 126
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 40
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "2027.06.12–06.13",
+        "lines": [
+          "2027.06.12–06.13"
+        ],
+        "fixed_newlines": false,
+        "x": 1060,
+        "y": 78,
+        "align": "left",
+        "line_spacing": 51,
+        "area": {
+          "width": 476,
+          "height": 53
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 38
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "토·일 11:00–19:00",
+        "lines": [
+          "토·일 11:00–19:00"
+        ],
+        "fixed_newlines": false,
+        "x": 1060,
+        "y": 140,
+        "align": "left",
+        "line_spacing": 49,
+        "area": {
+          "width": 476,
+          "height": 50
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 36
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "성수 온실마당",
+        "lines": [
+          "성수 온실마당"
+        ],
+        "fixed_newlines": false,
+        "x": 1060,
+        "y": 199,
+        "align": "left",
+        "line_spacing": 49,
+        "area": {
+          "width": 476,
+          "height": 50
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 36
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "입장 무료 · 분갈이 시연",
+        "lines": [
+          "입장 무료 · 분갈이 시연"
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 710,
+        "align": "left",
+        "line_spacing": 49,
+        "area": {
+          "width": 650,
+          "height": 50
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 36
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "식물 구매 시 관리 안내 제공",
+        "lines": [
+          "식물 구매 시 관리 안내 제공"
+        ],
+        "fixed_newlines": false,
+        "x": 830,
+        "y": 710,
+        "align": "left",
+        "line_spacing": 49,
+        "area": {
+          "width": 706,
+          "height": 50
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 36
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "편하게 들러 천천히 둘러보세요.",
+        "lines": [
+          "편하게 들러 천천히 둘러보세요."
+        ],
+        "fixed_newlines": false,
+        "x": 64,
+        "y": 773,
+        "align": "left",
+        "line_spacing": 46,
+        "area": {
+          "width": 750,
+          "height": 47
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 34
+        },
+        "color": "#202624"
+      },
+      {
+        "copy": "leaves.example/market",
+        "lines": [
+          "leaves.example/market"
+        ],
+        "fixed_newlines": false,
+        "x": 830,
+        "y": 773,
+        "align": "left",
+        "line_spacing": 43,
+        "area": {
+          "width": 706,
+          "height": 44
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 32
+        },
+        "color": "#202624"
+      }
+    ]
+  },
+  "text_role_map": {
+    "eyebrow": [
+      5
+    ],
+    "Title": [
+      1
+    ],
+    "English_companion": [
+      2
+    ],
+    "Subtitle": [
+      3
+    ],
+    "bodycopy": [
+      4
+    ],
+    "footer_visit": [
+      6,
+      7,
+      8
+    ],
+    "footer_participation": [
+      9,
+      10
+    ],
+    "footer_next_action": [
+      11,
+      12
+    ]
+  },
+  "font_system": {
+    "families": [
+      "Apple SD Gothic Neo"
+    ],
+    "relation": "One consistent sans system, or a deliberate mature serif Title/body with one consistent compatible sans reading system. No unrelated font mixing.",
+    "anatomy": "Open Korean counters, stable syllable proportions, controlled stroke contrast, medium reading strokes, consistent baseline and language-specific optical scale.",
+    "weights": "Semibold marks the dominant sans Title or the much smaller supporting eyebrow/subtitle; medium supplies prose and useful lines. Serif Title uses greater body and coherent contrast rather than extra competing fonts.",
+    "limits": "Installed-font bytes describe the neutral guide only. Future native output must realize harmonious glyph anatomy; this is not font-file certification or a universal font menu."
+  },
+  "guide": {
+    "png_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/guides/layout.png",
+    "role": "New coordinator-owned actual-copy/font and content geometry planning diagram; not a client asset, final neutral style, protected coordinates or native font-file-application proof"
+  }
+}
+
+Keep the complete request and verification record separate from a focused native production spec. Apply the skill's native-input boundary: exact printed copy once in the initial spec, all relevant client constraints, and your chosen concrete whole visual design. Do not mechanically prepend the request, copy JSON, plan JSON, rubric, or reference commentary to the tool prompt. Repairs state the observed change and protected relationships; retain any exact text needed for that edit and verify the entire copy after return. Do not drop necessary constraints to shorten a prompt.
+
+Native generation ONLY: tools.image_gen__imagegen via functions.exec, exactly one single flat opaque poster per call, transparent_background:false, assigned width:height ratio. No multi-poster comparison panels, contact sheet, mockup or extra experiment image. A single finished poster may contain legitimate content-based image sequences or information modules as its chosen layout. For this aspect-only case, include: "요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력". Explicit user pixel dimensions or lower-resolution requests take precedence; for those requests use the specified output size instead. This is a request, not proof of maximum output; measure the returned native dimensions.
+The predeclared ratio policy permits nearest-integer native rounding of one edge, <=0.5 pixel from the exact requested ratio on one dimension. Report actual dimensions, never resize or claim mathematically exact ratio, and do not spend a repair only on permitted rounding. Materially wrong aspect ratio still needs correction. This tolerance never overrides an explicit pixel-size request.
+One initial attempt plus at most TWO own repairs, including actual failed native attempts: at most three native invocations for this role/candidate, named initial, repair-1, repair-2 in that order. A new role name or regeneration does not reset the budget. Correct only your own actually inspected defects while retaining the specified genre and user constraints. Do not claim quality PASS or assign scores from self-inspection. Do not seek or receive external critic scores before exclusive selection closure.
+
+BEFORE EACH invocation, exclusively create stages/STAGE/call-input.json containing the COMPLETE EXACT JSON argument object that will be passed to tools.image_gen__imagegen (do not add metadata-only arguments). Separately exclusively create pre-call.json with role, stage, prepared_at_utc, native_tool, complete planned argument/input hash pins, supplied reference pins, own observed repair cause/maintained features, and attempt number. Save both before starting; do not retrofit them after a return. Keep the identical argument object in runtime store for the native invocation. Fresh initial without supplied references omits BOTH referenced_image_paths and num_last_images_to_include. With supplied assets, actually pass ALL required local asset paths using referenced_image_paths; omit num_last_images_to_include. For a bounded repair with a previous returned inspected own image, pass that exact own target and all required client assets using referenced_image_paths, never a peer result. If the immediate prior attempt failed, use the last actually returned inspected own target if any; otherwise make a fresh bounded retry with required client assets and no invented repair target. Preserve immediate-attempt failure evidence and record the actual target stage separately when it differs. Never guess a newer file or use directory newest-file scanning.
+
+The native functions.exec cell starts with exactly this directive:
+// @exec: {"yield_time_ms":120000,"max_output_tokens":1000}
+Before awaiting tools.image_gen__imagegen, store/emit the actual caller UTC start and role/stage. Emit meaningful native-wait status at intervals <=45 seconds via notify()/setTimeout while awaiting (no invented model percentage). Clear the timer on return/failure. Record actual caller UTC end and whether the invocation returned or failed; preserve explicit returned path/result hints and real error metadata separately in stages/STAGE/native-call.json after return. Its wrapper interval describes the awaited native call, not helper runtime or model internals. Do not print/notify raw result/base64; retain needed result metadata in runtime store and display the generated image with generatedImage(result) as supported. Never infer source paths or generation times from filenames/helper saved_at. When yielded, resume only that exec cell, without submitting the image call again.
+
+For every returned PNG, obtain its exact absolute source path from the actual tool return, then execute the pinned helper with safely quoted exact paths:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/evidence_io.py' save-native --role R21-C1-M2 --stage STAGE --source EXACT_RETURNED_ABSOLUTE_PATH --role-dir '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2'
+Replace only STAGE/EXACT_RETURNED_ABSOLUTE_PATH with actual values. The helper saves byte-identical original.png/final.png, QA views and manifest.json. It does NOT edit typography, materials, crop or assets. If the returned source path is unavailable or preservation fails, preserve the actual error/tool evidence and report the unsealable return honestly; do not invent an image path or relabel a returned image as a failed native call. Stop for root handling rather than claiming a selectable asset.
+
+ACTUALLY inspect EVERY returned stage before deciding another native invocation, in this exact order: original.png at native detail, usage-720.png, thumbnail-320.png. For native display use:
+const v = await tools.view_image({path: exactOriginalPath, detail:'original'}); image(v.image_url,'original');
+Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS.
+
+Every returned repair needs exclusive parent-comparison.json: role, stage, parent_stage, parent_outcome:'returned'|'failure', the immediate parent's exact parent_manifest_sha256 and parent_native_sha256 OR parent_failure_sha256, changes:[], residuals:[]. Compare actually viewed returned stages, preserving earlier advantages; a failure parent has no visual comparison. Prefer the most suitable inspected result, not automatically the latest; preserve ALL returned originals, failures and unselected stages.
+For each actual failed native invocation, write failure.json with role, stage, outcome:'failure', native_call_count:1, error:the actual recorded error. Preserve its pre-call/input/native-call evidence. Failures count in the three-attempt cap; no placeholder images or false inspection.
+
+When one or more inspected native outcomes exist, choose the most suitable returned stage and execute only:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/evidence_io.py' finalize --role-dir '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2' --selected-stage CHOSEN_STAGE
+Replace CHOSEN_STAGE with initial, repair-1 or repair-2. selection.json is exclusive and immutable before any critics. Do not alter stage inputs, images, observations, selected pins or selection after closure. The helper rejects missing/out-of-order outcomes and nonexistent comparisons. Do not also create unavailable.json.
+ONLY when all THREE actual attempts failed, do not call finalize or fabricate selection.json. Exclusively write unavailable.json with schema_version:1, kind:'role_unavailable', case_id, role, outcome:'unavailable', closed:true, reason:actual failure explanation, counts:{native_calls:3,returned:0,failed:3,repair_calls:2}, stages:[{stage,outcome:'failure',failure:{path,sha256},input_pins:{call_input:{path,sha256},pre_call:{path,sha256}},native_call:{path,sha256}}] for all three preserved actual stages. selection.json and unavailable.json may NEVER coexist. Any interruption or returned-but-unsealable outcome is explicitly incomplete, not an invented all-failed terminal record.
+
+Return a compact account of the true terminal path, selected native dimensions if any, actual call/repair/failure counts, and concrete unresolved limits. No quality score, universal guarantee or extra image generation.
+
+CURRENT FIRST-GENERATION DESIGN INPUTS: read /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/production-brief.md, /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/design-grammar.md, /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/layout-guide.md and /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/snapshots/candidate-y/references/layout-guide-contract.md. Use the accumulated design ideas; no mandatory original-artwork re-opening, fresh browsing or full catalog read.
+OWN AUTHORED SUPPORTING GUIDE: actually view /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/guides/layout.png at original detail, and read /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/guides/layout.spec.json and /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/guides/layout.manifest.json. It is a new actual-font/copy and content-geometry planning diagram, not a client image asset or fixed layout condition. The case assets remain empty. Neutral figures and gray planes convey scale, support, crop, contact and readable copy clearance. Create the assigned real photographic/graphic/painted/drawn scene, mature flat type, material/color/finish and substantive content relationship. Do not turn the neutral sketch into the final passive pale information field or soft blob clipart. The actual-font anatomy is a reference; no final font-file application is asserted. You may interpret geometry while retaining the chosen whole relationship, meaningful line groups and the body-to-information route.
+BEFORE THE FIRST NATIVE CALL: own supporting PNG must actually be viewed. Because this job supplies this local planning image, include its absolute path in referenced_image_paths, omitting num_last_images_to_include. This is the supplied-reference branch of the earlier contract; the initial is not reference-free. Record the exact supporting guide pin and its layout/type role in pre-call.json. For repairs include the exact inspected previous own native target plus this same own guide and all required client assets if any (none here). No peer guide or poster inputs, no renderer/font edits, and no extra experiments. Execute only the pinned evidence helper. The native brief contains the exact printed copy once and a concrete current content/image/type design, not plan/spec JSON or evaluation instructions.

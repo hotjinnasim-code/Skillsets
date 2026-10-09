@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "role": "R19-C1-M3",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "e0cc56b8c0b96fa87b62e01663bfbe5d762e8e64f287fa8bc336c840bcb4d575",
+  "parent_native_sha256": "dcab472eada4f8665eace42d83e74c24be1aea6f5a392b392ff0f283d1abfcaa",
+  "comparison_views": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "changes": [
+    {
+      "view": "usage720",
+      "location": "lower-left identity",
+      "observed_change": "Korean title is substantially smaller and lighter, so the upper date now clearly outranks it. Latin companion remains immediately beside the two-line identity."
+    },
+    {
+      "view": "usage720",
+      "location": "left body and right action",
+      "observed_change": "Larger letters, wider cavities and slightly lower action placement improve readable word shapes and keep the five-line explanation and four-line action intact."
+    },
+    {
+      "view": "native",
+      "location": "center stem and lower foliage",
+      "observed_change": "The short stem boundary shifts right; lower leaves and title cavity reshape locally. The interlocking plant colony, pot contacts, palette and cut finish remain coherent."
+    },
+    {
+      "view": "native",
+      "location": "upper visit cluster",
+      "observed_change": "Date position and scale remain near the initial; smaller event/hours/venue lettering becomes slightly larger. Exact text remains unchanged."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole field",
+      "observed_change": "Plants retain the same dominant surrounding rhythm while the lower identity becomes subordinate."
+    },
+    {
+      "view": "native and usage720",
+      "location": "all twelve entries",
+      "observed_change": "All twelve first-read transcriptions compare equally under the predeclared rule in both stages; no additional print was observed."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "usage720",
+      "location": "left paragraph ending to right action beginning",
+      "observation": "The last paragraph line is below the first access line. The adjacent group is easy to find across the short stem boundary, but the handoff requires a slight upward reading turn rather than a shared level ledge."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "paragraph and action copy",
+      "observation": "Detailed prose and care information require the 720-wide/native views; the thumbnail chiefly communicates date and plant community."
+    },
+    {
+      "view": "native",
+      "location": "raster typography",
+      "observation": "Visual reading cannot certify the applied font file or original Unicode code points; no unresolved visual glyph ambiguity was observed."
+    }
+  ],
+  "selection_reason": "Repair-1 more clearly fulfills the date-led hierarchy and comfortable body reading while retaining the original visual system."
+}

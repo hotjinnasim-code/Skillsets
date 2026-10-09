@@ -1,0 +1,1594 @@
+{
+  "schema_version": 1,
+  "case_id": "R7-B07",
+  "wave": "initial",
+  "profile": "craft",
+  "session_id": null,
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "viewed_count": 9,
+    "order_compliant": true,
+    "method": "In this fresh independent turn I read only the explicitly pinned inputs and verified their byte hashes. I read all three pinned native-evidence manifests without following embedded paths. packet.source_assets and packet.protected_layouts were both empty. I then called view_image through functions.exec with detail=original and displayed each returned exact image via image(), one at a time, in this order: M1 native, usage720, thumbnail320; M2 native, usage720, thumbnail320; M3 native, usage720, thumbnail320. All nine views were actually visible before I recorded any first transcription judgment or score. After those nine views I retained first raw reads in memory, recorded date/time dash-class uncertainties, and revisited each exact native asset once to resolve those uncertainties. No new asset, crop, regeneration, peer review or inferred maker scene was used. The nine ordered initial views are listed in viewed; the three ambiguity revisits are separately retained below. Native dimensions were read from PNG IHDR. An optional PIL diagnostic was unavailable; a read-only Python standard-library PNG decode later produced the disclosed RGB statistics. Visual monochrome fidelity is assessed from the displayed posters, without claiming exact RGB channel neutrality. No runner trace or session ID was inspected or invented.",
+    "source_assets_viewed": [],
+    "protected_layouts_read": [],
+    "manifest_pins_read": [
+      {
+        "image_id": "R7-B07-M1",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/manifest.json",
+        "sha256": "e9f5651fa6eb2360fcb36d4bf7c4c6b92e6f2fff82a1f57c83e006a2a37d7039",
+        "bytes": 2644
+      },
+      {
+        "image_id": "R7-B07-M2",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/manifest.json",
+        "sha256": "39445c2f0f63d644945f1acfe57b8f57409f1ef84a2ccd10a0efa060767e3d56",
+        "bytes": 2642
+      },
+      {
+        "image_id": "R7-B07-M3",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/manifest.json",
+        "sha256": "14e70cdd67fa5a154a1787ade20da221230185856c3b0913916d8f5ca7323667",
+        "bytes": 2642
+      }
+    ],
+    "ambiguity_revisits": [
+      {
+        "image_id": "R7-B07-M1",
+        "view": "native",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/original.png",
+        "sha256": "ff929dbc8f73c98412dac7db0deea1b1e7bbb168f4e2846e84d71cb4bfc98cd6",
+        "trigger_copy_indices": [
+          2,
+          4
+        ],
+        "actual_revisit_count": 1
+      },
+      {
+        "image_id": "R7-B07-M2",
+        "view": "native",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/original.png",
+        "sha256": "06c899df1fb3b6547da43a9e24ad5cce58e6127d754a81e2dd21a626672dcc08",
+        "trigger_copy_indices": [
+          2,
+          4
+        ],
+        "actual_revisit_count": 1
+      },
+      {
+        "image_id": "R7-B07-M3",
+        "view": "native",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/original.png",
+        "sha256": "69bdbb8945091475211b81a10589f5a357620191ddd4938296bb816bb3bdb376",
+        "trigger_copy_indices": [
+          2,
+          4
+        ],
+        "actual_revisit_count": 1
+      }
+    ],
+    "limits": [
+      "Source-asset and protected-layout fidelity comparisons are not applicable because neither was supplied.",
+      "Semantic viewing/order is my attestation; actual CLI freshness and trace identity belong to the runner.",
+      "RGB deviations are factual material diagnostics; visual monochrome does not assert bit-exact grayscale."
+    ]
+  },
+  "viewed": [
+    {
+      "image_id": "R7-B07-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/original.png",
+      "sha256": "ff929dbc8f73c98412dac7db0deea1b1e7bbb168f4e2846e84d71cb4bfc98cd6"
+    },
+    {
+      "image_id": "R7-B07-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/usage-720.png",
+      "sha256": "0856668907331796c9cc6bd3b17fe713336a7bec48f58946b253bd3689756349"
+    },
+    {
+      "image_id": "R7-B07-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/thumbnail-320.png",
+      "sha256": "68c5815dc6ddae5dc196dac6bb9175e1cee9c071500ee34a15a94493a45cd041"
+    },
+    {
+      "image_id": "R7-B07-M2",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/original.png",
+      "sha256": "06c899df1fb3b6547da43a9e24ad5cce58e6127d754a81e2dd21a626672dcc08"
+    },
+    {
+      "image_id": "R7-B07-M2",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/usage-720.png",
+      "sha256": "57b3f9d95e0403a05716cce39a1675ddaa668e36682720e9bed1b12552370814"
+    },
+    {
+      "image_id": "R7-B07-M2",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/thumbnail-320.png",
+      "sha256": "6dc236ace0bdbb6faa4ef53e9a5b217e7b38c6d997f4d6e9b2d9648001c42add"
+    },
+    {
+      "image_id": "R7-B07-M3",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/original.png",
+      "sha256": "69bdbb8945091475211b81a10589f5a357620191ddd4938296bb816bb3bdb376"
+    },
+    {
+      "image_id": "R7-B07-M3",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/usage-720.png",
+      "sha256": "53f0a5fa35af435793236bb2c9b0300762623cf62948797faea4bd8f09443822"
+    },
+    {
+      "image_id": "R7-B07-M3",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/thumbnail-320.png",
+      "sha256": "73f9290b32fa4dacd249fe02fea00d1e3ccf9ac5ac5a4cfc2b85e3acbb39739c"
+    }
+  ],
+  "images": {
+    "R7-B07-M1": {
+      "image_id": "R7-B07-M1",
+      "role": "R7-B07-M1",
+      "stage": "initial",
+      "case_id": "R7-B07",
+      "profile": "craft",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [
+            {
+              "copy_index": 2,
+              "description": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "resolved": true
+            },
+            {
+              "copy_index": 4,
+              "description": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "resolved": true
+            }
+          ],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "손이 기억하는 물건",
+              "raw_observed": "손이 기억하는\n물건",
+              "normalized_required": "손이 기억하는 물건",
+              "normalized_observed": "손이 기억하는 물건",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, left of the lock: title wraps after 기억하는; 물건 is the complete second line. fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "열쇠와 손잡이의 생활사",
+              "raw_observed": "열쇠와 손잡이의 생활사",
+              "normalized_required": "열쇠와 손잡이의 생활사",
+              "normalized_observed": "열쇠와 손잡이의 생활사",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, directly below the title: subtitle is a single line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "2026.12.08–2027.02.14",
+              "raw_observed": "2026.12.08–2027.02.14",
+              "normalized_required": "2026.12.08–2027.02.14",
+              "normalized_observed": "2026.12.08–2027.02.14",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, lower-left information block: the full date range is one line. Range punctuation is recorded separately from visual gaps."
+              },
+              "ambiguity": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "revisit": {
+                "view": "native",
+                "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/original.png",
+                "sha256": "ff929dbc8f73c98412dac7db0deea1b1e7bbb168f4e2846e84d71cb4bfc98cd6",
+                "raw_observed": "2026.12.08–2027.02.14",
+                "resolution": "At the one exact native revisit, the range bars read as longer en dashes (–), visibly longer than the short hyphen in hand-memory. The initial en-dash reading is confirmed; no punctuation-class substitution is applied.",
+                "resolved": true,
+                "reason": "Resolve a genuine dash-class uncertainty after all nine initial views, using the same pinned native asset once."
+              }
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "생활기억박물관 작은전시실",
+              "raw_observed": "생활기억박물관 작은전시실",
+              "normalized_required": "생활기억박물관 작은전시실",
+              "normalized_observed": "생활기억박물관 작은전시실",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, below the date: venue is one line, with its word space retained."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "화–일 10:00–18:00 / 월요일 휴관",
+              "raw_observed": "화–일 10:00–18:00 / 월요일 휴관",
+              "normalized_required": "화–일 10:00–18:00/월요일 휴관",
+              "normalized_observed": "화–일 10:00–18:00/월요일 휴관",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, below venue: hours and closure occupy one line; optical gaps around the slash do not indicate omitted glyphs."
+              },
+              "ambiguity": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "revisit": {
+                "view": "native",
+                "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/original.png",
+                "sha256": "ff929dbc8f73c98412dac7db0deea1b1e7bbb168f4e2846e84d71cb4bfc98cd6",
+                "raw_observed": "화–일 10:00–18:00 / 월요일 휴관",
+                "resolution": "At the one exact native revisit, the range bars read as longer en dashes (–), visibly longer than the short hyphen in hand-memory. The initial en-dash reading is confirmed; no punctuation-class substitution is applied.",
+                "resolved": true,
+                "reason": "Resolve a genuine dash-class uncertainty after all nine initial views, using the same pinned native asset once."
+              }
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "관람료 무료",
+              "raw_observed": "관람료 무료",
+              "normalized_required": "관람료 무료",
+              "normalized_observed": "관람료 무료",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, immediately below hours: admission is one line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "전시 안내 example.org/hand-memory",
+              "raw_observed": "전시 안내\nexample.org/hand-memory",
+              "normalized_required": "전시 안내 example.org/hand-memory",
+              "normalized_observed": "전시 안내 example.org/hand-memory",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, bottom-left: 전시 안내 is on the first line and example.org/hand-memory on the second. This is soft wrapping; the URL itself is contiguous."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\n\nLiteral client styles:\n{\"mode\": \"explicit monochrome\", \"colour\": \"흑백만\", \"allowed_media\": [\"사진\", \"그래픽\"]}\n\nLiteral mandatory client conditions:\n생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.\n오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.\n열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.\n이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.\n으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.\n아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster and its object/contact details",
+              "observation": "The artifact reads as a monochrome small museum exhibition poster. The large used lever and engaged key show substantive physical relation and wear. The complete required copy is present, with no legible invented labels, logos, sponsors or historical claims. All literal conditions are separately covered in conditions; the style gate rolls them up."
+            },
+            {
+              "view": "usage720",
+              "location": "Overall palette and everyday door scene",
+              "observation": "All three inspected scales read as black, white and gray photographic material with no separately readable color accent. Small native RGB deviations are disclosed separately; exact channel neutrality is not claimed."
+            },
+            {
+              "view": "native",
+              "location": "Upper-middle lever and lower-right inserted key",
+              "observation": "The lever spans most of the poster width, and a substantial scratched key head is shown engaged with the lock below it. Wear, contact surface and their physical door relationship are the central nonglyph content."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Whole poster",
+              "observation": "The nonglyph object relationship remains substantial at thumbnail scale, and the presentation retains an ordinary museum-exhibition tone rather than crime or antique retail."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "required_ratio": [
+            2,
+            3
+          ],
+          "rounding_policy": "nearest-integer-single-edge",
+          "exact": true,
+          "integer_rounding_used": false,
+          "calculation": "1024*3 = 1536*2 = 3072. Both single-edge deviations are zero. No requested pixel dimensions or resizing claim.",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Upper-middle lever and lower-right inserted key",
+              "observation": "The lever spans most of the poster width, and a substantial scratched key head is shown engaged with the lock below it. Wear, contact surface and their physical door relationship are the central nonglyph content."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Upper-middle lever and lower-right inserted key",
+              "observation": "The lever spans most of the poster width, and a substantial scratched key head is shown engaged with the lock below it. Wear, contact surface and their physical door relationship are the central nonglyph content."
+            }
+          ],
+          "issues": []
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "Lever across the upper-middle and inserted key at lower-right",
+            "observation": "A rubbed metal lever is mounted above an actual key inserted into the door lock. The scratched key head and abraded gripping surface visibly connect the two everyday objects to prolonged handling."
+          },
+          {
+            "view": "usage720",
+            "location": "Whole door and its two mounted fittings",
+            "observation": "The objects remain large and connected by the same visible door; their relationship supplies the visual subject rather than an isolated key icon or decorative type."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "native",
+            "location": "Lever, two-line title at left, then lower-left information",
+            "observation": "The large lever leads into a heavy title; the smaller subtitle, date, venue, hours, admission and web address follow in distinct groups without crossing the key."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Whole poster",
+            "observation": "The lever and title still dominate, the key remains identifiable, and the information forms a subordinate block. Fine footer copy becomes small at this scale."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "Title at approximately y610–810 and copy below",
+            "observation": "Hangul forms are complete and consistent. The title breaks after 기억하는, with 물건 intact; the subtitle uses a lighter, smaller level and body copy retains the required words and punctuation."
+          },
+          {
+            "view": "usage720",
+            "location": "Lower-left details and two-line web entry",
+            "observation": "Black type remains readable on the light door. 전시 안내 and the contiguous URL occupy separate lines; the break is permitted soft wrapping, not a damaged URL."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "Left copy column and right lock/door seam",
+            "observation": "The typography occupies the flat left door area while hardware occupies the right, creating a usable separation without covering the inserted key."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Upper door area, central hardware and lower-left copy",
+            "observation": "The upper painted panel supplies substantial quiet space and door context. The layout is balanced by the large horizontal lever, though this broad upper area makes the image less compact than M3."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "Lever gripping face and circular mounting plate",
+            "observation": "Directional scratches, a rubbed highlight, circular machining marks and contact shadows coherently describe used metal against painted wood."
+          },
+          {
+            "view": "native",
+            "location": "Key head and lock at lower-right",
+            "observation": "The key head has abrasion and a visible beveled hole; its shaft enters the slot, and the lock sits against the same door with a consistent shadow. Most of the working blade is naturally concealed."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "Light painted door and worn hardware",
+            "observation": "Bright, ordinary domestic surfaces and visible use communicate familiarity and accumulated handling rather than threat or a precious antique display."
+          },
+          {
+            "view": "native",
+            "location": "Title and museum information over the door",
+            "observation": "Plain exhibition information, neutral lighting and the absence of sales language support the requested small life-history museum setting; no crime-story device or sinister scene is visible."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "Mounted lever, lock and key",
+            "observation": "The fittings are mechanically legible and their outlines and placement agree with a door. There are no arbitrary floating objects, added badges, invented inventory labels or decorative symbols competing with the subject."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Whole composition",
+            "observation": "The actual hardware remains the main non-glyph content; the layout does not depend on texture alone or a token ornament. The conventional sans-serif treatment is resolved rather than exceptionally distinctive."
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "This is one of the exact three separate poster members; museum name, room and exhibition information are present."
+            }
+          ]
+        },
+        {
+          "requirement": "모두 세로 2:3입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "PNG IHDR is 1024×1536; 1024×3 equals 1536×2, so portrait 2:3 is exact."
+            }
+          ]
+        },
+        {
+          "requirement": "흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "All three inspected scales read as black, white and gray photographic material with no separately readable color accent. Small native RGB deviations are disclosed separately; exact channel neutrality is not claimed."
+            }
+          ]
+        },
+        {
+          "requirement": "오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The worn lever and inserted, scratched key are substantial subjects on an ordinary door."
+            }
+          ]
+        },
+        {
+          "requirement": "열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Abrasion is visible on the key head and along the lever area where a hand grips."
+            }
+          ]
+        },
+        {
+          "requirement": "이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "A large mounted lever above an engaged key shows the objects in an actual functional relation, rather than text, empty space or a tiny symbol."
+            }
+          ]
+        },
+        {
+          "requirement": "으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The light domestic door and neutral presentation read as everyday life-history material, with no threatening action or sales display."
+            }
+          ]
+        },
+        {
+          "requirement": "아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "All seven supplied entries compare equal under the declared normalization; no invented artifact number or date is legibly present."
+            }
+          ]
+        },
+        {
+          "requirement": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "One flat opaque poster is shown, with all copy, at exact portrait 2:3."
+            }
+          ]
+        },
+        {
+          "requirement": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The complete required text is visible; no additional legible logo, sponsor or label is observed."
+            }
+          ]
+        },
+        {
+          "requirement": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Large nonglyph door hardware carries the content independently of the typography."
+            }
+          ]
+        }
+      ],
+      "colour_diagnostic": {
+        "view": "native",
+        "method": "Read-only standard-library PNG IDAT decode and filter reconstruction; all natives are 8-bit RGB PNG colour type 2, with no alpha channel.",
+        "assessment": "Visually monochrome in the three displayed views; numerical RGB neutrality is not asserted.",
+        "mean_rgb": [
+          165.362,
+          164.805,
+          164.439
+        ],
+        "mean_channel_spread": 1.622,
+        "maximum_channel_spread": 28,
+        "percentage_spread_gt_10": 0.809,
+        "percentage_spread_gt_20": 0.006,
+        "peak_xy": [
+          753,
+          904
+        ],
+        "peak_rgb": [
+          88,
+          78,
+          60
+        ]
+      },
+      "residuals": [
+        "The key head communicates wear more strongly than its inserted blade, which is largely hidden by the lock.",
+        "The upper door area is generous, and the contact-surface argument is less concentrated than the paired macros in M3.",
+        "Small supporting copy is no longer comfortably readable in the 320-pixel thumbnail; title and objects survive.",
+        "The native is visually monochrome, but not mathematically neutral RGB: mean channel spread 1.622/255, maximum 28/255 at native (753,904), RGB (88,78,60), inside the dark keyhole. This trace chroma is retained as a material limit, not an exact-grayscale claim."
+      ]
+    },
+    "R7-B07-M2": {
+      "image_id": "R7-B07-M2",
+      "role": "R7-B07-M2",
+      "stage": "initial",
+      "case_id": "R7-B07",
+      "profile": "craft",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [
+            {
+              "copy_index": 2,
+              "description": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "resolved": true
+            },
+            {
+              "copy_index": 4,
+              "description": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "resolved": true
+            }
+          ],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "손이 기억하는 물건",
+              "raw_observed": "손이 기억하는\n물건",
+              "normalized_required": "손이 기억하는 물건",
+              "normalized_observed": "손이 기억하는 물건",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, middle-left: title wraps after 기억하는, followed by 물건; the break is not fixed by the client."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "열쇠와 손잡이의 생활사",
+              "raw_observed": "열쇠와 손잡이의 생활사",
+              "normalized_required": "열쇠와 손잡이의 생활사",
+              "normalized_observed": "열쇠와 손잡이의 생활사",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, below the title: the subtitle is one complete line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "2026.12.08–2027.02.14",
+              "raw_observed": "2026.12.08–2027.02.14",
+              "normalized_required": "2026.12.08–2027.02.14",
+              "normalized_observed": "2026.12.08–2027.02.14",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, below subtitle: date is one condensed bold line ending before the lock illustration."
+              },
+              "ambiguity": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "revisit": {
+                "view": "native",
+                "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/original.png",
+                "sha256": "06c899df1fb3b6547da43a9e24ad5cce58e6127d754a81e2dd21a626672dcc08",
+                "raw_observed": "2026.12.08–2027.02.14",
+                "resolution": "At the one exact native revisit, the range bars read as longer en dashes (–), visibly longer than the short hyphen in hand-memory. The initial en-dash reading is confirmed; no punctuation-class substitution is applied.",
+                "resolved": true,
+                "reason": "Resolve a genuine dash-class uncertainty after all nine initial views, using the same pinned native asset once."
+              }
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "생활기억박물관 작은전시실",
+              "raw_observed": "생활기억박물관 작은전시실",
+              "normalized_required": "생활기억박물관 작은전시실",
+              "normalized_observed": "생활기억박물관 작은전시실",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, below date: venue is one complete line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "화–일 10:00–18:00 / 월요일 휴관",
+              "raw_observed": "화–일 10:00–18:00 /\n월요일 휴관",
+              "normalized_required": "화–일 10:00–18:00/월요일 휴관",
+              "normalized_observed": "화–일 10:00–18:00/월요일 휴관",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, lower-left: the first line ends after the slash; 월요일 휴관 is the next line. Both lines remain complete and fixed_newlines is false."
+              },
+              "ambiguity": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "revisit": {
+                "view": "native",
+                "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/original.png",
+                "sha256": "06c899df1fb3b6547da43a9e24ad5cce58e6127d754a81e2dd21a626672dcc08",
+                "raw_observed": "화–일 10:00–18:00 /\n월요일 휴관",
+                "resolution": "At the one exact native revisit, the range bars read as longer en dashes (–), visibly longer than the short hyphen in hand-memory. The initial en-dash reading is confirmed; no punctuation-class substitution is applied.",
+                "resolved": true,
+                "reason": "Resolve a genuine dash-class uncertainty after all nine initial views, using the same pinned native asset once."
+              }
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "관람료 무료",
+              "raw_observed": "관람료 무료",
+              "normalized_required": "관람료 무료",
+              "normalized_observed": "관람료 무료",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, below the closure line: admission is a separate line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "전시 안내 example.org/hand-memory",
+              "raw_observed": "전시 안내 example.org/hand-memory",
+              "normalized_required": "전시 안내 example.org/hand-memory",
+              "normalized_observed": "전시 안내 example.org/hand-memory",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, near the bottom: label and contiguous URL occupy one line. No URL dot, slash or hyphen is separated by a word space."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\n\nLiteral client styles:\n{\"mode\": \"explicit monochrome\", \"colour\": \"흑백만\", \"allowed_media\": [\"사진\", \"그래픽\"]}\n\nLiteral mandatory client conditions:\n생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.\n오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.\n열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.\n이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.\n으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.\n아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster and its object/contact details",
+              "observation": "The artifact reads as a monochrome small museum exhibition poster. The large used lever and engaged key show substantive physical relation and wear. The complete required copy is present, with no legible invented labels, logos, sponsors or historical claims. All literal conditions are separately covered in conditions; the style gate rolls them up."
+            },
+            {
+              "view": "usage720",
+              "location": "Overall palette and everyday door scene",
+              "observation": "The inspected illustration reads in black, white and gray; no color accent is separately readable. Small RGB deviations are retained in the diagnostic rather than described as exact neutrality."
+            },
+            {
+              "view": "native",
+              "location": "Upper third hand/lever action and lower-right key/hand action",
+              "observation": "Large nonglyph gestures show grasping the rubbed lever and holding an engaged key on the same door. The contact zones and ordinary operation contribute directly to the remembered-by-hand subject."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Whole poster",
+              "observation": "The nonglyph object relationship remains substantial at thumbnail scale, and the presentation retains an ordinary museum-exhibition tone rather than crime or antique retail."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "required_ratio": [
+            2,
+            3
+          ],
+          "rounding_policy": "nearest-integer-single-edge",
+          "exact": true,
+          "integer_rounding_used": false,
+          "calculation": "1024*3 = 1536*2 = 3072. Both single-edge deviations are zero. No requested pixel dimensions or resizing claim.",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Upper third hand/lever action and lower-right key/hand action",
+              "observation": "Large nonglyph gestures show grasping the rubbed lever and holding an engaged key on the same door. The contact zones and ordinary operation contribute directly to the remembered-by-hand subject."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Upper third hand/lever action and lower-right key/hand action",
+              "observation": "Large nonglyph gestures show grasping the rubbed lever and holding an engaged key on the same door. The contact zones and ordinary operation contribute directly to the remembered-by-hand subject."
+            }
+          ],
+          "issues": []
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "Upper hand around the lever and lower-right hand holding the key",
+            "observation": "Two large actions make handling explicit: a hand wraps the worn lever while another holds a key already inserted into the lock. The composition connects 손이 기억하는 to actual bodily use."
+          },
+          {
+            "view": "usage720",
+            "location": "Lever abrasion and key-head rim",
+            "observation": "Broken white rubbing on the black lever is substantial and located on its gripping surface; smaller worn-looking flecks along the key rim extend the wear theme to the second object."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "native",
+            "location": "Upper action, oversized two-line title, lower information",
+            "observation": "The hand/lever action and heavy title are the first read. The subtitle and date follow, with venue, opening hours, admission and URL remaining legible supporting levels."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Whole poster",
+            "observation": "The bold action silhouette and title survive reduction; the lower key hand remains distinct from the title block, preserving the exhibition subject at a glance."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "Title, condensed bold date and lower details",
+            "observation": "Hangul remains complete. The emphatic title, smaller subtitle and narrow date face form clear levels. The very heavy treatment is consistent with the black graphic construction, though the date is a different typographic voice."
+          },
+          {
+            "view": "usage720",
+            "location": "Hours/closure block and bottom URL",
+            "observation": "The slash ends the hours line and 월요일 휴관 wraps intact beneath it. The entire URL is contiguous on the bottom line; soft wrapping and optical slash spacing are treated separately from glyph fidelity."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "Hands entering from left/top and lower-right, with right door edge",
+            "observation": "Edge crops place the viewer close to the gesture while the door edge joins the upper lever and lower lock. The central left field is reserved for the information."
+          },
+          {
+            "view": "usage720",
+            "location": "Date and venue beside the lower lock",
+            "observation": "The lock comes close to the right ends of the date/venue block, but it does not cover them. The text and lower hand retain separate silhouettes; this is the set’s tightest text-to-image interval."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "Upper fingers, lever and circular escutcheon",
+            "observation": "Outlined fingers wrap around a solid lever; the thumb and curled fingers make the grip legible. The broad black-and-white abrasion is coherent with the graphic medium allowed by the client."
+          },
+          {
+            "view": "native",
+            "location": "Lower key, keyhole and holding hand",
+            "observation": "The blade enters the keyhole and the fingers hold the head rather than an unrelated symbol. Rim rubbing is visible but less nuanced than the photographed scratches in M1 and M3."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "Two hands using the hardware against a white field",
+            "observation": "The image communicates ordinary, learned motion and tactile familiarity. Its assertive contrast reads as exhibition graphics, with no threatening figure or implied criminal act."
+          },
+          {
+            "view": "native",
+            "location": "Exhibition title and functional visitor information",
+            "observation": "The museum subtitle and practical information hold the tone in a small exhibition context; there is no antique pricing, decorative sales badge or invented historical pedigree."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "Upper grip and lower key-hand outlines",
+            "observation": "The graphic simplification preserves recognizable hand actions and the two objects’ functions. No surplus limb or contradictory floating connection is visible in the inspected views."
+          },
+          {
+            "view": "native",
+            "location": "Small marks at the foot of the right-edge hardware plate, near y580",
+            "observation": "A few engraving-like white flecks remain locally rough. They are not legible enough to transcribe as an inventory number or date; they slightly limit precision without dominating the otherwise coherent construction."
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "This is one of the exact three separate museum exhibition posters, with the specified museum and room information."
+            }
+          ]
+        },
+        {
+          "requirement": "모두 세로 2:3입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The actual native is 1024×1536, exact portrait 2:3 without a rounding exception."
+            }
+          ]
+        },
+        {
+          "requirement": "흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The inspected illustration reads in black, white and gray; no color accent is separately readable. Small RGB deviations are retained in the diagnostic rather than described as exact neutrality."
+            }
+          ]
+        },
+        {
+          "requirement": "오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Large hand actions present a key and a worn lever as familiar used objects."
+            }
+          ]
+        },
+        {
+          "requirement": "열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The lever grip has a large abraded white patch, and the held key has smaller broken marks around its head rim."
+            }
+          ]
+        },
+        {
+          "requirement": "이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "A hand on the lever and a hand holding the inserted key show their functional relation on the door at substantial scale."
+            }
+          ]
+        },
+        {
+          "requirement": "으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Ordinary use, a bright field and museum copy avoid a threatening crime scene or an antique-store sales presentation."
+            }
+          ]
+        },
+        {
+          "requirement": "아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "All seven required entries compare equal. No legible invented artifact number or date is present; rough hardware flecks are not promoted into invented text."
+            }
+          ]
+        },
+        {
+          "requirement": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The artifact is one flat opaque poster at exact portrait 2:3, containing all supplied copy."
+            }
+          ]
+        },
+        {
+          "requirement": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "No additional legible copy, sponsor, logo or display label is observed."
+            }
+          ]
+        },
+        {
+          "requirement": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Hands and door hardware are substantive graphic content; the result is not lettering alone or a token ornament."
+            }
+          ]
+        }
+      ],
+      "colour_diagnostic": {
+        "view": "native",
+        "method": "Read-only standard-library PNG IDAT decode and filter reconstruction; all natives are 8-bit RGB PNG colour type 2, with no alpha channel.",
+        "assessment": "Visually monochrome in the three displayed views; numerical RGB neutrality is not asserted.",
+        "mean_rgb": [
+          197.183,
+          197.63,
+          197.233
+        ],
+        "mean_channel_spread": 0.935,
+        "maximum_channel_spread": 25,
+        "percentage_spread_gt_10": 0.221,
+        "percentage_spread_gt_20": 0.003,
+        "peak_xy": [
+          761,
+          1061
+        ],
+        "peak_rgb": [
+          155,
+          148,
+          130
+        ]
+      },
+      "residuals": [
+        "The key’s wear is comparatively modest and concentrated on the rim, whereas the lever’s wear dominates the illustration.",
+        "The date/venue block has little clearance from the lock; the words remain visible but the interval is less relaxed than M3.",
+        "Small engraving-like flecks at the bottom of the right hardware plate are rough and not legibly identifiable as supplied or additional text.",
+        "The native is visually monochrome, but not exact neutral RGB: mean channel spread 0.935/255, maximum 25/255 at native (761,1061), RGB (155,148,130), near the engaged key/keyhole. These local deviations are disclosed rather than silently treated as channel equality."
+      ]
+    },
+    "R7-B07-M3": {
+      "image_id": "R7-B07-M3",
+      "role": "R7-B07-M3",
+      "stage": "initial",
+      "case_id": "R7-B07",
+      "profile": "craft",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [
+            {
+              "copy_index": 2,
+              "description": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "resolved": true
+            },
+            {
+              "copy_index": 4,
+              "description": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "resolved": true
+            }
+          ],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "손이 기억하는 물건",
+              "raw_observed": "손이 기억하는 물건",
+              "normalized_required": "손이 기억하는 물건",
+              "normalized_observed": "손이 기억하는 물건",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, top of the white middle band: the full title is one line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "열쇠와 손잡이의 생활사",
+              "raw_observed": "열쇠와 손잡이의 생활사",
+              "normalized_required": "열쇠와 손잡이의 생활사",
+              "normalized_observed": "열쇠와 손잡이의 생활사",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, directly below title: subtitle is one line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "2026.12.08–2027.02.14",
+              "raw_observed": "2026.12.08–2027.02.14",
+              "normalized_required": "2026.12.08–2027.02.14",
+              "normalized_observed": "2026.12.08–2027.02.14",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, middle band below subtitle: full date range is one line."
+              },
+              "ambiguity": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "revisit": {
+                "view": "native",
+                "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/original.png",
+                "sha256": "69bdbb8945091475211b81a10589f5a357620191ddd4938296bb816bb3bdb376",
+                "raw_observed": "2026.12.08–2027.02.14",
+                "resolution": "At the one exact native revisit, the range bars read as longer en dashes (–), visibly longer than the short hyphen in hand-memory. The initial en-dash reading is confirmed; no punctuation-class substitution is applied.",
+                "resolved": true,
+                "reason": "Resolve a genuine dash-class uncertainty after all nine initial views, using the same pinned native asset once."
+              }
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "생활기억박물관 작은전시실",
+              "raw_observed": "생활기억박물관 작은전시실",
+              "normalized_required": "생활기억박물관 작은전시실",
+              "normalized_observed": "생활기억박물관 작은전시실",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, immediately below date: venue is one line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "화–일 10:00–18:00 / 월요일 휴관",
+              "raw_observed": "화–일 10:00–18:00 / 월요일 휴관",
+              "normalized_required": "화–일 10:00–18:00/월요일 휴관",
+              "normalized_observed": "화–일 10:00–18:00/월요일 휴관",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, lower part of the band: the entire hours/closure entry is one line."
+              },
+              "ambiguity": "The first native read identified horizontal range bars provisionally as en dashes, but their class versus a shorter hyphen was uncertain; the initial read is retained unchanged.",
+              "revisit": {
+                "view": "native",
+                "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/original.png",
+                "sha256": "69bdbb8945091475211b81a10589f5a357620191ddd4938296bb816bb3bdb376",
+                "raw_observed": "화–일 10:00–18:00 / 월요일 휴관",
+                "resolution": "At the one exact native revisit, the range bars read as longer en dashes (–), visibly longer than the short hyphen in hand-memory. The initial en-dash reading is confirmed; no punctuation-class substitution is applied.",
+                "resolved": true,
+                "reason": "Resolve a genuine dash-class uncertainty after all nine initial views, using the same pinned native asset once."
+              }
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "관람료 무료",
+              "raw_observed": "관람료 무료",
+              "normalized_required": "관람료 무료",
+              "normalized_observed": "관람료 무료",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, immediately below hours: admission is one line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "required": "전시 안내 example.org/hand-memory",
+              "raw_observed": "전시 안내 example.org/hand-memory",
+              "normalized_required": "전시 안내 example.org/hand-memory",
+              "normalized_observed": "전시 안내 example.org/hand-memory",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native, last line of the white band: label and the contiguous URL are one line."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\n\nLiteral client styles:\n{\"mode\": \"explicit monochrome\", \"colour\": \"흑백만\", \"allowed_media\": [\"사진\", \"그래픽\"]}\n\nLiteral mandatory client conditions:\n생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.\n오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.\n열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.\n이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.\n으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.\n아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster and its object/contact details",
+              "observation": "The artifact reads as a monochrome small museum exhibition poster. The large used lever and engaged key show substantive physical relation and wear. The complete required copy is present, with no legible invented labels, logos, sponsors or historical claims. All literal conditions are separately covered in conditions; the style gate rolls them up."
+            },
+            {
+              "view": "usage720",
+              "location": "Overall palette and everyday door scene",
+              "observation": "The viewed photographs and type read in black, white and gray. Tiny native RGB differences are disclosed; exact mathematical RGB neutrality is not claimed."
+            },
+            {
+              "view": "native",
+              "location": "Large photographs above and below the middle band",
+              "observation": "The rubbed lever face and scuffed inserted key head fill two substantial image fields. Their physical functions and wear are visible without depending on lettering, texture alone or a tiny ornament."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Whole poster",
+              "observation": "The nonglyph object relationship remains substantial at thumbnail scale, and the presentation retains an ordinary museum-exhibition tone rather than crime or antique retail."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "required_ratio": [
+            2,
+            3
+          ],
+          "rounding_policy": "nearest-integer-single-edge",
+          "exact": true,
+          "integer_rounding_used": false,
+          "calculation": "1024*3 = 1536*2 = 3072. Both single-edge deviations are zero. No requested pixel dimensions or resizing claim.",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Large photographs above and below the middle band",
+              "observation": "The rubbed lever face and scuffed inserted key head fill two substantial image fields. Their physical functions and wear are visible without depending on lettering, texture alone or a tiny ornament."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Large photographs above and below the middle band",
+              "observation": "The rubbed lever face and scuffed inserted key head fill two substantial image fields. Their physical functions and wear are visible without depending on lettering, texture alone or a tiny ornament."
+            }
+          ],
+          "issues": []
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "Upper lever macro and lower engaged-key macro",
+            "observation": "Two large close views pair the rubbed contact surface of the lever with the scuffed head of a key inserted into its lock. Their shared use is communicated by actual hardware rather than a small symbol."
+          },
+          {
+            "view": "usage720",
+            "location": "Top and bottom photographs around the information band",
+            "observation": "The lever’s gripping face and the key’s handled head are both large enough for abrasion to remain visible; the content argument survives reduction."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "native",
+            "location": "Top photograph, central title and ordered information, lower key photograph",
+            "observation": "The upper lever gives an immediate tactile subject; a one-line heavy title anchors the white band, followed by subtitle, date, venue, hours, admission and URL. The lower image returns attention to the key."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Whole tripartite composition",
+            "observation": "Both objects and the full title remain recognizable. The white band cleanly separates information from material detail, while smaller visitor copy becomes fine."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "White middle band, approximately y472–1040",
+            "observation": "The full title is one line with complete Hangul. Smaller subtitle and regular supporting sans-serif have consistent left alignment and clear weight changes; the complete URL is kept on one line."
+          },
+          {
+            "view": "usage720",
+            "location": "Date, venue and opening-hours groups",
+            "observation": "The visitor information remains readily readable at 720 pixels wide. The hours slash stays separate from URL protection, and the line ordering preserves all required entries."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "Horizontal photo/band boundaries near y472 and y1040",
+            "observation": "The upper and lower photographs occupy comparable substantial areas around the middle text band. The information has a common inset and clear group gaps; no text is laid over the scratched surfaces."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "White band between gray photographs",
+            "observation": "The strongly divided layout makes small-scale occupied/empty proportions deliberate. The band interrupts continuous door space but creates an effective information field."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "Upper lever face and circular mount",
+            "observation": "Fine longitudinal scratching, worn plating, an edge highlight and concentric mounting-plate marks are locally coherent. Contact shadows convincingly attach the hardware to the painted door."
+          },
+          {
+            "view": "native",
+            "location": "Lower key head, beveled hole, shaft and lock",
+            "observation": "Scuffs across the key head, a bright worn rim, a beveled hole and parallel shaft grooves remain distinct. The key actually enters the slot, with the blade’s working end concealed by the lock."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "Close views of familiar hardware with neutral light",
+            "observation": "Close attention to wear turns ordinary surfaces into evidence of repeated handling. The bright neutral presentation is intimate and matter-of-fact without sinister staging."
+          },
+          {
+            "view": "native",
+            "location": "Unadorned exhibition information in the middle band",
+            "observation": "The plain museum copy and absence of sales decoration support a life-history exhibition rather than antique retail or a crime poster."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "Key-to-slot junction and mounting plate outlines",
+            "observation": "The key’s grooves meet a plausible slot, and both circular fittings attach to the door with coherent outlines and shadows. No arbitrary badge, false artifact identifier or floating decorative object is present."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Whole composition",
+            "observation": "The two enlarged objects remain the substantive visual system; the white band has an information function rather than being empty filler. The conventional type treatment prevents a claim of exceptional specificity."
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "This is one of three separate posters for the specified small museum exhibition, with complete visitor information."
+            }
+          ]
+        },
+        {
+          "requirement": "모두 세로 2:3입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The native measures 1024×1536 and is mathematically exact portrait 2:3."
+            }
+          ]
+        },
+        {
+          "requirement": "흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The viewed photographs and type read in black, white and gray. Tiny native RGB differences are disclosed; exact mathematical RGB neutrality is not claimed."
+            }
+          ]
+        },
+        {
+          "requirement": "오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Large close views of a worn handle and scuffed key show the requested familiar objects."
+            }
+          ]
+        },
+        {
+          "requirement": "열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Wear is visible across the grasped face of the lever and the handled head/rim of the key."
+            }
+          ]
+        },
+        {
+          "requirement": "이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The lever and actual inserted key are paired at large scale, each visibly mounted on the door, with their use legible rather than replaced by text or a small glyph."
+            }
+          ]
+        },
+        {
+          "requirement": "으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Neutral daylight-like material study and plain museum copy avoid both sinister crime staging and antique-shop sales styling."
+            }
+          ]
+        },
+        {
+          "requirement": "아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "All seven required entries compare equal; no invented artifact number or historical date is legibly present."
+            }
+          ]
+        },
+        {
+          "requirement": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "One flat opaque poster at exact portrait 2:3 contains all supplied copy."
+            }
+          ]
+        },
+        {
+          "requirement": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "The title and copy are complete, with no added legible logo, sponsor or label."
+            }
+          ]
+        },
+        {
+          "requirement": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster; details described in observation",
+              "observation": "Two large nonglyph material photographs carry the substantive content."
+            }
+          ]
+        }
+      ],
+      "colour_diagnostic": {
+        "view": "native",
+        "method": "Read-only standard-library PNG IDAT decode and filter reconstruction; all natives are 8-bit RGB PNG colour type 2, with no alpha channel.",
+        "assessment": "Visually monochrome in the three displayed views; numerical RGB neutrality is not asserted.",
+        "mean_rgb": [
+          167.913,
+          167.792,
+          167.788
+        ],
+        "mean_channel_spread": 0.667,
+        "maximum_channel_spread": 13,
+        "percentage_spread_gt_10": 0.001,
+        "percentage_spread_gt_20": 0.0,
+        "peak_xy": [
+          402,
+          1202
+        ],
+        "peak_rgb": [
+          163,
+          172,
+          159
+        ]
+      },
+      "residuals": [
+        "The white band conceals the continuous stretch of door between the two fittings; the functional relationship is still clear from the mounted handle and inserted key.",
+        "Wear is strongest on the visible key head; the lock hides the working end of its blade.",
+        "The straightforward sans-serif information band is strongly resolved but does not supply exceptional typographic individuality.",
+        "The native is visually monochrome rather than exact neutral RGB: mean channel spread 0.667/255, maximum 13/255 at native (402,1202), RGB (163,172,159). Only 0.001% of pixels exceed a channel spread of 10/255, and none exceed 20/255."
+      ]
+    }
+  },
+  "set": {
+    "members": [
+      "R7-B07-M1",
+      "R7-B07-M2",
+      "R7-B07-M3"
+    ],
+    "requested_count": 3,
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 3,
+      "required_count": 3,
+      "issues": []
+    },
+    "diversity": 4,
+    "evidence": [
+      {
+        "image_id": "R7-B07-M1",
+        "view": "thumbnail320",
+        "location": "Whole composition",
+        "observation": "M1 is a continuous door photograph with text fitted into its left field and the lock/key retained on the right. Its environmental context and integrated type differ from M2’s hand actions and M3’s divided macro panels."
+      },
+      {
+        "image_id": "R7-B07-M2",
+        "view": "thumbnail320",
+        "location": "Whole composition",
+        "observation": "M2 uses a black-and-white graphic construction and two large hand actions entering from opposite edges. Gesture and illustration create a real content change from the unoccupied photographic hardware in M1 and M3, rather than a filter change."
+      },
+      {
+        "image_id": "R7-B07-M3",
+        "view": "thumbnail320",
+        "location": "Whole composition",
+        "observation": "M3 pairs opposite-oriented hardware close views above and below a white information band, with a single-line title. Its material-detail emphasis, segmentation and reading rhythm differ from M1’s continuous door scene and M2’s action-led drawing."
+      }
+    ],
+    "residuals": [
+      "M1 and M3 share photographed lever/inserted-key content, and all three retain a conventional bold sans-serif museum voice. Diversity is strong through framing, information architecture, medium and gesture, but not exceptional conceptual range."
+    ]
+  }
+}

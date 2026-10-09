@@ -1,0 +1,11 @@
+--- R13/close_review_phase.py
++++ R14/close_review_phase.py
+@@ -8,7 +8,7 @@
+  b=p.read_bytes();return {'path':str(p.resolve()),'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b)}
+ def main():
+  p=argparse.ArgumentParser();p.add_argument('--wave',choices=['initial','selected'],required=True);a=p.parse_args()
+- d=ROOT/'reviews/R13-C1'/a.wave;state=json.loads((d/'readiness.json').read_bytes());assert state['status']=='READY'
++ d=ROOT/'reviews/R14-C1'/a.wave;state=json.loads((d/'readiness.json').read_bytes());assert state['status']=='READY'
+  assert state['mode']=='THREE_FRESH_COMPLETE_CRITICS','Whole original record reuse must use the explicit reuse path, not new sessions.'
+  completions=[]
+  for profile in PROFILES:

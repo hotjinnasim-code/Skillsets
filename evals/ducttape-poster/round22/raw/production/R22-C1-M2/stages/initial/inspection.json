@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "role": "R22-C1-M2",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "집 안의 작은 숲",
+    "LEAVES & LIVING",
+    "초록을 고르고, 일상을 가꿉니다.",
+    "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+    "성수 주말 식물 마켓",
+    "2027.06.12 – 06.13",
+    "토 · 일 11:00 – 19:00",
+    "성수 온실마당",
+    "입장 무료 · 분갈이 시연",
+    "식물 구매 시 관리 안내 제공",
+    "편하게 들러 천천히 둘러보세요.",
+    "leaves.example/market"
+  ],
+  "residuals": [
+    {
+      "view": "usage720",
+      "location": "left explanatory paragraph and access/care/invitation/URL",
+      "observation": "Paragraph and several practical lines appear approximately 11–12px high at 720px width; readable under inspection but small for comfortable SNS reading."
+    },
+    {
+      "view": "native",
+      "location": "date and hour rows, left middle",
+      "observation": "Visible added spaces surround the en-dash in both date and time; the supplied literals have no spaces there."
+    },
+    {
+      "view": "usage720",
+      "location": "right end of second body line and lower-left invitation",
+      "observation": "Foliage approaches the body line end and green foreground pigment behind the invitation reduces the quiet text area."
+    }
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "transcriptions": [
+        {
+          "copy_index": 1,
+          "required": "집 안의 작은 숲",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "집 안의 작은 숲",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "집 안의 작은 숲",
+          "normalized_observed": "집 안의 작은 숲",
+          "equal": true
+        },
+        {
+          "copy_index": 2,
+          "required": "LEAVES & LIVING",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "LEAVES & LIVING",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "LEAVES & LIVING",
+          "normalized_observed": "LEAVES & LIVING",
+          "equal": true
+        },
+        {
+          "copy_index": 3,
+          "required": "초록을 고르고, 일상을 가꿉니다.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "초록을 고르고, 일상을 가꿉니다.",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "초록을 고르고, 일상을 가꿉니다.",
+          "normalized_observed": "초록을 고르고, 일상을 가꿉니다.",
+          "equal": true
+        },
+        {
+          "copy_index": 4,
+          "required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Three soft lines; second line combines two meaning groups and reaches painted foliage at its right end."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "normalized_observed": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "equal": true
+        },
+        {
+          "copy_index": 5,
+          "required": "성수 주말 식물 마켓",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "성수 주말 식물 마켓",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "성수 주말 식물 마켓",
+          "normalized_observed": "성수 주말 식물 마켓",
+          "equal": true
+        },
+        {
+          "copy_index": 6,
+          "required": "2027.06.12–06.13",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2027.06.12 – 06.13",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Visible spaces around dash; not covered by the optical middle-dot/slash normalization."
+          },
+          "ambiguity": {
+            "copy_index": 6,
+            "description": "Visible gaps around the long midline dash read as spaces; confirmed at the single original revisit.",
+            "resolved": true
+          },
+          "revisit": {
+            "view": "native",
+            "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/original.png",
+            "sha256": "564b6d2145c31371b14822b9309cb263fd4a478a2a883e08c6a0342a3eca2dc8",
+            "raw_observed": "2027.06.12 – 06.13",
+            "resolution": "Long horizontal midline bar is visually distinguishable from a short hyphen. Gaps on both sides are visible word-space-sized gaps; preserved in the read.",
+            "resolved": true,
+            "reason": "Single revisit of exact original to distinguish date/hour symbol and adjacent spacing."
+          },
+          "normalized_required": "2027.06.12–06.13",
+          "normalized_observed": "2027.06.12 – 06.13",
+          "equal": false
+        },
+        {
+          "copy_index": 7,
+          "required": "토·일 11:00–19:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "토 · 일 11:00 – 19:00",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Visible spaces around dash; not covered by the optical middle-dot/slash normalization."
+          },
+          "ambiguity": {
+            "copy_index": 7,
+            "description": "Visible gaps around the long midline dash read as spaces; confirmed at the single original revisit.",
+            "resolved": true
+          },
+          "revisit": {
+            "view": "native",
+            "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M2/stages/initial/original.png",
+            "sha256": "564b6d2145c31371b14822b9309cb263fd4a478a2a883e08c6a0342a3eca2dc8",
+            "raw_observed": "토 · 일 11:00 – 19:00",
+            "resolution": "Long horizontal midline bar is visually distinguishable from a short hyphen. Gaps on both sides are visible word-space-sized gaps; preserved in the read.",
+            "resolved": true,
+            "reason": "Single revisit of exact original to distinguish date/hour symbol and adjacent spacing."
+          },
+          "normalized_required": "토·일 11:00–19:00",
+          "normalized_observed": "토·일 11:00 – 19:00",
+          "equal": false
+        },
+        {
+          "copy_index": 8,
+          "required": "성수 온실마당",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "성수 온실마당",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "성수 온실마당",
+          "normalized_observed": "성수 온실마당",
+          "equal": true
+        },
+        {
+          "copy_index": 9,
+          "required": "입장 무료 · 분갈이 시연",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "입장 무료 · 분갈이 시연",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "입장 무료·분갈이 시연",
+          "normalized_observed": "입장 무료·분갈이 시연",
+          "equal": true
+        },
+        {
+          "copy_index": 10,
+          "required": "식물 구매 시 관리 안내 제공",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "식물 구매 시 관리 안내 제공",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "식물 구매 시 관리 안내 제공",
+          "normalized_observed": "식물 구매 시 관리 안내 제공",
+          "equal": true
+        },
+        {
+          "copy_index": 11,
+          "required": "편하게 들러 천천히 둘러보세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "편하게 들러 천천히 둘러보세요.",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "편하게 들러 천천히 둘러보세요.",
+          "normalized_observed": "편하게 들러 천천히 둘러보세요.",
+          "equal": true
+        },
+        {
+          "copy_index": 12,
+          "required": "leaves.example/market",
+          "kind": "url",
+          "fixed_newlines": false,
+          "raw_observed": "leaves.example/market",
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Single line with complete words."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalized_required": "leaves.example/market",
+          "normalized_observed": "leaves.example/market",
+          "equal": true
+        }
+      ],
+      "ambiguities": [
+        {
+          "copy_index": 6,
+          "description": "Visible gaps around the long midline dash read as spaces; confirmed at the single original revisit.",
+          "resolved": true
+        },
+        {
+          "copy_index": 7,
+          "description": "Visible gaps around the long midline dash read as spaces; confirmed at the single original revisit.",
+          "resolved": true
+        }
+      ],
+      "occurrence_observations": "Twelve distinct supplied entries are visible once, no additional print seen.",
+      "issues": [
+        "Spaces around date and hour en-dashes differ from required literal spacing."
+      ]
+    },
+    "style": {
+      "checked_requirement": "Deep ultramarine, warm vermilion and pale ochre form a deliberate gouache painting. Broad matte pigment planes, dry-brush edges inside substantial forms and controlled light/shadow make the caring gesture readable. A large contrast-stroke Korean Title feels painted in rhythm but remains clearly typeset; the body and small information use calm regular sans anatomy, never brush-corrupted glyphs. Paint one observable caring action: a mature hand grips a watering vessel and a short stream lands at the exposed soil, beside upward branching houseplant leaves. Warm hand planes and the red vessel cross the cool blue plant shadows. Use weight-bearing contact, credible wrist and grip, a consistent pouring direction and a stable pot opening, with no cute characters or toy rendering.",
+      "observations": [
+        {
+          "view": "native",
+          "location": "hand, can, foliage and background",
+          "observation": "Ultramarine and warm vermilion/ochre combine in broad matte painted planes with visible dry brush; Title has contrast-stroke anatomy. Some distant plant masses are softly blurred."
+        }
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": [
+        16,
+        9
+      ],
+      "nearest_integer_rounding": {
+        "exact_height_for_width": 940.5,
+        "actual_height": 941,
+        "error_px": 0.5
+      },
+      "observation": "One edge is within the predeclared half-pixel native rounding allowance; no resize performed."
+    },
+    "substantive_visual": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "right half",
+          "observation": "Large adult forearm grips red watering-can handle; water lands in visible pot soil beside connected upward stems, with pot resting on painted surface."
+        }
+      ]
+    },
+    "hangul": {
+      "observations": "Title syllables have open counters and contrast strokes; body and practical words have stable sans anatomy and meaningful word spaces. No missing Hangul syllables observed."
+    },
+    "information_relationship": {
+      "observations": "Title → companion → Subtitle → three-line paragraph → date/hours/place → access/care → invitation/URL follows a single left axis with functional gaps. Small practical type weakens ease of use."
+    },
+    "function_contact": {
+      "observations": "Forearm cropped at upper edge connects to wrist and closed grip; fingers wrap a handle. Downward water trajectory visibly meets exposed soil. Pot base meets a surface and a dark painted shadow."
+    },
+    "material_edge": {
+      "observations": "Warm hand planes, brush ridges on can and terracotta pot, articulated leaf veins and blue shadows form a coherent painting; no floating pot or pasted asset edge seen."
+    },
+    "template_exclusion": {
+      "observations": "The large care action from upper crop through pot and soil visually organizes the right half and painted surface. The left serif Title and readable information are coupled to a substantive painted gardening scene; imagery is not a tiny subordinate decoration."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Large pale Title and red watering gesture are two immediate anchors; upright plant and tabletop complete an active scene."
+    },
+    {
+      "view": "usage720",
+      "location": "left column",
+      "observation": "Stable left starts connect prose and visiting details, but small explanation/footer needs a larger optical body."
+    }
+  ]
+}

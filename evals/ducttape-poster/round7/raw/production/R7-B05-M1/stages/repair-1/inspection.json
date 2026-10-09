@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "role": "R7-B05-M1",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-1/thumbnail-320.png"
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-1/original.png",
+      "sha256": "b6a9d70b805803c05eb7a745e665d840f4be959763dfa5ad413977fe0e31d80f",
+      "bytes": 2201658,
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-1/usage-720.png",
+      "sha256": "42707b1006bf3dee79388305a6c808a2d956dfa4a6cea17bb2699401d7d9507c",
+      "bytes": 872105,
+      "width": 720,
+      "height": 900
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-1/thumbnail-320.png",
+      "sha256": "73715f24a7374a5328bf984a10c1cc3b66056e4eff707539902ae1478a0bd4f1",
+      "bytes": 108542,
+      "width": 256,
+      "height": 320
+    }
+  ],
+  "raw_observed_text": [
+    "작업실의 오후",
+    "김서안 오픈 스튜디오",
+    "2026.11.28 14:00–19:00",
+    "연희로 18길 24, 2층",
+    "작품과 제작 과정을 함께 보는 시간",
+    "방문 예약 example.org/atelier-afternoon"
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "artwork top and both mounting pins",
+      "observation": "The photo layout remains essentially the initial poster's shifted layout, with top near y=275 rather than A1's approximate y=240. The intended restoration was not visibly achieved."
+    },
+    {
+      "view": "native",
+      "location": "blue ribbon surfaces and wall",
+      "observation": "Brush detail and wall microtexture have changed again; blue strokes are a little more conspicuous than in the first poster, rather than preserving A1's original surface."
+    },
+    {
+      "view": "native",
+      "location": "upper title and event",
+      "observation": "Title remains much larger than the planned 52px and the event line remains about 40px rather than 31px. Header did not visibly reduce to the intended scale."
+    },
+    {
+      "view": "native",
+      "location": "whole output",
+      "observation": "Native 1122×1402 is permitted width-edge rounding, not exact mathematical 4:5."
+    }
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "작업실의 오후",
+          "raw_observed": "작업실의 오후",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "작업실의 오후",
+          "normalized_observed": "작업실의 오후",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "upper empty wall",
+            "observations": "Entry appears on a complete single line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "김서안 오픈 스튜디오",
+          "raw_observed": "김서안 오픈 스튜디오",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "김서안 오픈 스튜디오",
+          "normalized_observed": "김서안 오픈 스튜디오",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "upper empty wall",
+            "observations": "Entry appears on a complete single line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "2026.11.28 14:00–19:00",
+          "raw_observed": "2026.11.28 14:00–19:00",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2026.11.28 14:00–19:00",
+          "normalized_observed": "2026.11.28 14:00–19:00",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "lower empty wall",
+            "observations": "Entry appears on a complete single line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "연희로 18길 24, 2층",
+          "raw_observed": "연희로 18길 24, 2층",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "연희로 18길 24, 2층",
+          "normalized_observed": "연희로 18길 24, 2층",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "lower empty wall",
+            "observations": "Entry appears on a complete single line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "작품과 제작 과정을 함께 보는 시간",
+          "raw_observed": "작품과 제작 과정을 함께 보는 시간",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "작품과 제작 과정을 함께 보는 시간",
+          "normalized_observed": "작품과 제작 과정을 함께 보는 시간",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "lower empty wall",
+            "observations": "Entry appears on a complete single line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "kind": "url",
+          "fixed_newlines": false,
+          "required": "방문 예약 example.org/atelier-afternoon",
+          "raw_observed": "방문 예약 example.org/atelier-afternoon",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "방문 예약 example.org/atelier-afternoon",
+          "normalized_observed": "방문 예약 example.org/atelier-afternoon",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "lower empty wall",
+            "observations": "Entry appears on a complete single line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "ambiguities": [],
+      "issues": [],
+      "observations": "All six entries visually read once, without a visible additional label. Raster punctuation reading does not certify Unicode encoding."
+    },
+    "style": {
+      "checked_requirement": "actual supplied synthetic photograph preservation",
+      "observations": "Same two-loop form and two pins represented, but the initial geometry is retained instead of restoring supplied-photo coordinates.",
+      "issues": [
+        {
+          "view": "native",
+          "location": "artwork top and both mounting pins",
+          "observation": "The photo layout remains essentially the initial poster's shifted layout, with top near y=275 rather than A1's approximate y=240. The intended restoration was not visibly achieved."
+        },
+        {
+          "view": "native",
+          "location": "blue ribbon surfaces and wall",
+          "observation": "Brush detail and wall microtexture have changed again; blue strokes are a little more conspicuous than in the first poster, rather than preserving A1's original surface."
+        }
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1122,
+        1402
+      ],
+      "requested_ratio": [
+        4,
+        5
+      ],
+      "edge_error_pixels": 0.4,
+      "permitted_native_rounding": true,
+      "observations": "No native resize performed."
+    },
+    "substantive_visual": {
+      "location": "central photo",
+      "observations": "Large connected blue ribbon loops and their two wall mounting pins occupy the center at native, usage and thumbnail scales, identifying the wall-mounted work."
+    },
+    "typography": {
+      "location": "upper title and lower four lines",
+      "observations": "Hangul syllables have separated strokes/open counters and readable word gaps at native and usage720. Header is oversized relative to plan; date/address remain clear. Long URL is one line and uncut."
+    },
+    "information_relationship": {
+      "location": "upper and lower wall",
+      "observations": "Title/event identify the pictured work; date/address form an adjacent pair below the loops; description and reservation follow. Text does not cross the blue artwork."
+    },
+    "function_contact": {
+      "location": "bottom reservation line",
+      "observations": "Full reservation string and URL read visibly at usage720; the poster image cannot establish the external destination's operation."
+    },
+    "material_edge_finish": {
+      "location": "blue ribbon crossing, wall and shadow",
+      "observations": "No new object or panel. Overall continuity remains, but brush marks and wall grain differ from the initial poster and A1; preserving original material has not been established."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "center",
+      "observation": "Two-loop artwork remains the large dominant picture; title is a stronger competing block."
+    },
+    {
+      "view": "usage720",
+      "location": "bottom four lines",
+      "observation": "Date, address, description and full reservation string can be read in this actual 720px-wide view."
+    },
+    {
+      "view": "native",
+      "location": "header and footer glyphs",
+      "observation": "Required Hangul is optically legible with no observed glyph substitution; displayed single-line word boundaries are retained."
+    }
+  ],
+  "repair_decision": {
+    "will_attempt_repair": true,
+    "reason": "Last bounded repair will use original photo as first reference, repair only typography/layout, and explicitly avoid carrying forward the shifted generated photo."
+  }
+}

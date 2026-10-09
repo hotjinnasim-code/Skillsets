@@ -1,0 +1,679 @@
+{
+  "schema_version": 1,
+  "role": "R18-C1-M2",
+  "stage": "initial",
+  "inspected_at_utc": "2026-10-08T16:47:34.734486+00:00",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M2/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M2/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M2/stages/initial/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "native_view_display_issue": {
+    "initial": "First view_image native emission showed only a small top-left fragment. Full generated preview and both QA views were visible.",
+    "one_revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M2/stages/initial/original.png",
+      "sha256": "6639ec85684772e894cbc6cc43e33a1c524cb9733866628d057f9a328e4bcad6",
+      "raw_observed": [
+        "고쳐 쓰는 토요일",
+        "REPAIR / TOGETHER",
+        "버리는 대신, 함께 고칩니다.",
+        "헐거워진 의자와 찢어진 옷을 가져오세요.\n이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+        "마포 생활수리 워크숍",
+        "2027.05.22",
+        "토요일 14:00–18:00",
+        "합정 동네작업실",
+        "참가비 5,000원 · 도구 제공",
+        "신청 마감 5월 18일",
+        "수리할 물건 한 가지를 가져오세요.",
+        "repair.example/join"
+      ],
+      "resolution": "Identical native image appeared fully on one revisit; letters and en dash were visually inspected.",
+      "resolved": true,
+      "reason": "Initial native display fragment; confirm full image and punctuation."
+    }
+  },
+  "raw_observed_text": [
+    "고쳐 쓰는 토요일",
+    "REPAIR / TOGETHER",
+    "버리는 대신, 함께 고칩니다.",
+    "헐거워진 의자와 찢어진 옷을 가져오세요.\n이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+    "마포 생활수리 워크숍",
+    "2027.05.22",
+    "토요일 14:00–18:00",
+    "합정 동네작업실",
+    "참가비 5,000원 · 도구 제공",
+    "신청 마감 5월 18일",
+    "수리할 물건 한 가지를 가져오세요.",
+    "repair.example/join"
+  ],
+  "transcriptions": [
+    {
+      "copy_index": 1,
+      "required": "고쳐 쓰는 토요일",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "고쳐 쓰는 토요일",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "upper right over shirt",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "고쳐 쓰는 토요일",
+      "normalized_observed": "고쳐 쓰는 토요일",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "required": "REPAIR / TOGETHER",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "REPAIR / TOGETHER",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "upper left over chair",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "REPAIR/TOGETHER",
+      "normalized_observed": "REPAIR/TOGETHER",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "required": "버리는 대신, 함께 고칩니다.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "버리는 대신, 함께 고칩니다.",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "lower left above shared chair",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "버리는 대신, 함께 고칩니다.",
+      "normalized_observed": "버리는 대신, 함께 고칩니다.",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "required": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "헐거워진 의자와 찢어진 옷을 가져오세요.\n이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "middle seam two sentence lines",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+      "normalized_observed": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "two complete sentence lines with shared left start"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "required": "마포 생활수리 워크숍",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "마포 생활수리 워크숍",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "seam first logistics row left",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "마포 생활수리 워크숍",
+      "normalized_observed": "마포 생활수리 워크숍",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "required": "2027.05.22",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "2027.05.22",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "seam first logistics row center",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "2027.05.22",
+      "normalized_observed": "2027.05.22",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "required": "토요일 14:00–18:00",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "토요일 14:00–18:00",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "seam first logistics row right",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "토요일 14:00–18:00",
+      "normalized_observed": "토요일 14:00–18:00",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "required": "합정 동네작업실",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "합정 동네작업실",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "seam lower logistics row left",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "합정 동네작업실",
+      "normalized_observed": "합정 동네작업실",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "required": "참가비 5,000원 · 도구 제공",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "참가비 5,000원 · 도구 제공",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "seam lower logistics row center",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "참가비 5,000원·도구 제공",
+      "normalized_observed": "참가비 5,000원·도구 제공",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "required": "신청 마감 5월 18일",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "신청 마감 5월 18일",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "seam lower logistics row right",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "신청 마감 5월 18일",
+      "normalized_observed": "신청 마감 5월 18일",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 11,
+      "required": "수리할 물건 한 가지를 가져오세요.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "수리할 물건 한 가지를 가져오세요.",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "left mouth of seam",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "수리할 물건 한 가지를 가져오세요.",
+      "normalized_observed": "수리할 물건 한 가지를 가져오세요.",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 12,
+      "required": "repair.example/join",
+      "kind": "url",
+      "fixed_newlines": false,
+      "raw_observed": "repair.example/join",
+      "first_read_view": "usage720 after initial native display fragment",
+      "location": "right below deadline",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "repair.example/join",
+      "normalized_observed": "repair.example/join",
+      "equal": true,
+      "layout": {
+        "fixed_newline_requirement": false,
+        "observations": "single complete line; natural word spaces"
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "upper-left chair",
+      "observation": "Substantial chair with two slats and seat. Left cuffed hand stabilizes rail; red cuffed hand holds screwdriver whose visible metal tip meets the circular fastener in the rail."
+    },
+    {
+      "view": "native",
+      "location": "upper center",
+      "observation": "One green cuffed hand grips screwdriver handle; opposite yellow cuffed hand supports the shaft from below. Tool transfer is recognizable, but receiver does not meet handle."
+    },
+    {
+      "view": "native",
+      "location": "upper-right shirt",
+      "observation": "Collar and sleeves define a blue denim shirt. Green cuffed hand holds fabric and red cuffed hand holds a fine needle at the diagonal stitched tear."
+    },
+    {
+      "view": "native",
+      "location": "lower-left chair/lower-center patch/lower-right spool",
+      "observation": "Two distinct people handle chair; two hands hold and stitch a beige patch; yellow cuffed hand cups a red wound spool. Red thread reaches spool around right logistics edge."
+    },
+    {
+      "view": "usage720",
+      "location": "whole reading route",
+      "observation": "Upper-right title and upper-left Latin lead to prominent invitation, then two shared-left sentence lines. Event/date/time row immediately precedes venue/fee/deadline row; URL below deadline is findable. Lower-left proposition closes beside chair."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole graphic field",
+      "observation": "Large repair contacts wrap the information seam; two upper anchors and invitation are prominent. Contacts define actual boundaries around copy rather than subordinate corner decorations."
+    },
+    {
+      "view": "native",
+      "location": "wood, shirt, title and invitation",
+      "observation": "Dense woodgrain and blue denim hatching dominate the pictorial material. Title and invitation have heavy squared stems instead of the intended moderate weight."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "entries_observed": 12,
+      "each_once_observed": true,
+      "extra_print_observed": false,
+      "issues": [],
+      "ambiguities": [],
+      "transcriptions": [
+        {
+          "copy_index": 1,
+          "required": "고쳐 쓰는 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "고쳐 쓰는 토요일",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "upper right over shirt",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "고쳐 쓰는 토요일",
+          "normalized_observed": "고쳐 쓰는 토요일",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "REPAIR / TOGETHER",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "REPAIR / TOGETHER",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "upper left over chair",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "REPAIR/TOGETHER",
+          "normalized_observed": "REPAIR/TOGETHER",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "버리는 대신, 함께 고칩니다.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "버리는 대신, 함께 고칩니다.",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "lower left above shared chair",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "버리는 대신, 함께 고칩니다.",
+          "normalized_observed": "버리는 대신, 함께 고칩니다.",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "헐거워진 의자와 찢어진 옷을 가져오세요.\n이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "middle seam two sentence lines",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+          "normalized_observed": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "two complete sentence lines with shared left start"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "마포 생활수리 워크숍",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "마포 생활수리 워크숍",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "seam first logistics row left",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "마포 생활수리 워크숍",
+          "normalized_observed": "마포 생활수리 워크숍",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "2027.05.22",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2027.05.22",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "seam first logistics row center",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2027.05.22",
+          "normalized_observed": "2027.05.22",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "토요일 14:00–18:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "토요일 14:00–18:00",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "seam first logistics row right",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "토요일 14:00–18:00",
+          "normalized_observed": "토요일 14:00–18:00",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "합정 동네작업실",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "합정 동네작업실",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "seam lower logistics row left",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "합정 동네작업실",
+          "normalized_observed": "합정 동네작업실",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "참가비 5,000원 · 도구 제공",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "참가비 5,000원 · 도구 제공",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "seam lower logistics row center",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "참가비 5,000원·도구 제공",
+          "normalized_observed": "참가비 5,000원·도구 제공",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "신청 마감 5월 18일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "신청 마감 5월 18일",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "seam lower logistics row right",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "신청 마감 5월 18일",
+          "normalized_observed": "신청 마감 5월 18일",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 11,
+          "required": "수리할 물건 한 가지를 가져오세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "수리할 물건 한 가지를 가져오세요.",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "left mouth of seam",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "수리할 물건 한 가지를 가져오세요.",
+          "normalized_observed": "수리할 물건 한 가지를 가져오세요.",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 12,
+          "required": "repair.example/join",
+          "kind": "url",
+          "fixed_newlines": false,
+          "raw_observed": "repair.example/join",
+          "first_read_view": "usage720 after initial native display fragment",
+          "location": "right below deadline",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "repair.example/join",
+          "normalized_observed": "repair.example/join",
+          "equal": true,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observations": "single complete line; natural word spaces"
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "precisely drawn relational flat cut graphic; dark green, acid yellow and warm vermilion; moderate Korean identity anchor; horizontal information seam",
+      "observed": "Relational repair organization and open seam present; dense engraving, blue denim and heavy headline diverge from selected finish and weight.",
+      "issues": [
+        {
+          "location": "upper shirt and lower patch fabric field",
+          "limit": "Blue denim and dense engraved texture depart from the assigned dark-green/acid-yellow/vermilion bounded cut-graphic palette and finish."
+        },
+        {
+          "location": "upper-right title and invitation at seam",
+          "limit": "Both are very bold, making the invitation compete strongly with title rather than moderate paired identity and body entry."
+        }
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested": [
+        16,
+        9
+      ],
+      "exact_height_for_width": 940.5,
+      "height_rounding_error_px": 0.5,
+      "policy": "nearest-integer native one-edge rounding <=0.5 pixel; native unchanged"
+    },
+    "substantive_visual": {
+      "observed": true,
+      "evidence": [
+        {
+          "view": "native",
+          "location": "upper-left chair",
+          "observation": "Substantial chair with two slats and seat. Left cuffed hand stabilizes rail; red cuffed hand holds screwdriver whose visible metal tip meets the circular fastener in the rail."
+        },
+        {
+          "view": "native",
+          "location": "upper center",
+          "observation": "One green cuffed hand grips screwdriver handle; opposite yellow cuffed hand supports the shaft from below. Tool transfer is recognizable, but receiver does not meet handle."
+        },
+        {
+          "view": "native",
+          "location": "upper-right shirt",
+          "observation": "Collar and sleeves define a blue denim shirt. Green cuffed hand holds fabric and red cuffed hand holds a fine needle at the diagonal stitched tear."
+        },
+        {
+          "view": "native",
+          "location": "lower-left chair/lower-center patch/lower-right spool",
+          "observation": "Two distinct people handle chair; two hands hold and stitch a beige patch; yellow cuffed hand cups a red wound spool. Red thread reaches spool around right logistics edge."
+        }
+      ]
+    },
+    "hangul": {
+      "observed": "Complete syllables, stable counters and word spacing; title/invitation substantially heavier than body. Body strokes clear on 720px view."
+    },
+    "information_relationship": {
+      "observed": "Upper-right title and upper-left Latin lead to prominent invitation, then two shared-left sentence lines. Event/date/time row immediately precedes venue/fee/deadline row; URL below deadline is findable. Lower-left proposition closes beside chair."
+    },
+    "function_contact": {
+      "observed": [
+        {
+          "view": "native",
+          "location": "upper-left chair",
+          "observation": "Substantial chair with two slats and seat. Left cuffed hand stabilizes rail; red cuffed hand holds screwdriver whose visible metal tip meets the circular fastener in the rail."
+        },
+        {
+          "view": "native",
+          "location": "upper center",
+          "observation": "One green cuffed hand grips screwdriver handle; opposite yellow cuffed hand supports the shaft from below. Tool transfer is recognizable, but receiver does not meet handle."
+        },
+        {
+          "view": "native",
+          "location": "upper-right shirt",
+          "observation": "Collar and sleeves define a blue denim shirt. Green cuffed hand holds fabric and red cuffed hand holds a fine needle at the diagonal stitched tear."
+        },
+        {
+          "view": "native",
+          "location": "lower-left chair/lower-center patch/lower-right spool",
+          "observation": "Two distinct people handle chair; two hands hold and stitch a beige patch; yellow cuffed hand cups a red wound spool. Red thread reaches spool around right logistics edge."
+        }
+      ],
+      "limits": [
+        {
+          "location": "upper-center screwdriver exchange",
+          "limit": "Receiving palm supports metal shaft; fingers meeting shared handle are less clearly shown."
+        },
+        {
+          "location": "thread junction at upper shirt",
+          "limit": "White stitch thread becomes the vermilion route at a junction; continuity is graphic rather than one consistently colored thread."
+        }
+      ]
+    },
+    "material_edges": {
+      "observed": "Controlled illustration contours and explicit material edges. Heavy woodgrain/denim hatching rather than predominantly flat cuts."
+    },
+    "basic_style_exclusion": {
+      "observed": "Large repair structures and their contours define the seam and entry anchors; no empty-room or small-image appendage layout observed."
+    }
+  },
+  "residuals": [
+    {
+      "location": "upper shirt and lower patch fabric field",
+      "limit": "Blue denim and dense engraved texture depart from the assigned dark-green/acid-yellow/vermilion bounded cut-graphic palette and finish."
+    },
+    {
+      "location": "upper-right title and invitation at seam",
+      "limit": "Both are very bold, making the invitation compete strongly with title rather than moderate paired identity and body entry."
+    },
+    {
+      "location": "upper-center screwdriver exchange",
+      "limit": "Receiving palm supports metal shaft; fingers meeting shared handle are less clearly shown."
+    },
+    {
+      "location": "thread junction at upper shirt",
+      "limit": "White stitch thread becomes the vermilion route at a junction; continuity is graphic rather than one consistently colored thread."
+    }
+  ],
+  "decision": "One bounded repair for observed style/weight and transfer-handle clarity; retain body, copy and graphic field relationships."
+}

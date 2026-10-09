@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "role": "R10-C1-M1",
+  "stage": "initial",
+  "inspected_at_utc": "2026-10-08T05:36:34.840175+00:00",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M1/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M1/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M1/stages/initial/thumbnail-320.png"
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M1/stages/initial/original.png",
+      "sha256": "d96f7e20e71a1302afe8dc7433c717e5191e9fe6d8ebf0ebd6cd091d278aa870",
+      "bytes": 2099949,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M1/stages/initial/usage-720.png",
+      "sha256": "b08dedce94db688eca3acf31e63e123bc490fd2d5ef696d80db4757e6f170f8b",
+      "bytes": 471296,
+      "width": 720,
+      "height": 405
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M1/stages/initial/thumbnail-320.png",
+      "sha256": "7996c1de93a16510a29391dc0221c74099a76caa36e46d4390a60b6f54b6b82d",
+      "bytes": 107748,
+      "width": 320,
+      "height": 180
+    }
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "raw_observed_text": [
+    "다리 아래 영화관",
+    "BRIDGE CINEMA",
+    "야외 단편 상영 · 감독과의 대화",
+    "2026.12.05 토요일",
+    "18:00–20:30",
+    "홍제천 연가교 아래",
+    "17:30부터 입장",
+    "돗자리 지참",
+    "무료 관람 · 선착순 80명",
+    "우천 시 실내로 변경"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "다리 아래 영화관",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "다리 아래 영화관",
+      "first_observed_view": "native",
+      "location": "upper-left scene, first line",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "다리 아래 영화관",
+      "normalized_observed": "다리 아래 영화관",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 1,
+      "required": "BRIDGE CINEMA",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "BRIDGE CINEMA",
+      "first_observed_view": "native",
+      "location": "upper-left scene, beneath Korean title",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "BRIDGE CINEMA",
+      "normalized_observed": "BRIDGE CINEMA",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "required": "야외 단편 상영 · 감독과의 대화",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "야외 단편 상영 · 감독과의 대화",
+      "first_observed_view": "native",
+      "location": "upper-left scene, third line",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "야외 단편 상영·감독과의 대화",
+      "normalized_observed": "야외 단편 상영·감독과의 대화",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "required": "2026.12.05 토요일",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "2026.12.05 토요일",
+      "first_observed_view": "native",
+      "location": "right notice, top schedule line",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "2026.12.05 토요일",
+      "normalized_observed": "2026.12.05 토요일",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "required": "18:00–20:30",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "18:00–20:30",
+      "first_observed_view": "native",
+      "location": "right notice, second schedule line",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "18:00–20:30",
+      "normalized_observed": "18:00–20:30",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "required": "홍제천 연가교 아래",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "홍제천 연가교 아래",
+      "first_observed_view": "native",
+      "location": "right notice, beneath time",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "홍제천 연가교 아래",
+      "normalized_observed": "홍제천 연가교 아래",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "required": "17:30부터 입장",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "17:30부터 입장",
+      "first_observed_view": "native",
+      "location": "right notice, middle participation group first line",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "17:30부터 입장",
+      "normalized_observed": "17:30부터 입장",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "required": "돗자리 지참",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "돗자리 지참",
+      "first_observed_view": "native",
+      "location": "right notice, lower preparation group first line",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "돗자리 지참",
+      "normalized_observed": "돗자리 지참",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "required": "무료 관람 · 선착순 80명",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "무료 관람 · 선착순 80명",
+      "first_observed_view": "native",
+      "location": "right notice, middle participation group second line",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "무료 관람·선착순 80명",
+      "normalized_observed": "무료 관람·선착순 80명",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "required": "우천 시 실내로 변경",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "우천 시 실내로 변경",
+      "first_observed_view": "native",
+      "location": "right notice, bottom contingency line",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "우천 시 실내로 변경",
+      "normalized_observed": "우천 시 실내로 변경",
+      "equal": true,
+      "layout": {
+        "observed_lines": 1,
+        "word_boundaries": "Visible ordinary word gaps as transcribed; no soft wrap",
+        "fixed_newline_fidelity": "not applicable"
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "observed_entry_count": 10,
+      "required_entry_count": 10,
+      "observed_each_once": true,
+      "computed_normalized_equal_count": 10,
+      "all_practical_entries_read_at_usage720": true,
+      "extra_copy_logos_qr_watermark_observed": false,
+      "ambiguities": [],
+      "raster_semantics": "Optical transcription; no Unicode authentication claimed"
+    },
+    "style": {
+      "checked_requirement": "Cinematic photographic riverside screening and conversation at left; crisp pale full-height editorial notice at right; approachable adult neighborhood tone",
+      "observed": "Concrete bridge, fabric screen, water reflections, winter-jacket adult neighbors and motivated screen/amber lighting coexist with high-contrast dark notice lettering."
+    },
+    "ratio": {
+      "requested": "16:9",
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "expected_height_for_native_width": 940.5,
+      "absolute_height_rounding_error_px": 0.5,
+      "nearest_integer_rounding_permitted": true,
+      "native_resized": false
+    },
+    "single_flat_opaque": {
+      "observed_poster_count": 1,
+      "mockup_or_contact_sheet_observed": false,
+      "image_fills_canvas": true,
+      "png_ihdr_color_type": 2,
+      "alpha_channel_in_ihdr": false,
+      "observed_transparent_region": false
+    },
+    "substantive_visual": {
+      "observed": "Bridge shelter, river/path, supported cinema screen, six adults on separate mats, and one microphone-holding speaker identify outdoor screening and conversation; the scene is substantive."
+    },
+    "hangul": {
+      "observed": "Consistent proportions, visible internal counters and word spaces; no specific malformed or missing syllable observed at native/usage720."
+    },
+    "information_relationship": {
+      "observed": "Title and luminous screen at left lead into right schedule, participation, then preparation/contingency. All facts have protected pale-background contrast."
+    },
+    "function_contact": {
+      "observed": "Microphone belongs to one speaker hand/forearm; two screen supports contact the path; each seated adult occupies a distinct mat."
+    },
+    "material_edge_finish": {
+      "observed": "Natural concrete, fabric and water details; coherent warm bridge and white screen light; clean photo/notice edge and crisp text."
+    },
+    "supplied_asset_preservation": {
+      "required_assets": 0,
+      "measured_layout_required": false
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "left scene, central screen and lower foreground",
+      "observation": "A supported luminous screen displays a landscape still; six adults face it from individual mats, and the bridge underside and riverside water establish an outdoor screening."
+    },
+    {
+      "view": "native",
+      "location": "right edge of photographic scene beside screen",
+      "observation": "One standing speaker holds one visible handheld microphone near the mouth; the gripping hand connects to a bent forearm and jacket sleeve. No extra microphone is visible."
+    },
+    {
+      "view": "native",
+      "location": "screen lower corners and audience contact",
+      "observation": "Two black screen upright supports extend to feet on the path; mats rest flat with fabric edges and shadows under the seated figures."
+    },
+    {
+      "view": "usage720",
+      "location": "right notice entire height",
+      "observation": "Date, time and venue occupy the upper group, entry and free/capacity occupy the middle group, and mat/rain instructions occupy the lower group. Every line is readable with dark type on a pale field."
+    },
+    {
+      "view": "usage720",
+      "location": "identity at upper left",
+      "observation": "Korean title, uppercase English line and event descriptor are each read once. White lettering remains distinct from sky and dark bridge underside."
+    },
+    {
+      "view": "native",
+      "location": "Korean copy in both columns",
+      "observation": "Hangul has consistent squared proportions, open internal counters and visible word gaps; no specific malformed or missing syllable was observed."
+    },
+    {
+      "view": "native",
+      "location": "time, entry time, descriptor and admission punctuation",
+      "observation": "Both colons show two dots, the time range shows an elongated horizontal dash, and the descriptor/admission separators are visually middle dots. Raster reading does not authenticate encoded Unicode."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Luminous screen and large left title identify the gathering, while the pale vertical notice remains a strong second destination. No bottom information strip or alternate poster appears."
+    },
+    {
+      "view": "native",
+      "location": "scene surfaces and vertical boundary",
+      "observation": "Warm bridge lights and white screen illumination produce coherent concrete, cloth and water highlights. The hard vertical scene/notice edge is clean and prevents photographic glare from entering the facts."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "end of Korean title above bridge underside",
+      "observation": "The final title word overlaps the dark underside of the bridge rather than a sky-only clearing; white contrast remains readable."
+    },
+    {
+      "view": "native",
+      "location": "far-right foreground audience",
+      "observation": "The seated adult nearest the notice is partially cut by the photographic boundary; this crop preserves the notice width."
+    },
+    {
+      "view": "usage720",
+      "location": "speaker hand and small screen clamps",
+      "observation": "At the usage view, the microphone grip and support clamps are small; their finer anatomical/mechanical details were inspected in the native view."
+    }
+  ],
+  "selection_reason": "No observed literal-copy defect or usage720 unreadability warrants a repair. Initial retains the assigned immersive scene and vertical facts."
+}

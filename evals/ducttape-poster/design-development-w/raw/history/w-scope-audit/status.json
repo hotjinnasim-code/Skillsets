@@ -1,0 +1,263 @@
+{
+  "status": "complete",
+  "review_type": "narrow_independent_instruction_scope_and_design_review",
+  "reviewed_utc": "2026-10-08 18:48:24 UTC",
+  "baseline": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster",
+  "draft": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-w",
+  "compared_file_count": 12,
+  "changed_paths": [
+    "SKILL.md",
+    "references/layout-guide-contract.md",
+    "references/layout-guide.md",
+    "references/parallel-production.md",
+    "references/production-brief.md"
+  ],
+  "unchanged_paths": [
+    "agents/openai.yaml",
+    "references/art-direction.md",
+    "references/design-grammar.md",
+    "references/evaluation-loop.md",
+    "references/reference-catalog.json",
+    "references/visual-research.md",
+    "scripts/make_layout_guide.py"
+  ],
+  "findings": [],
+  "proposed_corrections": [],
+  "conclusion": "No concrete contradiction or material scope regression found within the requested review.",
+  "comparison_checks": {
+    "path_sets_match": true,
+    "declared_changed_file_record_matches_actual_bytes": true,
+    "helper_byte_identical": true,
+    "evaluation_loop_byte_identical": true,
+    "design_grammar_byte_identical": true,
+    "art_direction_byte_identical": true,
+    "post_generation_bounds": "The actual SKILL/parallel/production-brief diffs affect only pre-generation design/guide paragraphs. Native generation, correction/selection and post-generation sections remain unchanged.",
+    "thresholds_and_evaluator": "Evaluation-loop and art-direction bytes are unchanged. This audit edited no evaluator, helper, runtime, thresholds, bounds or raw records."
+  },
+  "scope_assessments": [
+    {
+      "topic": "Conditional guide use and fallback",
+      "evidence": [
+        "SKILL.md:38",
+        "references/production-brief.md:43",
+        "references/layout-guide.md:3",
+        "references/layout-guide.md:13",
+        "references/layout-guide.md:17"
+      ],
+      "result": "Pre-generation actual-copy sketch is scoped to complex prose plus practical information with a suitable available runtime. No-text/title-only/simple-copy requests gain no mandatory guide; unavailable or unsupported font/runtime falls back to the positive native brief without API, installation or setup."
+    },
+    {
+      "topic": "Full content and image geometry",
+      "evidence": [
+        "references/production-brief.md:9",
+        "references/layout-guide.md:5",
+        "references/layout-guide.md:7",
+        "references/design-grammar.md:7"
+      ],
+      "result": "The new instruction connects current meaning to viewpoint, object scale, crop, connection and substantive geometry together with actual text regions. It does not rely on enlarged fonts, changed material or entry copy alone."
+    },
+    {
+      "topic": "Copy, user scope and client assets",
+      "evidence": [
+        "SKILL.md:18",
+        "SKILL.md:42",
+        "references/layout-guide.md:5",
+        "references/layout-guide.md:7",
+        "references/layout-guide.md:9",
+        "references/parallel-production.md:19"
+      ],
+      "result": "Actual copy, fixed boundaries/newlines and specified style/layout/composition remain authoritative. Required client references/edit targets are all passed; guide delivery can be omitted to include them. No absent body copy, fixed font/menu/coordinates or new preservation conditions are added."
+    },
+    {
+      "topic": "Honest font/native-output claims",
+      "evidence": [
+        "references/layout-guide.md:9",
+        "references/layout-guide.md:11",
+        "references/layout-guide-contract.md:99",
+        "references/layout-guide-contract.md:129"
+      ],
+      "result": "The guide remains coded planning shapes/text, final poster production remains native image_gen, actual guide font bytes are not promised in the final raster, and returned-poster overlays/retypesetting are not introduced."
+    },
+    {
+      "topic": "Paths and gates",
+      "evidence": [
+        "references/layout-guide.md:13",
+        "references/layout-guide.md:17",
+        "references/layout-guide-contract.md:32",
+        "references/parallel-production.md:17"
+      ],
+      "result": "Current task workspace, fresh exclusive outputs and available-runtime use are explicit. Guide viewing is a design action, not a new user approval, evaluator, score threshold or all-request artifact gate."
+    }
+  ],
+  "file_comparison": [
+    {
+      "relative_path": "SKILL.md",
+      "live_v": {
+        "sha256": "7a2f1b71b15a1578269cc1dc21644966c8b93674808f1f74786de421f90acbdd",
+        "bytes": 22725
+      },
+      "draft_w": {
+        "sha256": "04875b72ea33005cb4dc65d4ca955fd40076f1b128107849e602290ee81a874a",
+        "bytes": 23337
+      },
+      "byte_identical": false
+    },
+    {
+      "relative_path": "agents/openai.yaml",
+      "live_v": {
+        "sha256": "7a9e257f2cdcdbbab372a4574faea6b69b208584275a2d66f86ae01fe4386be4",
+        "bytes": 1540
+      },
+      "draft_w": {
+        "sha256": "7a9e257f2cdcdbbab372a4574faea6b69b208584275a2d66f86ae01fe4386be4",
+        "bytes": 1540
+      },
+      "byte_identical": true
+    },
+    {
+      "relative_path": "references/art-direction.md",
+      "live_v": {
+        "sha256": "d8f5587ed18dd2cc2a7ebc4bba7bf44f14effea2129393c7bfd23bd63dfd771b",
+        "bytes": 19653
+      },
+      "draft_w": {
+        "sha256": "d8f5587ed18dd2cc2a7ebc4bba7bf44f14effea2129393c7bfd23bd63dfd771b",
+        "bytes": 19653
+      },
+      "byte_identical": true
+    },
+    {
+      "relative_path": "references/design-grammar.md",
+      "live_v": {
+        "sha256": "77418552f2fa1310063983eeb4ea274bc6d29d7971c9b880afdedd2981daa6ff",
+        "bytes": 10584
+      },
+      "draft_w": {
+        "sha256": "77418552f2fa1310063983eeb4ea274bc6d29d7971c9b880afdedd2981daa6ff",
+        "bytes": 10584
+      },
+      "byte_identical": true
+    },
+    {
+      "relative_path": "references/evaluation-loop.md",
+      "live_v": {
+        "sha256": "97449098b56468636519330a32a8f1ccbc5881cf92cd97c21315bc68705bd3d2",
+        "bytes": 19559
+      },
+      "draft_w": {
+        "sha256": "97449098b56468636519330a32a8f1ccbc5881cf92cd97c21315bc68705bd3d2",
+        "bytes": 19559
+      },
+      "byte_identical": true
+    },
+    {
+      "relative_path": "references/layout-guide-contract.md",
+      "live_v": {
+        "sha256": "45d1b52fba0481619ed9105ccdd60d5fb881f22e9b22fd48d353723322ae8ace",
+        "bytes": 10829
+      },
+      "draft_w": {
+        "sha256": "e5476c1aed79b9ab2c2308a86cd747cc580ff931efefd4c4a2d756e8891cd492",
+        "bytes": 11059
+      },
+      "byte_identical": false
+    },
+    {
+      "relative_path": "references/layout-guide.md",
+      "live_v": {
+        "sha256": "e58b5a4d91f36b5a90ab05840fd07702b3c288378520792eecd2fd5593e56404",
+        "bytes": 3639
+      },
+      "draft_w": {
+        "sha256": "ab65d49d9b3bf795474ccc0712a55af87b3c6d1c7f91581d8869ea84589655a3",
+        "bytes": 5070
+      },
+      "byte_identical": false
+    },
+    {
+      "relative_path": "references/parallel-production.md",
+      "live_v": {
+        "sha256": "1f13d349ad23285e72045a1f5f330600f48b2f9baa108e5f70cfe94530467ffd",
+        "bytes": 11602
+      },
+      "draft_w": {
+        "sha256": "3e706fdd676fc1222fbfece9deb70aa66dc5ba36148e4dc4761f7b2b3edf56c3",
+        "bytes": 12326
+      },
+      "byte_identical": false
+    },
+    {
+      "relative_path": "references/production-brief.md",
+      "live_v": {
+        "sha256": "dafea112a3300a8d9dd25c85a0ec59808ddd55a2fc2131bdeec69e90bebc99a7",
+        "bytes": 13696
+      },
+      "draft_w": {
+        "sha256": "2d0ab2b62b498f243abd56040a257048a954ecb752aa7c3a11202ab010d45550",
+        "bytes": 14484
+      },
+      "byte_identical": false
+    },
+    {
+      "relative_path": "references/reference-catalog.json",
+      "live_v": {
+        "sha256": "e4a0a9ff40a049e6fd1ea37a5876ff74f7b62dc92c1467909b9124fa75989574",
+        "bytes": 250773
+      },
+      "draft_w": {
+        "sha256": "e4a0a9ff40a049e6fd1ea37a5876ff74f7b62dc92c1467909b9124fa75989574",
+        "bytes": 250773
+      },
+      "byte_identical": true
+    },
+    {
+      "relative_path": "references/visual-research.md",
+      "live_v": {
+        "sha256": "677bb0b121b226ddcdb7cecd526bdc75f29b433caf1b1ea808b4fed3e71cbb00",
+        "bytes": 5682
+      },
+      "draft_w": {
+        "sha256": "677bb0b121b226ddcdb7cecd526bdc75f29b433caf1b1ea808b4fed3e71cbb00",
+        "bytes": 5682
+      },
+      "byte_identical": true
+    },
+    {
+      "relative_path": "scripts/make_layout_guide.py",
+      "live_v": {
+        "sha256": "00e21b3220d22f750fd2e142fd5d91d2c84bc2ace25e60ebaa1201b5449b4472",
+        "bytes": 29315
+      },
+      "draft_w": {
+        "sha256": "00e21b3220d22f750fd2e142fd5d91d2c84bc2ace25e60ebaa1201b5449b4472",
+        "bytes": 29315
+      },
+      "byte_identical": true
+    }
+  ],
+  "read_scope": [
+    "drafts/candidate-w/** and corresponding live V runtime paths (text/content as relevant, all bytes for comparison)",
+    "history/w-draft/review.md",
+    "history/w-draft/changed-files.json",
+    "Current guide contract and design grammar"
+  ],
+  "operations": {
+    "child_agents_spawned": 0,
+    "images_opened_or_generated": 0,
+    "scores_assigned": 0,
+    "helper_tests_rerun": false,
+    "web_calls": 0,
+    "draft_live_or_raw_edits": 0,
+    "git_staged_or_committed": false,
+    "writes": [
+      "history/w-scope-audit/review.md",
+      "history/w-scope-audit/status.json"
+    ]
+  },
+  "limits": [
+    "Textual applicability/static byte comparison only; no visual quality, native font fidelity, causal improvement, transfer result or universal guarantee is established.",
+    "No R20 future pixels, old poster/critic images, R19 raw evaluations or new production artifacts were read.",
+    "Frozen evaluator files outside the compared runtime were not rerun or independently reconstructed; no such files were modified.",
+    "This review is not adoption, installation or a new production approval step."
+  ]
+}

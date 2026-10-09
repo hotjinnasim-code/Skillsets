@@ -1,0 +1,49 @@
+{
+  "kind": "prescribed_source_attestation_audit",
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/reviews/R23-C1/initial/packet.json",
+    "sha256": "15a6948703dd6bc88e857c31d769fa935dd89ca3fab25d808200888dd0b29a51"
+  },
+  "case_id": "R23-C1",
+  "wave": "initial",
+  "gate": "PASS",
+  "expected_source_assets": 0,
+  "expected_protected_layout_manifests": 0,
+  "profiles": {
+    "editorial": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/reviews/R23-C1/initial/cli/editorial/editorial.json",
+        "sha256": "cb3d5588a071c5d11f9f0582c99eafeb1246900e08e7c3888c45d78e21f0b23e"
+      },
+      "observed_source_assets_viewed": [],
+      "observed_protected_layouts_read": []
+    },
+    "craft": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/reviews/R23-C1/initial/cli/craft/craft.json",
+        "sha256": "44aac3cb6a3df344538eca36b244d6ee4538cf53fb3dd538e886c0ddb949b332"
+      },
+      "observed_source_assets_viewed": [],
+      "observed_protected_layouts_read": []
+    },
+    "portfolio": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/reviews/R23-C1/initial/cli/portfolio/portfolio.json",
+        "sha256": "31f149e2c914db43d12773460059123a0449086649a548d6bf4a37b0cf99e9e1"
+      },
+      "observed_source_assets_viewed": [],
+      "observed_protected_layouts_read": []
+    }
+  },
+  "limits": [
+    "Checks existing frozen prompt requirements; no new aesthetic gate, raw rewrite or critic replacement.",
+    "Source viewing/read and order are semantic attestations, not serialized native-tool events.",
+    "The original frozen v4 summary remains separately preserved."
+  ]
+}

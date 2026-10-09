@@ -1,0 +1,668 @@
+You are one fresh, isolated ducttape-poster maker. Own exactly R24-C1-M2, one final independent poster.
+Your working/output directory is /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2. Do not spawn agents or create tasks. Do not read the full corpus, coordinator plans, other makers' directions/prompts/results, critic files, prior rounds, parent evaluation history or unrelated projects. Only read this job's pinned inputs and your own newly written evidence (plus the exact native source paths explicitly returned by your own tool). Never run another project executable or a wrapper/image-generation API, SDK, image CLI, credential/config/environment lookup. The only project helper you may execute is the pinned evidence_io.py below. Read-only access to exact pinned text and own-directory exclusive metadata writes/hash checks using the bundled Python are allowed. No Python/Pillow image or asset editing; the helper's QA-only reduction is the only pixel operation.
+
+First read these exact pinned inputs, applying the current SKILL and needed references. Read review_rules.md's native evidence/transcription contract. The evaluation reference does not authorize you to judge or inspect peers/critics:
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/case.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/assignment.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/agents/openai.yaml
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/art-direction.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/parallel-production.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/visual-research.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/evaluation-loop.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/production-brief.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/design-grammar.md
+- /Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/review_rules.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/evidence_io.py
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/run_agent.py
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/capability-probe/result.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/prepare_production.py
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.png
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.svg
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.spec.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.manifest.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/layout-guide.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/layout-guide-contract.md
+Read case.json and assignment.json. They contain the complete literal user input/common conditions and ONLY your assigned direction. Before designing, actually view every supplied image with tools.view_image through functions.exec, emitting it via image(...,'original'). Honor each supplied asset role and every requested identity/style/ratio/copy condition. Preserve reference geometry or measured_layout only when the user requests composition/position/proportion preservation; a style-only reference does not impose its coordinates. Old reference-poster copy is not new copy. All supplied images for this role are:
+[]
+
+COMPLETE ORIGINAL USER REQUEST (maker understanding and full verification context, not a compulsory native-prompt prefix):
+덕테이프 포스터로 도시 산책 프로젝트를 소개해줘. 천천히 걸을 때 익숙한 거리에서 새롭게 보이는 빛과 흔적을 매력적으로 표현해줘. 서로 확연히 다른 스타일의 포스터 다섯 장이 필요해. 첫 두 장은 16:9 가로, 나머지 세 장은 2:3 세로로 만들어줘. 좋은 구도와 읽기 순서는 공유해도 돼. 아래 Title과 본문만 각각 한 번씩 넣고, Title은 바로 알아볼 수 있게, 본문은 휴대폰에서 편하게 이어 읽게 해줘. 새 부제, eyebrow, 날짜, 장소, footer, 로고, QR이나 다른 문구를 만들지 말아줘. 큰 고딕 글씨와 단색 바탕에 작은 이미지나 질감만 붙이는 포스터는 제외해줘.
+
+Title: 걷다가 발견한 것들
+본문: 익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.
+
+ALL LITERAL COPY ENTRIES (full verification context; initial native spec prints this copy once, preserving exact strings, kinds, word spaces, punctuation and fixed-newline rules):
+[
+  {
+    "text": "걷다가 발견한 것들",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+    "kind": "text",
+    "fixed_newlines": false
+  }
+]
+
+COMMON USER CONDITIONS/STYLES/RATIOS (honor every applicable condition in the result; the role's ratio is "16:9"):
+{
+  "conditions": [
+    "Each of the supplied Title and body entries appears once with exact Korean/word boundaries/punctuation. No invented or additional copy roles, event data, logo, QR or watermark.",
+    "Five independent flat opaque single posters with each role's requested ratio; no comparison sheet or mockup.",
+    "Five clearly distinct achieved styles: image expression/editing, color/contrast, typographic voice, material/finish and emotion form intentional identities. Shared good layouts/order/alignment allowed; five unique component values/media/layouts not required. Filter/palette/font substitutions alone insufficient.",
+    "Substantive content-grounded nonglyph visuals communicate attentive urban walking and newly noticed light/traces.",
+    "Title immediately recognizable as the main typographic anchor; the full body is comfortably readable and naturally connected at usage720, with harmonious mature Korean forms. No missing role is required.",
+    "Exclude passive solid/near-solid/split-field gothic headline/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic, whitespace and coherent image-led scenes allowed."
+  ],
+  "styles": {
+    "mode": "open",
+    "invocation_interpretation": "Skill invocation is not a tape material requirement"
+  },
+  "ratios": [
+    "16:9",
+    "16:9",
+    "2:3",
+    "2:3",
+    "2:3"
+  ]
+}
+COMMON COORDINATOR CONSTRAINTS:
+[
+  "Each of the supplied Title and body entries appears once with exact Korean/word boundaries/punctuation. No invented or additional copy roles, event data, logo, QR or watermark.",
+  "Five independent flat opaque single posters with each role's requested ratio; no comparison sheet or mockup.",
+  "Five clearly distinct achieved styles: image expression/editing, color/contrast, typographic voice, material/finish and emotion form intentional identities. Shared good layouts/order/alignment allowed; five unique component values/media/layouts not required. Filter/palette/font substitutions alone insufficient.",
+  "Substantive content-grounded nonglyph visuals communicate attentive urban walking and newly noticed light/traces.",
+  "Title immediately recognizable as the main typographic anchor; the full body is comfortably readable and naturally connected at usage720, with harmonious mature Korean forms. No missing role is required.",
+  "Exclude passive solid/near-solid/split-field gothic headline/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic, whitespace and coherent image-led scenes allowed."
+]
+YOUR OWN DIRECTION, no peer plan:
+{
+  "role": "R24-C1-M2",
+  "ratio": "16:9",
+  "style_identity": "걸음과 소리가 휘어지는 평면 그래픽 — 선명한 면, 연결된 동작과 넓은 리듬",
+  "dominant_expression": "모든 형태를 균일한 색면, 또렷한 절단 경계, 열린 윤곽으로 만든다. 길게 굽은 두 밴드는 지나가며 달라지는 소리의 리듬이고, 각 보행의 종아리와 각진 신발은 연결된 납작한 실루엣이다. 창 빛은 단단한 사각 광면으로 한정한다.",
+  "content_visual_relationship": "서로 다른 걸음 순간의 세 다리 쌍이 넓은 소리 밴드와 만나며 한 화면을 가로지른다. 머리나 표정 대신 발걸음의 간격과 굽힘에 집중한다. 작은 창 빛의 사각 면이 그 사이에 끼어 익숙한 도시에서 리듬·빛을 새롭게 보는 감각을 만든다.",
+  "typography": {
+    "title_role": "보통 폭의 반듯한 고딕 Semibold, 깊고 열린 속공간, 일정한 획과 단정한 끝맺음. 제목 한 줄의 힘과 여백으로 즉시 식별한다.",
+    "body_role": "같은 골격의 Medium 한글, 설명 문단의 실질적인 몸체와 넓은 네 줄 면적. 자소 사이와 어절 간격, 마침표·쉼표를 명료하게 유지한다.",
+    "source_specific_body_area": "1600×900 자기 저작 스케치에서 Apple SD Gothic Neo Medium(index 2), 46 em, baseline spacing 66, x82/y582, 1070×288 영역. 실제 읽는 면적을 위한 이번 선택이다.",
+    "source_specific_title_area": "같은 family Semibold(index 4), 96 em, x82/y64, 1080×160 영역. 본문을 늘리는 것과 별개로 제목의 무게·간격을 정한다.",
+    "optical_intent": "usage720의 편한 설명 읽기가 목적이며, 폰트 명목 크기나 영역 fit은 판독 보증이 아니다. 실제 glyph의 고른 몸체·속공간·또렷한 대비를 참고한다."
+  },
+  "title_line_groups": [
+    "걷다가 발견한 것들"
+  ],
+  "body_line_groups": [
+    "익숙한 길을 천천히 걸으며",
+    "빛, 소리, 사람의 흔적을 만납니다.",
+    "스쳐 지나간 풍경에서",
+    "새로운 이야기를 발견해보세요."
+  ],
+  "reading_route": "왼쪽 위의 제목을 알아본 뒤 중간을 통과하는 발걸음·휘어진 밴드를 따라 화면을 읽고, 그 리듬이 열어 준 왼쪽 아래의 넓은 네 줄 본문으로 내려간다. 문단의 첫 줄부터 마지막 줄까지 하나의 시작축·본문 무게가 이어진다.",
+  "nearest_peer_difference": "M3과 모두 단단한 평면을 쓰지만 M2는 큰 열린 곡선·연속 동작·유색 면의 넓은 간격이 움직임을 만든다. M3은 하나로 연결된 검은 덩어리 안에 도시 세부를 절개하고 밝은 틈을 여는 밀도 체계다.",
+  "guide_geometry_concept": {
+    "purpose": "가로 실제 한글 문단의 몸체와 이미지의 평면 표현이 만나는 큰 관계를 첫 native 전에 설계한다. 이 두 번째 optional guide도 새 shapes와 actual-copy/font만 쓴다.",
+    "canvas": "1600×900",
+    "expression_shapes": "중간의 넓은 두 굽은 다각 면과 오른쪽 열린 타원 윤곽은 이어지는 소리의 리듬이다. 연결된 납작한 종아리·신발 세 쌍은 걸음 순간, 작은 황색 사각 면 두 개는 잠깐 마주치는 창 빛의 면이다. 선과 면의 평면성·큰 간격이 최종 표현을 주도한다.",
+    "copy_geometry": "본문은 왼쪽 x82/y582에서 넓은 네 줄로 시작한다. 제목과 같은 시작축을 공유하고 곡선·신발·빛 면은 문단 몸체 주위에 작은 문자처럼 붙지 않게 상부 이미지 영역에서 끝난다.",
+    "scope": "정확한 두 카피를 적합한 실제 font로 보는 계획 입력이다. 최종 flat graphic 포스터를 대체하거나 모든 Title+body 요청의 의무 guide로 일반화하지 않는다."
+  },
+  "guide_spec": {
+    "canvas": {
+      "width": 1600,
+      "height": 900,
+      "background": "#F1D8CC"
+    },
+    "shapes": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            326
+          ],
+          [
+            272,
+            268
+          ],
+          [
+            610,
+            330
+          ],
+          [
+            926,
+            222
+          ],
+          [
+            1258,
+            274
+          ],
+          [
+            1600,
+            164
+          ],
+          [
+            1600,
+            244
+          ],
+          [
+            1266,
+            352
+          ],
+          [
+            934,
+            304
+          ],
+          [
+            616,
+            412
+          ],
+          [
+            278,
+            350
+          ],
+          [
+            0,
+            414
+          ]
+        ],
+        "fill": "#223C87"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            454
+          ],
+          [
+            360,
+            422
+          ],
+          [
+            676,
+            470
+          ],
+          [
+            966,
+            392
+          ],
+          [
+            1280,
+            420
+          ],
+          [
+            1600,
+            350
+          ],
+          [
+            1600,
+            408
+          ],
+          [
+            1288,
+            480
+          ],
+          [
+            972,
+            450
+          ],
+          [
+            686,
+            530
+          ],
+          [
+            366,
+            482
+          ],
+          [
+            0,
+            514
+          ]
+        ],
+        "fill": "#668EB4"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            428,
+            224
+          ],
+          [
+            486,
+            230
+          ],
+          [
+            520,
+            436
+          ],
+          [
+            474,
+            448
+          ]
+        ],
+        "fill": "#D55740"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            484,
+            224
+          ],
+          [
+            538,
+            222
+          ],
+          [
+            574,
+            436
+          ],
+          [
+            534,
+            456
+          ]
+        ],
+        "fill": "#D55740"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            462,
+            430
+          ],
+          [
+            510,
+            428
+          ],
+          [
+            592,
+            468
+          ],
+          [
+            578,
+            498
+          ],
+          [
+            470,
+            474
+          ]
+        ],
+        "fill": "#16346B"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            534,
+            446
+          ],
+          [
+            574,
+            434
+          ],
+          [
+            654,
+            474
+          ],
+          [
+            638,
+            504
+          ],
+          [
+            548,
+            480
+          ]
+        ],
+        "fill": "#16346B"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            902,
+            150
+          ],
+          [
+            956,
+            142
+          ],
+          [
+            934,
+            354
+          ],
+          [
+            886,
+            354
+          ]
+        ],
+        "fill": "#D55740"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            961,
+            150
+          ],
+          [
+            1006,
+            166
+          ],
+          [
+            1052,
+            356
+          ],
+          [
+            1004,
+            372
+          ]
+        ],
+        "fill": "#D55740"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            888,
+            350
+          ],
+          [
+            934,
+            352
+          ],
+          [
+            999,
+            390
+          ],
+          [
+            982,
+            417
+          ],
+          [
+            884,
+            388
+          ]
+        ],
+        "fill": "#16346B"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1006,
+            368
+          ],
+          [
+            1050,
+            350
+          ],
+          [
+            1128,
+            386
+          ],
+          [
+            1114,
+            417
+          ],
+          [
+            1022,
+            400
+          ]
+        ],
+        "fill": "#16346B"
+      },
+      {
+        "type": "ellipse",
+        "x": 1120,
+        "y": 50,
+        "width": 398,
+        "height": 466,
+        "fill": "none",
+        "stroke": "#223C87",
+        "stroke_width": 18
+      },
+      {
+        "type": "ellipse",
+        "x": 1194,
+        "y": 130,
+        "width": 250,
+        "height": 305,
+        "fill": "none",
+        "stroke": "#223C87",
+        "stroke_width": 14
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1334,
+            178
+          ],
+          [
+            1382,
+            172
+          ],
+          [
+            1380,
+            371
+          ],
+          [
+            1340,
+            378
+          ]
+        ],
+        "fill": "#D55740"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1388,
+            180
+          ],
+          [
+            1432,
+            192
+          ],
+          [
+            1466,
+            376
+          ],
+          [
+            1424,
+            388
+          ]
+        ],
+        "fill": "#D55740"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1334,
+            370
+          ],
+          [
+            1380,
+            366
+          ],
+          [
+            1437,
+            413
+          ],
+          [
+            1416,
+            438
+          ],
+          [
+            1336,
+            411
+          ]
+        ],
+        "fill": "#16346B"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1424,
+            382
+          ],
+          [
+            1468,
+            370
+          ],
+          [
+            1538,
+            408
+          ],
+          [
+            1522,
+            438
+          ],
+          [
+            1438,
+            412
+          ]
+        ],
+        "fill": "#16346B"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            620,
+            182
+          ],
+          [
+            750,
+            160
+          ],
+          [
+            822,
+            254
+          ],
+          [
+            698,
+            282
+          ]
+        ],
+        "fill": "#F2BD60"
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            1130,
+            278
+          ],
+          [
+            1224,
+            254
+          ],
+          [
+            1284,
+            322
+          ],
+          [
+            1190,
+            350
+          ]
+        ],
+        "fill": "#F2BD60"
+      }
+    ],
+    "text_blocks": [
+      {
+        "copy": "걷다가 발견한 것들",
+        "lines": [
+          "걷다가 발견한 것들"
+        ],
+        "fixed_newlines": false,
+        "x": 82,
+        "y": 64,
+        "align": "left",
+        "line_spacing": 128,
+        "area": {
+          "width": 1080,
+          "height": 160
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 4,
+          "size": 96
+        },
+        "color": "#18356C"
+      },
+      {
+        "copy": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+        "lines": [
+          "익숙한 길을 천천히 걸으며",
+          "빛, 소리, 사람의 흔적을 만납니다.",
+          "스쳐 지나간 풍경에서",
+          "새로운 이야기를 발견해보세요."
+        ],
+        "fixed_newlines": false,
+        "x": 82,
+        "y": 582,
+        "align": "left",
+        "line_spacing": 66,
+        "area": {
+          "width": 1070,
+          "height": 288
+        },
+        "font": {
+          "path": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+          "index": 2,
+          "size": 46
+        },
+        "color": "#18356C"
+      }
+    ]
+  },
+  "native_positive_brief": "형태를 균일한 색면·또렷한 절단 경계·열린 윤곽으로 만든다. 넓고 길게 굽은 두 밴드가 소리의 리듬으로 화면을 가로지르고, 세 걸음 순간은 각각 종아리 두 개가 각진 신발에 이어지는 납작한 실루엣으로 표현한다. 창 빛은 작은 단단한 사각 광면이다. 면의 겹침과 큰 간격, 변하는 보행의 굽힘만으로 움직임을 만든다.\n\n다음 두 묶음을 각각 한 번 조판한다. 첫 묶음은 보통 폭·반듯한 끝맺음·깊은 속공간의 힘 있는 고딕 한 줄 제목이다. 둘째 묶음은 같은 골격의 고른 중간 획으로 넓게 차지하는 네 줄 설명 문단이다. 휴대폰에서 편하게 이어 읽는 본문 몸체와 행간을 먼저 확보하고 제목은 굵기·주변 여백으로 명확히 구별한다. 가이드의 실제 글자 몸체·문단 면적과 납작한 이미지 관계를 참고한다.\n\n걷다가 발견한 것들\n\n익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요.\n\n16:9 가로. 제목과 문단은 왼쪽 시작축을 공유하고, 중간을 지나는 걸음의 세 순간·소리의 곡선·잠깐의 창 빛이 화면 전반을 조직한다. 각 다리 쌍의 종아리와 신발 접속을 명료하게 두고 오른쪽 큰 열린 윤곽으로 리듬을 마무리한다. 부드러운 살구색 바탕, 짙은 남색·중간 청색의 밴드, 벽돌색 보행과 따뜻한 황색 광면을 평평하고 정밀하게 결합한다. 본문 뒤의 열림은 이미지 곡선과 동작이 만드는 공간이다.\n\n독립된 불투명 평면 포스터 한 장을 요청 비율로 완성한다. 표시 문구는 위 두 묶음뿐이며 새 문구·로고·QR·워터마크를 넣지 않는다. 큰 고딕 정보판과 단색 바탕에 작은 이미지나 질감만 붙이는 기본 템플릿 구성은 제외한다.",
+  "guide": {
+    "png_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.png",
+    "role": "Optional coordinator-owned actual-copy/font and expression planning reference; not a client asset, final artwork, protected geometry or native font-file-application proof"
+  }
+}
+
+Keep the complete request and verification record separate from a focused native production spec. Apply the skill's native-input boundary: exact printed copy once in the initial spec, all relevant client constraints, and your chosen concrete whole visual design. Do not mechanically prepend the request, copy JSON, plan JSON, rubric, or reference commentary to the tool prompt. Repairs state the observed change and protected relationships; retain any exact text needed for that edit and verify the entire copy after return. Do not drop necessary constraints to shorten a prompt.
+
+Native generation ONLY: tools.image_gen__imagegen via functions.exec, exactly one single flat opaque poster per call, transparent_background:false, assigned width:height ratio. No multi-poster comparison panels, contact sheet, mockup or extra experiment image. A single finished poster may contain legitimate content-based image sequences or information modules as its chosen layout. For this aspect-only case, include: "요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력". Explicit user pixel dimensions or lower-resolution requests take precedence; for those requests use the specified output size instead. This is a request, not proof of maximum output; measure the returned native dimensions.
+The predeclared ratio policy permits nearest-integer native rounding of one edge, <=0.5 pixel from the exact requested ratio on one dimension. Report actual dimensions, never resize or claim mathematically exact ratio, and do not spend a repair only on permitted rounding. Materially wrong aspect ratio still needs correction. This tolerance never overrides an explicit pixel-size request.
+One initial attempt plus at most TWO own repairs, including actual failed native attempts: at most three native invocations for this role/candidate, named initial, repair-1, repair-2 in that order. A new role name or regeneration does not reset the budget. Correct only your own actually inspected defects while retaining the specified genre and user constraints. Do not claim quality PASS or assign scores from self-inspection. Do not seek or receive external critic scores before exclusive selection closure.
+
+BEFORE EACH invocation, exclusively create stages/STAGE/call-input.json containing the COMPLETE EXACT JSON argument object that will be passed to tools.image_gen__imagegen (do not add metadata-only arguments). Separately exclusively create pre-call.json with role, stage, prepared_at_utc, native_tool, complete planned argument/input hash pins, supplied reference pins, own observed repair cause/maintained features, and attempt number. Save both before starting; do not retrofit them after a return. Keep the identical argument object in runtime store for the native invocation. Fresh initial without supplied references omits BOTH referenced_image_paths and num_last_images_to_include. With supplied assets, actually pass ALL required local asset paths using referenced_image_paths; omit num_last_images_to_include. For a bounded repair with a previous returned inspected own image, pass that exact own target and all required client assets using referenced_image_paths, never a peer result. If the immediate prior attempt failed, use the last actually returned inspected own target if any; otherwise make a fresh bounded retry with required client assets and no invented repair target. Preserve immediate-attempt failure evidence and record the actual target stage separately when it differs. Never guess a newer file or use directory newest-file scanning.
+
+The native functions.exec cell starts with exactly this directive:
+// @exec: {"yield_time_ms":120000,"max_output_tokens":1000}
+Before awaiting tools.image_gen__imagegen, store/emit the actual caller UTC start and role/stage. Emit meaningful native-wait status at intervals <=45 seconds via notify()/setTimeout while awaiting (no invented model percentage). Clear the timer on return/failure. Record actual caller UTC end and whether the invocation returned or failed; preserve explicit returned path/result hints and real error metadata separately in stages/STAGE/native-call.json after return. Its wrapper interval describes the awaited native call, not helper runtime or model internals. Do not print/notify raw result/base64; retain needed result metadata in runtime store and display the generated image with generatedImage(result) as supported. Never infer source paths or generation times from filenames/helper saved_at. When yielded, resume only that exec cell, without submitting the image call again.
+
+For every returned PNG, obtain its exact absolute source path from the actual tool return, then execute the pinned helper with safely quoted exact paths:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/evidence_io.py' save-native --role R24-C1-M2 --stage STAGE --source EXACT_RETURNED_ABSOLUTE_PATH --role-dir '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2'
+Replace only STAGE/EXACT_RETURNED_ABSOLUTE_PATH with actual values. The helper saves byte-identical original.png/final.png, QA views and manifest.json. It does NOT edit typography, materials, crop or assets. If the returned source path is unavailable or preservation fails, preserve the actual error/tool evidence and report the unsealable return honestly; do not invent an image path or relabel a returned image as a failed native call. Stop for root handling rather than claiming a selectable asset.
+
+ACTUALLY inspect EVERY returned stage before deciding another native invocation, in this exact order: original.png at native detail, usage-720.png, thumbnail-320.png. For native display use:
+const v = await tools.view_image({path: exactOriginalPath, detail:'original'}); image(v.image_url,'original');
+Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS.
+
+Every returned repair needs exclusive parent-comparison.json: role, stage, parent_stage, parent_outcome:'returned'|'failure', the immediate parent's exact parent_manifest_sha256 and parent_native_sha256 OR parent_failure_sha256, changes:[], residuals:[]. Compare actually viewed returned stages, preserving earlier advantages; a failure parent has no visual comparison. Prefer the most suitable inspected result, not automatically the latest; preserve ALL returned originals, failures and unselected stages.
+For each actual failed native invocation, write failure.json with role, stage, outcome:'failure', native_call_count:1, error:the actual recorded error. Preserve its pre-call/input/native-call evidence. Failures count in the three-attempt cap; no placeholder images or false inspection.
+
+When one or more inspected native outcomes exist, choose the most suitable returned stage and execute only:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/evidence_io.py' finalize --role-dir '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2' --selected-stage CHOSEN_STAGE
+Replace CHOSEN_STAGE with initial, repair-1 or repair-2. selection.json is exclusive and immutable before any critics. Do not alter stage inputs, images, observations, selected pins or selection after closure. The helper rejects missing/out-of-order outcomes and nonexistent comparisons. Do not also create unavailable.json.
+ONLY when all THREE actual attempts failed, do not call finalize or fabricate selection.json. Exclusively write unavailable.json with schema_version:1, kind:'role_unavailable', case_id, role, outcome:'unavailable', closed:true, reason:actual failure explanation, counts:{native_calls:3,returned:0,failed:3,repair_calls:2}, stages:[{stage,outcome:'failure',failure:{path,sha256},input_pins:{call_input:{path,sha256},pre_call:{path,sha256}},native_call:{path,sha256}}] for all three preserved actual stages. selection.json and unavailable.json may NEVER coexist. Any interruption or returned-but-unsealable outcome is explicitly incomplete, not an invented all-failed terminal record.
+
+Return a compact account of the true terminal path, selected native dimensions if any, actual call/repair/failure counts, and concrete unresolved limits. No quality score, universal guarantee or extra image generation.
+
+OWN OPTIONAL COORDINATOR GUIDE: actually view /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.png at original detail before the first native call; read /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.spec.json, /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.manifest.json, /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/layout-guide.md and /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/snapshots/candidate-ab/references/layout-guide-contract.md. /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.svg is pinned supporting evidence. This is your own actual-copy/font and expression planning diagram, not a client image asset, final artwork or protected coordinate requirement. Only the supplied Title and body exist; do not invent roles. Soft display line breaks may replace source word spaces when fixed_newlines is false, while the immutable verification copy keeps every original word boundary and punctuation. Geometry, line counts and font sizes in the diagram are planning choices, not new client constraints. Do not open font files or execute the renderer. The diagram's actual-font anatomy does not assert native application of a font file.
+Create the assigned complete image expression/editing, color/contrast, typographic voice, material/finish and emotion; the guide is a starting design reference. Good layouts, Title/body order and alignment may be shared. Five unique media/layouts/component values are not required, and superficial filter/palette/font substitution alone is insufficient. No original-artwork reopening, full catalog read or fresh browsing is required.
+EXACT INITIAL REFERENCE BRANCH FOR THIS ROLE: pass referenced_image_paths:["/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/guides/layout.png"] and omit num_last_images_to_include. Actually view that exact own PNG first and record its pin and planning role in pre-call.json. The case's client assets remain empty. For bounded repairs, include this same own guide plus the exact inspected previous returned own native target when one exists; after an actual failure use the last inspected own returned target if any, otherwise this own guide only. No peer guide/poster, coordinator source paths, additional reference or invented repair target. Preserve all actual failures and the unchanged three-call/two-repair limit. The focused native prompt prints the exact supplied copy once and describes the concrete design; do not pass plan/spec JSON or evaluation instructions.

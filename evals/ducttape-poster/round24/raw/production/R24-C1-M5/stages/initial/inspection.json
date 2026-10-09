@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "role": "R24-C1-M5",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/initial/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "raw_observed_text": [
+    "걷다가\n발견한 것들",
+    "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "걷다가 발견한 것들",
+      "raw_observed": "걷다가\n발견한 것들",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_required": "걷다가 발견한 것들",
+      "normalized_observed": "걷다가 발견한 것들",
+      "equal": true,
+      "layout": {
+        "observed_line_count": 2,
+        "fidelity": "Soft wrapping at original word boundaries; no fixed-newline requirement."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 1,
+      "required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+      "raw_observed": "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+      "normalized_observed": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+      "equal": true,
+      "layout": {
+        "observed_line_count": 4,
+        "fidelity": "Soft wrapping at original word boundaries; no fixed-newline requirement."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "observations": [
+    {
+      "view": "native",
+      "location": "중상부 왼쪽 제목",
+      "observation": "걷다가 / 발견한 것들의 두 줄 군청 고딕이 가장 큰 활자이며 본문보다 분명히 무겁다. 글자 획은 평면이고 속공간이 열려 있다."
+    },
+    {
+      "view": "usage720",
+      "location": "제목 바로 아래 왼쪽 본문 네 줄",
+      "observation": "첫 줄부터 마지막 줄까지 같은 시작축과 고른 행간으로 이어 읽힌다. 쉼표 둘과 두 문장의 마침표가 보인다. 이미지 경계가 문단 사이를 나누지 않는다."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "전체 편집의 흐름",
+      "observation": "상부 코트의 사선 접힘, 중앙 오른쪽 문손잡이, 하부 세로 천 골이 밝은 비정형 글자 열림을 감싸는 하나의 화면으로 이어진다. 비문자 이미지가 상하와 오른쪽을 크게 조직한다."
+    },
+    {
+      "view": "native",
+      "location": "상부 코트 표면 및 하부 천 골",
+      "observation": "코트의 접힘과 천 골은 식별되지만 작은 불규칙 입자가 거의 모든 표면에 퍼져 있다. 사진 세부의 두톤 변환 인상이 강하며 균일한 큰 마스크 면과 제한된 접촉면 망점의 구분이 약하다."
+    },
+    {
+      "view": "native",
+      "location": "중앙 오른쪽 문손잡이",
+      "observation": "곡면의 빛과 닳은 표면, 녹슨 붉은색이 관찰된다. 로제트와 손잡이의 곡선 일부가 크롭되어 있고 손이나 얼굴은 없다."
+    }
+  ],
+  "mandatory": {
+    "copy": {
+      "entry_count": 2,
+      "visible_instances_per_entry": [
+        1,
+        1
+      ],
+      "additional_visible_copy": false,
+      "ambiguities": []
+    },
+    "style": {
+      "checked_requirement": "세 접촉의 큰 두톤 추출과 국소 망점의 교차",
+      "observed": "세 모티프의 큰 크롭과 맞물림, 군청·아이보리·녹슨 붉은색은 보인다.",
+      "limit": "코트와 천의 대부분에 미세 입자가 퍼져 큰 마스크 면과 국소 망점이 약하게 구분된다."
+    },
+    "ratio": {
+      "requested_width_height": [
+        2,
+        3
+      ],
+      "dimensions_from_manifest": true,
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "ratio_cross_products_equal": true
+    },
+    "substantive_visual": {
+      "observed": "코트의 움직이는 접힘·사용으로 닳은 문손잡이·창가 천의 빛 골이 글자와 독립된 내용 기반 이미지를 이룬다."
+    },
+    "typography": {
+      "observed": "보통 폭의 제목과 같은 계열 중간 획 본문. 음절 크기·획 끝·속공간이 일관되고 어절 간격이 구별된다. 본문은 usage720에서 네 줄 연속 문단으로 읽힌다."
+    },
+    "information_relationship": {
+      "observed": "큰 이미지 사선에서 두 줄 제목으로, 같은 왼쪽 시작축의 바로 아래 본문 첫 줄과 마지막 줄까지 이동한다."
+    },
+    "function_contact": {
+      "applicability": "사용 흔적의 접촉면 표현만 요구됨; 실제 손 동작·제품 기능 검증 요청은 없음",
+      "observed": "금속 곡면 위 밝은 마찰과 녹슨 자국이 보인다. 사람의 손은 그려지지 않았다."
+    },
+    "material_edge_finish": {
+      "observed": "거친 이미지 인쇄 경계와 선명한 활자가 구분된다.",
+      "limit": "이미지 대부분의 불규칙 입자가 선택적인 망점 표현 대신 전체 사진 질감처럼 이어진다."
+    },
+    "excluded_template": {
+      "observed": "상부 사선 접힘·오른쪽 금속 크롭·하부 세로 천 골이 중앙의 비정형 카피 열림을 실제로 만든다. 작고 부가적인 이미지로 정보판을 꾸미는 관계는 보이지 않는다."
+    },
+    "format": {
+      "observed": "한 장의 세로 평면 포스터; 비교판·목업·로고·QR은 보이지 않는다."
+    }
+  },
+  "residuals": [
+    {
+      "view": "native",
+      "location": "코트와 천 이미지의 넓은 표면",
+      "observation": "불규칙 입자가 넓게 퍼지고 사진 세부를 남겨 큰 두톤 마스크와 국소 망점 중심의 지정 표현이 덜 구현되었다."
+    }
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/initial/original.png",
+      "sha256": "d2731d0e82c0d2d989c951d1406a990874baac66d95826546fda2892515c2a65",
+      "bytes": 3597763,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/initial/usage-720.png",
+      "sha256": "9708e71d1cf5a71d94c398bdf58a46baf35deb10c900598608ec3e0f74bd55df",
+      "bytes": 1682482,
+      "width": 720,
+      "height": 1080
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/initial/thumbnail-320.png",
+      "sha256": "7639ad1a46a7199f71319e8c2d28e9280d767c7a06e8d7f58abebfbafc02b4d0",
+      "bytes": 144558,
+      "width": 213,
+      "height": 320
+    }
+  ]
+}

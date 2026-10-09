@@ -1,0 +1,65 @@
+{
+  "status": "complete",
+  "review_type": "read_only_final_publication_advisory",
+  "publication_ready_at_read": false,
+  "r24_quality_at_read": "pending; no critic output reviewed",
+  "read_pins": [
+    {"path": "scripts/final_publication_checks.py", "sha256": "fe8e814fcb5f6df214882c365e56de410b64fb7342c50b1786ab87fd0dfc56cd", "read_scope": "full text, lines 1-118; not executed"},
+    {"path": "Skillsets/README.md", "sha256": "da9665f741105eefb4f535b82cb5d84d8ca8df15722e24b12d01489831333356", "read_scope": "full text, lines 1-65; local link target existence metadata"},
+    {"path": "drafts/ducttape-poster-final-pr-body.draft.md", "sha256": "5b5574d5f8262f7bbf67af559608e6b75f7911053293bfb86135fe26af0cdaf3", "read_scope": "full text, lines 1-11"}
+  ],
+  "actionable_issues": [
+    {
+      "id": "finalize_r24_publication_copy",
+      "priority": 1,
+      "evidence": ["Skillsets/README.md:61", "drafts/ducttape-poster-final-pr-body.draft.md:9", "scripts/final_publication_checks.py:34-64", "scripts/final_publication_checks.py:78-93"],
+      "action": "After real R24 closure, replace the draft blocker and README pending wording with the actual outcome/counts/limits; add the archived R24 report link. Check that publication copy has no remaining unresolved marker. The checker does not inspect completion status or the PR draft.",
+      "current_pending_wording_is_expected": true,
+      "quality_pass_presumed": false
+    },
+    {
+      "id": "final_index_and_commit_binding",
+      "priority": 1,
+      "evidence": ["Git index differs from working bytes for all eight unstaged README/runtime files", "21 untracked entries remain", "scripts/final_publication_checks.py:47-76", "scripts/final_publication_checks.py:85-92", "scripts/final_publication_checks.py:110"],
+      "action": "Stage intended final scope only after documentation/results are final, include required new reference/runtime/report deliverables, and compare actual staged/committed runtime plus report/link targets to the intended final freeze. Current checker PASS covers working bytes only."
+    },
+    {
+      "id": "pr_body_exclusion_claim",
+      "priority": 2,
+      "evidence": ["drafts/ducttape-poster-final-pr-body.draft.md:3", "Skillsets/README.md:13"],
+      "action": "Separate the defined template's default exclusion from lower priority for clay/object repetitive packages, while retaining explicit applicable user overrides."
+    }
+  ],
+  "local_link_metadata": {"readme_local_file_targets": 33, "missing_file_targets": [], "outside_skillsets": [], "anchors_checked": false},
+  "git_metadata_pin": {
+    "repo": "Skillsets",
+    "head": "69329bce02bdb2fccbb411fc8122edc4df6f1116",
+    "branch": "improve/ducttape-poster-visual-concepts",
+    "porcelain_v1_z_sha256": "515ea4f64149bf65feb3849163fc92db1bf692331339903289fcddac84121f99",
+    "unstaged_name_list_z_sha256": "faf5362ae103f66be18d8069e8c6c6b7fcb991a50c6f64d9a8488e8e49c8014a",
+    "status_entries": 4000,
+    "status_codes": {"MM": 7, "A ": 3971, "AM": 1, "??": 21},
+    "outside_allowed_scope": [],
+    "staged_shortstat": "3979 files changed, 1023763 insertions(+), 230 deletions(-)",
+    "unstaged_paths": ["README.md", "skills/ducttape-poster/SKILL.md", "skills/ducttape-poster/agents/openai.yaml", "skills/ducttape-poster/references/art-direction.md", "skills/ducttape-poster/references/evaluation-loop.md", "skills/ducttape-poster/references/parallel-production.md", "skills/ducttape-poster/references/production-brief.md", "skills/ducttape-poster/references/visual-research.md"],
+    "index_working_hash_pairs": [
+      {"path": "README.md", "index_sha256": "0a9b8539bcf55bba33f65421074f5764b5a5af1c9275a240f2e92a76d456b49e", "working_sha256": "da9665f741105eefb4f535b82cb5d84d8ca8df15722e24b12d01489831333356"},
+      {"path": "skills/ducttape-poster/SKILL.md", "index_sha256": "4fdb5781fde7eceff50b88f4dbc5d17a68c4d717b08903ce1b5c505e31662102", "working_sha256": "9e16b3a8f39fa11211eac46f410b6ac350c03bfe8034a528014776b5ca94048c"},
+      {"path": "skills/ducttape-poster/agents/openai.yaml", "index_sha256": "76d730ed7071757a71c89b2c51a35fdcd70b17da2908e49ebcb5fc0e9e86ac32", "working_sha256": "85437531eedfd79bfc99edd9abcce0e988f0a256873ba0c3a9f95476b9682bf8"},
+      {"path": "skills/ducttape-poster/references/art-direction.md", "index_sha256": "3ea3aed08ef7a9499e612bea52b2de58bcd67a4804e46e2c1c6b2e73de6654c5", "working_sha256": "781281693fda5ce0799ecbc24090f369af3baa0c78ae2d50d1574e55db63447c"},
+      {"path": "skills/ducttape-poster/references/evaluation-loop.md", "index_sha256": "231a80a09ac0e66fdb7861e5b653b3bba1850b8cf75c1c9295ffbf95a0c35e1b", "working_sha256": "91553006db6ed19d26bb0d75e7e0227d8285099a3c77909edb0b32eb45db950c"},
+      {"path": "skills/ducttape-poster/references/parallel-production.md", "index_sha256": "7d3f7c4ec740035f5444d605dc66706c35afd8de863d444ed7e80eee4f944774", "working_sha256": "9dda82782415b47a0831a45dbf7e1acf6d89ebc38b0c16d1d6708e211c4e18be"},
+      {"path": "skills/ducttape-poster/references/production-brief.md", "index_sha256": "f7f4296610adf76c51dfd30f3e9d9ad8fa660fc9b23d9ec6c663f9cc4f0d9083", "working_sha256": "16fa1ef94aea0f87bcbfda4d8060af29b41dcb9f7ae8a70846515db63abde186"},
+      {"path": "skills/ducttape-poster/references/visual-research.md", "index_sha256": "40686b4dbfb15e4f3c7619790d1b0b0417b21dc571626600c24c615a306b2390", "working_sha256": "774409c14f1b973901308334850d530f7da8e3c28bc2e9b9be85227c1d5e569b"}
+    ],
+    "untracked_entries": ["evals/ducttape-poster/design-development-aa/", "evals/ducttape-poster/design-development-v/", "evals/ducttape-poster/design-development-w/", "evals/ducttape-poster/design-development-y/", "evals/ducttape-poster/design-development-z/", "evals/ducttape-poster/layout-guide-helper/", "evals/ducttape-poster/reference-research/", "evals/ducttape-poster/round15/", "evals/ducttape-poster/round16/", "evals/ducttape-poster/round17/", "evals/ducttape-poster/round18/", "evals/ducttape-poster/round19/", "evals/ducttape-poster/round20/", "evals/ducttape-poster/round21/", "evals/ducttape-poster/round22/", "evals/ducttape-poster/round23/", "skills/ducttape-poster/references/design-grammar.md", "skills/ducttape-poster/references/layout-guide-contract.md", "skills/ducttape-poster/references/layout-guide.md", "skills/ducttape-poster/references/reference-catalog.json", "skills/ducttape-poster/scripts/"],
+    "checker_fixed_output_exists": false
+  },
+  "limits": [
+    "No publication checker, test suite, helper, native/image tool, or new agent executed; metadata-only Git/link reads and the requested three-file text review were performed.",
+    "No images or current R24 critic output viewed; quality is pending and no PASS or final completion claimed.",
+    "Only this advisory review.md and status.json were written; repository, draft, script, staging, and publication state were not changed.",
+    "Local file-target existence was checked, not anchors, remote URLs, or the final committed tree.",
+    "Git state and read hashes identify the inspected moment; concurrent later updates require final verification."
+  ]
+}

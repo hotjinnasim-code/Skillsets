@@ -1,0 +1,141 @@
+import json
+from pathlib import Path
+
+R=Path.cwd().resolve();G=R/'guides'
+PINNED=[
+'/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/planning/single-five-case.json',
+'/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-u/SKILL.md',
+'/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-u/references/production-brief.md',
+'/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-u/references/design-grammar.md',
+'/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-u/references/layout-guide.md',
+'/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/layout-guide-helper/revision-v2/make_layout_guide.py',
+'/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/layout-guide-helper/revision-v2/README.md']
+C=[v['text'] for v in json.loads(Path(PINNED[0]).read_text(encoding='utf-8'))['cases'][0]['copy']]
+
+ROLE_DETAILS={
+'m3':[
+('identity','의복의 넓은 하단 크롭에 붙는 두 줄 행사 제목. 본문과 다른 축으로 장면을 식별한다.','secondary event identity'),
+('identity and comparison','왼쪽 위 의자 손상 크롭의 가로 길이를 쓰는 비교 어휘. 제목 아래 번역 부제가 아니라 서로 다른 순간을 읽는 진입점이다.','comparison entry'),
+('meaning','오른쪽 위 공동 손동작 크롭에 놓인 두 줄 의미 문장. 손상의 두 확대 사진을 함께 고치는 행동으로 해석하게 한다.','primary semantic anchor'),
+('understanding','수리 사진의 왼쪽 절개에서 시작해 세 줄의 오른쪽 끝이 점차 넓어지는 연속 본문. 마지막 줄은 학습 내용을 온전히 마친다.','continuous explanation'),
+('identity and next anchor','본문 마지막 줄 바로 아래 같은 시작축에서 워크숍의 성격과 지역을 확정한다.','paragraph exit anchor'),
+('attendance decision','행사 이름에서 이어지는 한 줄 날짜. 제목과 경쟁하는 별도 숫자 패널이 아니라 일정 묶음의 시작이다.','calendar anchor'),
+('attendance decision','날짜와 같은 왼쪽 축에서 요일과 네 시간의 참여 시간을 함께 읽게 한다.','calendar continuation'),
+('attendance decision','시간 다음 줄에 놓아 같은 방문 판단 안에서 장소를 찾게 한다.','visit destination'),
+('participation condition','장소 다음 줄에서 비용과 제공 도구를 함께 제시한다. 수리 장면의 실제 도구와 의미가 연결된다.','participation condition'),
+('action','오른쪽 아래 바느질 접점으로 들어가는 신청 묶음의 첫 줄. 날짜 묶음과 같은 시작점을 반복하지 않고 행동 마감으로 기능한다.','registration anchor'),
+('action','마감 아래 두 줄로 물건 한 가지를 가져오라는 참여 준비를 설명한다. 마지막 동사는 이 짧은 초대 문구의 강조이며 긴 본문의 고립된 결말이 아니다.','preparation invitation'),
+('action','바느질 사진의 접점 옆 가장 아래에 두는 실행 주소. 비용 줄과 간격을 확보해 독립된 신청 동작으로 읽힌다.','registration destination')],
+'m4':[
+('identity','이웃들의 몸이 만들어 준 오른쪽 위 열린 윤곽에 두 줄로 놓는 제목. 초대가 먼저 말을 건 뒤 이야기의 이름을 붙인다.','story identity'),
+('identity','들어오는 사람의 어깨 높이와 맞춘 위쪽 중앙 한 줄. 공동 작업을 묶는 이름이며 한국어 제목 바로 아래의 종속 부제가 아니다.','shared-activity signature'),
+('meaning','오른쪽 제목 아래에서 손을 맞잡는 장면을 의미로 마무리하는 두 줄 문장. 왼쪽 설명과 따로 첫 앵커를 경쟁하지 않는다.','narrative resolution'),
+('understanding','왼쪽 위 초대 아래의 네 줄 연속 문단. 첫 문장의 가져올 대상과 둘째 문장의 도구 공유·학습을 두 줄씩 이어 읽게 한다.','continuous explanation'),
+('identity and next anchor','본문 바로 아래 같은 왼쪽 축에 둔다. 이야기가 실제 동네 워크숍임을 확정하고 의자 쪽으로 시선을 보낸다.','paragraph exit anchor'),
+('attendance decision','중앙의 공동 드라이버 접점 오른쪽에서 일정의 첫 줄을 찾는다. 아래쪽 인물의 자세가 이 영역을 연다.','calendar entry beside contact'),
+('attendance decision','날짜 바로 아래의 시간. 숫자와 한글의 기준선·광학 크기를 맞춘 안정된 안내다.','calendar continuation'),
+('attendance decision','시간 아래에 붙는 방문 장소. 오른쪽 장면의 열린 몸 윤곽을 따라 읽힌다.','visit destination'),
+('participation condition','장소 다음 줄에서 비용과 도구 제공을 함께 읽는다. 바로 왼쪽의 나누는 드라이버가 이 조건을 실감하게 한다.','participation condition'),
+('action','옷의 바늘실이 돌아오는 왼쪽 아래에 둔 마감. 초대와 같은 시작축으로 돌아와 읽는 고리를 닫는다.','registration return anchor'),
+('action and meaning','왼쪽 위에서 가장 먼저 말을 거는 두 줄 초대. 구체적인 한 물건을 든 이웃의 팔과 연결되는 주도 문구다.','primary invitation anchor'),
+('action','마감 아래 같은 왼쪽 축에서 신청을 끝내는 주소. 바느질 손동작과 연결되며 하단 전체 안내 띠로 확장하지 않는다.','registration destination')]
+}
+
+
+def guide_paths(stem):
+    return {key:str(G/f'{stem}{suffix}') for key,suffix in [('spec_path','.spec.json'),('png_path','.png'),('svg_path','.svg'),('manifest_path','.manifest.json')]}
+
+
+def line_roles(spec,manifest,role):
+    spec_by={b['copy']:b for b in spec['text_blocks']};man_by={b['copy']:b for b in manifest['text_blocks']}
+    entries=[]
+    for i,copy in enumerate(C):
+        b=spec_by[copy];m=man_by[copy];kind,relation,hierarchy=ROLE_DETAILS[role][i]
+        entries.append(dict(source_entry=i+1,text=copy,actual_lines=b['lines'],semantic_role=kind,hierarchy=hierarchy,image_and_next_anchor_relation=relation,guide_area_px=[b['x'],b['y'],b['area']['width'],b['area']['height']],alignment=b['align'],baseline_spacing_px=b['line_spacing'],guide_font=m['font'],actual_line_advance_px=[v['advance_px'] for v in m['line_measurements']]))
+    return entries
+
+configs={
+'m3':dict(
+role_id='R18-C1-M3',direction_name='상처와 손 사이의 편집',
+large_relationship='상단의 의자·옷 손상 확대와 오른쪽의 공동 수리 사진을 비대칭으로 맞물리고, 그 절개가 여는 세 줄 본문에서 일정으로 내려간다. 제목은 왼쪽 아래 옷의 큰 크롭에 붙고 신청은 오른쪽 바늘 접점에서 끝난다.',
+positive_direction_brief='손상을 보는 거리와 함께 고치는 거리를 일부러 바꾼 편집 사진 몽타주다. 의자 장부의 벌어진 틈과 옷 소매의 찢어진 선을 상단의 서로 다른 두 확대 크롭으로 보여 준 뒤, 오른쪽 큰 크롭에서 한 이웃은 의자 다리를 붙잡고 다른 이웃은 같은 접점에 드라이버를 대는 실제 손의 협업을 보여 준다. 왼쪽 아래 옷 크롭은 단순 반복 장식이 아니라 손상에서 다시 쓰임으로 넘어가는 같은 물건의 더 넓은 모습이다. 시각의 첫 의미는 오른쪽 상단 문장과 왼쪽 상단 영문 비교 어휘가 함께 맡는다. 본문은 사진 사이의 연결 면적을 먼저 확보해 세 줄로 놓고, 오른쪽 사진을 줄의 길이에 맞춰 비스듬히 후퇴시킨다. 마지막 줄에서 같은 시작축의 행사 이름과 날짜·시간·장소·참가 조건을 찾는다. 오른쪽의 옷을 함께 잡는 손과 바늘 접점에는 마감, 가져올 물건, 주소가 한 행동 묶음으로 붙는다. 한국어 제목은 아래쪽 옷의 넓은 면에 두 줄로 놓아 행사 식별을 맡는다.',
+image_type_coupling=dict(
+edit_decisions=['상단의 의자 틈과 소매 찢어짐은 가까운 거리의 서로 다른 사진 크롭이다. 오른쪽 협업 사진의 도구 접점은 의자 틈과 대응하는 위치·방향을 가진다.','오른쪽 협업 크롭의 왼쪽 경계가 본문 첫 줄 오른쪽에서는 좁고 셋째 줄에서는 더 넓게 물러난다. 세 줄의 실제 문장 길이가 이 절개의 폭을 결정한다.','왼쪽 아래 소매의 확대가 제목의 두 줄 폭을 열며, 오른쪽 아래 같은 옷을 잡는 두 손은 신청 문구의 착지점이 된다.'],
+shared_boundary='가이드의 오른쪽 수리 영역은 문단 위의 두 손에서 내려와, 첫 줄과 셋째 줄의 다른 끝점을 따라 열린다. 글자는 인쇄 평면에 안정적으로 서고 사진 표면 위의 원근 글자로 변형되지 않는다.',
+no_passive_panel_relation='큰 사진의 크롭·반복·접점이 문단과 제목·신청 위치를 정한다. 본문이 들어갈 연결 면적은 박스나 찢어진 종이 없이 몽타주의 열린 절개로 이어진다.'),
+concrete_visual_execution=dict(
+medium='실제 재질과 손 접촉이 보이는 선명한 편집 사진. 단일 실내 풍경 대신 의자 장부, 소매, 손, 드라이버, 바늘을 다른 거리로 크롭한다.',
+chair_repair='나무 의자 등받이·좌판 또는 다리의 결합이 알아보이게 남긴다. 벌어진 장부의 틈, 한 사람이 조인트를 눌러 고정하는 손, 다른 사람이 나사를 돌리는 손, 도구 끝과 나사의 실제 맞닿음을 보인다.',
+clothing_repair='회청색 데님이나 짙은 작업복 소매의 찢어진 가장자리와 보풀을 보여 주고, 다른 크롭에서 두 손이 같은 소매를 잡으며 바늘이 가장자리로 들어가는 순간을 보여 준다. 장식 도구의 흩뿌림 대신 물건과 손의 짝이 반복된다.',
+crop_and_scale='상단의 손상 두 크롭, 오른쪽의 큰 공동 작업 크롭, 왼쪽 아래의 옷 확대가 서로 다른 크기로 맞물린다. 오른쪽 사진이 본문을 둘러싼 절개에서 후퇴하며, 인물 얼굴보다 실제 물건과 손동작의 근접성이 주도한다.',
+color_and_emotion='작업복의 깊은 남청·청회색, 나무의 갈색, 피부와 조명의 온기, 소매 패치의 주황을 사용한다. 조용하지만 손상이 고쳐질 수 있다는 확신이 드러나는 거리다. 글자를 읽는 연결 면은 사진에서 이어지는 낮은 묘사 밀도의 차가운 청회색으로 두고 이미지의 선명한 접점을 살린다.',
+finish='사진 경계는 정확한 직선·사선 크롭으로 편집하며 이미지의 결·광택은 재료에만 남긴다. 안내 활자는 매끈하고 또렷하다. 회색 가이드 도형은 최종 사진·색·질감을 뜻하지 않는다.'),
+reading_route=['상단 오른쪽 의미 문장과 상단 왼쪽 영문 비교 어휘에서 손상의 두 크롭을 본다.','오른쪽에서 함께 드라이버를 잡은 두 손과 사진의 절개가 가운데 왼쪽 본문 첫 줄로 시선을 보낸다.','본문 세 줄을 연속해 읽은 뒤 같은 왼쪽 축의 워크숍 이름으로 내려간다.','그 아래 날짜·시간·장소·참가 조건으로 참석 판단을 한다. 왼쪽 아래 옷의 제목은 그 과정에서 행사 이름을 다시 붙인다.','오른쪽 아래 옷과 두 손의 접점에 붙은 신청 마감, 가져올 물건, URL로 끝난다.'],
+paragraph_shape_note='줄 시작은 하나의 왼쪽 축에 고정한다. 516·606·618px의 자연스러운 오른쪽 rag가 점차 넓어져 사진 절개의 사선과 맞물린다. 둘째 줄은 첫 문장을 닫고 이웃과 도구를 열며 셋째 줄이 공유와 배움의 의미를 온전히 마친다. 글자 간격을 늘려 오른쪽을 맞추지 않는다.',
+font_reason='본문은 Apple SD Gothic Neo Regular 46px의 열린 속공간과 안정된 획을 선택했다. 비교 어휘는 SemiBold 50px, 주도 의미 문장은 Light 76px, 옷 크롭의 제목은 Medium 78px다. 본문의 평면성과 의미 문장의 가벼운 큰 골격, 행사 제목의 중간 무게를 독립적으로 선택했다.',
+native_tool_prompt_recommendation='16:9 편집 사진 포스터. 벌어진 나무 의자 장부와 찢어진 소매의 확대 크롭을, 두 이웃이 같은 드라이버와 물건을 잡는 큰 수리 크롭에 맞물려 편집한다. 사진 절개가 여는 넓어지는 세 줄 본문에서 일정으로 내려가고, 제목은 왼쪽 아래 옷 크롭, 신청은 오른쪽 바느질 접점에 둔다. 제공된 12개 문구를 한 번씩 정확히 넣고, 가이드의 읽는 관계와 정밀한 평면 본문을 참고해 실제 사진과 색으로 구현한다.'),
+'m4':dict(
+role_id='R18-C1-M4',direction_name='한 가지 물건이 이웃에게 닿는 길',
+large_relationship='왼쪽 위의 가져오라는 초대와 네 줄 본문에서 시작해, 중앙의 의자를 들고 서로 몸을 기울이는 사람들의 손 접점으로 건너가 오른쪽 일정에 닿는다. 옷의 실이 왼쪽 아래 마감·주소로 돌아오며, 제목과 의미 문장은 오른쪽 위 장면의 이름과 결말을 맡는다.',
+positive_direction_brief='하나의 물건을 들고 이웃에게 다가가는 적극적인 초대를 한 장의 표현적인 인물 이야기로 만든다. 큰 초대 문구는 왼쪽 위에서 먼저 말을 걸고, 바로 아래 연속 네 줄 본문이 의자·옷을 가져오는 일과 도구를 나누어 배우는 일을 두 문장으로 설명한다. 본문 아래 행사 이름이 실제 워크숍임을 확정한다. 중앙에서는 의자를 든 이웃의 어깨와 팔, 몸을 기울이는 수리자의 팔이 넓은 S 흐름을 만들며 두 손이 같은 드라이버의 손잡이와 조인트를 함께 다룬다. 아래쪽 옷 소매에는 프레임 밖에서 들어오는 또 다른 이웃의 손과 바늘을 든 손이 같은 천을 붙잡는다. 제목은 오른쪽 위의 인물 윤곽이 열어 준 곳에 가벼운 큰 두 줄로 놓고, 의미 문장은 그 아래에서 이 행동의 의미를 마무리한다. 도구 접점 오른쪽에 일정·장소·조건을 두며, 소매의 실이 돌아오는 왼쪽 아래에 마감과 신청 주소를 두어 초대의 시작축으로 돌아온다.',
+image_type_coupling=dict(
+edit_decisions=['한 장의 큰 인물 서사를 사용한다. 들어오는 이웃의 긴 팔과 의자 등받이의 기울기가 왼쪽 초대에서 중앙의 공동 작업으로 이어진다.','왼쪽 본문 폭과 네 줄 높이를 먼저 비워 둔 뒤 인물의 팔·옷·의자 크기를 정한다. 오른쪽 안내의 연속 면적은 몸을 기울이는 수리자의 윤곽을 밖으로 열어 확보한다.','제목은 오른쪽 위, 본문은 왼쪽 위, 도구 접점과 일정은 중앙에서 오른쪽 중간, 마감·주소는 실이 돌아오는 왼쪽 아래에 놓인다. 사람의 동작이 서로 떨어진 묶음을 연결한다.'],
+shared_boundary='본문은 4줄의 안정된 왼쪽 정렬을 유지하고 그 밖으로 지나가는 팔과 의자 윤곽이 다음 앵커를 가리킨다. 실제 옷의 실은 이미지 안에서만 흐르고 글자 위를 가로지르지 않는다.',
+no_passive_panel_relation='정보 상자를 배경에 붙이는 대신, 큰 성인 인물·의자·천이 장 전체의 이동과 열린 읽기 면적을 만든다. 본문과 일정은 그 서사 안의 연속된 평면 활자로 읽힌다.'),
+concrete_visual_execution=dict(
+medium='넓은 색 면과 힘 있는 마른 붓·목탄 윤곽을 함께 쓰는 표현적 일러스트레이션. 성인의 몸·얼굴·몸을 기울이는 힘을 묘사하고, 도구 접점은 명확한 구체성으로 그린다.',
+chair_repair='등받이의 여러 가로 살, 좌판, 네 다리 중 보이는 두 다리와 느슨한 결합부가 알아보이는 목제 의자다. 들고 온 이웃이 의자를 안정시키고 수리자가 손잡이를 잡으며 두 사람의 손이 같은 드라이버에 닿는다. 나사 쪽 끝은 결합부와 맞닿는다.',
+clothing_repair='아래쪽에는 찢어진 소매와 직사각형 패치의 관계를 크게 보여 준다. 한 손은 천 가장자리를 잡고 다른 손은 바늘을 통과시킨다. 프레임 밖 참여자의 전완이 들어와 같은 소매를 받쳐 공동 작업임을 드러낸다.',
+crop_and_scale='인물의 팔·어깨와 의자의 기울기가 중앙을 가로지른다. 하체와 들어오는 전완은 화면 가장자리에서 자연스럽게 크롭된다. 작은 삽화나 소품 아이콘이 아니라 큰 몸과 물건 사이의 사건이 주도한다.',
+color_and_emotion='깊은 청록 윤곽, 생기 있는 주홍·분홍 옷 면, 푸른 천과 밝은 바늘실을 사용한다. 넓은 흐린 청색 공간은 활자 주변에서 부드럽게 열리고 사람·천·의자의 색 면이 그 공간을 계속 가로지른다. 웃음만 반복하기보다 몸을 가까이 기울이는 집중과 서로를 향한 자신 있는 초대를 표현한다.',
+finish='몸과 천의 일부 윤곽에는 붓의 속도와 인쇄색 겹침을 남기고 손가락·드라이버·바늘의 접점은 선명하게 묘사한다. 모든 안내는 깨끗한 평면 활자다. 회색 도형은 동작과 면적의 계획이며 최종 채색·얼굴·재질의 지시가 아니다.'),
+reading_route=['왼쪽 위 가져오라는 큰 초대가 먼저 독자에게 말을 건다. 들어오는 팔이 그 문구와 함께 보인다.','같은 왼쪽 축에서 네 줄 본문을 연속해 읽고 바로 아래 지역 워크숍 이름으로 내려간다.','의자 등받이와 두 사람의 팔을 따라 중앙 드라이버 접점으로 건너간다. 위쪽 중앙 영문은 함께하는 활동의 식별로 작동한다.','오른쪽 위 제목과 의미 문장을 장면의 이름과 결말로 읽고, 손 접점 오른쪽의 날짜·시간·장소·참가 조건을 찾는다.','아래쪽 소매와 바늘실의 방향을 따라 왼쪽 아래 마감·신청 주소로 돌아와 행동을 마친다.'],
+paragraph_shape_note='568×246px의 연속 공간에 4줄을 같은 시작축으로 두며 행간은 61px다. 첫 두 줄이 가져올 대상과 초대를 한 문장으로 닫고, 다음 두 줄이 도구 공유와 배움을 한 문장으로 닫는다. 실제 폭은 424·303·516·487px이며 짧은 둘째 줄도 목적어와 동사가 함께 있는 문장 결말이다. 마지막 줄은 다시 쓰는 방법과 배우는 행위를 함께 담아 고립된 마지막 동사를 만들지 않는다.',
+font_reason='본문은 Apple SD Gothic Neo Medium 46px로, 붓 이미지와 대비되는 또렷하고 일정한 획을 선택했다. 독자에게 먼저 말을 거는 초대는 Medium 60px이고, 오른쪽 위 제목은 Light 92px로 무게를 다르게 잡는다. 일정 42px 계열과 행사 이름 SemiBold 46px는 한글·숫자의 광학 크기를 맞추며 이미지의 거친 표면을 활자에 반복하지 않는다.',
+native_tool_prompt_recommendation='16:9 표현적 인물 일러스트레이션. 의자를 들고 다가온 이웃과 몸을 기울인 수리자가 같은 드라이버를 잡고, 아래에서는 함께 잡은 찢어진 소매에 바늘이 들어간다. 왼쪽 위 초대와 네 줄 본문에서 손동작을 따라 오른쪽 중간 일정으로 건너가고, 바늘실을 따라 왼쪽 아래 마감·주소로 돌아온다. 제목은 오른쪽 위의 열린 인물 윤곽에 두며, 제공된 12개 문구를 한 번씩 정확히 넣고 이미지의 힘 있는 붓결과 또렷한 평면 활자를 함께 구현한다.')
+}
+
+D=[];counts=[]
+for role,version,attempt_count in [('m3',3,3),('m4',2,2)]:
+    stem=f'r18-c1-{role}-guide-v{version}'
+    paths=guide_paths(stem)
+    spec=json.loads(Path(paths['spec_path']).read_text(encoding='utf-8'))
+    manifest=json.loads(Path(paths['manifest_path']).read_text(encoding='utf-8'))
+    assert sorted(b['copy'] for b in spec['text_blocks'])==sorted(C)
+    assert len(spec['text_blocks'])==12
+    assert all(' '.join(b['lines'])==b['copy'] for b in spec['text_blocks'])
+    assert all(Path(path).is_file() for path in paths.values())
+    body=next(b for b in manifest['text_blocks'] if b['copy']==C[3])
+    conf=configs[role]
+    note=conf.pop('paragraph_shape_note');font_reason=conf.pop('font_reason')
+    conf.update(ratio='16:9',guide=paths,actual_line_roles=line_roles(spec,manifest,role),paragraph_shape=dict(actual_lines=body['lines'],planned_area_px=body['planned_area_px'],actual_line_advance_px=[v['advance_px'] for v in body['line_measurements']],size_px=body['font']['size_px'],baseline_spacing_px=body['line_spacing_px'],shape_and_semantics=note,budget_order='본문의 실제 문장 면적과 사용 크기를 먼저 확보한 뒤 이미지의 크롭·인물 윤곽·제목의 비중을 정했다.',display_assumption=dict(width_px=720,equivalent_body_px=round(body['font']['size_px']*720/1672,2),meaning='설계 가정과 면적 예시다. 생성 포스터의 사용 크기 검증이나 고정 판독 문턱을 주장하지 않는다.')),typography=dict(selection_reason=font_reason,font_files_copied=0,guide_only='명세와 PNG는 실제 설치 폰트의 선택을 기록한다. SVG 뷰어와 후속 네이티브 생성에 동일 폰트 파일·좌표가 적용된다고 보장하지 않는다.'),guide_observation='새로 만든 현재 PNG를 직접 열어 실제 문구·단락·큰 도형 관계를 확인했다. 중립 회색은 계획 표시이며 사진/일러스트레이션의 실제 묘사와 최종 스타일은 구현 전이다.',native_prompt_assembly='짧은 추천 문장과 actual_line_roles의 원문 text를 각 한 번씩 사용한다. 이 JSON 전체나 시도 로그를 네이티브 도구 프롬프트로 붙이지 않는다.')
+    D.append(conf)
+    attempts=[]
+    for n in range(1,attempt_count+1):
+        astem=f'r18-c1-{role}-guide-v{n}'
+        logpath=G/f'{astem}.render-log.json';log=json.loads(logpath.read_text(encoding='utf-8'))
+        entry=dict(attempt=n,spec_path=str(G/f'{astem}.spec.json'),render_log_path=str(logpath),exit_code=log['exit_code'],renderer_result='outputs_created' if log['exit_code']==0 else 'no_outputs_created',error=log['stderr'] or None)
+        if log['exit_code']==0:entry['outputs']=guide_paths(astem)
+        attempts.append(entry)
+    counts.append(dict(role_id=conf['role_id'],planning_brief_count=1,current_reference_count=1,renderer_attempts=attempt_count,renderer_successful_attempts=sum(v['exit_code']==0 for v in attempts),renderer_failed_attempts=sum(v['exit_code']!=0 for v in attempts),render_limit=3,native_calls=0,poster_outputs=0,current_reference=paths,attempts=attempts))
+
+limitations=[
+'이 산출물은 두 역할의 중앙 설계 브리프와 직접 만든 계획 도형이다. 포스터 생성·전체 다섯 장 비교·최종 승인·품질 판정은 수행하지 않았다.',
+'1672×941은 요청된 가이드 반올림 캔버스이며 후속 네이티브 이미지의 새 픽셀 요구가 아니다. 후속 결과는 16:9를 구현한다.',
+'가이드의 회색·단순 손·몸·물건 도형은 큰 크롭·접점·흐름만 보여 준다. 실제 사진의 접촉·재질과 일러스트의 얼굴·몸 묘사는 아직 구현된 포스터가 아니다.',
+'PNG는 실제 Apple SD Gothic Neo 파일과 선택한 TTC face를 사용한다. SVG는 설치된 family·weight를 요청하며 뷰어가 폰트를 바꿀 수 있다. 폰트는 복사·다운로드·내장하지 않았다.',
+'가이드는 후속 image_gen에 폰트 파일·정확한 좌표·동일한 문자 모양을 강제하거나 보장하지 않는다. Pillow와 SVG의 획·커닝·래스터화도 다를 수 있다.',
+'720px 폭은 본문 예산의 설계 가정이다. 생성 포스터의 720px 판독·한글 재현·최종 관계를 확인한 상태로 보고하지 않는다.',
+'첫 렌더는 두 역할 모두 AppleMyungjo의 필요한 cmap/OS/2 메타데이터 문제로 중단되었다. 원래 명조 spec과 오류 로그를 보존하고, 실제 사용 가능한 Neo face를 새 spec에서 독립적으로 골랐다.',
+'기본 /usr/bin/python3에는 Pillow가 없었다. 기존 설치된 Pillow 패키지를 PYTHONPATH로 읽어 실행했고 의존성·폰트 설치나 네트워크 접근 없이 해결했다. uv 런타임 검색은 기본 캐시 디렉터리 생성 권한 문제로 중단되었고 그 실패도 별도 기록했다.'
+]
+
+directions=dict(schema_version=1,case_id='R18-C1',candidate='U',artifact_type='independent central design planning',owned_roles=['R18-C1-M3','R18-C1-M4'],scope='두 개의 완전한 문구/이미지 결합 방향과 각 새 SVG·PNG 계획 참조. 다섯 포스터 제작·비교는 ROOT 소관이다.',canvas=dict(width=1672,height=941,note='가이드용 반올림; 클라이언트 네이티브 픽셀 요건 추가 아님'),directions=D,internal_pair_difference='M3는 서로 다른 사진 거리와 맞물린 편집 절개에서 세 줄 본문·아래쪽 제목을 만든다. M4는 독자에게 먼저 말하는 초대와 네 줄 문단, 사람의 S 동작, 오른쪽 중간 일정, 왼쪽 아래로 돌아오는 신청 경로를 한 장의 서사에 결합한다. 두 역할의 진입 문구·문단 위치·다음 앵커·제목 기능이 실제로 다르다.',composition_scope='기존 기본 제외는 유지한다. 두 설계는 실제 수리 장면·크롭·인물 동작이 전체를 조직하며 제목·날짜·정보 판형에 작은 부속 이미지를 붙이거나 빈 방·흰 찢어진 중앙 종이를 글자판으로 쓰는 관계를 택하지 않는다.',limitations=limitations)
+
+status=dict(schema_version=1,case_id='R18-C1',candidate='U',state='two_direction_briefs_and_current_guides_written',output_folder=str(R),directions_path=str(R/'directions.json'),status_path=str(R/'status.json'),counts=dict(owned_planning_roles=2,prepared_planning_briefs=2,current_svg_references=2,current_png_references=2,current_manifests=2,renderer_attempts_total=5,renderer_outputs_created_attempts=3,renderer_no_output_failures=2,preserved_spec_files=5,preserved_svg_files=3,preserved_png_files=3,preserved_manifests=3,native_image_calls=0,image_gen_calls=0,web_calls=0,agents_spawned=0,poster_outputs_created=0,bitmap_inputs_opened=0,raster_input_edits=0,own_new_png_view_actions=3,font_binaries_copied=0),call0=dict(native_image_calls=0,image_gen_calls=0,web_calls=0,agents_spawned=0,credentials_accessed=0),roles=counts,copy_accounting=[dict(role_id=v['role_id'],source_entries=12,guide_text_blocks=12,every_entry_once=True,word_spaces_and_punctuation_conserved=True,added_printed_labels=0,paragraph_continuous=True) for v in counts],input_scope=dict(pinned_design_files_read=PINNED,old_images_read=0,old_scores_read=0,other_assistant_designs_or_source_artwork_read=0,third_party_runtime_note='Only an existing installed Pillow package was imported to execute the pinned renderer; no project art or plans at that runtime location were read.'),root_handoff=dict(full_request_poster_count_owned_by='ROOT',full_set_comparison='not performed by this assistant',native_generation='not performed; briefs and references are ready for ROOT comparison',quality_scores='not produced',universal_pass_fail='not produced',final_approval='not produced'),runtime=dict(python='/usr/bin/python3',pillow_read_from='/Users/nahyeonbin/.codex/worktrees/terrain-alignment/NAMOK-Bible-Maps/.cache/terrain-python/lib/python3.9/site-packages',font_runtime_error_preserved=True,probe_logs=[str(R/'runtime-probe-01.log'),str(R/'runtime-probe-02.log')],successful_output_writes='all inside the given workspace',outside_workspace_cache_probe='uv attempted to initialize its default cache outside the workspace; OS denied directory creation; the failure is preserved and that command was not used for rendering.'),limitations=limitations)
+
+with (R/'runtime-probe-02.log').open('x',encoding='utf-8') as f:
+    f.write('uv python find --offline returned exit 2 before rendering.\nerror: Failed to initialize cache at /Users/nahyeonbin/.cache/uv\nCaused by: failed to create directory /Users/nahyeonbin/.cache/uv: Operation not permitted (os error 1)\nuv cache dir only returned its default path. No dependency was installed.\nExisting Pillow package was subsequently located by filename-only runtime discovery and imported with PYTHONDONTWRITEBYTECODE=1 and PYTHONPATH.\nNo project plans, artwork or bitmap inputs at that runtime location were opened.\nAll renderer cwd and successful output paths are in this workspace.\n')
+for name,payload in [('directions.json',directions),('status.json',status)]:
+    with (R/name).open('x',encoding='utf-8') as f:json.dump(payload,f,ensure_ascii=False,indent=2);f.write('\n')
+    print(name)

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "role": "R9-C1-M4",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "02a94a3937305956703638b01691340c383787567af045ad073d97497b633a23",
+  "parent_native_sha256": "7fc48f695e6559ceb5e1cec708f638a21107a4f7d978a91301363a619cc498b7",
+  "changes": [
+    {
+      "location": "activity",
+      "observation": "Changed from one line to two at a word boundary, without copy omission."
+    },
+    {
+      "location": "attendance guidance",
+      "observation": "Larger glyphs than initial, while group shifts right of shared identity left edge."
+    },
+    {
+      "location": "center edges at top",
+      "observation": "Rough torn-paper edge replaced by straight boundary, and center extends farther left."
+    },
+    {
+      "location": "schedule",
+      "observation": "Date/time/venue grew; group spacing is tighter."
+    },
+    {
+      "location": "images",
+      "observation": "Natural adults, microphone contact and cinema-under-bridge scene retained; photographic continuous tones and lower corridor encroachment remain."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "right shoulder and left elbow, lower center",
+      "description": "The center still narrows below mid-height: right shoulder begins near66% and left elbow passes approximately31%, instead of an uninterrupted x28–71% corridor."
+    },
+    {
+      "location": "both image territories",
+      "description": "Natural photographic colors and continuous skin/clothing shading persist; black/off-white tonal-cut expression was not implemented."
+    },
+    {
+      "location": "usage720 practical guidance",
+      "description": "Visible glyph heights remain approximately14–15px, below the assigned at least17px target."
+    },
+    {
+      "location": "copy alignment",
+      "description": "Practical group begins near36% while identity/schedule beginnear32%; no common left edge."
+    }
+  ]
+}

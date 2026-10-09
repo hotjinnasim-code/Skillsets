@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R10-C1",
+  "role": "R10-C1-M4",
+  "candidate": "J",
+  "ordinal": 4,
+  "expected_count": 5,
+  "ratio": "16:9",
+  "direction": {
+    "role": "R10-C1-M4",
+    "ratio": "16:9",
+    "concept": "Projection opens the bridge underside into cinema and illuminates the information.",
+    "substantive_non_glyph_visual": "Large cropped projector lower-left sends a widening beam to a supported screen at far right beneath bridge deck/arch. Seated adults and a mic-holding side speaker establish public screening and exchange. These are connected functional shapes, not light decoration.",
+    "expression_system": "Forceful hard-edge graphic, local halftone and controlled beam/shadow overlap. Coherent flat apparatus, bridge and audience; strong chromatic and typographic impact stays intentional.",
+    "copy_visual_relationship": "Compact oversized left title leads to the brightest time range in the right beam; date/venue belong to time. Joining/preparation use broad lower light. Title outside optical path, facts within it gives type two distinct jobs.",
+    "whole_visual_layout": "Left35% holds two-line title/English/descriptor above low projector; right65% is a widening clear wedge. Screen is visible at far-right beyond facts; bridge weight stays toward outer top, audience low. Spacious beam boundary replaces a thick frame/sidebar.",
+    "typography_plan": "Heavy square title78–90 px: 다리 아래 / 영화관; English29–31, descriptor30–32 over two word-boundary lines if needed. Time52–58, date35–39, venue35, practical31–34. Facts use600+ px broad beam span, not tapering corners.",
+    "color_material_emotion": "Ink-dark plum, vivid chartreuse light and coral structure, pale reversed type. Controlled flat boundaries/halftone/transparency. Energetic adult evening cinema announcement.",
+    "closest_other_role": "R10-C1-M2",
+    "distinction": "M4 has one expanding optical plane opposed by compact headline/apparatus; time is second focus. M2 has two human crops, central title and separated utility islands. Their large shapes and reading paths remain distinct without effects.",
+    "reference_observations": [
+      {
+        "url": "https://www.pentagram.com/work/the-public-theater",
+        "observed_principle": "Dancing on Her Knees connects directional image/type while edge credits take another role.",
+        "current_request_application": "Make beam direct headline-to-time; use broad utility area instead of tiny edge credits."
+      },
+      {
+        "url": "https://www.studiofeixen.ch/sudpol/",
+        "observed_principle": "Grillfest uses overlapping planes around one continuous action.",
+        "current_request_application": "Connect apparatus/light/screen/bridge and protect facts before expanding structure."
+      }
+    ],
+    "positive_construction": "Aim lens at screen; beam widens continuously. Keep bridge weight near outer crop and reserve broad light for facts. Ground each seated silhouette; speaker owns mic/forearm. Build strong two-line title with counters/word gaps, keeping optical edges away from factual glyphs.",
+    "copy_groups": [
+      {
+        "copy_indexes": [
+          0,
+          1,
+          2
+        ],
+        "role": "strong identity",
+        "position_relationship": "Left: two-line title, English, descriptor above projector."
+      },
+      {
+        "copy_indexes": [
+          4,
+          3,
+          5
+        ],
+        "role": "time-led useful facts",
+        "position_relationship": "Broad beam: time, adjacent date, venue directly below."
+      },
+      {
+        "copy_indexes": [
+          6,
+          8
+        ],
+        "role": "entry and capacity",
+        "position_relationship": "Wide lower beam block after venue."
+      },
+      {
+        "copy_indexes": [
+          7,
+          9
+        ],
+        "role": "preparation and rain",
+        "position_relationship": "Adjacent lower beam block read after participation."
+      }
+    ]
+  },
+  "common_constraints": [
+    "One separate flat opaque 16:9 poster per role for the same approachable adult neighborhood outdoor film screening and conversation. These are case-specific systems, not a fixed future media roster.",
+    "All ten literal entries exactly once. Indexes are zero-based; retain words, case, digits and punctuation. Break only at existing word boundaries; no added labels, credits, logos, QR, watermark or pseudo-print. Ducttape invokes the skill, not physical tape.",
+    "Build substantive content-grounded nonglyph construction. Give every practical fact protected contrast and a useful reading path; type-only, tiny-icon and generic title/object/footer solutions do not fulfill this request.",
+    "All pixel sizes/positions are 1280x720 DESIGN coordinates, not a rendered QA asset. Actual usage720 is720x405: scale0.5625, so practical30–36 design px becomes16.9–20.3 actual px. Actual Apple SD Gothic Neo Semibold widths at30 design px, indexes0–9:198/214/361/231/165/224/181/138/286/232 px. Leave extra margins; generated lettering differs. Reduce title/frame/image before squeezing facts; inspect actual usage720 readability after generation.",
+    "Preserve distinct colon dots, range dash and middle dots with visible word gaps. Check readable raster morphology and order without claiming Unicode authentication. Assign every depicted grip, support and overlap to its person/component; preserve action and genre during correction.",
+    "References inform relationships, not copied art, brand, palette, composition or artist-name prompts. Canva records are secondhand root pixel observations; music preview is roughly 2:1, not verified16:9, and market preview is portrait.",
+    "Generation requirement: 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력. Request is not proof of maximum native dimensions. Makers tune finish/optical detail within these relationships, each owning one poster; root manages five."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "2de9cd8e84cc25f64f1b2c08c1db9f86a81d2aaf6e1b60613f8b2580cedcc892",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "43b2dfe8a08d5c3906ea107e457e81ec8b46a57af73e45836e914b0c48e70f18"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M4/case.json",
+    "sha256": "e0229a46d3dc19e48036beeee05b8dff83a1306d7f573f4d57ddfe8c0b90255c"
+  }
+}

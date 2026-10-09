@@ -1,0 +1,110 @@
+{
+  "kind": "prescribed_source_attestation_audit",
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B06/initial/packet.json",
+    "sha256": "b6a36ec0f512e16ab64ebb1678b6fd6bd6a1dd0794b5927a31a5253aaa3bf0e1"
+  },
+  "case_id": "R7-B06",
+  "wave": "initial",
+  "gate": "PASS",
+  "expected_source_assets": 2,
+  "expected_protected_layout_manifests": 1,
+  "profiles": {
+    "editorial": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B06/initial/cli/editorial/editorial.json",
+        "sha256": "4268188a9011a0e03aa1ce42a600d108d14423b6a23def6255c1af3743e2e08f"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "A2",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png",
+          "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+          "viewed": true
+        },
+        {
+          "asset_id": "A3",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png",
+          "sha256": "710109cb7a579a22551e02e3714c27b20db2dc8062e4221f5f7314f7bfc010bf",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": [
+        {
+          "asset_id": "A3",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json",
+          "sha256": "195b1e65f0f3fe7bf6e1090db97f8d5ad6dff22752f4fb218bf763585aa38688",
+          "read": true
+        }
+      ]
+    },
+    "craft": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B06/initial/cli/craft/craft.json",
+        "sha256": "616fa6c9122014ea23f5d2d12f2e17d48421fef608e590eb01c1f6649b3f7935"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "A2",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png",
+          "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+          "viewed": true
+        },
+        {
+          "asset_id": "A3",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png",
+          "sha256": "710109cb7a579a22551e02e3714c27b20db2dc8062e4221f5f7314f7bfc010bf",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": [
+        {
+          "asset_id": "A3",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json",
+          "sha256": "195b1e65f0f3fe7bf6e1090db97f8d5ad6dff22752f4fb218bf763585aa38688",
+          "bytes": 2056,
+          "read": true
+        }
+      ]
+    },
+    "portfolio": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B06/initial/cli/portfolio/portfolio.json",
+        "sha256": "e96adf6574ae9e22848edc426f02f2a4f776149ec03563399845e851e6f41ae6"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "A2",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png",
+          "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+          "viewed": true
+        },
+        {
+          "asset_id": "A3",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png",
+          "sha256": "710109cb7a579a22551e02e3714c27b20db2dc8062e4221f5f7314f7bfc010bf",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": [
+        {
+          "asset_id": "A3",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json",
+          "sha256": "195b1e65f0f3fe7bf6e1090db97f8d5ad6dff22752f4fb218bf763585aa38688",
+          "read": true
+        }
+      ]
+    }
+  },
+  "limits": [
+    "Checks existing frozen prompt requirements; no new aesthetic gate, raw rewrite or critic replacement.",
+    "Source viewing/read and order are semantic attestations, not serialized native-tool events.",
+    "The original frozen v4 summary remains separately preserved."
+  ]
+}

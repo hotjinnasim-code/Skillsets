@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "role": "R19-C1-M2",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M2/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M2/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M2/stages/repair-1/thumbnail-320.png"
+  ],
+  "viewing_procedure": {
+    "method": "tools.view_image emitted via image(...,'original')",
+    "initial_order": [
+      "original.png",
+      "usage-720.png",
+      "thumbnail-320.png"
+    ],
+    "native_display_issue": "First native emission displayed tiny fragment; one exact original revisit with full native detail displayed the complete image.",
+    "single_native_revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M2/stages/repair-1/original.png",
+      "sha256": "e0e141c354430cd3864cd520c6b242b91cd4d6efe7880851ad18e177c257cfc4",
+      "resolved": true,
+      "resolution": "Full native returned image displayed, no crop or edit."
+    }
+  },
+  "raw_observed_text": [
+    "집 안의 작은 숲",
+    "LEAVES & LIVING",
+    "초록을 고르고,\n일상을 가꿉니다.",
+    "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+    "성수 주말 식물 마켓",
+    "2027.06.12–06.13",
+    "토 · 일 11:00–19:00",
+    "성수 온실마당",
+    "입장 무료 · 분갈이 시연",
+    "식물 구매 시 관리 안내 제공",
+    "편하게 들러 천천히 둘러보세요.",
+    "leaves.example/market"
+  ],
+  "transcriptions": [
+    {
+      "copy_index": 1,
+      "required": "집 안의 작은 숲",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "집 안의 작은 숲",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "집 안의 작은 숲",
+      "normalized_observed": "집 안의 작은 숲",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "required": "LEAVES & LIVING",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "LEAVES & LIVING",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "LEAVES & LIVING",
+      "normalized_observed": "LEAVES & LIVING",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "required": "초록을 고르고, 일상을 가꿉니다.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "초록을 고르고,\n일상을 가꿉니다.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "초록을 고르고, 일상을 가꿉니다.",
+      "normalized_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "equal": true,
+      "layout": {
+        "observations": "Two meaningfully wrapped lines; dominates upper-left.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "normalized_observed": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "equal": true,
+      "layout": {
+        "observations": "Three lines, larger than initial; second phrase and home-light phrase share line two. No fixed-line requirement.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "required": "성수 주말 식물 마켓",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "성수 주말 식물 마켓",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "성수 주말 식물 마켓",
+      "normalized_observed": "성수 주말 식물 마켓",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "required": "2027.06.12–06.13",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "2027.06.12–06.13",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "2027.06.12–06.13",
+      "normalized_observed": "2027.06.12–06.13",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "required": "토·일 11:00–19:00",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "토 · 일 11:00–19:00",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "토·일 11:00–19:00",
+      "normalized_observed": "토·일 11:00–19:00",
+      "equal": true,
+      "layout": {
+        "observations": "Visible optical spaces around middle dot.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "required": "성수 온실마당",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "성수 온실마당",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "성수 온실마당",
+      "normalized_observed": "성수 온실마당",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "required": "입장 무료 · 분갈이 시연",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "입장 무료 · 분갈이 시연",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "입장 무료·분갈이 시연",
+      "normalized_observed": "입장 무료·분갈이 시연",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "required": "식물 구매 시 관리 안내 제공",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "식물 구매 시 관리 안내 제공",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "식물 구매 시 관리 안내 제공",
+      "normalized_observed": "식물 구매 시 관리 안내 제공",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 11,
+      "required": "편하게 들러 천천히 둘러보세요.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "편하게 들러 천천히 둘러보세요.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "편하게 들러 천천히 둘러보세요.",
+      "normalized_observed": "편하게 들러 천천히 둘러보세요.",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 12,
+      "required": "leaves.example/market",
+      "kind": "url",
+      "fixed_newlines": false,
+      "raw_observed": "leaves.example/market",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "leaves.example/market",
+      "normalized_observed": "leaves.example/market",
+      "equal": true,
+      "layout": {
+        "observations": "Single line, meaningful word boundaries retained.",
+        "fixed_newline_requirement": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "observed_entry_count": 12,
+      "extra_print_observed": false,
+      "ambiguities": [],
+      "comparison": "All twelve normalized entries equal; raw soft wraps and optical middle-dot spaces preserved. Raster codepoints not certified."
+    },
+    "style": {
+      "checked_requirement": "Socially inhabited continuous table with slogan-led prose and right visit-to-action column in economical warm ink-plane illustration.",
+      "observations": [
+        {
+          "view": "thumbnail320",
+          "location": "upper left",
+          "observation": "Slogan now first and identifiers small together below paragraph."
+        },
+        {
+          "view": "native",
+          "location": "scene surfaces and figures",
+          "observation": "Naturalistic detailed drawing, highlights and crowded greenhouse continue."
+        }
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": "16:9",
+      "edge_rounding_difference_pixels": 0.5,
+      "policy": "Permitted nearest integer one-edge rounding"
+    },
+    "substantive_visual": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "wide tabletop",
+          "observation": "Choosing visitor, living plants at several scales and grower steadying new pot retain substantial scene."
+        }
+      ]
+    },
+    "hangul": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "paragraph",
+          "observation": "Larger open syllable forms, word gaps and orderly left alignments."
+        },
+        {
+          "view": "usage720",
+          "location": "right lower stack",
+          "observation": "Access/care words visibly smaller than the explanatory body."
+        }
+      ]
+    },
+    "information_relationship": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "upper-left paragraph to lower-right name",
+          "observation": "Large foliage mass interrupts adjacency, requiring long cross-scene search; right stack remains ordered."
+        }
+      ]
+    },
+    "function_contact": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "right grower pot contact",
+          "observation": "Two sleeve-to-hand connections with fingers around opposite pot rim sides remain interpretable."
+        }
+      ]
+    },
+    "material_edge_finish": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "foliage and table",
+          "observation": "Dense coherent painterly shading persists; not broad-plane ink finish."
+        }
+      ]
+    },
+    "format": {
+      "single_flat_opaque_poster_observed": true,
+      "mockup_or_comparison_observed": false,
+      "logo_qr_watermark_observed": false
+    }
+  },
+  "residuals": [
+    {
+      "location": "lower-right access, care, invitation and URL",
+      "observation": "Still notably smaller than the paragraph at usage720; access/care remain close to tiny-caption reading."
+    },
+    {
+      "location": "whole image style",
+      "observation": "Painterly dappled surfaces and detailed faces/background persist rather than economical ink contours and broad warm planes."
+    },
+    {
+      "location": "paragraph-to-visit transition",
+      "observation": "The central plants still occupy the entire transfer; no clear uninterrupted lip near paragraph end leading to market name."
+    },
+    {
+      "location": "upper-left slogan",
+      "observation": "Slogan hierarchy is corrected but very heavy and large relative to the required substantial reading space."
+    },
+    {
+      "location": "native ratio",
+      "observation": "1672×941 includes 0.5-pixel permitted height rounding."
+    }
+  ],
+  "decision": {
+    "next_action": "repair-2",
+    "observed_repair_causes": [
+      "Right visit continuation still too small at usage720",
+      "Assigned broad-plane ink style still not realized",
+      "Paragraph-to-name handoff remains interrupted"
+    ],
+    "protected_features": [
+      "Correct slogan-first hierarchy",
+      "Smaller tied identifiers",
+      "Improved paragraph size",
+      "Full literal copy",
+      "Continuous inhabited table and simple grower pot contact"
+    ]
+  }
+}

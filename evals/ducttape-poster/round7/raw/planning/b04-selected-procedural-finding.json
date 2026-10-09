@@ -1,0 +1,39 @@
+{
+  "case": "R7-B04",
+  "wave": "selected",
+  "summary": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B04/selected/summary.json",
+    "sha256": "c02f32add835271ab83f7d136341d1992d21b58b73f3a7901e9d43e563d9f500"
+  },
+  "procedure_gate": "NA",
+  "set_gate": "NA",
+  "image_gate_counts": {
+    "PASS": 0,
+    "FAIL": 0,
+    "NA": 5
+  },
+  "reason": [
+    "portfolio: trace contains a failed turn/error"
+  ],
+  "actual_recorded_trace_errors": [
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 3/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 4/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 5/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+    }
+  ],
+  "retention": "Frozen v4 treats every critic trace error as procedural NA, including same-session recovered transport errors. Keep all raw low/NA and score records; no replacement critic, rewritten trace, or relaxed frozen gate.",
+  "actual_raw_score_values": 105,
+  "quality_limit": "Procedural NA is distinct from the retained observed content/style/quality defects; do not count it as PASS or fabricate a clean quality result."
+}

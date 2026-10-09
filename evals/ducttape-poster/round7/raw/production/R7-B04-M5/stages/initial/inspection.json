@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "role": "R7-B04-M5",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M5/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M5/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M5/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "다시 내 모양",
+    "누르고 만들고 되돌리는 하루",
+    "2026.12.05 13:00–18:00",
+    "도형제작소 1층",
+    "청소년 메이커 데이",
+    "신청 example.org/my-shape"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "top x7–94%, y4–23%",
+      "observation": "One-line raised purple title reads 다시 내 모양. Heavy faces and deep shadows dominate the upper edge; title nearly spans the full width. Syllable counters in 모 and 양 remain open."
+    },
+    {
+      "view": "native",
+      "location": "central x17–83%, y21–62%",
+      "observation": "One connected purple clay mass has a rounded raised dome, broad flattened base, and stacked lateral compression folds. Dome and base are continuously joined; the large non-glyph object remains visible without text."
+    },
+    {
+      "view": "native",
+      "location": "left near x23%, y38–40%",
+      "observation": "A fingertip nearly meets the upper lateral fold with only a nearly closed yellow gap/tangent. Other finger pads and the right hand have visible yellow separation. This weakens the clarity of pressure release at that local contact."
+    },
+    {
+      "view": "native",
+      "location": "both lateral surfaces x24–36% and x64–76%, y36–53%",
+      "observation": "Side impressions read primarily as four stacked convex folds rather than broad concave finger-pad depressions. Their correspondence to the nearby fingers is approximate."
+    },
+    {
+      "view": "native",
+      "location": "purple dome and peach palms",
+      "observation": "Matte clay with handworked traces and soft upper-left lighting is clear. Short scratch-like traces cover much of the central dome as well as folds, giving less surface-density differentiation than requested."
+    },
+    {
+      "view": "usage720",
+      "location": "lower central information x18–83%, y64–96%",
+      "observation": "All five information lines are readable with distinct word spaces and normal Latin proportions. Event name is heaviest; description, date, venue and URL descend in order. All are raised purple and separated from the object."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Large title and purple mass are first glance; opening hands remain distinguishable. Info forms a centered lower stack; wrists finish mostly above the info instead of framing its full height."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "issues": [],
+      "ambiguities": [],
+      "comparison_semantics": "Visual glyph-class transcription and normalized literal comparison; raster reading does not authenticate original Unicode code points.",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "다시 내 모양",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "다시 내 모양",
+          "normalized_required": "다시 내 모양",
+          "normalized_observed": "다시 내 모양",
+          "equal": true,
+          "layout": {
+            "observations": "Single line as observed; no fixed newline required. Ordinary word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "누르고 만들고 되돌리는 하루",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "누르고 만들고 되돌리는 하루",
+          "normalized_required": "누르고 만들고 되돌리는 하루",
+          "normalized_observed": "누르고 만들고 되돌리는 하루",
+          "equal": true,
+          "layout": {
+            "observations": "Single line as observed; no fixed newline required. Ordinary word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "2026.12.05 13:00–18:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2026.12.05 13:00–18:00",
+          "normalized_required": "2026.12.05 13:00–18:00",
+          "normalized_observed": "2026.12.05 13:00–18:00",
+          "equal": true,
+          "layout": {
+            "observations": "Single line as observed; no fixed newline required. Ordinary word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "도형제작소 1층",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "도형제작소 1층",
+          "normalized_required": "도형제작소 1층",
+          "normalized_observed": "도형제작소 1층",
+          "equal": true,
+          "layout": {
+            "observations": "Single line as observed; no fixed newline required. Ordinary word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "청소년 메이커 데이",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "청소년 메이커 데이",
+          "normalized_required": "청소년 메이커 데이",
+          "normalized_observed": "청소년 메이커 데이",
+          "equal": true,
+          "layout": {
+            "observations": "Single line as observed; no fixed newline required. Ordinary word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "신청 example.org/my-shape",
+          "kind": "url",
+          "fixed_newlines": false,
+          "raw_observed": "신청 example.org/my-shape",
+          "normalized_required": "신청 example.org/my-shape",
+          "normalized_observed": "신청 example.org/my-shape",
+          "equal": true,
+          "layout": {
+            "observations": "Single line as observed; no fixed newline required. Ordinary word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "명확한 클레이 3D; 두껍게 올라온 읽기 쉬운 한글; 강한 보색 대비; 밝고 장난스러우면서도 정교한 구성",
+      "observations": [
+        "Purple mass and purple thick raised lettering contrast with opaque vivid yellow; pale peach modeled hands share matte clay light.",
+        "Lower information is shallower than title and all text is visible."
+      ]
+    },
+    "ratio": {
+      "requested": "1:1",
+      "observed_dimensions": [
+        1254,
+        1254
+      ],
+      "edge_rounding_error_pixels": 0,
+      "dimension_source": "stages/initial/manifest.json",
+      "maximum_resolution_verified": false
+    },
+    "no_type_only": {
+      "observations": [
+        "Large continuous central clay body and opening hands are substantive non-glyph scene elements in all three views."
+      ]
+    },
+    "substantive_visual": {
+      "observations": [
+        "Recovered dome and still flattened base are connected, with lateral folds indicating prior compression; local release gap and concave finger-pad imprint clarity are limited."
+      ]
+    },
+    "hangul": {
+      "observations": [
+        "Title has broad raised strokes with visible counters and word separation; information uses shorter extrusion.",
+        "No observed definite Hangul glyph omissions, horizontal compression, duplicate entries or added wording."
+      ]
+    },
+    "information_relationship": {
+      "observations": [
+        "Title aligns with open hands above mass. Five centered information lines below body remain readable; forearms do not extend alongside the full info opening."
+      ]
+    },
+    "function_contact": {
+      "observations": [
+        "Both hands are adjacent to side folds; left fingertip has a near tangent at x23%, y38–40%. Side convex folds approximate the nearby fingers more than distinct concave matching imprints."
+      ]
+    },
+    "material_edges": {
+      "observations": [
+        "Matte opaque purple volume and soft cast shadows; hand and clay borders remain distinct. Dome texture is fairly pervasive; broad folds repeat four stacked ridges."
+      ]
+    }
+  },
+  "residuals": [
+    "Left fingertip near x23%, y38–40% has a nearly closed release gap/tangent.",
+    "Lateral compression is rendered mainly as stacked convex folds; broad concave finger-pad marks and their correspondence to the hand are less explicit.",
+    "Dense short surface traces continue over the recovering dome.",
+    "Wrists mostly terminate above the lower information stack; title is large enough to compete with the release action."
+  ]
+}

@@ -1,0 +1,884 @@
+{
+  "scope": "Read-only map of all 20 currently pinned R22 helpers; not a new helper bundle or verification of actor results",
+  "source_bundle_pins_all_match": true,
+  "scan_patterns": {
+    "normalization_identifier_or_function": "normaliz|\\bNFC\\b",
+    "summary_dependency_and_digest": "SUMMARY_SHA256|compatible_summary_sha256|summarize\\.py|summary_helper|initial_summary|summary_pin",
+    "whole_context_and_case_digest": "CONTEXT_KEYS|context_sha256|literal_case_sha256|case_entry_sha256|case_entry_digest_method"
+  },
+  "helper_count": 20,
+  "helpers": [
+    {
+      "relative_path": "evidence_io.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/evidence_io.py",
+        "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2",
+        "bytes": 15373
+      },
+      "bound_locations": [],
+      "integration_note": "No direct normalization/summary-context binding found by the declared scan. Existing generic byte/input pins remain unchanged; no actor/runtime behavior change is proposed."
+    },
+    {
+      "relative_path": "summarize.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/summarize.py",
+        "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+        "bytes": 38350
+      },
+      "bound_locations": [
+        {
+          "line": 22,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "NORMALIZATION = \"nfc-ws-optical-v1\""
+        },
+        {
+          "line": 99,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "def normalize(raw, entry, *, fixed=None):"
+        },
+        {
+          "line": 100,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "    \"\"\"Only the predeclared NFC/whitespace/optical policy; never erase word spaces.\"\"\""
+        },
+        {
+          "line": 103,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "    value = unicodedata.normalize(\"NFC\", raw.replace(\"\\r\\n\", \"\\n\").replace(\"\\r\", \"\\n\"))"
+        },
+        {
+          "line": 152,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "    if packet.get(\"normalization\") != NORMALIZATION:"
+        },
+        {
+          "line": 153,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "        errors.append(\"normalization was not predeclared as nfc-ws-optical-v1\")"
+        },
+        {
+          "line": 359,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            normalized_required = normalize(entry[\"text\"], entry)"
+        },
+        {
+          "line": 360,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            normalized_observed = normalize(raw, entry)"
+        },
+        {
+          "line": 361,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            equal = normalized_required == normalized_observed"
+        },
+        {
+          "line": 362,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            glyph_equal = normalize(entry[\"text\"], entry, fixed=False) == normalize(raw, entry, fixed=False)"
+        },
+        {
+          "line": 363,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            computed = {\"copy_index\": index, \"initial_raw_observed\": item[\"raw_observed\"], \"comparison_raw_observed\": raw, \"normalized_required\": normalized_required, \"normalized_observed\": normalized_observed, \"equal\": equal, \"glyph_word_punctuation_equal_ignoring_layout_newlines\": glyph_equal, \"fixed_newlines\": entry[\"fixed_newlines\"], \"unresolved_ambiguity\": unresolved, \"revisit\": revisit}"
+        },
+        {
+          "line": 365,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            if item.get(\"normalized_required\") != normalized_required or item.get(\"normalized_observed\") != normalized_observed or type(item.get(\"equal\")) is not bool or item[\"equal\"] != equal:"
+        },
+        {
+          "line": 366,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "                errors.append(f\"{here}: recorded normalization/equal disagrees with predeclared computation\")"
+        },
+        {
+          "line": 378,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            errors.append(f\"{here}: normalization invalid: {exc}\")"
+        },
+        {
+          "line": 563,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "        \"packet\": packet_pin, \"raw_packet\": packet, \"normalization\": NORMALIZATION, \"bindings\": bindings,"
+        }
+      ],
+      "integration_note": "If optionally integrated, replace normalizer/version coherently, validate new per-entry declarations, retain raw/equal/layout/ambiguity fields, scores and all mandatory/floor rules. Bind any new module in input/helper pins. Diagnostic fixed=False remains layout-only."
+    },
+    {
+      "relative_path": "run_agent.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/run_agent.py",
+        "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+        "bytes": 2390
+      },
+      "bound_locations": [],
+      "integration_note": "No direct normalization/summary-context binding found by the declared scan. Existing generic byte/input pins remain unchanged; no actor/runtime behavior change is proposed."
+    },
+    {
+      "relative_path": "run_pool.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/run_pool.py",
+        "sha256": "4f11ca81a2824932d7ae241a8d3679fd8d02404c85ae54218c5689223960f9d2",
+        "bytes": 1693
+      },
+      "bound_locations": [],
+      "integration_note": "No direct normalization/summary-context binding found by the declared scan. Existing generic byte/input pins remain unchanged; no actor/runtime behavior change is proposed."
+    },
+    {
+      "relative_path": "review_rules.md",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/review_rules.md",
+        "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495",
+        "bytes": 14119
+      },
+      "bound_locations": [
+        {
+          "line": 13,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "For every required copy entry, preserve the first raw observed text verbatim, the required literal text, the normalized comparison, layout observations and ambiguity separately. The normalization is `nfc-ws-optical-v1`:"
+        },
+        {
+          "line": 15,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "- Apply Unicode NFC. Collapse each whitespace run to one ordinary space and trim outer whitespace. Preserve each explicit `\\n` when `fixed_newlines:true`; collapse whitespace within each line, without merging lines. Otherwise a layout line break is whitespace, not a missing character."
+        },
+        {
+          "line": 17,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "- On `kind:\"text\"` entries only, remove optical spaces directly around the exact middle-dot `·` and slash `/`. Other punctuation characters remain distinct. URL entries must be separately declared `kind:\"url\"`; their slash, dot and word spacing receives no optical exception. A text entry containing a URL is an invalid packet, so a broken URL is never silently repaired by slash normalization."
+        },
+        {
+          "line": 20,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "An ambiguity may trigger one revisit of the exact same pinned asset, never a regeneration. Preserve the initial read and the revisit `{view,path,sha256,raw_observed,resolution,resolved,reason}`. `resolution` explains the observed glyph class; `resolved` is a boolean. Use `revisit.raw_observed` for the final comparison only when `resolved:true`, while retaining the initial read unchanged. If `mandatory.text.ambiguities` is nonempty, each entry is `{copy_index,description,resolved}` and any claim of resolution must join the matching resolved transcription revisit. An unresolved ambiguity makes that image NA. No second revisit, repeated resampling, or retrospective change of the normalization rule is permitted."
+        },
+        {
+          "line": 34,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "  \"normalization\": \"nfc-ws-optical-v1\","
+        },
+        {
+          "line": 68,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "        \"normalized_required\": \"literal copy\", \"normalized_observed\": \"literal copy\", \"equal\": true,"
+        },
+        {
+          "line": 91,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "`summarize.py --packet PACKET --report A=RAW_A --report B=RAW_B --report C=RAW_C --completions-dir ROOT --output NEW_OUTPUT` reads `ROOT/PROFILE/launch.json` and `completion.json` for each profile. Launch contains `started_utc,argv,fresh_session:true,case_id,wave,profile,prompt:{path,sha256},input_pins:[{path,sha256}]`. Completion preserves those fields and adds `completed_utc,exit_code,session_ids,turn_completed_count,input_pins_unchanged,trace:{path,sha256},reports:{\"A.json\":{path,sha256},\"A.md\":{path,sha256}}`. The actual `thread.started` trace ID is the session identity. Require `exec --ephemeral`, no resume/fork, exactly one fresh thread, at least one completed turn, exit zero, immutable declared inputs and raw report pins, and three unique sessions. Packet, rules and all 3N views must be launch input pins."
+        }
+      ],
+      "integration_note": "Prospective version and narrow opt-in policy need predeclared text; old v1 rules are never rewritten."
+    },
+    {
+      "relative_path": "critic_rubric.md",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/critic_rubric.md",
+        "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c",
+        "bytes": 6580
+      },
+      "bound_locations": [
+        {
+          "line": 19,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "Follow the pinned review_rules.md normalization exactly. Keep raw first reads, glyph/word/punctuation comparison, optical spacing, layout breaks and ambiguity distinct. One genuine ambiguity permits one revisit of the same pinned view, with both readings retained. Unresolved ambiguity is NA. A spacing difference does not establish a missing Hangul character. URL entries remain separately declared and their slash spacing is protected."
+        }
+      ],
+      "integration_note": "References pinned review rules; seven categories and numerical floors stay unchanged. Optical equivalence never awards a typography score."
+    },
+    {
+      "relative_path": "reuse_binding.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/reuse_binding.py",
+        "sha256": "96c10685ac609b296f2cb4d8759374cc3454a1d13dffa0721cecca8f9334eccb",
+        "bytes": 2247
+      },
+      "bound_locations": [
+        {
+          "line": 5,
+          "categories": [
+            "normalization_identifier_or_function",
+            "whole_context_and_case_digest"
+          ],
+          "text": "CONTEXT_KEYS = ('case_id', 'candidate_label', 'expected_count', 'full_request', 'literal_case_sha256', 'normalization', 'requirements', 'copy', 'review_rules', 'critic_rubric', 'ratio_policy', 'helper_pins', 'source_assets', 'protected_layouts', 'images')"
+        },
+        {
+          "line": 7,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "def check_reuse(initial, selected, summary, reuse, initial_packet_pin, summary_pin, exact_pin):"
+        },
+        {
+          "line": 8,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "    first = {k: initial[k] for k in CONTEXT_KEYS}"
+        },
+        {
+          "line": 9,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "    later = {k: selected[k] for k in CONTEXT_KEYS}"
+        },
+        {
+          "line": 24,
+          "categories": [
+            "summary_dependency_and_digest",
+            "whole_context_and_case_digest"
+          ],
+          "text": "    expected = {'kind': 'complete_whole_case_reuse', 'initial_packet':initial_packet_pin, 'initial_summary':summary_pin, 'retained_critics':retained, 'mapping':[{'image_id':i['image_id'], 'role':i['role'], 'initial_stage':i['stage'], 'selected_stage':i['stage'], 'native_sha256':i['views']['native']['sha256']} for i in initial['images']], 'low_or_na_gates_retained':True, 'context_sha256':hashlib.sha256(json.dumps(first,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()}"
+        }
+      ],
+      "integration_note": "Full context already includes normalization and copy. Keep strict matching, do not remove new policy metadata from context to permit reuse."
+    },
+    {
+      "relative_path": "audit_source_assets.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/audit_source_assets.py",
+        "sha256": "7c7b5b3446f328fd5c6243c4b901910951f5c92867d8379cc23e32def15f843c",
+        "bytes": 3818
+      },
+      "bound_locations": [],
+      "integration_note": "No direct normalization/summary-context binding found by the declared scan. Existing generic byte/input pins remain unchanged; no actor/runtime behavior change is proposed."
+    },
+    {
+      "relative_path": "prepare_reviews_v2.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/prepare_reviews_v2.py",
+        "sha256": "6fcb2f3e792c174f65c38684b0447b5a137f5de72f01df3cf0bd029968996771",
+        "bytes": 29562
+      },
+      "bound_locations": [
+        {
+          "line": 18,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "import summarize as summary_helper"
+        },
+        {
+          "line": 218,
+          "categories": [
+            "normalization_identifier_or_function",
+            "whole_context_and_case_digest"
+          ],
+          "text": "    return {k: packet[k] for k in (\"case_id\", \"candidate_label\", \"expected_count\", \"full_request\", \"literal_case_sha256\", \"normalization\", \"requirements\", \"copy\", \"review_rules\", \"critic_rubric\", \"ratio_policy\", \"helper_pins\", \"source_assets\", \"protected_layouts\", \"images\")}"
+        },
+        {
+          "line": 254,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        if starts != [session] or not isinstance(session, str) or completion.get(\"session_ids\") != starts or completion.get(\"exit_code\") != 0 or completion.get(\"input_pins_unchanged\") is not True or not summary_helper.fresh_exec_argv(completion.get(\"argv\")):"
+        },
+        {
+          "line": 265,
+          "categories": [
+            "summary_dependency_and_digest",
+            "whole_context_and_case_digest"
+          ],
+          "text": "    return {\"kind\": \"complete_whole_case_reuse\", \"initial_packet\": evidence.pin(pp), \"initial_summary\": evidence.pin(sp), \"retained_critics\": retained, \"mapping\": [{\"image_id\": i[\"image_id\"], \"role\": i[\"role\"], \"initial_stage\": i[\"stage\"], \"selected_stage\": i[\"stage\"], \"native_sha256\": i[\"views\"][\"native\"][\"sha256\"]} for i in packet[\"images\"]], \"low_or_na_gates_retained\": True, \"context_sha256\": value_sha(context(packet))}, None"
+        },
+        {
+          "line": 281,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "Score ALL seven dimensions independently using the rubric's 1–5 anchors and nonempty located evidence arrays. Do not fill a target score, average away a weak dimension or omit low records. Preserve first raw observed copy, the predeclared normalized comparison, layout observations and ambiguity separately. URLs are separate protected entries. A genuine ambiguity permits one exact pinned revisit with both reads kept; unresolved ambiguity -> NA. Do not manufacture omitted glyphs from optical spaces or soft line wrapping."
+        },
+        {
+          "line": 313,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "    helpers = {name: evidence.pin(ROOT/name) for name in (\"evidence_io.py\", \"summarize.py\", \"run_agent.py\", Path(__file__).name)}"
+        },
+        {
+          "line": 357,
+          "categories": [
+            "normalization_identifier_or_function",
+            "summary_dependency_and_digest",
+            "whole_context_and_case_digest"
+          ],
+          "text": "        packet = {\"schema_version\": 1, \"case_id\": cid, \"candidate_label\": args.candidate_label or case.get(\"candidate\"), \"wave\": args.wave, \"expected_count\": case[\"count\"], \"critic_profiles\": list(PROFILES), \"full_request\": case[\"request\"], \"literal_case_sha256\": value_sha(client_case), \"normalization\": summary_helper.NORMALIZATION, \"copy\": case[\"copy\"], \"requirements\": requirements, \"review_rules\": rules_pin, \"critic_rubric\": rubric_pin, \"ratio_policy\": ratio_policy, \"helper_pins\": helpers, \"source_assets\": source_assets, \"protected_layouts\": layouts, \"images\": images}"
+        },
+        {
+          "line": 360,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        errors, _, _ = summary_helper.validate_packet(packet, packet_path.resolve())"
+        },
+        {
+          "line": 366,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "        state.update(status=\"READY\", packet=evidence.pin(packet_path), context_sha256=value_sha(context(packet)))"
+        },
+        {
+          "line": 386,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "            input_paths = [packet_path, case_path, ROOT/\"review_rules.md\", ROOT/\"critic_rubric.md\", ROOT/\"summarize.py\", ROOT/\"run_agent.py\", Path(ratio_policy[\"path\"])] + [Path(p[\"path\"]) for p in asset_pins]"
+        }
+      ],
+      "integration_note": "Packet takes summary NORMALIZATION; copy metadata is retained in literal case/full context. Pin a new dependency only if integrated. No changed case count, scoring, barrier or bounded terminal behavior."
+    },
+    {
+      "relative_path": "prepare_production.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/prepare_production.py",
+        "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1",
+        "bytes": 32823
+      },
+      "bound_locations": [
+        {
+          "line": 190,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS."
+        },
+        {
+          "line": 269,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "                          'source_digest': {'case_entry_sha256': canonical_digest(original_case),"
+        },
+        {
+          "line": 270,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "                                            'case_entry_digest_method': 'UTF-8 canonical JSON, sorted keys, no extra whitespace',"
+        }
+      ],
+      "integration_note": "Inspection instruction has a literal v1 name. A future adopted producer must accurately name the frozen method/policy; policy metadata is not extra printed copy."
+    },
+    {
+      "relative_path": "build_single_five_gallery.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/build_single_five_gallery.py",
+        "sha256": "f08e747452fb36e7ac7ff2a4830bde9ea5c1d97b4e007a302ad58e2e90c02d64",
+        "bytes": 3676
+      },
+      "bound_locations": [],
+      "integration_note": "No direct normalization/summary-context binding found by the declared scan. Existing generic byte/input pins remain unchanged; no actor/runtime behavior change is proposed."
+    },
+    {
+      "relative_path": "method-recording-v2/compact-recording-addendum.md",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/compact-recording-addendum.md",
+        "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+        "bytes": 7465
+      },
+      "bound_locations": [
+        {
+          "line": 3,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "The actual raw observation schema stays 1. The packet declares recording method schema 2 and exact `path-sha256-bytes-v2` pins. The unchanged runtime runner may supply path/hash-only receipts; any supplied byte count is checked, and the auditor returns the actual byte count. Helper imports explicitly load the versioned sibling source. Freeze the same chain before production and use it for both phases. Assessment/export logic, strict v4 normalization and quality gates remain unchanged."
+        },
+        {
+          "line": 7,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "This addendum applies only to the declared R10 initial and selected compact critic jobs and their pinned recording method. It explicitly overrides the unchanged rubric/review rules' instructions to write only two reports and to manually repeat required/normalized/comparison fields. Each critic instead exclusively creates exactly three expected report files: `PROFILE.observations.json`, then the declared adapter's deterministic `PROFILE.json` and `PROFILE.md`. This is a recording-only override. All seven quality dimensions and their existing integer scale, mandatory conditions, all-three floor of 4 in every dimension, full-set diversity floor of 4, exact count fidelity, source preservation, independent sessions, complete viewing, NA, and finite review rules remain authoritative and unchanged."
+        },
+        {
+          "line": 9,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "Read the complete pinned client request and packet without producer concepts, self-inspections, selection reasons, peer reviews, or earlier raw results. View every exact supplied source asset and read applicable protected-layout manifests first. View all five members in packet order, each at native/use/thumbnail: complete all fifteen poster views before beginning the first copy-reading/transcription stage or any judgment/score. Record the actual first raw reading of every supplied copy entry, once in packet order; never fill it from required text, normalize it in place, or infer invisible scene/text from intent. Every printable copy entry declared in this packet must be represented in each member's compact copy array. Do not presume printable copy from internal group names, field labels, or production explanation."
+        }
+      ],
+      "integration_note": "Likewise contains old unchanged-normalization claim. A future optional draft must distinguish normalization change; no claim of prior v4 verification for v2."
+    },
+    {
+      "relative_path": "method-recording-v2/test_recording_v2.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/test_recording_v2.py",
+        "sha256": "f3777d3b05fce4cc3cd025c69aed1b1cca3d1468b204b98771438bc927239762",
+        "bytes": 24773
+      },
+      "bound_locations": [
+        {
+          "line": 41,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "summary = audit.summary_helper"
+        },
+        {
+          "line": 136,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "             patch.object(prep.summary_helper, 'validate_packet', return_value=([], {}, {})):"
+        },
+        {
+          "line": 184,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "    def test_exact_frozen_assessment_and_normalization_logic(self):"
+        },
+        {
+          "line": 205,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        self.assertEqual(hashlib.sha256((ROOT/'summarize.py').read_bytes()).hexdigest(), adapter.SUMMARY_SHA256)"
+        },
+        {
+          "line": 210,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "                    self.assertEqual(adapter.normalize(value, entry), summary.normalize(value, entry))"
+        },
+        {
+          "line": 368,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "                 patch.object(prep.summary_helper, 'validate_packet', return_value=([], {}, {})):"
+        }
+      ],
+      "integration_note": "Contains frozen v4 AST identity and old digest/normalizer tests. This historical test is not rerun or edited here. A future method change cannot claim unchanged v4 normalization/AST identity; preserve old verification and add separately scoped checks."
+    },
+    {
+      "relative_path": "method-recording-v2/compact_critic_adapter.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/compact_critic_adapter.py",
+        "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+        "bytes": 19204
+      },
+      "bound_locations": [
+        {
+          "line": 16,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "NORMALIZATION = \"nfc-ws-optical-v1\""
+        },
+        {
+          "line": 18,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "SUMMARY_SHA256 = \"4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0\""
+        },
+        {
+          "line": 38,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "def normalize(raw, entry):"
+        },
+        {
+          "line": 39,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "    \"\"\"Frozen v4 NFC/whitespace/optical policy; raw input remains untouched.\"\"\""
+        },
+        {
+          "line": 41,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "    value = unicodedata.normalize(\"NFC\", raw.replace(\"\\r\\n\", \"\\n\").replace(\"\\r\", \"\\n\"))"
+        },
+        {
+          "line": 82,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "    require(packet.get(\"normalization\") == NORMALIZATION, \"Normalization must be predeclared\")"
+        },
+        {
+          "line": 146,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "              \"recording_adapter\": {\"kind\": \"declared_deterministic_export\", \"normalization\": NORMALIZATION,"
+        },
+        {
+          "line": 148,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "                                    \"compatible_summary_sha256\": SUMMARY_SHA256,"
+        },
+        {
+          "line": 177,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            nr, no = normalize(entry[\"text\"], entry), normalize(comparison, entry)"
+        },
+        {
+          "line": 178,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "            transcripts.append({\"required\": entry[\"text\"], \"raw_observed\": first, \"normalized_required\": nr,"
+        },
+        {
+          "line": 179,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "                                \"normalized_observed\": no, \"equal\": nr == no, \"layout\": copy.deepcopy(layout),"
+        }
+      ],
+      "integration_note": "Normalizer and version must agree exactly with summary. Refresh SUMMARY_SHA256 only to actual revised summary bytes, never a guessed or original SHA. Keep export of raw scores/mandatory judgments and immutable observed strings intact."
+    },
+    {
+      "relative_path": "method-recording-v2/prepare_reviews_compact.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/prepare_reviews_compact.py",
+        "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+        "bytes": 33273
+      },
+      "bound_locations": [
+        {
+          "line": 20,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "ROOT = SCRIPT_ROOT if (SCRIPT_ROOT/'summarize.py').is_file() else SCRIPT_ROOT.parent"
+        },
+        {
+          "line": 26,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "import summarize as summary_helper"
+        },
+        {
+          "line": 230,
+          "categories": [
+            "normalization_identifier_or_function",
+            "whole_context_and_case_digest"
+          ],
+          "text": "    return {k: packet[k] for k in (\"case_id\", \"candidate_label\", \"expected_count\", \"full_request\", \"literal_case_sha256\", \"normalization\", \"requirements\", \"copy\", \"review_rules\", \"critic_rubric\", \"ratio_policy\", \"helper_pins\", \"source_assets\", \"protected_layouts\", \"images\", \"compact_recording\")}"
+        },
+        {
+          "line": 266,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        if starts != [session] or not isinstance(session, str) or completion.get(\"session_ids\") != starts or completion.get(\"exit_code\") != 0 or completion.get(\"input_pins_unchanged\") is not True or not summary_helper.fresh_exec_argv(completion.get(\"argv\")):"
+        },
+        {
+          "line": 281,
+          "categories": [
+            "summary_dependency_and_digest",
+            "whole_context_and_case_digest"
+          ],
+          "text": "    return {\"kind\": \"complete_whole_case_reuse\", \"initial_packet\": evidence.pin(pp), \"initial_summary\": evidence.pin(sp), \"retained_critics\": retained, \"mapping\": [{\"image_id\": i[\"image_id\"], \"role\": i[\"role\"], \"initial_stage\": i[\"stage\"], \"selected_stage\": i[\"stage\"], \"native_sha256\": i[\"views\"][\"native\"][\"sha256\"]} for i in packet[\"images\"]], \"low_or_na_gates_retained\": True, \"context_sha256\": value_sha(context(packet))}, None"
+        },
+        {
+          "line": 303,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "- images: all {n} exact image IDs. Each copy array has all {len(packet['copy'])} entries in packet order once: raw actual first read, layout status/observations, ambiguity description|null, revisit:null or one exact pinned revisit with view/path/sha256/raw_observed/resolved/reason/resolution. Keep the first raw reading untouched; do not write required/normalized/equal fields. URLs and meaningful word spaces are protected."
+        },
+        {
+          "line": 338,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "    helpers = {name: evidence.pin(ROOT/name) for name in (\"evidence_io.py\", \"summarize.py\", \"run_agent.py\")}"
+        },
+        {
+          "line": 384,
+          "categories": [
+            "normalization_identifier_or_function",
+            "summary_dependency_and_digest",
+            "whole_context_and_case_digest"
+          ],
+          "text": "        packet = {\"schema_version\": 1, \"case_id\": cid, \"candidate_label\": args.candidate_label or case.get(\"candidate\"), \"wave\": args.wave, \"expected_count\": case[\"count\"], \"critic_profiles\": list(PROFILES), \"full_request\": case[\"request\"], \"literal_case_sha256\": value_sha(client_case), \"normalization\": summary_helper.NORMALIZATION, \"copy\": case[\"copy\"], \"requirements\": requirements, \"review_rules\": rules_pin, \"critic_rubric\": rubric_pin, \"ratio_policy\": ratio_policy, \"helper_pins\": helpers, \"source_assets\": source_assets, \"protected_layouts\": layouts, \"images\": images}"
+        },
+        {
+          "line": 392,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        errors, _, _ = summary_helper.validate_packet(packet, packet_path.resolve())"
+        },
+        {
+          "line": 398,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "        state.update(status=\"READY\", packet=evidence.pin(packet_path), context_sha256=value_sha(context(packet)))"
+        },
+        {
+          "line": 418,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "            input_paths = [packet_path, case_path, ROOT/\"review_rules.md\", ROOT/\"critic_rubric.md\", ROOT/\"summarize.py\", ROOT/\"run_agent.py\", Path(ratio_policy[\"path\"])] + [Path(p['path']) for p in helpers.values()] + [Path(p[\"path\"]) for p in asset_pins]"
+        }
+      ],
+      "integration_note": "Same packet/context propagation plus method/helper/input pin dependency chain. Keep fresh/reuse/UNREADY, all-five and finite-critic logic unchanged."
+    },
+    {
+      "relative_path": "method-recording-v2/README.md",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/README.md",
+        "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+        "bytes": 10025
+      },
+      "bound_locations": [
+        {
+          "line": 7,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "The adapter's assessment, normalization, export, and rendering functions are unchanged from the R9 recording v2 source. All frozen v4 rubric, seven score dimensions/floors, source/ratio/copy/mandatory judgments, full-count/diversity gates, exact first reading and one-revisit rules, complete-view ordering, finite review and whole-context reuse restrictions, and effective NA behavior remain unchanged. Root supplies the base producer/evaluation helpers and freezes their exact bytes together with runtime J before production."
+        },
+        {
+          "line": 13,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "Each of the three fresh independent critics would write one immutable `PROFILE.observations.json`. The critic supplies actual first-read text, separate layout observations, ambiguity/revisit, all mandatory judgments, seven integer scores and located evidence per image, and full-set diversity with evidence for every member. The adapter derives repeated identities, required-copy strings, normalization/equality, literal checked styles, packet dimensions, and standard JSON/Markdown presentation. It never derives a score, replaces an observed string with required copy, averages, drops members, selects critics, generates images, or edits native pixels. All existing v4 thresholds and procedural gates remain."
+        },
+        {
+          "line": 23,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "- `copy`: one entry per required string, in packet order, with `raw` as the untouched actual first read (an empty string is allowed when nothing can be read), `layout:{status,observations}`, `ambiguity` as a description or null, and `revisit` as null or the existing one-revisit object (`view,path,sha256,raw_observed,resolved,reason,resolution`). First read is retained even after a resolved revisit. No required or normalized strings are written by the critic."
+        },
+        {
+          "line": 49,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "Tests prove exact AST identity for every adapter assessment/export/rendering function and the preparer's unchanged quality/provenance core; normalization equals frozen v4. They reject missing/wrong/extra raw packet pins and wrong hashes or declared byte counts; preserve raw immutability and exclusive outputs; reject absent/late/failed adapter calls; enforce the maker barrier and literal initial/selected phase scope; verify explicit v2 imports despite cached prior-method modules; and accept the unchanged runner's hash-only receipt shape. No real score or poster/source pixel file is inspected."
+        }
+      ],
+      "integration_note": "Historical claims of unchanged v4 normalization/assessment are not evidence for a new normalization version. Future docs must distinguish changed comparison policy from unchanged floors and raw preservation."
+    },
+    {
+      "relative_path": "method-recording-v2/ROOT-INTEGRATION.md",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/ROOT-INTEGRATION.md",
+        "sha256": "506a4aea70b94b64cf5cc13c351d09268f332d6cca56cfa0a6110eb633251a0b",
+        "bytes": 7679
+      },
+      "bound_locations": [
+        {
+          "line": 5,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "The root must provide and pin its base `evidence_io.py`, frozen v4 `summarize.py`, `run_agent.py`, rules/rubric, and `planning/ratio-policy-before-generation.json`. Verification also compares unchanged producer/preparer core functions with root's `prepare_reviews_v2.py`. This method expects the existing literal full-five contract, exact native/usage720/thumbnail320 packet metadata, closed maker barrier, three fixed fresh profiles, original finite review rules, and strict full-context reuse. It never calls a maker, image model, runner, or review actor."
+        },
+        {
+          "line": 43,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "         'base_helpers': [pin(root/name) for name in ('evidence_io.py', 'summarize.py', 'run_agent.py',"
+        }
+      ],
+      "integration_note": "Lists summary/base/helper freeze pins. Include any new comparison dependency if integrated, preserving original records."
+    },
+    {
+      "relative_path": "method-recording-v2/verification.json",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/verification.json",
+        "sha256": "9c73a275c315279c5f442af4f461694a2192b5c5843b519e853675a22c432857",
+        "bytes": 9567
+      },
+      "bound_locations": [
+        {
+          "line": 82,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        \"path\": \"/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/summarize.py\","
+        },
+        {
+          "line": 87,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        \"path\": \"/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/summarize.py\","
+        },
+        {
+          "line": 167,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "      \"test_exact_frozen_assessment_and_normalization_logic\","
+        }
+      ],
+      "integration_note": "Exact inherited historical verification, not evidence that this new method was integrated, tested as a pipeline or adopted."
+    },
+    {
+      "relative_path": "method-recording-v2/audit_compact_bindings.py",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/method-recording-v2/audit_compact_bindings.py",
+        "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+        "bytes": 21050
+      },
+      "bound_locations": [
+        {
+          "line": 16,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "ROOT = SCRIPT_ROOT if (SCRIPT_ROOT/'summarize.py').is_file() else SCRIPT_ROOT.parent"
+        },
+        {
+          "line": 21,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "import summarize as summary_helper"
+        },
+        {
+          "line": 26,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "CONTEXT_KEYS = ('case_id', 'candidate_label', 'expected_count', 'full_request', 'literal_case_sha256',"
+        },
+        {
+          "line": 27,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "                'normalization', 'requirements', 'copy', 'review_rules', 'critic_rubric', 'ratio_policy',"
+        },
+        {
+          "line": 45,
+          "categories": [
+            "normalization_identifier_or_function"
+          ],
+          "text": "        # Lexical normalization only: never consult an original-host symlink/path."
+        },
+        {
+          "line": 97,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "    return {key: packet[key] for key in CONTEXT_KEYS}"
+        },
+        {
+          "line": 171,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        require(packet['helper_pins']['summarize.py']['sha256'] == adapter.SUMMARY_SHA256, 'Declared adapter is for a different frozen summary')"
+        },
+        {
+          "line": 191,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        require(launch.get('fresh_session') is True and summary_helper.fresh_exec_argv(launch.get('argv')), 'Actual fresh exec --ephemeral argv required; no resume/fork')"
+        },
+        {
+          "line": 261,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        initial_pin, summary_pin = checked_pin(reuse['initial_packet']), checked_pin(reuse['initial_summary'])"
+        },
+        {
+          "line": 263,
+          "categories": [
+            "summary_dependency_and_digest"
+          ],
+          "text": "        summary, _ = load(summary_pin['path'])"
+        },
+        {
+          "line": 285,
+          "categories": [
+            "whole_context_and_case_digest"
+          ],
+          "text": "        require(reuse['context_sha256'] == hashlib.sha256(json.dumps(context(selected), ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()).hexdigest(), 'Reuse full-context digest differs')"
+        }
+      ],
+      "integration_note": "Checks adapter SUMMARY_SHA256 against pinned summary and full context including normalization/copy/helper pins. Keep these checks; no reuse across old/new policy contexts."
+    },
+    {
+      "relative_path": "capability-probe/result.json",
+      "current_pin": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/capability-probe/result.json",
+        "sha256": "846b62232dde3286969225f9292b36a12fbb88ce666141950504bc2b4b97e1fd",
+        "bytes": 1234
+      },
+      "bound_locations": [],
+      "integration_note": "No direct normalization/summary-context binding found by the declared scan. Existing generic byte/input pins remain unchanged; no actor/runtime behavior change is proposed."
+    }
+  ],
+  "source_files_modified": false,
+  "prospective_pipeline_integration_performed": false,
+  "new_normalizer_module_is_not_in_any_current_packet_or_helper_bundle": true,
+  "scan_case_insensitive": true
+}

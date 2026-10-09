@@ -1,0 +1,51 @@
+{
+  "role": "R7-B07-M3",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "82ade18c5ad6a090486789a97a0455ee05baded84aa8e4dd8a12b0aa1cbe8c63",
+  "parent_native_sha256": "035193422841ae976515f39f5d41391f3baa98510c3486e2b6ff4b4b5e826dbe",
+  "compared_actual_viewed_stages": [
+    "repair-1",
+    "repair-2"
+  ],
+  "changes": [
+    {
+      "location": "Key head center",
+      "observation": "Individual loop-shaped etched marks are larger and more visible than repair-1; the intended plain satin center was not obtained."
+    },
+    {
+      "location": "Lever front and mount",
+      "observation": "Reflection remains broad and smooth at usage size, but pervasive fine wavy finish persists at native scale."
+    },
+    {
+      "location": "Copy, layout and hardware geometry",
+      "observation": "All seven entries remain readable and match under the declared comparison. Central grouping and mounted lever/inserted key geometry retained."
+    }
+  ],
+  "preserved_advantages": [
+    "Readable full central copy",
+    "Large recognizable hardware views",
+    "Neutral monochrome and clear type/photo boundaries"
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "Lower key head center",
+      "observation": "Wavy etched-looking loops remain over the whole key head; compared with repair-1 their larger individual shapes are more conspicuous.",
+      "impact": "The requested plain satin center and narrow localized finger polish have not been fully achieved."
+    },
+    {
+      "view": "native",
+      "location": "Upper lever grip, protected neck, upper rosette",
+      "observation": "Broad front highlight is smooth at usage size, but repeated small wavy scratches are still visible at native size across protected and touched parts.",
+      "impact": "Smooth contact wear is not sufficiently distinct from the overall surface finish."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Detailed central visit copy",
+      "observation": "Title and both objects remain recognizable, while the smallest details read more comfortably at usage720 than thumbnail size.",
+      "impact": "Legibility was checked for the supplied QA scales, with no print test or arbitrary-size guarantee."
+    }
+  ]
+}

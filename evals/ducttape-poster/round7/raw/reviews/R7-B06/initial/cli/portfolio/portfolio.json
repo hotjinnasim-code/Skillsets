@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "case_id": "R7-B06",
+  "wave": "initial",
+  "profile": "portfolio",
+  "session_id": null,
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "viewed_count": 3,
+    "order_compliant": true,
+    "method": "Independent visual assessment in this fresh conversation. Verified byte lengths and SHA-256 of all 15 explicitly supplied inputs. Read the pinned packet, case, rules, rubric, ratio policy, source manifests, native-evidence manifest and supplied helper scripts without following embedded unlisted paths or executing the runners. Actually viewed A2 original, then A3 original through tools.view_image(detail=original), forwarding each image into the conversation. Then actually viewed R7-B06-M1 native, usage720 and thumbnail320 in that exact order in three separate calls using the same method. Only after all three poster views were displayed did I make the first transcription judgment and independently assign the seven scores. PNG IHDR checks separately confirmed actual dimensions and RGB color type; these checks are not claimed as image viewing. No crop, image edit, image generation, revisit, peer review or sub-agent was used. Manual coordinates are approximate visual observations. No runtime thread ID or runner provenance is claimed.",
+    "source_assets_viewed": [
+      {
+        "asset_id": "A2",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png",
+        "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+        "viewed": true
+      },
+      {
+        "asset_id": "A3",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png",
+        "sha256": "710109cb7a579a22551e02e3714c27b20db2dc8062e4221f5f7314f7bfc010bf",
+        "viewed": true
+      }
+    ],
+    "protected_layouts_read": [
+      {
+        "asset_id": "A3",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json",
+        "sha256": "195b1e65f0f3fe7bf6e1090db97f8d5ad6dff22752f4fb218bf763585aa38688",
+        "read": true
+      }
+    ]
+  },
+  "viewed": [
+    {
+      "image_id": "R7-B06-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B06-M1/stages/initial/original.png",
+      "sha256": "e0900859423f69f17ae13f54b84319655f5957fc545bddbef8d64e47f5d4518f"
+    },
+    {
+      "image_id": "R7-B06-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B06-M1/stages/initial/usage-720.png",
+      "sha256": "3d80b6c5a249dbfa1182824292448eb63a7a9a09fb41f2ebf53bf5c78ffb80d0"
+    },
+    {
+      "image_id": "R7-B06-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B06-M1/stages/initial/thumbnail-320.png",
+      "sha256": "95f06989b2bbed38e04b725c636fb3240afaba2cd0a7a8e70f4c29e09d8b0077"
+    }
+  ],
+  "images": {
+    "R7-B06-M1": {
+      "image_id": "R7-B06-M1",
+      "role": "R7-B06-M1",
+      "stage": "initial",
+      "case_id": "R7-B06",
+      "profile": "portfolio",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper headline, approximately x=.07, y=.083",
+              "required": "낮은 빛, 넓은 책상",
+              "raw_observed": "낮은 빛, 넓은 책상",
+              "normalized_required": "낮은 빛, 넓은 책상",
+              "normalized_observed": "낮은 빛, 넓은 책상",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One unbroken headline line; comma and word spaces are visible. No fixed newline was requested. Its start is slightly left/up from A3, while retaining the same upper-left header relationship."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "event line below headline, approximately x=.07, y=.197",
+              "required": "LOMA 데스크 램프 발표회",
+              "raw_observed": "LOMA 데스크 램프 발표회",
+              "normalized_required": "LOMA 데스크 램프 발표회",
+              "normalized_observed": "LOMA 데스크 램프 발표회",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One unbroken event line below the headline, starting on the upper header axis. LOMA is ordinary event copy. No fixed newline was requested."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower date line, approximately x=.078, y=.813",
+              "required": "2026.12.03 18:30",
+              "raw_observed": "2026.12.03 18:30",
+              "normalized_required": "2026.12.03 18:30",
+              "normalized_observed": "2026.12.03 18:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One date/time line in the protected lower date block. Dots, the space before the time and the colon are visible. No fixed newline was requested."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "place line below date, approximately x=.078, y=.86",
+              "required": "을지쇼룸 2층",
+              "raw_observed": "을지쇼룸 2층",
+              "normalized_required": "을지쇼룸 2층",
+              "normalized_observed": "을지쇼룸 2층",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One place line below the date, on the lower left axis. No fixed newline was requested."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "first small footer line, approximately x=.078, y=.916",
+              "required": "제품 소개와 디자이너 대화",
+              "raw_observed": "제품 소개와 디자이너 대화",
+              "normalized_required": "제품 소개와 디자이너 대화",
+              "normalized_observed": "제품 소개와 디자이너 대화",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One smaller line at the reference invitation position. Word spaces are retained. No fixed newline was requested."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "last footer line, approximately x=.078, y=.949",
+              "required": "참석 신청 example.org/loma-launch",
+              "raw_observed": "참석 신청 example.org/loma-launch",
+              "normalized_required": "참석 신청 example.org/loma-launch",
+              "normalized_observed": "참석 신청 example.org/loma-launch",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One additional small line below the program line. The URL is continuous with no spaces around its period, slash or hyphen; its protected kind is url. No fixed newline was requested."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "첨부한 `reference-poster.png`의 배치를 유지하면서 새 제품 발표회 포스터 1종을 만들어 주세요. 세로 2:3입니다. 참조의 제목 시작점, 사진 영역의 위치와 크기, 날짜/장소 블록 위치, 좌측 정렬, 주요 여백 관계를 바꾸지 마세요. 첨부한 `lamp-product.png`를 같은 사진 영역에 충분한 크기의 비문자 시각 중심으로 사용하고 제품 형태와 색을 유지해 주세요. 새 장식, 가짜 브랜드 로고, 기존 참조의 행사 문구는 넣지 말고 아래 문구로 모두 교체해 주세요.\n\nLiteral client styles:\n{\"mode\": \"actual supplied synthetic layout and product preservation\"}\n\nLiteral mandatory client conditions:\n첨부한 `reference-poster.png`의 배치를 유지하면서 새 제품 발표회 포스터 1종을 만들어 주세요.\n세로 2:3입니다.\n참조의 제목 시작점, 사진 영역의 위치와 크기, 날짜/장소 블록 위치, 좌측 정렬, 주요 여백 관계를 바꾸지 마세요.\n첨부한 `lamp-product.png`를 같은 사진 영역에 충분한 크기의 비문자 시각 중심으로 사용하고 제품 형태와 색을 유지해 주세요.\n새 장식, 가짜 브랜드 로고, 기존 참조의 행사 문구는 넣지 말고 아래 문구로 모두 교체해 주세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.\nThe actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.\nPreserve A3 actual measured_layout and protected_product copied from its pinned manifest; replace its actual old_copy with the complete new copy. These describe the supplied reference, not a generated-art expected answer.",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper header, approximately x=.07, y=.08-.24",
+              "observation": "Relative to the viewed A3 reference, the headline begins about one percent of the canvas width farther left and slightly higher; the event line remains near y=.197. These small offsets retain the measured manifest's approximate upper-left placement and common left-side relationship."
+            },
+            {
+              "view": "native",
+              "location": "complete lamp, approximately x=.066-.939, y=.347-.722",
+              "observation": "The large complete lamp occupies essentially the A3 protected product region [.067,.347,.934,.720]: the shade spans almost the full inner width, with both posts and the oval base visible. The event-to-image gap and image-to-date gap remain broad, as in A3."
+            },
+            {
+              "view": "native",
+              "location": "lower detail block, approximately x=.078, y=.813/.860/.916",
+              "observation": "Date, place and first footer line retain A3's approximate [.078,.811], [.078,.859] and [.078,.918] starts and their shared left alignment. The extra required URL appears below the program line rather than moving the date/place block."
+            },
+            {
+              "view": "usage720",
+              "location": "central product and unoccupied background around it",
+              "observation": "The forest-green curved shade, two upright posts, oval base and warm luminous underside preserve the visible identity and color of A2 as well as A3's presentation. No new ornament, logo or old event copy is visible."
+            },
+            {
+              "view": "native",
+              "location": "whole flat poster and all six copy areas",
+              "observation": "One opaque portrait poster replaces all five A3 old-copy entries with the six requested entries, including the separate URL entry. No additional wording, sponsor, invented brand mark or decorative element appears. Native dimensions are exactly 1024 by 1536."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "requested_ratio": [
+            2,
+            3
+          ],
+          "policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "integer_rounding_used": false,
+          "observations": "Actual native IHDR dimensions are 1024x1536. 1024*3=1536*2=3072; no integer-rounding exception is needed.",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "central photo region, approximately x=.066-.939, y=.347-.722",
+              "observation": "A large forest-green desk lamp with broad curved shade, warm illuminated underside, two posts and complete oval base is the substantive nonglyph focal object. Its light and wide horizontal span directly support the supplied low-light/wide-desk product message."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "central lamp silhouette",
+              "observation": "The complete shade/posts/base remain readily recognizable at thumbnail size, occupying the center rather than functioning as a token ornament."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "central photo region, approximately x=.066-.939, y=.347-.722",
+              "observation": "A large forest-green desk lamp with broad curved shade, warm illuminated underside, two posts and complete oval base is the substantive nonglyph focal object. Its light and wide horizontal span directly support the supplied low-light/wide-desk product message."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "central lamp silhouette",
+              "observation": "The complete shade/posts/base remain readily recognizable at thumbnail size, occupying the center rather than functioning as a token ornament."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "complete lamp at center",
+            "observation": "The actual supplied product identity is preserved: forest-green wide curved shade, two parallel posts, oval base and warm underside light. This makes the new product announcement specific to the lamp rather than relying only on its headline."
+          },
+          {
+            "view": "usage720",
+            "location": "headline, event label and lamp relationship",
+            "observation": "The wide lamp beneath the low-light/wide-desk headline gives the supplied message a direct visual counterpart; the event label identifies a product launch and the lower copy provides the attendance details."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "thumbnail320",
+            "location": "upper two lines, central lamp and lower block",
+            "observation": "The bold headline reads first, the event label second, the large lamp supplies the visual focus, and the separated lower block supplies date/place and registration information. Each main region remains distinct at this size."
+          },
+          {
+            "view": "usage720",
+            "location": "date/place above two smaller footer lines",
+            "observation": "The date and place carry clearly greater weight than the program and URL lines. The required registration URL is subordinate but readily legible at the use view."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "six text areas, especially headline comma and final URL",
+            "observation": "All six first visual transcriptions match under the predeclared normalization. The comma, date dots, time colon and continuous example.org/loma-launch are visible and correct; no glyph or punctuation-class ambiguity was encountered."
+          },
+          {
+            "view": "usage720",
+            "location": "headline and mixed Latin/Hangul event line",
+            "observation": "Heavy dark-green Hangul and Latin type maintains strong contrast, clean counters and clear word spaces. The long headline stays on one line without clipping; LOMA fits into the event line at a consistent apparent weight."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "two small footer lines",
+            "observation": "The headline and date/place remain clear; the smaller program and registration lines lose effortless readability at 213 by 320 pixels but remain separated. This limits exceptional small-scale refinement without undermining the usage720 reading."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "protected product region and gap before date",
+            "observation": "The product retains essentially the A3 measured size and position, with roughly .09 canvas height between the bottom of the base and the date start. The broad central whitespace and left-aligned lower block therefore retain their reference relationships."
+          },
+          {
+            "view": "native",
+            "location": "upper header versus lower left axis; final line versus bottom edge",
+            "observation": "The header starts around x=.07 while the details begin around x=.078, a small departure from a perfectly shared axis. The added URL ends about .03 canvas height above the bottom, reducing the reference's bottom breathing room; it remains fully inside the page and does not displace the protected date/place block."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "whole composition",
+            "observation": "The headline, product and details form three balanced occupied regions. The lamp remains large and centered, and no unexpected empty gap breaks the reading sequence."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "shade surface, luminous underside and post junctions",
+            "observation": "The dark-green enamel has coherent highlights and fine surface texture; the warm underside remains a clean luminous panel. Both posts meet the shade and base without visible breaks, extra supports or fused geometry."
+          },
+          {
+            "view": "native",
+            "location": "oval base and adjacent ground shadow",
+            "observation": "The complete oval base has a consistent rim and grounded soft shadow. Comparing the viewed A2 and A3 assets, the wide curved shade, two-post construction, base proportions and green color remain recognizable and convincing."
+          },
+          {
+            "view": "usage720",
+            "location": "product edges against cream ground",
+            "observation": "The lamp edges and soft ground shadow sit coherently in the cream field. The visual remains photograph-like with no obvious cutout fringe or missing part at the use size."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "dark-green type and lamp against warm cream",
+            "observation": "The limited green/cream palette ties the type to the actual product finish, while the warm light communicates a calm desk-lighting atmosphere appropriate to the supplied announcement."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "large horizontal shade below bold headline",
+            "observation": "The lamp's broad low profile and the controlled empty space communicate the headline's low-light/wide-desk quality. The bold headline adds announcement presence without extra decorative excitement."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "whole poster outside the product and required copy",
+            "observation": "The visible page contains only the supplied copy and a substantive lamp image on the reference-like ground. No arbitrary ornaments, fake logo, badge, sponsor, extra text or residual old event wording is visible."
+          },
+          {
+            "view": "native",
+            "location": "lamp silhouette and footer URL",
+            "observation": "The complete product has two distinct posts and a coherent base/shade, with no visible contradictory attachment or surplus geometry. The URL is a single correct string, with no generated-looking extra characters."
+          },
+          {
+            "view": "usage720",
+            "location": "header edges and lower two lines",
+            "observation": "Letterforms and text baselines remain clean; the slight header-axis offset and tighter bottom margin are the visible residual craft limits, not unresolved image artifacts."
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "condition": "첨부한 `reference-poster.png`의 배치를 유지하면서 새 제품 발표회 포스터 1종을 만들어 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "Exactly one member is present, with the same broad upper-header/central-product/lower-detail layout as viewed A3."
+            }
+          ]
+        },
+        {
+          "condition": "세로 2:3입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "The PNG IHDR is 1024x1536; 1024*3 equals 1536*2, so the native aspect is mathematically exact 2:3."
+            }
+          ]
+        },
+        {
+          "condition": "참조의 제목 시작점, 사진 영역의 위치와 크기, 날짜/장소 블록 위치, 좌측 정렬, 주요 여백 관계를 바꾸지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "A3's measured layout was read before viewing judgments; the approximate protected starts, complete product region, lower left axis and broad gaps are retained, with the small header offset recorded separately."
+            }
+          ]
+        },
+        {
+          "condition": "첨부한 `lamp-product.png`를 같은 사진 영역에 충분한 크기의 비문자 시각 중심으로 사용하고 제품 형태와 색을 유지해 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "The complete large green curved-shade/two-post/oval-base lamp preserves viewed A2 identity and occupies the A3 photo region."
+            }
+          ]
+        },
+        {
+          "condition": "새 장식, 가짜 브랜드 로고, 기존 참조의 행사 문구는 넣지 말고 아래 문구로 모두 교체해 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "All six replacement-copy entries are present; none of A3's five old-copy entries remains, and no new ornament or fake logo is visible."
+            }
+          ]
+        },
+        {
+          "condition": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "PNG color type 2 is RGB; the native is one flat opaque portrait poster and all copy is present."
+            }
+          ]
+        },
+        {
+          "condition": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "The headline and remaining required strings, including the separately protected URL, compare equal; no additional text, labels or sponsor marks are visible."
+            }
+          ]
+        },
+        {
+          "condition": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "The large complete lamp is a substantive message-grounded nonglyph visual, including at thumbnail size."
+            }
+          ]
+        },
+        {
+          "condition": "The actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "The actual pinned synthetic A2 and A3 sources were viewed; identity and specified properties were compared visually without asserting exact-pixel equality."
+            }
+          ]
+        },
+        {
+          "condition": "Preserve A3 actual measured_layout and protected_product copied from its pinned manifest; replace its actual old_copy with the complete new copy. These describe the supplied reference, not a generated-art expected answer.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole composition or corresponding protected region",
+              "observation": "The A3 measured_layout/protected_product and old_copy were read in its pinned manifest; protected proportional placement and product properties are retained and old copy is replaced."
+            }
+          ]
+        }
+      ],
+      "residuals": [
+        "The upper header begins roughly .01 canvas width left of A3's approximate .077-.078 axis; lower details remain near .078. This is a small proportional deviation, not pixel equality, and does not overturn the manifest's stated visual-relationship tolerance.",
+        "The additional required URL reduces the bottom margin to roughly .03 canvas height, versus roughly .06 in A3. The original date/place positions and broad product-to-date gap remain preserved.",
+        "At the exact 213x320 thumbnail the two small footer lines require closer attention than the headline and date/place. They are clear at usage720.",
+        "Each dimension independently meets anchor 4 (resolved, strong professional execution). The observed result does not show the exceptional refinement required for anchor 5."
+      ]
+    }
+  },
+  "set": {
+    "members": [
+      "R7-B06-M1"
+    ],
+    "requested_count": 1,
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 1,
+      "required_count": 1,
+      "issues": []
+    },
+    "diversity": null,
+    "not_applicable_reason": "single requested image",
+    "evidence": [
+      {
+        "image_id": "R7-B06-M1",
+        "view": "thumbnail320",
+        "location": "whole requested set",
+        "observation": "The packet contains exactly one requested member, R7-B06-M1, and it was evaluated at all three pinned sizes. No multi-member diversity judgment applies."
+      }
+    ],
+    "residuals": []
+  }
+}

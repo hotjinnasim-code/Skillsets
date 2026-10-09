@@ -1,0 +1,47 @@
+{
+  "role": "R18-C1-M1",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "5299ccca6e8ff9d4de23bd7510d881361d62869b01088da9c38e0ac6338fa290",
+  "parent_native_sha256": "b4fbc210a1da46002d24726074963dcaee2fffa4d4e9a0cad146088fe197fd85",
+  "changes": [
+    {
+      "location": "time range",
+      "observation": "Native return/usage view shows a longer range dash and clear time digits; initial short mark ambiguity improved."
+    },
+    {
+      "location": "shirt collar interior",
+      "observation": "Gray microprint-like letters are gone; an unprinted pale sewn strip remains."
+    },
+    {
+      "location": "left brace",
+      "observation": "Foreground grip moved slightly upward on the chair post, while screwdriver contact remains at the upper joint; targeted shared contact not resolved."
+    },
+    {
+      "location": "right hold",
+      "observation": "Upper person's hand moved from collar toward shoulder cloth but did not reach tear."
+    },
+    {
+      "location": "whole composition and copy",
+      "observation": "Four figures, continuous bench, three-line body, central optical edge, event row and all twelve entries remain; no added copy observed."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native preview and usage720",
+      "location": "left chair corner and lower rail",
+      "observation": "Foreground hand moved upward on the leg, but still stabilizes a lower post away from the screwdriver's upper seat joint. Same local repair contact is not yet established."
+    },
+    {
+      "view": "native preview and usage720",
+      "location": "right shirt shoulder and tear",
+      "observation": "Upper neighbor's hold moved down from the collar toward shoulder fabric, but remains away from the visible tear; paired tension across the stitch point is still absent."
+    },
+    {
+      "view": "native tool inspection",
+      "location": "whole image display",
+      "observation": "Both original-detail view_image emissions appeared as tiny upper-left previews. Full native content was visually available in the actual tool's generated inline return, and identical original bytes are pinned; this native display limitation is preserved rather than claiming those emissions showed the whole image."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "draft_complete_not_integrated",
+  "base_revision": "../revision-v2",
+  "scope": "Helper revision only; revision-v2, candidate U and installed runtime were not modified.",
+  "changes": [
+    {
+      "finding": 1,
+      "result": "render(spec_path, output_dir, name) captures the resolved workspace once per call and passes it through relative-path resolution, input/output containment, input-relative manifest paths and explicit project-font permission checks. No mutable workspace global remains."
+    },
+    {
+      "finding": 3,
+      "result": "Requested-character nonzero-glyph coverage must agree across all eligible supported Unicode format-4/12 cmap subtables. Uniform absence remains a missing-glyph error; disagreement is a clear unsupported-font error. This does not identify FreeType's active cmap."
+    },
+    {
+      "finding": "additional_absent_OS2_serif_limitation",
+      "result": "Explicit fonts without OS/2 are supported. Numeric weight/stretch metadata remains null; actual head.macStyle flags provide nominal SVG weight/style with per-attribute provenance. Unavailable numeric SVG attributes are omitted. Existing OS/2 validation, explicit font bytes/index, copy conservation and painted bounds are retained."
+    },
+    {
+      "finding": "README_contract",
+      "result": "Documented per-render workspace capture, conservative requested-character coverage, active-cmap uncertainty, absent-OS/2 metadata/provenance, and the two explicit installed-font fixtures."
+    }
+  ],
+  "preserved": [
+    "Public render(spec_path, output_dir, name) API and exclusive SVG/PNG/manifest outputs",
+    "Current task workspace containment, including ordinary resolved symlink boundaries",
+    "Only explicit system/project fonts; no discovery, installation, downloading, font copies or silent substitution",
+    "No bitmap inputs, existing-poster edits or image_gen calls",
+    "Exact copy, fixed-newline handling, geometry and painted-canvas containment"
+  ],
+  "verification": {
+    "runtime": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "cwd": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/layout-guide-helper/revision-v3",
+    "command": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B -m unittest -v test_layout_guide.py",
+    "final_result": {
+      "tests_run": 27,
+      "passed": 27,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "elapsed_seconds": 0.480,
+      "exit_code": 0
+    },
+    "initial_run": "27 tests successful with one absent-serif-path skip; changed that same explicit font fixture from the absent direct Fonts path to the existing Supplemental path, then reran the full suite successfully with zero skips.",
+    "new_regressions": [
+      "Imported API followed by chdir: relative paths, manifest input paths, old input/output rejection and a later independent workspace",
+      "One workspace snapshot remains valid when cwd changes during a render call",
+      "Explicit current-workspace font path reaches parsing; old-workspace path is rejected, using temporary marker bytes without copying a font",
+      "Synthetic supported format-4/12 cmaps: both disagreement directions, single-map controls, uniformly absent/present controls, different nonzero glyph IDs and conservative supplementary-character rejection",
+      "Actual /System/Library/Fonts/Supplemental/AppleMyungjo.ttf successful Korean text render without OS/2: null numeric metadata, head flags/provenance, SVG omission, exact font hash/index/copy and measured advance; missing glyph, clipping and invalid face index still reject",
+      "Synthetic nominal head flag combinations and malformed-present-style-table rejection"
+    ],
+    "read_only_reviews": "Separate cmap/workspace and font-metadata reviewers found no concrete residual issues. Neither reviewer wrote files or reran tests.",
+    "test_artifacts": "Only new disposable planning diagrams and temporary fixtures inside revision-v3; the suite cleaned them up. Python used -B."
+  },
+  "limitations": [
+    "Conservative supported-cmap agreement can reject a usable font, including supplementary coverage present only in format 12 beside a BMP format-4 cmap.",
+    "The helper does not identify FreeType's active cmap or prove shaping, glyph appearance, complex-script correctness or font application in a later image_gen result.",
+    "head.macStyle supplies nominal SVG style only; absent numeric OS/2 weight/width remains unknown. SVG viewers may substitute fonts and cannot be bound to supplied bytes or a TTC face index.",
+    "Ordinary filesystem containment/exclusivity is retained; it is not hardened against concurrent parent-directory replacement. Interrupted processes can leave partial outputs.",
+    "Validation was on this macOS runtime and the two explicit available fonts; no cross-platform execution, poster quality, design performance or final approval is claimed.",
+    "Audit finding 2 (candidate executable bundle wiring) is intentionally left to the root task; this worker performed no integration."
+  ]
+}

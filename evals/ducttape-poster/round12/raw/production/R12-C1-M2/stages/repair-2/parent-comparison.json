@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "role": "R12-C1-M2",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "changes": [
+    {
+      "view": "native",
+      "location": "canvas",
+      "observation": "Width increased from1671 to1672; height remains941. The returned ratio is now within the predeclared0.5px nearest-integer edge tolerance."
+    },
+    {
+      "view": "native",
+      "location": "broad color fields",
+      "observation": "No decisive additional improvement in perfectly uniform flat fills is visible; mild tonal variation remains."
+    },
+    {
+      "view": "usage720",
+      "location": "all copy/layout",
+      "observation": "All eleven literal entries, date-first hierarchy, aligned lower groups, content-bearing sequence and reciprocal sharing arrows remain preserved."
+    },
+    {
+      "view": "native",
+      "location": "figures/edges",
+      "observation": "Controlled dark outlines, clean seam dashes, two adult supporting palms, fabric band/patch correspondence and absence of coral rays are maintained."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "broad teal/ochre/coral/skin fields and pale ground",
+      "observation": "Low-amplitude tonal variation remains; the final repair did not visibly achieve perfectly uniform single-color fills or the requested exact hexadecimal fields. No pixel editing was performed."
+    },
+    {
+      "view": "usage720",
+      "location": "activity band and lower information",
+      "observation": "The illustration band remains taller than planned and lower fact groups start around y334 rather than y277. The six practical lines remain aligned and legible, with bottom margin."
+    },
+    {
+      "view": "native",
+      "location": "shirt/result/shared teal pouch lower-right fronts",
+      "observation": "Coral patch remains partially on the ochre band rather than wholly above it as described in the initial production spec; source/result/share placement corresponds."
+    }
+  ],
+  "parent_manifest_sha256": "77a8b87a0e7063f204f6c8fc4abaa0cc40170b1964e45d6894d8c3441827ec3f",
+  "parent_native_sha256": "538ba460399df84443b41ab343d452aa78c0664592dd93cfe4599052fbaeb4d1"
+}

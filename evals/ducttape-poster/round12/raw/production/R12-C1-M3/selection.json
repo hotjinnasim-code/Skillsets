@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "kind": "role_selection",
+  "role": "R12-C1-M3",
+  "selected_stage": "repair-2",
+  "selected_manifest": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/manifest.json",
+    "sha256": "7028f39df387e04f62f78df5a777fcc44083c32d2346e436fded0e27158e1594",
+    "bytes": 2650
+  },
+  "selected_native_sha256": "f61ce01c95bcd8c70692d6a1184277d587f5a5d977428ced924b18de2b442751",
+  "selected_files": {
+    "original": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/original.png",
+      "sha256": "f61ce01c95bcd8c70692d6a1184277d587f5a5d977428ced924b18de2b442751",
+      "bytes": 2247878,
+      "width": 1672,
+      "height": 941
+    },
+    "final": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/final.png",
+      "sha256": "f61ce01c95bcd8c70692d6a1184277d587f5a5d977428ced924b18de2b442751",
+      "bytes": 2247878,
+      "width": 1672,
+      "height": 941
+    },
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/usage-720.png",
+      "sha256": "0c382b3bcf8c3cd3d815906a8807a7256bfdfbdfab6ee54afd1331fc1fede358",
+      "bytes": 472543,
+      "width": 720,
+      "height": 405
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/thumbnail-320.png",
+      "sha256": "027cdb063605d78e2b4ea03c242df6242e4dd93ddee18fb55ae5872ed24193e9",
+      "bytes": 110498,
+      "width": 320,
+      "height": 180
+    }
+  },
+  "selected_inspection": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/inspection.json",
+    "sha256": "0fad9df1eaa20882a3f06633d01d3d19779b05da727ac02b557dfb0a7798efa6",
+    "bytes": 17710
+  },
+  "counts": {
+    "native_calls": 3,
+    "returned": 3,
+    "failed": 0,
+    "repair_calls": 2
+  },
+  "stages": [
+    {
+      "stage": "initial",
+      "outcome": "returned",
+      "input_pins": {
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/initial/call-input.json",
+          "sha256": "fcd9697271c95a1e3e076bdc0022506f9243e1ecaa7e7015fe2f567aa2ede302",
+          "bytes": 5570
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/initial/pre-call.json",
+          "sha256": "07c0598ee25d74faeccedd76fbcba3487b109cf0666739305d48b3f625805160",
+          "bytes": 3956
+        }
+      },
+      "manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/initial/manifest.json",
+        "sha256": "ca440dba84fe53329dd519925ac2b9392a52533f2394d9e882da4a83d6d4d5a6",
+        "bytes": 2643
+      },
+      "source": {
+        "path": "/Users/nahyeonbin/.codex/generated_images/01a11a9b-d095-7ab3-8d32-248e7f0eb41b/exec-5e4f8e4a-9b8c-42bf-af20-c75587680788.png",
+        "sha256": "56a71427438da2e2e777ce09af0fa5e7dc10ac9851ffd7908ff1b312b1979f59",
+        "bytes": 2328679,
+        "width": 1672,
+        "height": 941
+      },
+      "files": {
+        "original": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/initial/original.png",
+          "sha256": "56a71427438da2e2e777ce09af0fa5e7dc10ac9851ffd7908ff1b312b1979f59",
+          "bytes": 2328679,
+          "width": 1672,
+          "height": 941
+        },
+        "final": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/initial/final.png",
+          "sha256": "56a71427438da2e2e777ce09af0fa5e7dc10ac9851ffd7908ff1b312b1979f59",
+          "bytes": 2328679,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/initial/usage-720.png",
+          "sha256": "20e6632e9584b983085716b73e614933436c37b1c201bc0f2815b3048ec4a881",
+          "bytes": 466636,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/initial/thumbnail-320.png",
+          "sha256": "921e9dcc5518db8611e8af9795661da7e6d51df672b5175f59ce75a85441fd48",
+          "bytes": 107614,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "inspection": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/initial/inspection.json",
+        "sha256": "ef2d49299e2313b8ab983d082a039f1722cea964f54e6730641293cc85e2ac33",
+        "bytes": 16047
+      }
+    },
+    {
+      "stage": "repair-1",
+      "outcome": "returned",
+      "input_pins": {
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/call-input.json",
+          "sha256": "f5cf9d92b0caf9a2efedac5db7e479c556c05697392adfbbfb94e3aed0e8d458",
+          "bytes": 2733
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/pre-call.json",
+          "sha256": "4ecb405891ff62bab013cd19cc29e06c75b2c49bb4239f43505645ee02f372b4",
+          "bytes": 5058
+        }
+      },
+      "manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/manifest.json",
+        "sha256": "5385430530876a4ce39fc353886332d86684a7b0dfb47466b2b70f7b0b3487c4",
+        "bytes": 2650
+      },
+      "source": {
+        "path": "/Users/nahyeonbin/.codex/generated_images/01a11a9b-d095-7ab3-8d32-248e7f0eb41b/exec-edaa228b-4f3f-4b41-a506-7207947403d9.png",
+        "sha256": "280e7b941a0d24c92e4b5e9a460080e32f1a72d452590169316f9b1dd73c20df",
+        "bytes": 2266893,
+        "width": 1672,
+        "height": 941
+      },
+      "files": {
+        "original": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/original.png",
+          "sha256": "280e7b941a0d24c92e4b5e9a460080e32f1a72d452590169316f9b1dd73c20df",
+          "bytes": 2266893,
+          "width": 1672,
+          "height": 941
+        },
+        "final": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/final.png",
+          "sha256": "280e7b941a0d24c92e4b5e9a460080e32f1a72d452590169316f9b1dd73c20df",
+          "bytes": 2266893,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/usage-720.png",
+          "sha256": "8448b2fb8a049da3cab3f2f3436bf770f6b999b4fdaffdc56ffe8221c261ed2c",
+          "bytes": 467372,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/thumbnail-320.png",
+          "sha256": "6baadf09fd5e6047f42917452415c41a96551e6967b431892cb92064364c9b93",
+          "bytes": 108523,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "inspection": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/inspection.json",
+        "sha256": "5f11f43a393cb9a76116f121f578761612ff63967c442b652c40940273a63a7d",
+        "bytes": 14554
+      },
+      "parent_comparison": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-1/parent-comparison.json",
+        "sha256": "52a187808ba98d254bdea9740e7ea9ac475000e5e9553be16b4d000ff1cf7bbc",
+        "bytes": 1230
+      }
+    },
+    {
+      "stage": "repair-2",
+      "outcome": "returned",
+      "input_pins": {
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/call-input.json",
+          "sha256": "9121deeea0a776011825b9b9b703a512d961e772ab1354888c1363f8182a538a",
+          "bytes": 3203
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/pre-call.json",
+          "sha256": "2d5e7480b16d9cfdb0819a90d4dcbd9e11cd3eacfb17cb082ac6990e85b815ef",
+          "bytes": 5083
+        }
+      },
+      "manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/manifest.json",
+        "sha256": "7028f39df387e04f62f78df5a777fcc44083c32d2346e436fded0e27158e1594",
+        "bytes": 2650
+      },
+      "source": {
+        "path": "/Users/nahyeonbin/.codex/generated_images/01a11a9b-d095-7ab3-8d32-248e7f0eb41b/exec-f5d3688c-3cf0-419e-b940-b26e229f9c01.png",
+        "sha256": "f61ce01c95bcd8c70692d6a1184277d587f5a5d977428ced924b18de2b442751",
+        "bytes": 2247878,
+        "width": 1672,
+        "height": 941
+      },
+      "files": {
+        "original": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/original.png",
+          "sha256": "f61ce01c95bcd8c70692d6a1184277d587f5a5d977428ced924b18de2b442751",
+          "bytes": 2247878,
+          "width": 1672,
+          "height": 941
+        },
+        "final": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/final.png",
+          "sha256": "f61ce01c95bcd8c70692d6a1184277d587f5a5d977428ced924b18de2b442751",
+          "bytes": 2247878,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/usage-720.png",
+          "sha256": "0c382b3bcf8c3cd3d815906a8807a7256bfdfbdfab6ee54afd1331fc1fede358",
+          "bytes": 472543,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/thumbnail-320.png",
+          "sha256": "027cdb063605d78e2b4ea03c242df6242e4dd93ddee18fb55ae5872ed24193e9",
+          "bytes": 110498,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "inspection": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/inspection.json",
+        "sha256": "0fad9df1eaa20882a3f06633d01d3d19779b05da727ac02b557dfb0a7798efa6",
+        "bytes": 17710
+      },
+      "parent_comparison": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/parent-comparison.json",
+        "sha256": "1c9e0e90cdbce9fa07990b8ec76d01fcdfc812deac66cfb3483b5d7c4802b3af",
+        "bytes": 2024
+      }
+    }
+  ],
+  "sealed_at_utc": "2026-10-08T08:34:08.433090+00:00",
+  "inspection_semantics": "recorded maker attestations; helper does not view or score images",
+  "native_timing_semantics": "caller-recorded pre-call/input pins only; saved_at is not a native interval"
+}

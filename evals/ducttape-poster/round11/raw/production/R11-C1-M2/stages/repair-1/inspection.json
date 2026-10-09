@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "role": "R11-C1-M2",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/repair-1/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "raw_observed_text": [
+    "인쇄하고 읽는 밤",
+    "PRINT & READ",
+    "고무판 인쇄 · 짧은 낭독",
+    "2026.12.12 토요일",
+    "18:00–20:30",
+    "망원 생활문화센터",
+    "17:40부터 입장",
+    "참가비 5,000원 · 재료 포함",
+    "신청 후 참여 · 정원 24명",
+    "앞치마 지참",
+    "처음 해도 괜찮아요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "upper-left block",
+      "observation": "The slab has a smooth grey top thickness edge; most carved surface remains cream with irregular scraped-looking pale grooves."
+    },
+    {
+      "view": "native",
+      "location": "paper across upper/lower photo boundary",
+      "observation": "Upper fresh-impression paper extends over the photo seam. A separate larger held sheet remains below with English near its bottom."
+    },
+    {
+      "view": "native",
+      "location": "lower photo right boundary",
+      "observation": "The man and his hair extend out of the rectangular photo boundary toward the blue identity and ivory facts fields; they do not cover readable letters."
+    },
+    {
+      "view": "usage720",
+      "location": "right timing/identity/facts",
+      "observation": "All eleven entries remain readable once. The right module begins aroundx418; facts begin aroundx455 and are approximately14–16px rather than the planned17."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole poster",
+      "observation": "Narrow ivory outside margins are visible. Large left photographic area and right timing identity blocks keep almost the same hierarchy as initial."
+    },
+    {
+      "view": "native",
+      "location": "letter forms",
+      "observation": "Korean syllables, counters and spaces remain distinct. English is a visibly angled slab-capital line on held sheet; no added text observed."
+    }
+  ],
+  "residuals": [
+    "Left photos still occupy about56% of width, with lower adult extending to about61%; assigned inset windows use43%.",
+    "Outside margins are around10 planning units, below the planned24.",
+    "Fresh-imprint paper crosses the seam, but English remains on the separate lower held page rather than a central linking sheet.",
+    "Right factual column is narrower and uses smaller support lettering than assigned; readable at720 but less open.",
+    "Title and fact weights remain heavier than assigned medium/regular roles.",
+    "Grey slab thickness edge improves rubber cue, but cream carving surface remains material-ambiguous."
+  ],
+  "mandatory": {
+    "copy": {
+      "occurrences": "Eleven supplied entries each visibly once; no other readable text.",
+      "readability": "All practical rows readable at720×405.",
+      "ambiguities": []
+    },
+    "substantive_visual": {
+      "observation": "Substantial printing photo and two-neighbour shared-reading photo are tied by repeated ink motif."
+    },
+    "style": {
+      "observation": "Realistic cutout/photo actions and cobalt/coral/ivory orthogonal fields are present.",
+      "layout_fidelity": "Date-first right information route retained; photo widths, linking English page and typographic role weights remain off assignment."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        940
+      ],
+      "requested": "16:9",
+      "rounding": "For native width1672 exact16:9 height is940.5. Height940 differs by0.5px within predeclared tolerance. No resize."
+    },
+    "hangul": {
+      "observation": "Intact syllables/counters and meaningful word spaces read at native and usage720."
+    },
+    "information_relationship": {
+      "observation": "Right route is date/time → event/activity → venue/entry/fee/application/preparation/welcome; shared print links the actions though paper bridge remains incomplete."
+    },
+    "function_contact": {
+      "requested": false,
+      "observation": "No contact/URL/QR supplied or added."
+    },
+    "material_edge_finish": {
+      "observation": "Visible adult grips connect to arms, faces are intact, consistent daylight; head cutout deliberately crosses blue field, upper paper's edge is clean.",
+      "limit": "Slab material and bridging page relation remain uncertain/incomplete as described."
+    }
+  },
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "인쇄하고 읽는 밤",
+      "raw_observed": "인쇄하고 읽는 밤",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "인쇄하고 읽는 밤",
+      "normalized_observed": "인쇄하고 읽는 밤",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 1,
+      "required": "PRINT & READ",
+      "raw_observed": "PRINT & READ",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "PRINT & READ",
+      "normalized_observed": "PRINT & READ",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "required": "고무판 인쇄 · 짧은 낭독",
+      "raw_observed": "고무판 인쇄 · 짧은 낭독",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "고무판 인쇄·짧은 낭독",
+      "normalized_observed": "고무판 인쇄·짧은 낭독",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "required": "2026.12.12 토요일",
+      "raw_observed": "2026.12.12 토요일",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "2026.12.12 토요일",
+      "normalized_observed": "2026.12.12 토요일",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "required": "18:00–20:30",
+      "raw_observed": "18:00–20:30",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "18:00–20:30",
+      "normalized_observed": "18:00–20:30",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "required": "망원 생활문화센터",
+      "raw_observed": "망원 생활문화센터",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "망원 생활문화센터",
+      "normalized_observed": "망원 생활문화센터",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "required": "17:40부터 입장",
+      "raw_observed": "17:40부터 입장",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "17:40부터 입장",
+      "normalized_observed": "17:40부터 입장",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "required": "참가비 5,000원 · 재료 포함",
+      "raw_observed": "참가비 5,000원 · 재료 포함",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "참가비 5,000원·재료 포함",
+      "normalized_observed": "참가비 5,000원·재료 포함",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "required": "신청 후 참여 · 정원 24명",
+      "raw_observed": "신청 후 참여 · 정원 24명",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "신청 후 참여·정원 24명",
+      "normalized_observed": "신청 후 참여·정원 24명",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "required": "앞치마 지참",
+      "raw_observed": "앞치마 지참",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "앞치마 지참",
+      "normalized_observed": "앞치마 지참",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "required": "처음 해도 괜찮아요",
+      "raw_observed": "처음 해도 괜찮아요",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "처음 해도 괜찮아요",
+      "normalized_observed": "처음 해도 괜찮아요",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "Single horizontal row per entry; English row tilted with page."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "punctuation_observation": "Centered extended time dash, colons, comma and middle dots distinguishable; raster read does not certify stored Unicode code point."
+}

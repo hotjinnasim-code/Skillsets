@@ -1,0 +1,278 @@
+{
+  "role": "R12-C1-M1",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/initial/thumbnail-320.png"
+  ],
+  "view_sequence": [
+    "original detail requested; display was incomplete tiny patch",
+    "usage720 complete",
+    "thumbnail320 complete",
+    "one exact original-detail revisit complete"
+  ],
+  "raw_observed_text": [
+    "입던 옷의 다음 장면",
+    "REMAKE & SHARE",
+    "티셔츠를 파우치로 · 완성품 나눔",
+    "2027.01.16 토요일",
+    "14:00–16:30",
+    "성산 생활문화센터",
+    "13:40부터 입장",
+    "참가비 3,000원 · 도구 제공",
+    "사전 신청 · 정원 18명",
+    "깨끗한 티셔츠 한 장 지참",
+    "바느질이 처음이어도 괜찮아요"
+  ],
+  "raw_read_basis": "First full readable tool views: native generated return followed by saved usage720; first saved original display limitation retained in first-read.json. Exact original revisit then supplied full native view.",
+  "residuals": [
+    {
+      "view": "native",
+      "location": "Hours leading digit 1, around x1080/y230",
+      "observation": "A short thin horizontal spur crosses the lower stem of the first 1. The hours remain readable, but the edge is irregular."
+    },
+    {
+      "view": "usage720",
+      "location": "Upper-right of photographic field, behind title ending and activity",
+      "observation": "Green plant and cropped folded pale textiles add a competing accent to the otherwise restrained gray/rust cotton scene."
+    },
+    {
+      "view": "native",
+      "location": "Lower rust band on source shirt and exchanged pouch",
+      "observation": "Correspondence is a stepped offset interruption rather than a clean separated gap; visible order and unequal widths agree, but this is not proof of actual cloth provenance."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "normalization": "nfc-ws-optical-v1",
+      "all_entries_observed_once": true,
+      "no_added_text_observed": true,
+      "issues": [],
+      "ambiguities": [
+        {
+          "copy_index": 4,
+          "description": "Leading hours digit has a baseline spur; native form needed revisit.",
+          "resolved": true
+        }
+      ],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "입던 옷의 다음 장면",
+          "raw_observed": "입던 옷의 다음 장면",
+          "normalized_required": "입던 옷의 다음 장면",
+          "normalized_observed": "입던 옷의 다음 장면",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "REMAKE & SHARE",
+          "raw_observed": "REMAKE & SHARE",
+          "normalized_required": "REMAKE & SHARE",
+          "normalized_observed": "REMAKE & SHARE",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "티셔츠를 파우치로 · 완성품 나눔",
+          "raw_observed": "티셔츠를 파우치로 · 완성품 나눔",
+          "normalized_required": "티셔츠를 파우치로·완성품 나눔",
+          "normalized_observed": "티셔츠를 파우치로·완성품 나눔",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2027.01.16 토요일",
+          "raw_observed": "2027.01.16 토요일",
+          "normalized_required": "2027.01.16 토요일",
+          "normalized_observed": "2027.01.16 토요일",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "14:00–16:30",
+          "raw_observed": "14:00–16:30",
+          "normalized_required": "14:00–16:30",
+          "normalized_observed": "14:00–16:30",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": "Initial read identifies hours; leading digit spur morphology needed native revisit.",
+          "revisit": {
+            "view": "native",
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/initial/original.png",
+            "sha256": "f96932ee4a3a54d0da3123816b7f79f33b18ace0044633106e3322313fb7432a",
+            "raw_observed": "14:00–16:30",
+            "resolution": "Leading glyph remains numeral 1 with an extraneous baseline spur, not an additional text character. Colon and long dash class are visually clear. Raster reading cannot certify Unicode code points.",
+            "resolved": true,
+            "reason": "Incomplete first native display and local leading-digit morphology."
+          }
+        },
+        {
+          "copy_index": 5,
+          "required": "성산 생활문화센터",
+          "raw_observed": "성산 생활문화센터",
+          "normalized_required": "성산 생활문화센터",
+          "normalized_observed": "성산 생활문화센터",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "13:40부터 입장",
+          "raw_observed": "13:40부터 입장",
+          "normalized_required": "13:40부터 입장",
+          "normalized_observed": "13:40부터 입장",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 3,000원 · 도구 제공",
+          "raw_observed": "참가비 3,000원 · 도구 제공",
+          "normalized_required": "참가비 3,000원·도구 제공",
+          "normalized_observed": "참가비 3,000원·도구 제공",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "사전 신청 · 정원 18명",
+          "raw_observed": "사전 신청 · 정원 18명",
+          "normalized_required": "사전 신청·정원 18명",
+          "normalized_observed": "사전 신청·정원 18명",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "깨끗한 티셔츠 한 장 지참",
+          "raw_observed": "깨끗한 티셔츠 한 장 지참",
+          "normalized_required": "깨끗한 티셔츠 한 장 지참",
+          "normalized_observed": "깨끗한 티셔츠 한 장 지참",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "바느질이 처음이어도 괜찮아요",
+          "raw_observed": "바느질이 처음이어도 괜찮아요",
+          "normalized_required": "바느질이 처음이어도 괜찮아요",
+          "normalized_observed": "바느질이 처음이어도 괜찮아요",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Single line, visible word spaces, no soft wrapping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Close adult lifestyle photography with daylight cotton/skin contact, off-centre left scene and full clear right practical column.",
+      "observations": "Two cropped adult wrists, slate/rust knit, open finished pouches, matte tabletop and bold editorial sans are visible. Plant accent is an observed departure from the assigned restrained scene."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": [
+        16,
+        9
+      ],
+      "exact_height_for_native_width": 940.5,
+      "one_edge_rounding_delta_px": 0.5,
+      "policy": "Predeclared nearest integer one-edge tolerance <=0.5px; no resize performed."
+    },
+    "substantive_visual": {
+      "observations": "Large recognizable crew-neck T-shirt lies below activity; broad/narrow rust bands with lower offset repeat on finished pouch front. Separate adult hands steady side and support base while second pouch rests behind."
+    },
+    "hangul": {
+      "observations": "Title and facts have open counters and consistent upright proportions; all word boundaries remain visible at usage720. Facts are generally heavier than planned regular weight."
+    },
+    "information_relationship": {
+      "first_anchor": "One-line bold upper-left Korean title",
+      "next_useful_cue": "Activity immediately below English identity, above source shirt and exchange",
+      "full_information_path": "Right uninterrupted left edge: date → hours → venue → arrival; then cost/tools → booking/capacity; then preparation → beginner welcome. All 8 practical entries stay in this column and read at usage720.",
+      "scene_boundary": "Observed boundary about x439 at usage720 instead of planned422; facts begin aboutx460. This change still protects complete information from busy cotton."
+    },
+    "function_contact": {
+      "observations": "Giver thumb and fingers steady main pouch side; recipient palm/fingers support opposite bottom. Two wrists attach to separate cropped arms. Pouch has open mouth, side seam and base, with table close beneath; no extra action hand observed."
+    },
+    "material_edge_finish": {
+      "observations": "Knit texture, seams and skin are visible with coherent soft side light and table shadows. No fake microprint, watermark, frame or QR observed. Numeric leading-1 spur is a local edge defect."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "Whole poster",
+      "observation": "Title is first mass; shirt and two hands form a second visual mass. Right aligned information reads as one destination."
+    },
+    {
+      "view": "usage720",
+      "location": "Left lower and right whole column",
+      "observation": "Visible source/result/exchange sits adjacent to complete event logistics without crossing their boundary."
+    },
+    {
+      "view": "native",
+      "location": "Shirt torso and main pouch",
+      "observation": "Upper wide and lower narrower rust bands retain order; lower band contains similar offset step. New pouch seams and mouth replace garment collar/sleeve structure."
+    }
+  ]
+}

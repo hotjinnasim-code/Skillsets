@@ -1,0 +1,250 @@
+{
+  "kind": "selected_recording_v2_metadata_only_verification",
+  "utc": "2026-10-08T04:59:21.955851+00:00",
+  "scope": "Declared future selected instrumentation correction; original three initial NA records untouched; no real case preparation or actor/native launch.",
+  "tests": {
+    "count": 8,
+    "success": true,
+    "output": "test_audit_integrated_bad_pins_and_missing_or_late_call_are_na (selected_v2_metadata_verification.SelectedRecordingTest.test_audit_integrated_bad_pins_and_missing_or_late_call_are_na) ... ok\ntest_byte_access_exact_hash_and_optional_runner_size (selected_v2_metadata_verification.SelectedRecordingTest.test_byte_access_exact_hash_and_optional_runner_size) ... ok\ntest_exact_frozen_assessment_and_normalization_logic (selected_v2_metadata_verification.SelectedRecordingTest.test_exact_frozen_assessment_and_normalization_logic) ... ok\ntest_explicit_v2_import_even_with_frozen_names_cached (selected_v2_metadata_verification.SelectedRecordingTest.test_explicit_v2_import_even_with_frozen_names_cached) ... ok\ntest_global_barrier_and_initial_scope_rejection (selected_v2_metadata_verification.SelectedRecordingTest.test_global_barrier_and_initial_scope_rejection) ... ok\ntest_missing_wrong_extra_packet_pin_fields_fail_before_outputs (selected_v2_metadata_verification.SelectedRecordingTest.test_missing_wrong_extra_packet_pin_fields_fail_before_outputs) ... ok\ntest_prep_raw_shell_adapter_and_audit_actual_runner_pin_shapes (selected_v2_metadata_verification.SelectedRecordingTest.test_prep_raw_shell_adapter_and_audit_actual_runner_pin_shapes) ... ok\ntest_shell_and_functions_exec_proof_absent_or_late_is_rejected (selected_v2_metadata_verification.SelectedRecordingTest.test_shell_and_functions_exec_proof_absent_or_late_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 1.232s\n\nOK\n"
+  },
+  "sources": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/audit_compact_bindings.py",
+      "sha256": "c1829999f79bf71eaeec0f0f716ef730e9748835451c17bc211fd70178c994ec",
+      "bytes": 21050
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/prepare_reviews_compact.py",
+      "sha256": "76030011c963efa632ec48fc7e9af5a5ee3ea1c3835d54322c82ba4d29e54d57",
+      "bytes": 33262
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/README.md",
+      "sha256": "08fb2dbbb57ca2d6c7e2c55ee3efb3142452167fb74642ba004c62cc5e220133",
+      "bytes": 10320
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/compact-recording-addendum.md",
+      "sha256": "4c695ac2cca1133a19f8fa373e22b19b35b98546b7a4c434bcff31d141b7aac4",
+      "bytes": 8707
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/test_selected_recording_v2.py",
+      "sha256": "9c58d6b582bd82a0d8112712fabea448acfe3986189a68f08c082350414ee5dd",
+      "bytes": 21744
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/ROOT-INTEGRATION.md",
+      "sha256": "e3ade51e06ac027ed7e254949681d883de558d0ee0e890df0680154152003789",
+      "bytes": 5901
+    }
+  ],
+  "original_initial_freeze": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/planning/critic-recording-helper-freeze.json",
+    "sha256": "39efff5a396bbe75d7d4423ea29027973168e2a5e613fd9b718b635832272d0e",
+    "bytes": 3077
+  },
+  "original_frozen_helper_checks": [
+    {
+      "frozen": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/prepare_reviews_compact.py",
+        "sha256": "bec8bb1ac4d65cc29bebf834b6175c07bf6c60c76b3e1f62a1f739d18fc5a55d",
+        "bytes": 32653
+      },
+      "actual": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/prepare_reviews_compact.py",
+        "sha256": "bec8bb1ac4d65cc29bebf834b6175c07bf6c60c76b3e1f62a1f739d18fc5a55d",
+        "bytes": 32653
+      },
+      "unchanged": true
+    },
+    {
+      "frozen": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/audit_compact_bindings.py",
+        "sha256": "6ab75100e264430b53d6f38768c4db7ce0ac3f9df9ec862e4b86ef99403ff6cf",
+        "bytes": 20202
+      },
+      "actual": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/audit_compact_bindings.py",
+        "sha256": "6ab75100e264430b53d6f38768c4db7ce0ac3f9df9ec862e4b86ef99403ff6cf",
+        "bytes": 20202
+      },
+      "unchanged": true
+    },
+    {
+      "frozen": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/prepare_reviews_compact.py",
+        "sha256": "bec8bb1ac4d65cc29bebf834b6175c07bf6c60c76b3e1f62a1f739d18fc5a55d",
+        "bytes": 32653
+      },
+      "actual": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/prepare_reviews_compact.py",
+        "sha256": "bec8bb1ac4d65cc29bebf834b6175c07bf6c60c76b3e1f62a1f739d18fc5a55d",
+        "bytes": 32653
+      },
+      "unchanged": true
+    },
+    {
+      "frozen": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/audit_compact_bindings.py",
+        "sha256": "6ab75100e264430b53d6f38768c4db7ce0ac3f9df9ec862e4b86ef99403ff6cf",
+        "bytes": 20202
+      },
+      "actual": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/audit_compact_bindings.py",
+        "sha256": "6ab75100e264430b53d6f38768c4db7ce0ac3f9df9ec862e4b86ef99403ff6cf",
+        "bytes": 20202
+      },
+      "unchanged": true
+    },
+    {
+      "frozen": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact_critic_adapter.py",
+        "sha256": "f9280a57559856264fb0692199f0ca574a3b74ad6a58e743a051dd0f84667076",
+        "bytes": 19148
+      },
+      "actual": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact_critic_adapter.py",
+        "sha256": "f9280a57559856264fb0692199f0ca574a3b74ad6a58e743a051dd0f84667076",
+        "bytes": 19148
+      },
+      "unchanged": true
+    },
+    {
+      "frozen": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/README.md",
+        "sha256": "4a59037ac800e00a27415172c24859c4ca28ace638c36028d3ef802149478595",
+        "bytes": 7960
+      },
+      "actual": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/README.md",
+        "sha256": "4a59037ac800e00a27415172c24859c4ca28ace638c36028d3ef802149478595",
+        "bytes": 7960
+      },
+      "unchanged": true
+    },
+    {
+      "frozen": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact-recording-addendum.md",
+        "sha256": "fcf58f5235a6408316353ffc6c1e7e7cfa713845a7bb7bd5c37a5613bb8c8ef1",
+        "bytes": 6734
+      },
+      "actual": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact-recording-addendum.md",
+        "sha256": "fcf58f5235a6408316353ffc6c1e7e7cfa713845a7bb7bd5c37a5613bb8c8ef1",
+        "bytes": 6734
+      },
+      "unchanged": true
+    },
+    {
+      "frozen": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact-integration-verification.json",
+        "sha256": "6909c0c70a06232cc0cf85822bb6d6f0c7bcf3b21682bed5e8b0fcf8df9acd4b",
+        "bytes": 3337
+      },
+      "actual": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact-integration-verification.json",
+        "sha256": "6909c0c70a06232cc0cf85822bb6d6f0c7bcf3b21682bed5e8b0fcf8df9acd4b",
+        "bytes": 3337
+      },
+      "unchanged": true
+    }
+  ],
+  "frozen_summary_sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+  "actual_initial_defect_metadata": {
+    "trace_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/reviews/R9-C1/initial/cli/editorial/trace.jsonl",
+    "completed_event_line": 29,
+    "exit_code": 1,
+    "error": "ValueError: Raw observations must bind the exact input packet",
+    "raw_packet_pin_keys": [
+      "path",
+      "sha256",
+      "bytes"
+    ],
+    "raw_packet_bytes": 26163,
+    "v1_adapter_load_keys": [
+      "path",
+      "sha256"
+    ],
+    "no_original_raw_or_compatibility_file_written": true
+  },
+  "synthetic_integration": {
+    "prep_jobs": 3,
+    "launched": false,
+    "only_maker_inventory_and_png_validation_mocked": true,
+    "actual_helper_shell_commands_executed": true,
+    "binding_gate": "PASS",
+    "quality_claim": "All judgments NA, all 105 score cells null, diversity null, and zero viewed receipts; no visual quality claim.",
+    "trace_events_and_session_ids": "Clearly synthetic fixtures; shell helper invocation is real but no critic session exists.",
+    "proof": [
+      {
+        "profile": "editorial",
+        "exact_adapter_command": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/compact_critic_adapter.py --packet /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/packet.json --observations /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/editorial/editorial.observations.json --output-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/editorial",
+        "shell_command": "/bin/zsh -lc '/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/compact_critic_adapter.py --packet /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/packet.json --observations /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/editorial/editorial.observations.json --output-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/editorial'",
+        "helper_shell_exit_code": 0,
+        "recognized_pre_completion_indices": [
+          1
+        ],
+        "raw_packet_pin_shape": [
+          "path",
+          "sha256",
+          "bytes"
+        ],
+        "null_score_cells": 35,
+        "true_view_receipts": 0,
+        "synthetic_session_id_is_not_actual_actor_evidence": true
+      },
+      {
+        "profile": "craft",
+        "exact_adapter_command": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/compact_critic_adapter.py --packet /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/packet.json --observations /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/craft/craft.observations.json --output-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/craft",
+        "shell_command": "/bin/zsh -lc '/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/compact_critic_adapter.py --packet /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/packet.json --observations /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/craft/craft.observations.json --output-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/craft'",
+        "helper_shell_exit_code": 0,
+        "recognized_pre_completion_indices": [
+          1
+        ],
+        "raw_packet_pin_shape": [
+          "path",
+          "sha256",
+          "bytes"
+        ],
+        "null_score_cells": 35,
+        "true_view_receipts": 0,
+        "synthetic_session_id_is_not_actual_actor_evidence": true
+      },
+      {
+        "profile": "portfolio",
+        "exact_adapter_command": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/compact_critic_adapter.py --packet /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/packet.json --observations /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/portfolio/portfolio.observations.json --output-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/portfolio",
+        "shell_command": "/bin/zsh -lc '/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/compact_critic_adapter.py --packet /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/packet.json --observations /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/portfolio/portfolio.observations.json --output-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-selected-v2/synthetic-selected-v2-hvh7b6p5/prepared-metadata/SYNTHETIC-METADATA-ONLY/selected/cli/portfolio'",
+        "helper_shell_exit_code": 0,
+        "recognized_pre_completion_indices": [
+          1
+        ],
+        "raw_packet_pin_shape": [
+          "path",
+          "sha256",
+          "bytes"
+        ],
+        "null_score_cells": 35,
+        "true_view_receipts": 0,
+        "synthetic_session_id_is_not_actual_actor_evidence": true
+      }
+    ],
+    "temporary_fixture_removed": true
+  },
+  "quality_and_production_unchanged": true,
+  "initial_postcompletion_exports": 0,
+  "real_critic_sessions_launched": 0,
+  "native_calls": 0,
+  "overall_critic_cap_unchanged": 6,
+  "selected_v2_planned_critics": 3,
+  "limits": [
+    "Synthetic fixtures verify metadata recording only.",
+    "Binding PASS does not certify semantic viewing or visual quality.",
+    "Root must review and separately freeze these exact selected helper bytes before selected preparation and critics."
+  ]
+}

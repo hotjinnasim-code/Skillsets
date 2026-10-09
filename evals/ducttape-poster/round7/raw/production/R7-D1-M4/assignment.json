@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R7-D1",
+  "role": "R7-D1-M4",
+  "candidate": "H",
+  "ordinal": 4,
+  "expected_count": 5,
+  "ratio": "2:3",
+  "direction": {
+    "role": "R7-D1-M4",
+    "ratio": "2:3",
+    "fullcopy": "서로 다른 속도",
+    "concept": "Growth proceeds unevenly even within a connected living system.",
+    "substantive_non_glyph_visual": "A substantial exposed root network visibly connects two shoots of the same plant species: one has extended a long stem and opened its leaves, while the other is a short emerging shoot with leaves still folded. Shared root structure and consistent leaf anatomy make the unequal developmental states a relation, rather than two unrelated botanical specimens. Roots, stems and foliage form the principal composition in one continuous scene.",
+    "expression_system": "An expressive ink or relief-cut drawing whose solid foliage, directional stem marks and branching root contours describe actual plant structure. Selective irregularity follows the growth direction instead of covering the whole poster with texture. Robust hand-drawn Hangul keeps a consistent stroke logic, intact syllables and generous internal spaces.",
+    "copy_visual_relationship": "The title forms a grounded word group at the branching or soil boundary, with the connected roots below and the unequal growth above shaping its enclosure. The short shoot leaves a different amount of breathing room from the tall one, so the title belongs to this uneven living structure. Keep stems separate from glyph strokes and leaves clear of the copy; the maker can resolve a whole-word wrap and optical alignment.",
+    "closest_other_role": "R7-D1-M3",
+    "distinction": "Both reveal unequal rates within a connection, but M4 uses asynchronous development and an organic ground-to-growth relationship. Its title belongs to a rooted boundary and its image rises irregularly. M3 uses instantaneous transmitted rotation, radial centers and a title counterweight beside a mechanical mesh."
+  },
+  "common_constraints": [
+    "Print the supplied title exactly once, with intact readable Hangul and the original word spacing. Line breaks may occur between whole words. The directions are internal guidance and must not be printed.",
+    "No other copy, supporting text, labels, numbers, logos, series identifiers, style names or watermarks. Depicted clothing, objects and surfaces must be unbranded and free of incidental text.",
+    "Each assigned maker produces only its own independent, single flat opaque poster, portrait 2:3. No panels, contact sheets, poster mockups or borrowing another maker's generated image as a reference.",
+    "The substantial non-glyph relation must remain recognizable with the title hidden and at reduced viewing size. Tiny ornament, wallpaper, background texture, gradients and 3D lettering alone do not satisfy it.",
+    "Preserve the assigned relation and distinction while solving practical crop, proportion, palette, alignment and title placement independently. There is no shared title-object-footer layout or common allocation of image and copy area.",
+    "Downstream native-tool production must request the maximum resolution supported by the current tool and model while preserving 2:3; verify the actual returned dimensions and readable copy after generation."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "382f0b028ce29455905ff77cc868e3d973816cf10311957fa8e8a71238416906",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "1e452fe193e537ace783b36014fc65fb17d96c03b4a0ee66dfc4ddf4a5d392cd"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/case.json",
+    "sha256": "ef836c524713cfe4658333247d60a414a00523ae7d702f7f1e51d81d73784d2b"
+  }
+}

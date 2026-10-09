@@ -1,0 +1,84 @@
+You are one fresh independent R7 portfolio critic. This is a real bounded visual assessment of the exact supplied request, not production or a report template.
+Read only these explicitly pinned inputs; do not follow other paths embedded inside manifests:
+[
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/packet.json",
+    "sha256": "e56508c47dc7d85efe406c773f33ab5256839bb89423352eb343acba04a47585",
+    "bytes": 9750
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/case.json",
+    "sha256": "bbfe387132e91fb1654269e5a9b112e6694c09991a81eaaf2f7eb76983a68625",
+    "bytes": 2813
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/review_rules.md",
+    "sha256": "c80926b19a05bd34ce5dcc3261f03fbcbfa0bc7c403bc8d3290f43cb10861b82",
+    "bytes": 14110
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/critic_rubric.md",
+    "sha256": "01cacc9325fa9883df2deed9c0e33daee7072be764c56e47a4f5bb94c147de44",
+    "bytes": 5918
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/summarize.py",
+    "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+    "bytes": 38350
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/run_agent.py",
+    "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+    "bytes": 2390
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/planning/ratio-policy-before-generation.json",
+    "sha256": "ea9c88b7191e689107b0636ab25af47fd0326c4d5f7b4543e3e15b2d53047350",
+    "bytes": 1105
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+    "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+    "bytes": 2432753
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/manifest.json",
+    "sha256": "16057e224f6c2211345306be6906bf4ef6abe51fb419e93d75d0216a85a74d1d",
+    "bytes": 1130
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/manifest.json",
+    "sha256": "07d3fec441626bc4f65085fa388519cb62331c0135c7f8ba389b8fd2ed54223a",
+    "bytes": 2648
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/original.png",
+    "sha256": "1cb283db37eaeb4b8e32529ec46edb96d4815c4f912f78ce47394d91d19297ef",
+    "bytes": 2232337
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/usage-720.png",
+    "sha256": "f454b74b7ed06b4381bd852c425fa756072c497bc117147fbdc26ce0b49c98a4",
+    "bytes": 869198
+  },
+  {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/thumbnail-320.png",
+    "sha256": "10a2608fb057466fe55588887006c5aca691af1052ad2f748daada5757387fbd",
+    "bytes": 106819
+  }
+]
+
+Literal complete client request:
+첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요. 세로 4:5입니다. 사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다. 작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요. 작품을 새로 그리거나 다른 작품으로 바꾸지 마세요. 주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요. 아래 문구를 모두 그대로 넣어 주세요. 날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.
+
+Read /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/packet.json and /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/case.json; obey the exact pinned review_rules.md schema and critic_rubric.md. Assess only client-specified style/conditions. No coordinator intent, maker interpretation or prior score is supplied. Per-image style_requirement is literal and must be copied exactly into mandatory.style.checked_requirement. Each image.ratio_requirement is its own requested aspect ratio; use the explicitly declared R7 integer-rounding policy and report actual native dimensions truthfully.
+
+Actually view every supplied source asset and read any protected-layout measurement manifest before fidelity judgments. Record truthful procedure.source_assets_viewed entries with asset_id/path/sha256/viewed, and procedure.protected_layouts_read pins when applicable. Then actually view all 1 poster members in packet order, each native/usage720/thumbnail320: all 3 exact poster views BEFORE the first transcription judgment, any image score or set-diversity score. Attest truthfully to the method and order; no invented opens, tool serialization or thread ID. Do not use author intent to infer an invisible scene.
+
+Score ALL seven dimensions independently using the rubric's 1–5 anchors and nonempty located evidence arrays. Do not fill a target score, average away a weak dimension or omit low records. Preserve first raw observed copy, the predeclared normalized comparison, layout observations and ambiguity separately. URLs are separate protected entries. A genuine ambiguity permits one exact pinned revisit with both reads kept; unresolved ambiguity -> NA. Do not manufacture omitted glyphs from optical spaces or soft line wrapping.
+
+Required image mandatory keys are exactly text/style/ratio/no_type_only/substantive_visual. Style status must roll up every literal applicable client condition; optional conditions[] outside mandatory can explain details but cannot replace that gate. Substantive nonglyph content is required: lettering alone, whitespace, a tiny ornament or backdrop texture does not meet it. Requested style fidelity is mandatory; do not impose a fixed style or anti-3D rule.
+
+Write actual raw reports only to /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/cli/portfolio/portfolio.json and /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/cli/portfolio/portfolio.md. The JSON profile is 'portfolio', case_id='R7-B05', wave='selected', session_id=null. Include every requested image's exact image_id/role/stage/case_id/profile and all seven located evidence arrays. procedure uses fresh_session/all_views_before_scoring/order_compliant booleans, viewed_count=3, and a truthful method. viewed must list every exact ordered packet view with its pinned path/hash. Include full exact count-fidelity and set membership. For N>=2 give diversity 1–5 with evidence for every member; for N=1 use diversity:null and not_applicable_reason:'single requested image'. If actual viewing is impossible, record false procedure/NA and unjudgable scores null with reasons; never fabricate successful viewing or scores.
+
+Do not generate/edit images, access credentials, spawn, fork, resume, inspect peer reviews, R6/other rounds, plans, maker self-inspections or unpinned files. Do not write launch/completion/trace or any file beyond your two reports; the runner owns provenance. No raw report exists yet and no PASS/score placeholder may be treated as an observation.

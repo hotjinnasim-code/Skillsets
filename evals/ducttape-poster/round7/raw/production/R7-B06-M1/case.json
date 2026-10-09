@@ -1,0 +1,218 @@
+{
+  "case_id": "R7-B06",
+  "request": "첨부한 `reference-poster.png`의 배치를 유지하면서 새 제품 발표회 포스터 1종을 만들어 주세요. 세로 2:3입니다. 참조의 제목 시작점, 사진 영역의 위치와 크기, 날짜/장소 블록 위치, 좌측 정렬, 주요 여백 관계를 바꾸지 마세요. 첨부한 `lamp-product.png`를 같은 사진 영역에 충분한 크기의 비문자 시각 중심으로 사용하고 제품 형태와 색을 유지해 주세요. 새 장식, 가짜 브랜드 로고, 기존 참조의 행사 문구는 넣지 말고 아래 문구로 모두 교체해 주세요.",
+  "copy": [
+    {
+      "text": "낮은 빛, 넓은 책상",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "LOMA 데스크 램프 발표회",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.12.03 18:30",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "을지쇼룸 2층",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "제품 소개와 디자이너 대화",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "참석 신청 example.org/loma-launch",
+      "kind": "url",
+      "fixed_newlines": false
+    }
+  ],
+  "count": 1,
+  "ratios": [
+    "2:3"
+  ],
+  "styles": {
+    "mode": "actual supplied synthetic layout and product preservation"
+  },
+  "conditions": [
+    "첨부한 `reference-poster.png`의 배치를 유지하면서 새 제품 발표회 포스터 1종을 만들어 주세요.",
+    "세로 2:3입니다.",
+    "참조의 제목 시작점, 사진 영역의 위치와 크기, 날짜/장소 블록 위치, 좌측 정렬, 주요 여백 관계를 바꾸지 마세요.",
+    "첨부한 `lamp-product.png`를 같은 사진 영역에 충분한 크기의 비문자 시각 중심으로 사용하고 제품 형태와 색을 유지해 주세요.",
+    "새 장식, 가짜 브랜드 로고, 기존 참조의 행사 문구는 넣지 말고 아래 문구로 모두 교체해 주세요.",
+    "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+    "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+    "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+    "The actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+    "Preserve A3 actual measured_layout and protected_product copied from its pinned manifest; replace its actual old_copy with the complete new copy. These describe the supplied reference, not a generated-art expected answer."
+  ],
+  "roles": [
+    {
+      "role_id": "R7-B06-M1",
+      "ordinal": 1,
+      "ratio": "2:3",
+      "assets": [
+        {
+          "asset_id": "A2",
+          "attachment_alias": "lamp-product.png",
+          "actual_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png",
+          "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+          "width": 1254,
+          "height": 1254,
+          "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/manifest.json",
+          "manifest_sha256": "1c12b44e08229bc8d5bacf70d2c454381ad55b26560d73fd1e5cdceee8365c31",
+          "kind": "synthetic product photograph-style fixture",
+          "ready": true,
+          "synthetic_authorized_fixture": true,
+          "real_client_photo": false,
+          "real_product": false,
+          "source_artwork_substitute": false,
+          "not_a_corpus_poster_candidate": true,
+          "viewed_by_corpus_author": false
+        },
+        {
+          "asset_id": "A3",
+          "attachment_alias": "reference-poster.png",
+          "actual_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png",
+          "sha256": "710109cb7a579a22551e02e3714c27b20db2dc8062e4221f5f7314f7bfc010bf",
+          "width": 1024,
+          "height": 1536,
+          "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json",
+          "manifest_sha256": "195b1e65f0f3fe7bf6e1090db97f8d5ad6dff22752f4fb218bf763585aa38688",
+          "kind": "synthetic original layout-reference fixture",
+          "ready": true,
+          "synthetic_authorized_fixture": true,
+          "real_client_photo": false,
+          "real_product": false,
+          "source_artwork_substitute": false,
+          "not_a_corpus_poster_candidate": true,
+          "viewed_by_corpus_author": false,
+          "measured_layout": {
+            "method": "root manual visual measurement on exact native1024x1536, normalized coordinateapproximation",
+            "title_start": [
+              0.077,
+              0.086
+            ],
+            "event_line_start": [
+              0.077,
+              0.197
+            ],
+            "complete_product_bbox": [
+              0.067,
+              0.347,
+              0.934,
+              0.72
+            ],
+            "date_block_start": [
+              0.078,
+              0.811
+            ],
+            "place_start": [
+              0.078,
+              0.859
+            ],
+            "invitation_start": [
+              0.078,
+              0.918
+            ],
+            "protected_alignment": "left header and details x approximately .078; product centered between; broad gap before date block",
+            "tolerance": "preserve visual proportional relationships, not claim pixel equality"
+          },
+          "protected_product": "forestgreen wide curvedshade,two posts,ovalbase,complete visiblelamp; use actual A2 too",
+          "old_copy": [
+            "빛의 구조",
+            "데스크 램프 프리뷰",
+            "2026.10.12 18:00",
+            "성수 쇼룸 1층",
+            "새로운 빛과 작업 공간"
+          ]
+        }
+      ],
+      "native_attempt_limit": 3,
+      "own_correction_limit": 2
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "A2",
+      "attachment_alias": "lamp-product.png",
+      "actual_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png",
+      "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+      "width": 1254,
+      "height": 1254,
+      "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/manifest.json",
+      "manifest_sha256": "1c12b44e08229bc8d5bacf70d2c454381ad55b26560d73fd1e5cdceee8365c31",
+      "kind": "synthetic product photograph-style fixture",
+      "ready": true,
+      "synthetic_authorized_fixture": true,
+      "real_client_photo": false,
+      "real_product": false,
+      "source_artwork_substitute": false,
+      "not_a_corpus_poster_candidate": true,
+      "viewed_by_corpus_author": false
+    },
+    {
+      "asset_id": "A3",
+      "attachment_alias": "reference-poster.png",
+      "actual_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png",
+      "sha256": "710109cb7a579a22551e02e3714c27b20db2dc8062e4221f5f7314f7bfc010bf",
+      "width": 1024,
+      "height": 1536,
+      "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json",
+      "manifest_sha256": "195b1e65f0f3fe7bf6e1090db97f8d5ad6dff22752f4fb218bf763585aa38688",
+      "kind": "synthetic original layout-reference fixture",
+      "ready": true,
+      "synthetic_authorized_fixture": true,
+      "real_client_photo": false,
+      "real_product": false,
+      "source_artwork_substitute": false,
+      "not_a_corpus_poster_candidate": true,
+      "viewed_by_corpus_author": false,
+      "measured_layout": {
+        "method": "root manual visual measurement on exact native1024x1536, normalized coordinateapproximation",
+        "title_start": [
+          0.077,
+          0.086
+        ],
+        "event_line_start": [
+          0.077,
+          0.197
+        ],
+        "complete_product_bbox": [
+          0.067,
+          0.347,
+          0.934,
+          0.72
+        ],
+        "date_block_start": [
+          0.078,
+          0.811
+        ],
+        "place_start": [
+          0.078,
+          0.859
+        ],
+        "invitation_start": [
+          0.078,
+          0.918
+        ],
+        "protected_alignment": "left header and details x approximately .078; product centered between; broad gap before date block",
+        "tolerance": "preserve visual proportional relationships, not claim pixel equality"
+      },
+      "protected_product": "forestgreen wide curvedshade,two posts,ovalbase,complete visiblelamp; use actual A2 too",
+      "old_copy": [
+        "빛의 구조",
+        "데스크 램프 프리뷰",
+        "2026.10.12 18:00",
+        "성수 쇼룸 1층",
+        "새로운 빛과 작업 공간"
+      ]
+    }
+  ]
+}

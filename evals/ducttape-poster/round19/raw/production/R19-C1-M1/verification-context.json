@@ -1,0 +1,265 @@
+{
+  "role": "R19-C1-M1",
+  "case": {
+    "case_id": "R19-C1",
+    "request": "덕테이프 포스터로 주말 식물 마켓을 홍보해줘. SNS에 올릴 16:9 가로 포스터 다섯 장이 필요해. 각각 전체 스타일과 레이아웃이 달랐으면 좋겠어. 식물을 고르고 집에서 돌보는 즐거움이 느껴지도록 만들고, 긴 설명과 방문 안내가 자연스럽게 읽히게 해줘. 큰 고딕 제목과 정보 블록에 작은 이미지나 질감을 붙이는 단색 템플릿은 제외해줘. 로고·QR·새 문구 없이 다음 문구를 각 한 번씩 정확히 넣어줘.\n\n집 안의 작은 숲\nLEAVES & LIVING\n초록을 고르고, 일상을 가꿉니다.\n작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.\n성수 주말 식물 마켓\n2027.06.12–06.13\n토·일 11:00–19:00\n성수 온실마당\n입장 무료 · 분갈이 시연\n식물 구매 시 관리 안내 제공\n편하게 들러 천천히 둘러보세요.\nleaves.example/market",
+    "copy": [
+      {
+        "text": "집 안의 작은 숲",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "LEAVES & LIVING",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "초록을 고르고, 일상을 가꿉니다.",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "성수 주말 식물 마켓",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "2027.06.12–06.13",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "토·일 11:00–19:00",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "성수 온실마당",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "입장 무료 · 분갈이 시연",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "식물 구매 시 관리 안내 제공",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "편하게 들러 천천히 둘러보세요.",
+        "kind": "text",
+        "fixed_newlines": false
+      },
+      {
+        "text": "leaves.example/market",
+        "kind": "url",
+        "fixed_newlines": false
+      }
+    ],
+    "count": 5,
+    "ratios": [
+      "16:9",
+      "16:9",
+      "16:9",
+      "16:9",
+      "16:9"
+    ],
+    "styles": {
+      "mode": "open",
+      "invocation_interpretation": "Skill invocation is not a tape material requirement"
+    },
+    "conditions": [
+      "Each copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.",
+      "Five independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.",
+      "Five genuinely distinct whole visual systems in spatial organization, image editing, type roles and reading routes, not different media over a common scaffold.",
+      "Substantive content-grounded nonglyph visuals express choosing and caring for living houseplants.",
+      "Full explanation and market,date,hours,place,access,care,invitation,URL comfortably readable and naturally connected at usage720.",
+      "Exclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override."
+    ],
+    "roles": [
+      {
+        "role_id": "R19-C1-M1",
+        "ordinal": 1,
+        "ratio": "16:9",
+        "assets": [],
+        "native_attempt_limit": 3,
+        "own_correction_limit": 2
+      }
+    ],
+    "assets": []
+  },
+  "assignment": {
+    "schema_version": 1,
+    "kind": "maker_assignment",
+    "case_id": "R19-C1",
+    "role": "R19-C1-M1",
+    "candidate": "V",
+    "ordinal": 1,
+    "expected_count": 5,
+    "ratio": "16:9",
+    "direction": {
+      "ratio": "16:9",
+      "working_name_not_printed": "Photographic encounter: small pot and enveloping canopy",
+      "whole_relationship": "Unequal diagonal photographic encounters connect a modest two-line title at the lower-left seam to a broad middle paragraph, then turn into the market visit column at the right-hand crop edge.",
+      "positive_direction": "Build a photographic editorial poster about choosing a plant whose scale belongs in a home. Edit an intimate row of small nursery pots at the lower left against an enveloping mature-leaf crop crossing the upper right. Between them, a closer view shows the natural attachment of a leaf to its stem and the rim of its actual pot. These are deliberate unequal crops; believable light, botanical attachment and pottery surfaces connect the photographs without implying different species are the same plant. The large leaf edge and descending pot row create a diagonal encounter. Its breathing seam is designed together with the real paragraph.\n\nSet ‘집 안의 / 작은 숲’ beside the lower-left pot row as the primary verbal anchor in a moderately large mature Korean serif with open counters and controlled stroke contrast. Give ‘LEAVES & LIVING’ a compact companion role on that same axis, substantially smaller and lighter. The canopy edge points upward into the nearby slogan and three-line explanation at the middle seam. Set that paragraph in a clear medium-weight Korean sans with balanced rectangular syllables, generous inner spaces, compact proportional Latin and aligned lining numerals. At the assumed SNS view, treat it as full reading copy, around a comfortable 16-pixel body rather than a caption; reserve a roughly half-width continuous area and normal leading.\n\nFrom its last line, the photographic crop meets the adjacent market-name/date/hours/venue column on the same horizontal ledge. Below that column, access and care remain adjacent, followed by the invitation and URL. Date weight is subordinate to the title but distinct from body weight. The invitation is a final conversational sentence. Use cool natural greens, charcoal, subdued porcelain and clean pale photographic highlights. Preserve photographic specificity and crisp planar type. The whole is an asymmetric encounter whose active image boundaries organize the reading turn.",
+      "hierarchy": {
+        "primary": {
+          "entry": 1,
+          "role": "Two-line Korean title at the lower-left photographic seam; strongest verbal weight, with actual word groups 집 안의 / 작은 숲."
+        },
+        "support": [
+          {
+            "entry": 2,
+            "role": "Smaller companion aligned immediately with title."
+          },
+          {
+            "entry": 3,
+            "role": "Body entry above the explanation at the canopy seam."
+          }
+        ],
+        "explanation": {
+          "entries": [
+            4
+          ],
+          "shape": "Broad three-line upright left-aligned rectangle at the middle seam."
+        },
+        "visit": {
+          "entries": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "shape": "Right-hand continuous column aligned to the paragraph's terminal horizontal ledge."
+        },
+        "next_action": {
+          "entries": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "shape": "Continuation below the visit group, access/care paired and invitation/URL adjacent."
+        }
+      },
+      "body_line_groups": [
+        "작은 화분부터 오래 키운 나무까지 만납니다.",
+        "재배자의 이야기를 듣고,",
+        "우리 집의 빛과 생활에 맞는 식물을 골라보세요."
+      ],
+      "body_end_to_next_info": "The final line sits beside the crop edge beginning the right-hand visit group; the nearby market name is its next start, with date/hours/venue underneath and access/care continuing below.",
+      "nearest_peer": {
+        "role_id": "R19-C1-M5",
+        "structural_distinction": "M1 uses unequal diagonal crops and an ascending title-to-middle-paragraph turn; M5 uses a rectilinear painted scene sequence, invitation first, central caption hinge and lower central visit destination.",
+        "style_distinction": "M1 retains camera-specific botanical and pottery surfaces; M5 uses expressive painted masses, controlled brush edges and dark jewel-toned pictorial intervals."
+      },
+      "role": "R19-C1-M1"
+    },
+    "common_constraints": [
+      "count: 5",
+      "ratio: 16:9",
+      "output: One complete flat opaque landscape poster per maker; complete native generation directly, not a mockup, comparison sheet or manually composed final.",
+      "copy: Print each of the twelve supplied entries once, preserving actual Korean, Latin, numbers, spaces and punctuation. Entry indices in this plan are internal references and are never printed. No new words, labels, numbers, captions, logo, QR, plant tags, watermark or incidental image lettering.",
+      "ratio_resolution: Preserve requested ratio and request the maximum supported native resolution. No fixed source pixel dimensions are invented.",
+      "display_assumption: A 720-pixel-wide SNS view is an internal planning assumption, not a client pixel requirement, a new quality threshold, or proof of final readability.",
+      "body_construction: Allocate the actual explanation and useful visit information substantial readable space from the outset. Body line groups below are meaningful current design choices, flexible where the complete result works; they do not authorize rewriting copy or fitting a good result to coordinates. Mature Korean/Latin/numeral forms, meaningful word spaces, precise flat typesetting and clear contrast remain coherent within each group.",
+      "punctuation: Keep supplied date and hours range dashes, colons, middle dots, ampersand, periods and URL exactly. Give range dashes optically distinct extended midline forms, preserving numeric baselines and word boundaries. Font descriptions specify visual anatomy, not certification that native generation applied a font file.",
+      "default_exclusion: Exclude passive solid, near-solid or split-field headline/date/information templates with subordinate images, including small-image, texture, font-substitution and empty-room text-board variants. Current instructions do not release this exclusion. Gothic, quiet space, pictorial scenes and a suitable individual direction's column remain available when the whole image-and-copy relationship fulfills this request.",
+      "style: Five current-content choices, not a permanent five-family runtime menu. Avoid clay/toy/complementary packages and repeating a large object, large heading and tiny footer. Plants carry substantive meaning and spatial organization, not merely garnish information.",
+      "Reuse accumulated ideas without source artwork re-opening. This case supplies no client image or supporting guide; create a complete first native poster directly. Current central coordinates/line groups/optical choices are design choices, not new client preservation conditions. Preserve every literal actual requirement and the unchanged native-call bounds."
+    ],
+    "assets": [],
+    "evidence_helper": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    "source_digest": {
+      "case_entry_sha256": "1919330d9c899aeab9b721d2d3bc30a30784c035298d12235aaecf2c45afc9a7",
+      "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+      "coordinator_plan_sha256": "6e7e8818ec39943d3f68764a4123af391c15718c97a8820dd63ebd5ddc371c70"
+    },
+    "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+    "case": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/case.json",
+      "sha256": "b64d0c38b1c6ad8e28fccf78d196c889cc525417024d22e4b4d367f54a008401"
+    }
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/case.json",
+      "sha256": "b64d0c38b1c6ad8e28fccf78d196c889cc525417024d22e4b4d367f54a008401"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/assignment.json",
+      "sha256": "e8b1c7d63ad9101c04fad3c88c6900e3d367a1c204eea28caad2a16a5d0ef87d"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/snapshots/candidate-v/SKILL.md",
+      "sha256": "7a2f1b71b15a1578269cc1dc21644966c8b93674808f1f74786de421f90acbdd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/snapshots/candidate-v/agents/openai.yaml",
+      "sha256": "7a9e257f2cdcdbbab372a4574faea6b69b208584275a2d66f86ae01fe4386be4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/snapshots/candidate-v/references/art-direction.md",
+      "sha256": "d8f5587ed18dd2cc2a7ebc4bba7bf44f14effea2129393c7bfd23bd63dfd771b"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/snapshots/candidate-v/references/parallel-production.md",
+      "sha256": "1f13d349ad23285e72045a1f5f330600f48b2f9baa108e5f70cfe94530467ffd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/snapshots/candidate-v/references/visual-research.md",
+      "sha256": "677bb0b121b226ddcdb7cecd526bdc75f29b433caf1b1ea808b4fed3e71cbb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/snapshots/candidate-v/references/evaluation-loop.md",
+      "sha256": "97449098b56468636519330a32a8f1ccbc5881cf92cd97c21315bc68705bd3d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/capability-probe/result.json",
+      "sha256": "846b62232dde3286969225f9292b36a12fbb88ce666141950504bc2b4b97e1fd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/snapshots/candidate-v/references/production-brief.md",
+      "sha256": "dafea112a3300a8d9dd25c85a0ec59808ddd55a2fc2131bdeec69e90bebc99a7"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/snapshots/candidate-v/references/design-grammar.md",
+      "sha256": "77418552f2fa1310063983eeb4ea274bc6d29d7971c9b880afdedd2981daa6ff"
+    }
+  ],
+  "supplied_assets": [],
+  "native_attempt_limit": 3,
+  "normalization": "nfc-ws-optical-v1"
+}

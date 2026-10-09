@@ -1,0 +1,71 @@
+{
+  "case_id": "R7-B02",
+  "scope": "Planning and exact-string/schema checks only. No generated poster or rendered layout was inspected.",
+  "inputs_read": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/SKILL.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/coordinator/R7-B02/case.json",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/art-direction.md",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/parallel-production.md"
+  ],
+  "asset_inventory": [
+    {
+      "role": "R7-B02-M1",
+      "supplied_assets": []
+    },
+    {
+      "role": "R7-B02-M2",
+      "supplied_assets": []
+    },
+    {
+      "role": "R7-B02-M3",
+      "supplied_assets": []
+    }
+  ],
+  "asset_inspection": "No assets are supplied in case.json; no asset manifest is referenced. Native view_image inspection was therefore not applicable.",
+  "native_image_generation_calls": 0,
+  "native_image_edit_calls": 0,
+  "native_view_image_calls": 0,
+  "agent_execution_calls": 0,
+  "copy_entry_count": 24,
+  "checks": {
+    "case_id_exact": true,
+    "request_exact": true,
+    "copy_entries_exact": true,
+    "planned_role_count_exact": true,
+    "roles_and_ratios_exact": true,
+    "fullcopy_exact_in_every_direction": true,
+    "all_literal_conditions_preserved": true,
+    "nearest_roles_valid": true,
+    "all_required_direction_fields_present": true
+  },
+  "direction_comparison": [
+    {
+      "roles": [
+        "R7-B02-M1",
+        "R7-B02-M2"
+      ],
+      "finding": "Street-level observation paired laterally with a record plane differs from an opened urban section whose central gap carries the programme."
+    },
+    {
+      "roles": [
+        "R7-B02-M1",
+        "R7-B02-M3"
+      ],
+      "finding": "The street/record boundary and tall aligned information plane differ from the overhead collaboration contact, central title and upper programme plane."
+    },
+    {
+      "roles": [
+        "R7-B02-M2",
+        "R7-B02-M3"
+      ],
+      "finding": "Revealing occluded context and enclosing the information differs from physically aligning shared observations and linking information around the contact."
+    }
+  ],
+  "legibility_review": "Planned information groups reserve space for the longest bilingual programme and audience strings, pair counterpart languages, and allow word-boundary wrapping. This is a feasibility review of prose plans, not measured typography or rendered legibility.",
+  "not_verified": [
+    "Rendered copy accuracy, Korean glyph formation and bilingual optical sizing.",
+    "Actual reduced-view, use-size and original-size legibility.",
+    "Actual nonglyph visual prominence, physical contacts, lighting, edges and material finish.",
+    "Output files, actual pixel dimensions, maximum resolution, print suitability or generated-result diversity."
+  ]
+}

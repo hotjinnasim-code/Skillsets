@@ -1,0 +1,56 @@
+{
+  "kind": "compact_recording_binding_audit",
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/packet.json",
+    "sha256": "96200efefbcc5ba79cfe94de9abfd063c37f27db1c95a0c7299f1819428ee9f1",
+    "bytes": 36740
+  },
+  "case_id": "R15-C1",
+  "wave": "selected",
+  "gate": "NA",
+  "errors": [
+    "Three unique actual trace sessions required"
+  ],
+  "profiles": {
+    "editorial": {
+      "profile": "editorial",
+      "gate": "NA",
+      "errors": [
+        "[Errno 2] No such file or directory: '/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/editorial/editorial.observations.json'"
+      ],
+      "bindings": {},
+      "limits": [
+        "Checks recording bytes/bindings and recognized invocation, not design scores or semantic visual inspection.",
+        "Unrecognized trace serialization is NA; no invented command event or post-completion repair."
+      ]
+    },
+    "craft": {
+      "profile": "craft",
+      "gate": "NA",
+      "errors": [
+        "[Errno 2] No such file or directory: '/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/craft/craft.observations.json'"
+      ],
+      "bindings": {},
+      "limits": [
+        "Checks recording bytes/bindings and recognized invocation, not design scores or semantic visual inspection.",
+        "Unrecognized trace serialization is NA; no invented command event or post-completion repair."
+      ]
+    },
+    "portfolio": {
+      "profile": "portfolio",
+      "gate": "NA",
+      "errors": [
+        "[Errno 2] No such file or directory: '/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/portfolio/portfolio.observations.json'"
+      ],
+      "bindings": {},
+      "limits": [
+        "Checks recording bytes/bindings and recognized invocation, not design scores or semantic visual inspection.",
+        "Unrecognized trace serialization is NA; no invented command event or post-completion repair."
+      ]
+    }
+  },
+  "quality_gate_unchanged": true,
+  "limits": [
+    "No image editing, scores recomputed, raw rewriting, critic replacement or gate relaxation."
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "case_id": "R16-C1",
+  "request": "덕테이프 포스터로 가상 브랜드 온빛의 데스크 램프 체험전을 안내해줘. 첨부 상품 사진을 실제로 참고해 짙은 초록색, 넓고 휘어진 가로 갓, 연결된 두 지지대와 타원형 받침의 특징을 보존하고 각 포스터에서 제품 전체가 한 번은 보여야 해. 표현 방식을 바꿀 수 있고 배경이나 포스터 배치는 보존 조건이 아니야. 실제 출시 정보나 업체 로고는 만들지 말아줘. 제품의 구조와 책상 위의 빛을 경험하는 행사로 느껴지게 해줘. 디지털 홍보용 16:9 가로 포스터를 서로 다른 전체 스타일 다섯 장으로 만들어줘. 본문 설명과 일정·장소·방문 조건·웹주소가 시선의 흐름 안에서 자연스럽게 이어져 읽혀야 해. 제목만 눈에 띄고 본문은 구석에 흩어지거나 작은 글자로 눌리지 않게 해줘. 단색 바탕의 큰 고딕 제목과 정보 블록에 상품 그림을 부가한 템플릿, 글자를 담기 위한 빈 실내 면의 구성은 제외해줘. 아래 문구를 각각 한 번씩 정확히 넣어줘.\n\n저녁을 켜는 빛\nONBIT / DESK LAMP\n조용한 빛으로 책상 위의 시간을 바꿉니다.\n넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.\n온빛 데스크 램프 체험전\n2027.04.09–04.11\n금–일 13:00–19:00\n성수 온빛 스튜디오\n관람 무료 · 현장 구매 가능\n예약 없이 방문\n책과 종이를 가져와 직접 빛을 느껴보세요.\nonbit.example/light",
+  "copy": [
+    {
+      "text": "저녁을 켜는 빛",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "ONBIT / DESK LAMP",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "온빛 데스크 램프 체험전",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2027.04.09–04.11",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "금–일 13:00–19:00",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "성수 온빛 스튜디오",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "관람 무료 · 현장 구매 가능",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "예약 없이 방문",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "onbit.example/light",
+      "kind": "url",
+      "fixed_newlines": false
+    }
+  ],
+  "count": 5,
+  "ratios": [
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9"
+  ],
+  "styles": {
+    "mode": "open",
+    "invocation_interpretation": "Skill invocation is not tape material requirement; product rendering can vary while identity/color remains"
+  },
+  "conditions": [
+    "Each copy entry once, exact Korean/English words/numbers/punctuation and meaningful word spaces, no added print,logo,QR,watermark or invented specs.",
+    "Separate single flat opaque landscape16:9 posters; no mockup or comparison sheet.",
+    "Five genuinely distinct whole styles across image/editing/space/type/reading flow, not palette/material substitution of one layout.",
+    "Substantive content-grounded nonglyph visual construction; not tiny icon or texture embellishment.",
+    "Actually use the supplied synthetic lamp fixture in every native image call. Preserve deep forest-green color, wide horizontally curved shade, two connected supports and oval base; show at least one complete identifiable product each poster. Rendering style/background/scene/layout may vary, no protected poster position or original background.",
+    "A commercial lamp experience event, relating visible product structure and desk light to the invitation. Full descriptions,visit details and URL readable in their natural flow at usage720.",
+    "Exclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate images, including small-photo/texture/font-only or empty-room dressing. Gothic type and coherent image-led scenes themselves are permitted. No scoped composition override."
+  ],
+  "roles": [
+    {
+      "role_id": "R16-C1-M1",
+      "ordinal": 1,
+      "ratio": "16:9",
+      "assets": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "attachment_alias": "lamp-product.png",
+          "actual_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+          "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+          "width": 1254,
+          "height": 1254,
+          "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/manifest.json",
+          "manifest_sha256": "31713763a5c3b89599f21387511a9859b0408697fe270d2df8b62f2740fa3af3",
+          "kind": "synthetic product photograph-style fixture, not real client photograph or a poster",
+          "ready": true,
+          "synthetic_authorized_fixture": true,
+          "real_client_photo": false,
+          "real_product": false,
+          "not_a_corpus_poster_candidate": true
+        }
+      ],
+      "native_attempt_limit": 3,
+      "own_correction_limit": 2
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "LAMP-FIXTURE",
+      "attachment_alias": "lamp-product.png",
+      "actual_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+      "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+      "width": 1254,
+      "height": 1254,
+      "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/manifest.json",
+      "manifest_sha256": "31713763a5c3b89599f21387511a9859b0408697fe270d2df8b62f2740fa3af3",
+      "kind": "synthetic product photograph-style fixture, not real client photograph or a poster",
+      "ready": true,
+      "synthetic_authorized_fixture": true,
+      "real_client_photo": false,
+      "real_product": false,
+      "not_a_corpus_poster_candidate": true
+    }
+  ]
+}

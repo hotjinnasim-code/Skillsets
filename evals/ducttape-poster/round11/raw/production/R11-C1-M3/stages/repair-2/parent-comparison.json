@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "role": "R11-C1-M3",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "18a4e891ea3b65309f8657fe7d44300584427a851f5d512a31d7a7c11610b4bd",
+  "parent_native_sha256": "501255b94078d233c706a96e4a381f7ed5e3c231b422459281b48d93feb1ecd0",
+  "compared_view_paths": {
+    "parent": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-1/original.png",
+    "current": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-2/original.png"
+  },
+  "changes": [
+    {
+      "view": "native",
+      "location": "rubber carving face",
+      "observation": "A pale plant within a dark rectangle became a positive indigo branch and leaves against a pale grey-violet carved field."
+    },
+    {
+      "view": "usage720",
+      "location": "rubber-to-print pair",
+      "observation": "The two motifs now share dark positive ink polarity, though their branch features still do not completely correspond."
+    },
+    {
+      "view": "usage720",
+      "location": "five text groups",
+      "observation": "All eleven copy entries remain the same and readable; no observed position or line-wrap change affects the practical groups."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "composition",
+      "observation": "Social scene, inward gazes, shared sheet and warm ellipse keep the previous silhouette and hierarchy."
+    }
+  ],
+  "earlier_advantages_retained": [
+    "Smooth grey-violet ungrained rubber side walls from repair-1",
+    "Readable full copy at usage720",
+    "Two adult readers and the printing forearm around the title-bearing paper",
+    "Warm gathering ellipse and cool practical fact ledges"
+  ],
+  "residuals": [
+    "The rubber relief and paper impression are visibly related botanical branches, but leaf/berry placement and mirrored transfer are not fully matched.",
+    "Top reader's head remains larger and hair more tightly clipped than the assigned guide.",
+    "Lower-right facts remain right aligned rather than the planned x420 left alignment.",
+    "Faint sheet speckles and lilac ground mottling remain beyond the cleaner flat-material direction.",
+    "Original-detail display showed a tiny patch; complete native inspection used one high-detail revisit of the same pinned PNG after QA. The asset was fully seen, but full native inspection did not complete before the first QA views."
+  ],
+  "visual_comparison_semantics": "Comparison uses the actually viewed parent and current stages; does not claim identical pixels outside the local repair."
+}

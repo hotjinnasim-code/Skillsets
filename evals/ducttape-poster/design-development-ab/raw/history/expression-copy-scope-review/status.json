@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "utc": "2026-10-08T23:20:27.274735+00:00",
+  "completion": "completed_read_only_expression_copy_scope_review",
+  "reviewer": "/root/blind_final_review",
+  "baseline": "current LIVE AA 12-file skill",
+  "draft": "drafts/candidate-expression-copy",
+  "adoption_state": "unadopted; root checks fully closed current five before decision",
+  "comparison": {
+    "live_files": 12,
+    "draft_files": 12,
+    "baseline_all12_sha256_and_bytes_match": true,
+    "changed_files": [
+      "SKILL.md",
+      "references/production-brief.md"
+    ],
+    "unchanged_byte_equal": 10,
+    "frontmatter_equal": true,
+    "stored_diff_matches_actual_two_file_diff": true
+  },
+  "scope_findings": {
+    "blocking_scope_issues": [],
+    "exact_copy_except_conditional_display_soft_word_boundary_breaks": "preserved; fixed newlines and other literals protected",
+    "title_only_title_plus_body_absent_roles": "preserved without invented roles or copy",
+    "style_first_shared_good_layouts": "preserved",
+    "simple_copy_guide": "optional only when materially helpful; direct native remains available",
+    "new_guide_font_pixel_ratio_rules_qa_source_reopening_install": "not introduced",
+    "native_architecture_change": false,
+    "helper_normalization_evaluation_numeric_rules": "unchanged draft/live bytes"
+  },
+  "actionable_advisories": [
+    {
+      "id": "EC-01",
+      "severity": "low_nonblocking_documentation",
+      "locations": [
+        "references/production-brief.md:35",
+        "references/production-brief.md:58",
+        "SKILL.md:56"
+      ],
+      "issue": "Clarify original copy/verification representation versus display-only soft word-boundary line breaks so preserved-space and allowed-line-break sentences are not read as conflicting.",
+      "suggested_action": "Optionally add one prose sentence that original copy and verification remain unchanged and soft breaks visually represent existing word-space boundaries.",
+      "new_gate_or_helper_proposed": false
+    }
+  ],
+  "input_pins": [
+    {
+      "relative_path": "SKILL.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/SKILL.md",
+        "sha256": "194ef2f6b9ff344af8ce2d4d1d642d86a048d3b1ea5ed3165892b72000957023",
+        "bytes": 23624
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/SKILL.md",
+        "sha256": "9e16b3a8f39fa11211eac46f410b6ac350c03bfe8034a528014776b5ca94048c",
+        "bytes": 24754
+      },
+      "same_bytes": false,
+      "semantic_read": true
+    },
+    {
+      "relative_path": "agents/openai.yaml",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/agents/openai.yaml",
+        "sha256": "85437531eedfd79bfc99edd9abcce0e988f0a256873ba0c3a9f95476b9682bf8",
+        "bytes": 1873
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/agents/openai.yaml",
+        "sha256": "85437531eedfd79bfc99edd9abcce0e988f0a256873ba0c3a9f95476b9682bf8",
+        "bytes": 1873
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "references/art-direction.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/art-direction.md",
+        "sha256": "781281693fda5ce0799ecbc24090f369af3baa0c78ae2d50d1574e55db63447c",
+        "bytes": 20098
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/art-direction.md",
+        "sha256": "781281693fda5ce0799ecbc24090f369af3baa0c78ae2d50d1574e55db63447c",
+        "bytes": 20098
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "references/design-grammar.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/design-grammar.md",
+        "sha256": "307467829186e47892c12307bc27582dabc792da3b2cd64bfcc5a3ee603fd32c",
+        "bytes": 10464
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/design-grammar.md",
+        "sha256": "307467829186e47892c12307bc27582dabc792da3b2cd64bfcc5a3ee603fd32c",
+        "bytes": 10464
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "references/evaluation-loop.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/evaluation-loop.md",
+        "sha256": "91553006db6ed19d26bb0d75e7e0227d8285099a3c77909edb0b32eb45db950c",
+        "bytes": 20321
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/evaluation-loop.md",
+        "sha256": "91553006db6ed19d26bb0d75e7e0227d8285099a3c77909edb0b32eb45db950c",
+        "bytes": 20321
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "references/layout-guide-contract.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/layout-guide-contract.md",
+        "sha256": "e5476c1aed79b9ab2c2308a86cd747cc580ff931efefd4c4a2d756e8891cd492",
+        "bytes": 11059
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/layout-guide-contract.md",
+        "sha256": "e5476c1aed79b9ab2c2308a86cd747cc580ff931efefd4c4a2d756e8891cd492",
+        "bytes": 11059
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "references/layout-guide.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/layout-guide.md",
+        "sha256": "898a9bd908e40e8e5e42bf6bf5fbd74022ad3a9e649010dd871b32f8872d3fb5",
+        "bytes": 5781
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/layout-guide.md",
+        "sha256": "898a9bd908e40e8e5e42bf6bf5fbd74022ad3a9e649010dd871b32f8872d3fb5",
+        "bytes": 5781
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "references/parallel-production.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/parallel-production.md",
+        "sha256": "9dda82782415b47a0831a45dbf7e1acf6d89ebc38b0c16d1d6708e211c4e18be",
+        "bytes": 13989
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/parallel-production.md",
+        "sha256": "9dda82782415b47a0831a45dbf7e1acf6d89ebc38b0c16d1d6708e211c4e18be",
+        "bytes": 13989
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "references/production-brief.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/production-brief.md",
+        "sha256": "001e8b80a97a74d443018bf02d0b18a632d20f4eeec1c390af2387ba5e97def6",
+        "bytes": 18840
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/production-brief.md",
+        "sha256": "8c8fb38b740fb0a0d9a2fc1a868336cd719a5f7f9160873e9f44ed7bfbbb01bd",
+        "bytes": 20273
+      },
+      "same_bytes": false,
+      "semantic_read": true
+    },
+    {
+      "relative_path": "references/reference-catalog.json",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/reference-catalog.json",
+        "sha256": "e4a0a9ff40a049e6fd1ea37a5876ff74f7b62dc92c1467909b9124fa75989574",
+        "bytes": 250773
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/reference-catalog.json",
+        "sha256": "e4a0a9ff40a049e6fd1ea37a5876ff74f7b62dc92c1467909b9124fa75989574",
+        "bytes": 250773
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "references/visual-research.md",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/references/visual-research.md",
+        "sha256": "774409c14f1b973901308334850d530f7da8e3c28bc2e9b9be85227c1d5e569b",
+        "bytes": 8146
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/references/visual-research.md",
+        "sha256": "774409c14f1b973901308334850d530f7da8e3c28bc2e9b9be85227c1d5e569b",
+        "bytes": 8146
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    },
+    {
+      "relative_path": "scripts/make_layout_guide.py",
+      "live": {
+        "path": "Skillsets/skills/ducttape-poster/scripts/make_layout_guide.py",
+        "sha256": "00e21b3220d22f750fd2e142fd5d91d2c84bc2ace25e60ebaa1201b5449b4472",
+        "bytes": 29315
+      },
+      "draft": {
+        "path": "drafts/candidate-expression-copy/scripts/make_layout_guide.py",
+        "sha256": "00e21b3220d22f750fd2e142fd5d91d2c84bc2ace25e60ebaa1201b5449b4472",
+        "bytes": 29315
+      },
+      "same_bytes": true,
+      "semantic_read": false
+    }
+  ],
+  "history_input_pins": [
+    {
+      "path": "history/expression-copy-draft/current12pins.json",
+      "sha256": "7a41a67c8c1bb794dd141af3886db69888af8252bf989934a34d6981a92a6996",
+      "bytes": 2332
+    },
+    {
+      "path": "history/expression-copy-draft/status.json",
+      "sha256": "8c9dbef4ed5532de5f1680c1cdab06840a167d6fcadfac11be63743956f48fe4",
+      "bytes": 5014
+    },
+    {
+      "path": "history/expression-copy-draft/expression-copy.diff",
+      "sha256": "fc9048a3e4e6ed80274863af3d2ac38c96f528527d9f1cc41134e49d503f8b89",
+      "bytes": 9353
+    },
+    {
+      "path": "history/expression-copy-draft/review.md",
+      "sha256": "6c8f9d6e408366b04404c129614d41a2aa4cd2cf7582ef1e62b425efd8ed12d1",
+      "bytes": 3576
+    }
+  ],
+  "limits": [
+    "Static scope and byte comparison only; no native quality, Unicode/font-file or soft-line-break implementation certification.",
+    "No current R23 scores/images/critic/selection records read.",
+    "Historical validator dependency failure retained; no validator rerun or packages installed."
+  ],
+  "actions": {
+    "live_or_draft_or_helpers_or_current_round_edits": 0,
+    "next_case_plan_jobs": 0,
+    "renders_native_critics_scores_image_views": 0,
+    "package_installation": 0,
+    "validation_execution": 0,
+    "written_artifacts": [
+      "history/expression-copy-scope-review/review.md",
+      "history/expression-copy-scope-review/status.json"
+    ]
+  }
+}

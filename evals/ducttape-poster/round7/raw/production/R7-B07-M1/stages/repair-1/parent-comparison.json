@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "role": "R7-B07-M1",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "e9f5651fa6eb2360fcb36d4bf7c4c6b92e6f2fff82a1f57c83e006a2a37d7039",
+  "parent_native_sha256": "ff929dbc8f73c98412dac7db0deea1b1e7bbb168f4e2846e84d71cb4bfc98cd6",
+  "comparison_method": "Compared the actually displayed original, usage720 and thumbnail320 images of both stages; no composite or new image created.",
+  "changes": [
+    {
+      "location": "lever",
+      "observation": "Tip moved slightly right and grip became thicker/rounder, while still crossing into the left text space."
+    },
+    {
+      "location": "key bow",
+      "observation": "Rim is slightly brighter; scratch marks remain distributed across its face."
+    },
+    {
+      "location": "copy and layout",
+      "observation": "All seven strings and essentially the same descending column were retained."
+    },
+    {
+      "location": "door and grip finish",
+      "observation": "Paint detail is more contrasty, and dark grip pits remain prominent."
+    }
+  ],
+  "preserved_advantages": [
+    "Readable full copy",
+    "Installed same-door lock/key and handle relation",
+    "Grayscale daylight and no invented labels"
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "key bow, approximately x647–772 y943–1104",
+      "observation": "The center remains filled with crossing scratch-like marks. The outer rim is brighter, but broad face distress remains.",
+      "impact": "Local grasp-rim wear still does not separate cleanly from general wear.",
+      "repair_cause": true
+    },
+    {
+      "view": "usage720",
+      "location": "lever and left title",
+      "observation": "The lever tip shifts slightly right but remains in the left text region. Title starts beneath the grip and its final first-line glyph approaches the lever underside.",
+      "impact": "Requested title-at-grip adjacency is still absent; gap has narrowed.",
+      "repair_cause": true
+    },
+    {
+      "view": "native",
+      "location": "lever upper/front center",
+      "observation": "Grip is thicker and its dark pits/scratch marks remain pronounced within the bright patch.",
+      "impact": "Metal is visually rougher than the desired quiet localized smoothing.",
+      "repair_cause": true
+    },
+    {
+      "view": "thumbnail320",
+      "location": "small visit information",
+      "observation": "The small information remains too small for comfortable full reading at 213×320; readable at usage720.",
+      "repair_cause": false
+    }
+  ]
+}

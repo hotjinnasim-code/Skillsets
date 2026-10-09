@@ -1,0 +1,86 @@
+{
+  "observed_utc": "2026-10-08T12:59:33.837892+00:00",
+  "reason": "Intentional parent turn interruption; runner/CLI processes and exec handle are absent. All three launched selected critics stopped before producing final raw/compatibility reports.",
+  "sessions": [
+    {
+      "profile": "editorial",
+      "session": "01a11b90-9f44-75d3-8820-086eaab637ad",
+      "launch": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/editorial/launch.json",
+        "sha256": "c0c329876feac399de8c878d60cfbe9622ae60a3fdd0b140dab14fe10ff878f2",
+        "bytes": 8130
+      },
+      "trace": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/editorial/trace.jsonl",
+        "sha256": "d0698f28ba4a6e20138a244674b7affb467caf63215e09ca8bc9568d957ac844",
+        "bytes": 153576
+      },
+      "job": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/jobs/editorial.json",
+        "sha256": "8b890d5faf0770027ef36220c495004f44a41f3b7c3354ebefba71379acc5f9e",
+        "bytes": 3973
+      },
+      "completion_available": false,
+      "reports_available": false,
+      "exit_code": null,
+      "observed_terminal_state": "process absent and tool handle missing following explicit turn_aborted; no invented completion",
+      "input_pins_unchanged_at_observation": true
+    },
+    {
+      "profile": "craft",
+      "session": "01a11b90-9f3f-7521-a178-5cfc43755067",
+      "launch": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/craft/launch.json",
+        "sha256": "352e986bfce7b2da3770be20b8732aca8c7fa18afecaa0f5861492e9d2d64983",
+        "bytes": 8110
+      },
+      "trace": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/craft/trace.jsonl",
+        "sha256": "521577669a6557744064deb4fe1f9c402683bb6897ba6661b71f687e31fff10e",
+        "bytes": 187654
+      },
+      "job": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/jobs/craft.json",
+        "sha256": "85935d88fcba01ea101f01f605afd36c3f1b17a6ef8eae0a312cf2088437dd29",
+        "bytes": 3949
+      },
+      "completion_available": false,
+      "reports_available": false,
+      "exit_code": null,
+      "observed_terminal_state": "process absent and tool handle missing following explicit turn_aborted; no invented completion",
+      "input_pins_unchanged_at_observation": true
+    },
+    {
+      "profile": "portfolio",
+      "session": "01a11b90-9f47-7dd0-8aa0-05b12b98406c",
+      "launch": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/portfolio/launch.json",
+        "sha256": "4f4339231e2b8ab24dc2628f7106282285d1b92fececc335113155a8cdb456d5",
+        "bytes": 8130
+      },
+      "trace": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/portfolio/trace.jsonl",
+        "sha256": "db85e28bcb110d711e16698a42d1c1dd561f6874c929457e07c82e638ea1e36e",
+        "bytes": 167891
+      },
+      "job": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/jobs/portfolio.json",
+        "sha256": "f3be3c167b6a060967675b27c95e67b64a061667520c9de5aefa00502181b939",
+        "bytes": 3973
+      },
+      "completion_available": false,
+      "reports_available": false,
+      "exit_code": null,
+      "observed_terminal_state": "process absent and tool handle missing following explicit turn_aborted; no invented completion",
+      "input_pins_unchanged_at_observation": true
+    }
+  ],
+  "live_actor_processes": [],
+  "process_snapshot_sha256": "05fb6168faa8a554727d7440368e15467e6015ee1635d8a2320d4919327405e7",
+  "native_production_unchanged": true,
+  "replacement_sessions": 0,
+  "original_quality_gates_unchanged": true,
+  "effective_selected_gate": "NA",
+  "completed_selected_reviews": 0,
+  "selected_valid_scores": 0
+}

@@ -1,0 +1,225 @@
+You are one fresh, isolated ducttape-poster maker. Own exactly R7-B06-M1, one final independent poster.
+Your working/output directory is /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B06-M1. Do not spawn agents or create tasks. Do not read the full corpus, coordinator plans, other makers' directions/prompts/results, critic files, prior rounds, parent evaluation history or unrelated projects. Only read this job's pinned inputs and your own newly written evidence (plus the exact native source paths explicitly returned by your own tool). Never run another project executable or a wrapper/image-generation API, SDK, image CLI, credential/config/environment lookup. The only project helper you may execute is the pinned evidence_io.py below. Read-only access to exact pinned text and own-directory exclusive metadata writes/hash checks using the bundled Python are allowed. No Python/Pillow image or asset editing; the helper's QA-only reduction is the only pixel operation.
+
+First read these exact pinned inputs, applying the current SKILL and needed references. Read review_rules.md's native evidence/transcription contract. The evaluation reference does not authorize you to judge or inspect peers/critics:
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B06-M1/case.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B06-M1/assignment.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/agents/openai.yaml
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/art-direction.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/parallel-production.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/visual-research.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/evaluation-loop.md
+- /Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/review_rules.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/run_agent.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/capability-probe/result.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/prepare_production.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/manifest.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json
+Read case.json and assignment.json. They contain the complete literal user input/common conditions and ONLY your assigned direction. Before designing, actually view every supplied image with tools.view_image through functions.exec, emitting it via image(...,'original'). Preserve all asset identity, requested style, ratio, literal copy, supplied reference geometry and measured_layout; old reference-poster copy is not new copy. All supplied images for this role are:
+[
+  {
+    "asset_id": "A2",
+    "attachment_alias": "lamp-product.png",
+    "actual_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png",
+    "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+    "width": 1254,
+    "height": 1254,
+    "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/manifest.json",
+    "manifest_sha256": "1c12b44e08229bc8d5bacf70d2c454381ad55b26560d73fd1e5cdceee8365c31",
+    "kind": "synthetic product photograph-style fixture",
+    "ready": true,
+    "synthetic_authorized_fixture": true,
+    "real_client_photo": false,
+    "real_product": false,
+    "source_artwork_substitute": false,
+    "not_a_corpus_poster_candidate": true,
+    "viewed_by_corpus_author": false
+  },
+  {
+    "asset_id": "A3",
+    "attachment_alias": "reference-poster.png",
+    "actual_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png",
+    "sha256": "710109cb7a579a22551e02e3714c27b20db2dc8062e4221f5f7314f7bfc010bf",
+    "width": 1024,
+    "height": 1536,
+    "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json",
+    "manifest_sha256": "195b1e65f0f3fe7bf6e1090db97f8d5ad6dff22752f4fb218bf763585aa38688",
+    "kind": "synthetic original layout-reference fixture",
+    "ready": true,
+    "synthetic_authorized_fixture": true,
+    "real_client_photo": false,
+    "real_product": false,
+    "source_artwork_substitute": false,
+    "not_a_corpus_poster_candidate": true,
+    "viewed_by_corpus_author": false,
+    "measured_layout": {
+      "method": "root manual visual measurement on exact native1024x1536, normalized coordinateapproximation",
+      "title_start": [
+        0.077,
+        0.086
+      ],
+      "event_line_start": [
+        0.077,
+        0.197
+      ],
+      "complete_product_bbox": [
+        0.067,
+        0.347,
+        0.934,
+        0.72
+      ],
+      "date_block_start": [
+        0.078,
+        0.811
+      ],
+      "place_start": [
+        0.078,
+        0.859
+      ],
+      "invitation_start": [
+        0.078,
+        0.918
+      ],
+      "protected_alignment": "left header and details x approximately .078; product centered between; broad gap before date block",
+      "tolerance": "preserve visual proportional relationships, not claim pixel equality"
+    },
+    "protected_product": "forestgreen wide curvedshade,two posts,ovalbase,complete visiblelamp; use actual A2 too",
+    "old_copy": [
+      "빛의 구조",
+      "데스크 램프 프리뷰",
+      "2026.10.12 18:00",
+      "성수 쇼룸 1층",
+      "새로운 빛과 작업 공간"
+    ]
+  }
+]
+
+COMPLETE ORIGINAL USER REQUEST (include this entire literal request before your design spec in EVERY native call, including repairs):
+첨부한 `reference-poster.png`의 배치를 유지하면서 새 제품 발표회 포스터 1종을 만들어 주세요. 세로 2:3입니다. 참조의 제목 시작점, 사진 영역의 위치와 크기, 날짜/장소 블록 위치, 좌측 정렬, 주요 여백 관계를 바꾸지 마세요. 첨부한 `lamp-product.png`를 같은 사진 영역에 충분한 크기의 비문자 시각 중심으로 사용하고 제품 형태와 색을 유지해 주세요. 새 장식, 가짜 브랜드 로고, 기존 참조의 행사 문구는 넣지 말고 아래 문구로 모두 교체해 주세요.
+
+ALL LITERAL COPY ENTRIES (preserve exact strings, kinds, word spacing, punctuation and fixed-newline rules in EVERY native call before your design spec):
+[
+  {
+    "text": "낮은 빛, 넓은 책상",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "LOMA 데스크 램프 발표회",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "2026.12.03 18:30",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "을지쇼룸 2층",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "제품 소개와 디자이너 대화",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "참석 신청 example.org/loma-launch",
+    "kind": "url",
+    "fixed_newlines": false
+  }
+]
+
+COMMON USER CONDITIONS/STYLES/RATIOS (include every applicable condition in every call; the role's ratio is "2:3"):
+{
+  "conditions": [
+    "첨부한 `reference-poster.png`의 배치를 유지하면서 새 제품 발표회 포스터 1종을 만들어 주세요.",
+    "세로 2:3입니다.",
+    "참조의 제목 시작점, 사진 영역의 위치와 크기, 날짜/장소 블록 위치, 좌측 정렬, 주요 여백 관계를 바꾸지 마세요.",
+    "첨부한 `lamp-product.png`를 같은 사진 영역에 충분한 크기의 비문자 시각 중심으로 사용하고 제품 형태와 색을 유지해 주세요.",
+    "새 장식, 가짜 브랜드 로고, 기존 참조의 행사 문구는 넣지 말고 아래 문구로 모두 교체해 주세요.",
+    "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+    "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+    "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+    "The actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+    "Preserve A3 actual measured_layout and protected_product copied from its pinned manifest; replace its actual old_copy with the complete new copy. These describe the supplied reference, not a generated-art expected answer."
+  ],
+  "styles": {
+    "mode": "actual supplied synthetic layout and product preservation"
+  },
+  "ratios": [
+    "2:3"
+  ]
+}
+COMMON COORDINATOR CONSTRAINTS:
+[
+  "첨부한 `reference-poster.png`의 배치를 유지하면서 새 제품 발표회 포스터 1종을 만들어 주세요.",
+  "세로 2:3입니다.",
+  "참조의 제목 시작점, 사진 영역의 위치와 크기, 날짜/장소 블록 위치, 좌측 정렬, 주요 여백 관계를 바꾸지 마세요.",
+  "첨부한 `lamp-product.png`를 같은 사진 영역에 충분한 크기의 비문자 시각 중심으로 사용하고 제품 형태와 색을 유지해 주세요.",
+  "새 장식, 가짜 브랜드 로고, 기존 참조의 행사 문구는 넣지 말고 아래 문구로 모두 교체해 주세요.",
+  "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+  "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+  "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+  "The actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+  "Preserve A3 actual measured_layout and protected_product copied from its pinned manifest; replace its actual old_copy with the complete new copy. These describe the supplied reference, not a generated-art expected answer.",
+  "총수량 1종, 지정 비율 2:3, 역할 R7-B06-M1(ordinal 1)만 계획한다. N=1이므로 참조 배치와 제품 보존을 새로움이나 다양성보다 우선한다.",
+  "styles.mode: actual supplied synthetic layout and product preservation",
+  "lamp-product.png = A2, 실제 원본 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/original.png, 1254×1254, sha256 2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2. 제품 정체성·형태·색·시점의 원본으로 사용한다. 확인한 manifest: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A2/manifest.json, manifest_sha256 1c12b44e08229bc8d5bacf70d2c454381ad55b26560d73fd1e5cdceee8365c31.",
+  "reference-poster.png = A3, 실제 원본 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/original.png, 1024×1536, sha256 710109cb7a579a22551e02e3714c27b20db2dc8062e4221f5f7314f7bfc010bf. 배치·정렬·제품 영역·주요 여백의 원본으로 사용한다. 확인한 manifest: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A3/manifest.json, manifest_sha256 195b1e65f0f3fe7bf6e1090db97f8d5ad6dff22752f4fb218bf763585aa38688.",
+  "A3 measured_layout (pinned manifest에서 그대로 복사): {\"method\":\"root manual visual measurement on exact native1024x1536, normalized coordinateapproximation\",\"title_start\":[0.077,0.086],\"event_line_start\":[0.077,0.197],\"complete_product_bbox\":[0.067,0.347,0.934,0.72],\"date_block_start\":[0.078,0.811],\"place_start\":[0.078,0.859],\"invitation_start\":[0.078,0.918],\"protected_alignment\":\"left header and details x approximately .078; product centered between; broad gap before date block\",\"tolerance\":\"preserve visual proportional relationships, not claim pixel equality\"}",
+  "A3 protected_product (pinned manifest에서 그대로 복사): forestgreen wide curvedshade,two posts,ovalbase,complete visiblelamp; use actual A2 too",
+  "A3 old_copy (전부 제거하고 새 copy 전체로 교체): [\"빛의 구조\",\"데스크 램프 프리뷰\",\"2026.10.12 18:00\",\"성수 쇼룸 1층\",\"새로운 빛과 작업 공간\"]",
+  "두 실제 PNG를 native view_image의 original 보기로 확인한 뒤 계획했다. A2의 긴 곡면 쉐이드, 두 기둥과 연결부, 타원형 받침, 짙은 숲빛 녹색, 따뜻한 하부 발광면, 표면·접지 그림자와 사선 시점을 보존한다. 제품 전체를 균일 비례로 A3의 보호된 영역에 맞추며 쉐이드 끝·기둥·받침을 자르거나 가로세로로 늘리지 않는다.",
+  "A3에서 확인한 옅고 따뜻한 바탕과 짙은 녹색 활자의 관계를 유지한다. A2 정사각형 파일의 바탕을 별도 테두리 있는 패널로 붙이지 말고, A3의 기존 사진 영역과 바탕 관계 안에서 제품을 사용한다. 새로운 책상·책·사람·광선·도형·질감·표식이나 브랜드 장식을 추가하지 않는다.",
+  "copy의 6개 문자열을 철자·띄어쓰기·숫자·문장부호·URL·순서 그대로 각각 한 번씩 담는다. fixed_newlines는 모두 false이며, 길이를 맞추기 위한 윤문·축약·가로 압축·과도한 자간 축소를 하지 않는다. 입력 필드명·역할명·내부 방향명은 작품에 인쇄하지 않는다.",
+  "제목과 행사명 시작점, 날짜와 장소 시작점을 고정하고 기존 invitation_start를 새 프로그램 안내의 시작점으로 사용한다. 추가된 신청 문자열은 그 안내 바로 아래의 기존 하단 여백 안에서 같은 좌측 정렬로 읽히게 배치한다. 추가 카피 때문에 제품 영역이나 날짜/장소 블록을 위로 이동하지 않는다.",
+  "제작 단계 명세에는 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력하도록 명시한다. 이 계획은 실제 출력 크기나 최대 해상도 달성을 보증하지 않는다.",
+  "역할 R7-B06-M1의 native_attempt_limit=3, own_correction_limit=2를 유지한다. 이번 작업은 계획만 저장하며 이미지 생성·이미지 수정·에이전트 실행은 모두 0회이다."
+]
+YOUR OWN DIRECTION, no peer plan:
+{
+  "role": "R7-B06-M1",
+  "ratio": "2:3",
+  "fullcopy": "낮은 빛, 넓은 책상\nLOMA 데스크 램프 발표회\n2026.12.03 18:30\n을지쇼룸 2층\n제품 소개와 디자이너 대화\n참석 신청 example.org/loma-launch",
+  "concept": "‘낮은 빛, 넓은 책상’의 낮고 넓은 관계를 A2에 실제로 보이는 긴 곡면 쉐이드와 넓은 따뜻한 하부 발광면으로 직접 연결한다 → 전체 램프를 원본의 사선 시점과 비례 그대로 A3의 중앙 사진 영역에 크게 두고 두 기둥·타원형 받침까지 완전히 보인다 → 기존 제목 시작점의 굵은 한글 제목이 먼저 읽히고, 바로 이어 그 수평 형태를 제품에서 확인하며 LOMA 행사명이 대상을 특정한다 → 제품 아래의 기존 넓은 간격을 거쳐 고정된 날짜·장소와 이어지는 프로그램·신청 안내를 같은 왼쪽 기준선에서 읽는다. 새로운 사용 장면이나 조명 성능 수치를 발명하지 않고 제공된 제품 모습과 제공된 카피만 연결한다.",
+  "substantive_non_glyph_visual": "A2 원본의 완전한 램프가 유일한 큰 비문자 시각 중심이다. 보호된 complete_product_bbox=[0.067,0.347,0.934,0.72]에서 가로로 긴 숲빛 녹색 곡면 쉐이드와 따뜻한 하부 발광면이 가장 큰 형태를 이루고, 두 기둥이 그 형태를 타원형 받침에 실제로 연결한다. 이는 제목을 가려도 데스크 램프와 그 넓은 수평 조명부를 식별할 수 있는 실질적인 제품 이미지다. 장식 아이콘·텍스처·입체 글자·새 소품으로 대체하지 않으며 A2의 제품을 재설계하거나 다른 모델로 바꾸지 않는다.",
+  "expression_system": "A3의 실제 표현 체계를 따른다. 옅고 따뜻한 무장식 바탕, 짙은 녹색의 굵은 한글 제목과 더 작은 행사명, 자연스러운 제품 사진의 표면·따뜻한 하부 빛·접지 그림자를 함께 유지한다. 램프는 A2의 동일 시점·제품 색·구조와 균일한 확대 비례로만 A3의 기존 크기와 위치에 맞춘다. 제목은 원래 title_start=[0.077,0.086]에서 ‘낮은 빛, 넓은 책상’ 전체가 자연스러운 자형과 어절 간격을 가진 한 줄로 들어갈 크기를 정하고, 행사명은 event_line_start=[0.077,0.197]를 유지한다. 긴 새 제목에 맞춰 글자 크기를 조절하되 제목 영역을 사진 쪽으로 확장하거나 행사명 시작점을 바꾸지 않는다. 지정된 원본의 정렬·여백·색 관계를 새로운 스타일 효과로 덮지 않는다.",
+  "copy_visual_relationship": "제목의 긴 한 줄과 중앙 램프의 긴 쉐이드가 동일한 넓은 수평 관계를 만들되 서로 닿거나 겹치지 않으며, 제목·행사명과 제품 사이의 기존 공백을 보존한다. A3 measured_layout의 왼쪽 기준선 x≈0.078과 제품 중심 배치를 그대로 사용한다. ‘2026.12.03 18:30’은 date_block_start=[0.078,0.811], ‘을지쇼룸 2층’은 place_start=[0.078,0.859]에 놓아 제품을 본 뒤 발표회 방문 정보로 자연스럽게 이어지게 한다. ‘제품 소개와 디자이너 대화’는 invitation_start=[0.078,0.918]에서 기존 안내 역할을 이어받고, ‘참석 신청 example.org/loma-launch’는 바로 다음 줄에 같은 왼쪽 기준선으로 묶는다. 하단에 남은 높이를 두 안내 줄에 먼저 배정하고 읽을 수 있는 행간·혼합 문자 크기·대비를 확보한다. URL 전체와 작은 필수 문구의 판독, 아래쪽 여백, 제품 뒤의 넓은 간격을 동시에 검토하며 모든 6개 카피를 남긴다.",
+  "closest_other_role": null,
+  "distinction": "총 1종이므로 비교 대상 역할이 없다. 이 방향의 결정 근거는 실물로 확인한 A3의 특정 시작점·중앙 제품 영역·넓은 날짜 전 여백과 A2의 특정 제품 구조를 그대로 보존하면서 다섯 기존 문구를 제거하고 여섯 새 문구를 완전히 담는 것이다. 다양성을 위해 시점·크롭·구획·팔레트·정렬을 새로 만들지 않는다. 계획 단계에서는 추가 안내 한 줄이 기존 하단 정보 영역에 수용되도록 검토했으며 실제 렌더링에서의 판독과 보존 성공은 아직 검증하지 않았다."
+}
+
+Native generation ONLY: tools.image_gen__imagegen via functions.exec, exactly one single flat opaque poster per call, transparent_background:false, assigned width:height ratio. No panels, contact sheet, mockup or extra experiment image. Each prompt must explicitly include: "요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력". This is a request, not proof of maximum output; measure the returned native dimensions.
+The predeclared ratio policy permits nearest-integer native rounding of one edge, <=0.5 pixel from the exact requested ratio on one dimension. Report actual dimensions, never resize or claim mathematically exact ratio, and do not spend a repair only on permitted rounding. Materially wrong aspect ratio still needs correction. This tolerance never overrides an explicit pixel-size request.
+One initial attempt plus at most TWO own repairs, including actual failed native attempts: at most three native invocations for this role/candidate, named initial, repair-1, repair-2 in that order. A new role name or regeneration does not reset the budget. Correct only your own actually inspected defects while retaining the specified genre and user constraints. Do not claim quality PASS or assign scores from self-inspection. Do not seek or receive external critic scores before exclusive selection closure.
+
+BEFORE EACH invocation, exclusively create stages/STAGE/call-input.json containing the COMPLETE EXACT JSON argument object that will be passed to tools.image_gen__imagegen (do not add metadata-only arguments). Separately exclusively create pre-call.json with role, stage, prepared_at_utc, native_tool, complete planned argument/input hash pins, supplied reference pins, own observed repair cause/maintained features, and attempt number. Save both before starting; do not retrofit them after a return. Keep the identical argument object in runtime store for the native invocation. Fresh initial without supplied references omits BOTH referenced_image_paths and num_last_images_to_include. With supplied assets, actually pass ALL required local asset paths using referenced_image_paths; omit num_last_images_to_include. For repairs, pass the exact own prior returned target and all required assets using referenced_image_paths, never a peer result. Never guess a newer file or use directory newest-file scanning.
+
+The native functions.exec cell starts with exactly this directive:
+// @exec: {"yield_time_ms":120000,"max_output_tokens":1000}
+Before awaiting tools.image_gen__imagegen, store/emit the actual caller UTC start and role/stage. Emit meaningful native-wait status at intervals <=45 seconds via notify()/setTimeout while awaiting (no invented model percentage). Clear the timer on return/failure. Record actual caller UTC end and whether the invocation returned or failed; preserve explicit returned path/result hints and real error metadata separately in stages/STAGE/native-call.json after return. Its wrapper interval describes the awaited native call, not helper runtime or model internals. Do not print/notify raw result/base64; retain needed result metadata in runtime store and display the generated image with generatedImage(result) as supported. Never infer source paths or generation times from filenames/helper saved_at. When yielded, resume only that exec cell, without submitting the image call again.
+
+For every returned PNG, obtain its exact absolute source path from the actual tool return, then execute the pinned helper with safely quoted exact paths:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py save-native --role R7-B06-M1 --stage STAGE --source EXACT_RETURNED_ABSOLUTE_PATH --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B06-M1
+Replace only STAGE/EXACT_RETURNED_ABSOLUTE_PATH with actual values. The helper saves byte-identical original.png/final.png, QA views and manifest.json. It does NOT edit typography, materials, crop or assets. If the returned source path is unavailable or preservation fails, preserve the actual error/tool evidence and report the unsealable return honestly; do not invent an image path or relabel a returned image as a failed native call. Stop for root handling rather than claiming a selectable asset.
+
+ACTUALLY inspect EVERY returned stage before deciding another native invocation, in this exact order: original.png at native detail, usage-720.png, thumbnail-320.png. For native display use:
+const v = await tools.view_image({path: exactOriginalPath, detail:'original'}); image(v.image_url,'original');
+Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS.
+
+Every returned repair needs exclusive parent-comparison.json: role, stage, parent_stage, parent_outcome:'returned'|'failure', the immediate parent's exact parent_manifest_sha256 and parent_native_sha256 OR parent_failure_sha256, changes:[], residuals:[]. Compare actually viewed returned stages, preserving earlier advantages; a failure parent has no visual comparison. Prefer the most suitable inspected result, not automatically the latest; preserve ALL returned originals, failures and unselected stages.
+For each actual failed native invocation, write failure.json with role, stage, outcome:'failure', native_call_count:1, error:the actual recorded error. Preserve its pre-call/input/native-call evidence. Failures count in the three-attempt cap; no placeholder images or false inspection.
+
+When one or more inspected native outcomes exist, choose the most suitable returned stage and execute only:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py finalize --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B06-M1 --selected-stage CHOSEN_STAGE
+Replace CHOSEN_STAGE with initial, repair-1 or repair-2. selection.json is exclusive and immutable before any critics. Do not alter stage inputs, images, observations, selected pins or selection after closure. The helper rejects missing/out-of-order outcomes and nonexistent comparisons. Do not also create unavailable.json.
+ONLY when all THREE actual attempts failed, do not call finalize or fabricate selection.json. Exclusively write unavailable.json with schema_version:1, kind:'role_unavailable', case_id, role, outcome:'unavailable', closed:true, reason:actual failure explanation, counts:{native_calls:3,returned:0,failed:3,repair_calls:2}, stages:[{stage,outcome:'failure',failure:{path,sha256},input_pins:{call_input:{path,sha256},pre_call:{path,sha256}},native_call:{path,sha256}}] for all three preserved actual stages. selection.json and unavailable.json may NEVER coexist. Any interruption or returned-but-unsealable outcome is explicitly incomplete, not an invented all-failed terminal record.
+
+Return a compact account of the true terminal path, selected native dimensions if any, actual call/repair/failure counts, and concrete unresolved limits. No quality score, universal guarantee or extra image generation.

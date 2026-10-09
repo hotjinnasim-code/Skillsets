@@ -1,0 +1,302 @@
+{
+  "role": "R13-C1-M4",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M4/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M4/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M4/stages/initial/thumbnail-320.png"
+  ],
+  "viewing_procedure": {
+    "initial_order": [
+      "original detail original",
+      "usage720 detail original",
+      "thumbnail320 detail original"
+    ],
+    "original_display_issue": "Initial original-detail tool display was a tiny blank patch, not a usable complete image.",
+    "one_revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M4/stages/initial/original.png",
+      "sha256": "3e742683ac2cb7605e231b8b2b6c4e86bda53010e3f1abc6952b358a601486b3",
+      "tool_detail": "high",
+      "emitted_detail": "original",
+      "resolution": "The same original was displayed completely at 1672×941; title/word spaces, dash length and structural edges could be inspected.",
+      "resolved": true,
+      "reason": "Usable display of the same pinned native asset; no new image or crop."
+    }
+  },
+  "raw_observed_text": [
+    "빛이\n머무는 집",
+    "OPEN HOUSE",
+    "건축 사진전 · 공간 이야기",
+    "2027.02.06 토요일",
+    "13:00 – 15:00",
+    "연남 생활문화공간",
+    "12:40부터 입장",
+    "관람 무료 · 해설 제공",
+    "사전 신청 · 정원 24명",
+    "편한 신발로\n방문해 주세요",
+    "건축을 몰라도 괜찮아요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "observations": [
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Large title at left and central cutaway dominate; the right guide remains a separate vertical bracket. Terracotta wall bounds the shared room rather than an unrelated object."
+    },
+    {
+      "view": "usage720",
+      "location": "left title/activity/schedule and right venue/participation/welcome",
+      "observation": "All eleven entries can be located and read. Left schedule follows activity; right venue precedes admission, free interpretation and capacity, then visit/welcome. No copy is placed inside the room."
+    },
+    {
+      "view": "native",
+      "location": "central window, wall prints and seated group",
+      "observation": "Window light reaches wall/floor, monochrome architectural photographs hang above the speaker and listener chairs in the same room; the doorway and empty chair sit by the right information column."
+    },
+    {
+      "view": "native",
+      "location": "lower-left time line",
+      "observation": "First read contains visible gaps on both sides of the medium horizontal time separator; recorded as '13:00 – 15:00'. These spaces do not equal the supplied unspaced time under the declared normalization."
+    },
+    {
+      "view": "native",
+      "location": "figures, seats and wall/floor junctions",
+      "observation": "Adults are seated in supported chairs facing one seated speaker. Small hands/legs are simplified. The front wall is deliberately cut away; one far corner has folded linework without obscuring the room."
+    },
+    {
+      "view": "native",
+      "location": "background, cut walls and window light",
+      "observation": "Ink outlines and terracotta boundaries are clean, but planes include gentle shading and the aqua daylight is partly dappled rather than a single uninterrupted flat plane; content connection remains legible."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "left lower time",
+      "limit": "Visible spaces around the time dash remain in the first read; required copy has no spaces there.",
+      "action": "One local typography repair will tighten this exact time separator."
+    },
+    {
+      "location": "central drawing",
+      "limit": "Some shaded/dappled planes and simplified figure details remain in the explanatory illustration."
+    },
+    {
+      "location": "native ratio",
+      "limit": "1672×941 is rounded; height is 0.5 px above 1672×9/16, within the predeclared one-edge allowance."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "entry_count_observed": 11,
+      "added_text_observed": [],
+      "ambiguities": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "빛이 머무는 집",
+          "raw_observed": "빛이\n머무는 집",
+          "normalized_required": "빛이 머무는 집",
+          "normalized_observed": "빛이 머무는 집",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "Title wraps after first word; visitor request wraps after first two words. Other entries are one line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "OPEN HOUSE",
+          "raw_observed": "OPEN HOUSE",
+          "normalized_required": "OPEN HOUSE",
+          "normalized_observed": "OPEN HOUSE",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "건축 사진전 · 공간 이야기",
+          "raw_observed": "건축 사진전 · 공간 이야기",
+          "normalized_required": "건축 사진전·공간 이야기",
+          "normalized_observed": "건축 사진전·공간 이야기",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2027.02.06 토요일",
+          "raw_observed": "2027.02.06 토요일",
+          "normalized_required": "2027.02.06 토요일",
+          "normalized_observed": "2027.02.06 토요일",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "13:00–15:00",
+          "raw_observed": "13:00 – 15:00",
+          "normalized_required": "13:00–15:00",
+          "normalized_observed": "13:00 – 15:00",
+          "equal": false,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line. Visible dash-adjacent gaps recorded separately."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "연남 생활문화공간",
+          "raw_observed": "연남 생활문화공간",
+          "normalized_required": "연남 생활문화공간",
+          "normalized_observed": "연남 생활문화공간",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "12:40부터 입장",
+          "raw_observed": "12:40부터 입장",
+          "normalized_required": "12:40부터 입장",
+          "normalized_observed": "12:40부터 입장",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "관람 무료 · 해설 제공",
+          "raw_observed": "관람 무료 · 해설 제공",
+          "normalized_required": "관람 무료·해설 제공",
+          "normalized_observed": "관람 무료·해설 제공",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "사전 신청 · 정원 24명",
+          "raw_observed": "사전 신청 · 정원 24명",
+          "normalized_required": "사전 신청·정원 24명",
+          "normalized_observed": "사전 신청·정원 24명",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "편한 신발로 방문해 주세요",
+          "raw_observed": "편한 신발로\n방문해 주세요",
+          "normalized_required": "편한 신발로 방문해 주세요",
+          "normalized_observed": "편한 신발로 방문해 주세요",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "Title wraps after first word; visitor request wraps after first two words. Other entries are one line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "건축을 몰라도 괜찮아요",
+          "raw_observed": "건축을 몰라도 괜찮아요",
+          "normalized_required": "건축을 몰라도 괜찮아요",
+          "normalized_observed": "건축을 몰라도 괜찮아요",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; word boundaries visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked": "Friendly 2D cutaway explanation plate, central shared room bracketed by left event/schedule and right visitor information",
+      "observed": "Axonometric open room, ink lines, terracotta cut walls and aqua light; diagram needs no dimension symbols or professional plan literacy.",
+      "plan_variations": "Title is larger and date/activity stay on one line; both columns remain readable. Speaker is seated. Those variations do not break event or information relationships."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested": "16:9",
+      "edge_rounding": {
+        "edge": "height",
+        "exact": 940.5,
+        "observed": 941,
+        "deviation_px": 0.5,
+        "within_predeclared_tolerance": true
+      },
+      "resized_native": false
+    },
+    "no_type_only": {
+      "observed": "Substantial spatial scene explains a light-filled exhibition and shared talk; not a glyph/whitespace layout with a token icon."
+    },
+    "hangul": {
+      "observed": "Title and guide syllables have regular proportions, open counters and discernible word boundaries. No definite missing Hangul glyph observed."
+    },
+    "information_relationship": {
+      "observed": "Left event/schedule and right practical guide surround the same architecture/photo/talk room; entry adjoins guide."
+    },
+    "function_contact": {
+      "requested_contact_or_url": false,
+      "observed": "No URL, contact, QR or invented application channel is printed."
+    },
+    "material_edges": {
+      "observed": "Opaque flat poster; crisp room boundaries and text edges, with some gentle illustration shading. No folded/photo-paper/mockup border, brand marks or watermark observed."
+    },
+    "identity": {
+      "observed": "Generic fictional room and anonymous photographic subjects, with no identifiable real institution/building promotion observed."
+    }
+  }
+}

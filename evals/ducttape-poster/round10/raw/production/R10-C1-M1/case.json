@@ -1,0 +1,87 @@
+{
+  "case_id": "R10-C1",
+  "request": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경",
+  "copy": [
+    {
+      "text": "다리 아래 영화관",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "BRIDGE CINEMA",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "야외 단편 상영 · 감독과의 대화",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.12.05 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "18:00–20:30",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "홍제천 연가교 아래",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "17:30부터 입장",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "돗자리 지참",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "무료 관람 · 선착순 80명",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "우천 시 실내로 변경",
+      "kind": "text",
+      "fixed_newlines": false
+    }
+  ],
+  "count": 5,
+  "ratios": [
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9"
+  ],
+  "styles": {
+    "mode": "open",
+    "exact_request": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.",
+    "invocation_interpretation": "덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open."
+  },
+  "conditions": [
+    "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+    "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+    "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+    "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+    "Outdoor short-film screening and conversation must be recognizable, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+  ],
+  "roles": [
+    {
+      "role_id": "R10-C1-M1",
+      "ordinal": 1,
+      "ratio": "16:9",
+      "assets": [],
+      "native_attempt_limit": 3,
+      "own_correction_limit": 2
+    }
+  ],
+  "assets": []
+}

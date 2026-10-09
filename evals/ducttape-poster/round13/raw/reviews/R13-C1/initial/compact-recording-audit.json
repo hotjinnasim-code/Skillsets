@@ -1,0 +1,238 @@
+{
+  "kind": "compact_recording_binding_audit",
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/packet.json",
+    "sha256": "c8f21639e10090c2ffc4fc3cdef2e0a11d27fd8826b0e31c57f1a8326dc28a99",
+    "bytes": 31380
+  },
+  "case_id": "R13-C1",
+  "wave": "initial",
+  "gate": "NA",
+  "errors": [
+    "Three unique actual trace sessions required"
+  ],
+  "profiles": {
+    "editorial": {
+      "profile": "editorial",
+      "gate": "NA",
+      "errors": [
+        "Actual trace contains a failed turn/error"
+      ],
+      "bindings": {
+        "packet": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/packet.json",
+          "sha256": "c8f21639e10090c2ffc4fc3cdef2e0a11d27fd8826b0e31c57f1a8326dc28a99",
+          "bytes": 31380
+        },
+        "raw_observations": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/editorial/editorial.observations.json",
+          "sha256": "063e285a8dee0c280e2c6387b506c7c046df424a8c3f580aaebe97d8e572ef2a",
+          "bytes": 57538
+        },
+        "compatibility_json": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/editorial/editorial.json",
+          "sha256": "6aa94911f56a032acb9dcc0a71adc14ee8677558a3b213c7091425cebd5dc24d",
+          "bytes": 90348
+        },
+        "compatibility_markdown": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/editorial/editorial.md",
+          "sha256": "6d23aebe500a289892d223750d022291729e10431d7bc1aab50ba5fb48e60868",
+          "bytes": 66325
+        },
+        "adapter": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/compact_critic_adapter.py",
+          "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+          "bytes": 19204
+        },
+        "method": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/README.md",
+          "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+          "bytes": 10025
+        },
+        "addendum": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/compact-recording-addendum.md",
+          "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+          "bytes": 7465
+        },
+        "binding_audit": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/audit_compact_bindings.py",
+          "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+          "bytes": 21050
+        },
+        "preparer": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/prepare_reviews_compact.py",
+          "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+          "bytes": 33273
+        }
+      },
+      "limits": [
+        "Checks recording bytes/bindings and recognized invocation, not design scores or semantic visual inspection.",
+        "Unrecognized trace serialization is NA; no invented command event or post-completion repair."
+      ]
+    },
+    "craft": {
+      "profile": "craft",
+      "gate": "PASS",
+      "errors": [],
+      "bindings": {
+        "packet": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/packet.json",
+          "sha256": "c8f21639e10090c2ffc4fc3cdef2e0a11d27fd8826b0e31c57f1a8326dc28a99",
+          "bytes": 31380
+        },
+        "raw_observations": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/craft/craft.observations.json",
+          "sha256": "e339d7b22242d9a7840f78ab4f590448ac53f05102879d5c29465875df397212",
+          "bytes": 70576
+        },
+        "compatibility_json": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/craft/craft.json",
+          "sha256": "3d9fbfd6150ac179408c4bae7eb7debd6bf4c9bd2d8d8cc2d1eea42a20fc1a3b",
+          "bytes": 103799
+        },
+        "compatibility_markdown": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/craft/craft.md",
+          "sha256": "48c94ab9dc254c09a6e19fda9bbb425ffa4f36c3810a68d535752e692e1876ac",
+          "bytes": 77978
+        },
+        "adapter": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/compact_critic_adapter.py",
+          "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+          "bytes": 19204
+        },
+        "method": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/README.md",
+          "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+          "bytes": 10025
+        },
+        "addendum": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/compact-recording-addendum.md",
+          "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+          "bytes": 7465
+        },
+        "binding_audit": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/audit_compact_bindings.py",
+          "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+          "bytes": 21050
+        },
+        "preparer": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/prepare_reviews_compact.py",
+          "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+          "bytes": 33273
+        },
+        "launch": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/craft/launch.json",
+          "sha256": "6504e602cd425d4f440c4c90d2856a5625d3ddd7366608a24db449608ad45a3e",
+          "bytes": 8099
+        },
+        "completion": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/craft/completion.json",
+          "sha256": "5c80b30628e5282412dd3a4544d4006d4f94aa966084a90b0c464fa88e40ed75",
+          "bytes": 9241
+        },
+        "trace": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/craft/trace.jsonl",
+          "sha256": "8c5f431dcdc8410f5734419032e787f64bd105d4e69ae6326c90666aab4eec60",
+          "bytes": 336904
+        },
+        "job": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/jobs/craft.json",
+          "sha256": "e99659c32b674bff478b20b61dd00686f3920407157e32455f1134465d11abc2",
+          "bytes": 3940
+        },
+        "actual_session_id": "01a11b0a-60a4-7882-a3ad-93020c9dd6b8",
+        "adapter_trace_events": [
+          23
+        ]
+      },
+      "limits": [
+        "Checks recording bytes/bindings and recognized invocation, not design scores or semantic visual inspection.",
+        "Unrecognized trace serialization is NA; no invented command event or post-completion repair."
+      ]
+    },
+    "portfolio": {
+      "profile": "portfolio",
+      "gate": "PASS",
+      "errors": [],
+      "bindings": {
+        "packet": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/packet.json",
+          "sha256": "c8f21639e10090c2ffc4fc3cdef2e0a11d27fd8826b0e31c57f1a8326dc28a99",
+          "bytes": 31380
+        },
+        "raw_observations": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/portfolio/portfolio.observations.json",
+          "sha256": "afe5a662a79e4ad05b23b81381e18a9a51236cdddd0f39378eee555dfd224d21",
+          "bytes": 66738
+        },
+        "compatibility_json": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/portfolio/portfolio.json",
+          "sha256": "b94214bd547428347198627c36f279ea72644cb22193cc323a953e1a77a72906",
+          "bytes": 100560
+        },
+        "compatibility_markdown": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/portfolio/portfolio.md",
+          "sha256": "c5828954c5095440d7efe798f2ef59d155cc489ff69c05d637f61afc59a6f8b9",
+          "bytes": 74215
+        },
+        "adapter": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/compact_critic_adapter.py",
+          "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+          "bytes": 19204
+        },
+        "method": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/README.md",
+          "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+          "bytes": 10025
+        },
+        "addendum": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/compact-recording-addendum.md",
+          "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+          "bytes": 7465
+        },
+        "binding_audit": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/audit_compact_bindings.py",
+          "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+          "bytes": 21050
+        },
+        "preparer": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/method-recording-v2/prepare_reviews_compact.py",
+          "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+          "bytes": 33273
+        },
+        "launch": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/portfolio/launch.json",
+          "sha256": "4665220b4461b71bd7f38cf0894f1b129dfef7656b625722484fcdb1beca87e4",
+          "bytes": 8119
+        },
+        "completion": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/portfolio/completion.json",
+          "sha256": "8e5d52297926ac1116ed161f73a1b0cd6f2b17e66ca1ca8beea5e3aadb0049de",
+          "bytes": 9301
+        },
+        "trace": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/portfolio/trace.jsonl",
+          "sha256": "2e6f43c267bed49d5d968cd92f6079b030cefbce3a81e3f7ce4cb4cf858c0fd8",
+          "bytes": 262673
+        },
+        "job": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/jobs/portfolio.json",
+          "sha256": "cbadb8379187eb6f38580179edbe5c41a42c1b43d639c86e44445a4d36521954",
+          "bytes": 3964
+        },
+        "actual_session_id": "01a11b0a-609a-7bd0-af93-348bafafca0d",
+        "adapter_trace_events": [
+          26
+        ]
+      },
+      "limits": [
+        "Checks recording bytes/bindings and recognized invocation, not design scores or semantic visual inspection.",
+        "Unrecognized trace serialization is NA; no invented command event or post-completion repair."
+      ]
+    }
+  },
+  "quality_gate_unchanged": true,
+  "limits": [
+    "No image editing, scores recomputed, raw rewriting, critic replacement or gate relaxation."
+  ]
+}

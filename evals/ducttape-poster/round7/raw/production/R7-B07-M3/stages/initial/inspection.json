@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "role": "R7-B07-M3",
+  "stage": "initial",
+  "recorded_at_utc": "2026-10-08T01:46:40.550412+00:00",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/thumbnail-320.png"
+  ],
+  "actual_view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/original.png",
+      "sha256": "69bdbb8945091475211b81a10589f5a357620191ddd4938296bb816bb3bdb376",
+      "bytes": 2075903,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/usage-720.png",
+      "sha256": "53f0a5fa35af435793236bb2c9b0300762623cf62948797faea4bd8f09443822",
+      "bytes": 968358,
+      "width": 720,
+      "height": 1080
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/thumbnail-320.png",
+      "sha256": "73f9290b32fa4dacd249fe02fea00d1e3ccf9ac5ac5a4cfc2b85e3acbb39739c",
+      "bytes": 93078,
+      "width": 213,
+      "height": 320
+    }
+  ],
+  "view_sequence": [
+    "native initial display",
+    "usage720",
+    "thumbnail320",
+    "native single revisit"
+  ],
+  "native_view_display_issue": {
+    "initial_read": "Only a small top-left door-texture patch appeared in the first native display; no copy could be transcribed from that display.",
+    "revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/original.png",
+      "sha256": "69bdbb8945091475211b81a10589f5a357620191ddd4938296bb816bb3bdb376",
+      "raw_observed": [
+        "손이 기억하는 물건",
+        "열쇠와 손잡이의 생활사",
+        "2026.12.08–2027.02.14",
+        "생활기억박물관 작은전시실",
+        "화–일 10:00–18:00 / 월요일 휴관",
+        "관람료 무료",
+        "전시 안내 example.org/hand-memory"
+      ],
+      "resolution": "The same pinned original appeared in full on the single revisit; Korean and detail text and metal finish became inspectable.",
+      "resolved": true,
+      "reason": "Resolve the initial incomplete native display without changing the asset."
+    }
+  },
+  "raw_observed_text": [
+    "손이 기억하는 물건",
+    "열쇠와 손잡이의 생활사",
+    "2026.12.08–2027.02.14",
+    "생활기억박물관 작은전시실",
+    "화–일 10:00–18:00 / 월요일 휴관",
+    "관람료 무료",
+    "전시 안내 example.org/hand-memory"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "손이 기억하는 물건",
+          "raw_observed": "손이 기억하는 물건",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "손이 기억하는 물건",
+          "normalized_observed": "손이 기억하는 물건",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line, left aligned in central white information area; ordinary word gaps retained; no soft wraps.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "열쇠와 손잡이의 생활사",
+          "raw_observed": "열쇠와 손잡이의 생활사",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "열쇠와 손잡이의 생활사",
+          "normalized_observed": "열쇠와 손잡이의 생활사",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line, left aligned in central white information area; ordinary word gaps retained; no soft wraps.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "2026.12.08–2027.02.14",
+          "raw_observed": "2026.12.08–2027.02.14",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2026.12.08–2027.02.14",
+          "normalized_observed": "2026.12.08–2027.02.14",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line, left aligned in central white information area; ordinary word gaps retained; no soft wraps.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "생활기억박물관 작은전시실",
+          "raw_observed": "생활기억박물관 작은전시실",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "생활기억박물관 작은전시실",
+          "normalized_observed": "생활기억박물관 작은전시실",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line, left aligned in central white information area; ordinary word gaps retained; no soft wraps.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "화–일 10:00–18:00 / 월요일 휴관",
+          "raw_observed": "화–일 10:00–18:00 / 월요일 휴관",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "화–일 10:00–18:00/월요일 휴관",
+          "normalized_observed": "화–일 10:00–18:00/월요일 휴관",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line, left aligned in central white information area; ordinary word gaps retained; no soft wraps.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "관람료 무료",
+          "raw_observed": "관람료 무료",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "관람료 무료",
+          "normalized_observed": "관람료 무료",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line, left aligned in central white information area; ordinary word gaps retained; no soft wraps.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "전시 안내 example.org/hand-memory",
+          "raw_observed": "전시 안내 example.org/hand-memory",
+          "first_observed_view": "usage720",
+          "kind": "url",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "전시 안내 example.org/hand-memory",
+          "normalized_observed": "전시 안내 example.org/hand-memory",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line, left aligned in central white information area; ordinary word gaps retained; no soft wraps.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "ambiguities": [],
+      "additional_copy_observed": false,
+      "raster_limit": "Visible glyph classes are transcribed; original Unicode code points cannot be certified from raster marks."
+    },
+    "style": {
+      "checked_requirement": "Explicit monochrome, neutral black/white/grayscale; museum daily-life tone",
+      "observations": "No visible chromatic accent or sepia. No horror props or commercial antique labels."
+    },
+    "ratio": {
+      "requested_width_height": [
+        2,
+        3
+      ],
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "width_error_from_exact_ratio": 0.0,
+      "rounding_policy_pixels": 0.5,
+      "resized": false
+    },
+    "substantive_non_glyph": {
+      "observations": "Two large photographic hardware regions take about 63% of height; the lever mount and inserted key/cylinder provide subject-specific functional content."
+    },
+    "layout_fidelity": {
+      "observations": "All copy in central white area between two independent photographs; objects remain top lever/bottom lock. The intended broad-smooth versus narrow-smooth comparison needs less rough wear."
+    },
+    "hangul": {
+      "observations": "Visible ordinary proportions, counters and word spacing; all entries read at usage720."
+    },
+    "function_contact": {
+      "observations": "Rotation mount, useful lever grip, cylinder and continuous key insertion are visible; the material wear distribution is the remaining cause for repair."
+    },
+    "local_material_edge_finish": {
+      "observations": "Broad flaky/scratched grip and mottled key head compete with localized hand polishing."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "usage720",
+      "location": "Upper photograph and lower photograph",
+      "observation": "Lever and inserted key/cylinder are large and recognizable. Both are attached to visually similar gray door planes. Lever extends right from its round mount; key shaft connects into lower cylinder."
+    },
+    {
+      "view": "usage720",
+      "location": "Central white information area",
+      "observation": "All seven entries are readable. Title is largest, subtitle close beneath, date and venue together, hours/free admission together, full guide address on the last line. Clear photo/type boundaries and no extra printed labels."
+    },
+    {
+      "view": "native",
+      "location": "Title and subtitle Hangul",
+      "observation": "Square natural syllable proportions, clear counters, coherent black strokes and distinct word spaces. No obvious glyph collision or horizontal squeezing."
+    },
+    {
+      "view": "native",
+      "location": "Door, lever edges, cylinder face, key rim",
+      "observation": "Neutral grayscale and soft side illumination. Boundaries are generally coherent; wear is rougher and broader than the planned smooth contact patches."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Whole poster",
+      "observation": "Two hardware close views occupy the top and bottom and central white type connects them. Large title and photographs are the dominant shapes."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "Top photograph, broad lever grip from x≈300 to x≈980",
+      "observation": "The grip carries flaking-looking dark patches and dense fine scratch marks across most of its front. It reads as surface coating loss more strongly than a broad smooth patch polished by repeated touch.",
+      "impact": "The assigned broad smooth contact-wear comparison is weakened."
+    },
+    {
+      "view": "native",
+      "location": "Bottom photograph, key head center and perimeter",
+      "observation": "The perimeter is brighter than the center, but mottled roughness is distributed over nearly the whole head.",
+      "impact": "The narrow touched rim is present, though broad distress competes with it."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Central information area, lowest four detail lines",
+      "observation": "The title and broad composition remain recognizable; the smallest details require the usage720 view for comfortable reading.",
+      "impact": "Thumbnail inspection is a composition view rather than an assurance of all detail readability."
+    }
+  ],
+  "self_scores_assigned": false,
+  "quality_pass_claimed": false
+}

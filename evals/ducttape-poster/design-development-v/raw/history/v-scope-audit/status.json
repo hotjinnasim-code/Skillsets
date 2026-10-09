@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "review_type": "untested_draft_instruction_applicability",
+  "baseline": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/snapshots/candidate-u",
+  "draft": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-v",
+  "compared_file_count": 12,
+  "changed_files": [
+    "SKILL.md",
+    "references/production-brief.md",
+    "references/parallel-production.md"
+  ],
+  "other_file_count": 9,
+  "other_files_identical": true,
+  "issues": [
+    {
+      "file": "references/production-brief.md",
+      "line": 19,
+      "issue": "New categorical prohibition on all information sharing one column, panel, or reading order narrows otherwise permitted layout choices.",
+      "small_fix": "Replace the categorical sentence with: 한 열·패널·같은 읽는 순서를 모든 방향에 일률적으로 강요하지 않는다."
+    }
+  ],
+  "other_concrete_regressions": "none",
+  "visual_quality_certified": false
+}

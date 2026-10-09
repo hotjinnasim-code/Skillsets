@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "case_id": "R18-C1",
+  "state": "two_planning_directions_written",
+  "call0": 0,
+  "call0_meaning": "Native image generation/edit calls made in this planning task",
+  "native_image_calls": 0,
+  "image_gen_calls": 0,
+  "native_poster_outputs_created": 0,
+  "agents_spawned": 0,
+  "web_calls": 0,
+  "credentials_accessed": false,
+  "old_images_opened": 0,
+  "old_scores_read": 0,
+  "other_assistant_plans_read": 0,
+  "source_artwork_read": 0,
+  "bitmap_inputs_to_renderer": 0,
+  "raster_input_edits": 0,
+  "owned_roles": [
+    "R18-C1-M1",
+    "R18-C1-M2"
+  ],
+  "owned_role_count": 2,
+  "planning_direction_count": 2,
+  "selected_planning_reference_count": 2,
+  "new_successful_svg_count": 3,
+  "new_successful_png_count": 3,
+  "own_new_png_views": 3,
+  "total_guide_renderer_attempts": 5,
+  "successful_guide_renders": 3,
+  "failed_guide_renderer_attempts": 2,
+  "runtime_preflight_failures": 1,
+  "native_case_poster_count_owned_by_root": 5,
+  "role_records": [
+    {
+      "role_id": "R18-C1-M1",
+      "direction_written": true,
+      "actual_copy_entries": 12,
+      "guide_renderer_attempts": 3,
+      "failed_guide_attempts": 1,
+      "successful_guide_renders": 2,
+      "selected_guide_attempt": 3,
+      "guide_paths": {
+        "spec": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m1-guide-attempt-03.spec.json",
+        "png": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m1-guide-attempt-03.png",
+        "svg": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m1-guide-attempt-03.svg",
+        "manifest": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m1-guide-attempt-03.manifest.json",
+        "render_log": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m1-guide-attempt-03.render.log"
+      },
+      "native_calls": 0,
+      "native_poster_outputs": 0
+    },
+    {
+      "role_id": "R18-C1-M2",
+      "direction_written": true,
+      "actual_copy_entries": 12,
+      "guide_renderer_attempts": 2,
+      "failed_guide_attempts": 1,
+      "successful_guide_renders": 1,
+      "selected_guide_attempt": 2,
+      "guide_paths": {
+        "spec": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m2-guide-attempt-02.spec.json",
+        "png": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m2-guide-attempt-02.png",
+        "svg": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m2-guide-attempt-02.svg",
+        "manifest": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m2-guide-attempt-02.manifest.json",
+        "render_log": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/r18-c1-m2-guide-attempt-02.render.log"
+      },
+      "native_calls": 0,
+      "native_poster_outputs": 0
+    }
+  ],
+  "attempt_preservation": {
+    "outputs_overwritten": 0,
+    "exclusive_specs_preserved": 5,
+    "renderer_logs_preserved": 5,
+    "runtime_preflight_note": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/runtime-preflight-failure.txt",
+    "render_records": [
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/guide-render-record-01.json",
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/guide-render-record-02.json",
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/out/guide-render-record-03.json"
+    ]
+  },
+  "runtime": {
+    "renderer_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/layout-guide-helper/revision-v2/make_layout_guide.py",
+    "executed_from": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a",
+    "python": "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+    "pillow_dependency_path": "/Users/nahyeonbin/.codex/worktrees/terrain-alignment/NAMOK-Bible-Maps/.cache/terrain-python/lib/python3.9/site-packages",
+    "dependency_use": "Read-only runtime dependency; no project source, artwork or design material in that tree was read.",
+    "shaping_engine": "BASIC",
+    "font_binaries_copied": 0,
+    "font_downloads": 0,
+    "network_package_installs": 0
+  },
+  "recorded_checks": {
+    "two_owned_role_ids": true,
+    "selected_specs_match_all_twelve_pinned_copy_entries_once": true,
+    "word_spaces_and_punctuation_conserved": true,
+    "all_selected_paths_exist": true,
+    "selected_text_blocks_report_no_planned_area_overflow": true,
+    "final_own_new_guide_pngs_viewed": true,
+    "meaning": "These checks record the concrete handoff and guide fit only; they are not poster quality or final approval."
+  },
+  "directions_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/directions.json",
+  "status_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/coordinator/design-drafts/a/status.json",
+  "limitations": [
+    "These are newly authored planning diagrams and direction briefs, not generated posters, benchmarks, aesthetic scores, or final approval.",
+    "1672x941 is the requested guide rounding for 16:9. It is not a new client pixel requirement or a promise of native output geometry.",
+    "Gray fills, simple polygons, schematic faces/hands and area boundaries only explain the large scene or relational arrangement. They are not the proposed final materials, palette, drawing finish or anatomy.",
+    "The PNGs use the recorded Apple SD Gothic Neo font bytes and TTC indices. The SVGs request installed family and weight; viewers may substitute faces. No fonts were copied, embedded or downloaded.",
+    "The Pillow runtime used BASIC layout. Cmap coverage and measured text bounds describe this guide, without guaranteeing future native shaping, font application, exact line breaks, geometry or reading comfort.",
+    "The nominal 720px display sizes are planning calculations, not pixel thresholds or an empirical final-poster readability claim. Final native type and image/copy relationships remain for ROOT's later production.",
+    "Default python3 lacked Pillow; an existing local Pillow dependency runtime was read only. Both first guide attempts then stopped on unsupported AppleMyungjo metadata. The preflight note, exclusive failed specs and renderer logs are retained."
+  ],
+  "next_owner": "ROOT compares these with the remaining three directions before any native generation."
+}

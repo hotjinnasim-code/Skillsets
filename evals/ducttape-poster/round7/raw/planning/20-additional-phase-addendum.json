@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-10-08T00:42:33.208670+00:00",
+  "trigger": "Latest explicit human request:20additional test images",
+  "candidate": "H",
+  "corpus_pin": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/planning/corpus20.json",
+    "sha256": "d9041e9beafd4c7b984c7d0ed813f2d77f2a3688d053f7a5be7b6e4e42eb1404"
+  },
+  "cases": [
+    {
+      "case_id": "R7-D1",
+      "count": 5,
+      "phase": "development"
+    },
+    {
+      "case_id": "R7-B02",
+      "count": 3,
+      "phase": "fresh_transfer"
+    },
+    {
+      "case_id": "R7-B03",
+      "count": 2,
+      "phase": "fresh_transfer"
+    },
+    {
+      "case_id": "R7-B04",
+      "count": 5,
+      "phase": "fresh_transfer"
+    },
+    {
+      "case_id": "R7-B05",
+      "count": 1,
+      "phase": "fresh_transfer"
+    },
+    {
+      "case_id": "R7-B06",
+      "count": 1,
+      "phase": "fresh_transfer"
+    },
+    {
+      "case_id": "R7-B07",
+      "count": 3,
+      "phase": "fresh_transfer"
+    }
+  ],
+  "requested_poster_roles": 20,
+  "development_roles": 5,
+  "fresh_transfer_roles": 15,
+  "scope": "This20-role batch selects seven compatible cases before generation; other researched proposed cases remain unexecuted, not scored or removed from an executed denominator. Continuing universal-quality goal is still active and unproven.",
+  "poster_native_max": 60,
+  "poster_repairs_max_each": 2,
+  "critic_sessions_max": 42,
+  "selection_closure": "All20roles terminal before any criticfeedback",
+  "complete_stages": "First and selected fullcase sets, all attempts preserved; only exact unchanged entirecase/context permits explicit first3critic reuse",
+  "assets": "Three genuine native-generated synthetic supplied-input fixtures, separate from20posterroles and not realclient photographs/products",
+  "actual_resource_policy": "Root+max3workers; five-role defaults queue when runtime cap lower; never claim5simultaneous",
+  "source_skill_unchanged_after_freeze": true
+}

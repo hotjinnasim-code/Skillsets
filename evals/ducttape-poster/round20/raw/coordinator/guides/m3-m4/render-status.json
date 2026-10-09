@@ -1,0 +1,126 @@
+{
+  "recorded_utc": "2026-10-08T19:03:25.134213+00:00",
+  "kind": "authored_planning_render",
+  "plan": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/w-five-design/plan.json",
+    "sha256": "1f77003fc46525c875e2215c2be7df85c23cc003baf43c3271fbb6ed9f2c3c93",
+    "bytes": 97528
+  },
+  "renderer": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/scripts/make_layout_guide.py",
+    "sha256": "00e21b3220d22f750fd2e142fd5d91d2c84bc2ace25e60ebaa1201b5449b4472",
+    "bytes": 29315
+  },
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/planning/single-five-case.json",
+    "sha256": "2d364e4ff0f0e42fdbc21b3b005aa90440cd294886df4c2c2f5fc87d5f9dd07f",
+    "bytes": 5674
+  },
+  "renders": [
+    {
+      "role": "R20-C1-M3",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/scripts/make_layout_guide.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m3-layout.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4",
+        "--name",
+        "m3-guide"
+      ],
+      "cwd": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20",
+      "exit_code": 0,
+      "stdout": "Created draft planning guide:\ncoordinator/guides/m3-m4/m3-guide.svg\ncoordinator/guides/m3-m4/m3-guide.png\ncoordinator/guides/m3-m4/m3-guide.manifest.json\n",
+      "stderr": "",
+      "spec": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m3-layout.json",
+        "sha256": "e7e8a9114180c7d3cbc41c45a43ee2c2f7a92d4fd662fd55d875a48ee4909ed0",
+        "bytes": 12509
+      },
+      "technical_adjustments": [],
+      "copy_entries": 12,
+      "copy_occurs_once_in_text_blocks": true,
+      "proposed_text_regions_fonts_positions_lines_preserved": true,
+      "shapes": 26,
+      "outputs": [
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m3-guide.svg",
+          "sha256": "bfc6b5319990d32aa80124d5b07e64cccb37714859f5cab432f621eeaaf4d765",
+          "bytes": 6148
+        },
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m3-guide.png",
+          "sha256": "fa46ef74784f3443327b3c3046a5afc6495cc5b6e6683e7211b3b66769b503be",
+          "bytes": 129210
+        },
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m3-guide.manifest.json",
+          "sha256": "814fe921528dcd9f2d5ee9b9168bbc553a7be9843ace60a84c2639590ef01c12",
+          "bytes": 28679
+        }
+      ]
+    },
+    {
+      "role": "R20-C1-M4",
+      "argv": [
+        "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/scripts/make_layout_guide.py",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m4-layout.json",
+        "--output-dir",
+        "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4",
+        "--name",
+        "m4-guide"
+      ],
+      "cwd": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20",
+      "exit_code": 0,
+      "stdout": "Created draft planning guide:\ncoordinator/guides/m3-m4/m4-guide.svg\ncoordinator/guides/m3-m4/m4-guide.png\ncoordinator/guides/m3-m4/m4-guide.manifest.json\n",
+      "stderr": "",
+      "spec": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m4-layout.json",
+        "sha256": "3005d713ac2921ffccefab6531e58798dc957455cd879aed36d85aa9c7475c64",
+        "bytes": 15873
+      },
+      "technical_adjustments": [],
+      "copy_entries": 12,
+      "copy_occurs_once_in_text_blocks": true,
+      "proposed_text_regions_fonts_positions_lines_preserved": true,
+      "shapes": 44,
+      "outputs": [
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m4-guide.svg",
+          "sha256": "43968eed2b02ae20bbf28abb11ea07e9104af1f7754be19bd367bc86d69502ef",
+          "bytes": 7833
+        },
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m4-guide.png",
+          "sha256": "93e2cf7033f0f7a7de0a27035c29911ac43b0e7fa2082a77b16e2f847345f055",
+          "bytes": 109635
+        },
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/coordinator/guides/m3-m4/m4-guide.manifest.json",
+          "sha256": "ab4f360768f2efcb2f37170653fe59967b2d4faa349e6cd49fc4c8aaae9ed6f7",
+          "bytes": 31125
+        }
+      ]
+    }
+  ],
+  "preparation_attempts": [
+    {
+      "attempt": 1,
+      "status": "schema_read_error_before_specs_or_rendering",
+      "error": "KeyError: copy; canonical case file is a corpus with cases, corrected to select R20-C1. No plan/runtime/copy change."
+    }
+  ],
+  "native_calls": 0,
+  "bitmap_inputs": 0,
+  "poster_scores": null,
+  "png_viewed": false,
+  "limits": [
+    "New code-only shapes and supplied-font copy are planning references, not final poster artwork.",
+    "Neutral action geometry does not certify rendered anatomical or material finish in a later native image.",
+    "Guide font bytes and positions do not certify final native font-file application or client preservation coordinates.",
+    "The original plan and runtime remain unchanged; all print copy is supplied exactly once."
+  ]
+}

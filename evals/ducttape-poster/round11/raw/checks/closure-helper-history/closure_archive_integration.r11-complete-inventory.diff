@@ -1,0 +1,29 @@
+--- closure_archive_integration.py.before
++++ closure_archive_integration.py.after
+@@ -160,15 +160,21 @@
+         if source.is_relative_to(source_root):
+             relative = source.relative_to(source_root)
+             assert row['archive_relative'] == (Path('raw')/relative).as_posix()
+-            declared[relative.as_posix()] = row['sha256']
+-    actual = {}
++            declared[relative.as_posix()] = {'sha256': row['sha256'], 'bytes': row['bytes']}
++    assert index['raw_inventory_exclusions'] == []
++    actual, directories = {}, []
+     for file in raw.rglob('*'):
+         assert not file.is_symlink(), str(file)
+-        if file.is_file():
+-            assert '__pycache__' not in file.parts and file.suffix != '.pyc'
+-            actual[file.relative_to(raw).as_posix()] = hashlib.sha256(file.read_bytes()).hexdigest()
++        if file.is_dir():
++            directories.append(file.relative_to(raw).as_posix())
++        else:
++            assert file.is_file(), 'Unknown raw source inventory entry: '+str(file)
++            data = file.read_bytes()
++            actual[file.relative_to(raw).as_posix()] = {'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)}
+     assert declared == actual, 'Raw source inventory differs from complete mapped tree'
++    assert sorted(index['source_directories']) == sorted(directories), 'Raw source directory inventory differs'
+     return {'status': 'PASS', 'complete_raw_source_files': len(actual),
++            'complete_raw_source_directories': len(directories), 'exclusions': [],
+             'indexed_source_identifiers': len(index['files'])}
+ 
+ 

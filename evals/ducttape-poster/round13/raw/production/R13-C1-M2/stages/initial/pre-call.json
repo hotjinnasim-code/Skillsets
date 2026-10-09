@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "role": "R13-C1-M2",
+  "stage": "initial",
+  "prepared_at_utc": "2026-10-08T10:05:15.455298+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "attempt_number": 1,
+  "planned_arguments": {
+    "prompt": "Use case: ads-marketing. Create ONE finished flat opaque landscape poster, width:height 16:9, for an adult neighborhood architecture photography exhibition and a shared space talk, displayed in a community cultural space and on digital screens. 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력.\n\nWhole design: a cinematic architectural photograph fills the ENTIRE horizontal canvas, one continuous room seen from inside at ordinary standing eye level, natural photographic detail and quiet curiosity. A fictional modest community exhibition room, not a luxurious real-estate interior or grand sanctuary. Deep recessed rectangular window/opening around the central third, extending partially beyond the upper frame, looks to soft daylight with no recognizable landmark. Warm pale sunlight crosses the central floor in a broad sharply legible oblique shape; deep neutral charcoal shadows provide quiet wall planes at left and right. The window depth, wall planes and light boundary are the primary visual subject. Include two small but clearly visible framed monochrome architectural photographs WITHOUT any writing on a far wall beside the central opening, and two simple ordinary wooden chairs at the lower central/right edge for listening together. They occupy the same coherent room as the light; no separate inset panels. Keep them away from the lettering. Balanced, physically plausible perspective, window reveals, chair supports, contact and light. This room, architectural photographs and seats must substantively connect observing architecture/light, the exhibition and the talk as one event. No people needed.\n\nComposition and typography: At a conceptual 720×405 viewing size, keep left and right shadow surfaces calm enough for flat opaque off-white Korean Gothic/sans-serif lettering, no surface effects, no carved or perspective-distorted text. Central light is unobstructed. Left text starts near x30, right text near x464; outer margins at least 28. Titles live low at left, not centered or oversized across the window. Practical information forms a single stable right column, with date/time, place/entry and free/admission groups separated vertically. A very quiet opaque dark backing may be used ONLY behind right information if necessary; keep the continuous photographic space visible, do not turn the poster into a split graphic/photograph layout. Korean glyphs have consistent square proportions, crisp strokes, open counters and natural word spaces. Every practical line must remain easily readable in the 720-wide usage view. No compressed, tiny information or decorative pseudo-lettering.\n\nPrint ONLY the following exact entries, each ONCE. Preserve every letter, numeral, word space and punctuation, especially the middle dots, time colons and en dash. No other printed content anywhere, including inside the photographed frames. The below grouping labels and design instructions are not printed.\nUpper left, two lines at around y26 and y52, 19px equivalent, left aligned:\nOPEN HOUSE\n건축 사진전 · 공간 이야기\nLower left main title, around y184–292, 44px equivalent, two lines with a break after the first word:\n빛이 머무는 집\nUpper right date and time, around y28–106, 24–26px equivalent, two lines:\n2027.02.06 토요일\n13:00–15:00\nRight middle place/entry, around y135–195, 20px equivalent, two lines:\n연남 생활문화공간\n12:40부터 입장\nRight below, around y222–279, 19px equivalent, two lines:\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\nLower left below title, around y326–380, 19px equivalent, two welcoming lines:\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요\n\nWarm daylight versus deep neutral shadows, bright neutral text, restrained natural surfaces and optical depth. Make the room feel approachable and ordinary, allowing first-time residents to observe and join comfortably. Keep photograph edges and text edges distinctly controlled. No identifiable existing building or institution, logos, watermark, QR, added slogan, poster number, tiny labels, film dust, glossy effects, tape, collage, mockup, contact sheet, comparison panels, border, frame around the final poster, stretching or portrait cropping. One independent complete poster only.",
+    "transparent_background": false
+  },
+  "planned_arguments_sha256": "4039f157e8e2c05cb39e1b4f791a4706d2bae8f7a6491123f93398eae44e9f50",
+  "planned_arguments_hash_method": "UTF-8 canonical JSON sorted keys compact separators",
+  "call_input": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M2/stages/initial/call-input.json",
+    "sha256": "4a18b092c29409173a084578319845e50a8224d20c62d7c5e7cb18e736a97433"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M2/case.json",
+      "sha256": "ceba085c8b43dcd8467a7a46cdd182b9625b75cfb972e3ad5f69cd290b87eb24"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M2/assignment.json",
+      "sha256": "9cc16da1c0bfae52ef7f66833fb9d2923ff8c649c16a77b9a83639ecc17a9b03"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/SKILL.md",
+      "sha256": "2373a415e0077212a26137333cc1bba40b5b627601b6e87d252fd2de20bbae9a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/agents/openai.yaml",
+      "sha256": "18e733c202cc1b8d153d2f1dc8bac85826787a88fe336f0e1aa5fa65f523f7e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/references/art-direction.md",
+      "sha256": "818748a8cfe57bfbc17549f4ed7474475c5c8ae45edf37797b2ab988c16e1fda"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/references/parallel-production.md",
+      "sha256": "e31b6fc34727ae753d4cc888a5eeea7f034ffc875fee3b2709fa75051a44f66a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/references/visual-research.md",
+      "sha256": "2bf486e75e252dd27960c499b5c4ef4a68a8d6a967823d2f5bbd6148abf5e705"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/references/evaluation-loop.md",
+      "sha256": "cf94b86511ab5295a7235c624757889906c49eb1bb9febea5b8145926f6bcb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/capability-probe/result.json",
+      "sha256": "8afa1bd26e3b2a0c86da70f1f6d897be3b634fd4d612b3fe95cff5f407b64523"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    }
+  ],
+  "supplied_reference_pins": [],
+  "repair_cause": null,
+  "maintained_features": [
+    "One continuous fictional ordinary exhibition room",
+    "Central recessed opening and oblique floor daylight",
+    "Low left two-line Korean title",
+    "Stable right practical-information column",
+    "Unlettered architectural photographs and simple listening chairs",
+    "Exact supplied copy once only"
+  ]
+}

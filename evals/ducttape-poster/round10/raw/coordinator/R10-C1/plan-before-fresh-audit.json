@@ -1,0 +1,385 @@
+{
+  "case_id": "R10-C1",
+  "request": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경",
+  "copy": [
+    {
+      "text": "다리 아래 영화관",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "BRIDGE CINEMA",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "야외 단편 상영 · 감독과의 대화",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.12.05 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "18:00–20:30",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "홍제천 연가교 아래",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "17:30부터 입장",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "돗자리 지참",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "무료 관람 · 선착순 80명",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "우천 시 실내로 변경",
+      "kind": "text",
+      "fixed_newlines": false
+    }
+  ],
+  "common_constraints": [
+    "Make one independent flat opaque 16:9 landscape poster per role for the same neighborhood outdoor short-film screening and director conversation, approachable for adults. These five systems are chosen for this request; they are not a reusable fixed roster of media.",
+    "Print all ten supplied entries exactly once, retaining Hangul/English case, digits, word boundaries and visible punctuation. Indexes are zero-based. Break only at existing word boundaries when helpful; fixed_newlines is false throughout. Only supplied text appears; no additional labels, chapter numbers, credits, logo, QR, watermark or pseudo-print.",
+    "Ducttape is the skill invocation, not a required physical tape material. Build a substantive content-grounded nonglyph image/scene/structure in each direction; the event should read through its image relationship and exact descriptor.",
+    "Plan on the 1280x720 usage view, then scale proportionally to native output. Real Apple SD Gothic Neo Semibold advance widths at 30 px, indexes 0–9: 198/214/361/231/165/224/181/138/286/232 px. Actual generated lettering will differ; leave extra width and optical margins. Practical text generally 30–36 px in this QA view, not tiny filler; redistribute image/frame/title space before shrinking facts.",
+    "Give the date/time, location, entry, mat, free/capacity and rain notice protected contrasting areas and visibly related groups. Keep one clear first gaze and a deliberate path to the next useful fact. Type is designed with the chosen image boundary, not automatically put into a shared footer.",
+    "Keep the time range as a readable numeric unit with distinct paired colon dots and a horizontal range dash; retain the middle dots in descriptor and admission. Inspect visible glyph shapes, spacing and order at use size without claiming to authenticate Unicode from a raster.",
+    "When showing a held microphone, seat, mat or support, assign it to a specific person/component and show its connection and overlap clearly. Preserve chosen human action and expressive genre during correction; correct structure and contrast within that genre.",
+    "Official references inform relationships only. Do not transplant source art, identity, copy, characteristic palettes or specific composition, and do not use artist-name/style-name prompts as a substitute for construction. Canva observations below are explicitly secondhand root observations, not this coordinator's direct view.",
+    "For generation include: 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력. This is a request, not proof of native maximum dimensions. Makers may tune optical positions and finish within their assigned system; each owns one poster and root manages the five."
+  ],
+  "directions": [
+    {
+      "role": "R10-C1-M1",
+      "ratio": "16:9",
+      "concept": "An ordinary riverside becomes a cinema after dark: the audience looks toward a luminous screen sheltered by the bridge, while a clear adjacent notice makes joining easy.",
+      "substantive_non_glyph_visual": "A wide, believable evening scene occupies roughly the left two thirds: bridge underside recedes above a supported screen, seated adults on mats face it, and a speaker beside the screen addresses them with a microphone. Water/path continue out of the left crop. Show enough of bridge, screen and gathering to identify an outdoor cinema, rather than one isolated prop.",
+      "expression_system": "Cinematic photographic scene with restrained natural contrast and clean editorial notice lettering. Screen light and a small warm practical light motivate illumination; people are anonymous neighborhood adults, not copied reference portraits. Realistic concrete, fabric and water remain distinguishable.",
+      "copy_visual_relationship": "Image light is the first gaze; the readable title occupies a quiet dark area of the picture, then eye crosses to date/time in the right notice column. The image approaches the column at a firm vertical boundary, with no person, bridge member or glare passing over text.",
+      "whole_visual_layout": "Wide image at left, narrow full-height notice field at right, about 760/400 px usable width after margins. Title at upper-left in the photograph with clear space below for English and descriptor; keep the actual screen lower and deeper in the scene. Right column has a large date/time cluster near upper third, location beneath it, entry/free cluster mid-lower, mat/rain below. This column is the information destination, not a foot strip.",
+      "typography_plan": "Humanist sans title about 58–64 px on one line (measured about 383–422 px); English 27–30, descriptor 30–32 on one line with at least 430 px. Right date/time about 38–44; location 34 and practical lines 30–32. Use comfortable line separation and coherent left alignment; reserve 350+ px for admission. Moderate title weight leaves the lighted scene recognizable.",
+      "color_material_emotion": "Deep blue-gray concrete/night, warm amber light and soft white screen; pale neutral notice field with dark lettering. Inviting, observant evening culture rather than a glossy nightlife advertisement. Photo grain belongs to scene only; type remains crisp.",
+      "closest_other_role": "R10-C1-M5",
+      "distinction": "Both relate place and useful facts, but M1 starts in an immersive full-height image, with title inside it and facts in a vertical destination. M5 starts with large date/time in an information matrix, title opposite and a bounded architectural section. Their mass, gaze and type roles differ without color/material.",
+      "reference_observations": [
+        {
+          "url": "https://versionindustries.com/work/tag/poster",
+          "observed_principle": "Wells Watson image exposes a content-related interior for invitation details; frame and folds form a real boundary.",
+          "current_request_application": "Use the bridge/screen scene boundary to motivate an adjacent legible notice, giving all Korean facts more room than the source interior."
+        },
+        {
+          "url": "https://www.canva.com/templates/EAGPHbGailM-orange-green-bold-modern-music-event-landscape-banner/",
+          "observed_principle": "Secondhand root pixels: music preview joins a photographic zone to event/date/venue/admission groups. Wide approximately 2:1 source, not verified 16:9.",
+          "current_request_application": "Retain useful grouped participation reading in a newly planned 16:9 cinema notice; do not borrow its split-half coordinates, palette or performer."
+        }
+      ],
+      "positive_construction": "Compose the believable bridge gathering first with clear screen support, seated bodies resting on their own mats, and speaker microphone gripped by that speaker's visible hand/forearm. Keep these contacts legible in darkness. Then reserve the dark title clearing and sufficient full-height notice room; let illumination lead to the schedule without glare on its glyphs.",
+      "copy_groups": [
+        {
+          "copy_indexes": [
+            0,
+            1,
+            2
+          ],
+          "role": "event identity",
+          "position_relationship": "Upper-left quiet picture area; title followed by English and descriptor, separated from the screen image."
+        },
+        {
+          "copy_indexes": [
+            3,
+            4,
+            5
+          ],
+          "role": "when and where",
+          "position_relationship": "Upper-to-middle right column, date and time adjacent, location immediately below."
+        },
+        {
+          "copy_indexes": [
+            6,
+            8
+          ],
+          "role": "participation",
+          "position_relationship": "Right column after location, grouped entry then free/capacity with full line width."
+        },
+        {
+          "copy_indexes": [
+            7,
+            9
+          ],
+          "role": "preparation and contingency",
+          "position_relationship": "Lower right column with clear interline spacing, following participation rather than hidden in an edge credit."
+        }
+      ]
+    },
+    {
+      "role": "R10-C1-M2",
+      "ratio": "16:9",
+      "concept": "Film gives neighbors something to talk about: two adults facing one another create an energetic diagonal exchange across the poster.",
+      "substantive_non_glyph_visual": "Two large, differently cropped adult figures converse across an open central gap: listener's profile/shoulder rises from lower-left, speaker's upper body enters from upper-right, speaker holds one microphone close to mouth. Between/behind them a distinctly bounded projected moving-water image and bridge underside fragment locate this as an outdoor screening conversation. Their gazes and forearms form the diagonal.",
+      "expression_system": "Bold two-tone photographic cutouts, visible coarse ink/halftone inside bodies, flat angular fields and assertive Korean type. The image remains human and expressive; hard cutout edges, facial planes and each physical contact receive deliberate control. This is an energetic montage, not a muted photo notice.",
+      "copy_visual_relationship": "Title occupies the open diagonal exchange between faces; its two word-boundary lines echo the image movement while practical information stays horizontal in two broad unbroken islands. Image edges stop short of the islands and central letter counters; descriptor links title to the small projection fragment.",
+      "whole_visual_layout": "Protect an upper-left schedule island around 390x225 px and a lower-right action island around 450x215 px. Across the remainder, two opposing image crops and a roughly 430–500 px central title gap create off-axis weight. Title can break 다리 아래 / 영화관; English follows its local edge. Place the descriptor on a 430+ px span below the title. Practical islands are part of the circulation, not a shared bottom strip.",
+      "typography_plan": "Firm slightly condensed sans Korean title about 68–78 px over two lines, with an optical angle only if every syllable stays clear; English 29. Descriptor 30–32; date/time 37–43 and location 33–35 in upper-left island. Entry, admission, mat and rain 30–32 in lower-right island; full admission line gets 330+ usable px. Keep practical type upright and matching weights.",
+      "color_material_emotion": "Deep aubergine fields, warm peach bodies, bright yellow-green in one projection/utility plane; paper-like ink variation is local and controlled. Public cultural energy, spirited conversation and approachable adult humor; retain saturated impact and close human crops.",
+      "closest_other_role": "R10-C1-M4",
+      "distinction": "M2 diagonal force comes from two facing people, cropped images and central interlocking title, with separated upper-left/lower-right utility islands. M4 comes from a projector and expanding light plane, a compact left headline and facts inside one continuous wedge. Removing palette/effects leaves different actors, empty spaces and reading paths.",
+      "reference_observations": [
+        {
+          "url": "https://www.pentagram.com/work/the-public-theater",
+          "observed_principle": "Dancing on Her Knees enlarged diagonal leg/shoe trajectory is echoed by the title's angle and force.",
+          "current_request_application": "Use the conversation's actual gaze/gesture trajectory to organize title and utility islands; rebuild scale for horizontal Korean facts."
+        },
+        {
+          "url": "https://www.sulki-min.com/wp/professionalism/",
+          "observed_principle": "Professionalism keeps expressive cutout bodies and their associated bilingual type locally owned within a dense field.",
+          "current_request_application": "Make speaker/listener identity and microphone ownership readable; English belongs to the title cluster rather than scattered decorative captions."
+        }
+      ],
+      "positive_construction": "Set the two facing crops and open title gap before adding type. The upper-right speaker's mic is one complete object held by one visible hand connected to that forearm; listener has an independent shoulder/hand boundary and does not share it. Preserve this actual exchange, then tune halftone density so faces, grip and letters remain legible. Fill utility islands with exact supplied groups at readable scale.",
+      "copy_groups": [
+        {
+          "copy_indexes": [
+            0,
+            1,
+            2
+          ],
+          "role": "identity and exchange",
+          "position_relationship": "Central diagonal gap between people; English belongs to title, descriptor sits on broad clear adjacent projection edge."
+        },
+        {
+          "copy_indexes": [
+            3,
+            4,
+            5
+          ],
+          "role": "when and where",
+          "position_relationship": "Upper-left solid island, adjacent date/time then venue on its own line."
+        },
+        {
+          "copy_indexes": [
+            6,
+            8
+          ],
+          "role": "entry and availability",
+          "position_relationship": "First two lines of lower-right solid island; keep free/capacity as one readable unit."
+        },
+        {
+          "copy_indexes": [
+            7,
+            9
+          ],
+          "role": "preparation and rain",
+          "position_relationship": "Remaining lower-right island lines, aligned with participation and separated from the cropped figure."
+        }
+      ]
+    },
+    {
+      "role": "R10-C1-M3",
+      "ratio": "16:9",
+      "concept": "A bridge shelters a shared neighborhood gathering: an overhead illustrated site shows how the screen, mats, entrance and conversation relate.",
+      "substantive_non_glyph_visual": "A substantial continuous oblique-overhead drawing of river banks and bridge, with the diagonal span enclosing an outdoor screen and rows of seated adults on mats. Nearby two chairs and a standing microphone-holding speaker face an attentive cluster for the conversation. This is an evocative gathering diagram, not a claim to reproduce a surveyed map of the actual bridge.",
+      "expression_system": "Graphic architectural illustration with visible hand-drawn rhythm, flat bounded color, consistent oblique depth and expressive small adults. Broad river/bank shapes carry the whole composition; screen, people, seating and circulation are connected parts rather than a row of icons.",
+      "copy_visual_relationship": "Overhead gathering is the first gaze; title names it in an upper-left bank clearing, then the screen/bridge direction leads to date/time and venue in a broad lower-center clearing. Entry/capacity and preparation occupy a right bank clearing adjacent to the gathering path. Lettering remains flat horizontal editorial text, not distorted onto miniature mats or paving.",
+      "whole_visual_layout": "Use the landscape width as continuous terrain: diagonal bridge across upper-middle, river continuing through opposite edges, cinema nook left/middle and conversation to its right. Provide three broad organically bounded clearings: about 470 px upper-left identity, 430–490 px lower-center schedule/place, and 350–390 px right participation/preparation. Their ground shapes join the drawing, not a rigid column/sidebar. Keep bridge depth shallow enough to protect these clearings.",
+      "typography_plan": "Friendly, robust sans title 51–58 px on one line or two natural word groups if terrain benefits; English 27–29. Descriptor 30–31 on a 410+ px identity line. Date/time 37–42, venue 33–35; right practical text 30–32 with about 335+ px clear width. Type baselines follow a few consistent local alignments, while the river/bridge may angle around them.",
+      "color_material_emotion": "Rich dark teal river, apricot land and warm light screen, with dark navy lettering and restrained pale seating details. Controlled drawn edges and dry ink are consistent across scene. Sociable, lively public invitation; adult bodies and purposeful gathering avoid toy-like decoration.",
+      "closest_other_role": "R10-C1-M1",
+      "distinction": "Both reveal a gathering, but M3 is an overhead continuous diagram with distributed bank clearings and circulation among them. M1 is an eye-level photographic space with a firm image/notice boundary and vertical practical column. Their viewpoint, text topology and relation to the site differ with surfaces hidden.",
+      "reference_observations": [
+        {
+          "url": "https://www.studiofeixen.ch/sudpol/",
+          "observed_principle": "Grillfest interlocks action, angular planes and local information pockets rather than treating image as an independent centerpiece.",
+          "current_request_application": "Make river, bridge and gatherings generate three spacious text clearings, enlarging practical groups to fit actual Korean widths."
+        },
+        {
+          "url": "https://www.sulki-min.com/wp/professionalism/",
+          "observed_principle": "Professionalism's numerous bounded figures remain associated with local type through consistent ownership and spacing.",
+          "current_request_application": "Keep illustrated adults individually seated/supported and belonging to screen or discussion cluster; use orderly local relationships within the continuous landscape."
+        }
+      ],
+      "positive_construction": "Draw the bridge's support/deck and river continuity consistently, then place screen supports and mats on the dry bank beneath it. Each seated adult rests on their own mat with understandable hips/legs; the conversation speaker owns one microphone and connected arm. Keep the scene's complexity and human activity, refining small contacts rather than replacing them with empty shapes. Expand clearings when copy needs room.",
+      "copy_groups": [
+        {
+          "copy_indexes": [
+            0,
+            1,
+            2
+          ],
+          "role": "identity",
+          "position_relationship": "Upper-left bank clearing, title then English and descriptor, with one shared alignment."
+        },
+        {
+          "copy_indexes": [
+            3,
+            4,
+            5
+          ],
+          "role": "when and where",
+          "position_relationship": "Broad lower-center clearing near screening nook; date/time pair and venue beneath."
+        },
+        {
+          "copy_indexes": [
+            6,
+            8
+          ],
+          "role": "joining the gathering",
+          "position_relationship": "Upper part of right bank clearing along the depicted entrance path."
+        },
+        {
+          "copy_indexes": [
+            7,
+            9
+          ],
+          "role": "practical preparation",
+          "position_relationship": "Lower part of same right clearing; connected to joining group without sitting on illustrated seating."
+        }
+      ]
+    },
+    {
+      "role": "R10-C1-M4",
+      "ratio": "16:9",
+      "concept": "Projection turns the space beneath a bridge into a public cinema: a widening beam opens the poster and illuminates the information.",
+      "substantive_non_glyph_visual": "Large functional projector crop at lower-left sends a broad geometric beam toward a supported screen at far right under a cropped bridge deck/arch. A short band of seated adult silhouettes and a side speaker holding a mic establishes public screening and exchange. The projector, light, screen and bridge form a substantial connected optical construction.",
+      "expression_system": "Forceful hard-edge graphic with limited local halftone and a controlled translucent overlap where light crosses the bridge shadow. Render projection apparatus, structural plane and audience as coherent flat shapes, not generic luminous blobs. Retain strong typographic and chromatic impact.",
+      "copy_visual_relationship": "Compact oversized Korean title at left leads immediately into the brightest time range in the expanding right beam. Date and location belong to that time; entry/free and mat/rain occupy the beam's broad lower portion. The title is outside the optical path; clear information is inside it, so the geometry assigns different type roles.",
+      "whole_visual_layout": "Left roughly 35% contains two-line title, English and descriptor above the low projector; right 65% is a widening clear light wedge, opening upward/rightward around factual groups. The screen occupies a narrow visible far-right portion beyond the main copy, bridge structure stays toward outer top edge, and silhouettes remain low. The beam is a spacious plane with a diagonal boundary, not a thick ornamental frame or vertical sidebar.",
+      "typography_plan": "Heavy square sans title 78–90 px split at the existing gap 다리 아래 / 영화관; keep letterforms upright or a slight unified optical lean. English 29–31 and descriptor 30–32 over two word-boundary lines if needed. Time 52–58, date 35–39, venue 35; practical 31–34. Give utility a 600+ px broad beam span, with full lines rather than squeezing into tapering corners.",
+      "color_material_emotion": "Ink-dark plum shadow, vivid chartreuse light plane and coral structural accent with pale warm lettering where reversed. Flat ink boundaries, local deliberate halftone and beam transparency have distinct controlled jobs. An energetic evening cinema announcement with adult cultural confidence.",
+      "closest_other_role": "R10-C1-M2",
+      "distinction": "M4 has one widening optical plane opposed by a compact headline and connected functional apparatus; utility shares the beam and time is its second focus. M2 has opposing human crops, a central title gap and two separated off-axis islands. Their diagonals have different causes, topology and information order.",
+      "reference_observations": [
+        {
+          "url": "https://www.pentagram.com/work/the-public-theater",
+          "observed_principle": "Dancing on Her Knees makes a directionally cropped image and strong type act as one gesture while small edge information has a different role.",
+          "current_request_application": "Let the projection direction motivate headline-to-time movement; replace source tiny edge credits with broad readable light-plane information."
+        },
+        {
+          "url": "https://www.studiofeixen.ch/sudpol/",
+          "observed_principle": "Grillfest uses overlapping color planes and a continuous action to control a forceful busy image.",
+          "current_request_application": "Connect projector, beam, screen and bridge; retain vivid expression while allocating factual space before expanding type or structure."
+        }
+      ],
+      "positive_construction": "Begin with a projector lens aimed at its supported screen, a beam widening continuously, and a bridge underside whose weight stays near the outer crop. Reserve the broad beam for facts and keep its narrow origin for apparatus. Seat silhouettes on a continuous ground line and give the side speaker one owned mic/forearm. Build the large two-line title with preserved counters and word gaps, then tune the optical edge away from practical glyphs.",
+      "copy_groups": [
+        {
+          "copy_indexes": [
+            0,
+            1,
+            2
+          ],
+          "role": "strong identity",
+          "position_relationship": "Compact left headline field; English then descriptor just below the two-line title, above projector."
+        },
+        {
+          "copy_indexes": [
+            4,
+            3,
+            5
+          ],
+          "role": "time-led useful facts",
+          "position_relationship": "Bright upper/middle broad beam: time first, date adjacent above/alongside, venue directly below."
+        },
+        {
+          "copy_indexes": [
+            6,
+            8
+          ],
+          "role": "entry and capacity",
+          "position_relationship": "Wide lower beam, one local block below venue with ample line width."
+        },
+        {
+          "copy_indexes": [
+            7,
+            9
+          ],
+          "role": "preparation and rain",
+          "position_relationship": "Another adjacent wide lower-beam block, read after participation; retain horizontal clear baselines."
+        }
+      ]
+    },
+    {
+      "role": "R10-C1-M5",
+      "ratio": "16:9",
+      "concept": "A date to put aside, and a place temporarily made for cinema: a confident calendar-like notice meets an architectural cutaway of the bridge gathering.",
+      "substantive_non_glyph_visual": "A precise oblique bridge cross-section occupies the right-middle/lower field: thin concrete deck and one visible pier shelter a screen, a projection source and adult participants on textured mats, with speaker/attentive chairs beside screen. Cropped riverbank base extends out of right edge. It is a small architectural event environment, not an isolated toy bridge or glyph sculpture.",
+      "expression_system": "Tactile architectural relief/constructed-set image combined with a crisp large information matrix. Orthographic-like oblique projection, restrained concrete/fabric details and consistent one-direction shadows distinguish planes. Type remains flat graphic type, with a strong editorial numerical hierarchy.",
+      "copy_visual_relationship": "Large date/time in the left matrix is first gaze; title is a separate upper-right identification cluster above the cutaway. Date/time lead down to the venue, entry/free pair and preparation pair in aligned rows. The cutaway shows the physical reason for the event and sits next to those rows without becoming their frame or background.",
+      "whole_visual_layout": "Left around 56% is a broad open information matrix: date/time near upper-middle, descriptor associated below, venue next, then two spaced utility rows. Upper-right has title/English, right-middle/lower holds the architectural image. Practical matrix retains roughly 600–650 px width; sculpture is around 430–490 px wide with its deck kept thin. Give the image an irregular sectional boundary against the field, no encircling frame.",
+      "typography_plan": "Large clean proportional numerals: date about 62–68 px (roughly 477–523 px measured), time 52–58. Title 48–54 in two natural word groups in upper-right, English 27–29; descriptor 31–33 in left matrix with at least 420 px. Venue 37, entry/free 32–34 in full-width rows; mat/rain 31–33. Align numeric and Korean rows optically without adding labels or a fictitious calendar grid.",
+      "color_material_emotion": "Warm pale-gray field, deep burgundy numerical emphasis, cool concrete/blue-gray bridge and a small amber screen/ground light. Real plane edges, fabric creases and contact shadows create specificity without shiny toy surfaces. Calm architectural confidence with generous practical visibility; distinct from the immersive nightlife scene.",
+      "closest_other_role": "R10-C1-M1",
+      "distinction": "M5 begins with the date-led open matrix at left; its modest title is upper-right and bounded section is lower-right. M1 begins with the luminous eye-level image at left, title within that scene and vertical facts at right. This is a reversed and differently weighted reading architecture, not the same split layout in another material.",
+      "reference_observations": [
+        {
+          "url": "https://versionindustries.com/work/tag/poster",
+          "observed_principle": "Wells Watson photograph gives edges, folds and a physical interior a reason to organize its invitation.",
+          "current_request_application": "Use a real-looking bridge section boundary next to a broad date-led notice, while keeping our practical facts outside any narrow structural opening."
+        },
+        {
+          "url": "https://www.studiofeixen.ch/sudpol/",
+          "observed_principle": "Viet Cong opening/curl boundary reorganizes its huge background type and leaves information in narrow perimeter regions.",
+          "current_request_application": "Use controlled sectional edge and interior/exterior distinction, but invert the source scarcity: leave most of the information field broad and unobstructed, retaining every copy entry."
+        }
+      ],
+      "positive_construction": "Set the large date/time and full-width practical rows first, then size the cutaway to the remaining right field. Make deck/pier/supports continuous and correctly load-bearing; each mat supports its own seated adult, and the side speaker owns mic and connected hand. Preserve architectural depth and the event's human relationships, refining contacts and material edges within this system. Adjust deck/image size before reducing the smallest factual text.",
+      "copy_groups": [
+        {
+          "copy_indexes": [
+            3,
+            4,
+            2
+          ],
+          "role": "calendar and event function",
+          "position_relationship": "Large left date/time pair, descriptor immediately below with matching matrix edge."
+        },
+        {
+          "copy_indexes": [
+            0,
+            1
+          ],
+          "role": "identity",
+          "position_relationship": "Upper-right cluster above the architectural section; title in natural word groups, English below."
+        },
+        {
+          "copy_indexes": [
+            5
+          ],
+          "role": "place",
+          "position_relationship": "First broad left matrix row beneath descriptor, visibly linked to date/time."
+        },
+        {
+          "copy_indexes": [
+            6,
+            8
+          ],
+          "role": "entry and availability",
+          "position_relationship": "Next broad left matrix row/block with adjacent lines and shared alignment."
+        },
+        {
+          "copy_indexes": [
+            7,
+            9
+          ],
+          "role": "preparation and contingency",
+          "position_relationship": "Final two readable left matrix lines; located beside, not underneath, the scene image."
+        }
+      ]
+    }
+  ]
+}

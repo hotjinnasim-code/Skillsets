@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "role": "R17-C1-M2",
+  "case_id": "R17-C1",
+  "full_request": "덕테이프 포스터로 동네 생활수리 워크숍을 홍보해줘. SNS와 지역 커뮤니티에 올릴 16:9 가로 포스터 다섯 장이 필요해. 다섯 장은 전체 스타일과 구도가 서로 달랐으면 좋겠어. 의자나 옷을 함께 고치는 경험이 시각적으로 느껴져야 하고, 설명부터 일정·장소·비용·신청 안내까지 자연스럽게 읽히게 해줘. 본문을 작게 구석에 밀어 넣지 말아줘. 단색 바탕의 큰 고딕 제목·정보 블록에 작은 그림만 붙인 구성, 빈 방을 글자판으로 쓴 구성은 제외해줘. 로고·QR·새 문구 없이 아래 문구를 각 한 번씩 정확히 넣어줘.\n\n고쳐 쓰는 토요일\nREPAIR / TOGETHER\n버리는 대신, 함께 고칩니다.\n헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.\n마포 생활수리 워크숍\n2027.05.22\n토요일 14:00–18:00\n합정 동네작업실\n참가비 5,000원 · 도구 제공\n신청 마감 5월 18일\n수리할 물건 한 가지를 가져오세요.\nrepair.example/join",
+  "copy": [
+    {
+      "text": "고쳐 쓰는 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "REPAIR / TOGETHER",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "버리는 대신, 함께 고칩니다.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "마포 생활수리 워크숍",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2027.05.22",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "토요일 14:00–18:00",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "합정 동네작업실",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "참가비 5,000원 · 도구 제공",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "신청 마감 5월 18일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "수리할 물건 한 가지를 가져오세요.",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "repair.example/join",
+      "kind": "url",
+      "fixed_newlines": false
+    }
+  ],
+  "conditions": [
+    "Each copy entry once with exact Korean/Latin/numbers/punctuation and meaningful word spaces. No extra print, logo, watermark or QR.",
+    "Five independent single flat opaque landscape16:9 posters, not mockups or a comparison sheet.",
+    "Five genuinely distinct whole visual systems in spatial organization, image editing, type roles and reading routes, not different media over a common scaffold.",
+    "Substantive content-grounded nonglyph visuals express shared chair or clothing repair.",
+    "Full explanation and event,fee,deadline,invitation,URL comfortably readable and naturally connected at usage720.",
+    "Exclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate imagery, tiny-image/texture/font substitution or empty-room dressing. Gothic and coherent image-led scenes permitted; no composition override."
+  ],
+  "assigned_direction": {
+    "name": "연결된 수리 지도",
+    "organization": "Top-down image graph spreads through the whole landscape field. Two material transformations, a chair joint and a patched garment, meet through shared physical tools; substantial real-copy groups occupy connected openings inside that graph.",
+    "concept": "One neighbor holds a tightening clamp, another guides a needle through a real fabric tear. Tools and repairs form a purposeful connected planar system, with no fake diagram dimensions or instruction captions.",
+    "image_grammar": "Precisely cut matte paper shapes, photographic wood grain and textile fibers with clean shared edges. A rust/claret/charcoal and natural cotton palette; the paper is shaped to actual repair relationships, not a passive color field with a tiny illustration. No giant outlined heading or toy clay.",
+    "body_flow": "Short title near the shared tool junction; full description contiguous near the stitch-to-joint connection. Event/date/time/place grouped beside the relevant open shape, fee/deadline/item/URL grouped as an adjoining next stop connected through the graph edge. Body is perfectly flat upright mature print, not woven lettering or labels on tiny tools. Budget readable sentence area at 720px before objects.",
+    "type": "Mature Korean low-contrast serif body with moderate optical weight and uniform glyph anatomy; event numerals clear, title compact contemporary sans.",
+    "distinctness": "A distributed top-down material network with embedded contiguous copy, rather than a photographic horizontal strip, a single continuous human scene, a sequential comic page or a repaired-object montage.",
+    "role": "R17-C1-M2",
+    "ratio": "16:9"
+  },
+  "supplied_assets": [],
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M2/case.json",
+      "sha256": "31eb73fca18e67ee585ba447f53d8bfd2f565e3b758921a4d8fce273f6ece74e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M2/assignment.json",
+      "sha256": "b88a3faf89fa7c5fd9b729734bb08cac8fb2b7fc4b90758ee6fdf824f26b0fa7"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/SKILL.md",
+      "sha256": "547844894e052075ea192edffd74d69ef6e2a5865d132b6bff52e2167cdb3a39"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/agents/openai.yaml",
+      "sha256": "7a9e257f2cdcdbbab372a4574faea6b69b208584275a2d66f86ae01fe4386be4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/art-direction.md",
+      "sha256": "d8f5587ed18dd2cc2a7ebc4bba7bf44f14effea2129393c7bfd23bd63dfd771b"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/parallel-production.md",
+      "sha256": "eb5f07f5b11e405e31d935547ba7468d8f7f76f4817634719ce739d1b0d25e70"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/visual-research.md",
+      "sha256": "677bb0b121b226ddcdb7cecd526bdc75f29b433caf1b1ea808b4fed3e71cbb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/evaluation-loop.md",
+      "sha256": "97449098b56468636519330a32a8f1ccbc5881cf92cd97c21315bc68705bd3d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/capability-probe/result.json",
+      "sha256": "846b62232dde3286969225f9292b36a12fbb88ce666141950504bc2b4b97e1fd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/production-brief.md",
+      "sha256": "c52ebdafd32bcc1f75b2fbc725d9abebd943feb849fdf8ca6f1a7e99d0651ca4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/snapshots/candidate-t/references/design-grammar.md",
+      "sha256": "bd05bb9e43c20e155cbb5337614b80273d7d090bdd06b3565bbd290d96dab543"
+    }
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "attempt_limit": 3,
+  "own_correction_limit": 2,
+  "scope": "Own role only; no peer or critic inspection"
+}

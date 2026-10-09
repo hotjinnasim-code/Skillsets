@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "kind": "role_selection",
+  "role": "R19-C1-M3",
+  "selected_stage": "repair-1",
+  "selected_manifest": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/manifest.json",
+    "sha256": "61256dd15b013886e8e825bc03960541546ada15491a6345a55d5f28622e9082",
+    "bytes": 2680
+  },
+  "selected_native_sha256": "a8d0172881ff3a4b064a5a8eda23ce6bdeaa7e999c27c4b11c6d737a8a7050d0",
+  "selected_files": {
+    "original": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/original.png",
+      "sha256": "a8d0172881ff3a4b064a5a8eda23ce6bdeaa7e999c27c4b11c6d737a8a7050d0",
+      "bytes": 2382725,
+      "width": 1672,
+      "height": 941
+    },
+    "final": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/final.png",
+      "sha256": "a8d0172881ff3a4b064a5a8eda23ce6bdeaa7e999c27c4b11c6d737a8a7050d0",
+      "bytes": 2382725,
+      "width": 1672,
+      "height": 941
+    },
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/usage-720.png",
+      "sha256": "9d73a4a8530178eaa171539af188333f17c78c449d9aafab61dcfd3cb1dda4f9",
+      "bytes": 545074,
+      "width": 720,
+      "height": 405
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/thumbnail-320.png",
+      "sha256": "d7960c883a42d6827581d1d4e43d0ca75a293e11ea6c8495e6af6672b96c4139",
+      "bytes": 131871,
+      "width": 320,
+      "height": 180
+    }
+  },
+  "selected_inspection": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/inspection.json",
+    "sha256": "2116dc1639ad886370c23e6e87d2c503764f4b8fbd933ffd84ba2e85954bd4e1",
+    "bytes": 23879
+  },
+  "counts": {
+    "native_calls": 2,
+    "returned": 2,
+    "failed": 0,
+    "repair_calls": 1
+  },
+  "stages": [
+    {
+      "stage": "initial",
+      "outcome": "returned",
+      "input_pins": {
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/initial/call-input.json",
+          "sha256": "1d88d1562803c3ce0eb90f41176ddd0e41c74775daa89c553c6a7038ec2741da",
+          "bytes": 4599
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/initial/pre-call.json",
+          "sha256": "e4fc6e192f2fcc1a9ae62a948cd615f8f1c25b38ecc31892f0df052bfd1684a3",
+          "bytes": 9063
+        }
+      },
+      "manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/initial/manifest.json",
+        "sha256": "e0cc56b8c0b96fa87b62e01663bfbe5d762e8e64f287fa8bc336c840bcb4d575",
+        "bytes": 2673
+      },
+      "source": {
+        "path": "/Users/nahyeonbin/.codex/generated_images/01a11ca5-f09c-7b31-875f-f6d310932187/exec-7aaad342-4d8f-4a94-b99d-d866ab483161.png",
+        "sha256": "dcab472eada4f8665eace42d83e74c24be1aea6f5a392b392ff0f283d1abfcaa",
+        "bytes": 2508847,
+        "width": 1672,
+        "height": 941
+      },
+      "files": {
+        "original": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/initial/original.png",
+          "sha256": "dcab472eada4f8665eace42d83e74c24be1aea6f5a392b392ff0f283d1abfcaa",
+          "bytes": 2508847,
+          "width": 1672,
+          "height": 941
+        },
+        "final": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/initial/final.png",
+          "sha256": "dcab472eada4f8665eace42d83e74c24be1aea6f5a392b392ff0f283d1abfcaa",
+          "bytes": 2508847,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/initial/usage-720.png",
+          "sha256": "5e753fc17674cf1bc30e84f41e6fa2e48a42633a28b98530d5ff91b7068b174e",
+          "bytes": 549412,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/initial/thumbnail-320.png",
+          "sha256": "6ec84cf17dd4f51addcdab24e8b198435944758dfebb9ae814701626d19f85dd",
+          "bytes": 130270,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "inspection": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/initial/inspection.json",
+        "sha256": "b24fd9deb15c91e48ba3e80b60374017147c36bc20b2725fa9797c30944d02b6",
+        "bytes": 22924
+      }
+    },
+    {
+      "stage": "repair-1",
+      "outcome": "returned",
+      "input_pins": {
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/call-input.json",
+          "sha256": "a4efd5cfd707bcd87cee8419f36717c0914cd22d28973b8df79bd71319a9f533",
+          "bytes": 3210
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/pre-call.json",
+          "sha256": "8c8b3d5c904ddc686c69acc40350e75188b55b92ede0f11677f742aca62c4e2f",
+          "bytes": 9424
+        }
+      },
+      "manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/manifest.json",
+        "sha256": "61256dd15b013886e8e825bc03960541546ada15491a6345a55d5f28622e9082",
+        "bytes": 2680
+      },
+      "source": {
+        "path": "/Users/nahyeonbin/.codex/generated_images/01a11ca5-f09c-7b31-875f-f6d310932187/exec-9df28df4-503c-46ac-94ff-92b1294cdf30.png",
+        "sha256": "a8d0172881ff3a4b064a5a8eda23ce6bdeaa7e999c27c4b11c6d737a8a7050d0",
+        "bytes": 2382725,
+        "width": 1672,
+        "height": 941
+      },
+      "files": {
+        "original": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/original.png",
+          "sha256": "a8d0172881ff3a4b064a5a8eda23ce6bdeaa7e999c27c4b11c6d737a8a7050d0",
+          "bytes": 2382725,
+          "width": 1672,
+          "height": 941
+        },
+        "final": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/final.png",
+          "sha256": "a8d0172881ff3a4b064a5a8eda23ce6bdeaa7e999c27c4b11c6d737a8a7050d0",
+          "bytes": 2382725,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/usage-720.png",
+          "sha256": "9d73a4a8530178eaa171539af188333f17c78c449d9aafab61dcfd3cb1dda4f9",
+          "bytes": 545074,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/thumbnail-320.png",
+          "sha256": "d7960c883a42d6827581d1d4e43d0ca75a293e11ea6c8495e6af6672b96c4139",
+          "bytes": 131871,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "inspection": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/inspection.json",
+        "sha256": "2116dc1639ad886370c23e6e87d2c503764f4b8fbd933ffd84ba2e85954bd4e1",
+        "bytes": 23879
+      },
+      "parent_comparison": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/parent-comparison.json",
+        "sha256": "bbc49f9b2c96906d8f3892cf8cc8c073db4fee55fb95280137b4f470d4bc52e7",
+        "bytes": 2933
+      }
+    }
+  ],
+  "sealed_at_utc": "2026-10-08T18:00:07.196004+00:00",
+  "inspection_semantics": "recorded maker attestations; helper does not view or score images",
+  "native_timing_semantics": "caller-recorded pre-call/input pins only; saved_at is not a native interval"
+}

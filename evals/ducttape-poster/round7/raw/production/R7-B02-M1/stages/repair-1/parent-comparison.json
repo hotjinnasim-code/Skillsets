@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "role": "R7-B02-M1",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "ef28f04c69dca8d040d94ed1baa7cff181da4b793f28469f7c696ada7971a83c",
+  "parent_native_sha256": "c86eed8d5e035ebeb4df00235483845f638df34e1a9056efeab977405dd2dbaf",
+  "changes": [
+    {
+      "location": "information baseline",
+      "observation": "Moved left slightly, around x522 to x505 on 1024px native width; intended broad reallocation did not occur."
+    },
+    {
+      "location": "street/record scene",
+      "observation": "Tree canopy and foliage re-rendered; pale sky wash introduced. Large doorway, pavement and corresponding simplified forms remain."
+    },
+    {
+      "location": "copy",
+      "observation": "24 entries optically retained; programme/order/pairing and red registration retained."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "information baseline x≈505 of 1024",
+      "observation": "Requested major width correction did not occur: the information start moved only about 17px left from initial, leaving the scene plus record zone close to half the width."
+    },
+    {
+      "view": "usage720",
+      "location": "English audience line",
+      "observation": "The longest English audience sentence remains visibly smaller and denser than its Korean pair, though readable at width720."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "lower information groups",
+      "observation": "Detailed programme and participation copy is too small for reliable thumbnail transcription."
+    }
+  ]
+}

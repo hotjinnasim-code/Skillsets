@@ -1,0 +1,58 @@
+{
+  "role": "R8-C1-M4",
+  "stage": "repair-1",
+  "attempt_number": 2,
+  "prepared_at_utc": "2026-10-08T02:55:58.233474+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "planned_argument_object": {
+    "prompt": "Edit the supplied single poster. Deliver exactly ONE single flat opaque portrait poster, width:height 2:3, with the existing photographic editorial catalog genre and current asymmetric unequal modules retained.\n\nObserved correction: the original has arbitrary painterly blue highlights and four detached blue invitation rays, plus soft artificial external cast shadows beneath the book, mug and bag. Clean only this surface treatment. Replace the irregular pale-blue blob behind the bring text with a crisp flat pale-blue printed rectangular module in the same region and enough padding. Remove the blue brush patch and all four blue rays at the bottom invitation, leaving that exact invitation as clean black type on the pale ivory printing surface. Remove the soft EXTERNAL cast/drop shadows from all object silhouettes so the book, mug, bag and shirt contrast directly with the flat printing surface. Retain ordinary photographic INTERNAL shading, ceramic curvature, fabric folds, strap depth and material texture.\n\nProtect the existing advantages: keep all FOUR same recognizable used objects and their colors, relative sizes, crops and placements; keep the shirt's stitched plaid repair patch and seam, worn textless ochre book, complete burgundy mug handle and olive bag/strap. Keep the upper-left three-line date/time/place block, middle bring/activity placement, full large one-line lower title, event identity and free-admission companion row, and bottom invitation. Preserve all nine existing copy entries exactly once with intact Hangul, original word spaces, numeral and punctuation shapes. Do not add words, labels, prices, microtext, logos, watermarks, new decorative marks, frames, props or extra modules. Keep existing font family, heavy title, readable sizes, baseline, alignment and clear word spaces. Date/place/participation copy must remain readable at 720px width.\n\nExact text in the two altered background regions must remain: \"고칠 물건 하나, 바꿀 물건 하나\" (two-line wrap after comma is allowed) and \"천천히 들러요\". Keep every other printed entry unaltered. Do not move or reduce the large title or event/free row to make room. Maintain the bright pale ivory ground and blue shirt/pale-blue module contrast. This is a surface-finish repair of the inspected poster, not a new design. 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력",
+    "referenced_image_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/initial/original.png"
+    ],
+    "transparent_background": false
+  },
+  "planned_argument_canonical_sha256": "048c3e7d77ae3f24c6898a9e2dc42ec2c7c81bdb401ca17f40abda7b7155906f",
+  "input_pins": {
+    "call_input": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/call-input.json",
+      "sha256": "dbb8368ca65ff95a792758cb5304aea43c9b20be0e08ec6bfa6e97562ebcc522"
+    },
+    "case": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/case.json",
+      "sha256": "cbfad2b1c59a8b8366072a0e403f793a145333cd83223d0bb976e7b95ad17dcc"
+    },
+    "assignment": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/assignment.json",
+      "sha256": "48dda14c5153aea9be16deba64e2a498ed418c5460d2c3e71bb063f9dcd44a77"
+    },
+    "parent_manifest": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/initial/manifest.json",
+      "sha256": "fe2ece65febda2deadb39e6a3b72bdb6e2a564853bd624f86f51bd9b91df57f8"
+    },
+    "parent_inspection": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/initial/inspection.json",
+      "sha256": "141838c684d3a6475834a4f80cdda24d7c46c6525b7f312428e6ed63b9491a74"
+    }
+  },
+  "supplied_reference_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/initial/original.png",
+      "sha256": "b8e15d9a730b7a1f782e3d78ff9eab4e7a917419b28e80f3b88fff77c7c91c03",
+      "asset_role": "own inspected edit target",
+      "target_stage": "initial"
+    }
+  ],
+  "repair_cause": [
+    "Irregular blue bring/invitation swatches and detached invitation rays add arbitrary decoration.",
+    "Soft external shadows under book, mug and bag weaken direct photo-cutout/print-surface contrast."
+  ],
+  "maintained_features": [
+    "All nine exact copy entries and their readable sizes/alignment.",
+    "Unequal asymmetric modules with four distributed photographic objects.",
+    "Stitched shirt repair, coherent mug handle and bag strap, worn textless book.",
+    "Single-line large lower title and event/free companion row."
+  ],
+  "actual_target_stage": "initial",
+  "immediate_parent_stage": "initial",
+  "immediate_parent_outcome": "returned"
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "completion": "completed_unscored_first_generation_diagnostic",
+  "recorded_utc": "2026-10-08T23:09:38.597842+00:00",
+  "reviewer": "/root/v_first_design_planner",
+  "scope": "Diagnostic recommendation only from AA prospective plan, closed M1/M2/M3 self inspections/selections and four allowed existing initial views. Not a quality judgment or condition to close R23.",
+  "findings": [
+    {
+      "id": "copy_shape_transmission",
+      "evidence": "Plan body_line_groups were separate metadata while native printed body was one unbroken literal paragraph. M2 initial became two long lines; M1 retained four lines but small actual body.",
+      "inference": "Comfortable body language and a stated line count do not concretely transmit sentence footprint."
+    },
+    {
+      "id": "dominant_expression",
+      "evidence": "Scene/material descriptions precede detailed flat-plane or line-density decisions in native briefs; the common material sentence reinforces stone/glass/metal/light. M2 initial is textured pavement; M3 maker records photographic gloss and granular detail.",
+      "inference": "Physical material defaults can replace the intended image-expression grammar; prompt ordering is a plausible contributor, not an isolated causal proof."
+    }
+  ],
+  "minimal_method_recommendation": "Lead the concise native brief with concrete image-expression rules and the actual copy shape. Put selected soft line groups in the sole printed-copy block without repeating whole copy. Resolve actual comfortable body footprint with Title and image before the first call; selectively use an existing-runtime newly authored whole-copy/image sketch when materially useful.",
+  "preserved_scope": "Built-in imagegen final full-poster architecture; no code raster edits/overlays; actual copy roles only; shared good layouts; no mandatory five media/fonts/layouts or complex guides for every simple-copy request.",
+  "recorded_selections": [
+    {
+      "role": "R23-C1-M1",
+      "selected_stage": "repair-1",
+      "counts": {
+        "native_calls": 2,
+        "returned": 2,
+        "failed": 0,
+        "repair_calls": 1
+      },
+      "source": "existing closed maker selection, not a quality judgment"
+    },
+    {
+      "role": "R23-C1-M2",
+      "selected_stage": "repair-2",
+      "counts": {
+        "native_calls": 3,
+        "returned": 3,
+        "failed": 0,
+        "repair_calls": 2
+      },
+      "source": "existing closed maker selection, not a quality judgment"
+    },
+    {
+      "role": "R23-C1-M3",
+      "selected_stage": "repair-1",
+      "counts": {
+        "native_calls": 2,
+        "returned": 2,
+        "failed": 0,
+        "repair_calls": 1
+      },
+      "source": "existing closed maker selection, not a quality judgment"
+    }
+  ],
+  "actual_views": [
+    {
+      "role": "R23-C1-M1",
+      "stage": "initial",
+      "view": "original",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M1/stages/initial/original.png",
+      "sha256": "5d1a959df5c8d7403d1da7bbe1186035878cd562520116b8110b2a72e7471321",
+      "actual_viewed": true,
+      "method": "view_image detail original and actual image emission in this diagnostic",
+      "new_pixel_measurement": false
+    },
+    {
+      "role": "R23-C1-M1",
+      "stage": "initial",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M1/stages/initial/usage-720.png",
+      "sha256": "a491bc4d742c64c705587a6e396c5b88ced24b4e1f47df19d39fbff27d2aaf73",
+      "actual_viewed": true,
+      "method": "view_image detail original and actual image emission in this diagnostic",
+      "new_pixel_measurement": false
+    },
+    {
+      "role": "R23-C1-M2",
+      "stage": "initial",
+      "view": "original",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M2/stages/initial/original.png",
+      "sha256": "f1d16e66b25e11ce3f113914e18ba9a5832970fc3ec7293e45b0bc1fa03872f3",
+      "actual_viewed": true,
+      "method": "view_image detail original and actual image emission in this diagnostic",
+      "new_pixel_measurement": false
+    },
+    {
+      "role": "R23-C1-M2",
+      "stage": "initial",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M2/stages/initial/usage-720.png",
+      "sha256": "edbce5639e194afd45e5912d5488240e3e7ef9b1ae6f4eaa8cb83c58c00aa672",
+      "actual_viewed": true,
+      "method": "view_image detail original and actual image emission in this diagnostic",
+      "new_pixel_measurement": false
+    }
+  ],
+  "inputs_read": [
+    {
+      "path": "drafts/aa-five-design/plan.json",
+      "sha256_at_recording": "aaa4fad5e2aafc54344e73fc395d56b288b53e89300adeb2bca248bab3db92ca",
+      "scope": "AA directions M1/M2/M3 and printed brief shape"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M1/selection.json",
+      "sha256_at_recording": "7af2b2908cda5b15f7d4242cf5d01052530547c3b976589d9cba5ea6190af355",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M1/stages/initial/inspection.json",
+      "sha256_at_recording": "94330d911657eac29c409d1cd076906752b2ffb8d698413d4121ec16de541bf6",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M1/stages/repair-1/inspection.json",
+      "sha256_at_recording": "613e7603b8b1a032a693e934e45f0207b51977bcfb4f14d5c9ab862e1ff84ff7",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M2/selection.json",
+      "sha256_at_recording": "f6e8a9ea1c51e2a9f65f5133345f6594f757795dac93f55a3bc40f4641a71706",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M2/stages/initial/inspection.json",
+      "sha256_at_recording": "c0272a4d47dfe11cc1914deb485be3fc0171b35bcd7be17c5c5461341e7e2602",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M2/stages/repair-1/inspection.json",
+      "sha256_at_recording": "3ee12075d01d977ecff89ad129a20ae8837e71f635a5789df08512f6635a0a06",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M2/stages/repair-2/inspection.json",
+      "sha256_at_recording": "a4e57857c2f2a30bde6f468f1ebf8ad4153b3628d5a1b13fd2d967544e29139b",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M3/selection.json",
+      "sha256_at_recording": "656b8f0868dcdeff4f413a9415d750567b33c7b736348124c5bdf3ad18e68737",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M3/stages/initial/inspection.json",
+      "sha256_at_recording": "c54b533bcbf8e4369ecce368a5a81e64e04db2d22246d0376ffa9f0b085d1538",
+      "scope": "Closed maker self-observation and selection text"
+    },
+    {
+      "path": "work/round23/production/R23-C1-M3/stages/repair-1/inspection.json",
+      "sha256_at_recording": "e55e61cf80871273d0c892968d25dd2d018625b8837ca84a267f88bb7f90326d",
+      "scope": "Closed maker self-observation and selection text"
+    }
+  ],
+  "actions_in_this_diagnostic": {
+    "existing_initial_image_views": 4,
+    "M3_or_pending_M4_M5_image_views": 0,
+    "pending_maker_or_critic_record_reads": 0,
+    "new_original_reference_or_web_views": 0,
+    "new_case_round_plan_jobs": 0,
+    "native_calls_or_renders": 0,
+    "new_scripts_or_code": 0,
+    "live_helper_currentR23_or_old_record_edits": 0,
+    "scores_floors_QA_gates_or_adoption_changes": 0
+  },
+  "limitations": [
+    "M3 expression is assessed through existing maker text only",
+    "11-12px body height is the maker visual estimate, not a new pixel/font measurement",
+    "No critic or final selected image judgment",
+    "No proof of intervention effect or universal first-generation reliability"
+  ],
+  "only_written_artifacts": [
+    "history/r23-first-generation-diagnostic/recommendation.md",
+    "history/r23-first-generation-diagnostic/status.json"
+  ],
+  "recommendation_sha256": "196c84c28f72e0ae1907b90e6cb08c3bb366656926ddf79a09282821f1458629"
+}

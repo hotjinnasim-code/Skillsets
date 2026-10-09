@@ -1,0 +1,94 @@
+{
+  "case_id": "R7-B07",
+  "request": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.",
+  "copy": [
+    {
+      "text": "손이 기억하는 물건",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "열쇠와 손잡이의 생활사",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.12.08–2027.02.14",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "생활기억박물관 작은전시실",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "화–일 10:00–18:00 / 월요일 휴관",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "관람료 무료",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "전시 안내 example.org/hand-memory",
+      "kind": "url",
+      "fixed_newlines": false
+    }
+  ],
+  "count": 3,
+  "ratios": [
+    "2:3",
+    "2:3",
+    "2:3"
+  ],
+  "styles": {
+    "mode": "explicit monochrome",
+    "colour": "흑백만",
+    "allowed_media": [
+      "사진",
+      "그래픽"
+    ]
+  },
+  "conditions": [
+    "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.",
+    "모두 세로 2:3입니다.",
+    "흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.",
+    "오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.",
+    "열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.",
+    "이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.",
+    "으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.",
+    "아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.",
+    "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+    "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+    "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient."
+  ],
+  "roles": [
+    {
+      "role_id": "R7-B07-M1",
+      "ordinal": 1,
+      "ratio": "2:3",
+      "assets": [],
+      "native_attempt_limit": 3,
+      "own_correction_limit": 2
+    },
+    {
+      "role_id": "R7-B07-M2",
+      "ordinal": 2,
+      "ratio": "2:3",
+      "assets": [],
+      "native_attempt_limit": 3,
+      "own_correction_limit": 2
+    },
+    {
+      "role_id": "R7-B07-M3",
+      "ordinal": 3,
+      "ratio": "2:3",
+      "assets": [],
+      "native_attempt_limit": 3,
+      "own_correction_limit": 2
+    }
+  ]
+}

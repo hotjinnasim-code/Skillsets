@@ -1,0 +1,11 @@
+--- checks/observe_native_ratios.py before P
++++ checks/observe_native_ratios.py P
+@@ -2,7 +2,7 @@
+ import json,datetime
+ ROOT=Path(__file__).resolve().parents[1]
+ rows=[]
+-for role in json.loads((ROOT/'planning/single-five-case.json').read_bytes())['cases'][0]['roles']:
++for role in json.loads((ROOT/'planning/production-single-five-case.json').read_bytes())['cases'][0]['roles']:
+  d=ROOT/'production'/role['role_id'];s=json.loads((d/'selection.json').read_bytes())
+  for stage in ('initial','repair-1','repair-2'):
+   p=d/'stages'/stage/'manifest.json'

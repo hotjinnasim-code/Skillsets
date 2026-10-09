@@ -1,0 +1,11 @@
+--- before
++++ after
+@@ -62,7 +62,7 @@
+             value = caller[key]
+             assert isinstance(value, list) and all(isinstance(p, str) for p in value), 'Unsealable returned-source list'
+             representations.append(value)
+-    for key in ('result_metadata', 'tool_return_metadata', 'returned_metadata', 'returned_result_metadata', 'result_hints'):
++    for key in ('result_metadata', 'tool_return_metadata', 'tool_result_metadata', 'returned_metadata', 'returned_result_metadata', 'result_hints'):
+         if key not in caller:
+             continue
+         metadata = caller[key]

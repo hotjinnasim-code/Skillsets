@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "candidate": "AB",
+  "review_type": "read_only_instruction_behavior_scope_audit",
+  "verdict": "no_blocking_scope_conflict_found",
+  "review_path": "history/final-scope-ab/review.md",
+  "blocking_issues": [],
+  "actionable_issues": [],
+  "read_pins": [
+    {"path": "Skillsets/skills/ducttape-poster/SKILL.md", "sha256": "9e16b3a8f39fa11211eac46f410b6ac350c03bfe8034a528014776b5ca94048c", "read_scope": "full text, lines 1-88"},
+    {"path": "Skillsets/skills/ducttape-poster/references/production-brief.md", "sha256": "16fa1ef94aea0f87bcbfda4d8060af29b41dcb9f7ae8a70846515db63abde186", "read_scope": "full text, lines 1-67"},
+    {"path": "Skillsets/skills/ducttape-poster/references/layout-guide.md", "sha256": "898a9bd908e40e8e5e42bf6bf5fbd74022ad3a9e649010dd871b32f8872d3fb5", "read_scope": "full text, lines 1-17"},
+    {"path": "Skillsets/skills/ducttape-poster/references/parallel-production.md", "sha256": "9dda82782415b47a0831a45dbf7e1acf6d89ebc38b0c16d1d6708e211c4e18be", "read_scope": "full text, lines 1-47"},
+    {"path": "Skillsets/skills/ducttape-poster/references/art-direction.md", "sha256": "781281693fda5ce0799ecbc24090f369af3baa0c78ae2d50d1574e55db63447c", "read_scope": "full text, lines 1-101"},
+    {"path": "Skillsets/skills/ducttape-poster/references/evaluation-loop.md", "sha256": "91553006db6ed19d26bb0d75e7e0227d8285099a3c77909edb0b32eb45db950c", "read_scope": "full text, lines 1-86"},
+    {"path": "Skillsets/README.md", "sha256": "da9665f741105eefb4f535b82cb5d84d8ca8df15722e24b12d01489831333356", "read_scope": "full text, lines 1-65"},
+    {"path": "history/expression-copy-adoption/adoption.json", "sha256": "74244f7c48622dfb5dfc3ffd148aff0794d16d6872add47dc7c58b440997e790", "read_scope": "full JSON"},
+    {"path": "work/round24/planning/candidate-ab-pre-generation-freeze.json", "sha256": "997f64213103e453e524bd968421878575cb37b13eb9f8af48d5a6c82aad76bf", "bytes": 48307, "read_scope": "JSON runtime pins, candidate/case/time, bounds, guide roles/count, quality method, gate count, adoption link, orchestration changes and limits; full cat output was truncated and these fields were then read by JSON projection"}
+  ],
+  "runtime_pin_alignment": {
+    "six_reviewed_live_runtime_files_match_adoption_and_r24_freeze": true,
+    "files": ["SKILL.md", "references/production-brief.md", "references/layout-guide.md", "references/parallel-production.md", "references/art-direction.md", "references/evaluation-loop.md"],
+    "comparison_basis": "Actual LIVE read hashes compared with corresponding declared adoption and frozen runtime hashes; snapshot files and other pinned dependency contents were not separately opened."
+  },
+  "hypothetical_scope": [
+    {"form": "Title only, five styles", "count": 5, "copy_roles": ["Title"], "ratio_when_unspecified": "2:3", "mandatory_sketch": false},
+    {"form": "Title+body, count one, 16:9", "count": 1, "copy_roles": ["Title", "body copy"], "ratio": "16:9", "mandatory_sketch": false}
+  ],
+  "frozen_bounds_reviewed": {"logical_maker_roles": 5, "worker_process_max": 3, "native_calls_at_freeze": 0, "new_quality_gates": 0},
+  "limits": [
+    "Instruction scope review only; no native-quality proof, exact rendered-copy claim, font-file claim, pixel-resolution guarantee, or authorship claim.",
+    "No images or current critic output viewed; no native call, render, helper, new test, case, plan, job, or round executed or created.",
+    "No empirical scheduling or current completion count checked; frozen worker maximum is a declaration, not proof of actual concurrency.",
+    "Only the two audit artifacts in history/final-scope-ab were written; LIVE, README, helpers, cases, plans, jobs, and old history were not edited.",
+    "Runtime pin metadata outside the six reviewed LIVE files was read as declarations only; linked files were not opened.",
+    "README AB quality pending is expected and does not establish AB performance; later concurrent changes fall outside these read pins."
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "role": "R15-C1-M1",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M1/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M1/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M1/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "밤의 식탁",
+    "NIGHT MARKET",
+    "제철 음식 · 동네 음악",
+    "2027.03.13 토요일",
+    "18:00–21:00",
+    "망원 작은마당",
+    "17:30부터 입장",
+    "입장 무료 · 음식 별도 구매",
+    "현장 참여 · 누구나 환영",
+    "다회용 컵을\n가져와 주세요",
+    "이웃과 천천히 머물러요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "copy_layout": [
+    "One title line; broad-pen counters visibly open.",
+    "One compact English line.",
+    "One description line; spaced middle dot.",
+    "One date line.",
+    "One range line; horizontal mid-height dash, two colons.",
+    "One venue line.",
+    "One entry-time line.",
+    "One purchase line.",
+    "One participation line.",
+    "Two soft lines at the word boundary after 컵을.",
+    "One slightly angled handwritten invitation; all words remain complete."
+  ],
+  "ambiguities": [],
+  "view_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M1/stages/initial/original.png",
+    "sha256": "019ace4adff2cdb8e0524be2fe4cfd0886e4495b11efe405990597c1cd8cf7cf",
+    "raw_observed": [
+      "밤의 식탁",
+      "NIGHT MARKET",
+      "제철 음식 · 동네 음악",
+      "2027.03.13 토요일",
+      "18:00–21:00",
+      "망원 작은마당",
+      "17:30부터 입장",
+      "입장 무료 · 음식 별도 구매",
+      "현장 참여 · 누구나 환영",
+      "다회용 컵을\n가져와 주세요",
+      "이웃과 천천히 머물러요"
+    ],
+    "resolution": "The one revisit displayed the full original after the initial native display appeared tiny. All eleven strings were directly legible at native detail; no initial raw text was replaced.",
+    "resolved": true,
+    "reason": "Native display limitation, not a changed image or glyph resampling."
+  },
+  "mandatory": {
+    "copy": {
+      "observed_entries": 11,
+      "occurrences_each": 1,
+      "additional_printed_copy_observed": false,
+      "issues": [],
+      "ambiguities": []
+    },
+    "style": {
+      "checked": "Continuous oblique courtyard eating/listening scene, digital ink and luminous washes.",
+      "observations": [
+        "Cropped soup fills lower-right foreground; seated adults face the flute player at left. Contours and amber washes remain coherent across the scene."
+      ],
+      "issues": [
+        "A large pale wall/erased wall area behind the left title/date cluster, and a second pale upper-right wall behind the practical cluster, serve as manufactured information planes."
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        940
+      ],
+      "requested": "16:9",
+      "exact_height_at_observed_width": 940.5,
+      "height_error_px": 0.5,
+      "permitted_native_rounding": true,
+      "resize_performed": false
+    },
+    "substantive_visual": {
+      "observed": true,
+      "evidence": "Foreground seasonal green soup, reusable cups and seated listening adults connect by a diagonal to the flutist; action and sightlines convey one food/music event."
+    },
+    "hangul": {
+      "observations": "Title has variable broad-pen weight with open counters; practical Hangul maintains even proportions and word gaps. Usage720 preserves word recognition and the small colons/dash.",
+      "issues": []
+    },
+    "information_relationship": {
+      "observations": "Title/date cluster is the first anchor at thumbnail; meal and listening group occupy the near diagonal. At usage720 identity → date/hours → upper-right venue/entry/purchase/participation → lower-right cup reminder → lower-left invitation are findable.",
+      "issue": "Upper practical typography is organized mainly on two empty wall fields rather than being shaped by the active drawing."
+    },
+    "function_contact": {
+      "observations": "Flute is visibly held horizontally at the mouth by both hands. Bowls and cups are held by neighbors with distinguishable contours; ladle is resting in the serving bowl. No required mechanical correspondence or client identity.",
+      "issues": []
+    },
+    "local_finish": {
+      "observations": "Blue-green contours, warm amber light and fresh green soup remain consistent. Bowl edge and ladle overlaps are legible, with no copy clipped by the frame.",
+      "issues": []
+    },
+    "format": {
+      "observations": "Single flat opaque landscape poster; no real promoter identity, QR, logo, watermark or room mockup observed."
+    },
+    "basic_style_exclusion": {
+      "defect_observed": true,
+      "location": "Upper center-left title/date backing and upper-right venue/arrival backing",
+      "observation": "Broad blank rendered wall areas are reserved for title and information; the scene's connected actions are substantive but these planes retain the user's specifically excluded text-bearing wall relation."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "Lower right → middle → far left",
+      "observation": "The soup rim is cropped by bottom/right, listeners diminish toward the flute player; the meal/music relationship is direct."
+    },
+    {
+      "view": "usage720",
+      "location": "Upper right and lower right",
+      "observation": "Practical information is small but legible; cup reminder wraps after 컵을."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Upper center-left",
+      "observation": "Large title/date backed by pale wall is the strongest text anchor; the front soup is the strongest object."
+    }
+  ],
+  "residuals": [
+    "Manufactured blank wall planes carry the major headline and practical blocks, contrary to the explicit composition exclusion.",
+    "Raster glyph shapes permit optical reading, not certification of original Unicode code points."
+  ],
+  "repair_decision": {
+    "needed": true,
+    "cause": "Actual explicit wall-plane composition exclusion remains; not a coordinate or planned-size mismatch.",
+    "protected_features": [
+      "Exact copy once each",
+      "Clear eating/listening diagonal",
+      "Foreground soup crop",
+      "Adult approachable mood",
+      "Blue-green/amber/green palette",
+      "Native ratio rounding within policy"
+    ]
+  },
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "밤의 식탁",
+      "raw_observed": "밤의 식탁",
+      "normalized_required": "밤의 식탁",
+      "normalized_observed": "밤의 식탁",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One title line; broad-pen counters visibly open."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 1,
+      "required": "NIGHT MARKET",
+      "raw_observed": "NIGHT MARKET",
+      "normalized_required": "NIGHT MARKET",
+      "normalized_observed": "NIGHT MARKET",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One compact English line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "required": "제철 음식 · 동네 음악",
+      "raw_observed": "제철 음식 · 동네 음악",
+      "normalized_required": "제철 음식·동네 음악",
+      "normalized_observed": "제철 음식·동네 음악",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One description line; spaced middle dot."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "required": "2027.03.13 토요일",
+      "raw_observed": "2027.03.13 토요일",
+      "normalized_required": "2027.03.13 토요일",
+      "normalized_observed": "2027.03.13 토요일",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One date line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "required": "18:00–21:00",
+      "raw_observed": "18:00–21:00",
+      "normalized_required": "18:00–21:00",
+      "normalized_observed": "18:00–21:00",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One range line; horizontal mid-height dash, two colons."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "required": "망원 작은마당",
+      "raw_observed": "망원 작은마당",
+      "normalized_required": "망원 작은마당",
+      "normalized_observed": "망원 작은마당",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One venue line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "required": "17:30부터 입장",
+      "raw_observed": "17:30부터 입장",
+      "normalized_required": "17:30부터 입장",
+      "normalized_observed": "17:30부터 입장",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One entry-time line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "required": "입장 무료 · 음식 별도 구매",
+      "raw_observed": "입장 무료 · 음식 별도 구매",
+      "normalized_required": "입장 무료·음식 별도 구매",
+      "normalized_observed": "입장 무료·음식 별도 구매",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One purchase line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "required": "현장 참여 · 누구나 환영",
+      "raw_observed": "현장 참여 · 누구나 환영",
+      "normalized_required": "현장 참여·누구나 환영",
+      "normalized_observed": "현장 참여·누구나 환영",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One participation line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "required": "다회용 컵을 가져와 주세요",
+      "raw_observed": "다회용 컵을\n가져와 주세요",
+      "normalized_required": "다회용 컵을 가져와 주세요",
+      "normalized_observed": "다회용 컵을 가져와 주세요",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "Two soft lines at the word boundary after 컵을."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "required": "이웃과 천천히 머물러요",
+      "raw_observed": "이웃과 천천히 머물러요",
+      "normalized_required": "이웃과 천천히 머물러요",
+      "normalized_observed": "이웃과 천천히 머물러요",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observations": "One slightly angled handwritten invitation; all words remain complete."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ]
+}

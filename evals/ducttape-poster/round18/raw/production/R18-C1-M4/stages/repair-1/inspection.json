@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "role": "R18-C1-M4",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M4/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M4/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M4/stages/repair-1/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    {
+      "copy_index": 0,
+      "view": "usage720",
+      "location": "right upper title",
+      "raw_observed": "고쳐 쓰는\n토요일"
+    },
+    {
+      "copy_index": 1,
+      "view": "usage720",
+      "location": "upper central English",
+      "raw_observed": "REPAIR / TOGETHER"
+    },
+    {
+      "copy_index": 2,
+      "view": "usage720",
+      "location": "right under title",
+      "raw_observed": "버리는 대신,\n함께 고칩니다."
+    },
+    {
+      "copy_index": 3,
+      "view": "usage720",
+      "location": "left middle paragraph",
+      "raw_observed": "헐거워진 의자와 찢어진\n옷을 가져오세요.\n이웃 수리자와 도구를 나누며\n다시 쓰는 방법을 배웁니다."
+    },
+    {
+      "copy_index": 4,
+      "view": "usage720",
+      "location": "left below paragraph",
+      "raw_observed": "마포 생활수리 워크숍"
+    },
+    {
+      "copy_index": 5,
+      "view": "usage720",
+      "location": "right central date",
+      "raw_observed": "2027.05.22"
+    },
+    {
+      "copy_index": 6,
+      "view": "usage720",
+      "location": "right below date",
+      "raw_observed": "토요일 14:00–18:00"
+    },
+    {
+      "copy_index": 7,
+      "view": "usage720",
+      "location": "right below time",
+      "raw_observed": "합정 동네작업실"
+    },
+    {
+      "copy_index": 8,
+      "view": "usage720",
+      "location": "right below location",
+      "raw_observed": "참가비 5,000원 · 도구 제공"
+    },
+    {
+      "copy_index": 9,
+      "view": "usage720",
+      "location": "left lower deadline",
+      "raw_observed": "신청 마감 5월 18일"
+    },
+    {
+      "copy_index": 10,
+      "view": "usage720",
+      "location": "left upper invitation",
+      "raw_observed": "수리할 물건 한 가지를\n가져오세요."
+    },
+    {
+      "copy_index": 11,
+      "view": "usage720",
+      "location": "left lower URL",
+      "raw_observed": "repair.example/join"
+    }
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "observations": [
+    {
+      "view": "native",
+      "location": "driver tip on joint top x822,y583",
+      "observation": "A visible pale metallic oval screw head now directly underlies the vertical driver tip, making tool engagement more explicit."
+    },
+    {
+      "view": "native",
+      "location": "lower handle hand x810,y456",
+      "observation": "The lower grip remains encircled by the woman's red cuff, despite request to connect it to the man's teal sleeve. The man's visible teal arm continues to the separate chair-supporting hand."
+    },
+    {
+      "view": "usage720",
+      "location": "all text blocks",
+      "observation": "All twelve copy entries and their wrapping remain readable in the same anchor locations. Body is still a continuous four-line paragraph; fee/time/URL have visible separation."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "central and foreground image",
+      "observation": "Large central figures and angled chair, lower fabric and cropped arms preserve the original narrative scale. No passive template or empty room added."
+    },
+    {
+      "view": "native",
+      "location": "foreground sewing",
+      "observation": "Needle, white stitch perimeter and large patch continue to connect the two hands to the same blue garment."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "count": 12,
+      "extra_print_observed": false,
+      "ambiguities": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "고쳐 쓰는 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "고쳐 쓰는\n토요일",
+          "first_read_view": "usage720",
+          "normalized_required": "고쳐 쓰는 토요일",
+          "normalized_observed": "고쳐 쓰는 토요일",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 2
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "REPAIR / TOGETHER",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "REPAIR / TOGETHER",
+          "first_read_view": "usage720",
+          "normalized_required": "REPAIR/TOGETHER",
+          "normalized_observed": "REPAIR/TOGETHER",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "버리는 대신, 함께 고칩니다.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "버리는 대신,\n함께 고칩니다.",
+          "first_read_view": "usage720",
+          "normalized_required": "버리는 대신, 함께 고칩니다.",
+          "normalized_observed": "버리는 대신, 함께 고칩니다.",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 2
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "헐거워진 의자와 찢어진\n옷을 가져오세요.\n이웃 수리자와 도구를 나누며\n다시 쓰는 방법을 배웁니다.",
+          "first_read_view": "usage720",
+          "normalized_required": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+          "normalized_observed": "헐거워진 의자와 찢어진 옷을 가져오세요. 이웃 수리자와 도구를 나누며 다시 쓰는 방법을 배웁니다.",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 4
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "마포 생활수리 워크숍",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "마포 생활수리 워크숍",
+          "first_read_view": "usage720",
+          "normalized_required": "마포 생활수리 워크숍",
+          "normalized_observed": "마포 생활수리 워크숍",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "2027.05.22",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2027.05.22",
+          "first_read_view": "usage720",
+          "normalized_required": "2027.05.22",
+          "normalized_observed": "2027.05.22",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "토요일 14:00–18:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "토요일 14:00–18:00",
+          "first_read_view": "usage720",
+          "normalized_required": "토요일 14:00–18:00",
+          "normalized_observed": "토요일 14:00–18:00",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "합정 동네작업실",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "합정 동네작업실",
+          "first_read_view": "usage720",
+          "normalized_required": "합정 동네작업실",
+          "normalized_observed": "합정 동네작업실",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "참가비 5,000원 · 도구 제공",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "참가비 5,000원 · 도구 제공",
+          "first_read_view": "usage720",
+          "normalized_required": "참가비 5,000원·도구 제공",
+          "normalized_observed": "참가비 5,000원·도구 제공",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "신청 마감 5월 18일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "신청 마감 5월 18일",
+          "first_read_view": "usage720",
+          "normalized_required": "신청 마감 5월 18일",
+          "normalized_observed": "신청 마감 5월 18일",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "수리할 물건 한 가지를 가져오세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "수리할 물건 한 가지를\n가져오세요.",
+          "first_read_view": "usage720",
+          "normalized_required": "수리할 물건 한 가지를 가져오세요.",
+          "normalized_observed": "수리할 물건 한 가지를 가져오세요.",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 2
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 11,
+          "required": "repair.example/join",
+          "kind": "url",
+          "fixed_newlines": false,
+          "raw_observed": "repair.example/join",
+          "first_read_view": "usage720",
+          "normalized_required": "repair.example/join",
+          "normalized_observed": "repair.example/join",
+          "equal": true,
+          "layout": {
+            "observations": "Meaningful soft line wraps; no fixed-newline requirement.",
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "expressive narrative adult chair/clothing repair illustration with flanking continuous copy",
+      "observations": "Brush-marked coral clothing, teal shirt, blue fabric, modeled adult faces and substantial central chair action preserved. Large scene contours continue organizing text space; not a tiny-image headline template."
+    },
+    "ratio": {
+      "requested": [
+        16,
+        9
+      ],
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "exact_requested_height": 940.5,
+      "rounding_difference_px": 0.5,
+      "policy": "Permitted nearest-integer native edge rounding; no resize."
+    },
+    "substantive_visual": {
+      "observations": "Chair is held and worked on by two neighbors; two foreground hands sew a patched garment."
+    },
+    "hangul": {
+      "observations": "Clean flat sans-serif bodies, word spaces, mature counters and optical number scale preserved; title remains heavier than guide plan."
+    },
+    "information_relationship": {
+      "observations": "Left invitation/body/workshop; central action; right title/meaning/schedule; lower-left deadline/URL connected by foreground thread."
+    },
+    "function_contact": {
+      "observations": "Screw contact improved; same-driver co-grip by two different adults still not visually established."
+    },
+    "material_edges": {
+      "observations": "Wooden brush planes and cloth texture intact. No text occlusion. Foreground patch thread and hands remain in place."
+    }
+  },
+  "residuals": [
+    {
+      "location": "central lower screwdriver hand",
+      "limit": "Lower grip still belongs visually to woman's red cuff; man supports chair separately."
+    },
+    {
+      "location": "lower patch",
+      "limit": "Original tear remains largely hidden under patch."
+    }
+  ],
+  "native_display_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/production/R18-C1-M4/stages/repair-1/original.png",
+    "sha256": "c7f66c4e94e2b0673f57247fc28b4703d160c26427291fd5daaf8a37fdba03ea",
+    "initial_observation": "First native-detail emission showed only a small top-left texture area; subsequent QA views were complete.",
+    "raw_observed": [
+      "고쳐 쓰는\n토요일",
+      "REPAIR / TOGETHER",
+      "버리는 대신,\n함께 고칩니다.",
+      "헐거워진 의자와 찢어진\n옷을 가져오세요.\n이웃 수리자와 도구를 나누며\n다시 쓰는 방법을 배웁니다.",
+      "마포 생활수리 워크숍",
+      "2027.05.22",
+      "토요일 14:00–18:00",
+      "합정 동네작업실",
+      "참가비 5,000원 · 도구 제공",
+      "신청 마감 5월 18일",
+      "수리할 물건 한 가지를\n가져오세요.",
+      "repair.example/join"
+    ],
+    "resolution": "One revisit of same exact pinned original-detail asset displayed the full native poster, permitting full contact and glyph inspection.",
+    "resolved": true,
+    "reason": "Initial original display clipped; no image bytes changed."
+  }
+}

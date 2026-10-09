@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "mapped_source_byte_checks": 359,
+  "unique_summaries_replayed": 2,
+  "replays": [
+    {
+      "case_id": "R9-C1",
+      "actual_summary_wave": "initial",
+      "procedure_gate": "NA",
+      "image_gate_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "NA": 5
+      },
+      "set_gate": "NA",
+      "source_attestation_gate": "NA",
+      "compact_recording_gate": "NA",
+      "effective_set_gate": "NA"
+    },
+    {
+      "case_id": "R9-C1",
+      "actual_summary_wave": "selected",
+      "procedure_gate": "PASS",
+      "image_gate_counts": {
+        "PASS": 0,
+        "FAIL": 4,
+        "NA": 1
+      },
+      "set_gate": "NA",
+      "source_attestation_gate": "PASS",
+      "compact_recording_gate": "PASS",
+      "effective_set_gate": "NA"
+    }
+  ],
+  "raw_observation_counts_separate": {
+    "records": 30,
+    "score_slots": 210,
+    "valid_scores": 209
+  },
+  "recorded_initial_export_absences": 6,
+  "limits": [
+    "No original host path is required for aliased metadata reads. Raw byte digests and all scores/copy remain unchanged.",
+    "Initial missing exports and NA are reproduced from sealed absence evidence; raw scores remain separate.",
+    "Unready phases are retained rather than invented or replayed. Semantic viewing remains an attestation."
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "case_id": "R12-C1",
+  "candidate_label": "anonymous-single-five",
+  "wave": "selected",
+  "expected_count": 5,
+  "critic_profiles": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "full_request": "덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n입던 옷의 다음 장면\nREMAKE & SHARE\n티셔츠를 파우치로 · 완성품 나눔\n2027.01.16 토요일\n14:00–16:30\n성산 생활문화센터\n13:40부터 입장\n참가비 3,000원 · 도구 제공\n사전 신청 · 정원 18명\n깨끗한 티셔츠 한 장 지참\n바느질이 처음이어도 괜찮아요",
+  "literal_case_sha256": "18fc976aba3789f25a6f751d96afa51202cbf9e8ccbb6fbf75ae197ada606e77",
+  "normalization": "nfc-ws-optical-v1",
+  "copy": [
+    {
+      "text": "입던 옷의 다음 장면",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "REMAKE & SHARE",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "티셔츠를 파우치로 · 완성품 나눔",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2027.01.16 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "14:00–16:30",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "성산 생활문화센터",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "13:40부터 입장",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "참가비 3,000원 · 도구 제공",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "사전 신청 · 정원 18명",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "깨끗한 티셔츠 한 장 지참",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "바느질이 처음이어도 괜찮아요",
+      "kind": "text",
+      "fixed_newlines": false
+    }
+  ],
+  "requirements": {
+    "style": "덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n입던 옷의 다음 장면\nREMAKE & SHARE\n티셔츠를 파우치로 · 완성품 나눔\n2027.01.16 토요일\n14:00–16:30\n성산 생활문화센터\n13:40부터 입장\n참가비 3,000원 · 도구 제공\n사전 신청 · 정원 18명\n깨끗한 티셔츠 한 장 지참\n바느질이 처음이어도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nT-shirt-to-pouch upcycling and sharing completed pouches must be visibly connected, with an approachable adult daytime hobby-event tone. All supplied practical information must be readable at usage720.",
+    "ratio": [
+      16,
+      9
+    ],
+    "ratio_rounding": "nearest-integer-single-edge",
+    "no_type_only": true
+  },
+  "review_rules": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/review_rules.md",
+    "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495",
+    "bytes": 14119
+  },
+  "critic_rubric": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/critic_rubric.md",
+    "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c",
+    "bytes": 6580
+  },
+  "ratio_policy": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/planning/ratio-policy-before-generation.json",
+    "sha256": "6999c136d33df28fbf71c6df5ad08f0fd4a7285d5cf731c56c269824191aa997",
+    "bytes": 402
+  },
+  "helper_pins": {
+    "evidence_io.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2",
+      "bytes": 15373
+    },
+    "summarize.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+      "bytes": 38350
+    },
+    "run_agent.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+      "bytes": 2390
+    },
+    "prepare_reviews_compact.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+      "bytes": 33273
+    },
+    "compact_critic_adapter.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "README.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+      "bytes": 10025
+    },
+    "compact-recording-addendum.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+      "bytes": 7465
+    },
+    "audit_compact_bindings.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+      "bytes": 21050
+    }
+  },
+  "source_assets": [],
+  "protected_layouts": [],
+  "images": [
+    {
+      "image_id": "R12-C1-M1",
+      "role": "R12-C1-M1",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/initial/manifest.json",
+        "sha256": "fb02adbd0b7888bb6574a31bb64f878ccd79743b96dbfbe76fb74fb3297c07d5",
+        "bytes": 2643
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/initial/original.png",
+          "sha256": "f96932ee4a3a54d0da3123816b7f79f33b18ace0044633106e3322313fb7432a",
+          "bytes": 2084422,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/initial/usage-720.png",
+          "sha256": "f1e4f42f0c71da6eab66ee80e271721e8aba0d175eee201faf43b4a7e2f7f7b5",
+          "bytes": 448888,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/initial/thumbnail-320.png",
+          "sha256": "4a5632202880ca8d379d5ae84be11768899e42e013ca225a27ad4c3c41b58277",
+          "bytes": 104316,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n입던 옷의 다음 장면\nREMAKE & SHARE\n티셔츠를 파우치로 · 완성품 나눔\n2027.01.16 토요일\n14:00–16:30\n성산 생활문화센터\n13:40부터 입장\n참가비 3,000원 · 도구 제공\n사전 신청 · 정원 18명\n깨끗한 티셔츠 한 장 지참\n바느질이 처음이어도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nT-shirt-to-pouch upcycling and sharing completed pouches must be visibly connected, with an approachable adult daytime hobby-event tone. All supplied practical information must be readable at usage720."
+    },
+    {
+      "image_id": "R12-C1-M2",
+      "role": "R12-C1-M2",
+      "stage": "repair-2",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M2/stages/repair-2/manifest.json",
+        "sha256": "fdf1069c108527a174414ac22911a8fe5d4c9b96bf0a0bb37bf2d91389d2e619",
+        "bytes": 2649
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M2/stages/repair-2/original.png",
+          "sha256": "386c0057589fdf31b626c7ec2e6b9f344a9b8bb1473d3ee3db04069aa61186a2",
+          "bytes": 1503183,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M2/stages/repair-2/usage-720.png",
+          "sha256": "b36570dcf290d464c9e39e4a7baba7eab1684c20705307280473d5702315a5b6",
+          "bytes": 343839,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M2/stages/repair-2/thumbnail-320.png",
+          "sha256": "5ae95b2eb72b2d414a5878447439d7a1e72f167947d60436666d1b3382da556d",
+          "bytes": 83492,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n입던 옷의 다음 장면\nREMAKE & SHARE\n티셔츠를 파우치로 · 완성품 나눔\n2027.01.16 토요일\n14:00–16:30\n성산 생활문화센터\n13:40부터 입장\n참가비 3,000원 · 도구 제공\n사전 신청 · 정원 18명\n깨끗한 티셔츠 한 장 지참\n바느질이 처음이어도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nT-shirt-to-pouch upcycling and sharing completed pouches must be visibly connected, with an approachable adult daytime hobby-event tone. All supplied practical information must be readable at usage720."
+    },
+    {
+      "image_id": "R12-C1-M3",
+      "role": "R12-C1-M3",
+      "stage": "repair-2",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/manifest.json",
+        "sha256": "7028f39df387e04f62f78df5a777fcc44083c32d2346e436fded0e27158e1594",
+        "bytes": 2650
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/original.png",
+          "sha256": "f61ce01c95bcd8c70692d6a1184277d587f5a5d977428ced924b18de2b442751",
+          "bytes": 2247878,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/usage-720.png",
+          "sha256": "0c382b3bcf8c3cd3d815906a8807a7256bfdfbdfab6ee54afd1331fc1fede358",
+          "bytes": 472543,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M3/stages/repair-2/thumbnail-320.png",
+          "sha256": "027cdb063605d78e2b4ea03c242df6242e4dd93ddee18fb55ae5872ed24193e9",
+          "bytes": 110498,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n입던 옷의 다음 장면\nREMAKE & SHARE\n티셔츠를 파우치로 · 완성품 나눔\n2027.01.16 토요일\n14:00–16:30\n성산 생활문화센터\n13:40부터 입장\n참가비 3,000원 · 도구 제공\n사전 신청 · 정원 18명\n깨끗한 티셔츠 한 장 지참\n바느질이 처음이어도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nT-shirt-to-pouch upcycling and sharing completed pouches must be visibly connected, with an approachable adult daytime hobby-event tone. All supplied practical information must be readable at usage720."
+    },
+    {
+      "image_id": "R12-C1-M4",
+      "role": "R12-C1-M4",
+      "stage": "repair-2",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M4/stages/repair-2/manifest.json",
+        "sha256": "e891e7cfb5ed1f1c76d2e4182b49922b0ced25dfd40fdf39de5368604be377ff",
+        "bytes": 2650
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M4/stages/repair-2/original.png",
+          "sha256": "d435c8cf2c4686337703c30f36e70c6e89fe039698dd03c7aa6ca62c9da1aff1",
+          "bytes": 2284038,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M4/stages/repair-2/usage-720.png",
+          "sha256": "39f6b99d9296d66943d261503823c6e934ab19a5c7bf93909531a91a52078abe",
+          "bytes": 497332,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M4/stages/repair-2/thumbnail-320.png",
+          "sha256": "17a5f5e97a621608e6a0970855be07ef82649e219f337a6a06082079ee0f247b",
+          "bytes": 112114,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n입던 옷의 다음 장면\nREMAKE & SHARE\n티셔츠를 파우치로 · 완성품 나눔\n2027.01.16 토요일\n14:00–16:30\n성산 생활문화센터\n13:40부터 입장\n참가비 3,000원 · 도구 제공\n사전 신청 · 정원 18명\n깨끗한 티셔츠 한 장 지참\n바느질이 처음이어도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nT-shirt-to-pouch upcycling and sharing completed pouches must be visibly connected, with an approachable adult daytime hobby-event tone. All supplied practical information must be readable at usage720."
+    },
+    {
+      "image_id": "R12-C1-M5",
+      "role": "R12-C1-M5",
+      "stage": "repair-2",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M5/stages/repair-2/manifest.json",
+        "sha256": "1405969161eae3c2dd3e918f1606545957b3985b006787b7439c1be5082c8198",
+        "bytes": 2649
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M5/stages/repair-2/original.png",
+          "sha256": "6d6a83787f812e2fe2ebf432c56857c53ccf7fb12c9349d5c2d19a8698cf5554",
+          "bytes": 1637380,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M5/stages/repair-2/usage-720.png",
+          "sha256": "cc3853300e98cfa20c5677404bce9b30f56206c8bd868eab5e97a02ffcebf947",
+          "bytes": 346478,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M5/stages/repair-2/thumbnail-320.png",
+          "sha256": "01c511c6278bf22c742c53e31a8f77eded925ae7eb4780bc044067611796156a",
+          "bytes": 80937,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n입던 옷의 다음 장면\nREMAKE & SHARE\n티셔츠를 파우치로 · 완성품 나눔\n2027.01.16 토요일\n14:00–16:30\n성산 생활문화센터\n13:40부터 입장\n참가비 3,000원 · 도구 제공\n사전 신청 · 정원 18명\n깨끗한 티셔츠 한 장 지참\n바느질이 처음이어도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nT-shirt-to-pouch upcycling and sharing completed pouches must be visibly connected, with an approachable adult daytime hobby-event tone. All supplied practical information must be readable at usage720."
+    }
+  ],
+  "compact_recording": {
+    "schema_version": 2,
+    "kind": "compact_critic_observations",
+    "pin_schema": "path-sha256-bytes-v2",
+    "python": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "adapter": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "method": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+      "bytes": 10025
+    },
+    "addendum": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+      "bytes": 7465
+    },
+    "binding_audit": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+      "bytes": 21050
+    },
+    "preparer": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+      "bytes": 33273
+    },
+    "expected_outputs": [
+      "PROFILE.observations.json",
+      "PROFILE.json",
+      "PROFILE.md"
+    ],
+    "execution": "Inside the same fresh critic session before immutable CLI completion; no post-completion export"
+  }
+}

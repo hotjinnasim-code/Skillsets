@@ -1,0 +1,180 @@
+{
+  "role": "R24-C1-M3",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "걷다가\n발견한 것들",
+    "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+  ],
+  "first_observed_view": "native",
+  "normalization": "nfc-ws-optical-v1",
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "upper left, x≈5–55%, y≈6–23%",
+      "observation": "Two bold Myeongjo title lines read as the main typographic anchor. Complete Hangul forms and wide interior spaces are visible."
+    },
+    {
+      "view": "usage720",
+      "location": "lower left, x≈5–49%, y≈80–94%",
+      "observation": "Four left-aligned body lines read continuously with consistent baseline, word gaps, and commas/periods. They occupy less than half the screen width."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole image",
+      "observation": "Title is the first text anchor, followed by the tall alley silhouette, orange upper-right window and a descending footprint chain; the paragraph is grouped at lower left."
+    },
+    {
+      "view": "native",
+      "location": "middle and right, y≈25–100%",
+      "observation": "Pictorial stairs, foreground paving and receding buildings form a recognizable alley. Multiple dark banks are divided by a pale road; the large black body is not the assigned single diagonal connected mass."
+    },
+    {
+      "view": "native",
+      "location": "lower center, x≈57–77%, y≈64–98%",
+      "observation": "Footprints are broad black positive blotches on ivory, rather than elongated bright cuts within the connected black silhouette."
+    },
+    {
+      "view": "native",
+      "location": "upper-right window and wire network",
+      "observation": "A single orange plane lights a window; windows and fine wires identify looking upward during urban walking."
+    },
+    {
+      "view": "native",
+      "location": "building edges and black surfaces",
+      "observation": "Chipped ivory edges and speckled black ink maintain a carved print finish; the body typography has no image cuts through its characters."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "걷다가 발견한 것들",
+          "raw_observed": "걷다가\n발견한 것들",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "걷다가 발견한 것들",
+          "normalized_observed": "걷다가 발견한 것들",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "Title wraps at word boundary into two lines; body wraps at word boundaries into four stable lines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "raw_observed": "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "normalized_observed": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "Title wraps at word boundary into two lines; body wraps at word boundaries into four stable lines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "ambiguities": [],
+      "additional_copy_observation": "Only the title and body blocks are visible; no subtitle, event data, logo, QR, watermark or other lettering observed.",
+      "raster_unicode_limit": "Glyph and punctuation appearance inspected; source Unicode identity is not authenticated by raster inspection."
+    },
+    "style": {
+      "checked_requirement": "Connected diagonal black city silhouette shaped by ivory incisions, one muted orange light plane; mature Myeongjo title/body.",
+      "observed": "Black/ivory cut-print finish and single orange light plane are present. Conventional perspective alley and black positive footprints do not realize the assigned connected incision structure."
+    },
+    "ratio": {
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "rounding_policy": "one edge nearest-integer <=0.5 pixel permitted",
+      "pixel_resizing": "none",
+      "edge_error_pixels": 0.0
+    },
+    "substantive_visual": {
+      "observation": "Full-height city alley, wires, window light and repeated foot marks ground the attentive urban walking theme; the nonglyph scene structures both reading openings.",
+      "excluded_template_observation": "The city silhouette and road create the actual large image and reading spaces; this is not a small image attached to a passive solid-field headline template."
+    },
+    "typography": {
+      "observation": "Title and body use compatible Myeongjo structures. Title is dominant; body is four stable lines with open counters, adequate hairlines and preserved word gaps at usage720."
+    },
+    "information_relationship": {
+      "observation": "Upper title is followed down the narrowing alley and footprint rhythm to the grouped lower-left body. No further functional or contact copy is requested."
+    },
+    "reference_preservation": {
+      "applicable": false,
+      "reason": "No supplied images or measured-layout preservation request."
+    },
+    "function_contact": {
+      "applicable": false,
+      "reason": "No hand contact, product function or contact information requested."
+    },
+    "material_edge_finish": {
+      "observation": "Dark ink masses, ivory cut edges and one orange plane are consistent with the print treatment; the footprint blobs weaken the specific long-incision rhythm."
+    }
+  },
+  "residuals": [
+    {
+      "location": "main scene",
+      "description": "Conventional perspective alley replaces the assigned one-piece diagonal black silhouette with bright incisions."
+    },
+    {
+      "location": "foreground footprints",
+      "description": "Black positive footprint blobs on pale ground invert the requested elongated bright footprint cuts."
+    },
+    {
+      "location": "body area",
+      "description": "Readable four-line body uses approximately 44% of poster width, leaving a substantially narrower paragraph than the assigned broad lower opening."
+    }
+  ],
+  "repair_decision": {
+    "necessary": true,
+    "cause": "Assigned style structure is not realized in the connected mass and incision polarity.",
+    "protected_features": [
+      "exact two copy entries",
+      "recognizable bold Myeongjo title",
+      "readable continuous four-line Myeongjo body",
+      "one orange window light",
+      "urban windows/wires/footprint relationship",
+      "opaque 2:3 single poster"
+    ]
+  },
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/initial/original.png",
+      "sha256": "81e0f0b9785c7ecd365efcc396686879c830516afcbb2e11c5d2ba11f570e783",
+      "bytes": 2343606,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/initial/usage-720.png",
+      "sha256": "ce03761bf0588b6b2e8a53dd77d042b89b5df2dae121e899dbccf42b3a27eb27",
+      "bytes": 1137658,
+      "width": 720,
+      "height": 1080
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/initial/thumbnail-320.png",
+      "sha256": "7397afbc51e12811d5914bfce3cc4c2afebc2b6305f1e663f0fd13d1f7dd826b",
+      "bytes": 115646,
+      "width": 213,
+      "height": 320
+    }
+  ]
+}

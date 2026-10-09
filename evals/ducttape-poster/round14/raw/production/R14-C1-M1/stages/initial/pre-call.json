@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "role": "R14-C1-M1",
+  "stage": "initial",
+  "prepared_at_utc": "2026-10-08T11:25:37.899630+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "attempt_number": 1,
+  "planned_arguments": {
+    "prompt": "Use case: ads-marketing. Create ONE finished flat opaque 16:9 landscape event poster for adult neighborhood residents, for a community digital screen. It is a cinematic architectural photograph with carefully composed flat typography over the image. The architecture/light photo exhibition and the shared space talk are ONE welcoming event. Output the poster itself edge to edge, without a physical poster mockup, borders, contact sheet or panels. 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력.\n\nSCENE AND WHOLE COMPOSITION\nOne quiet, fictional everyday interior threshold fills the entire frame, photographed from slightly below eye level with a natural moderately wide lens. No identifiable real building or institution. A large close blue-gray plaster wall occupies the left foreground, cut off by the left and top frame edges, with its vertical return near 40% of the width. Beyond it, a warm neutral floor recedes toward an ordinary recessed opening at the right. A low window admits natural daylight; a broad oblique shaft of light crosses the floor through the middle, connecting the close wall to the more distant, bright plaster wall on the right. The opening at the far right has a distinct dark reveal, making the room's depth legible. Give the image believable continuous floor, thresholds, wall thickness and light/shadow contact. It must feel like an accessible neighborhood interior one can step into, calm and curious rather than a cold luxury property advertisement. No people, furniture, artworks, frames, building exterior, recognizable architectural monument, brand or logo.\n\nThe actual photographed space continues behind all the text, to all four edges. The wall and the daylight must organize the reading route; no inserted text cards or panels. Left title lives low on the close darker wall. Practical details live higher on a naturally smooth bright distant wall. The illuminated floor joins their very different depths. Preserve ample room for information at readable scale, without relegating the photograph to an inset or bottom strip. The scene's substantive observation of light and form is the main visual construction, not a tiny icon or texture.\n\nTYPE AND PLACEMENT\nAll text is crisp, screen-horizontal, flat editorial typography composited over the photograph. It must NOT be distorted into perspective, engraved, projected, painted or rendered as a physical wall sign. Use natural dark ink on the bright wall and warm ivory on the dark wall. Korean Hangul must have correct syllable structure, open counters, consistent proportions, clean stroke joins and clear word spaces. Maintain exact numbers, punctuation, word spaces and spelling. Print each supplied entry exactly ONCE. The eleven entries below are the ONLY visible text: do not print labels, indexes or these instructions, and add no slogans, pseudo-print, logo, watermark, QR or invented contact/application details.\n\nPlacement guides use a 720 × 405 viewing frame, scaling proportionally with output:\n— Close wall identity: a normal-weight Korean Myeongjo serif title around 37 px at viewing scale; left aligned near x35, y235. Break the title after its first word into two generous lines, around 45 px leading. Its companion English Roman serif line is around 14 px at x36, y207.\n— Below that title near x35, y353: an open Korean sans serif subtitle around 18 px, one line, in ivory. Keep it on the darker wall at the threshold edge.\n— Bright distant wall near x458, y54: date, time, venue and admission in a four-line left-aligned stack, around 16 px medium-weight Korean sans serif, 26 px leading. Date remains the same scale as the following information, never a large headline.\n— Same bright wall near x458, y206: free viewing/commentary and advance registration/capacity in two left-aligned lines, around 15–16 px with 26 px leading.\n— Lower right near x373, y329: visiting consideration and reassurance in two lines, around 15–16 px, 26 px leading. The underlying light wall/floor area must naturally provide dark-type contrast, without an artificial rectangle.\nThe architecture may be adjusted coherently to keep these text regions smooth and readable. Keep every practical line readable at 720-pixel poster width, safe from the frame edge and from hard light boundaries.\n\nEXACT PRINTED COPY, GROUPED BY ROLE\nClose-wall title:\n빛이 머무는 집\nEnglish companion above it:\nOPEN HOUSE\nSubtitle at its lower boundary:\n건축 사진전 · 공간 이야기\nDistant-wall schedule, in this order:\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\nParticipation below:\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\nLower-right welcome:\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요\n\nFINISH AND EXCLUSIONS\nContemporary space photography, soft natural midtones with firm opening edges, smooth ordinary plaster, cool blue-gray shade and warm neutral daylight. No film dust, vintage staining, gratuitous print imitation, physical duct tape or arbitrary decoration. The en dash in the time range must be visibly longer than a hyphen, centered between two clean times, with intact colons. Middle dots must retain their round centered form.\nThe client explicitly excludes a passive solid/near-solid/split-color background dominated by large Gothic title/date/info blocks with subordinate inset or bottom-strip photos. Adding texture, gradients, grids or swapping fonts does not authorize that template. Here the continuous photographic threshold, near/far proportions, crop, diagonal light and distributed type anchors must create the complete poster.",
+    "transparent_background": false
+  },
+  "planned_argument_sha256": "f052e06038bae4ece318350a00e28ab531dde876c03d10aa14e30daa2a463348",
+  "call_input": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/call-input.json",
+    "sha256": "1a6347d78c32bfccd907ad7aa1b4d217bcb90ad281a8fc71bfac208e4730c26c"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/case.json",
+      "sha256": "5ccc6b49d749e68f5ac0eab4a9cc072123ed0e8f0274e6207a497843acd48db3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/assignment.json",
+      "sha256": "21950283354ec6d036d43ef3f6952ff1c3071ebc4d3ad2b758afa3ef8f615c60"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/SKILL.md",
+      "sha256": "23245762a257232969e09691e4bd8ff1eb29b2d517355a478c5a997b52d62674"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/agents/openai.yaml",
+      "sha256": "18e733c202cc1b8d153d2f1dc8bac85826787a88fe336f0e1aa5fa65f523f7e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/art-direction.md",
+      "sha256": "5b8fec6095fb92f704d91eaf9c21556e39e0bd35d96d9e44e0b94ddd6c1c1219"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/parallel-production.md",
+      "sha256": "0c008caac11dde6caf05030e984e22126af7ba15a8809f94a23787fa7b3cdba7"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/visual-research.md",
+      "sha256": "3fbb63a6eac4e373dd88483ebf01843d2d962ee8997a103f3ebed858d6a851a6"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/evaluation-loop.md",
+      "sha256": "0dbb5dd7a89484b0a6ed3fde6e960b7deb8c230b6edda5a7b7d38860d7395dc2"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/capability-probe/result.json",
+      "sha256": "4a37c768e27e702fde10867840679e356559dfd9d39a91ff61046a8e26c2fd73"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    }
+  ],
+  "supplied_reference_pins": [],
+  "repair_cause": null,
+  "maintained_features": [
+    "Full-frame fictional architectural threshold photograph",
+    "Near low title and far high information connected by diagonal daylight",
+    "Horizontal flat type; all eleven supplied entries once"
+  ],
+  "actual_target_stage": null
+}

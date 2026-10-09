@@ -1,0 +1,164 @@
+You are one fresh, isolated ducttape-poster maker. Own exactly R7-B05-M1, one final independent poster.
+Your working/output directory is /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1. Do not spawn agents or create tasks. Do not read the full corpus, coordinator plans, other makers' directions/prompts/results, critic files, prior rounds, parent evaluation history or unrelated projects. Only read this job's pinned inputs and your own newly written evidence (plus the exact native source paths explicitly returned by your own tool). Never run another project executable or a wrapper/image-generation API, SDK, image CLI, credential/config/environment lookup. The only project helper you may execute is the pinned evidence_io.py below. Read-only access to exact pinned text and own-directory exclusive metadata writes/hash checks using the bundled Python are allowed. No Python/Pillow image or asset editing; the helper's QA-only reduction is the only pixel operation.
+
+First read these exact pinned inputs, applying the current SKILL and needed references. Read review_rules.md's native evidence/transcription contract. The evaluation reference does not authorize you to judge or inspect peers/critics:
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/case.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/assignment.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/agents/openai.yaml
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/art-direction.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/parallel-production.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/visual-research.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/evaluation-loop.md
+- /Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/review_rules.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/run_agent.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/capability-probe/result.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/prepare_production.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/manifest.json
+Read case.json and assignment.json. They contain the complete literal user input/common conditions and ONLY your assigned direction. Before designing, actually view every supplied image with tools.view_image through functions.exec, emitting it via image(...,'original'). Preserve all asset identity, requested style, ratio, literal copy, supplied reference geometry and measured_layout; old reference-poster copy is not new copy. All supplied images for this role are:
+[
+  {
+    "asset_id": "A1",
+    "attachment_alias": "atelier-photo.jpg",
+    "actual_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+    "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+    "width": 1122,
+    "height": 1402,
+    "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/manifest.json",
+    "manifest_sha256": "16057e224f6c2211345306be6906bf4ef6abe51fb419e93d75d0216a85a74d1d",
+    "kind": "synthetic studio photograph-style fixture",
+    "ready": true,
+    "synthetic_authorized_fixture": true,
+    "real_client_photo": false,
+    "real_product": false,
+    "source_artwork_substitute": false,
+    "not_a_corpus_poster_candidate": true,
+    "viewed_by_corpus_author": false
+  }
+]
+
+COMPLETE ORIGINAL USER REQUEST (include this entire literal request before your design spec in EVERY native call, including repairs):
+첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요. 세로 4:5입니다. 사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다. 작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요. 작품을 새로 그리거나 다른 작품으로 바꾸지 마세요. 주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요. 아래 문구를 모두 그대로 넣어 주세요. 날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.
+
+ALL LITERAL COPY ENTRIES (preserve exact strings, kinds, word spacing, punctuation and fixed-newline rules in EVERY native call before your design spec):
+[
+  {
+    "text": "작업실의 오후",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "김서안 오픈 스튜디오",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "2026.11.28 14:00–19:00",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "연희로 18길 24, 2층",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "작품과 제작 과정을 함께 보는 시간",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "방문 예약 example.org/atelier-afternoon",
+    "kind": "url",
+    "fixed_newlines": false
+  }
+]
+
+COMMON USER CONDITIONS/STYLES/RATIOS (include every applicable condition in every call; the role's ratio is "4:5"):
+{
+  "conditions": [
+    "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요.",
+    "세로 4:5입니다.",
+    "사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다.",
+    "작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.",
+    "작품을 새로 그리거나 다른 작품으로 바꾸지 마세요.",
+    "주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요.",
+    "아래 문구를 모두 그대로 넣어 주세요.",
+    "날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.",
+    "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+    "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+    "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+    "The actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic."
+  ],
+  "styles": {
+    "mode": "actual supplied synthetic photograph preservation"
+  },
+  "ratios": [
+    "4:5"
+  ]
+}
+COMMON COORDINATOR CONSTRAINTS:
+[
+  "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요.",
+  "세로 4:5입니다.",
+  "사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다.",
+  "작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.",
+  "작품을 새로 그리거나 다른 작품으로 바꾸지 마세요.",
+  "주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요.",
+  "아래 문구를 모두 그대로 넣어 주세요.",
+  "날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.",
+  "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+  "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+  "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+  "The actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+  "전체 수량은 정확히 1종이며 역할은 R7-B05-M1, 비율은 4:5이다. 스타일 범위는 actual supplied synthetic photograph preservation이다. 다양성을 위해 사진의 구도나 작품을 변경하지 않는다.",
+  "atelier-photo.jpg의 실제 필수 원본은 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png이며 1122×1402이다. /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/manifest.json을 읽고 원본을 native view_image의 original 보기로 직접 확인했다. 이 사진은 대체 가능한 스타일 참고가 아니라 보존해야 할 실제 입력이다.",
+  "확인한 원본의 큰 기울어진 파란 고리와 오른쪽 아래 작은 고리, 연결·교차 부분, 두 고정점, 붓결과 명암, 벽과 그림자의 상대 위치를 보존한다. 작품을 따로 추출해 옮기거나 회전하거나 비균등 확대하지 않고, 원본 시점·빛·색을 유지한다. 원본에 보이지 않는 작업실 설비나 제작 장면을 만들어 넣지 않는다.",
+  "정확한 4:5는 1122×1402 원본의 바깥 벽 가장자리에서 상하좌우 각각 1픽셀만 제외한 1120×1400 비율을 기준으로 잡을 수 있다. 작품과 그림자를 자르지 않으며 사진 전체를 늘이거나 작품을 재배치하지 않는다. 이후 출력 크기가 달라져도 전체 장면에 동일한 비례를 적용한다.",
+  "모든 문구를 각각 한 번씩 보존한다. 날짜의 점, 시간 사이의 en dash, 주소의 쉼표, URL의 슬래시와 하이픈을 그대로 유지한다. 입력 항목명·역할명·방향 설명·추가 장식 문자를 인쇄하지 않는다.",
+  "후속 제작 시에는 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력하도록 명세하되, 실제 반환 크기를 확인하기 전에는 최대 해상도나 인쇄 적합성을 보장하지 않는다.",
+  "현재 작업은 계획만 작성한다. 이미지 생성·수정 호출은 0회이며 에이전트를 실행하지 않는다. 역할의 native_attempt_limit 3과 own_correction_limit 2는 입력 조건으로 보존하되 사용하지 않는다. 계획상의 가독성 판단을 실제 결과 검수로 주장하지 않는다."
+]
+YOUR OWN DIRECTION, no peer plan:
+{
+  "role": "R7-B05-M1",
+  "ratio": "4:5",
+  "fullcopy": "작업실의 오후\n김서안 오픈 스튜디오\n2026.11.28 14:00–19:00\n연희로 18길 24, 2층\n작품과 제작 과정을 함께 보는 시간\n방문 예약 example.org/atelier-afternoon",
+  "concept": "작품과 제작 과정을 함께 보는 방문의 초대를, 제공된 작품이 실제로 벽에 걸려 있는 모습과 그 벽에 인접한 행사 안내의 관계로 전달한다. 확인한 사진의 큰 파란 고리가 왼쪽 위에서 시작해 작은 고리가 오른쪽 아래로 이어지는 전체 형태를 그대로 장면의 중심으로 삼는다. 첫 시선은 큰 크기의 작품 전체와 두 고리의 연결에 머물고, 위쪽 벽의 제목과 작가·행사명이 이 장면을 오픈 스튜디오의 초대로 명명한다. 고리와 그림자가 끝난 아래쪽 벽에서 날짜·주소를 함께 읽고 설명과 예약으로 이어지게 한다. 제작 과정 자체를 새 장면으로 발명하지 않는다.",
+  "substantive_non_glyph_visual": "필수 A1 원본 사진 자체가 실질적인 비문자 중심이다. 큰 기울어진 고리와 오른쪽 아래 작은 고리로 이어지는 파란 띠 형태를 전체 윤곽, 내부 빈 공간, 교차 부분, 두 벽 고정점, 원래의 붓결·색·그림자와 함께 보존한다. 현재 원본에서 작품이 대략 가로의 76%, 세로의 58%를 차지하는 충분한 크기를 유지한다. 사진의 바깥 벽만 극소량 비율 정리하고 작품을 축소해 별도 작은 사진 칸으로 만들지 않는다. 배경 벽의 질감은 원래 사진의 환경이며 작품을 대신하는 장식이 아니다.",
+  "expression_system": "원본의 시점과 사진 표현을 그대로 유지한 단일 불투명 평면 포스터로 계획한다. 파란 작품과 밝은 벽의 기존 색 관계를 유지하고 새 팔레트나 색보정을 입히지 않는다. 글자는 벽 위에서 읽히는 짙은 중성색의 명료한 한글 고딕 계열로 설정하며, 특정 서체의 정확한 재현을 주장하지 않는다. 제목은 원본 크기 기준 약 48–54픽셀, 작가·행사명과 필수 안내는 약 28–32픽셀을 출발점으로 삼아 내부 획과 속공간을 확보한다. 작품의 비정형 고리와 경쟁하는 입체 글자·곡선 글자·추가 선이나 패널을 사용하지 않는다. 한글·숫자·영문의 시각적 무게를 맞추되 가로로 압축하거나 자간을 몰아 긴 URL을 맞추지 않는다.",
+  "copy_visual_relationship": "원본의 실제 빈 벽을 기준으로 위치를 정한다. 위쪽 약 0–220픽셀의 벽에는 작품의 왼쪽 외곽에 대응하는 약 x=124픽셀을 공통 시작점으로 제목과 작가·행사명을 두 줄로 배치하고, 마지막 줄과 작품의 최상단 약 y=240픽셀 사이에 명확한 틈을 둔다. 작품의 내부 구멍, 교차 부분, 오른쪽 좁은 벽틈에는 문구를 넣지 않는다. 작품과 그림자가 끝나는 아래쪽 약 y=1160픽셀 이후부터 같은 시작점과 약 900픽셀의 줄 폭을 이용해 날짜, 주소, 설명, 예약을 각각 온전한 줄로 배치한다. 날짜와 주소는 인접한 두 행으로 충분한 크기와 대비를 주고, 설명과 예약은 약간 더 넓은 묶음 간격으로 방문 이유에서 행동으로 이어지게 한다. 예약의 전체 문자열과 URL은 잘리지 않는 한 줄을 우선한다. 네 행은 약 44–48픽셀의 행 간격과 하단 여백을 확보하는 계획이며, 실제 자형 폭과 그림자 경계 검수에서 조정한다. 이 상하 배치는 원본 작품의 위치를 보존하면서 확보되는 두 벽 영역을 쓰기 위한 것으로, 작품을 옮겨 일반적인 제목·사진·하단 띠 틀에 맞추지 않는다.",
+  "closest_other_role": null,
+  "distinction": "요청이 N=1이므로 비교할 다른 역할이나 추가 방향을 만들지 않는다. 이 방향의 판단 기준은 새로움이 아니라 확인한 사진의 작품 전체·색·비율·벽의 위치를 유지하면서 위아래 실제 벽 공간에 여섯 카피를 읽히게 하는 것이다. 작품의 대각선 크기와 연결 형태는 보존하고, 글자는 작품과 그림자의 경계에 닿지 않는 안내 역할을 맡는다. 계획 단계에서 모든 카피의 폭과 사용할 두 벽 영역을 함께 검토했으며, 실제 결과의 축소 보기·사용 크기 판독·원본 마감 검수는 아직 수행하지 않았다."
+}
+
+Native generation ONLY: tools.image_gen__imagegen via functions.exec, exactly one single flat opaque poster per call, transparent_background:false, assigned width:height ratio. No panels, contact sheet, mockup or extra experiment image. Each prompt must explicitly include: "요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력". This is a request, not proof of maximum output; measure the returned native dimensions.
+The predeclared ratio policy permits nearest-integer native rounding of one edge, <=0.5 pixel from the exact requested ratio on one dimension. Report actual dimensions, never resize or claim mathematically exact ratio, and do not spend a repair only on permitted rounding. Materially wrong aspect ratio still needs correction. This tolerance never overrides an explicit pixel-size request.
+One initial attempt plus at most TWO own repairs, including actual failed native attempts: at most three native invocations for this role/candidate, named initial, repair-1, repair-2 in that order. A new role name or regeneration does not reset the budget. Correct only your own actually inspected defects while retaining the specified genre and user constraints. Do not claim quality PASS or assign scores from self-inspection. Do not seek or receive external critic scores before exclusive selection closure.
+
+BEFORE EACH invocation, exclusively create stages/STAGE/call-input.json containing the COMPLETE EXACT JSON argument object that will be passed to tools.image_gen__imagegen (do not add metadata-only arguments). Separately exclusively create pre-call.json with role, stage, prepared_at_utc, native_tool, complete planned argument/input hash pins, supplied reference pins, own observed repair cause/maintained features, and attempt number. Save both before starting; do not retrofit them after a return. Keep the identical argument object in runtime store for the native invocation. Fresh initial without supplied references omits BOTH referenced_image_paths and num_last_images_to_include. With supplied assets, actually pass ALL required local asset paths using referenced_image_paths; omit num_last_images_to_include. For repairs, pass the exact own prior returned target and all required assets using referenced_image_paths, never a peer result. Never guess a newer file or use directory newest-file scanning.
+
+The native functions.exec cell starts with exactly this directive:
+// @exec: {"yield_time_ms":120000,"max_output_tokens":1000}
+Before awaiting tools.image_gen__imagegen, store/emit the actual caller UTC start and role/stage. Emit meaningful native-wait status at intervals <=45 seconds via notify()/setTimeout while awaiting (no invented model percentage). Clear the timer on return/failure. Record actual caller UTC end and whether the invocation returned or failed; preserve explicit returned path/result hints and real error metadata separately in stages/STAGE/native-call.json after return. Its wrapper interval describes the awaited native call, not helper runtime or model internals. Do not print/notify raw result/base64; retain needed result metadata in runtime store and display the generated image with generatedImage(result) as supported. Never infer source paths or generation times from filenames/helper saved_at. When yielded, resume only that exec cell, without submitting the image call again.
+
+For every returned PNG, obtain its exact absolute source path from the actual tool return, then execute the pinned helper with safely quoted exact paths:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py save-native --role R7-B05-M1 --stage STAGE --source EXACT_RETURNED_ABSOLUTE_PATH --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1
+Replace only STAGE/EXACT_RETURNED_ABSOLUTE_PATH with actual values. The helper saves byte-identical original.png/final.png, QA views and manifest.json. It does NOT edit typography, materials, crop or assets. If the returned source path is unavailable or preservation fails, preserve the actual error/tool evidence and report the unsealable return honestly; do not invent an image path or relabel a returned image as a failed native call. Stop for root handling rather than claiming a selectable asset.
+
+ACTUALLY inspect EVERY returned stage before deciding another native invocation, in this exact order: original.png at native detail, usage-720.png, thumbnail-320.png. For native display use:
+const v = await tools.view_image({path: exactOriginalPath, detail:'original'}); image(v.image_url,'original');
+Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS.
+
+Every returned repair needs exclusive parent-comparison.json: role, stage, parent_stage, parent_outcome:'returned'|'failure', the immediate parent's exact parent_manifest_sha256 and parent_native_sha256 OR parent_failure_sha256, changes:[], residuals:[]. Compare actually viewed returned stages, preserving earlier advantages; a failure parent has no visual comparison. Prefer the most suitable inspected result, not automatically the latest; preserve ALL returned originals, failures and unselected stages.
+For each actual failed native invocation, write failure.json with role, stage, outcome:'failure', native_call_count:1, error:the actual recorded error. Preserve its pre-call/input/native-call evidence. Failures count in the three-attempt cap; no placeholder images or false inspection.
+
+When one or more inspected native outcomes exist, choose the most suitable returned stage and execute only:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py finalize --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1 --selected-stage CHOSEN_STAGE
+Replace CHOSEN_STAGE with initial, repair-1 or repair-2. selection.json is exclusive and immutable before any critics. Do not alter stage inputs, images, observations, selected pins or selection after closure. The helper rejects missing/out-of-order outcomes and nonexistent comparisons. Do not also create unavailable.json.
+ONLY when all THREE actual attempts failed, do not call finalize or fabricate selection.json. Exclusively write unavailable.json with schema_version:1, kind:'role_unavailable', case_id, role, outcome:'unavailable', closed:true, reason:actual failure explanation, counts:{native_calls:3,returned:0,failed:3,repair_calls:2}, stages:[{stage,outcome:'failure',failure:{path,sha256},input_pins:{call_input:{path,sha256},pre_call:{path,sha256}},native_call:{path,sha256}}] for all three preserved actual stages. selection.json and unavailable.json may NEVER coexist. Any interruption or returned-but-unsealable outcome is explicitly incomplete, not an invented all-failed terminal record.
+
+Return a compact account of the true terminal path, selected native dimensions if any, actual call/repair/failure counts, and concrete unresolved limits. No quality score, universal guarantee or extra image generation.

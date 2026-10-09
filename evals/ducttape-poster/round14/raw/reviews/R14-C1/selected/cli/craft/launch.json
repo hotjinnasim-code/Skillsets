@@ -1,0 +1,167 @@
+{
+  "started_utc": "2026-10-08T11:53:37.766521+00:00",
+  "argv": [
+    "codex",
+    "--no-daemon",
+    "--ask-for-approval",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--json",
+    "--skip-git-repo-check",
+    "--sandbox",
+    "workspace-write",
+    "-C",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/reviews/R14-C1/selected/cli/craft",
+    "--output-last-message",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/reviews/R14-C1/selected/cli/craft/final.txt",
+    "-"
+  ],
+  "fresh_session": true,
+  "case_id": "R14-C1",
+  "wave": "selected",
+  "profile": "craft",
+  "model_override": null,
+  "prompt": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/reviews/R14-C1/selected/prompts/craft.txt",
+    "sha256": "b25aef1fb14c8d53151fdf52c6fb765d5885375402c07d373751096d57aafd94"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/reviews/R14-C1/selected/packet.json",
+      "sha256": "97ffdaa65a396ce243bdcc6bbeade8e40ed3fd30ef003702ed274b055f34b02e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/reviews/R14-C1/selected/case.json",
+      "sha256": "75a17d4018792fa57dbbecc6f66142b2db3346e770dd53f1ecd9e6cca23569aa"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/critic_rubric.md",
+      "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/planning/ratio-policy-before-generation.json",
+      "sha256": "06b47043249e3e0de85f9555f4cf91b8b82d9ec111fbf9ad50fc55868244e022"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/manifest.json",
+      "sha256": "514ad2b73ba027fde93cb36f8123797feb94ed2e795f6a4cd2f436ee49e2963d"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/original.png",
+      "sha256": "08b7ec085ad219b4387d0bce66c622c691af2bcfba625aaf5ce94fabba9d3af4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/usage-720.png",
+      "sha256": "2906b772bd45abe442b79c89b7e35888aa5cf150a794f94ced347497b8e15563"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/thumbnail-320.png",
+      "sha256": "122e288ec0f98c4639bdbdeb4191e1334de9895c25f24ca94a272efca484f1f8"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/manifest.json",
+      "sha256": "53b2186c270c2cd4c82af6908ee79344bdf33a00c19f608313d90ac62284333e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/original.png",
+      "sha256": "b0624df9bf50e41f57480962a5d66531a2d6ffe24c4b26731610dcf0fdada2e1"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/usage-720.png",
+      "sha256": "6b924842413331c7b0af3c8c5c316a8845a9f8cbda11a18565c8d20ad302c067"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/thumbnail-320.png",
+      "sha256": "192986db4aff0f8b0aefd6eaeec26a486b70d38f568d0d3969f9a24fd4077150"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/manifest.json",
+      "sha256": "945b1e8f6fb72e3c8c1a0a46c0176aa6f99dff7a2ba516432a8abca5ed320784"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/original.png",
+      "sha256": "12dd5cfb29d383bfde3b5f591c8cfdcac9f1697fa93a2eb689a0fd6c0f4fcd23"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/usage-720.png",
+      "sha256": "c54f7a5ccaa94ff333b618ecebcf9ab0cbf3d6f75ca211f0bb46b58667b54807"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/thumbnail-320.png",
+      "sha256": "2a4a2b9c44495826c4a1ad9a3e729c88e2bbbd5936b7f4815e9158b297fb45f3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M4/stages/repair-2/manifest.json",
+      "sha256": "488365a0c1c2af9bd865e59a711bb5eae3a05b163d0922bc077814fe1f7cb426"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M4/stages/repair-2/original.png",
+      "sha256": "a2a59c86494b742ef2fa3fc9c83998503650c9e6ed8c065f647f0ef437adc048"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M4/stages/repair-2/usage-720.png",
+      "sha256": "6246619a88655736d669ccad9bd8a2f0630446ed6a2d0ad02ebbcc041ed37676"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M4/stages/repair-2/thumbnail-320.png",
+      "sha256": "c7b0e65cd27e783f27292ad27f3d1f1f5a626a3bd2cc384b7348e4b330f70540"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/stages/repair-1/manifest.json",
+      "sha256": "8df74cb505f97785888accd1eb615465f0507761e71244deec22ac63882d47a9"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/stages/repair-1/original.png",
+      "sha256": "0040f819b27218df4a0dad8dd5a80f09e98c32544af19e1394007994c6306901"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/stages/repair-1/usage-720.png",
+      "sha256": "094e5ae7dadfc038fbd5a1d0a83e72ef97627dc9d503bf154360e7563facce40"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/stages/repair-1/thumbnail-320.png",
+      "sha256": "ce8c65c3dcbf4451e0cce8079e129f5f8c0ba4bd868d47e31888a7abec84815f"
+    }
+  ],
+  "job": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/reviews/R14-C1/selected/jobs/craft.json",
+    "sha256": "7a009d63c3a32789d35301b0b5abd28f6b8effa1f15a1f2b8dc136a73bb9c30e"
+  }
+}

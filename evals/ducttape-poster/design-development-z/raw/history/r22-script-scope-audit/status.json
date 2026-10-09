@@ -1,0 +1,184 @@
+{
+  "status": "static_scope_audit_complete_no_unresolved_issues",
+  "timestamp_utc": "2026-10-08T21:50:26.811798+00:00",
+  "scope": "Prospective R22/Z freeze and maker/full closure static scope and consistency audit only",
+  "unresolved_issues": [],
+  "current_script_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/scripts/freeze_style_first_r22.py",
+      "sha256": "71337dc5f98bfa59dc861b5cee9d314f3eae5984effab71ef9d1c6f32d8e2000",
+      "bytes": 8823
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/scripts/close_r22_style_makers.py",
+      "sha256": "5e34118839b242e369ee3d1402dc3da8fa7c198aadacd2686f1a9ad3de70fb21",
+      "bytes": 3783
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/scripts/close_r22_style.py",
+      "sha256": "c5dd9c3777e72ac0a7d268d2ca980f81ed2b41dabfc64109b8c37301ca63b69b",
+      "bytes": 14697
+    }
+  ],
+  "current_freeze_pin": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/scripts/freeze_style_first_r22.py",
+    "sha256": "71337dc5f98bfa59dc861b5cee9d314f3eae5984effab71ef9d1c6f32d8e2000",
+    "bytes": 8823
+  },
+  "current_full_closure_script_pin": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/scripts/close_r22_style.py",
+    "sha256": "c5dd9c3777e72ac0a7d268d2ca980f81ed2b41dabfc64109b8c37301ca63b69b",
+    "bytes": 14697
+  },
+  "prepared_case_plan_status_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/planning/single-five-case.json",
+      "sha256": "c0cc17f94c1ddfa154d93520067c0011c118753a3752616c0b4744840203e9f3",
+      "bytes": 6151
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/z-five-design/plan.json",
+      "sha256": "bd0639e3ebba20df6e2a4734a2aaf5a3e696605e6c525802ddc097e2a7a88c4d",
+      "bytes": 239223
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/planning/prepared-workspace.json",
+      "sha256": "08a8b416ffb4b2d2cffaa95dfe7d0648c641c63734130ff438bb64aec9f1fec9",
+      "bytes": 8887
+    }
+  ],
+  "root_amendment_records": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-freeze-case-amendment/before.py",
+      "sha256": "08c73d9df4daab5da34bbacf31c76ef1ce7eb9bd3271b17a4e3e81a307018b28",
+      "bytes": 8744
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-freeze-case-amendment/after.py",
+      "sha256": "71337dc5f98bfa59dc861b5cee9d314f3eae5984effab71ef9d1c6f32d8e2000",
+      "bytes": 8823
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-freeze-case-amendment/status.json",
+      "sha256": "09dfd8c52ec32f67650d546498ab4fe68a4fbf8aaaea7c4f4a687b309db842b8",
+      "bytes": 739
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-report-timing-amendment/before.py",
+      "sha256": "6054f020bd0c85d7e75c5157694b9089552880e6b9e463c8bdff4aa6b99e3b7b",
+      "bytes": 14761
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-report-timing-amendment/after.py",
+      "sha256": "c5dd9c3777e72ac0a7d268d2ca980f81ed2b41dabfc64109b8c37301ca63b69b",
+      "bytes": 14697
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-report-timing-amendment/status.json",
+      "sha256": "25e1d430b502c64384d7ad3cc42eceb5a75ec32aa5d49a86850788ecbf6ee4fe",
+      "bytes": 373
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "freeze-exact-case-fields",
+      "initial_sha256": "08c73d9df4daab5da34bbacf31c76ef1ce7eb9bd3271b17a4e3e81a307018b28",
+      "initial_issue": "Only request/copy equality checked; plan conditions and other present case parameters could drift before freezing.",
+      "root_resolution": "Exact equality loop for request, copy, conditions, assets, count, ratios, styles, roles; existing case conservation, not a new visual quality gate.",
+      "current_sha256": "71337dc5f98bfa59dc861b5cee9d314f3eae5984effab71ef9d1c6f32d8e2000",
+      "resolved_static": true
+    },
+    {
+      "id": "report-timing-clarity",
+      "initial_sha256": "6054f020bd0c85d7e75c5157694b9089552880e6b9e463c8bdff4aa6b99e3b7b",
+      "initial_issue": "Report sentence order could suggest style steering followed R22 generation.",
+      "root_resolution": "Prose now places explicit human style steering and condition amendment before R22 generation; no decision, score or closure branch changes.",
+      "current_sha256": "c5dd9c3777e72ac0a7d268d2ca980f81ed2b41dabfc64109b8c37301ca63b69b",
+      "resolved_static": true
+    }
+  ],
+  "checks": {
+    "all_three_current_scripts_ast_valid": true,
+    "actual_case_and_plan_all_eight_fields_equal": true,
+    "runtime12_and_helper20_current_prepared_pins_match": true,
+    "five_roles_each_one_initial_and_at_most_two_repairs": true,
+    "worker_process_max_three_is_declared_bound_not_actual_execution_proof": true,
+    "maximum_native_calls_declared_fifteen": true,
+    "style_priority_and_shared_good_reading_layouts_preserved": true,
+    "generic_title_only_title_plus_body_actual_copy_scope_preserved": true,
+    "this_case_contains_twelve_real_entries_no_new_print_roles": true,
+    "guide_and_native_actual_copy_checks": [
+      {
+        "role": "R22-C1-M1",
+        "guide_copy_entries": 12,
+        "guide_lines_reconstruct_exact": true,
+        "native_print_tail_exact": true
+      },
+      {
+        "role": "R22-C1-M2",
+        "guide_copy_entries": 12,
+        "guide_lines_reconstruct_exact": true,
+        "native_print_tail_exact": true
+      },
+      {
+        "role": "R22-C1-M3",
+        "guide_copy_entries": 12,
+        "guide_lines_reconstruct_exact": true,
+        "native_print_tail_exact": true
+      },
+      {
+        "role": "R22-C1-M4",
+        "guide_copy_entries": 12,
+        "guide_lines_reconstruct_exact": true,
+        "native_print_tail_exact": true
+      },
+      {
+        "role": "R22-C1-M5",
+        "guide_copy_entries": 12,
+        "guide_lines_reconstruct_exact": true,
+        "native_print_tail_exact": true
+      }
+    ],
+    "own_guides_are_plan_inputs_not_client_protected_layouts_or_final_font_proof": true,
+    "no_mandatory_original_reference_reread_install_overlay_or_new_visual_quality_floor": true,
+    "freeze_prepared_runtime_helper_case_and_previous_closure_pins_checked": true,
+    "terminal_reuses_unchanged_pinned_compact_preparer": true,
+    "unavailable_only_actual_three_failed_attempts_and_selection_null": true,
+    "initial_failed_selected_returned_can_be_initial_unready_selected_fresh": true,
+    "same_initial_complete_valid_whole_three_only_can_reuse": true,
+    "invalid_initial_reuse_retained_unready_without_replacement_critics": true,
+    "each_unready_wave_retains_readiness_errors_five_na_zero_new_critics_and_scores": true,
+    "expected_each_wave_three_profiles_fifteen_image_profile_records_onehundredfive_scores": true,
+    "nonzero_critic_process_exit_recorded_without_forcing_procedure_pass": true,
+    "actual_critic_process_counts_zero_three_six_distinct_from_trace_sessions": true,
+    "original_low_na_summary_values_and_diversity_retained_without_averaging": true,
+    "selection_completion_terminal_pins_immutable_before_full_closure": true,
+    "seven_score_each_four_and_three_critic_diversity_each_four_unchanged": true,
+    "diversity_interpretation_style_priority_changed_only_prospectively": true
+  },
+  "helper_text_read_scope": [
+    "R22 frozen prepare_reviews_compact.py terminal/complete_reuse/prepare wave branches",
+    "R22 frozen prepare_production.py existing native evidence/terminal contract"
+  ],
+  "actions": {
+    "scripts_executed": 0,
+    "branch_tests": 0,
+    "guide_renders": 0,
+    "source_or_poster_images_viewed": 0,
+    "native_calls": 0,
+    "critics_run": 0,
+    "scores_created": 0,
+    "new_children": 0,
+    "live_draft_code_old_raw_or_git_edits": 0
+  },
+  "only_written_artifacts": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-script-scope-audit/review.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/r22-script-scope-audit/status.json"
+  ],
+  "quality_certified": false,
+  "limits": [
+    "Static syntax, current bytes, case conservation and control-flow review only; no prospective script or failure branch execution.",
+    "No rendered guide quality, actual native output, all actors closure, worker concurrency, font-file application or cross-content success is certified.",
+    "No closed R21 or earlier evaluation was rerun or scores relabelled."
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "role": "R11-C1-M1",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "인쇄하고\n읽는 밤",
+    "PRINT & READ",
+    "고무판 인쇄 · 짧은 낭독",
+    "2026.12.12 토요일",
+    "18:00–20:30",
+    "망원 생활문화센터",
+    "17:40부터 입장",
+    "참가비 5,000원 · 재료 포함",
+    "신청 후 참여 · 정원 24명",
+    "앞치마 지참",
+    "처음 해도 괜찮아요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "observations": [
+    {
+      "view": "native",
+      "location": "left title at x≈23 y≈27 in usage coordinates",
+      "observation": "Heavy straight-sided title reads as two lines; its counters and syllable blocks remain solid, including 쇄/읽."
+    },
+    {
+      "view": "usage720",
+      "location": "left participation spine x≈23 y≈170–363",
+      "observation": "All eight practical rows are readable in one sequence, but begin about 40 guide pixels higher and use wider 26px row spacing than assigned."
+    },
+    {
+      "view": "usage720",
+      "location": "upper centre/right activity and sheet",
+      "observation": "Activity is one line above the readers; English appears once on the shared paper, tilted slightly with its edge instead of the planned horizontal line."
+    },
+    {
+      "view": "native",
+      "location": "lower-right raised slab",
+      "observation": "Brown grained face and layered wood-like edge depict a wood block rather than a visibly rubber slab; thumb and fingertips grip the top clean edge and a lifted gap is visible."
+    },
+    {
+      "view": "native",
+      "location": "right illustration",
+      "observation": "Two attentive adult three-quarter faces look at the same sheet; left mouth is open and each reader grips an edge. Heads are roughly 130px at usage720, larger than assigned 65–80px profiles."
+    },
+    {
+      "view": "native",
+      "location": "paper motifs",
+      "observation": "Reader end and freshly printed lower end share a crescent/three-bar impression; a related carved motif is visible on the lifted slab. The page is visibly continuous."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole poster",
+      "observation": "Title anchors upper left; full information sits below it; diagonal large shared page and two readers occupy the right. The block/action remains visible."
+    },
+    {
+      "view": "native",
+      "location": "hair, clothing and far upper-right",
+      "observation": "Detailed hair/clothing hatching and extra plant/books add editorial comic rendering rather than the assigned simple cut-plane field."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "observed_entry_count": 11,
+      "extra_text_observed": [],
+      "ambiguities": [],
+      "encoding_limit": "Raster observations describe glyph shapes; original Unicode encoding cannot be certified.",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "인쇄하고 읽는 밤",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "인쇄하고\n읽는 밤",
+          "normalized_required": "인쇄하고 읽는 밤",
+          "normalized_observed": "인쇄하고 읽는 밤",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "Two-line word-group title; soft wrapping preserves the word boundary."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "PRINT & READ",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "PRINT & READ",
+          "normalized_required": "PRINT & READ",
+          "normalized_observed": "PRINT & READ",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line; English tilts with paper."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "고무판 인쇄 · 짧은 낭독",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "고무판 인쇄 · 짧은 낭독",
+          "normalized_required": "고무판 인쇄·짧은 낭독",
+          "normalized_observed": "고무판 인쇄·짧은 낭독",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2026.12.12 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2026.12.12 토요일",
+          "normalized_required": "2026.12.12 토요일",
+          "normalized_observed": "2026.12.12 토요일",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "18:00–20:30",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "18:00–20:30",
+          "normalized_required": "18:00–20:30",
+          "normalized_observed": "18:00–20:30",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "망원 생활문화센터",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "망원 생활문화센터",
+          "normalized_required": "망원 생활문화센터",
+          "normalized_observed": "망원 생활문화센터",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "17:40부터 입장",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "17:40부터 입장",
+          "normalized_required": "17:40부터 입장",
+          "normalized_observed": "17:40부터 입장",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 5,000원 · 재료 포함",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "참가비 5,000원 · 재료 포함",
+          "normalized_required": "참가비 5,000원·재료 포함",
+          "normalized_observed": "참가비 5,000원·재료 포함",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "신청 후 참여 · 정원 24명",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "신청 후 참여 · 정원 24명",
+          "normalized_required": "신청 후 참여·정원 24명",
+          "normalized_observed": "신청 후 참여·정원 24명",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "앞치마 지참",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "앞치마 지참",
+          "normalized_required": "앞치마 지참",
+          "normalized_observed": "앞치마 지참",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "처음 해도 괜찮아요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "처음 해도 괜찮아요",
+          "normalized_required": "처음 해도 괜찮아요",
+          "normalized_observed": "처음 해도 괜찮아요",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Assertive constructed culture: heavy compact Korean, flat cut planes and adult profiles; diagonal right action meets a stable left spine.",
+      "observed": "Heavy compact title and citron/petrol/pale palette present; scene is more detailed comic illustration with oversized three-quarter heads.",
+      "issues": [
+        "Wood-like block material",
+        "Detailed hair/clothing and unrelated plant/books",
+        "Heads larger than the assigned profiles; paper English tilts"
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": [
+        16,
+        9
+      ],
+      "exact_height_for_width": 940.5,
+      "edge_rounding_error_px": 0.5,
+      "within_predeclared_rounding": true
+    },
+    "substantive_visual": {
+      "observed": "Two adults share and read the connected printed paper while a foreground hand lifts the engraved block beside its fresh impression; scene occupies much of the right field."
+    },
+    "hangul": {
+      "observed": "Title syllables retain solid straight strokes and visible counters; practical rows retain syllable distinction and readable word boundaries at usage720."
+    },
+    "information_relationship": {
+      "observed": "Title leads directly to date/time, venue, entry, fee, application, preparation and welcome in a single aligned left column."
+    },
+    "function_contact": {
+      "observed": "Two reader grips belong to the corresponding arms; lower-right thumb/fingers meet the clean slab edge, with raised underside separated from paper; repeated motif connects shared page and printing.",
+      "issues": [
+        "Slab material reads as wood rather than rubber."
+      ]
+    },
+    "material_edges": {
+      "observed": "Paper edge is continuous, planar and distinct from table; slab thickness and impression are separate; fine texture/hatching weakens the assigned flat-plane finish."
+    }
+  },
+  "residuals": [
+    {
+      "location": "lower-right slab",
+      "limit": "Wood grain/brown carved face makes the required rubber material ambiguous."
+    },
+    {
+      "location": "right scene",
+      "limit": "Detailed comic rendering, extra plant/books and oversized three-quarter heads depart from flat cut adult profiles."
+    },
+    {
+      "location": "shared-paper English",
+      "limit": "Line is readable but tilted rather than horizontal."
+    },
+    {
+      "location": "left facts",
+      "limit": "Rows start above assigned area and are more widely spaced; the complete route remains readable."
+    }
+  ]
+}

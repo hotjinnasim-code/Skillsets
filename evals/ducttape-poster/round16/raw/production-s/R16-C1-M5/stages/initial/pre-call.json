@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "role": "R16-C1-M5",
+  "stage": "initial",
+  "attempt_number": 1,
+  "prepared_at_utc": "2026-10-08T13:52:09.116232+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "planned_arguments": {
+    "prompt": "Use case: ads-marketing. Create one finished, flat opaque digital event poster, landscape 16:9.\n\nMake an original photographic colour montage about experiencing a lamp's structure and the light it spreads across paper on a desk. The supplied image is the mandatory PRODUCT IDENTITY reference, not a poster/layout reference. Reproduce its deep forest-green finish, very wide horizontal curved canopy with rounded end faces and luminous underside, two separate straight supports connected to that canopy and the same oval base. Show one complete, accurately identifiable lamp with all these parts and a clear silhouette; do not crop this complete product. Its background and original framing are free to change.\n\nThe whole image is organised by intersecting oblique photographic crop edges and substantial close-up folded-paper light surfaces, rather than a headline/information template. Use three closely related photographic scales: a precise complete lamp at substantial size around the left-centre, a dramatically cropped view of warm light grazing a large folded ivory sheet, and a deep-green shadowed paper fold. Their hard diagonal crop boundaries cross beneath and behind the complete lamp, making it span the montage intersection. Keep the product photograph realistic and calm, with crisp textured green paint and credible warm downward illumination. Large paper folds create palpable depth, a luminous amber-to-ivory ridge and broad cool green shadows; these are actual subject matter about desk light, not arbitrary abstract shapes or decoration. The macro paper fold fills much of the image and carries the eye from the luminous underside of the shade diagonally toward the description reading plane. No blank room, wall, generic floating blobs or extra decorative objects.\n\nTypography and flow: a warm paper light edge guides the first view into the two consecutive description sentences on the right-centre, set as one stable horizontal paragraph. The title is a second strong anchor beside the crossing photo edge, not an oversized title banner above a separate information panel. Set the title in restrained, slightly oblique Korean sans with coherent complete syllables, spacious counters and moderate weight; no distortion. Keep all body, event and visitor information in a distinctive mature humanist Korean/Latin sans, moderate width, open counters, balanced consonants/vowels, steady baselines, medium weight and normal meaningful word spaces. Avoid condensed or extremely thin body letters. Set body large enough to read in a 720px-wide poster. Arrange the paragraph in natural phrase-length lines, preserving word boundaries and punctuation. Immediately below it, on the same optical left alignment and continuously lit paper reading plane, place a coherent event/date/time/place group; then after a modest functional gap a coherent admission/visit/invitation/URL group. The shared edge, short distances and gradual weight changes make the full content flow naturally. Do not scatter single lines into remote corners, rotate the paragraph along the fold, place text across a fold shadow, or compress information into a tiny footer. The paper's photographic ridge and the crossing lamp constrain and connect the groups; no box or conventional separate information panel. Adjust the title's scale before reducing body readability.\n\nUse strong warm-light/forest-green colour tension with ivory highlights and deep-green readable text, sharp deliberate photo crop boundaries, fine believable paper texture and soft local fold shadows. This is one integrated poster, not a room mockup, sheet of alternatives, framed presentation, or multi-poster panel. Exclude solid/near-solid/split-colour passive backgrounds dominated by big gothic headline/date/info blocks with subordinate product imagery; the substantial lamp and light/paper montage must actively construct the space and reading route. No invented release/specifications, real company logo, extra print, labels, QR, watermark or small fake text.\n\nPrint only the following supplied copy, each entry exactly once, with exactly these words, meaningful spaces, case, digits and punctuation. Soft wrapping between words is permitted; keep the two description sentences contiguous and keep the URL intact. Do not print instructions or quotation marks:\n저녁을 켜는 빛\nONBIT / DESK LAMP\n조용한 빛으로 책상 위의 시간을 바꿉니다.\n넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.\n온빛 데스크 램프 체험전\n2027.04.09–04.11\n금–일 13:00–19:00\n성수 온빛 스튜디오\n관람 무료 · 현장 구매 가능\n예약 없이 방문\n책과 종이를 가져와 직접 빛을 느껴보세요.\nonbit.example/light\n\n요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력",
+    "referenced_image_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png"
+    ],
+    "transparent_background": false
+  },
+  "planned_arguments_sha256": "8d99798b9558dbab2e901cd8484c2921528acca294e77a5fcc7369daefeda61d",
+  "prompt_utf8_sha256": "6d1333d4aa5de408d79e9f82b6e5c10f4be70710e5606e04dedf8340ce4179fe",
+  "call_input": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/stages/initial/call-input.json",
+    "sha256": "6d92082decc251229af9a096c2f640ece5926cef1564f8aefd9bcc38d88397d7"
+  },
+  "supplied_reference_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+      "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2"
+    }
+  ],
+  "supplied_reference_manifest_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/manifest.json",
+      "sha256": "31713763a5c3b89599f21387511a9859b0408697fe270d2df8b62f2740fa3af3"
+    }
+  ],
+  "job_input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/case.json",
+      "sha256": "d1e6131be040076b8a63c9c8b501b5f702d99ba176a8f7083cc5925469c26b39"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/assignment.json",
+      "sha256": "f72a91a51a2a17b5dd1fd2cbc76dd02045e795d88eba05e71745dcce062c4d2e"
+    }
+  ],
+  "actual_client_asset_view": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+    "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+    "detail": "original",
+    "viewed": true
+  },
+  "repair_cause": null,
+  "repair_target_stage": null,
+  "maintained_features": [
+    "complete forest-green lamp identity: curved horizontal shade, two connected supports, oval base",
+    "all literal copy, opaque flat16:9",
+    "oblique photographic crops and substantial illuminated folded-paper surfaces"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "role": "R7-B03-M2",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "479148dcc7d37456ca1aff4227f4a79a71f7b798ea1cd0a7eea5b3a15ed042d6",
+  "parent_native_sha256": "e1160b33dfdadf73b92e810fc058f75294cc00bb8174122b8a08dca35bc4c18c",
+  "comparison_basis": "Both full native returns and both fully displayed usage/thumbnail views were observed. Initial original-path native rendering succeeded on its one revisit; repair-1 original-path native rendering remained partial after its one revisit.",
+  "changes": [
+    {
+      "location": "front upper jaw and underside pad",
+      "parent_observation": "Pad chiefly a thin black side edge under near-parallel front jaw.",
+      "current_observation": "Front upper jaw tilts higher; thicker broad black pad face exposed and air gap larger.",
+      "relationship": "Paper receiving gap and second pad are more apparent."
+    },
+    {
+      "location": "black aluminum planes",
+      "parent_observation": "Prominent fine granular finish.",
+      "current_observation": "Smoother matte planes with restrained contour reflections, some fine texture remains."
+    },
+    {
+      "location": "copy on sheet and desk",
+      "parent_observation": "All six strings readable and distinct.",
+      "current_observation": "Same six strings, word spacing, line grouping and placements retained."
+    },
+    {
+      "location": "index/lever/pivot/desk body",
+      "parent_observation": "Single index contact, silver pivot and integral desk-edge body visible.",
+      "current_observation": "Same anatomy and connections remain visible; upper-jaw angle changed."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "usage720",
+      "location": "upper pad under raised upper jaw",
+      "observation": "Upper pad is broader and separated from aluminum, but its contact face remains seen obliquely, unlike the upward-facing bottom pad."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "paper leading edge immediately left of open gap",
+      "observation": "Thin entry edge is subtle at thumbnail size; usage view is needed to read its precise approach to the gap."
+    },
+    {
+      "view": "native_return_display",
+      "location": "skin at right, desk surface and black body",
+      "observation": "Fine surface texture remains visible on the desk and body; skin folds are prominent. Photographic depiction does not verify manufacture, physical dimensions or function."
+    },
+    {
+      "kind": "procedure",
+      "location": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M2/stages/repair-1/original.png",
+      "observation": "The full 1024×1536 native result was visually inspected in the generated display and is byte-identically preserved. Both view_image(original,detail=original) emissions appeared only as a small pale patch. One same-asset revisit was used; no further native retrieval. Detailed native observations therefore also depend on the full returned image display, not a successful full original-path viewer rendering.",
+      "impact": "Required native-path display evidence is incomplete; usage720 and thumbnail320 displayed fully."
+    }
+  ]
+}

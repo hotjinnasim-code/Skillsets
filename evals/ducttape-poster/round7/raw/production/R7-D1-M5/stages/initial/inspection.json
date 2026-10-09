@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "role": "R7-D1-M5",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M5/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M5/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M5/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "서로\n다른\n속도"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "procedure": {
+    "initial_view_order": [
+      "original.png",
+      "usage-720.png",
+      "thumbnail-320.png"
+    ],
+    "native_display_limit": "The first original.png tool display exposed only a small upper-left corner; a complete native-detail view was not claimed from that display.",
+    "native_display_recovery": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M5/stages/initial/original.png",
+      "sha256": "3c20125731d1c0969828f3335238f2142b2a36b1d695a4e12fc3d10bdabfd870",
+      "revisit_count": 1,
+      "resolved": true,
+      "reason": "One same-asset view retry displayed the complete 1024×1536 poster at original detail."
+    },
+    "completed_full_inspection_order": [
+      "original.png",
+      "usage-720.png",
+      "thumbnail-320.png"
+    ],
+    "qa_views_repeated_after_native_recovery": true,
+    "first_text_read_source": "Full native image shown by generatedImage after the returned call; the same raw three-line reading was confirmed by the first usage-720.png view.",
+    "text_ambiguity_revisits": 0,
+    "no_external_critic_input": true
+  },
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "서로 다른 속도",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "서로\n다른\n속도",
+      "normalized_required": "서로 다른 속도",
+      "normalized_observed": "서로 다른 속도",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_required": false,
+        "observed_lines": [
+          "서로",
+          "다른",
+          "속도"
+        ],
+        "observations": "Each complete word occupies one line. Two layout line breaks replace the two original word spaces; there are no word-internal breaks, punctuation or duplicate title."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "checked": true,
+      "entry_count": 1,
+      "observed_title_count": 1,
+      "ambiguities": [],
+      "additional_copy_observed": [],
+      "observations": "Only the stacked title is visible. The vessels and tabletop are unmarked."
+    },
+    "style": {
+      "checked": true,
+      "assigned_expression": "Controlled material study with credible gravity, distinct transparent-water and viscous-syrup responses, and measured substantial stacked Hangul between pours.",
+      "observations": "Matched tilted glass vessels at the upper corners feed continuous vertical flows; the left water is rippled and turbulent, the right amber stream is smooth and stretched. Both contact the same visible plane."
+    },
+    "ratio": {
+      "checked": true,
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "exact_ratio": true,
+      "dimension_source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M5/stages/initial/manifest.json",
+      "native_resized": false,
+      "maximum_resolution_request_included": true,
+      "maximum_resolution_achieved": "not independently established; tool provides no resolution argument"
+    },
+    "no_type_only": {
+      "checked": true,
+      "observations": "Two vessels, the continuous streams and their unequal arrivals occupy most of the poster height and remain substantive at 213×320."
+    },
+    "substantive_visual": {
+      "checked": true,
+      "observations": "A broad water crown and extensive clear pool on the left contrast with a long smooth amber neck and compact low syrup mound on the right. This relationship is visible independently of the title."
+    },
+    "hangul": {
+      "checked": true,
+      "observations": "All six syllables retain square proportions, distinct component strokes and open spaces. The three two-syllable words have even spacing and steady line intervals. No stream, droplet or reflection intersects a glyph."
+    },
+    "information_relationship": {
+      "checked": true,
+      "observations": "The downward three-word reading lies between the two flows, below their vessel lips and above the unequal impact areas. It does not occupy a separate header or footer."
+    },
+    "function_contact": {
+      "checked": true,
+      "requested_external_action_or_contact_copy": false,
+      "observations": "No contact or participation information was requested. Physical liquid-to-table contact is visible at both arrival points."
+    },
+    "local_material_edge_finish": {
+      "checked": true,
+      "observations": "Glass rim highlights follow curved vessel edges; the left water has irregular refractive surfaces and thin splash edges, while the amber syrup has smooth broad highlights and visible thickness. Impact bases meet the tabletop with reflections/shadows. Fine droplet detail becomes less distinct at thumbnail scale."
+    },
+    "flat_opaque_single_poster": {
+      "checked": true,
+      "observations": "One continuous opaque-looking gray field and tabletop fill the rectangular frame; no panels, display mockup, frame or contact sheet is visible."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "upper left and upper right corners",
+      "observation": "Similar glass vessels are tipped inward, with rims and liquid exit points visible; outer bodies are cropped by the top/side frame."
+    },
+    {
+      "view": "native",
+      "location": "left stream and lower-left arrival",
+      "observation": "The clear water stream has continuous irregular folds and meets a broad crown splash, radiating ripples and a thin pool extending to the left edge."
+    },
+    {
+      "view": "native",
+      "location": "right stream and lower-right arrival",
+      "observation": "Amber liquid narrows from the thick exit region into a long connected neck, meeting a small layered rounded mound and compact pool."
+    },
+    {
+      "view": "native",
+      "location": "central title, roughly 32%–61% of image height",
+      "observation": "Three black whole-word lines sit with clear separation from both streams and the arrival areas; glyph counters and edges remain intact."
+    },
+    {
+      "view": "usage720",
+      "location": "whole poster",
+      "observation": "The title reads in downward order and both liquid contacts and the shared surface remain legible."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole poster",
+      "observation": "The water's broad uneven arrival and syrup's narrow smooth strand/small arrival remain clearly distinct; the stacked title is still readable."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "upper outer corners and left edge of receiving surface",
+      "observation": "The outer vessel bodies and the left extent of the water pool are intentionally cropped; their complete extents cannot be assessed from this poster."
+    },
+    {
+      "location": "thumbnail320, small water droplets and glass edges",
+      "observation": "Fine highlights and the smallest droplets merge at reduced scale, while the main unequal-arrival forms remain visible."
+    },
+    {
+      "location": "native resolution",
+      "observation": "Actual output is 1024×1536. The prompt requested the tool/model's maximum supported resolution, but no tool setting or returned metadata establishes that this is its maximum."
+    }
+  ],
+  "selection_basis": "Retain the initial stage: exact title reading, substantive viscosity contrast, continuous flows/contact and the intended title-between-descents relationship are visible. No own observed defect was identified that justified a native repair.",
+  "own_repairs_planned": 0
+}

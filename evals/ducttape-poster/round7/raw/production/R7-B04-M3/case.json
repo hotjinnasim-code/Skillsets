@@ -1,0 +1,76 @@
+{
+  "case_id": "R7-B04",
+  "request": "청소년 메이커 행사 포스터 5종을 만들어 주세요. 모두 정사각형 1:1입니다. 명확한 클레이 3D, 두껍게 올라온 읽기 쉬운 한글, 강한 보색 대비가 꼭 필요합니다. 눌린 점토 덩어리가 다시 자기 모양을 되찾는 순간을 보여 주세요. 눌림과 회복이 서로 관계없는 별도 장식물처럼 보이지 않게 해 주세요. 점토 덩어리의 실제 변형이 충분한 크기의 비문자 시각 중심이어야 하며, 입체 글자나 작은 장식만으로 대신하지 마세요. 밝고 장난스러우면서도 구성은 정교했으면 합니다. 서로 다른 다섯 구상으로 만들고, 아래 문구를 모두 그대로 넣어 주세요. 문구나 로고를 더 만들지 마세요.",
+  "copy": [
+    {
+      "text": "다시 내 모양",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "누르고 만들고 되돌리는 하루",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.12.05 13:00–18:00",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "도형제작소 1층",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "청소년 메이커 데이",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "신청 example.org/my-shape",
+      "kind": "url",
+      "fixed_newlines": false
+    }
+  ],
+  "count": 5,
+  "ratios": [
+    "1:1",
+    "1:1",
+    "1:1",
+    "1:1",
+    "1:1"
+  ],
+  "styles": {
+    "mode": "explicit",
+    "medium": "클레이 3D",
+    "type": "두껍게 올라온 읽기 쉬운 한글",
+    "colour": "강한 보색 대비",
+    "tone": "밝고 장난스러우면서도 정교한 구성"
+  },
+  "conditions": [
+    "청소년 메이커 행사 포스터 5종을 만들어 주세요.",
+    "모두 정사각형 1:1입니다.",
+    "명확한 클레이 3D, 두껍게 올라온 읽기 쉬운 한글, 강한 보색 대비가 꼭 필요합니다.",
+    "눌린 점토 덩어리가 다시 자기 모양을 되찾는 순간을 보여 주세요.",
+    "눌림과 회복이 서로 관계없는 별도 장식물처럼 보이지 않게 해 주세요.",
+    "점토 덩어리의 실제 변형이 충분한 크기의 비문자 시각 중심이어야 하며, 입체 글자나 작은 장식만으로 대신하지 마세요.",
+    "밝고 장난스러우면서도 구성은 정교했으면 합니다.",
+    "서로 다른 다섯 구상으로 만들고, 아래 문구를 모두 그대로 넣어 주세요.",
+    "문구나 로고를 더 만들지 마세요.",
+    "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+    "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+    "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient."
+  ],
+  "roles": [
+    {
+      "role_id": "R7-B04-M3",
+      "ordinal": 3,
+      "ratio": "1:1",
+      "assets": [],
+      "native_attempt_limit": 3,
+      "own_correction_limit": 2
+    }
+  ],
+  "assets": []
+}

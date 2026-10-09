@@ -1,0 +1,51 @@
+--- archive_single_five.py.before
++++ archive_single_five.py.after
+@@ -33,11 +33,14 @@
+     final = json.loads((ROOT/'planning/final-evidence.json').read_bytes())
+     assert final['poster_calls_closed'] is True and final['poster_role_denominator'] == 5
+     corpus = json.loads((ROOT/'planning/single-five-case.json').read_bytes())
+-    sources = {}
++    sources, source_directories = {}, []
+     for p in sorted(ROOT.rglob('*')):
+         assert not p.is_symlink(), 'Source symlink entry: '+str(p)
+-        if not p.is_file() or '__pycache__' in p.parts or '.git' in p.parts or p.suffix == '.pyc': continue
+-        sources[str(p.resolve())] = {'sha256': digest(p), 'origin': 'complete raw candidate-K single-five source tree'}
++        if p.is_dir():
++            source_directories.append(p.relative_to(ROOT).as_posix())
++            continue
++        assert p.is_file(), 'Unknown source inventory entry: '+str(p)
++        sources[str(p.resolve())] = {'sha256': digest(p), 'bytes': p.stat().st_size, 'origin': 'complete raw candidate-K single-five source tree'}
+     authoritative = [ROOT/'planning'/name for name in ('final-evidence.json', 'single-five-case.json', 'candidate-k-pre-generation-freeze.json', 'critic-recording-helper-freeze.json')]
+     for case in corpus['cases']:
+         cid = case['case_id']
+@@ -59,7 +62,7 @@
+             p = p.resolve(strict=True)
+             assert p.is_file() and digest(p) == item['sha256'], str(p)
+             if str(p) in sources: assert sources[str(p)]['sha256'] == item['sha256']
+-            else: sources[str(p)] = {'sha256': item['sha256'], 'origin': 'actual authoritative external pin'}
++            else: sources[str(p)] = {'sha256': item['sha256'], 'bytes': p.stat().st_size, 'origin': 'actual authoritative external pin'}
+     rows, by_hash = [], {}
+     # Prefer retained raw originals for byte-identical external native-cache
+     # identifiers; every distinct raw artifact still keeps its own raw path.
+@@ -68,17 +71,19 @@
+         by_hash.setdefault(data['sha256'], Path('raw')/Path(source).relative_to(ROOT))
+     # Validate the complete source inventory before creating a destination.
+     for source, data in sorted(sources.items()):
+-        p = Path(source); h = data['sha256']; assert digest(p) == h
++        p = Path(source); h = data['sha256']; assert digest(p) == h and p.stat().st_size == data['bytes']
+         if p.is_relative_to(ROOT): rel = Path('raw')/p.relative_to(ROOT)
+         elif h in by_hash: rel = by_hash[h]
+         else: rel = Path('retained-context')/(h+p.suffix)
+         by_hash.setdefault(h, rel)
+         rows.append({'source_absolute': source, 'archive_relative': rel.as_posix(), **data})
++    for relative in source_directories:
++        (destination/'raw'/relative).mkdir(parents=True, exist_ok=True)
+     for row in rows:
+         out = destination/row['archive_relative']; out.parent.mkdir(parents=True, exist_ok=True)
+         if not out.exists(): shutil.copyfile(row['source_absolute'], out)
+         assert digest(out) == row['sha256']
+-    index = {'schema_version': 1, 'archived_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'source_root': str(ROOT), 'files': rows, 'mapped_sources': len(rows), 'unique_exact_byte_hashes': len(by_hash), 'closed_evidence': final, 'limits': ['Copies preserve raw FAIL/NA and unused native images; no quality certification is added.', 'Absolute source identifiers resolve through this index on another machine.', 'All five requested roles remain in the denominator. Complete reference-research images are retained for provenance only, not passed to native generation as client assets or represented as generated posters.']}
++    index = {'schema_version': 1, 'archived_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'source_root': str(ROOT), 'files': rows, 'source_directories': source_directories, 'raw_inventory_exclusions': [], 'mapped_sources': len(rows), 'unique_exact_byte_hashes': len(by_hash), 'closed_evidence': final, 'limits': ['Copies preserve raw FAIL/NA and unused native images; no quality certification is added.', 'Absolute source identifiers resolve through this index on another machine.', 'All five requested roles remain in the denominator. Complete reference-research images are retained for provenance only, not passed to native generation as client assets or represented as generated posters.']}
+     with (destination/'archive-index.json').open('x') as f: json.dump(index, f, ensure_ascii=False, indent=2)
+     return {'destination': str(destination), 'mapped_sources': len(rows), 'unique_hashes': len(by_hash)}
+ 

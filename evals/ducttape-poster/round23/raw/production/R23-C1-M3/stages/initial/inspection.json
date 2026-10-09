@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "role": "R23-C1-M3",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M3/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M3/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M3/stages/initial/thumbnail-320.png"
+  ],
+  "viewing_order": [
+    {
+      "view": "native",
+      "detail": "original",
+      "observation": "Initial native display appeared as a tiny light patch and did not support detail inspection."
+    },
+    {
+      "view": "usage720",
+      "detail": "original",
+      "observation": "Full 720 x 1080 view displayed and inspected."
+    },
+    {
+      "view": "thumbnail320",
+      "detail": "original",
+      "observation": "Full 213 x 320 view displayed and inspected."
+    }
+  ],
+  "native_display_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M3/stages/initial/original.png",
+    "sha256": "8cddf4581c4aa8a87992fc8426b027d47e3317eea28544b97e291e20917f9e49",
+    "resolution": "One revisit of the same byte-pinned original displayed the complete 1024 x 1536 image. Full native detail was inspected then.",
+    "resolved": true,
+    "reason": "First display's tiny light patch prevented native-detail observations.",
+    "raw_observed": [
+      "걷다가\n발견한 것들",
+      "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+    ]
+  },
+  "raw_observed_text": [
+    {
+      "copy_index": 1,
+      "view": "usage720",
+      "raw_observed": "걷다가\n발견한 것들"
+    },
+    {
+      "copy_index": 2,
+      "view": "usage720",
+      "raw_observed": "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "normalization": "nfc-ws-optical-v1",
+      "ambiguities": [],
+      "transcriptions": [
+        {
+          "copy_index": 1,
+          "required": "걷다가 발견한 것들",
+          "raw_observed": "걷다가\n발견한 것들",
+          "layout": {
+            "fixed_newlines_required": false,
+            "observed_lines": 2,
+            "observation": "Line break after the first word; second line has a visible normal word boundary."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "걷다가 발견한 것들",
+          "normalized_observed": "걷다가 발견한 것들",
+          "equal": true
+        },
+        {
+          "copy_index": 2,
+          "required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "raw_observed": "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요.",
+          "layout": {
+            "fixed_newlines_required": false,
+            "observed_lines": 4,
+            "observation": "Four stable left-aligned lines preserve complete words and punctuation; first sentence ends on line two, second ends on line four."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "normalized_observed": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "equal": true
+        }
+      ],
+      "observations": "Each copy role is present once. No other readable copy, logo, QR or watermark was observed."
+    },
+    "style": {
+      "checked_requirement": "Fine observational urban-wear drawing, long contours, dense short metal marks and sparse stone marks, restrained transparent colors, mincho typography.",
+      "observations": [
+        {
+          "view": "native",
+          "location": "Right metal door and upper handle",
+          "observation": "Close cropped door and attached handle are depicted with graphite-like edges, grey-blue fields and rust. Strong glossy shading and dense granular surface detail give the material a photographic impression."
+        },
+        {
+          "view": "native",
+          "location": "Lower threshold and pavement",
+          "observation": "Large connected threshold and pavement show wear and joints; the stone has dense stippled and granular detail rather than a visibly sparse light-line treatment."
+        }
+      ]
+    },
+    "ratio": {
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "nearest_integer_policy_max_error_px": 0.5,
+      "observed_ratio_edge_error_px": 0,
+      "observation": "PNG header and helper manifest record 1024 x 1536; no resizing performed."
+    },
+    "substantive_visual": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "Right vertical door edge through lower two-thirds",
+          "observation": "Door wear, threshold edge and pavement fissures form a continuous close urban scene and communicate repeated use and attentive observation."
+        }
+      ]
+    },
+    "format": {
+      "observation": "One flat opaque single poster is visible; no comparison panels, room mockup, frame or contact sheet."
+    },
+    "korean_typography": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "Upper-left title",
+          "observation": "Title has stable mincho forms, distinct two-line grouping and strong dark weight."
+        },
+        {
+          "view": "usage720",
+          "location": "Four body lines beneath title",
+          "observation": "Body glyph bodies, open counters and word spaces remain readable; commas and sentence-ending periods are distinct and the four lines connect naturally."
+        }
+      ]
+    },
+    "information_relationship": {
+      "observations": [
+        {
+          "view": "thumbnail320",
+          "location": "Upper-left title and body",
+          "observation": "The large title is the first typographic anchor; the body begins below on the same left axis."
+        },
+        {
+          "view": "usage720",
+          "location": "Body right boundary and threshold below",
+          "observation": "The cropped vertical door and the large diagonal threshold guide the view from text into the worn surfaces. The text sits on the open wall region of the same scene."
+        }
+      ]
+    },
+    "function_contact": {
+      "applicability": "No depicted hand action or required functional/contact task; attached handle, lock and door connections inspected.",
+      "observation": "Handle and lock fixtures attach to the door; threshold and pavement form adjacent levels."
+    },
+    "local_material_edge_finish": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "Door jamb, threshold corner and pavement cracks",
+          "observation": "Edges are distinguishable; the blue-grey metal, stone chips and rust patches remain connected to their surfaces."
+        },
+        {
+          "view": "native",
+          "location": "Handle highlights and stone texture",
+          "observation": "Dense high-detail tonal rendering makes drawn stroke pressure and density less conspicuous."
+        }
+      ]
+    },
+    "default_exclusion": {
+      "observation": "Substantive full-scale worn door/threshold/pavement relationships organize the composition, rather than a tiny picture on an information board. The text region is an open portion of this connected scene."
+    }
+  },
+  "residuals": [
+    {
+      "location": "Right handle and lower stone surfaces",
+      "observation": "Photographic gloss and dense granular texture dominate over the assigned long-contour and sparse-versus-dense short-stroke drawing grammar; targeted style repair is planned."
+    },
+    {
+      "location": "Native call evidence",
+      "observation": "Actual post-await end timestamp was evaluated but not retained because of a post-return store(undefined) exception; native return and source are preserved and not relabeled as a failed invocation."
+    }
+  ],
+  "decision": {
+    "next_action": "repair-1",
+    "cause": "Make observational linework visibly carry material description while retaining accurate readable copy, connected scene and existing mincho hierarchy."
+  }
+}

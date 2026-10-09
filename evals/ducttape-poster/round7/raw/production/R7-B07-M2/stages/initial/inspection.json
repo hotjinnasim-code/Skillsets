@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "role": "R7-B07-M2",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "raw_observed_text": [
+    "손이 기억하는\n물건",
+    "열쇠와 손잡이의 생활사",
+    "2026.12.08–2027.02.14",
+    "생활기억박물관 작은전시실",
+    "화–일 10:00–18:00 /\n월요일 휴관",
+    "관람료 무료",
+    "전시 안내 example.org/hand-memory"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "first_read_view": "native",
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "upper third, lever and left entering hand",
+      "observation": "A large white hand with black contours wraps the underside of a black lever, its thumb above and four curled fingers below. The pivot and same door edge are visible."
+    },
+    {
+      "view": "native",
+      "location": "lever upper contact surface",
+      "observation": "The broad white worn area has broken jagged speckles and chipped-looking boundaries; fine gray grain continues across the black handle. This is rougher than the assigned smooth flat contact patch."
+    },
+    {
+      "view": "native",
+      "location": "lower-right key/cylinder contact",
+      "observation": "The key blade reaches the lock face and the thumb/index grasp its black bow. The opening is a large rounded-head/neck traditional keyhole outline, leaving blade-to-cylinder keyway fit uncertain."
+    },
+    {
+      "view": "native",
+      "location": "lower lock face and below it",
+      "observation": "Gray ring shading and a vertically streaked gray drop/shadow below the lock add texture and modeled depth instead of the assigned pure black/white flat finish."
+    },
+    {
+      "view": "usage720",
+      "location": "central-left copy and lower practical information",
+      "observation": "All seven entries are readable at 720px width; hours wrap after the slash, and URL remains on one intact line. The date/place group sits adjacent to the large lower lock."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Upper grasp, lower pinch, same door edge and two-line title remain visible. Practical text is very small at 213px width, and lower keyway anatomy is not independently distinct."
+    },
+    {
+      "view": "native",
+      "location": "Hangul title, subtitle and body",
+      "observation": "Title retains broad square syllables and clear counters. Body syllables and narrower numerals retain separate strokes; no evident merged letters or overlap with the hands. Word gaps are present."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "required_entries": [
+        {
+          "text": "손이 기억하는 물건",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "열쇠와 손잡이의 생활사",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "2026.12.08–2027.02.14",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "생활기억박물관 작은전시실",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "화–일 10:00–18:00 / 월요일 휴관",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "관람료 무료",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "전시 안내 example.org/hand-memory",
+          "kind": "url",
+          "fixed_newlines": false
+        }
+      ],
+      "ambiguities": [],
+      "issues": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "손이 기억하는 물건",
+          "raw_observed": "손이 기억하는\n물건",
+          "normalized_required": "손이 기억하는 물건",
+          "normalized_observed": "손이 기억하는 물건",
+          "equal": true,
+          "layout": {
+            "observed_line_breaks": 1,
+            "fixed_newline_requirement": false,
+            "observations": "Title has word-boundary two-line wrap."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "열쇠와 손잡이의 생활사",
+          "raw_observed": "열쇠와 손잡이의 생활사",
+          "normalized_required": "열쇠와 손잡이의 생활사",
+          "normalized_observed": "열쇠와 손잡이의 생활사",
+          "equal": true,
+          "layout": {
+            "observed_line_breaks": 0,
+            "fixed_newline_requirement": false,
+            "observations": "One unbroken line; no apparent clipping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "2026.12.08–2027.02.14",
+          "raw_observed": "2026.12.08–2027.02.14",
+          "normalized_required": "2026.12.08–2027.02.14",
+          "normalized_observed": "2026.12.08–2027.02.14",
+          "equal": true,
+          "layout": {
+            "observed_line_breaks": 0,
+            "fixed_newline_requirement": false,
+            "observations": "One unbroken line; no apparent clipping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "생활기억박물관 작은전시실",
+          "raw_observed": "생활기억박물관 작은전시실",
+          "normalized_required": "생활기억박물관 작은전시실",
+          "normalized_observed": "생활기억박물관 작은전시실",
+          "equal": true,
+          "layout": {
+            "observed_line_breaks": 0,
+            "fixed_newline_requirement": false,
+            "observations": "One unbroken line; no apparent clipping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "화–일 10:00–18:00 / 월요일 휴관",
+          "raw_observed": "화–일 10:00–18:00 /\n월요일 휴관",
+          "normalized_required": "화–일 10:00–18:00/월요일 휴관",
+          "normalized_observed": "화–일 10:00–18:00/월요일 휴관",
+          "equal": true,
+          "layout": {
+            "observed_line_breaks": 1,
+            "fixed_newline_requirement": false,
+            "observations": "Hours wrap after slash; word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "관람료 무료",
+          "raw_observed": "관람료 무료",
+          "normalized_required": "관람료 무료",
+          "normalized_observed": "관람료 무료",
+          "equal": true,
+          "layout": {
+            "observed_line_breaks": 0,
+            "fixed_newline_requirement": false,
+            "observations": "One unbroken line; no apparent clipping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "kind": "url",
+          "fixed_newlines": false,
+          "required": "전시 안내 example.org/hand-memory",
+          "raw_observed": "전시 안내 example.org/hand-memory",
+          "normalized_required": "전시 안내 example.org/hand-memory",
+          "normalized_observed": "전시 안내 example.org/hand-memory",
+          "equal": true,
+          "layout": {
+            "observed_line_breaks": 0,
+            "fixed_newline_requirement": false,
+            "observations": "One unbroken line; no apparent clipping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "pure black/white flat illustration, black metal forms and outlined white hands, localized smooth white contact wear",
+      "observed": "Monochrome illustration with gray texture and shading on hardware; no visible color tint.",
+      "issues": [
+        "Jagged chipped-looking lever patch and grain; modeled gray lower-lock shadow depart from the assigned flat finish."
+      ]
+    },
+    "ratio": {
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "rounding_policy": "nearest integer on one edge <=0.5px",
+      "dimension_check": "1024*3 == 1536*2",
+      "resized": false,
+      "max_resolution_verified": false
+    },
+    "substantive_visual": {
+      "observed": "Two large actual hand/hardware actions occupy upper and lower-right regions, connected by one continuous door edge; functional relation remains visible without copy.",
+      "issues": []
+    },
+    "function_contact": {
+      "observed": "Upper hand grasps lever on visible pivot; lower hand pinches key bow, blade reaches lower lock face. Both are on the same door.",
+      "issues": [
+        "Traditional large keyhole shape does not convincingly match the depicted bitted blade and specified cylinder keyway."
+      ]
+    },
+    "hangul": {
+      "observed": "Clear syllable proportions, open counters, word spaces and horizontal baselines; no visibly cropped copy.",
+      "issues": []
+    },
+    "information_relationship": {
+      "observed": "Two gestures bound a central-left reading column; dates/place beside lower lock and practical info in a substantial lower-left area.",
+      "issues": []
+    },
+    "local_material_edge_finish": {
+      "observed": "Hand contours remain distinct from hardware, with intentional wrist crops at left/right; gray grain and scratches affect metal and jamb.",
+      "issues": [
+        "Wear reads as chipped distress more than smooth contact polish."
+      ]
+    }
+  },
+  "residuals": [
+    "The lower lock has a traditional rounded keyhole silhouette rather than a narrow cylinder keyway fitting this blade.",
+    "The lever's contact wear is jagged and speckled, with gray grain on hardware.",
+    "Gray streaking below the lower lock weakens the assigned pure black/white flat finish.",
+    "At 213px thumbnail width the practical copy is tiny; readability was verified at the 720px usage view only."
+  ]
+}

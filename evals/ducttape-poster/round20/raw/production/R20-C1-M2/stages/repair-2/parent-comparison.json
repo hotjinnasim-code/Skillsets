@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "role": "R20-C1-M2",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "472a5e90092fef58f3ced66e98a8834ae0c42d4a5c958d2d97d68b1607d2d800",
+  "parent_native_sha256": "03c8f3276bc069f61971ffa7e1040a57e10e052b5079cbaf9ca771f8cd36be08",
+  "actually_compared_viewed_stages": [
+    "repair-1",
+    "repair-2"
+  ],
+  "changes": [
+    {
+      "location": "paragraph last line and light edge",
+      "intended": "Remove persistent contrast loss without shrinking body text.",
+      "observed": "Rebalanced three-line wrap places the full paragraph on dark tone; no final-word or punctuation light crossing remains."
+    },
+    {
+      "location": "paragraph-to-visit route",
+      "intended": "Keep diagonal edge as the transition cue.",
+      "observed": "Shorter paragraph end sits close to the diagonal; edge descends toward the floor seam and lower left practical area."
+    },
+    {
+      "location": "all other copy and imagery",
+      "maintained_advantage": "Paired practical rows, substantial font sizes, two plant positions, connected stems, pot support and large cast shadows remain.",
+      "observed_change": "Right plant/pot crop became tighter; the observed date/hour strokes remain optically short, so their literal class is left ambiguous."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "date and hours range marks",
+      "limit": "After the permitted single revisit, optical en-dash versus hyphen class remains uncertain; raw-read normalized equality is false for entries 6 and 7. Full literal-copy fidelity is unconfirmed."
+    },
+    {
+      "location": "pottery and light surfaces",
+      "limit": "Some fine pottery texture and warm floor/wall graduation remain; imagery is a graphic translation with residual rendered surface detail."
+    },
+    {
+      "location": "native-view procedure",
+      "limit": "First mandatory native view render appeared as a small patch; full native inspection was completed on the single exact-asset revisit after QA views, with the display-order limitation preserved."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "role": "R16-C1-M2",
+  "stage": "repair-1",
+  "attempt_number": 2,
+  "native_tool": "tools.image_gen__imagegen",
+  "actual_target_stage": "initial",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "observed_repair_cause": "At inspected usage720, descriptions and right visit copy are approximately 9–10px high, much smaller than title. Enlarge/wrap body and visit copy while reducing headline scale.",
+  "maintained_features": [
+    "Complete curved forest-green lamp with paired connected supports and oval base",
+    "Two-ink relief print and directional hatch",
+    "Interlocking light and open-book/page planes",
+    "All copy once",
+    "Connected title-description-event-visit reading route"
+  ],
+  "supplied_reference_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+      "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+      "role": "mandatory product identity and structure"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/manifest.json",
+      "sha256": "31713763a5c3b89599f21387511a9859b0408697fe270d2df8b62f2740fa3af3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/stages/initial/original.png",
+      "sha256": "485ae0982fa538910643d08bfb999d7873799b3c49da6b588a97813cfe8189c8",
+      "role": "inspected own edit target"
+    }
+  ],
+  "prepared_at_utc": "2026-10-08T13:43:51.306829+00:00",
+  "planned_arguments": {
+    "prompt": "첨부 Image 1은 방금 반환되어 실제로 원본·720px·320px 보기로 검토한 포스터의 수정 대상이다. Image 2는 계속 사용해야 하는 원래 램프 제품 참조다. 단일 불투명한 가로 16:9 평면 포스터 한 장으로 수정한다. 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력.\n\n관찰된 수정 원인: 대상 포스터에서 제목은 약 44px 높이로 눈에 띄지만 두 설명과 오른쪽 방문 안내가 720px 보기에서 약 9–10px로 작게 압축되어 있다. 설명 두 문장을 길게 한 줄씩 넣은 것과 좁은 방문 열을 개선한다. 본문 설명·방문 조건·책을 가져오는 문장·URL의 글자 크기를 약 1.4배로 키워 720px 너비에서 약 13px의 성숙하고 선명한 명조 글자처럼 읽히게 한다. 긴 문장은 어절을 보존하여 2–3줄의 읽기 쉬운 폭으로 조판하고, 설명 두 문장은 같은 광학 정렬과 가까운 문단 간격을 유지한다. 방문 조건과 초대도 의미 단위로 자연스럽게 줄바꿈한다. 제목은 약 25% 줄이고 영문 제품명도 조금 줄여 본문 면적을 확보한다. 제목·영문·설명의 상호 간격을 조절하고, 필요한 만큼 오른쪽 빛/페이지 면의 여유를 재분배하여 행사명·일정·장소와 그 바로 옆의 방문/초대/URL로 흐름이 이어지게 한다. 날짜와 시간은 현재 충분히 읽히므로 과장하지 않는다. 글자를 작은 하단 띠나 네 모서리에 흩뜨리지 않는다.\n\n기존에 잘 작동하는 관계를 보호한다: 짙은 숲초록과 황토빛의 제어된 2색 판화, 화면을 가로질러 이어지는 긴 곡선 갓과 대각선 빛/페이지 면, 아래 펼친 책의 페이지 층, 크리스프 판 경계와 방향성 해칭을 유지한다. 램프의 짙은 초록색, 넓고 수평으로 휘어진 아치형 갓, 따뜻한 아래 발광면, 갓과 같은 받침에 붙은 두 나란한 지지대, 낮은 타원형 받침을 Image 2에서 정확히 보존한다. 전체 제품 한 개가 잘리지 않고 식별되어야 한다. 램프는 계속 실질적인 시각 중심이고 페이지/빛 면이 공간을 조직해야 한다. 조판에 필요한 범위에서 빛 받은 면과 램프 사이 여유를 조절할 수 있으나 구조를 바꾸거나 그림을 작은 부가물로 만들지 않는다. 사진의 배경과 제품의 원래 위치는 보존 조건이 아니다.\n\n본문은 절제된 획 대비의 한국어 명조 골격, 열린 속공간, 균일한 획과 자소 비례, 안정된 기준선, 자연스러운 단어 간격을 유지한다. 작은 활자에 판화 해칭이나 거친 잉크 결을 적용하지 않는다. 숫자·라틴·기호는 한글과 시각 크기가 맞고 범위 대시·콜론·가운데점·슬래시가 분명하다. 단색 또는 분할 색 면을 수동적인 바탕으로 한 고딕 제목·정보 템플릿에 그림을 부가하는 구성, 글자를 담기 위한 빈 실내 구성을 계속 제외한다. 이 수정에서도 정확한 램프·책·빛의 비문자 구조가 전체 편집과 읽기 면의 관계를 결정한다. 로고·QR·워터마크·추가 정보·새 스펙·목업·비교 패널은 넣지 않는다.\n\n수정에서도 아래 전체 인쇄 문구를 각각 정확히 한 번 유지한다. 철자·대소문자·숫자·문장부호·의미 있는 단어 공백은 그대로이고, 어절에서 줄을 바꿀 수 있다.\n\n저녁을 켜는 빛\nONBIT / DESK LAMP\n조용한 빛으로 책상 위의 시간을 바꿉니다.\n넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.\n온빛 데스크 램프 체험전\n2027.04.09–04.11\n금–일 13:00–19:00\n성수 온빛 스튜디오\n관람 무료 · 현장 구매 가능\n예약 없이 방문\n책과 종이를 가져와 직접 빛을 느껴보세요.\nonbit.example/light",
+    "referenced_image_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/stages/initial/original.png",
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png"
+    ],
+    "transparent_background": false
+  },
+  "planned_arguments_sha256": "daecfeb883bf5aaea5e68f819ff0407cde279b2c61bf05fb281d5ca4b1c26252",
+  "planned_argument_hash_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+  "input_pins": {
+    "call_input": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/stages/repair-1/call-input.json",
+      "sha256": "02cb355c7415abc7c67e58957e33bc8ea92c30a191805edd44a98d39ff2f82ec"
+    },
+    "case": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/case.json",
+      "sha256": "dc9041a8ed96e7ac5db78a20ed35d84df13160150a2800c0d439d175ba25c6b9"
+    },
+    "assignment": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/assignment.json",
+      "sha256": "17f1505d2ea2ef3857673752719a311f693f75027548a5393f4fbe3b1fb6a3cd"
+    },
+    "target_inspection": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/stages/initial/inspection.json",
+      "sha256": "bdfbd65fecb7470224fbafe6e6ce39717e96075e7ee73d2d7227c621aa551a45"
+    },
+    "target_manifest": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/stages/initial/manifest.json",
+      "sha256": "7e1a7f48d9e2fb17a9f1d8e1132dd03d267ff0e8a8d678ec9778d475cfc1dab3"
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "role": "R23-C1-M4",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/thumbnail-320.png"
+  ],
+  "view_order": "Original at original detail, usage720, thumbnail320; then one revisit of the exact original for local finish because its first displayed rendering appeared small.",
+  "view_events": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/original.png",
+      "viewed_at_utc": "2026-10-08T23:03:38.207Z"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/usage-720.png",
+      "viewed_at_utc": "2026-10-08T23:03:50.519Z"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/thumbnail-320.png",
+      "viewed_at_utc": "2026-10-08T23:04:08.144Z"
+    }
+  ],
+  "native_revisit": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/original.png",
+    "viewed_at_utc": "2026-10-08T23:04:27.923Z",
+    "detail": "original",
+    "image_url_characters": 4404769,
+    "view": "native",
+    "raw_observed": [
+      "걷다가\n발견한 것들",
+      "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+    ],
+    "resolution": "The second display showed the full native image. Title/body reads remain unchanged; glyph-class ambiguity was not observed.",
+    "resolved": true,
+    "reason": "First original-detail rendering appeared too small for local edge inspection.",
+    "sha256": "5504e7dabbd54f469fbadd431b8d3f2ba054fc7f0fda96d5587aafa37855bb31"
+  },
+  "raw_observed_text": [
+    {
+      "copy_index": 1,
+      "raw_observed": "걷다가\n발견한 것들"
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+    }
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "observed_occurrences": [
+        {
+          "copy_index": 1,
+          "count": 1
+        },
+        {
+          "copy_index": 2,
+          "count": 1
+        }
+      ],
+      "additional_copy_observed": [],
+      "ambiguities": [],
+      "transcriptions": [
+        {
+          "copy_index": 1,
+          "required": "걷다가 발견한 것들",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "걷다가\n발견한 것들",
+          "normalized_required": "걷다가 발견한 것들",
+          "normalized_observed": "걷다가 발견한 것들",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_requested": false,
+            "observed_line_count": 2,
+            "observations": "Title wraps after the first word; body is four consecutive lines with 4/5/3/3 word groups. No word split or isolated punctuation observed."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요.",
+          "normalized_required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "normalized_observed": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_requested": false,
+            "observed_line_count": 4,
+            "observations": "Title wraps after the first word; body is four consecutive lines with 4/5/3/3 word groups. No word split or isolated punctuation observed."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement_fields": [
+        "style_identity",
+        "scene_construction",
+        "whole_composition",
+        "typography_voice",
+        "palette_finish_emotion"
+      ],
+      "observations": [
+        {
+          "view": "native",
+          "location": "Right upper window and lower-right wet pavement",
+          "observation": "Opaque warm apricot/gold window planes sit in a dark frame; thick vertical wall strokes meet shorter horizontal wet-surface strokes. The painting fills the complete poster."
+        },
+        {
+          "view": "native",
+          "location": "Upper-left title and adjacent body",
+          "observation": "Two-line broad serif Hangul title and four-line regular sans body share the left start axis, in pale ivory against aubergine/navy paint."
+        },
+        {
+          "view": "usage720",
+          "location": "Full image",
+          "observation": "Cropped street corner, worn low curb and elongated reflection dominate the nonglyph scene; deep blue-gray and aubergine are stronger than gray-green."
+        }
+      ],
+      "checked_requirement": {
+        "style_identity": "저녁 거리의 반사와 층을 불투명한 색 면·방향 다른 붓획으로 재구성하는 회화. 세부보다 색의 깊이와 경계의 긴장으로 천천히 본 풍경의 기억을 표현한다.",
+        "scene_construction": "저녁 무렵 보도 모퉁이에서 한 창의 따뜻한 빛이 젖은 바닥과 닳은 낮은 턱에 이어지는 장면을 본다. 세로로 긴 창 반사는 겹친 불투명 색층, 바닥의 젖은 흔적은 짧고 넓은 수평 획, 문턱은 끊기면서도 연결되는 단단한 선으로 그린다. 건물과 길은 부분 크롭돼 특정 명소가 아닌 일상의 거리로 읽히고, 반사는 실제 창 아래의 바닥에 같은 방향으로 이어진다. 빛은 과장된 네온이나 렌즈 효과가 아니라 어두운 색층 사이의 밝고 따뜻한 면으로 존재한다.",
+        "whole_composition": "세로 그림의 창 반사와 보도 턱은 위에서 아래로 큰 흐름을 만든다. 두 줄 Title을 상부 왼쪽의 짙고 안정된 색층에 놓고 그 아래의 네 줄 본문과 광학 시작축을 공유한다. 그림의 수직 빛 경계가 문자 덩어리 옆을 지나 아래의 수평 반사로 꺾여 장면과 읽는 공간을 함께 연다. 본문 면적과 대조가 먼저 충분히 잡힌 뒤 색층과 크롭을 조정하며, 문자 뒤는 큰 붓의 차분한 면으로 정리한다. 그림이 전체를 차지하고 본문은 그 사건의 열린 경계에 결합한다.",
+        "typography_voice": "Title은 넓고 단단한 자소, 유연한 획 대비와 절제된 끝맺음을 가진 한글 세리프 두 줄이다. 본문은 이에 어울리는 폭과 기준선의 안정된 정규 산세리프로 또렷하게 조판한다. 밝은 문자와 짙은 그림 면의 대조, Title의 무게·여백이 주된 제목 역할을 만든다. 본문은 작은 그림 캡션이 아닌 편하게 읽는 네 줄 문장으로, 가로 720에서 실제 몸체·어절·행간을 확보한다. 회화의 붓획·번짐은 이미지에 남고 글자 획은 정밀하다.",
+        "palette_finish_emotion": "깊은 가지색·회녹색·짙은 청회색의 불투명 층에 작은 살구색·옅은 금색의 빛을 결합한다. 붓 방향과 덮인 색층은 장소의 표면과 반사의 차이를 맡고 밝음은 필요한 부분에 모인다. 강한 색 깊이와 오래 바라본 거리의 잔상이 정서를 만든다."
+      }
+    },
+    "ratio": {
+      "requested": [
+        2,
+        3
+      ],
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "resize_applied": false,
+      "ratio_rounding_needed": false,
+      "maximum_supported_resolution_verified": false
+    },
+    "substantive_visual": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "Curb from left middle to window base and water across foreground",
+          "observation": "Worn stone joints, wet pavement and warm window reflection form a specific ordinary street observation, rather than an ornament attached to information."
+        },
+        {
+          "view": "thumbnail320",
+          "location": "Full composition",
+          "observation": "The upper-right light, diagonal low curb and descending reflection remain readable as the large scene relationships."
+        }
+      ]
+    },
+    "excluded_template": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "Whole composition",
+          "observation": "The left copy is on a calm dark painted wall, but the building corner and curb open directly into the full foreground reflection. The scene's light and bent boundary organize the surrounding composition."
+        }
+      ]
+    },
+    "hangul": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "Title, approximately x7–54%, y8–22%",
+          "observation": "Large ivory serif letterforms have legible syllable blocks, open counters and broad word separation between the two words on the second line."
+        },
+        {
+          "view": "usage720",
+          "location": "Body, approximately x7–51%, y26–38%",
+          "observation": "All four lines are readable in order. Consistent upright bodies, stroke weight, baseline and line spacing preserve word boundaries, commas and sentence periods."
+        }
+      ]
+    },
+    "information_relationship": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "Left upper text block",
+          "observation": "The two-line title is the main typographic anchor. A clear gap leads directly to the aligned four-line body; no search through another zone is required."
+        },
+        {
+          "view": "thumbnail320",
+          "location": "Title and right light",
+          "observation": "Title and warm window are the two strong entry points; the reflection carries the image route downward after the adjacent text."
+        }
+      ]
+    },
+    "function_contact": {
+      "requested": false,
+      "observations": "No specific interaction, hand contact, URL, logo or functional instruction was requested. The visible chair/plant forms inside the window remain incidental shop-use traces."
+    },
+    "material_edge_finish": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "Window frame, wall corner, curb faces and foreground reflection",
+          "observation": "Dark window-frame edges stay distinct from thick warm panes. Worn curb faces have chipped painted edges. Wet pavement uses broken broad strokes, with a warm reflected column below the same window."
+        },
+        {
+          "view": "native",
+          "location": "All title/body strokes",
+          "observation": "Letter edges remain smooth and flat against textured paint; the image texture does not break the letter strokes."
+        }
+      ]
+    }
+  },
+  "residuals": [
+    {
+      "view": "thumbnail320",
+      "location": "Four-line body",
+      "observation": "At the 213×320 thumbnail the body is small and its fine strokes are less distinct; continuous reading was checked at 720×1080."
+    },
+    {
+      "view": "native",
+      "location": "Window interior",
+      "observation": "Small chair/plant forms are rendered as rough paint masses rather than precise object detail."
+    },
+    {
+      "view": "native",
+      "location": "Output dimensions",
+      "observation": "The returned file measures 1024×1536. The prompt requested the supported maximum, but the tool return does not establish that this is the model's maximum output."
+    }
+  ],
+  "decision": {
+    "selected_stage": "initial",
+    "reason": "The inspected initial image preserves the supplied copy, two-role hierarchy, painterly street scene and requested ratio. No observed defect justifies an additional native repair.",
+    "self_quality_score": null,
+    "external_critic_received": false
+  },
+  "view_pins": {
+    "original": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/original.png",
+      "sha256": "5504e7dabbd54f469fbadd431b8d3f2ba054fc7f0fda96d5587aafa37855bb31",
+      "bytes": 3303548,
+      "width": 1024,
+      "height": 1536
+    },
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/usage-720.png",
+      "sha256": "64632bb072ce86e34dbef52daef59679338b2330bf72434526dcafee42a8f5a5",
+      "bytes": 1548331,
+      "width": 720,
+      "height": 1080
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/thumbnail-320.png",
+      "sha256": "572a9b92dfd5902aec1714999b5cd3ce62b5338c508c2a40bb35b59c3ff9230e",
+      "bytes": 143954,
+      "width": 213,
+      "height": 320
+    }
+  },
+  "inspected_at_utc": "2026-10-08T23:05:35.079154+00:00",
+  "first_read_pin": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round23/production/R23-C1-M4/stages/initial/first-read.json",
+    "sha256": "847f25dc552e87e985d246bbbd2c1453cb8df768bde9f2379b113e217b82b700"
+  }
+}

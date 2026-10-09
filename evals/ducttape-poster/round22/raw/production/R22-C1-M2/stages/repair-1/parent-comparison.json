@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "role": "R22-C1-M2",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "changes": [
+    {
+      "view": "native",
+      "location": "date/hour rows",
+      "observation": "Added spaces around en-dashes are removed, while long midline bars remain."
+    },
+    {
+      "view": "usage720",
+      "location": "explanatory paragraph",
+      "observation": "Three lines become four meaning-led lines; long second-row foliage contact is removed and letters are modestly larger."
+    },
+    {
+      "view": "native",
+      "location": "care line",
+      "observation": "A new missing word gap appears between 안내 and 제공."
+    },
+    {
+      "view": "native",
+      "location": "care action and pot",
+      "observation": "Forearm/handle grip and soil landing remain, with slight rightward shift and tighter right-edge pot crop. Painting texture stays expressive."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole",
+      "observation": "Title remains immediate and the substantial watering action remains clear; a new style or layout has not been introduced."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "care line near left y795",
+      "observation": "The required word gap in 안내 제공 is missing: observed 안내제공."
+    },
+    {
+      "view": "usage720",
+      "location": "explanatory paragraph and small practical/URL rows",
+      "observation": "Body and small practical letters have grown only modestly and remain visually small, around 12–13px at usage720; they still require attentive reading."
+    },
+    {
+      "view": "native",
+      "location": "far right pot edge and lower-left backdrop",
+      "observation": "Pot is more tightly cropped at the right than in initial; foliage still lies beneath the invitation, though pale lettering remains visible."
+    }
+  ],
+  "parent_manifest_sha256": "eaa394ac3e58b6f9d0538a51f97d2c982724caff12f487694e21f544830063cd",
+  "parent_native_sha256": "564b6d2145c31371b14822b9309cb263fd4a478a2a883e08c6a0342a3eca2dc8"
+}

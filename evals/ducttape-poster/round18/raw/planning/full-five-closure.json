@@ -1,0 +1,271 @@
+{
+  "closed_utc": "2026-10-08T17:36:28.498938+00:00",
+  "candidate": "U",
+  "case": "R18-C1",
+  "one_request": true,
+  "requested_images": 5,
+  "matched_development": true,
+  "native_calls": 12,
+  "returned": 12,
+  "native_failures": 0,
+  "repair_calls": 7,
+  "initial_selected": 2,
+  "initial_retained_without_repairs": 1,
+  "maker_sessions": 5,
+  "critic_sessions": 6,
+  "all_actors_closed": true,
+  "production_closure": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/planning/all-five-maker-closure.json",
+    "sha256": "bf1224afaad909980c97d18bbe1dec9e9f205ca7ce817df994bd9f7cbd404041",
+    "bytes": 5496
+  },
+  "pre_generation_freeze": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/planning/candidate-u-pre-generation-freeze.json",
+    "sha256": "1b3c24fe3f8b7a9a1748561d7b222bfc164526043465784fedfefb8f5200b268",
+    "bytes": 11512
+  },
+  "waves": {
+    "initial": {
+      "procedure_gate": "NA",
+      "procedure_errors": [
+        "editorial: trace contains a failed turn/error",
+        "craft: trace contains a failed turn/error",
+        "portfolio: trace contains a failed turn/error"
+      ],
+      "image_gate_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "NA": 5
+      },
+      "image_gates": {
+        "R18-C1-M1": "NA",
+        "R18-C1-M2": "NA",
+        "R18-C1-M3": "NA",
+        "R18-C1-M4": "NA",
+        "R18-C1-M5": "NA"
+      },
+      "set_gate": "NA",
+      "counts": {
+        "requested_images": 5,
+        "packet_images": 5,
+        "critics": 3,
+        "expected_views_per_critic": 15,
+        "expected_image_profile_records": 15,
+        "observed_image_profile_records": 15,
+        "expected_score_values": 105,
+        "observed_score_slots": 105,
+        "valid_integer_1_to_5_score_values": 105
+      },
+      "summary": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/initial/summary.json",
+        "sha256": "67bb9c7659f91b171d5c27a14157ccdc9e31372791a12541ecd990189002a9da",
+        "bytes": 1099640
+      },
+      "diversity_original": {
+        "editorial": 4,
+        "craft": 4,
+        "portfolio": 4
+      },
+      "audits": [
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/initial/source-asset-audit.json",
+          "sha256": "c9f4ab3b4e0bcd85da218a80b576910786fecc6cccb100d639f9f5dde1d35d36",
+          "bytes": 1914
+        },
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/initial/compact-binding-audit.json",
+          "sha256": "3037efc1f65041d8b436d84bc1ab2a1cbb61d631588ca31d3f46f19c1a9fbfb2",
+          "bytes": 9381
+        }
+      ],
+      "critics": {
+        "editorial": {
+          "completion": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/initial/cli/editorial/completion.json",
+            "sha256": "2fb2857bef4d1bf6dbee1f87842e6695e5b942bf0c86244db6d4393ff063e3ed",
+            "bytes": 9506
+          },
+          "session_ids": [
+            "01a11c79-1824-7221-aab3-6184ca6b6958"
+          ],
+          "trace_error_events_retained": [
+            {
+              "type": "error",
+              "message": "Reconnecting... 2/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 3/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 4/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 5/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 1/5 (stream disconnected before completion: Transport error: network error: error decoding response body)"
+            }
+          ]
+        },
+        "craft": {
+          "completion": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/initial/cli/craft/completion.json",
+            "sha256": "3961980d85896705b4e94a0c237b9aa8db002af09d6ecb0ef7999db517f4c743",
+            "bytes": 9446
+          },
+          "session_ids": [
+            "01a11c79-1830-7330-aeeb-a47aea260aab"
+          ],
+          "trace_error_events_retained": [
+            {
+              "type": "error",
+              "message": "Reconnecting... 2/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 3/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 4/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 5/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            }
+          ]
+        },
+        "portfolio": {
+          "completion": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/initial/cli/portfolio/completion.json",
+            "sha256": "5caff1e032fbd6089712e3181a3e45fed015eae82645355754d019694860048b",
+            "bytes": 9506
+          },
+          "session_ids": [
+            "01a11c79-1823-74f0-b224-ec0e892893c8"
+          ],
+          "trace_error_events_retained": [
+            {
+              "type": "error",
+              "message": "Reconnecting... 2/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 3/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 4/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            },
+            {
+              "type": "error",
+              "message": "Reconnecting... 5/5 (stream disconnected before completion: websocket closed by server before response.completed)"
+            }
+          ]
+        }
+      }
+    },
+    "selected": {
+      "procedure_gate": "PASS",
+      "procedure_errors": [],
+      "image_gate_counts": {
+        "PASS": 3,
+        "FAIL": 2,
+        "NA": 0
+      },
+      "image_gates": {
+        "R18-C1-M1": "PASS",
+        "R18-C1-M2": "PASS",
+        "R18-C1-M3": "FAIL",
+        "R18-C1-M4": "FAIL",
+        "R18-C1-M5": "PASS"
+      },
+      "set_gate": "FAIL",
+      "counts": {
+        "requested_images": 5,
+        "packet_images": 5,
+        "critics": 3,
+        "expected_views_per_critic": 15,
+        "expected_image_profile_records": 15,
+        "observed_image_profile_records": 15,
+        "expected_score_values": 105,
+        "observed_score_slots": 105,
+        "valid_integer_1_to_5_score_values": 105
+      },
+      "summary": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/selected/summary.json",
+        "sha256": "fc0eb2949f2025b8e938879b4635037a6bfcfabd77f323febaa304c70da8b1ff",
+        "bytes": 1050935
+      },
+      "diversity_original": {
+        "editorial": 4,
+        "craft": 4,
+        "portfolio": 4
+      },
+      "audits": [
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/selected/source-asset-audit.json",
+          "sha256": "a68c16abaa57f64e28a1d79526936b6cad9f1b7b4389bdc977ce9ac073bd19a8",
+          "bytes": 1919
+        },
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/selected/compact-binding-audit.json",
+          "sha256": "788853664815aed4313fa329a335c6d1ab4c33ea442280c2bd784ef37f03030d",
+          "bytes": 12849
+        }
+      ],
+      "critics": {
+        "editorial": {
+          "completion": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/selected/cli/editorial/completion.json",
+            "sha256": "49330e45d30f9e823a31007bd789229bd33707ad747292ba6aa8ed5c531334a1",
+            "bytes": 9529
+          },
+          "session_ids": [
+            "01a11c88-aabd-77b1-9af0-9c7c817a9aad"
+          ],
+          "trace_error_events_retained": []
+        },
+        "craft": {
+          "completion": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/selected/cli/craft/completion.json",
+            "sha256": "ee494047d1bd6342a005fd23c3ce35e663a34cd45e577a1230eb316de73dea6a",
+            "bytes": 9469
+          },
+          "session_ids": [
+            "01a11c88-aac4-7d73-b9ae-c36907a2cee0"
+          ],
+          "trace_error_events_retained": []
+        },
+        "portfolio": {
+          "completion": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round18/reviews/R18-C1/selected/cli/portfolio/completion.json",
+            "sha256": "3fb986e7c208c43ddf7d447be69bf86102d61e03c2b6f287c0d5e0bee3181f0e",
+            "bytes": 9529
+          },
+          "session_ids": [
+            "01a11c8f-4796-7323-9a7a-9fae83afad64"
+          ],
+          "trace_error_events_retained": []
+        }
+      }
+    }
+  },
+  "no_post_critic_repair_or_reselection": true,
+  "quality_thresholds_changed": false,
+  "generalized_causes": [
+    "Readable body and different whole spatial organizations do not by themselves resolve competing copy anchors.",
+    "Actual copy roles need optical weight/size/contrast and concrete transitions between related information regions.",
+    "Small punctuation and meaningful word spaces need clear first-generation letterforms; retain critic disagreements and NA."
+  ],
+  "limits": [
+    "Transport reconnection/error events remain in raw traces; the unchanged procedure gate can retain NA despite completed actors.",
+    "Raw visual findings and diversity scores are observations, not a certificate of all five high-end results.",
+    "A matched request with coupled instructions/central planning/optional guides is not unseen transfer or causal isolation.",
+    "No original scores, negative findings, ambiguity, source roles, method or thresholds have been replaced."
+  ]
+}

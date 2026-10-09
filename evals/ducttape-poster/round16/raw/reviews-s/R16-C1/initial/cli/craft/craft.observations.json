@@ -1,0 +1,1511 @@
+{
+  "schema_version": 1,
+  "kind": "compact_critic_observations",
+  "case_id": "R16-C1",
+  "wave": "initial",
+  "profile": "craft",
+  "session_id": null,
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/initial/packet.json",
+    "sha256": "b123679594559448db04f9f3e8da6079cee19c3cadf43ffc49f42ac025da042d",
+    "bytes": 34779
+  },
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "order_compliant": true,
+    "method": "Independent review in this fresh session, without spawning, resuming, forking or consulting peer/producer/planner records. Verified the declared input hashes and byte counts. Read the pinned source manifest and all five pinned native-evidence manifests without following their unlisted embedded paths. The packet has no protected layouts. Actually opened the exact LAMP-FIXTURE source using view_image(detail=original), and inspected its returned image. Then actually opened and inspected all fifteen exact poster images using view_image(detail=original), with the returned images displayed through functions.exec/image: M1 native, usage720, thumbnail320; M2 native, usage720, thumbnail320; M3 native, usage720, thumbnail320; M4 native, usage720, thumbnail320; M5 native, usage720, thumbnail320. Completed that entire sequence before starting copy transcription or any image/set judgment or score. One source open and fifteen poster opens; no image revisits were needed. First readings were taken from those displayed native pixels after the complete viewing sequence, with usage and thumbnail observations retained separately. No OCR, generated crops, replacements or pixel edits were used. PNG headers and RGB modes were checked read-only: every native is opaque 1672x941, each usage view 720x405, each thumbnail 320x180. Native 16:9 conformity uses the predeclared single-edge rounding exception: abs(941-1672*9/16)=0.5, rather than mathematically exact aspect. Actual attachment use in the native calls is not established by the allowed manifests; visual source identity is assessable, and this provenance limitation remains explicit. No runtime session ID or synthetic opening/tool event is claimed.",
+    "source_assets_viewed": [
+      {
+        "asset_id": "LAMP-FIXTURE",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+        "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+        "viewed": true
+      }
+    ],
+    "protected_layouts_read": []
+  },
+  "viewed": [
+    {
+      "image_id": "R16-C1-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M1/stages/initial/original.png",
+      "sha256": "3d791eebef1c2e65c5ec6e696b4c4afd171be092dbd4570ae4a1377658cd559a",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M1/stages/initial/usage-720.png",
+      "sha256": "32e588a0f3b83f2f01e42f74458ba50e3577808db9d214330b3a401b93d1caf9",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M1/stages/initial/thumbnail-320.png",
+      "sha256": "ac0d6d75b9039580bf54b811a40889c1b399c600e27d0f522b42cdafcf2760f9",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M2",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/stages/initial/original.png",
+      "sha256": "485ae0982fa538910643d08bfb999d7873799b3c49da6b588a97813cfe8189c8",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M2",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/stages/initial/usage-720.png",
+      "sha256": "902ab6ff686b1fb6c0c4837783e5f955e102d32b4796dce9bfec9c33e869b517",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M2",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M2/stages/initial/thumbnail-320.png",
+      "sha256": "17c25d94b8a48500d984e73a0e6f7d622cae67d03cdc959163a2170e5c8a2fdb",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M3",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M3/stages/initial/original.png",
+      "sha256": "41c74a859721df3964076f366f0a50069f1ecadf11a0c89728dcc3863c4f1495",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M3",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M3/stages/initial/usage-720.png",
+      "sha256": "d8ebbe6ecc81a1b35ef950b03ba113996c3a6e175189639eb5ee64aa09f97168",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M3",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M3/stages/initial/thumbnail-320.png",
+      "sha256": "b34a5ddba12cedf35d0c46c23715862bf0adeda655f7428cfbfc6c5e52b30a48",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M4",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/initial/original.png",
+      "sha256": "e7e44f953bdcd5a38cb66a8bf058e95e399896586efc28699e0a04fdf2821075",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M4",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/initial/usage-720.png",
+      "sha256": "c8dcf2a9283d88a2d260ccf7e58aed5ebab3d281fd18b3464b2a7589f0f535df",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M4",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/initial/thumbnail-320.png",
+      "sha256": "a3c99ebf8ac073e4d00c5c4421f593e83a02a5a1e12c0e1c0c80c31415ab768d",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M5",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/stages/initial/original.png",
+      "sha256": "d5c789eedee6243c20ff7605f4cbcdd85cf8094e3f3b8421500f5931b6c25c26",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M5",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/stages/initial/usage-720.png",
+      "sha256": "23eb2d772a359192a655cdc0c202af36bd68b8b3c81c8cfe050ea108a29861b2",
+      "viewed": true
+    },
+    {
+      "image_id": "R16-C1-M5",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/stages/initial/thumbnail-320.png",
+      "sha256": "27d20f760ca0d3f8c16d963941388f1a527fe8276922fa8a95cf171d30aa2e7d",
+      "viewed": true
+    }
+  ],
+  "images": {
+    "R16-C1-M1": {
+      "copy": [
+        {
+          "raw": "저녁을 켜는 빛",
+          "layout": {
+            "status": "PASS",
+            "observations": "One horizontal cream heading in the upper part of the left photograph; word gaps remain visible at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "ONBIT / DESK LAMP",
+          "layout": {
+            "status": "PASS",
+            "observations": "One tracked uppercase line beneath the title, with optical gaps around the slash; it is smaller than the Korean heading."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One horizontal line near the upper part of the right lit page; native glyphs and final period are readable."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를\n가까이에서 살펴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "Two left-aligned lines on the right page. The break follows 구조를 and is a soft layout wrap, with the word space retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "온빛 데스크 램프 체험전",
+          "layout": {
+            "status": "PASS",
+            "observations": "One bold event-name line below the descriptions on the right page."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2027.04.09–04.11",
+          "layout": {
+            "status": "PASS",
+            "observations": "One date line beneath the event name; an en dash separates the two date parts."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "금–일 13:00–19:00",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line immediately below the date, with separate weekday and hour ranges."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "성수 온빛 스튜디오",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below the hours; the location joins the same aligned event block."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "관람 무료 · 현장 구매 가능",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line in the lower visit block; the visible centered dot has optical space on both sides."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "예약 없이 방문",
+          "layout": {
+            "status": "PASS",
+            "observations": "One left-aligned line below the free-admission/purchase line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below the reservation statement; the final period is visible and the line remains inside the right margin."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "onbit.example/light",
+          "layout": {
+            "status": "PASS",
+            "observations": "One lowercase URL at the foot of the right copy block, with one continuous dot/slash sequence and no inserted word space."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "FAIL",
+          "issues": [
+            "The common full-set condition of five genuinely distinct whole styles is not met: M2, M3 and M5 repeat a closely related left-lamp/right-title-body-details organization. This member is a distinct paired photographic edit, but belongs to that incomplete five-style set (diversity 3).",
+            "NA assessment limit within the style rollup: actual source attachment use in this member's native call cannot be established from the permitted pixel and manifest inputs. The observed set violation determines FAIL; attachment use is not guessed."
+          ],
+          "evidence": [
+            [
+              "native",
+              "complete lamp in left photograph",
+              "The deep forest-green wide curved shade, illuminated underside, two separate supports connected to an oval base, and all product extremities are visible. The right macro explicitly links the shade to light falling on book paper."
+            ],
+            [
+              "native",
+              "whole rectangular image and printed areas",
+              "One opaque landscape composition combines a desk photograph and a related page macro. The supplied twelve copy entries appear once; no readable invented specs, additional logo, QR or watermark are visible. The large full lamp and page illumination provide substantive image construction."
+            ],
+            [
+              "usage720",
+              "right page descriptions through event, visit block and URL",
+              "The horizontal dark type on a lit cream page follows a coherent aligned sequence; event/date emphasis is clear and descriptions and participation copy remain readable, though smaller. The paired scenes actively communicate the desk-light invitation."
+            ],
+            [
+              "thumbnail320",
+              "left full scene versus right macro and relationship to the other members",
+              "The split edit is visibly different from M2-M5. The shared set still repeats left-product/right-information organization most closely across M2, M3 and M5, so the literal five-distinct-styles condition fails."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "left full product and book, right shade and page macro",
+              "The complete lamp lights a substantial open book, and the second crop shows the structure/material and illuminated paper at a closer scale. These nonglyph forms carry the actual experience invitation."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "two linked photographic panels",
+              "The identifiable lamp, lit book and enlarged shade/page occupy nearly the entire image and directly connect product structure with reading under its light; their contribution survives reduction."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "left lamp/book and right illuminated page",
+              "The full product view and complementary material/light close-up make the invitation specifically about this lamp and the experience of paper under it, rather than an abstract lighting mood."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 4,
+          "evidence": [
+            [
+              "usage720",
+              "left title followed by aligned right information",
+              "The cream heading anchors the first glance, the full lamp links the two panels, and the right page orders descriptions, event name, date/hours/place, visit conditions and URL without scattering them."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "right copy block",
+              "Hangul shapes, periods, en dashes and the URL are clean. Weight changes distinguish event name and dates; the English heading tracking and slash spacing are deliberate."
+            ],
+            [
+              "usage720",
+              "right descriptions and lower visit lines",
+              "The smaller copy remains readable with good dark-on-cream contrast and regular line spacing; the URL has a clear baseline and no broken slash. It is competent at use size without exceptional optical refinement."
+            ]
+          ]
+        },
+        "space": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "panel seam and right text margins",
+              "The vertical seam gives the full lamp its own generous area, while the page holds one consistently aligned copy column with clear inter-block gaps and a usable lower margin. The hero and macro retain purposeful different scales."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "shade surfaces, support joints, base contact and book pages",
+              "Green pebbled material, warm emitting underside, metallic collars and soft desk contact shadows cohere. The open book has substantial layered pages, and the macro relates its paper surface to the same warm illumination."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "usage720",
+              "warm wooden desk, green lamp and cream copy",
+              "The restrained warmth and focused illumination communicate a quiet evening reading experience suitable for a commercial lamp event; the legible information keeps the mood tied to participation."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "lamp anatomy and surrounding desktop objects",
+              "Both supports connect plausibly to the shade and base; books, vessel and paper are spatially legible. The macro has a clear content purpose and there are no stray pseudo-logos or arbitrary decorative motifs."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "status": "PASS",
+          "observations": "Visually compared with the source opened before the posters: the left scene retains the deep forest-green curved horizontal shade, warm underside, two cylindrical connected supports with collars, and complete oval base. The product is fully inside the left panel with no extremity cropped; the second panel adds a cropped detail without replacing the full view. Its position, relative poster size, desk environment and macro crop are permitted to vary because no poster/background geometry is protected. This PASS concerns observable product identity, color and complete form; native-call attachment use is unavailable from the permitted inputs."
+        }
+      ],
+      "residuals": [
+        "Supporting copy is substantially smaller than the title, although this member keeps a continuous readable column at usage720.",
+        "The split scene is polished and content-specific, but does not cure the set's repeated composition relationships.",
+        "Source attachment use during the native call is unverified; only visual identity fidelity is established."
+      ]
+    },
+    "R16-C1-M2": {
+      "copy": [
+        {
+          "raw": "저녁을 켜는 빛",
+          "layout": {
+            "status": "PASS",
+            "observations": "One large dark serif/brushlike heading on the cream wedge at right."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "ONBIT / DESK LAMP",
+          "layout": {
+            "status": "PASS",
+            "observations": "One uppercase serif line beneath the title with separate words and visible optical slash spaces."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line directly under the English line; it is small in usage720 relative to the title."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One long line beneath the short description; native words and final period are readable, while the unwrapped line is especially small at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "온빛 데스크 램프 체험전",
+          "layout": {
+            "status": "PASS",
+            "observations": "One bold line beneath the long horizontal rule, separating description from event details."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2027.04.09–04.11",
+          "layout": {
+            "status": "PASS",
+            "observations": "One date line in the left of the two lower information columns."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "금–일 13:00–19:00",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below the date; both ranges use en dashes."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "성수 온빛 스튜디오",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below the hours in the same column."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "관람 무료 · 현장 구매 가능",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line at the top of the narrow lower-right column; a centered dot separates the clauses."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "예약 없이 방문",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below admission/purchase copy in the right column."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One long line beneath the reservation statement; the ending period is visible at native, and the line is thin at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "onbit.example/light",
+          "layout": {
+            "status": "PASS",
+            "observations": "One lowercase continuous URL at the bottom of the lower-right column; no added slash spacing is visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "FAIL",
+          "issues": [
+            "The large right title and English line dominate while both descriptions and the lower-right participation/URL copy are reduced to small thin lines at usage720. This conflicts with the instruction not to suppress the body in small type.",
+            "The literal full-set five-distinct-styles condition fails: this left lamp/right title and descriptions/two lower detail columns organization closely recurs in M3 and M5 despite its print rendering.",
+            "NA assessment limit: attachment use in this member's native call is not visible in the permitted inputs; it is not inferred from the lamp resemblance."
+          ],
+          "evidence": [
+            [
+              "native",
+              "large upper-left shade through lower-left oval base",
+              "The complete forest-green lamp retains a broad curved shade, two collared supports connected at both ends and an oval base. Print marks change its expression while preserving the source identity."
+            ],
+            [
+              "native",
+              "carved books, bright cream diagonal and all printed areas",
+              "The lamp, books and illuminated paper form a substantive full scene in one opaque flat poster; no added readable specs, logo, QR or watermark are visible. The type is serif and the scene is active rather than a small product ornament."
+            ],
+            [
+              "usage720",
+              "right description lines and lower-right visit column",
+              "The long description is squeezed into a single small line beneath the oversized title; participation and URL are also small. All supplied copy is present, but scale weakens the required natural continuous reading."
+            ],
+            [
+              "thumbnail320",
+              "left hero/right title and lower divided information",
+              "The print texture and serif lettering differ from M3 and M5, but the focal placement and information sequence are closely related, limiting the requested whole-style distinction."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "lamp, upright books and open foreground book",
+              "A large structurally identifiable lamp and extensive book/paper construction show light spreading over reading matter. The content-bearing visual is much more than texture or a tiny ornament."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "left lamp and sweeping foreground book",
+              "The full lamp, two supports, base and illuminated book remain substantial and identifiable when reduced; they connect the invitation to a desk-light experience."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "shade and diagonal illuminated book field",
+              "The oversized green product and carved reading materials translate this specific lamp and its spread of light into a coherent printed illustration; the book field has an actual role in the invitation."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 3,
+          "evidence": [
+            [
+              "usage720",
+              "right title versus short/long descriptions and visit column",
+              "The title consumes much more visual weight than the descriptions. The event/date column is readily found, but the neighboring visit instructions and URL need close attention because their smaller thin type loses priority."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "serif title and lower information columns",
+              "The serif system is coherent and glyphs are readable at native with no observed substitutions."
+            ],
+            [
+              "usage720",
+              "single-line long description and lower-right instruction/URL",
+              "The unwrapped descriptive sentence and narrow participation column force the smallest reading size. Their thin strokes become fragile even against cream, so precise native glyphs do not translate into strong use-size typography."
+            ]
+          ]
+        },
+        "space": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "cream diagonal wedge and lower dividing rules",
+              "The shade sweeps over the book field, and the copy follows a stable edge in that wedge. Long and short rules separate a clearly aligned lower pair of columns; the foreground book and dark left area balance the cream mass."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "curved shade, base and printed book hatching",
+              "Cut-like highlights, grain and hatch strokes recur across the product and books with consistent forest-green/amber/cream relationships. Both supports and base are structurally clear, and the page folds remain legible."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "usage720",
+              "warm cream light against dark green carved scene",
+              "The tactile print expression gives the lamp event a quiet literary character. The light wedge actively points toward the invitation while retaining a warm, controlled tone."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "lamp joints and repeated surface marks",
+              "The texture is applied coherently to plausible connected anatomy and reading objects, rather than as stray decorative accents. The visible book markings are abstract material marks, with no pseudo-label or invented technical specifications."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "status": "PASS",
+          "observations": "The viewed source's forest-green curved horizontal shade, warm long underside, paired cylindrical supports with collars and oval plinth all remain identifiable in the print illustration. The complete lamp fits within the frame from the left end of its shade to the bottom and both ends of its base. Its enlarged poster scale, left placement, printed rendering, surrounding books and background are allowed variations; there are no protected poster boundaries or relative geometry. This is a visual fidelity PASS, with actual native-call attachment use unverified."
+        }
+      ],
+      "residuals": [
+        "The longest description and narrow participation column remain too small and thin at usage720 for resolved body typography and hierarchy.",
+        "A convincing print treatment does not fully differentiate the repeated hero/title/body/detail arrangement from M3 and M5.",
+        "Actual native-call attachment use is unverified by the permitted pins."
+      ]
+    },
+    "R16-C1-M3": {
+      "copy": [
+        {
+          "raw": "저녁을 켜는 빛",
+          "layout": {
+            "status": "PASS",
+            "observations": "One large dark-green sans heading at upper right."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "ONBIT / DESK LAMP",
+          "layout": {
+            "status": "PASS",
+            "observations": "One tracked uppercase sans line beneath the heading; slash gaps are optical."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One bold line at middle right beneath the heading block."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를\n가까이에서 살펴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "Two left-aligned lines beneath the bold description. A soft wrap follows 구조를 and retains the word separation."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "온빛 데스크 램프 체험전",
+          "layout": {
+            "status": "PASS",
+            "observations": "One bold line at the top of the lower center-right event column."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2027.04.09–04.11",
+          "layout": {
+            "status": "PASS",
+            "observations": "One date line directly beneath the event name."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "금–일 13:00–19:00",
+          "layout": {
+            "status": "PASS",
+            "observations": "One hours/weekday line below the date with separate en-dash ranges."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "성수 온빛 스튜디오",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line beneath the hours near the bottom of the event column."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "관람 무료 · 현장 구매 가능",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line in the lower-right column to the right of a vertical rule; the centered dot is visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "예약 없이 방문",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below admission/purchase copy in the lower-right column."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below the reservation statement; the final period remains present."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "onbit.example/light",
+          "layout": {
+            "status": "PASS",
+            "observations": "One continuous lowercase URL at the foot of the right column, with no added dot or slash spacing."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "FAIL",
+          "issues": [
+            "The nearly empty pale wall and tabletop are used as broad text-bearing interior surfaces: title/body sit on the right wall, and isolated lower detail columns sit on the pale tabletop. This visibly conflicts with the exclusion of empty interior planes arranged to hold copy.",
+            "The common full-set five-distinct-whole-styles condition fails: this left product/right title and body/lower divided details is closely related to M2 and M5.",
+            "NA assessment limit: actual source attachment use in this native call is unavailable from the permitted pins; no call-input record was followed."
+          ],
+          "evidence": [
+            [
+              "native",
+              "large complete lamp at left",
+              "The deep green wide curved shade, warm underside, two connected collared supports and oval base are complete and recognizable against the source. The product is substantive and the light pool is visible."
+            ],
+            [
+              "native",
+              "right wall and lower tabletop",
+              "The pale interior is almost empty apart from line-drawn edges; the title/body occupy the blank right wall and event/visit columns occupy a separated blank lower plane. The negative space carries the copy more than a developed desk experience scene."
+            ],
+            [
+              "usage720",
+              "right middle body versus low detail columns",
+              "Native copy is accurate and readable at use size, but descriptions and event/visit details form separate islands with a wide vertical gap. This weakens the requested natural reading connection."
+            ],
+            [
+              "native",
+              "whole image and all printed regions",
+              "One opaque landscape poster contains the twelve supplied strings once, with no visible added print, technical specification, logo, QR or watermark. The failure concerns the literal composition exclusion and repeated system, not the permitted use of gothic typography."
+            ],
+            [
+              "thumbnail320",
+              "lamp-left/title-upper-right/details-lower-right relationship",
+              "The framing and information arrangement closely repeat M5 and the lower two-column structure of M2, so its pale outline treatment does not yield a separate resolved whole direction."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "large lamp and warm pool on tabletop",
+              "A complete, detailed lamp and broad pool of light occupy most of the left and lower scene and communicate product structure and desk illumination. The empty-room style violation does not erase the substantial nonglyph product."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "green lamp across the left two-thirds",
+              "The shade, paired supports, oval base and light pool remain prominent and identifiable, contributing real product content at use size."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "lamp on pale outlined tabletop and empty right wall",
+              "The product structure and light pool are clear, but the sparse interior and separated type read as a catalog product on a text-bearing surface. The requested hands-on book/paper invitation has little visual development in this member."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 3,
+          "evidence": [
+            [
+              "usage720",
+              "upper-right heading/body and lower-right event/visit columns",
+              "The initial title and body are easy to find, but the long empty interval before the event block breaks continuity. The secondary information becomes an isolated footer while the lamp claims most of the upper-left area."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "bold short description and two-line body",
+              "The sans glyph construction is clean with consistent baselines, useful weight distinctions and a sensible soft wrap."
+            ],
+            [
+              "usage720",
+              "body and both lower detail columns",
+              "Body and details remain readable, punctuation is distinct, and the URL is continuous. The main typography is resolved even though the composition separates its groups."
+            ]
+          ]
+        },
+        "space": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "blank right middle area and isolated lower information",
+              "The gap between body and lower details is large relative to each compact block, and the empty planes do not sustain a continuous visual route. The outline trailing from the shade also ends in an unoccupied area without a clear anchor."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "green shade texture, support collars and illuminated base area",
+              "The product's curved shell, emitting underside and collars are consistently rendered; the base contacts the tabletop plausibly and the warm pool gives a clear lighting relationship. The fine outlines do not prevent the core product construction from resolving."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 3,
+          "evidence": [
+            [
+              "usage720",
+              "pale empty room with isolated catalog-style product",
+              "The calm light and green color are appropriate, but the sparse room and disconnected lower event information produce a generic showroom mood rather than a specific invitation to experience paper and time at a desk."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "offset line following the top/right shade and horizontal tail",
+              "A second fine contour runs above the already rendered shade and turns into an unlabelled horizontal leader beneath the English heading; it has no clear connection to a measurement or message. Together with the thin unoccupied room outlines it leaves an arbitrary graphic layer unresolved."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "status": "PASS",
+          "observations": "Direct visual comparison preserves the source's deep forest-green material, broad horizontally curved shade with warm underside, two cylindrical collared supports and oval base. The entire product is visible, from both shade ends through both base ends; the added contour does not replace or crop its anatomy. Large left placement, relative size, pale room and tabletop differ from the source but are not protected. The source role is product identity/color/complete shape, not room or poster geometry. Actual attachment use in the generation call remains unverified."
+        }
+      ],
+      "residuals": [
+        "The blank interior/text-plane arrangement conflicts with a literal exclusion, despite the substantive product and readable type.",
+        "Descriptions and bottom event/visit blocks form separate islands rather than a resolved continuous sequence.",
+        "The offset shade contour and unlabelled horizontal tail have no clear content purpose.",
+        "Actual native-call attachment use is unverified."
+      ]
+    },
+    "R16-C1-M4": {
+      "copy": [
+        {
+          "raw": "저녁을 켜는 빛",
+          "layout": {
+            "status": "PASS",
+            "observations": "One dark brushlike serif heading angled with the right-hand page of the open book."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "ONBIT / DESK LAMP",
+          "layout": {
+            "status": "PASS",
+            "observations": "One tracked uppercase serif line below the title, following the page angle; optical slash gaps are visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One angled line beneath the English heading; native glyphs and the final period are readable, while use-size type is small."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를\n가까이에서 살펴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "Two angled lines on the same page. The first ends with 구조를; the second begins 가까이에서, a soft wrap with a preserved word space."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "온빛 데스크 램프 체험전",
+          "layout": {
+            "status": "PASS",
+            "observations": "One bolder angled event-name line below a page rule."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2027.04.09–04.11",
+          "layout": {
+            "status": "PASS",
+            "observations": "One angled date line below the event name; the central date separator is an en dash."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "금–일 13:00–19:00",
+          "layout": {
+            "status": "PASS",
+            "observations": "One angled line beneath the date, with separate weekday and hour ranges."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "성수 온빛 스튜디오",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line near the lower edge of the printed book page; it follows the same angle as the event details."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "관람 무료 · 현장 구매 가능",
+          "layout": {
+            "status": "PASS",
+            "observations": "One angled line at the top of the separate right sheet; its centered dot is visible at native."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "예약 없이 방문",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below admission/purchase copy on the separate right sheet."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "책과 종이를 가져와\n직접 빛을 느껴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "Two lines on the right sheet beneath a short rule; a soft layout break follows 가져와 and preserves the word separation."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "onbit.example/light",
+          "layout": {
+            "status": "PASS",
+            "observations": "One angled continuous lowercase URL near the foot of the right sheet; no inserted slash space is visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "FAIL",
+          "issues": [
+            "Descriptions and visit/URL copy are small, thin and perspective-angled at usage720. The large blank left page and extensive scene occupy space while essential information is compressed into the lower central page and a narrow right sheet, conflicting with the requirement not to suppress or scatter supporting copy.",
+            "The full-set five-distinct-whole-styles condition remains unmet, although this scenic page-based arrangement makes a meaningful individual departure from the repeated M2/M3/M5 system.",
+            "NA assessment limit: native-call source attachment use cannot be verified from the permitted manifest and pixel inputs."
+          ],
+          "evidence": [
+            [
+              "native",
+              "lamp above the open book",
+              "The complete forest-green lamp retains the wide curved shade, warm underside, two connected supports and oval base. Warm light reaches a substantial book/paper scene, communicating the experience event."
+            ],
+            [
+              "native",
+              "painted desk and all printed page/sheet regions",
+              "This is one opaque landscape painted scene with the invitation incorporated into book and paper surfaces. The twelve specified strings appear once; no readable extra specs, logo, QR or watermark are present. The scene is not a small product ornament, and no separate poster board or comparison grid is shown."
+            ],
+            [
+              "usage720",
+              "lower central book page and narrow right sheet",
+              "The descriptions and most visit information become tiny thin angled lines. The title/event/date hierarchy remains discernible, but a reader must inspect multiple page regions to obtain the full practical invitation."
+            ],
+            [
+              "thumbnail320",
+              "scene above and text across lower book/sheet",
+              "The page placement changes reading direction from M2/M3/M5, but shared lamp/book still-life and green/amber mood remain. The larger set does not achieve five independent whole systems."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "complete lamp, open book, paper sheets and painted desk",
+              "Substantial nonglyph scene construction shows the source lamp illuminating reading and writing materials, directly supporting the instruction to bring books and paper."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "upper-left lamp and large foreground book",
+              "The full product, warm desk illumination and layered open book stay prominent at use size and carry the content beyond the printed lettering."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "lamp-lit book and separate sheet carrying the invitation",
+              "Placing the experience invitation on the same paper receiving the lamp's light ties form to the request to bring books and paper; product structure remains fully visible above it."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 3,
+          "evidence": [
+            [
+              "usage720",
+              "central lower title/event page versus right visit sheet",
+              "The upper lamp dominates first glance. The heading is found on the lower page, but the reader then follows angled details toward the bottom before moving to a separate, much smaller right-side visit block. The practical sequence is less immediate than the scene."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "book page and separate sheet",
+              "The serif/brushlike Hangul and tracked Roman line are coherent, and exact glyphs and URL are readable at native."
+            ],
+            [
+              "usage720",
+              "angled descriptions, lower venue and right-sheet URL",
+              "Perspective angle and thin small characters make the supporting copy fragile. The venue is close to the lower edge of its page, and the right-sheet instructions and URL need careful reading rather than flowing naturally."
+            ]
+          ]
+        },
+        "space": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "large blank left page and occupied lower center/right surfaces",
+              "A large foreground page remains empty while the event/date/place are compressed onto the adjacent lower page and visit copy is pushed to a narrow sheet. The scenic balance is attractive, but information receives too little proportionate space."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "painted wood, page edges, plant and lamp contacts",
+              "Brushwork is coherent across the room, wood and layered pages. The sharper product material retains plausible collars, warm emission and a grounded oval base, with lighting that fits the painted desk."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "usage720",
+              "warm book foreground, quiet room and green lamp",
+              "The controlled evening palette and literary desk scene make the invitation feel like a quiet tactile experience; visible paper under warm light gives that mood a specific content basis."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "lamp anatomy, open-book fold and surrounding objects",
+              "Supports and base connect coherently, the book has a legible fold and page stack, and the painted desk objects serve the still life without stray pseudo-writing or unrelated decorative motifs. The principal remaining problems are copy scale and allocation, not contradictory anatomy."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "status": "PASS",
+          "observations": "The source was viewed before assessment. Its dark forest-green curved horizontal shade, long warm underside, two collared connected supports and oval base survive the painted desk setting; one complete product is visible with no crop of shade, supports or base. The source's color and defining anatomy are retained while environment, relative size and position change as permitted. There is no protected page/poster layout or source background to preserve. The PASS is visual identity fidelity only; actual native-call source attachment use is unavailable."
+        }
+      ],
+      "residuals": [
+        "Use-size descriptions and visit/URL information are small and angled, weakening practical readability.",
+        "Large blank page space coexists with compressed information on neighboring lower surfaces.",
+        "This member makes a real page-based compositional departure, but the complete five-style set still falls short.",
+        "Actual attachment use in the native call is unverified."
+      ]
+    },
+    "R16-C1-M5": {
+      "copy": [
+        {
+          "raw": "저녁을 켜는 빛",
+          "layout": {
+            "status": "PASS",
+            "observations": "One slanted bold dark-green heading on the bright right paper plane."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "ONBIT / DESK LAMP",
+          "layout": {
+            "status": "PASS",
+            "observations": "One slanted tracked uppercase line below the heading with optical slash spaces."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One horizontal smaller line beneath the heading block."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One long horizontal line beneath the short description; its final period approaches the right image edge. Native word gaps remain visible, but the line is small at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "온빛 데스크 램프 체험전",
+          "layout": {
+            "status": "PASS",
+            "observations": "One bold event-name line below the first short rule in the right stack."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2027.04.09–04.11",
+          "layout": {
+            "status": "PASS",
+            "observations": "One date line directly below the event name."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "금–일 13:00–19:00",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below the date; both ranges use en dashes."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "성수 온빛 스튜디오",
+          "layout": {
+            "status": "PASS",
+            "observations": "One place line beneath the hours in the same stack."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "관람 무료 · 현장 구매 가능",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line below the second short rule; the dot is visibly centered."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "예약 없이 방문",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line beneath the free-admission/purchase copy."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+          "layout": {
+            "status": "PASS",
+            "observations": "One line beneath the reservation statement; final period is visible at native and its right margin is smaller than that of the heading."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "onbit.example/light",
+          "layout": {
+            "status": "PASS",
+            "observations": "One continuous lowercase URL beneath the bring-books/paper sentence; slash and dot have no inserted word space."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "FAIL",
+          "issues": [
+            "The longest description is constrained to one small line running almost to the right image edge at usage720; other body and participation copy are also small relative to the hero and title. Supporting copy is visually suppressed rather than fully resolved for the requested use.",
+            "The full-set five-distinct-whole-styles condition fails: the left full product/right heading and descriptions/lower information stack closely repeats M3 and M2 despite folded planes, dramatic light and a slanted title.",
+            "NA assessment limit: actual source attachment use in the native call cannot be established from the allowed pixel and manifest inputs."
+          ],
+          "evidence": [
+            [
+              "native",
+              "large left lamp through complete oval base",
+              "The forest-green broad curved shade, warm emitting underside, two collared connected supports and oval base remain fully identifiable. The whole lamp is in frame."
+            ],
+            [
+              "native",
+              "folded green/cream paper planes and foreground paper",
+              "Hard light and sculpted paper surfaces construct a substantive desk-light setting related to the invitation to bring paper. One opaque landscape composition shows all twelve specified entries once and no visible added logo, QR, watermark, print or specifications."
+            ],
+            [
+              "usage720",
+              "right descriptive lines and lower participation block",
+              "The longest description is small and tightly fitted to the available width. Event/date emphasis remains clear, but the descriptions and visit lines receive much less scale than the product and heading, weakening continuous reading."
+            ],
+            [
+              "thumbnail320",
+              "left hero/right title-body-details organization",
+              "Diagonal surfaces and an italic heading change the expression, but the framing and ordered information stack remain close to M3 and M2. The required whole-set distinction is not reached."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "full lamp amid illuminated folded planes",
+              "A large complete source-identifiable lamp, warm tabletop light, folded cream/green paper and foreground sheet form a substantive nonglyph construction concerned with light on paper."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "left lamp and diagonal illuminated paper surface",
+              "The product anatomy and contrast between lit paper and dark folded planes remain visually substantial after reduction, carrying the specific lamp-light content rather than serving as a tiny decorative accent."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "warm lamp light and folded cream paper plane",
+              "The identifiable green lamp and sculpted paper establish a coherent relationship between product structure and light on paper. The illumination becomes part of the invitation surface, giving the geometry a content purpose."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 3,
+          "evidence": [
+            [
+              "usage720",
+              "hero and title versus tiny long description and visit block",
+              "The lamp and slanted heading are immediate, and the right stack is easy to locate. The descriptions, however, are much smaller and the long line loses emphasis, so the full invitation receives less attention than the product/title."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "heading and right information stack",
+              "The italic heading and tracked English line are deliberate; native Hangul, punctuation and URL remain clean."
+            ],
+            [
+              "usage720",
+              "single-line long description and lower participation lines",
+              "The long sentence is forced into a small size instead of being given a useful wrap. Its compressed visible scale and thin supporting lines weaken sustained readability despite accurate native glyphs."
+            ]
+          ]
+        },
+        "space": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "right endpoint of long description versus margins of title/event block",
+              "The long descriptive line approaches the right frame edge while other blocks have much wider margins; its available measure is poorly matched to the sentence length. The broad hero and paper geometry leave the information in a compact right-hand strip."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "shade skin, support collars, paper creases and base shadow",
+              "Green textured metal, the warm underside and connected collars resolve clearly. Folded paper planes have consistent edges and lighting, and the oval base is grounded by a plausible tabletop shadow."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "usage720",
+              "green shadows and warm illuminated cream plane",
+              "The theatrical diagonal light creates a focused product-experience mood, with clear material and paper relationships. The limited palette keeps that drama controlled and appropriate to a commercial lamp event."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "product joints and folded-surface intersections",
+              "The lamp has plausible connected anatomy and the abstract surfaces read as intentional folds with consistent shadow relationships. There is no stray pseudo-writing, spurious hardware or unrelated decorative motif; the shortcomings are copy sizing and repeated composition."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "status": "PASS",
+          "observations": "Visual comparison with the opened source retains the deep forest-green color, broad horizontally curved shade with warm continuous underside, two cylindrical supports with collars connected to an oval base, and a complete identifiable lamp. The whole product fits inside the image with no source-defining extremity cropped. Its larger left position, relative scale, folded-paper environment and background are permitted changes because the source has no protected poster geometry. This is a visual fidelity PASS and does not attest to unavailable native-call attachment use."
+        }
+      ],
+      "residuals": [
+        "The long unwrapped description is too small at usage720 and ends very near the right frame; a nominally clean stack does not resolve its practical readability.",
+        "The slanted heading and folded geometry do not overcome the repeated left-hero/right-information structure across M2/M3/M5.",
+        "Actual source attachment use in the native call remains unverified."
+      ]
+    }
+  },
+  "set": {
+    "members": [
+      "R16-C1-M1",
+      "R16-C1-M2",
+      "R16-C1-M3",
+      "R16-C1-M4",
+      "R16-C1-M5"
+    ],
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 5,
+      "issues": []
+    },
+    "diversity": 3,
+    "evidence": [
+      [
+        "R16-C1-M1",
+        "thumbnail320",
+        "vertical division through the middle",
+        "A photographic full desk scene occupies the left and a separate shade/page macro carries the information on the right. This paired-scale edit is a real composition difference from the single-scene M2-M5, although it shares their warm green lamp, paper and right-side copy."
+      ],
+      [
+        "R16-C1-M2",
+        "thumbnail320",
+        "large lamp across upper-left and cream text wedge at right",
+        "The carved print marks, serif title and sweeping book foreground differ from the photographs. Its whole reading structure still places the lamp left, title and descriptions right, then dates and participation details below, closely matching M3 and M5."
+      ],
+      [
+        "R16-C1-M3",
+        "thumbnail320",
+        "left product, upper-right heading and lower-right divided details",
+        "A pale outlined tabletop replaces books and dramatic shadow; the type is upright sans. The product viewpoint and title/body/details arrangement remain very close to M5, with the lower details split into two columns as in M2."
+      ],
+      [
+        "R16-C1-M4",
+        "thumbnail320",
+        "lamp above open book, wording on lower pages and separate right sheet",
+        "The painted room and angled serif wording physically placed on pages change both spatial organization and reading direction. This is a stronger distinct member, yet it repeats the lamp/book still life and green/amber literary mood of M1 and M2."
+      ],
+      [
+        "R16-C1-M5",
+        "thumbnail320",
+        "left lamp and diagonal cream paper plane bearing right-side stack",
+        "Folded planes and hard shadows create a sharper studio construction, and the title is slanted. The same left full-product/right title-description-event-visit stack and similar lamp viewpoint persist; changing the surfaces and title slant does not fully separate this system from M3 or M2."
+      ]
+    ],
+    "residuals": [
+      "The set has meaningful differences in photographic editing, print marks, scenic page placement and lighting, but not five fully independent whole styles. M2, M3 and M5 retain closely related hero/title/body/lower-information relationships.",
+      "Forest green, warm cream/amber light and a similar frontal three-quarter lamp view recur throughout; several members also reuse a book/paper still-life. These relationships limit diversity despite the different image treatments.",
+      "This is one independent craft assessment of all five supplied initial members. No other critic results or combined three-critic gate are known.",
+      "The condition requiring attachment use in each native generation call cannot be verified from the permitted input pins; no unlisted call-input or producer records were opened."
+    ]
+  }
+}

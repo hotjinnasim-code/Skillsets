@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "role": "R7-B03-M1",
+  "stage": "repair-2",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M1/stages/repair-2/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M1/stages/repair-2/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M1/stages/repair-2/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "누름클립",
+    "한 손으로 열고, 메모를 잡다",
+    "상부 레버를 누르면 집게턱이 열립니다",
+    "알루미늄 몸체 / 고무 패드",
+    "책상 가장자리에 고정하는 메모 집게",
+    "제품 소개 example.org/press-clip"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "observations": [
+    {
+      "view": "native",
+      "location": "left fingertip to axle to upper/lower jaws",
+      "observation": "The single index fingertip contacts the left upper lever. One silver pivot is exposed. The upper right jaw is raised above the lower pad; both dark contact pads and the lever connection remain visible."
+    },
+    {
+      "view": "native",
+      "location": "memo margin near right jaw and sheet over right desk",
+      "observation": "The leading paper margin now has a shallow upward curl; the rest slopes down toward the desktop with a narrow soft shadow along the lower paper edge. This reads as support more clearly than the flat hovering triangular plane in repair-1."
+    },
+    {
+      "view": "native",
+      "location": "paper left corner relative to right jaw tips",
+      "observation": "The closest curled edge remains diagonal and projects partway into the lateral extent of the jaw mouth; its alignment immediately in front of both tips is still imperfect."
+    },
+    {
+      "view": "native",
+      "location": "broad black aluminum and two pads",
+      "observation": "Fine swirling contour-like microtexture remains on upper lever and desk-hook body; pads are similarly dark/grained. Bright axle and restrained silhouette edge highlights separate component shapes."
+    },
+    {
+      "view": "usage720",
+      "location": "all text placements",
+      "observation": "All six literal entries are independently readable in complete single lines. Hangul counters/word spaces and the English URL are clear without overlap with product or finger."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole image",
+      "observation": "Large one-finger press, silver pivot and open gap remain the non-glyph center. Title/action are prominent; smaller captions cannot all be confidently read at thumbnail size."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "raw_read_preserved": true,
+      "ambiguities": [],
+      "issues": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "누름클립",
+          "raw_observed": "누름클립",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line; no clipping or letter/product collision observed."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "누름클립",
+          "normalized_observed": "누름클립",
+          "equal": true
+        },
+        {
+          "copy_index": 1,
+          "required": "한 손으로 열고, 메모를 잡다",
+          "raw_observed": "한 손으로 열고, 메모를 잡다",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line; no clipping or letter/product collision observed."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "한 손으로 열고, 메모를 잡다",
+          "normalized_observed": "한 손으로 열고, 메모를 잡다",
+          "equal": true
+        },
+        {
+          "copy_index": 2,
+          "required": "상부 레버를 누르면 집게턱이 열립니다",
+          "raw_observed": "상부 레버를 누르면 집게턱이 열립니다",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line; no clipping or letter/product collision observed."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "상부 레버를 누르면 집게턱이 열립니다",
+          "normalized_observed": "상부 레버를 누르면 집게턱이 열립니다",
+          "equal": true
+        },
+        {
+          "copy_index": 3,
+          "required": "알루미늄 몸체 / 고무 패드",
+          "raw_observed": "알루미늄 몸체 / 고무 패드",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Visible optical slash spaces; material word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "알루미늄 몸체/고무 패드",
+          "normalized_observed": "알루미늄 몸체/고무 패드",
+          "equal": true
+        },
+        {
+          "copy_index": 4,
+          "required": "책상 가장자리에 고정하는 메모 집게",
+          "raw_observed": "책상 가장자리에 고정하는 메모 집게",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line; no clipping or letter/product collision observed."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "책상 가장자리에 고정하는 메모 집게",
+          "normalized_observed": "책상 가장자리에 고정하는 메모 집게",
+          "equal": true
+        },
+        {
+          "copy_index": 5,
+          "required": "제품 소개 example.org/press-clip",
+          "raw_observed": "제품 소개 example.org/press-clip",
+          "kind": "url",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line; no clipping or letter/product collision observed."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "제품 소개 example.org/press-clip",
+          "normalized_observed": "제품 소개 example.org/press-clip",
+          "equal": true
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "진짜 제품 촬영 같은 표현",
+      "observed": "One continuous close photographic product scene with distinct metal, skin, paper and desk surfaces; no diagrams or mockup frame.",
+      "limits": [
+        "Fine swirling microtexture on black aluminum remains more synthetic than an even photographed matte surface."
+      ]
+    },
+    "ratio": {
+      "requested": "3:2",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "allowed_one_edge_rounding_pixels": 0.5,
+      "observed_edge_error_pixels": 0.0,
+      "actual_native_dimensions_measured": true,
+      "max_resolution_verified": false
+    },
+    "substantive_visual": {
+      "observed": "A large single-hand mechanical press/open-jaw scene conveys the requested function.",
+      "glyph_only": false
+    },
+    "hangul": {
+      "observed": "Normal-width Korean with clear word spaces and counters. Title has heavy square strokes; body lines have lighter strokes. Mixed URL baseline is readable at usage720.",
+      "issues": []
+    },
+    "information_relationship": {
+      "observed": "Semantic copy is placed near left press, central mechanism, body and right desk area.",
+      "limits": [
+        "Title and action group are high in the frame but still adjacent to the entering press."
+      ]
+    },
+    "function_contact": {
+      "observed": "Visible single-finger press, one axis, two open padded jaws, desk-edge hooked contact and one shallow-curled supported sheet.",
+      "issues": [
+        "Paper edge is still diagonal and partly overlaps the mouth in projection rather than lying cleanly just ahead of both jaw tips."
+      ]
+    },
+    "materials_edges": {
+      "observed": "Smooth black silhouettes, restrained edge highlights, bright axle and natural fingertip; no doubled outline observed.",
+      "issues": [
+        "Contour-like microtexture persists on broad black aluminum faces.",
+        "Metal and rubber texture distinction remains weaker than their visible shape distinction."
+      ]
+    },
+    "format": {
+      "observed": "One flat opaque landscape poster; one product, one visible hand and one blank memo; no extra visible copy, logo or ornament."
+    }
+  },
+  "native_view_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M1/stages/repair-2/original.png",
+    "sha256": "3ae7c3e6110d6cee747762bb4d7e2100aa323b63ddc5716f16c14c910b0eacad",
+    "initial_display": "First original-detail display contained a small upper-left skin patch.",
+    "raw_observed": [
+      "누름클립",
+      "한 손으로 열고, 메모를 잡다",
+      "상부 레버를 누르면 집게턱이 열립니다",
+      "알루미늄 몸체 / 고무 패드",
+      "책상 가장자리에 고정하는 메모 집게",
+      "제품 소개 example.org/press-clip"
+    ],
+    "resolution": "One revisit of the exact original displayed the full native image and permitted complete text, material and contact inspection.",
+    "resolved": true,
+    "reason": "Tool display limitation; no uncertain Hangul glyph was guessed."
+  },
+  "residuals": [
+    "Single paper's shallow curl and desk support are visible, but the leading edge is still oblique and partly overlaps the mouth in projection.",
+    "Fine swirling contour-like grain remains on black aluminum; rubber and metal surface textures are close.",
+    "Smaller information is not all readable at thumbnail320, although all six entries were read at usage720.",
+    "Actual native dimensions are measured; the requested maximum supported resolution is not verified. No physical mechanism test or real-model measurement was performed."
+  ]
+}

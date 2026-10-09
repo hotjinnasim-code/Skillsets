@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "role": "R24-C1-M2",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "걷다가 발견한 것들",
+    "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+  ],
+  "first_transcription_view": "usage720",
+  "normalization": "nfc-ws-optical-v1",
+  "viewing_sequence": [
+    {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/original.png",
+      "detail": "original",
+      "display_limitation": "Only a small peach fragment was displayed; full native view unassessable."
+    },
+    {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/original.png",
+      "detail": "original",
+      "revisit": true,
+      "display_limitation": "Only a small peach fragment again; full native view remains unassessable."
+    },
+    {
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/usage-720.png",
+      "detail": "original",
+      "display_limitation": null
+    },
+    {
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/thumbnail-320.png",
+      "detail": "original",
+      "display_limitation": null
+    }
+  ],
+  "viewing_attestation": "Each exact named asset was requested through tools.view_image and emitted through image(...,'original') in native/usage/thumbnail order, with one native revisit before QA views. The native display was limited to a small fragment on both emissions. actual_viewed records those observed emissions, not full native legibility or a successful local-finish assessment.",
+  "native_display_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/original.png",
+    "raw_observed": [],
+    "resolution": "The second emission again showed a small peach fragment; full native finish cannot be judged through this view.",
+    "resolved": false,
+    "reason": "Technical native display limitation, not a guessed Hangul class.",
+    "sha256": "0492e0aca1f9146eca883f9bf03ed41cb62f3839df99a3040b5669caae7ec5bb"
+  },
+  "observations": [
+    {
+      "view": "usage720",
+      "location": "title at upper left and lower-left paragraph",
+      "observation": "Title and all four body lines remain legible with their original wording, word boundaries and punctuation. Shared left starts and even paragraph line spacing remain."
+    },
+    {
+      "view": "usage720",
+      "location": "full-width central wavy graphic and right outline",
+      "observation": "Two broad blue bands, three calf/shoe pairs, two yellow light planes and large right oval outlines preserve the walking rhythm and spatial relationship."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Title remains the main text anchor; bands and feet dominate the central image area; body remains a connected four-line block below the lower curve."
+    },
+    {
+      "view": "usage720",
+      "location": "peach negative space and red/yellow planes",
+      "observation": "A faint tonal variation remains visible; this view does not establish perfectly uniform flat fills."
+    },
+    {
+      "view": "native",
+      "location": "displayed peach fragment only",
+      "observation": "No title, body, feet or main image edges appeared in the local native display. Those local native details remain unassessable despite a single revisit."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "issues": [],
+      "ambiguities": [],
+      "occurrences": [
+        1,
+        1
+      ],
+      "additional_visible_copy": "none in the fully visible usage720 and thumbnail320 views; native original display does not permit an independent full-copy confirmation",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "걷다가 발견한 것들",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "걷다가 발견한 것들",
+          "normalized_required": "걷다가 발견한 것들",
+          "normalized_observed": "걷다가 발견한 것들",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": [
+              "걷다가 발견한 것들"
+            ],
+            "observations": "Title one line; body four soft-wrapped lines at existing word spaces; visible punctuation retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요.",
+          "normalized_required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "normalized_observed": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": [
+              "익숙한 길을 천천히 걸으며",
+              "빛, 소리, 사람의 흔적을 만납니다.",
+              "스쳐 지나간 풍경에서",
+              "새로운 이야기를 발견해보세요."
+            ],
+            "observations": "Title one line; body four soft-wrapped lines at existing word spaces; visible punctuation retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "uniform color-plane flat graphic with connected step silhouettes, two broad sound bands and square window-light planes",
+      "observed": "Required graphic forms preserved at usage720; faint interior tone variation still visible.",
+      "issues": [
+        "uniform-fill finish remains uncertain at native detail because full native display was unavailable"
+      ]
+    },
+    "ratio": {
+      "assigned": [
+        16,
+        9
+      ],
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "dimension_policy": "nearest integer rounding on one edge within 0.5 pixel",
+      "height_from_width": 940.5,
+      "height_difference": 0.5,
+      "resize_performed": false
+    },
+    "substantive_visual": {
+      "observed": "Full-width sound bands interlace with three sets of walking legs and two square light planes; substantive concept retained at usage720."
+    },
+    "no_type_only": {
+      "observed": "Broad image flows and step sequence organize the central composition; imagery remains substantive."
+    },
+    "excluded_template": {
+      "observed": "The central graphic spans the width, creates the lower paragraph opening and carries a repeated walking rhythm; it remains structurally active.",
+      "issues": []
+    },
+    "hangul": {
+      "proportions": "stable normal-width forms at usage720",
+      "counters": "open and distinguishable at usage720",
+      "word_spacing": "meaningful gaps visible",
+      "issues": [],
+      "native_limit": "native original display unavailable in full"
+    },
+    "information_relationship": {
+      "observed": "Upper-left title to central steps and sound flow to one lower-left paragraph; all four lines share an axis."
+    },
+    "function_contact": {
+      "scope": "No functional mechanism requested; calf-to-shoe continuity is relevant.",
+      "observed": "At usage720, all six calf/shoe contacts look continuous; native fine boundary assessment unavailable."
+    },
+    "material_edges": {
+      "verification": "NA",
+      "observed": "Only usage720 and thumbnail320 permit whole-image inspection; exact native edge and fill comparison cannot be made.",
+      "issues": [
+        "native display remains limited after one revisit"
+      ]
+    },
+    "format": {
+      "observed": "One single landscape poster at usage720/thumbnail320, no added copy, mockup, frame, logo, QR or watermark observed."
+    }
+  },
+  "residuals": [
+    {
+      "view": "native",
+      "location": "whole original.png",
+      "limit": "Required local native display returned only a small peach fragment on initial emission and sole revisit; full native finish remains unassessable. No additional re-view or regeneration was used to resolve this display ambiguity."
+    },
+    {
+      "view": "usage720",
+      "location": "background and image color planes",
+      "limit": "Faint tone variation remains; fully uniform digital flat fills are not established."
+    },
+    {
+      "view": "usage720",
+      "location": "three calf pairs",
+      "limit": "Pose remains simplified straight calf planes; knee articulation is implicit."
+    },
+    {
+      "view": "native",
+      "location": "source evidence",
+      "limit": "1672×941 pixels returned; maximum supported resolution and actual font-file application are not established."
+    }
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/original.png",
+      "sha256": "0492e0aca1f9146eca883f9bf03ed41cb62f3839df99a3040b5669caae7ec5bb",
+      "bytes": 1413990
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/usage-720.png",
+      "sha256": "3c2bd40544bcf231c2d93967caea9e2b7b7dcc55ae2db0f9c7b773d9fe090c2a",
+      "bytes": 305156
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/repair-1/thumbnail-320.png",
+      "sha256": "c1bc8eec06c7241ee8d10ac6d638ef237fd7ed7c76f18fbc5895c73c334140bb",
+      "bytes": 74338
+    }
+  ]
+}

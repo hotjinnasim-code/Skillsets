@@ -1,0 +1,8 @@
+{
+  "phase": "One five-image candidate-I actual-use request; declared before any generation",
+  "policy": "nearest-integer-single-edge",
+  "scope": "Aspect-only requests. Explicit pixel dimensions remain exact.",
+  "rule": "Native width,height must be mathematically exact or |width-height*a/b|<=0.5 or |height-width*b/a|<=0.5. Preserve/report actual native bytes/dimensions; no resize.",
+  "quality_gates": "Each of three critics rates all seven >=4, all mandatory PASS, all five members PASS, diversity>=4 each.",
+  "parent_policy": "Same ratio-only native-rounding policy as R7; no aesthetic or copy relaxation."
+}

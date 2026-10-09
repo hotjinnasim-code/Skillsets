@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "role": "R14-C1-M2",
+  "case_id": "R14-C1",
+  "full_request": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\n\n빛이 머무는 집\nOPEN HOUSE\n건축 사진전 · 공간 이야기\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요",
+  "copy": [
+    {
+      "text": "빛이 머무는 집",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "OPEN HOUSE",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "건축 사진전 · 공간 이야기",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2027.02.06 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "13:00–15:00",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "연남 생활문화공간",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "12:40부터 입장",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "관람 무료 · 해설 제공",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "사전 신청 · 정원 24명",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "편한 신발로 방문해 주세요",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "건축을 몰라도 괜찮아요",
+      "kind": "text",
+      "fixed_newlines": false
+    }
+  ],
+  "conditions": [
+    "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+    "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+    "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+    "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+    "Architecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.",
+    "Explicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested."
+  ],
+  "ratio": "16:9",
+  "own_direction": {
+    "role": "R14-C1-M2",
+    "ratio": "16:9",
+    "content_form": "한 공간을 멀리 보는 컷과 빛이 걸리는 경계를 가까이 보는 컷을 비균등하게 이어, 함께 사진을 비교하며 공간 이야기를 듣는 관찰의 편집으로 만든다. 반복되는 개구부 가장자리가 컷들을 연결하되 시간 변화나 변환의 전후를 주장하지 않는다.",
+    "whole_expression_style": "세로로 크게 잘린 벽체, 가로로 열린 천장 빛, 비스듬한 가까운 반사면이 맞물리는 현대 사진 편집 포스터. 연속된 밝고 어두운 사진 면이 모든 화면 끝을 사용하고, 가운데 생긴 좁은 틈에 세 줄 제목이 서 있다. 균등 타일·작은 사진 열·하단 사진 띠를 만들지 않는다.",
+    "reference_transfer": {
+      "sources": [
+        "vi-anne-photocollage",
+        "mon-life-banner"
+      ],
+      "observed_principle": "비균등 사진 경계가 빈 공간과 제목의 방향을 조직하고, 서로 다른 이미지 규모가 내용의 역할을 나눈다.",
+      "new_decision": "표정의 연속 대신 같은 공간의 원경/근경 관찰을 수평 매체 전체에 편집한다. 제목의 폭은 사진 사이의 세로 틈, 정보의 자리는 각 컷의 조용한 면이 결정한다.",
+      "limits": "얼굴·낙하 장면·원작 계단 띠·브랜드 나선·프로그램 배열을 복제하지 않는다. Canva 두 이미지는 전체 판형 참고로 쓰지 않는다."
+    },
+    "layout": {
+      "large_relationship": "큰 사진 경계가 가로 화면을 지그재그로 관통하고, 좁은 중앙 정체성과 넓은 주변 관찰 면이 대비한다. 같은 위치에 독립 그림 상자를 배치하는 콜라주가 아니라 크롭의 연속과 서로 다른 거리로 한 판을 만든다.",
+      "alignment": "세 줄 한글은 중앙 틈의 곧은 기준선에 왼쪽 정렬. 주변 안내는 사진마다 새 각도를 주지 않고 동일한 수평 활자이며 컷의 여유로운 면과 접한다.",
+      "visible_reading_route": "가까운 벽의 큰 크롭 → 중앙 세 줄 제목 → 왼쪽 위 일정·장소·입장 → 오른쪽 위 참여 조건 → 오른쪽 아래 행사 부제 → 왼쪽 아래 방문·환영. 상단 양쪽 그룹은 한 시선 이동으로 연결하고 부제는 사진 경계가 내려오는 끝에 붙인다."
+    },
+    "typography": "한글 제목 42px의 약간 좁은 고딕 중간 무게, 세 줄의 짧은 어절로 세로 틈을 점유한다. 영어 12px은 제목 위 작은 시작점. 날짜/시간 17px, 장소/입장 16px, 참여 15.5px, 부제/환영 16px의 고딕 보통 무게. 사진 편집의 강도가 주도하며 날짜를 별도 전시 글자로 키우지 않는다.",
+    "image": "새로 만든 익명의 같은 실내를 원경·개구부 근경·천장/반사면 관찰로 편집한다. 식별되는 가장자리 방향은 유지하되 각 사진의 밝기와 크롭은 고유하다. 사진 위에 색 필터만 얹은 균등 카드, 기존 사진 파일 재사용, 가짜 접촉 인화 번호는 제외한다.",
+    "material": "현대의 선명한 사진과 깨끗한 편집 경계. 겹치는 부분은 컷 경계로 명확히 처리하고 가짜 테이프·찢김·먼지·작은 필기 없이 마감한다.",
+    "color": "크림빛 노출 면, 짙은 적갈색 그림자, 옅은 회청 반사가 컷의 거리 차이를 만든다. 글자는 밝은 컷 위의 먹색과 어두운 컷 위의 흰색으로 제한한다.",
+    "emotion": "가까이 들여다보고 서로 다른 발견을 나누는 활발한 관찰. 실험적 편집의 긴장과 주민 안내의 명료함이 함께 남는다.",
+    "copy_groups": [
+      {
+        "purpose": "사진 사이 틈의 세로 정체성",
+        "copy_indexes": [
+          0
+        ],
+        "area_720": [
+          281,
+          103,
+          155,
+          151
+        ],
+        "font_px_at_720": 42,
+        "line_plan": [
+          {
+            "copy_index": 0,
+            "lines": [
+              "빛이",
+              "머무는",
+              "집"
+            ],
+            "line_height_px": 48
+          }
+        ],
+        "alignment": "left"
+      },
+      {
+        "purpose": "틈의 작은 진입 표식",
+        "copy_indexes": [
+          1
+        ],
+        "area_720": [
+          285,
+          80,
+          134,
+          20
+        ],
+        "font_px_at_720": 12,
+        "line_plan": [
+          {
+            "copy_index": 1,
+            "lines": [
+              "OPEN HOUSE"
+            ],
+            "line_height_px": 18
+          }
+        ],
+        "alignment": "left"
+      },
+      {
+        "purpose": "왼쪽 위의 일정",
+        "copy_indexes": [
+          3,
+          4
+        ],
+        "area_720": [
+          32,
+          27,
+          211,
+          50
+        ],
+        "font_px_at_720": 17,
+        "line_plan": [
+          {
+            "copy_index": 3,
+            "lines": [
+              "2027.02.06 토요일"
+            ],
+            "line_height_px": 24
+          },
+          {
+            "copy_index": 4,
+            "lines": [
+              "13:00–15:00"
+            ],
+            "line_height_px": 24
+          }
+        ],
+        "alignment": "left"
+      },
+      {
+        "purpose": "같은 컷의 장소와 입장",
+        "copy_indexes": [
+          5,
+          6
+        ],
+        "area_720": [
+          32,
+          94,
+          211,
+          54
+        ],
+        "font_px_at_720": 16,
+        "line_plan": [
+          {
+            "copy_index": 5,
+            "lines": [
+              "연남 생활문화공간"
+            ],
+            "line_height_px": 25
+          },
+          {
+            "copy_index": 6,
+            "lines": [
+              "12:40부터 입장"
+            ],
+            "line_height_px": 25
+          }
+        ],
+        "alignment": "left"
+      },
+      {
+        "purpose": "오른쪽 밝은 컷의 참여 조건",
+        "copy_indexes": [
+          7,
+          8
+        ],
+        "area_720": [
+          447,
+          34,
+          243,
+          56
+        ],
+        "font_px_at_720": 15.5,
+        "line_plan": [
+          {
+            "copy_index": 7,
+            "lines": [
+              "관람 무료 · 해설 제공"
+            ],
+            "line_height_px": 25
+          },
+          {
+            "copy_index": 8,
+            "lines": [
+              "사전 신청 · 정원 24명"
+            ],
+            "line_height_px": 25
+          }
+        ],
+        "alignment": "left"
+      },
+      {
+        "purpose": "편집이 닿는 끝에서 두 경험의 결합",
+        "copy_indexes": [
+          2
+        ],
+        "area_720": [
+          451,
+          272,
+          240,
+          52
+        ],
+        "font_px_at_720": 16,
+        "line_plan": [
+          {
+            "copy_index": 2,
+            "lines": [
+              "건축 사진전 ·",
+              "공간 이야기"
+            ],
+            "line_height_px": 23
+          }
+        ],
+        "alignment": "left"
+      },
+      {
+        "purpose": "왼쪽 낮은 컷의 편안한 방문",
+        "copy_indexes": [
+          9,
+          10
+        ],
+        "area_720": [
+          32,
+          306,
+          253,
+          62
+        ],
+        "font_px_at_720": 16,
+        "line_plan": [
+          {
+            "copy_index": 9,
+            "lines": [
+              "편한 신발로 방문해 주세요"
+            ],
+            "line_height_px": 27
+          },
+          {
+            "copy_index": 10,
+            "lines": [
+              "건축을 몰라도 괜찮아요"
+            ],
+            "line_height_px": 27
+          }
+        ],
+        "alignment": "left"
+      }
+    ],
+    "template_counterfactual": "사진을 균등 사각형이나 한 장의 일반 사진으로 교체하면 중앙의 좁은 제목 틈과 주변의 불연속 여백이 사라진다. 중앙 세 줄 정체성을 둔 편집 구조 자체가 이 방향이며, 넓은 제목 정보 면 옆에 사진 열을 붙이는 Canva 판형으로 평탄화하지 않는다."
+  },
+  "supplied_assets": [],
+  "scope": "Own single role only; no peer or critic evidence",
+  "normalization": "nfc-ws-optical-v1",
+  "ratio_policy": "Nearest-integer rounding of one native edge <=0.5 pixel; actual native dimensions reported; no resizing"
+}

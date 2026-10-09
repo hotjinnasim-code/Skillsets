@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R19-C1",
+  "role": "R19-C1-M1",
+  "candidate": "V",
+  "ordinal": 1,
+  "expected_count": 5,
+  "ratio": "16:9",
+  "direction": {
+    "ratio": "16:9",
+    "working_name_not_printed": "Photographic encounter: small pot and enveloping canopy",
+    "whole_relationship": "Unequal diagonal photographic encounters connect a modest two-line title at the lower-left seam to a broad middle paragraph, then turn into the market visit column at the right-hand crop edge.",
+    "positive_direction": "Build a photographic editorial poster about choosing a plant whose scale belongs in a home. Edit an intimate row of small nursery pots at the lower left against an enveloping mature-leaf crop crossing the upper right. Between them, a closer view shows the natural attachment of a leaf to its stem and the rim of its actual pot. These are deliberate unequal crops; believable light, botanical attachment and pottery surfaces connect the photographs without implying different species are the same plant. The large leaf edge and descending pot row create a diagonal encounter. Its breathing seam is designed together with the real paragraph.\n\nSet ‘집 안의 / 작은 숲’ beside the lower-left pot row as the primary verbal anchor in a moderately large mature Korean serif with open counters and controlled stroke contrast. Give ‘LEAVES & LIVING’ a compact companion role on that same axis, substantially smaller and lighter. The canopy edge points upward into the nearby slogan and three-line explanation at the middle seam. Set that paragraph in a clear medium-weight Korean sans with balanced rectangular syllables, generous inner spaces, compact proportional Latin and aligned lining numerals. At the assumed SNS view, treat it as full reading copy, around a comfortable 16-pixel body rather than a caption; reserve a roughly half-width continuous area and normal leading.\n\nFrom its last line, the photographic crop meets the adjacent market-name/date/hours/venue column on the same horizontal ledge. Below that column, access and care remain adjacent, followed by the invitation and URL. Date weight is subordinate to the title but distinct from body weight. The invitation is a final conversational sentence. Use cool natural greens, charcoal, subdued porcelain and clean pale photographic highlights. Preserve photographic specificity and crisp planar type. The whole is an asymmetric encounter whose active image boundaries organize the reading turn.",
+    "hierarchy": {
+      "primary": {
+        "entry": 1,
+        "role": "Two-line Korean title at the lower-left photographic seam; strongest verbal weight, with actual word groups 집 안의 / 작은 숲."
+      },
+      "support": [
+        {
+          "entry": 2,
+          "role": "Smaller companion aligned immediately with title."
+        },
+        {
+          "entry": 3,
+          "role": "Body entry above the explanation at the canopy seam."
+        }
+      ],
+      "explanation": {
+        "entries": [
+          4
+        ],
+        "shape": "Broad three-line upright left-aligned rectangle at the middle seam."
+      },
+      "visit": {
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "shape": "Right-hand continuous column aligned to the paragraph's terminal horizontal ledge."
+      },
+      "next_action": {
+        "entries": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "shape": "Continuation below the visit group, access/care paired and invitation/URL adjacent."
+      }
+    },
+    "body_line_groups": [
+      "작은 화분부터 오래 키운 나무까지 만납니다.",
+      "재배자의 이야기를 듣고,",
+      "우리 집의 빛과 생활에 맞는 식물을 골라보세요."
+    ],
+    "body_end_to_next_info": "The final line sits beside the crop edge beginning the right-hand visit group; the nearby market name is its next start, with date/hours/venue underneath and access/care continuing below.",
+    "nearest_peer": {
+      "role_id": "R19-C1-M5",
+      "structural_distinction": "M1 uses unequal diagonal crops and an ascending title-to-middle-paragraph turn; M5 uses a rectilinear painted scene sequence, invitation first, central caption hinge and lower central visit destination.",
+      "style_distinction": "M1 retains camera-specific botanical and pottery surfaces; M5 uses expressive painted masses, controlled brush edges and dark jewel-toned pictorial intervals."
+    },
+    "role": "R19-C1-M1"
+  },
+  "common_constraints": [
+    "count: 5",
+    "ratio: 16:9",
+    "output: One complete flat opaque landscape poster per maker; complete native generation directly, not a mockup, comparison sheet or manually composed final.",
+    "copy: Print each of the twelve supplied entries once, preserving actual Korean, Latin, numbers, spaces and punctuation. Entry indices in this plan are internal references and are never printed. No new words, labels, numbers, captions, logo, QR, plant tags, watermark or incidental image lettering.",
+    "ratio_resolution: Preserve requested ratio and request the maximum supported native resolution. No fixed source pixel dimensions are invented.",
+    "display_assumption: A 720-pixel-wide SNS view is an internal planning assumption, not a client pixel requirement, a new quality threshold, or proof of final readability.",
+    "body_construction: Allocate the actual explanation and useful visit information substantial readable space from the outset. Body line groups below are meaningful current design choices, flexible where the complete result works; they do not authorize rewriting copy or fitting a good result to coordinates. Mature Korean/Latin/numeral forms, meaningful word spaces, precise flat typesetting and clear contrast remain coherent within each group.",
+    "punctuation: Keep supplied date and hours range dashes, colons, middle dots, ampersand, periods and URL exactly. Give range dashes optically distinct extended midline forms, preserving numeric baselines and word boundaries. Font descriptions specify visual anatomy, not certification that native generation applied a font file.",
+    "default_exclusion: Exclude passive solid, near-solid or split-field headline/date/information templates with subordinate images, including small-image, texture, font-substitution and empty-room text-board variants. Current instructions do not release this exclusion. Gothic, quiet space, pictorial scenes and a suitable individual direction's column remain available when the whole image-and-copy relationship fulfills this request.",
+    "style: Five current-content choices, not a permanent five-family runtime menu. Avoid clay/toy/complementary packages and repeating a large object, large heading and tiny footer. Plants carry substantive meaning and spatial organization, not merely garnish information.",
+    "Reuse accumulated ideas without source artwork re-opening. This case supplies no client image or supporting guide; create a complete first native poster directly. Current central coordinates/line groups/optical choices are design choices, not new client preservation conditions. Preserve every literal actual requirement and the unchanged native-call bounds."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "1919330d9c899aeab9b721d2d3bc30a30784c035298d12235aaecf2c45afc9a7",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "6e7e8818ec39943d3f68764a4123af391c15718c97a8820dd63ebd5ddc371c70"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/case.json",
+    "sha256": "b64d0c38b1c6ad8e28fccf78d196c889cc525417024d22e4b4d367f54a008401"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "role": "R7-B07-M3",
+  "chosen_stage": "repair-1",
+  "recorded_at_utc": "2026-10-08T01:50:45.045576+00:00",
+  "inspected_returned_stages": [
+    "initial",
+    "repair-1",
+    "repair-2"
+  ],
+  "reason": "Repair-1 reduces the initial large chipped-looking dark patches while preserving all readable copy and layout. Repair-2 makes larger loop-like texture more conspicuous in the key head center without removing pervasive metal texture; it is therefore not preferred merely because it is newer.",
+  "selected_native_dimensions": [
+    1024,
+    1536
+  ],
+  "selected_residuals": [
+    {
+      "view": "native",
+      "location": "Upper lever grip and protected neck; lower key head center",
+      "observation": "Dark flaking-looking islands are reduced, but closely spaced wavy scratch/etch marks still cover almost every part of the grip and head, including protected areas. Both surfaces now have similar fine pattern scale.",
+      "impact": "The broad smooth touched patch versus narrow smooth touched rim is still less distinct than specified."
+    },
+    {
+      "view": "native",
+      "location": "Lower cylinder face and outer plate",
+      "observation": "Dense scratch lines occupy much of the cylinder and plate, making protective and touched areas similarly weathered.",
+      "impact": "Material finish competes with the contact-specific interpretation."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Central information area, detailed visit information",
+      "observation": "The large title and both objects remain evident; small detail text is comfortable at usage720 and less comfortable at thumbnail size.",
+      "impact": "All-detail readability is attested at usage720, not every possible display size."
+    }
+  ],
+  "limits": [
+    "Fine wavy finish remains too pervasive for fully isolated smooth hand-contact wear.",
+    "Actual native dimensions measured; maximum supported output and print suitability are not independently established."
+  ],
+  "native_calls": 3,
+  "repair_calls": 2,
+  "returned": 3,
+  "failed": 0,
+  "quality_pass_claimed": false,
+  "self_scores_assigned": false
+}

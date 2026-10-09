@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "role": "R14-C1-M2",
+  "selected_stage": "repair-1",
+  "reason": "Restores the assigned three-line title inside the narrow photo seam and retains all eleven readable copy entries and the substantive full-bleed editing structure. Initial retained but not selected because its title crossed the seam. Minor texture softening and small practical type recorded.",
+  "selected_manifest": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/manifest.json",
+    "sha256": "53b2186c270c2cd4c82af6908ee79344bdf33a00c19f608313d90ac62284333e"
+  },
+  "selected_inspection": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/inspection.json",
+    "sha256": "abf7a7705e34466b886e7e01b77fd8352ea81f531f1b19a60dafa4a2c14ac555"
+  },
+  "parent_comparison": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/parent-comparison.json",
+    "sha256": "3c812d2ccde383b92de667f984f20cfb9c1b6466e6a580b1592c435048216a59"
+  },
+  "counts": {
+    "native_calls": 2,
+    "returned": 2,
+    "failed": 0,
+    "repair_calls": 1
+  },
+  "residuals": [
+    {
+      "view": "usage720",
+      "location": "small practical guides, especially lower-left welcome",
+      "observation": "The guide type appears smaller than the initial planning range; all lines were read at 720px width, but the smallest guidance offers limited comfort at still smaller display widths."
+    },
+    {
+      "view": "native",
+      "location": "cream wall / reflective floor",
+      "observation": "The edit slightly softens photographic surface texture relative to initial."
+    },
+    {
+      "view": "native",
+      "location": "time-range punctuation",
+      "observation": "The dash is visually read as an en dash; underlying Unicode code point cannot be certified from a raster."
+    }
+  ],
+  "external_critic_scores_received": false,
+  "quality_scores_assigned": false
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R7-D1",
+  "role": "R7-D1-M5",
+  "candidate": "H",
+  "ordinal": 5,
+  "expected_count": 5,
+  "ratio": "2:3",
+  "direction": {
+    "role": "R7-D1-M5",
+    "ratio": "2:3",
+    "fullcopy": "서로 다른 속도",
+    "concept": "Under the same gravity, different materials take different time to arrive.",
+    "substantive_non_glyph_visual": "Two similar unlabeled vessels pour simultaneously: thin water has descended into a lively splash and a spread pool, while thick syrup is still drawing out a long connected neck with a much smaller arrival below. The vessels, continuous streams and receiving surface must be physically readable. The unequal descent and arrival are major forms, not little droplets decorating an otherwise typographic poster.",
+    "expression_system": "A tightly staged material study with credible gravity, consistent light and distinct surface responses for transparent water and viscous syrup. Use the stretching neck, splash geometry and pooling to describe the processes; avoid generic floating-product gloss. The title uses clean, measured Hangul in a substantial stacked word group, without stretching the glyphs to imitate liquid.",
+    "copy_visual_relationship": "The title's downward reading occupies the irregular interval between the two pours, relating the vessels to their unequal arrivals. Its whole-word grouping follows the descent while stable spacing provides a readable counter-rhythm. The maker determines the available span and crop so neither stream, splash nor highlight obscures a syllable; there is no separate footer or vessel label.",
+    "closest_other_role": "R7-D1-M1",
+    "distinction": "M5 builds a controlled vertical field of material tension and accumulation, with type participating in descent. M1 observes lateral human passage in a shared environment and uses a quiet horizontal title as a still point. M5 must read through viscosity and arrival, rather than borrowed motion blur or two passing figures."
+  },
+  "common_constraints": [
+    "Print the supplied title exactly once, with intact readable Hangul and the original word spacing. Line breaks may occur between whole words. The directions are internal guidance and must not be printed.",
+    "No other copy, supporting text, labels, numbers, logos, series identifiers, style names or watermarks. Depicted clothing, objects and surfaces must be unbranded and free of incidental text.",
+    "Each assigned maker produces only its own independent, single flat opaque poster, portrait 2:3. No panels, contact sheets, poster mockups or borrowing another maker's generated image as a reference.",
+    "The substantial non-glyph relation must remain recognizable with the title hidden and at reduced viewing size. Tiny ornament, wallpaper, background texture, gradients and 3D lettering alone do not satisfy it.",
+    "Preserve the assigned relation and distinction while solving practical crop, proportion, palette, alignment and title placement independently. There is no shared title-object-footer layout or common allocation of image and copy area.",
+    "Downstream native-tool production must request the maximum resolution supported by the current tool and model while preserving 2:3; verify the actual returned dimensions and readable copy after generation."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "382f0b028ce29455905ff77cc868e3d973816cf10311957fa8e8a71238416906",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "1e452fe193e537ace783b36014fc65fb17d96c03b4a0ee66dfc4ddf4a5d392cd"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M5/case.json",
+    "sha256": "499d3898eb61e9043120848c140812b822dcac3e238dd87048f5623873f6d348"
+  }
+}
