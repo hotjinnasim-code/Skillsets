@@ -1,0 +1,143 @@
+{
+  "scope": "delivery-only forward execution using existing selected files in Codex desktop",
+  "natural_requests": {
+    "A": "다섯 시안 제작과 검수는 끝났어. 제작자들이 반환한 history/delivery-fix/forward/five-selected.json을 사용해서 최종 답변을 작성해줘.",
+    "B": "3번 시안을 수정했어. history/delivery-fix/forward/one-edited.json의 선택된 수정본을 최종 답변으로 전달해줘."
+  },
+  "behavior_observations": [
+    "A delivers all five SELECTED roles in role order, with each style label, original pixel dimensions, individual inline preview, and immediately following original download link.",
+    "B delivers only the selected M3 repair-1 file and its preview; the previous initial original is not delivered or read.",
+    "Absolute local file paths use Markdown angle-bracket destinations to preserve spaces; original links target selected original.png files, not usage-720.png previews.",
+    "Hashes, byte counts, and PNG dimensions match the supplied metadata. No quality verdict, generation, retouch, aesthetic QA, repository edit, upload, or publication occurred.",
+    "The responses are saved verbatim as final-answer Markdown. They do not claim a new production run, independent quality approval, maximum resolution, or unchanged details."
+  ],
+  "exact_inputs_read": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/AGENTS.md",
+      "sha256": "3ad3a53f09bffa6e91d56ab691d85dfba41531fafe1d3c74a96aa883f53d05ea",
+      "bytes": 929,
+      "read_for": "instructions"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/SKILL.md",
+      "sha256": "0e84f4e120013449f3a3d82f44b0f4486dcb3fa44cbf2a325f620bc6c928018d",
+      "bytes": 26440,
+      "read_for": "instructions"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/Skillsets/skills/ducttape-poster/references/evaluation-loop.md",
+      "sha256": "91553006db6ed19d26bb0d75e7e0227d8285099a3c77909edb0b32eb45db950c",
+      "bytes": 20321,
+      "read_for": "instructions"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/five-selected.json",
+      "sha256": "e9a6aa9d46ca1232e14f1c03cf6268b2c892407cc19b2c01b96df69e763f15fd",
+      "bytes": 3889,
+      "read_for": "selected fixture metadata"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/one-edited.json",
+      "sha256": "7d12628265081703919fee0dca274e1d16ba4db415c3e74297e28aec24687b33",
+      "bytes": 1033,
+      "read_for": "selected fixture metadata"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M1/stages/repair-1/original.png",
+      "sha256": "5b2a8e9099cb0319527fef3ecf62230d60a1a3e7d617e01c7e2552477aafbbf2",
+      "bytes": 2240404,
+      "width": 1672,
+      "height": 941,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M1/stages/repair-1/usage-720.png",
+      "sha256": "979ff86fa24eab5ad2f331055aeccfda643b3c6cd5c988fd7389f64a2e27d1ca",
+      "bytes": 504249,
+      "width": 720,
+      "height": 405,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/initial/original.png",
+      "sha256": "6836f2c388cbc31987704673a25f1e13777550fc88b1da8e92b445659882476b",
+      "bytes": 1402252,
+      "width": 1672,
+      "height": 941,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M2/stages/initial/usage-720.png",
+      "sha256": "71d90112f47abd0e723fc8e821507002620898c7d587d29729818367ceaff6d6",
+      "bytes": 300127,
+      "width": 720,
+      "height": 405,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/repair-1/original.png",
+      "sha256": "255197efe702bc8286806c4e51b727d22b8893a1803c4d494bbfd812817425ff",
+      "bytes": 1741295,
+      "width": 1024,
+      "height": 1536,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M3/stages/repair-1/usage-720.png",
+      "sha256": "f104fc429f006fd6badcaa1868c5afcb51f41d75c7e89b3efc36fe862492a749",
+      "bytes": 867946,
+      "width": 720,
+      "height": 1080,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/original.png",
+      "sha256": "b6fe5002d8d1faf576363997a2e0b4672f3ea53554dd1580e2d74030056252de",
+      "bytes": 2795120,
+      "width": 1024,
+      "height": 1536,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/usage-720.png",
+      "sha256": "f21dfe4e0ce0ac4fb57ea0b6b1ebe29a4ad4a9ab4aec1615d7fdba91e78186fb",
+      "bytes": 1367222,
+      "width": 720,
+      "height": 1080,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/repair-1/original.png",
+      "sha256": "d0fcea8fb19628aee90bf2117346fb4d749cf241e0a940567e19ea5fba74ea0f",
+      "bytes": 2831960,
+      "width": 1024,
+      "height": 1536,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M5/stages/repair-1/usage-720.png",
+      "sha256": "2b9e8e54fa702f90d441eeb3501988924ad4133704a3feb147bd52f3785e69cf",
+      "bytes": 1455114,
+      "width": 720,
+      "height": 1080,
+      "read_for": "file identity and PNG dimensions; no aesthetic QA"
+    }
+  ],
+  "outputs": {
+    "five-answer.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/five-answer.md",
+      "sha256": "1f6455ac8757a5adb976f8d670f80d3ca4a0e1c13fa50f51f21c8a9045320de3",
+      "bytes": 1670,
+      "image_blocks": 5,
+      "original_download_links": 5
+    },
+    "one-edit-answer.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/one-edit-answer.md",
+      "sha256": "7b00e18b8a74886ff32bc4bd7b9682f47de5b77c77e6a80b180035c5d8b8ddaa",
+      "bytes": 400,
+      "image_blocks": 1,
+      "original_download_links": 1
+    }
+  },
+  "output_observation_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/delivery-fix/forward/five-and-edit-observation.json"
+}
