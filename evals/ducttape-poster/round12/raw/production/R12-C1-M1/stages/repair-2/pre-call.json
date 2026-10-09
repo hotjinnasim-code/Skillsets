@@ -1,0 +1,69 @@
+{
+  "role": "R12-C1-M1",
+  "stage": "repair-2",
+  "attempt_number": 3,
+  "prepared_at_utc": "2026-10-08T08:30:44.359742+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "planned_arguments": {
+    "call_input": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/repair-2/call-input.json",
+      "sha256": "4ca07c906d067df154a92cf06c32b850414668ee7e48451217166e998096fbbc"
+    },
+    "canonical_json_sha256": "163ecc8e572655697073937156bdfbe6c8dd838ce3def7053feb6ddf407264f0",
+    "canonical_method": "UTF-8 JSON sorted keys with compact separators"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/case.json",
+      "sha256": "429b10910b93098d555224fb492342a44ab76fcc932eb2454914ef45fcacb440"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/assignment.json",
+      "sha256": "5aab3021d3aadf400edc7e0c7ec6788d8557c68c0be5ce5da463862f00e62fa4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/repair-1/inspection.json",
+      "sha256": "7d3e7b846d891af774fdb7617176e7d1a1807207f023087ca5cba120b7007369"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/repair-1/manifest.json",
+      "sha256": "1e292ac0f47dc843a7ca362746b58700fdf3ee170b39accf6f4ab4c48fa22885"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/repair-1/parent-comparison.json",
+      "sha256": "a340f5fcb70f90de4aee677c6a5ed2ddc66550863a5fa6b3e5b04dc0e5c886e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/repair-1/native-call.json",
+      "sha256": "823ee78279188dc442eb427d6900502e9a543b4e7eb29a21b858386ff80ae8b6"
+    }
+  ],
+  "supplied_reference_pins": [],
+  "own_target_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/stages/repair-1/original.png",
+      "sha256": "c34d83d4deb0c54cf48fe7ad58c9f2f0375cd6da9110a688444e008a4f7ea3ce",
+      "bytes": 1998651,
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "actual_target_stage": "repair-1",
+  "own_observed_repair_cause": [
+    {
+      "view": "native",
+      "location": "Main pouch front, rear pouch and shirt torso, both slate and rust regions",
+      "observation": "Fine repeated winding/maze-like surface markings are stronger than in initial and do not read as natural jersey knit. Surface has an embossed/printed appearance."
+    }
+  ],
+  "maintained_features": [
+    "All11 copy entries once and720 readable",
+    "Corrected hours leading1 and en dash",
+    "Clean quiet upper tabletop without plant/textile props",
+    "Whole layout and source/result/shared pouch correspondence",
+    "Two adult hand contacts, open mouth and seams",
+    "Soft daylight adult documentary genre; opaque16:9 native rounding"
+  ]
+}

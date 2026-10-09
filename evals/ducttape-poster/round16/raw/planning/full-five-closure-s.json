@@ -1,0 +1,129 @@
+{
+  "closed_utc": "2026-10-08T15:07:38.949856+00:00",
+  "candidate": "S",
+  "case": "R16-C1",
+  "one_request": true,
+  "requested_images": 5,
+  "native_calls": 14,
+  "maker_sessions": 5,
+  "critic_sessions": 6,
+  "all_actors_closed": true,
+  "initial_all_required_repairs": true,
+  "waves": {
+    "initial": {
+      "procedure_gate": "NA",
+      "procedure_errors": [
+        "portfolio: trace contains a failed turn/error"
+      ],
+      "image_gate_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "NA": 5
+      },
+      "image_gates": {
+        "R16-C1-M1": "NA",
+        "R16-C1-M2": "NA",
+        "R16-C1-M3": "NA",
+        "R16-C1-M4": "NA",
+        "R16-C1-M5": "NA"
+      },
+      "set_gate": "NA",
+      "counts": {
+        "requested_images": 5,
+        "packet_images": 5,
+        "critics": 3,
+        "expected_views_per_critic": 15,
+        "expected_image_profile_records": 15,
+        "observed_image_profile_records": 15,
+        "expected_score_values": 105,
+        "observed_score_slots": 105,
+        "valid_integer_1_to_5_score_values": 105
+      },
+      "summary": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/initial/summary.json",
+        "sha256": "e148b5facb5e1fce887862f07c0f8c8d23e17f13f38bb8e1148847b09a9138ff",
+        "bytes": 1136932
+      },
+      "diversity_original": {
+        "editorial": 3,
+        "craft": 3,
+        "portfolio": 3
+      },
+      "audits": [
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/initial/source-asset-audit.json",
+          "sha256": "a29e6dd24796881a3dccadec593d7303db599b301399d7e75f58db8a5306a350",
+          "bytes": 2780
+        },
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/initial/compact-binding-audit.json",
+          "sha256": "4e75992ce7e46113109a00249f7aabd3737e06c2f62cd7fa5a5f54e45781116a",
+          "bytes": 11748
+        }
+      ]
+    },
+    "selected": {
+      "procedure_gate": "PASS",
+      "procedure_errors": [],
+      "image_gate_counts": {
+        "PASS": 0,
+        "FAIL": 3,
+        "NA": 2
+      },
+      "image_gates": {
+        "R16-C1-M1": "FAIL",
+        "R16-C1-M2": "NA",
+        "R16-C1-M3": "FAIL",
+        "R16-C1-M4": "NA",
+        "R16-C1-M5": "FAIL"
+      },
+      "set_gate": "NA",
+      "counts": {
+        "requested_images": 5,
+        "packet_images": 5,
+        "critics": 3,
+        "expected_views_per_critic": 15,
+        "expected_image_profile_records": 15,
+        "observed_image_profile_records": 15,
+        "expected_score_values": 105,
+        "observed_score_slots": 105,
+        "valid_integer_1_to_5_score_values": 105
+      },
+      "summary": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/selected/summary.json",
+        "sha256": "009425e43178359ce269619330859aeac450d88c69c33234b1a79e511afbbe62",
+        "bytes": 1126184
+      },
+      "diversity_original": {
+        "editorial": 3,
+        "craft": 3,
+        "portfolio": 3
+      },
+      "audits": [
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/selected/source-asset-audit.json",
+          "sha256": "0ae162adace722f8cd5803624be150c22c8bb765d4ce8e71af38018ec17bac4a",
+          "bytes": 2785
+        },
+        {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/selected/compact-binding-audit.json",
+          "sha256": "9e2ce59f981dbc1f3b56a60fd1b8e2739f06933ad434b21c9d35837f2287ffdd",
+          "bytes": 12901
+        }
+      ]
+    }
+  },
+  "no_post_critic_repair_or_reselection": true,
+  "generalized_causes": [
+    "Most outputs repeat left product/right copy despite different media.",
+    "Body area and display-scale letter size were not resolved before headline/image scale.",
+    "Roughness or perspective in body carriers weakens practical reading."
+  ],
+  "quality_thresholds_changed": false,
+  "limits": [
+    "Initial trace error keeps the original procedure NA.",
+    "Selected copy uncertainty keeps two original image NA records.",
+    "105 integer scores per wave are retained; no NA or low score replaced.",
+    "This single commercial 16:9 case does not establish universal performance."
+  ]
+}

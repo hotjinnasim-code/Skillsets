@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-08T01:39:57.822113+00:00",
+  "before_any_critic_or_review_packet": true,
+  "observed_failure": "All seven actual corpus cases have structured style objects; frozen v1 accepts only array/string. Actual literal-case preflight failed for all seven before critic generation.",
+  "original": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/prepare_reviews.py",
+    "sha256": "873dcaf0a7c13f8a3222ef3caf1974e918c405ef5ae0dc46b2c2e03c914f699c"
+  },
+  "repair": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/prepare_reviews_v2.py",
+    "sha256": "6fcb2f3e792c174f65c38684b0447b5a137f5de72f01df3cf0bd029968996771"
+  },
+  "scope": "Accept the actual structured style metadata and serialize it unchanged using the existing JSON path; pin the actual v2 preparer filename. No copy, style meaning, count, ratio, source assets, quality gate or critic replacement changed.",
+  "diff": "--- prepare_reviews.py frozen v1\n+++ prepare_reviews_v2.py\n@@ -187,8 +187,8 @@\n     styles = case.get(\"styles\", [])\n     if not isinstance(conditions, list) or any(not isinstance(c, str) for c in conditions):\n         raise ValueError(\"Literal case conditions must be a string array\")\n-    if not isinstance(styles, (list, str)):\n-        raise ValueError(\"Literal client styles must be an array or string\")\n+    if not isinstance(styles, (list, str, dict)):\n+        raise ValueError(\"Literal client styles must be an array, string or structured object\")\n     return case[\"request\"] + \"\\n\\nLiteral client styles:\\n\" + (styles if isinstance(styles, str) else json.dumps(styles, ensure_ascii=False)) + \"\\n\\nLiteral mandatory client conditions:\\n\" + \"\\n\".join(conditions)\n \n \n@@ -310,7 +310,7 @@\n             inventories[role[\"role_id\"]] = terminal(production, role, case[\"case_id\"])\n     barrier = all(r[\"closed\"] for r in inventories.values())\n     readiness = {\"schema_version\": 1, \"kind\": \"critic_preparation_readiness\", \"wave\": args.wave, \"corpus\": evidence.pin(corpus_path), \"candidate_label\": args.candidate_label, \"planned_roles\": planned, \"planned_role_count\": len(planned), \"closed_role_count\": sum(r[\"closed\"] for r in inventories.values()), \"all_makers_closed\": barrier, \"maker_inventory\": inventories, \"cases\": {}, \"jobs\": [], \"launched\": False}\n-    helpers = {name: evidence.pin(ROOT/name) for name in (\"evidence_io.py\", \"summarize.py\", \"run_agent.py\", \"prepare_reviews.py\")}\n+    helpers = {name: evidence.pin(ROOT/name) for name in (\"evidence_io.py\", \"summarize.py\", \"run_agent.py\", Path(__file__).name)}\n     rules_pin, rubric_pin = evidence.pin(ROOT/\"review_rules.md\"), evidence.pin(ROOT/\"critic_rubric.md\")\n     ratio_policy = evidence.pin(ROOT/\"planning/ratio-policy-before-generation.json\")\n     for case in cases:\n"
+}

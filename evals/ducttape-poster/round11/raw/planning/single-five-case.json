@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "scope": "Exactly one prospectively new request, five complete different native16:9 styles, after whole R10 closure. Not a20-image or multi-case campaign.",
+  "cases": [
+    {
+      "case_id": "R11-C1",
+      "phase": "prospective-new-landscape-transfer-after-closed-R10",
+      "candidate": "K",
+      "request": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n인쇄하고 읽는 밤\nPRINT & READ\n고무판 인쇄 · 짧은 낭독\n2026.12.12 토요일\n18:00–20:30\n망원 생활문화센터\n17:40부터 입장\n참가비 5,000원 · 재료 포함\n신청 후 참여 · 정원 24명\n앞치마 지참\n처음 해도 괜찮아요",
+      "copy": [
+        {
+          "text": "인쇄하고 읽는 밤",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "PRINT & READ",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "고무판 인쇄 · 짧은 낭독",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "2026.12.12 토요일",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "18:00–20:30",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "망원 생활문화센터",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "17:40부터 입장",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "참가비 5,000원 · 재료 포함",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "신청 후 참여 · 정원 24명",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "앞치마 지참",
+          "kind": "text",
+          "fixed_newlines": false
+        },
+        {
+          "text": "처음 해도 괜찮아요",
+          "kind": "text",
+          "fixed_newlines": false
+        }
+      ],
+      "count": 5,
+      "ratios": [
+        "16:9",
+        "16:9",
+        "16:9",
+        "16:9",
+        "16:9"
+      ],
+      "styles": {
+        "mode": "open",
+        "exact_request": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.",
+        "invocation_interpretation": "덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open."
+      },
+      "conditions": [
+        "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+        "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+        "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+        "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+        "Rubber-block printing onto paper and shared reading of that printed work must be visibly connected, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+      ],
+      "roles": [
+        {
+          "role_id": "R11-C1-M1",
+          "ordinal": 1,
+          "ratio": "16:9",
+          "assets": [],
+          "native_attempt_limit": 3,
+          "own_correction_limit": 2
+        },
+        {
+          "role_id": "R11-C1-M2",
+          "ordinal": 2,
+          "ratio": "16:9",
+          "assets": [],
+          "native_attempt_limit": 3,
+          "own_correction_limit": 2
+        },
+        {
+          "role_id": "R11-C1-M3",
+          "ordinal": 3,
+          "ratio": "16:9",
+          "assets": [],
+          "native_attempt_limit": 3,
+          "own_correction_limit": 2
+        },
+        {
+          "role_id": "R11-C1-M4",
+          "ordinal": 4,
+          "ratio": "16:9",
+          "assets": [],
+          "native_attempt_limit": 3,
+          "own_correction_limit": 2
+        },
+        {
+          "role_id": "R11-C1-M5",
+          "ordinal": 5,
+          "ratio": "16:9",
+          "assets": [],
+          "native_attempt_limit": 3,
+          "own_correction_limit": 2
+        }
+      ],
+      "asset_readiness": "ready-no-client-assets",
+      "source": "New virtual adult printmaking-and-reading request, prospectively chosen after whole R10 review closure; no poster on this request has been made or judged. It is not the literal film case reused during J development.",
+      "purpose": "One new five-style16:9 request probes transfer of substantive K generic mechanisms after retained R10 failures; denser11-entry copy, two connected actions, no individual old-image repair, no universal or isolated causal claim."
+    }
+  ],
+  "policy": {
+    "max_native_calls": 15,
+    "max_own_corrections_per_role": 2,
+    "max_fresh_critic_sessions": 6,
+    "max_worker_concurrency": 3,
+    "actual_images_generated": 0,
+    "quality_gate": "Every mandatory PASS and all seven dimensions>=4 for EACH of three complete fresh independent critics; every member PASS and diversity>=4 EACH. No averaging, majority, replacement or relaxed gate.",
+    "reviews": "Complete initial and selected sets. Full context/native identity alone permits retaining complete first3 including low and NA; otherwise fresh3 on all5.",
+    "usage_view": "Full-poster width<=720, aspect preserved without crop/upsampling. Thumbnail longest edge<=320. Landscape16:9 large exact return uses720x405 and320x180; actual measured native metadata remains authoritative.",
+    "freeze_scope": "Runtime K, case-specific full-reference planning and same pre-generation three-field compact v2 recording fixed before native calls. Frozen gates/normalization/ratio/call caps remain unchanged."
+  }
+}

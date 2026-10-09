@@ -1,0 +1,195 @@
+You are one fresh, isolated ducttape-poster maker. Own exactly R16-C1-M1, one final independent poster.
+Your working/output directory is /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M1. Do not spawn agents or create tasks. Do not read the full corpus, coordinator plans, other makers' directions/prompts/results, critic files, prior rounds, parent evaluation history or unrelated projects. Only read this job's pinned inputs and your own newly written evidence (plus the exact native source paths explicitly returned by your own tool). Never run another project executable or a wrapper/image-generation API, SDK, image CLI, credential/config/environment lookup. The only project helper you may execute is the pinned evidence_io.py below. Read-only access to exact pinned text and own-directory exclusive metadata writes/hash checks using the bundled Python are allowed. No Python/Pillow image or asset editing; the helper's QA-only reduction is the only pixel operation.
+
+First read these exact pinned inputs, applying the current SKILL and needed references. Read review_rules.md's native evidence/transcription contract. The evaluation reference does not authorize you to judge or inspect peers/critics:
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M1/case.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M1/assignment.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/snapshots/candidate-s/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/snapshots/candidate-s/agents/openai.yaml
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/snapshots/candidate-s/references/art-direction.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/snapshots/candidate-s/references/parallel-production.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/snapshots/candidate-s/references/visual-research.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/snapshots/candidate-s/references/evaluation-loop.md
+- /Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/review_rules.md
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/evidence_io.py
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/run_agent.py
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/capability-probe/result.json
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/prepare_production.py
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png
+- /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/manifest.json
+Read case.json and assignment.json. They contain the complete literal user input/common conditions and ONLY your assigned direction. Before designing, actually view every supplied image with tools.view_image through functions.exec, emitting it via image(...,'original'). Honor each supplied asset role and every requested identity/style/ratio/copy condition. Preserve reference geometry or measured_layout only when the user requests composition/position/proportion preservation; a style-only reference does not impose its coordinates. Old reference-poster copy is not new copy. All supplied images for this role are:
+[
+  {
+    "asset_id": "LAMP-FIXTURE",
+    "attachment_alias": "lamp-product.png",
+    "actual_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+    "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+    "width": 1254,
+    "height": 1254,
+    "manifest_path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/manifest.json",
+    "manifest_sha256": "31713763a5c3b89599f21387511a9859b0408697fe270d2df8b62f2740fa3af3",
+    "kind": "synthetic product photograph-style fixture, not real client photograph or a poster",
+    "ready": true,
+    "synthetic_authorized_fixture": true,
+    "real_client_photo": false,
+    "real_product": false,
+    "not_a_corpus_poster_candidate": true
+  }
+]
+
+COMPLETE ORIGINAL USER REQUEST (maker understanding and full verification context, not a compulsory native-prompt prefix):
+덕테이프 포스터로 가상 브랜드 온빛의 데스크 램프 체험전을 안내해줘. 첨부 상품 사진을 실제로 참고해 짙은 초록색, 넓고 휘어진 가로 갓, 연결된 두 지지대와 타원형 받침의 특징을 보존하고 각 포스터에서 제품 전체가 한 번은 보여야 해. 표현 방식을 바꿀 수 있고 배경이나 포스터 배치는 보존 조건이 아니야. 실제 출시 정보나 업체 로고는 만들지 말아줘. 제품의 구조와 책상 위의 빛을 경험하는 행사로 느껴지게 해줘. 디지털 홍보용 16:9 가로 포스터를 서로 다른 전체 스타일 다섯 장으로 만들어줘. 본문 설명과 일정·장소·방문 조건·웹주소가 시선의 흐름 안에서 자연스럽게 이어져 읽혀야 해. 제목만 눈에 띄고 본문은 구석에 흩어지거나 작은 글자로 눌리지 않게 해줘. 단색 바탕의 큰 고딕 제목과 정보 블록에 상품 그림을 부가한 템플릿, 글자를 담기 위한 빈 실내 면의 구성은 제외해줘. 아래 문구를 각각 한 번씩 정확히 넣어줘.
+
+저녁을 켜는 빛
+ONBIT / DESK LAMP
+조용한 빛으로 책상 위의 시간을 바꿉니다.
+넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.
+온빛 데스크 램프 체험전
+2027.04.09–04.11
+금–일 13:00–19:00
+성수 온빛 스튜디오
+관람 무료 · 현장 구매 가능
+예약 없이 방문
+책과 종이를 가져와 직접 빛을 느껴보세요.
+onbit.example/light
+
+ALL LITERAL COPY ENTRIES (full verification context; initial native spec prints this copy once, preserving exact strings, kinds, word spaces, punctuation and fixed-newline rules):
+[
+  {
+    "text": "저녁을 켜는 빛",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "ONBIT / DESK LAMP",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "온빛 데스크 램프 체험전",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "2027.04.09–04.11",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "금–일 13:00–19:00",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "성수 온빛 스튜디오",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "관람 무료 · 현장 구매 가능",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "예약 없이 방문",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "onbit.example/light",
+    "kind": "url",
+    "fixed_newlines": false
+  }
+]
+
+COMMON USER CONDITIONS/STYLES/RATIOS (honor every applicable condition in the result; the role's ratio is "16:9"):
+{
+  "conditions": [
+    "Each copy entry once, exact Korean/English words/numbers/punctuation and meaningful word spaces, no added print,logo,QR,watermark or invented specs.",
+    "Separate single flat opaque landscape16:9 posters; no mockup or comparison sheet.",
+    "Five genuinely distinct whole styles across image/editing/space/type/reading flow, not palette/material substitution of one layout.",
+    "Substantive content-grounded nonglyph visual construction; not tiny icon or texture embellishment.",
+    "Actually use the supplied synthetic lamp fixture in every native image call. Preserve deep forest-green color, wide horizontally curved shade, two connected supports and oval base; show at least one complete identifiable product each poster. Rendering style/background/scene/layout may vary, no protected poster position or original background.",
+    "A commercial lamp experience event, relating visible product structure and desk light to the invitation. Full descriptions,visit details and URL readable in their natural flow at usage720.",
+    "Exclude passive solid/near-solid/split-field gothic headline/date/information templates with subordinate images, including small-photo/texture/font-only or empty-room dressing. Gothic type and coherent image-led scenes themselves are permitted. No scoped composition override."
+  ],
+  "styles": {
+    "mode": "open",
+    "invocation_interpretation": "Skill invocation is not tape material requirement; product rendering can vary while identity/color remains"
+  },
+  "ratios": [
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9"
+  ]
+}
+COMMON COORDINATOR CONSTRAINTS:
+[
+  "Prioritize the concrete positive first-generation design and naturally connected body copy. Print full copy once in the native tool brief, no rubric or plan dump.",
+  "The current user request and exact product fixture are authoritative; implementation guidance is not an invented client-fixed coordinate/grid/font condition.",
+  "Use collected ideas; do not browse source websites or re-open studio/Canva originals for this request. Only the exact supplied lamp fixture is a mandatory viewed/native reference.",
+  "Five different whole styles; no common info panel, font or title-first layout added.",
+  "Do not read peer production or external quality feedback. Close own selection before independent evaluation."
+]
+YOUR OWN DIRECTION, no peer plan:
+{
+  "name": "연속 사진 편집",
+  "concept": "Use closely related views of the complete lamp and its light falling across a real open book as a photographic editorial sequence. The sequence itself organises the whole composition; not an empty room backdrop.",
+  "image_grammar": "Natural photographic depth, distinct whole-product and illuminated-page crops joined through a clear editing seam; no copied film frames. Product complete in one view with the reference geometry/color.",
+  "body_flow": "A lamp/light contact point leads into the two description sentences adjacent to the image seam. Keep those sentences continuous in a comfortably readable column. Continue from that column into an adjoining event/date/place group then visit/invitation/URL; related information shares optical starts and predictable spacing. The title labels the visual story and does not consume body area.",
+  "type": "Mature low-contrast Korean/Latin sans body, uniform glyph proportions/open counters, balanced numerals, moderate weight, semantic wrapping and calm consistent leading. Headline can have stronger optical mass without scaling that styling down into body.",
+  "distinctness": "Image sequence and an editorial seam organise reading, rather than an ink silhouette/diagram/painted still life or luminous abstraction.",
+  "role": "R16-C1-M1",
+  "ratio": "16:9"
+}
+
+Keep the complete request and verification record separate from a focused native production spec. Apply the skill's native-input boundary: exact printed copy once in the initial spec, all relevant client constraints, and your chosen concrete whole visual design. Do not mechanically prepend the request, copy JSON, plan JSON, rubric, or reference commentary to the tool prompt. Repairs state the observed change and protected relationships; retain any exact text needed for that edit and verify the entire copy after return. Do not drop necessary constraints to shorten a prompt.
+
+Native generation ONLY: tools.image_gen__imagegen via functions.exec, exactly one single flat opaque poster per call, transparent_background:false, assigned width:height ratio. No multi-poster comparison panels, contact sheet, mockup or extra experiment image. A single finished poster may contain legitimate content-based image sequences or information modules as its chosen layout. For this aspect-only case, include: "요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력". Explicit user pixel dimensions or lower-resolution requests take precedence; for those requests use the specified output size instead. This is a request, not proof of maximum output; measure the returned native dimensions.
+The predeclared ratio policy permits nearest-integer native rounding of one edge, <=0.5 pixel from the exact requested ratio on one dimension. Report actual dimensions, never resize or claim mathematically exact ratio, and do not spend a repair only on permitted rounding. Materially wrong aspect ratio still needs correction. This tolerance never overrides an explicit pixel-size request.
+One initial attempt plus at most TWO own repairs, including actual failed native attempts: at most three native invocations for this role/candidate, named initial, repair-1, repair-2 in that order. A new role name or regeneration does not reset the budget. Correct only your own actually inspected defects while retaining the specified genre and user constraints. Do not claim quality PASS or assign scores from self-inspection. Do not seek or receive external critic scores before exclusive selection closure.
+
+BEFORE EACH invocation, exclusively create stages/STAGE/call-input.json containing the COMPLETE EXACT JSON argument object that will be passed to tools.image_gen__imagegen (do not add metadata-only arguments). Separately exclusively create pre-call.json with role, stage, prepared_at_utc, native_tool, complete planned argument/input hash pins, supplied reference pins, own observed repair cause/maintained features, and attempt number. Save both before starting; do not retrofit them after a return. Keep the identical argument object in runtime store for the native invocation. Fresh initial without supplied references omits BOTH referenced_image_paths and num_last_images_to_include. With supplied assets, actually pass ALL required local asset paths using referenced_image_paths; omit num_last_images_to_include. For a bounded repair with a previous returned inspected own image, pass that exact own target and all required client assets using referenced_image_paths, never a peer result. If the immediate prior attempt failed, use the last actually returned inspected own target if any; otherwise make a fresh bounded retry with required client assets and no invented repair target. Preserve immediate-attempt failure evidence and record the actual target stage separately when it differs. Never guess a newer file or use directory newest-file scanning.
+
+The native functions.exec cell starts with exactly this directive:
+// @exec: {"yield_time_ms":120000,"max_output_tokens":1000}
+Before awaiting tools.image_gen__imagegen, store/emit the actual caller UTC start and role/stage. Emit meaningful native-wait status at intervals <=45 seconds via notify()/setTimeout while awaiting (no invented model percentage). Clear the timer on return/failure. Record actual caller UTC end and whether the invocation returned or failed; preserve explicit returned path/result hints and real error metadata separately in stages/STAGE/native-call.json after return. Its wrapper interval describes the awaited native call, not helper runtime or model internals. Do not print/notify raw result/base64; retain needed result metadata in runtime store and display the generated image with generatedImage(result) as supported. Never infer source paths or generation times from filenames/helper saved_at. When yielded, resume only that exec cell, without submitting the image call again.
+
+For every returned PNG, obtain its exact absolute source path from the actual tool return, then execute the pinned helper with safely quoted exact paths:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/evidence_io.py' save-native --role R16-C1-M1 --stage STAGE --source EXACT_RETURNED_ABSOLUTE_PATH --role-dir '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M1'
+Replace only STAGE/EXACT_RETURNED_ABSOLUTE_PATH with actual values. The helper saves byte-identical original.png/final.png, QA views and manifest.json. It does NOT edit typography, materials, crop or assets. If the returned source path is unavailable or preservation fails, preserve the actual error/tool evidence and report the unsealable return honestly; do not invent an image path or relabel a returned image as a failed native call. Stop for root handling rather than claiming a selectable asset.
+
+ACTUALLY inspect EVERY returned stage before deciding another native invocation, in this exact order: original.png at native detail, usage-720.png, thumbnail-320.png. For native display use:
+const v = await tools.view_image({path: exactOriginalPath, detail:'original'}); image(v.image_url,'original');
+Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS.
+
+Every returned repair needs exclusive parent-comparison.json: role, stage, parent_stage, parent_outcome:'returned'|'failure', the immediate parent's exact parent_manifest_sha256 and parent_native_sha256 OR parent_failure_sha256, changes:[], residuals:[]. Compare actually viewed returned stages, preserving earlier advantages; a failure parent has no visual comparison. Prefer the most suitable inspected result, not automatically the latest; preserve ALL returned originals, failures and unselected stages.
+For each actual failed native invocation, write failure.json with role, stage, outcome:'failure', native_call_count:1, error:the actual recorded error. Preserve its pre-call/input/native-call evidence. Failures count in the three-attempt cap; no placeholder images or false inspection.
+
+When one or more inspected native outcomes exist, choose the most suitable returned stage and execute only:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/evidence_io.py' finalize --role-dir '/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M1' --selected-stage CHOSEN_STAGE
+Replace CHOSEN_STAGE with initial, repair-1 or repair-2. selection.json is exclusive and immutable before any critics. Do not alter stage inputs, images, observations, selected pins or selection after closure. The helper rejects missing/out-of-order outcomes and nonexistent comparisons. Do not also create unavailable.json.
+ONLY when all THREE actual attempts failed, do not call finalize or fabricate selection.json. Exclusively write unavailable.json with schema_version:1, kind:'role_unavailable', case_id, role, outcome:'unavailable', closed:true, reason:actual failure explanation, counts:{native_calls:3,returned:0,failed:3,repair_calls:2}, stages:[{stage,outcome:'failure',failure:{path,sha256},input_pins:{call_input:{path,sha256},pre_call:{path,sha256}},native_call:{path,sha256}}] for all three preserved actual stages. selection.json and unavailable.json may NEVER coexist. Any interruption or returned-but-unsealable outcome is explicitly incomplete, not an invented all-failed terminal record.
+
+Return a compact account of the true terminal path, selected native dimensions if any, actual call/repair/failure counts, and concrete unresolved limits. No quality score, universal guarantee or extra image generation.
+
+REQUIRED FIRST-GENERATION DESIGN READ: /Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/snapshots/candidate-s/references/production-brief.md
+Apply current S: the supplied lamp fixture must actually be inspected and referenced. Studio/Canva ideas are already collected in the skill; fresh web research, re-opening source artworks and per-source view-note paperwork are not part of this run. Focus effort on actual content, mature body letterforms, semantic paragraph groups, optical alignments and the natural route into the next useful information.

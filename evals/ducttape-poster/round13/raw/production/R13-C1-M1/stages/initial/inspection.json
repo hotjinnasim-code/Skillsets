@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "role": "R13-C1-M1",
+  "stage": "initial",
+  "actual_viewed": true,
+  "recorded_at_utc": "2026-10-08T10:07:40.132098+00:00",
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M1/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M1/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M1/stages/initial/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native original detail:original",
+    "usage720 detail:original",
+    "thumbnail320 detail:original"
+  ],
+  "raw_observed_text": [
+    {
+      "copy_index": 0,
+      "raw_observed": "빛이 머무는 집"
+    },
+    {
+      "copy_index": 1,
+      "raw_observed": "OPEN HOUSE"
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "건축 사진전 · 공간 이야기"
+    },
+    {
+      "copy_index": 3,
+      "raw_observed": "2027.02.06 토요일"
+    },
+    {
+      "copy_index": 4,
+      "raw_observed": "13:00–15:00"
+    },
+    {
+      "copy_index": 5,
+      "raw_observed": "연남 생활문화공간"
+    },
+    {
+      "copy_index": 6,
+      "raw_observed": "12:40부터 입장"
+    },
+    {
+      "copy_index": 7,
+      "raw_observed": "관람 무료 · 해설 제공"
+    },
+    {
+      "copy_index": 8,
+      "raw_observed": "사전 신청 · 정원 24명"
+    },
+    {
+      "copy_index": 9,
+      "raw_observed": "편한 신발로 방문해 주세요"
+    },
+    {
+      "copy_index": 10,
+      "raw_observed": "건축을 몰라도 괜찮아요"
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "normalization": "nfc-ws-optical-v1",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "빛이 머무는 집",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "빛이 머무는 집",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "빛이 머무는 집",
+          "normalized_observed": "빛이 머무는 집",
+          "equal": true,
+          "layout": {
+            "observations": "One line in the upper right title block.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "OPEN HOUSE",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "OPEN HOUSE",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "OPEN HOUSE",
+          "normalized_observed": "OPEN HOUSE",
+          "equal": true,
+          "layout": {
+            "observations": "One line beneath the Korean title.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "건축 사진전 · 공간 이야기",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "건축 사진전 · 공간 이야기",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "건축 사진전·공간 이야기",
+          "normalized_observed": "건축 사진전·공간 이야기",
+          "equal": true,
+          "layout": {
+            "observations": "One line beneath the English name; middle dot has optical space around it.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2027.02.06 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2027.02.06 토요일",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2027.02.06 토요일",
+          "normalized_observed": "2027.02.06 토요일",
+          "equal": true,
+          "layout": {
+            "observations": "One line in the upper left schedule block.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "13:00–15:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "13:00–15:00",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "13:00–15:00",
+          "normalized_observed": "13:00–15:00",
+          "equal": true,
+          "layout": {
+            "observations": "One line immediately below the date; long centered dash is visible.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "연남 생활문화공간",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "연남 생활문화공간",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "연남 생활문화공간",
+          "normalized_observed": "연남 생활문화공간",
+          "equal": true,
+          "layout": {
+            "observations": "One line in the left venue block.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "12:40부터 입장",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "12:40부터 입장",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "12:40부터 입장",
+          "normalized_observed": "12:40부터 입장",
+          "equal": true,
+          "layout": {
+            "observations": "One line at the start of the left practical-information block.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "관람 무료 · 해설 제공",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "관람 무료 · 해설 제공",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "관람 무료·해설 제공",
+          "normalized_observed": "관람 무료·해설 제공",
+          "equal": true,
+          "layout": {
+            "observations": "One line in the left practical-information block; middle dot has optical space around it.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "사전 신청 · 정원 24명",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "사전 신청 · 정원 24명",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "사전 신청·정원 24명",
+          "normalized_observed": "사전 신청·정원 24명",
+          "equal": true,
+          "layout": {
+            "observations": "One line in the left practical-information block; middle dot has optical space around it.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "편한 신발로 방문해 주세요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "편한 신발로 방문해 주세요",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "편한 신발로 방문해 주세요",
+          "normalized_observed": "편한 신발로 방문해 주세요",
+          "equal": true,
+          "layout": {
+            "observations": "One line in the right footer below the photo.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "건축을 몰라도 괜찮아요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "건축을 몰라도 괜찮아요",
+          "first_read_view": "native",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "건축을 몰라도 괜찮아요",
+          "normalized_observed": "건축을 몰라도 괜찮아요",
+          "equal": true,
+          "layout": {
+            "observations": "One line below the visit line in the right footer.",
+            "fixed_newline_requirement": false,
+            "line_count": 1
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "ambiguities": [],
+      "located_issues": [],
+      "entry_count_observed": 11,
+      "each_observed_once": true,
+      "usage720_observation": "All eleven lines read at the exact 720x405 usage view.",
+      "punctuation_limit": "Raster shapes were transcribed optically; Unicode code points are not authenticated from pixels."
+    },
+    "style": {
+      "checked_requirement": "Assigned schedule-led public notice: left participation information and right yellow title/photo/footer; flat Gothic typography and natural-light local interior.",
+      "observation": "Dark teal left information panel; pale yellow right event identity and footer; realistic eye-level community photo; title heavier than assigned emphasis at thumbnail size.",
+      "plan_differences": [
+        "Date/time begins lower than the right title; right title is larger in relation to schedule than the planned sketch. Participation information remains in the prescribed left grouping."
+      ]
+    },
+    "ratio": {
+      "requested": "16:9",
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "exact_height_at_native_width": 940.5,
+      "observed_height_difference_pixels": 0.5,
+      "policy": "Nearest-integer rounding of one edge allowed at <=0.5 px; no resizing.",
+      "observation": "Native 1672x941 is 0.5 pixel above the exact 16:9 height for width 1672."
+    },
+    "single_flat_opaque": {
+      "observation": "One flat landscape poster with continuous filled panels and rectangular photo; no mockup, contact sheet or transparent cutout is visible. Tool argument transparent_background=false."
+    },
+    "substantive_visual": {
+      "location": "right middle photo",
+      "observation": "Architecture/light photographs, actual window light and adults listening to a guide form the content-grounded visual relation."
+    },
+    "hangul": {
+      "observation": "Syllable proportions, counters and interword spaces remain readable in native and usage views. No missing or ambiguous Hangul glyph was observed."
+    },
+    "information_relationship": {
+      "observation": "Date/time to venue to admission/cost/application runs down the left. Title to event descriptor to shared exhibition/talk scene to visit/welcome lines runs down the right; the split connects one event."
+    },
+    "function_contact": {
+      "applicable": false,
+      "reason": "No handling/mechanical action, URL, QR or contact method was requested; no unsupported contact information was added."
+    },
+    "local_material_edges": {
+      "observation": "Clean panel borders and type edges; coherent window/floor/wall perspective in the photograph. Small photographed faces and fingers are not individually detailed at usage720."
+    },
+    "real_building_identity": {
+      "observation": "An anonymous ordinary interior is shown; no identifiable landmark, institutional logo or promotional signage was observed."
+    }
+  },
+  "observations": [
+    {
+      "dimension": "content_form",
+      "view": "native",
+      "location": "right middle photo",
+      "observation": "A glazed window, sunlit wood floor, framed architecture/light photographs and an adult group listening to a gesturing guide share one interior and perspective; the exhibition and talk are visibly linked."
+    },
+    {
+      "dimension": "hierarchy",
+      "view": "usage720",
+      "location": "left information panel",
+      "observation": "The date and time form the largest left block; the venue is directly below, followed by three aligned entry/cost/application lines. All participation information can be read in a downward scan."
+    },
+    {
+      "dimension": "typography",
+      "view": "native",
+      "location": "all eleven text lines",
+      "observation": "Bold flat sans serif forms have closed Hangul syllable shapes, discernible counters and intact word spaces. Date dots, time colons, the centered long time dash and the three middle-dot separators remain visible."
+    },
+    {
+      "dimension": "space",
+      "view": "usage720",
+      "location": "vertical split and right photo edges",
+      "observation": "The left dark panel and right yellow panel form a clean vertical split. Right title, descriptor and footer share an inset alignment; the photo reaches the right edge. No text crosses into the photograph."
+    },
+    {
+      "dimension": "image_material",
+      "view": "native",
+      "location": "right photo window, frames and people",
+      "observation": "Natural light reaches the floor and wall; picture frames follow the wall perspective. Adults face the guide/photographs. Bodies and major limbs remain individually readable, with minor finger detail small in the scene."
+    },
+    {
+      "dimension": "emotion_control",
+      "view": "usage720",
+      "location": "whole poster",
+      "observation": "Ordinary adult clothing, relaxed listening and a bright local room support an approachable community event; strong contrast makes the notice direct."
+    },
+    {
+      "dimension": "ai_slop",
+      "view": "native",
+      "location": "whole poster",
+      "observation": "There are no logos, QR codes, captions, fake tiny text, tape pieces or decorative blobs. The substantive room scene carries the event content."
+    },
+    {
+      "dimension": "thumbnail_route",
+      "view": "thumbnail320",
+      "location": "top title and schedule",
+      "observation": "The large right title is the strongest single glyph mass and competes with the left date/time. The split still offers an immediate schedule entry point on the left and event identity/photo on the right."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "thumbnail320",
+      "location": "upper right title versus upper left date/time",
+      "observation": "The Korean title is the strongest single text mass and competes with the intended date-first emphasis."
+    },
+    {
+      "view": "usage720",
+      "location": "right photo adult faces and guide hand",
+      "observation": "Faces and fingers are small photographic details; the listening relation is visible but fine anatomy is limited at this display size."
+    }
+  ],
+  "selection_reason": "The initial result retains every copy line, readable participation information and a coherent exhibition/talk scene. The remaining hierarchy variation does not obstruct information retrieval; no repair is justified solely to match sketch coordinates.",
+  "quality_score": null,
+  "quality_pass_claimed": false
+}

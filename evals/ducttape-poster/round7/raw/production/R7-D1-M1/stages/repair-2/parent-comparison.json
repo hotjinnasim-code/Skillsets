@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "role": "R7-D1-M1",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "09cbe8abb81cb070acee3d622d754787cbe4ecd20b0ad1b6634e046a279883b9",
+  "parent_native_sha256": "4c209265950c56332a4b5b40b635f832cb0031d7ea8f95fe30215c60d9b4bb6e",
+  "changes": [
+    {
+      "location": "concrete",
+      "observation": "Added dark aggregate spots and changed surface markings; repeated curl/ring forms remain and look more uniformly etched in the foreground."
+    },
+    {
+      "location": "title",
+      "observation": "Correct exact upright title and horizontal baseline preserved."
+    },
+    {
+      "location": "people / scene",
+      "observation": "Relative scale, posture, shoe visibility, shared space, blur trajectory and lighting remain substantially alike."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "foreground",
+      "observation": "Concrete correction did not remove the repetitive pattern; material finish less suitable than the immediate parent."
+    },
+    {
+      "location": "right crop",
+      "observation": "Leading-shoe clearance remains narrow."
+    }
+  ]
+}

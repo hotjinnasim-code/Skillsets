@@ -1,0 +1,46 @@
+All seven exact pinned image paths below were actually displayed with native tools.view_image({path, detail: "original"}) and emitted at original detail before the directions were written. Observations describe the visible originals; transfers describe new decisions. These are research images, not client assets. Only pinned inputs were read; no generation, agents, peer outputs, prior generated posters, scores, Git/config inspection or runtime changes were used.
+
+1. **vi-protomen-illustrated**
+   Viewed: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/research/vi-protomen-illustrated.jpg
+   Orange/black drawn near boots fill both sides around a much smaller back-facing figure. Extreme scale, edge crops, ground marks and long dark shadows construct an ominous depth corridor. A narrow top caption and outlined emblem below the framed drawing play different typographic roles; grain unifies the print-like surface. Transfer: asymmetric near/far attention and contour density shape M1; scale/crop helps M4's silhouette hierarchy. Limits: no boots, people, threat, flanking composition, orange/black scheme, source lettering or distress.
+
+2. **vi-anne-photocollage**
+   Viewed: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/research/vi-anne-photocollage.jpg
+   Overlapping rectangular photographs repeat one airborne person's changing expression in a staggered vertical chain. Cool distant landscape contrasts with vivid clothing and a broad white field. Heavy rotated title, smaller cast/director lines and tiny credits establish a separate left reading axis. Clean crop boundaries carry temporal/emotional variation without fabricated paper craft. Transfer: seams connect different event actions and determine M2's caption junctions; overlaps interrupt M3's painted enclosure. Limits: no source person, equipment, repeated portrait staircase, exact crop sequence or rotated practical copy.
+
+3. **vi-grandfather-painted-collage**
+   Viewed: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/research/vi-grandfather-painted-collage.jpg
+   Large black outer profiles surround a smaller blue profile; white brush areas and dispersed family photographs alternate dense and open zones. Beige manuscript-like marks run behind them. Wide uppercase title crowns the portrait field; director text occupies a right pocket, with dense credits/marks below. Drawing, archival photography and handwritten surface evoke memory and generations. Transfer: contour and photographic detail divide pictorial work in M3; unequal drawn density supports M1. Limits: no nested heads, source faces/photos, manuscript texture, invented history, pseudo-writing, laurels or bottom credit strip.
+
+4. **sulki-min-professionalism**
+   Viewed: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/research/sulki-min-professionalism.png
+   Red cutout portraits and occasional circular crops populate a near-black field in rows; each image has adjacent bilingual names. Different poses retain photographic tonal detail but share a flat, confrontational color treatment. A very large condensed title sits below the ensemble, flanked by tilted schedule/location groups. The roster itself organizes the page rather than serving as a small illustration. Transfer: useful image/caption correspondence and unequal image mass inform M4, M2 and M5. Limits: no people, combat poses, roster/grid, names, red-on-black palette or tilted facts; practical contrast must be clearer for this public screen.
+
+5. **feixen-grillfest**
+   Viewed: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/research/feixen-grillfest.png
+   An oversized illustrated food chain runs diagonally through bright geometric fields, cartoon hands, motion strokes and separated large letters. Black contours and limited smooth shading bind these collisions; small blue information occupies residual notches at varying angles. The visible presentation includes a white poster edge and surrounding grey/shadow. Its comic energy makes picture and type one rhythm. Transfer: M5's new contours jointly create title baselines and practical openings. Limits: no food, hands/gloves, skewered chain, source letters, triangular layout, motion ornaments, toy styling, mockup edge or tiny angled instructions.
+
+6. **canva-street-portraits-whole — rejected whole template**
+   Viewed: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/research/canva-street-portraits-whole.jpg
+   A broad dark left panel carries centered yellow serif title, white italic invitation/description and separated teacher, address and date/time blocks. Three monochrome street photos stack in a narrow right column with white separators. Documentary photography supplies subject atmosphere, while the information panel controls almost all reading; serif contrast does not change that passive split relation. Transfer only the usefulness of grouping date/time and location. Limits: reject its entire split-panel hierarchy, subordinate photo strip, source people/signage, copy and arrangement.
+
+7. **canva-photo-workshop-whole — rejected whole template**
+   Viewed: /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/research/canva-photo-workshop-whole.jpg
+   A huge condensed white title plus script word leads a warm brown, softly glowing background. One small photographer image accompanies teacher text in a ruled middle grid; a broad date/location row, three lower information columns, capsule call-to-action and contact footer follow. Photography remains subordinate; glow and script alter mood, not the title/date/information template. Transfer only clear distinctions between attendance facts, cost and participation. Limits: reject the whole hierarchy/grid, small portrait, blank text-bearing background, commercial call-to-action, source content and contact footer.
+
+All ten comparisons below remove color, material and surface effects. They test underlying expression/editing, large space, type role and useful reading path, not source fame or image area:
+
+- **M1 / M2:** Continuous drawn depth and diminishing scale versus discontinuous cropped actions joined by seams; a conversational title in a bend versus a numeric seam anchor leading to editorial captions.
+- **M1 / M3:** Oblique narrative corridor versus overhead enclosing montage; title and facts step through depth in M1, while an inner identity hub and surrounding practical stops collect reading in M3.
+- **M1 / M4:** One continuous gathering and shared sightlines versus isolated encounter silhouettes; M1's title initiates fact reading, while M4's participation caption initiates a distributed route.
+- **M1 / M5:** Pictorial near/far occlusion versus planar interlocking object contours; M1's intact title sits within depth, while M5's separated title words participate in sideways rhythm.
+- **M2 / M3:** Large photographic junctions connect distinct actions versus photographic incursions cutting one painted enclosure; date-led seam captions versus a central identity with a returning perimeter route.
+- **M2 / M4:** Broad photo crops overlap into a junction versus complete cutout encounter masses with separate caption neighbors; editorial time anchor versus welcome-first, image-linked destinations.
+- **M2 / M5:** Rectangular discontinuities and photographic close actions versus continuous illustrated curves and recognizable object parts; a date seam and compact title versus title words on different bends.
+- **M3 / M4:** Enclosing plan-view contour with an inner hub versus an open constellation of independent silhouette groups; centered invitation and perimeter stops versus a caption-led traverse between unequal masses.
+- **M3 / M5:** Inward enclosure and photo/paint interruptions versus outward horizontal interlock; one central identity collects attention in M3, while separated word baselines and contour notches propel M5's reading.
+- **M4 / M5:** Discrete human encounter silhouettes define caption destinations versus connected food/instrument contours weave a single rhythm; participation-first caption typography versus title words acting as pictorial partners.
+
+In plan.json, indexes 0–10 refer to the case copy array. Font arrays and line-plan arrays follow each group's index order. Each direction uses every index once; joining suggested wrapped lines with a space reproduces the supplied entry exactly. Each area is a 720×405 feasibility envelope, not a client-prescribed panel. M5's title envelope bounds two separated baselines and does not reserve that entire rectangle for text.
+
+Widths were estimated from full-width Korean syllables, narrower Latin/numeral advances, spaces and punctuation. Long cup advice wraps between complete phrases; M4/M5 title words and M5's venue wrap at word boundaries. Admission remains a complete line in a wider notch. These estimates depend on the chosen font: resolve collisions by moving boundaries, widening useful stops or reducing competing picture/type weight before compressing practical text. Use strong local value contrast and clean text landings; judge all eleven entries and the next useful destination at actual 720×405. Dates, colon and en dash need intact shape and spacing. No fixed font minimum or image-area quota is imposed, and planning is not an actual-output reading test or quality guarantee.

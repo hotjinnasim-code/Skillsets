@@ -1,0 +1,305 @@
+{
+  "role": "R11-C1-M1",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/stages/repair-1/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "인쇄하고\n읽는 밤",
+    "PRINT & READ",
+    "고무판 인쇄 · 짧은 낭독",
+    "2026.12.12 토요일",
+    "18:00–20:30",
+    "망원 생활문화센터",
+    "17:40부터 입장",
+    "참가비 5,000원 · 재료 포함",
+    "신청 후 참여 · 정원 24명",
+    "앞치마 지참",
+    "처음 해도 괜찮아요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "observations": [
+    {
+      "view": "native",
+      "location": "left title and facts",
+      "observation": "All eleven entries remain visible once, with the same two-line title and eight single practical rows; essential Hangul strokes/counters stay solid."
+    },
+    {
+      "view": "usage720",
+      "location": "left x≈23 y≈170–363",
+      "observation": "The complete date/time-to-welcome route remains readable in order at usage720."
+    },
+    {
+      "view": "native",
+      "location": "lower-right slab",
+      "observation": "The brown wood face is replaced by a thick petrol slab with a dark relief motif; thumb grips the top edge and a side face shows thickness. Parallel top-face striations remain."
+    },
+    {
+      "view": "native",
+      "location": "right faces and garments",
+      "observation": "Hair and clothing are simplified to large petrol/near-black planes; plant, books, roller and ink tray are removed. Faces retain three-quarter rather than side-profile views and circular cartoon eyes."
+    },
+    {
+      "view": "usage720",
+      "location": "upper-right heads",
+      "observation": "Heads remain about 115–135px high at usage720, larger than assigned 65–80px; right hair touches/crosses frame top."
+    },
+    {
+      "view": "usage720",
+      "location": "English upper paper line x≈380–587",
+      "observation": "English remains readable once on the shared paper, with its baseline still tilted upward to the right rather than horizontal."
+    },
+    {
+      "view": "native",
+      "location": "continuous sheet and relief motifs",
+      "observation": "Upper page connects without a break to the lower printing surface. Both upper and fresh lower prints carry the same crescent/three-finger asymmetric motif; raised slab carries its related face."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Removed props make the title/spine and printing-reading diagonal clearer; upper-left title remains the first anchor."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "observed_entry_count": 11,
+      "extra_text_observed": [],
+      "ambiguities": [],
+      "encoding_limit": "Raster glyph observation cannot certify source Unicode encoding.",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "인쇄하고 읽는 밤",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "인쇄하고\n읽는 밤",
+          "normalized_required": "인쇄하고 읽는 밤",
+          "normalized_observed": "인쇄하고 읽는 밤",
+          "equal": true,
+          "layout": {
+            "observations": "Two-line title with soft word-group wrap."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "PRINT & READ",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "PRINT & READ",
+          "normalized_required": "PRINT & READ",
+          "normalized_observed": "PRINT & READ",
+          "equal": true,
+          "layout": {
+            "observations": "One line on shared paper, tilted."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "고무판 인쇄 · 짧은 낭독",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "고무판 인쇄 · 짧은 낭독",
+          "normalized_required": "고무판 인쇄·짧은 낭독",
+          "normalized_observed": "고무판 인쇄·짧은 낭독",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2026.12.12 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2026.12.12 토요일",
+          "normalized_required": "2026.12.12 토요일",
+          "normalized_observed": "2026.12.12 토요일",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "18:00–20:30",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "18:00–20:30",
+          "normalized_required": "18:00–20:30",
+          "normalized_observed": "18:00–20:30",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "망원 생활문화센터",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "망원 생활문화센터",
+          "normalized_required": "망원 생활문화센터",
+          "normalized_observed": "망원 생활문화센터",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "17:40부터 입장",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "17:40부터 입장",
+          "normalized_required": "17:40부터 입장",
+          "normalized_observed": "17:40부터 입장",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 5,000원 · 재료 포함",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "참가비 5,000원 · 재료 포함",
+          "normalized_required": "참가비 5,000원·재료 포함",
+          "normalized_observed": "참가비 5,000원·재료 포함",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "신청 후 참여 · 정원 24명",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "신청 후 참여 · 정원 24명",
+          "normalized_required": "신청 후 참여·정원 24명",
+          "normalized_observed": "신청 후 참여·정원 24명",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "앞치마 지참",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "앞치마 지참",
+          "normalized_required": "앞치마 지참",
+          "normalized_observed": "앞치마 지참",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "처음 해도 괜찮아요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "처음 해도 괜찮아요",
+          "normalized_required": "처음 해도 괜찮아요",
+          "normalized_observed": "처음 해도 괜찮아요",
+          "equal": true,
+          "layout": {
+            "observations": "One line, readable at usage720."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Heavy compact Korean, flat cut planes and adult profiles, stable left spine with diagonal right action.",
+      "observed": "Large planes are flatter; mature profile geometry and compact head size remain unachieved.",
+      "issues": [
+        {
+          "location": "upper-right adults",
+          "limit": "Oversized three-quarter heads and circular cartoon eyes remain rather than compact adult profiles."
+        },
+        {
+          "location": "shared paper",
+          "limit": "English remains tilted, and its line sits farther left than the assigned horizontal reader-facing area."
+        },
+        {
+          "location": "lower-right slab",
+          "limit": "Top striations remain; dark thickness is clearer, but elastomer flexibility is not strongly expressed."
+        }
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": [
+        16,
+        9
+      ],
+      "exact_height_for_width": 940.5,
+      "edge_rounding_error_px": 0.5,
+      "within_predeclared_rounding": true
+    },
+    "substantive_visual": {
+      "observed": "Two adults read the same physically connected sheet, while the foreground hand lifts the marked thick slab beside a matching fresh impression."
+    },
+    "hangul": {
+      "observed": "Consistent solid title strokes, legible reading counters in facts and readable word separation remain at usage720."
+    },
+    "information_relationship": {
+      "observed": "Title immediately leads to all eight practical rows, ordered date/time, venue, admission, fee, application, preparation and welcome."
+    },
+    "function_contact": {
+      "observed": "Reader edge grips and foreground thumb/upper fingers remain connected to the corresponding arms; slab is raised at an angle beside the impression and has distinct thickness."
+    },
+    "material_edges": {
+      "observed": "Large smooth cut planes replace comic hatching; no grain/brown timber remains; the slab top retains fine lines, paper edge stays continuous and impression texture is localized."
+    }
+  },
+  "residuals": [
+    {
+      "location": "upper-right adults",
+      "limit": "Oversized three-quarter heads and circular cartoon eyes remain rather than compact adult profiles."
+    },
+    {
+      "location": "shared paper",
+      "limit": "English remains tilted, and its line sits farther left than the assigned horizontal reader-facing area."
+    },
+    {
+      "location": "lower-right slab",
+      "limit": "Top striations remain; dark thickness is clearer, but elastomer flexibility is not strongly expressed."
+    },
+    {
+      "location": "left participation rows",
+      "limit": "Rows retain the earlier start and wider spacing, though they remain readable and in order."
+    }
+  ]
+}

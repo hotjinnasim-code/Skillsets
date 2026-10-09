@@ -1,0 +1,71 @@
+{
+  "utc": "2026-10-08T11:43:36.103785+00:00",
+  "status": "PASS",
+  "actual_joins": [
+    {
+      "role": "R14-C1-M1",
+      "stage": "initial",
+      "sha256": "08b7ec085ad219b4387d0bce66c622c691af2bcfba625aaf5ce94fabba9d3af4",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M2",
+      "stage": "initial",
+      "sha256": "924120e68f8ab2e1c9e7213182875f3df48e37b29e321f66519355e01e9f9a2e",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M2",
+      "stage": "repair-1",
+      "sha256": "b0624df9bf50e41f57480962a5d66531a2d6ffe24c4b26731610dcf0fdada2e1",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M3",
+      "stage": "initial",
+      "sha256": "d4b9469eeb2f552f397de5b9da827b4a0748d95badb556fca11272ecdb498ca1",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M3",
+      "stage": "repair-1",
+      "sha256": "12dd5cfb29d383bfde3b5f591c8cfdcac9f1697fa93a2eb689a0fd6c0f4fcd23",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M4",
+      "stage": "initial",
+      "sha256": "02414c6a52314354dca6e363142e5eb05c5f50bd5d251fe152ceb4136c762d61",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M4",
+      "stage": "repair-1",
+      "sha256": "03a99f509026f821603a93cff842ebfe29e830a9f59f9e1f26e65ff369f350a7",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M4",
+      "stage": "repair-2",
+      "sha256": "a2a59c86494b742ef2fa3fc9c83998503650c9e6ed8c065f647f0ef437adc048",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M5",
+      "stage": "initial",
+      "sha256": "b48b4ea227e43f693558d9cf663b8e9ffd5fffc4ad0a216bfbb26a905948ee76",
+      "literal_join": true
+    },
+    {
+      "role": "R14-C1-M5",
+      "stage": "repair-1",
+      "sha256": "0040f819b27218df4a0dad8dd5a80f09e98c32544af19e1394007994c6306901",
+      "literal_join": true
+    }
+  ],
+  "actual_count": 10,
+  "unsafe_synthetic_representations_rejected": 12,
+  "same_existing_list_and_new_actual_dict_forms_checked": true,
+  "score_gates_or_actor_method_files_changed": false,
+  "before_any_critic_preparation": true
+}

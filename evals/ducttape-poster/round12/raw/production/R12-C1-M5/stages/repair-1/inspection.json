@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "role": "R12-C1-M5",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M5/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M5/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M5/stages/repair-1/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "display_troubleshooting": {
+    "native_view_calls": 3,
+    "events": [
+      "First original-detail emission displayed only a small cream tile.",
+      "One original-detail re-emission also displayed only a small cream tile.",
+      "Third tool load emitted the exact payload as original and high; original appeared fully, and the supplemental high-detail emission showed a small tile."
+    ],
+    "semantics": "Technical display retries before first successful native reading, not repeat interpretation of an ambiguous glyph; no pixel operation or image regeneration.",
+    "successful_native_detail": "original",
+    "transcription_ambiguity_revisits": 0
+  },
+  "raw_observed_text": [
+    "입던 옷의\n다음 장면",
+    "REMAKE & SHARE",
+    "티셔츠를 파우치로 ·\n완성품 나눔",
+    "2027.01.16 토요일",
+    "14:00–16:30",
+    "성산 생활문화센터",
+    "13:40부터 입장",
+    "참가비 3,000원 · 도구 제공",
+    "사전 신청 · 정원 18명",
+    "깨끗한 티셔츠 한 장 지참",
+    "바느질이 처음이어도 괜찮아요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "observations": "Eleven entries read at usage720 and original-detail native; each once, no added wording observed.",
+      "ambiguities": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "입던 옷의 다음 장면",
+          "raw_observed": "입던 옷의\n다음 장면",
+          "normalized_required": "입던 옷의 다음 장면",
+          "normalized_observed": "입던 옷의 다음 장면",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "Soft two-line wrap with word spaces retained.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "REMAKE & SHARE",
+          "raw_observed": "REMAKE & SHARE",
+          "normalized_required": "REMAKE & SHARE",
+          "normalized_observed": "REMAKE & SHARE",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "티셔츠를 파우치로 · 완성품 나눔",
+          "raw_observed": "티셔츠를 파우치로 ·\n완성품 나눔",
+          "normalized_required": "티셔츠를 파우치로·완성품 나눔",
+          "normalized_observed": "티셔츠를 파우치로·완성품 나눔",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "Soft two-line wrap with word spaces retained.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2027.01.16 토요일",
+          "raw_observed": "2027.01.16 토요일",
+          "normalized_required": "2027.01.16 토요일",
+          "normalized_observed": "2027.01.16 토요일",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "14:00–16:30",
+          "raw_observed": "14:00–16:30",
+          "normalized_required": "14:00–16:30",
+          "normalized_observed": "14:00–16:30",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "성산 생활문화센터",
+          "raw_observed": "성산 생활문화센터",
+          "normalized_required": "성산 생활문화센터",
+          "normalized_observed": "성산 생활문화센터",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "13:40부터 입장",
+          "raw_observed": "13:40부터 입장",
+          "normalized_required": "13:40부터 입장",
+          "normalized_observed": "13:40부터 입장",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 3,000원 · 도구 제공",
+          "raw_observed": "참가비 3,000원 · 도구 제공",
+          "normalized_required": "참가비 3,000원·도구 제공",
+          "normalized_observed": "참가비 3,000원·도구 제공",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "사전 신청 · 정원 18명",
+          "raw_observed": "사전 신청 · 정원 18명",
+          "normalized_required": "사전 신청·정원 18명",
+          "normalized_observed": "사전 신청·정원 18명",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "깨끗한 티셔츠 한 장 지참",
+          "raw_observed": "깨끗한 티셔츠 한 장 지참",
+          "normalized_required": "깨끗한 티셔츠 한 장 지참",
+          "normalized_observed": "깨끗한 티셔츠 한 장 지참",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "바느질이 처음이어도 괜찮아요",
+          "raw_observed": "바느질이 처음이어도 괜찮아요",
+          "normalized_required": "바느질이 처음이어도 괜찮아요",
+          "normalized_observed": "바느질이 처음이어도 괜찮아요",
+          "equal": true,
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "observations": "One line; date/time share attendance row but remain separate entries.",
+            "fixed_newline_requested": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Flat high-contrast stencil/ink adult broadside; English-first masthead, upper-right source/result/sharing emblem, two unequal complete practical groups.",
+      "observations": [
+        "English masthead becomes broader and taller than initial, dominating upper interval.",
+        "Korean name is smaller than initial and distinctly secondary to English.",
+        "Picture moves right and reduces in area but its shirt still starts near x304 rather than x397.",
+        "Cloth shading is smoother and flatter; grain remains distributed across broad areas, with bounded stippling strongest on palms."
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": "16:9",
+      "ideal_height_at_observed_width": 940.5,
+      "native_height_difference_px": 0.5,
+      "policy": "Permitted nearest-integer native rounding; not resized or mathematically exact."
+    },
+    "substantive_visual": {
+      "observations": [
+        "Recognizable source T-shirt, repeated notched orange two-band pouch geometry and opposite blue completed pouch on two adult open palms form substantial source/result/sharing content."
+      ]
+    },
+    "hangul": {
+      "observations": [
+        "All syllables read clearly, counters and strokes remain intact.",
+        "Korean name and attendance use very heavy condensed stroke shapes relative to desired bold/semibold.",
+        "Regular right copy remains distinguishable with usable word spacing.",
+        "Range dash is visually a horizontal midline stroke longer than a narrow hyphen; no Unicode code-point authentication from raster."
+      ]
+    },
+    "information_relationship": {
+      "first_anchor": "Very broad English masthead at thumbnail320.",
+      "next_cue": "Left Korean name and adjacent smaller shirt/pouch graphic.",
+      "complete_information_path": "Left identity/activity then date/time, venue and entry; right block immediately below pouches contains all four participation/preparation/welcome entries.",
+      "observations": [
+        "Right block moves leftward to about x441 from initial x486, approaching its own image left-edge grouping.",
+        "Practical copy remains readable at usage720.",
+        "Date and time remain one row; blocks remain unequal and complete."
+      ]
+    },
+    "function_and_contact": {
+      "contact_requirement": "No URL/contact/QR supplied; none added.",
+      "observations": [
+        "Each pouch has a separate zipper mouth/seam and rests on its own adult palm.",
+        "Two wrists lead in from opposite directions with no floating object.",
+        "Charcoal remade pouch visibly retains ordered orange bands and offset steps inside seams."
+      ]
+    },
+    "local_material_and_edge_finish": {
+      "observations": [
+        "Ink-like orange bands, charcoal shirt and blue pouch have fewer dense random surface marks than initial.",
+        "Palm contact/zipper boundaries remain readable.",
+        "Left wrist has a soft stippled termination inside the picture instead of a decisive crop; texture is still broader than sparse form patches."
+      ]
+    }
+  },
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "upper masthead",
+      "observation": "Largest broad black English letter mass spans almost the full top."
+    },
+    {
+      "view": "usage720",
+      "location": "left Korean title at x17/y112–207",
+      "observation": "Secondary title smaller than initial, still heavy."
+    },
+    {
+      "view": "usage720",
+      "location": "shirt left edge around x304 and scene y103–266",
+      "observation": "Emblem is smaller and further right but still extends into center, beyond planned x397/y102–245."
+    },
+    {
+      "view": "usage720",
+      "location": "right facts at x441/y274–375",
+      "observation": "All four single-line entries are adjacent to the image and readable."
+    },
+    {
+      "view": "native",
+      "location": "shirt/pouch front bands and palm contacts",
+      "observation": "Source/result notches and each pouch's support remain separate and visible."
+    }
+  ],
+  "residuals": [
+    "Upper-right picture still reaches leftward to x304 at usage720; target is x397.",
+    "Masthead visible capital height is about 71px at usage720 rather than about 42px implied by 56px font; it grew in repair.",
+    "Korean identity and attendance remain extra-bold compared with intended firm bold/semibold.",
+    "Cloth surface texture is reduced but not limited to sparse form-bound patches; left wrist fades into internal white space."
+  ]
+}

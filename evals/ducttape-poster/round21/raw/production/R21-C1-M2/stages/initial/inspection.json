@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "role": "R21-C1-M2",
+  "stage": "initial",
+  "recorded_at_utc": "2026-10-08T20:50:50.140683+00:00",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/thumbnail-320.png"
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/original.png",
+      "sha256": "0d97b9c5eb45ff5546a931dae73e1a86a60ab36a77bafea80f127ded701b5bce",
+      "bytes": 2144076,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/usage-720.png",
+      "sha256": "70d91bd6c6db9a243add418d37efcfb51b7b2c98f3805043008b6da924d55a44",
+      "bytes": 460632,
+      "width": 720,
+      "height": 405
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/thumbnail-320.png",
+      "sha256": "c8f7edd9f8ff6f8a4e5cc91db099dc88ea546cf765037b126617a4151d9cca4b",
+      "bytes": 106867,
+      "width": 320,
+      "height": 180
+    }
+  ],
+  "viewing_record": {
+    "tools": "tools.view_image via functions.exec; image(...,original)",
+    "first_sequence": [
+      "original",
+      "usage720",
+      "thumbnail320"
+    ],
+    "native_display_issue": "The first original emission did not expose complete native detail. The same original was displayed once more without cropping or regeneration.",
+    "completed_ordered_inspection": [
+      "original (same-asset revisit at native detail)",
+      "usage720 (same pinned QA once more)",
+      "thumbnail320 (same pinned QA once more)"
+    ],
+    "same_asset_view_counts": {
+      "original": 2,
+      "usage720": 2,
+      "thumbnail320": 2
+    },
+    "no_asset_changed_between_views": true,
+    "first_read": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/first-read.json",
+      "sha256": "8eab95db03272df24a61b08bd20d074c22aa9c58c631920375632330ca18a4a0"
+    }
+  },
+  "raw_observed_text": [
+    {
+      "copy_index": 1,
+      "raw_observed": "집 안의 작은 숲"
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "LEAVES & LIVING"
+    },
+    {
+      "copy_index": 3,
+      "raw_observed": "초록을 고르고, 일상을 가꿉니다."
+    },
+    {
+      "copy_index": 4,
+      "raw_observed": "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요."
+    },
+    {
+      "copy_index": 5,
+      "raw_observed": "성수 주말 식물 마켓"
+    },
+    {
+      "copy_index": 6,
+      "raw_observed": "2027.06.12–06.13"
+    },
+    {
+      "copy_index": 7,
+      "raw_observed": "토 · 일 11:00–19:00"
+    },
+    {
+      "copy_index": 8,
+      "raw_observed": "성수 온실마당"
+    },
+    {
+      "copy_index": 9,
+      "raw_observed": "입장 무료 · 분갈이 시연"
+    },
+    {
+      "copy_index": 10,
+      "raw_observed": "식물 구매 시 관리 안내 제공"
+    },
+    {
+      "copy_index": 11,
+      "raw_observed": "편하게 들러 천천히 둘러보세요."
+    },
+    {
+      "copy_index": 12,
+      "raw_observed": "leaves.example/market"
+    }
+  ],
+  "transcriptions": [
+    {
+      "copy_index": 1,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "집 안의 작은 숲",
+      "raw_observed": "집 안의 작은 숲",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "집 안의 작은 숲",
+      "normalized_observed": "집 안의 작은 숲",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "LEAVES & LIVING",
+      "raw_observed": "LEAVES & LIVING",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "LEAVES & LIVING",
+      "normalized_observed": "LEAVES & LIVING",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "초록을 고르고, 일상을 가꿉니다.",
+      "raw_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "초록을 고르고, 일상을 가꿉니다.",
+      "normalized_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "raw_observed": "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "normalized_observed": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "equal": true,
+      "layout": {
+        "observations": "Two full-sentence lines; soft wrap after first sentence, no fixed newline requested.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "성수 주말 식물 마켓",
+      "raw_observed": "성수 주말 식물 마켓",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "성수 주말 식물 마켓",
+      "normalized_observed": "성수 주말 식물 마켓",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "2027.06.12–06.13",
+      "raw_observed": "2027.06.12–06.13",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "2027.06.12–06.13",
+      "normalized_observed": "2027.06.12–06.13",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": "Confirm visibly longer mid-height range dash at full native detail; 720 shape reads en dash.",
+      "revisit": {
+        "view": "native",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/original.png",
+        "sha256": "0d97b9c5eb45ff5546a931dae73e1a86a60ab36a77bafea80f127ded701b5bce",
+        "raw_observed": "2027.06.12–06.13",
+        "resolution": "The range stroke is visibly mid-height and approximately half-em, longer than a hyphen.",
+        "resolved": true,
+        "reason": "One exact same original PNG revisit for native punctuation class confirmation; initial read retained."
+      }
+    },
+    {
+      "copy_index": 7,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "토·일 11:00–19:00",
+      "raw_observed": "토 · 일 11:00–19:00",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "토·일 11:00–19:00",
+      "normalized_observed": "토·일 11:00–19:00",
+      "equal": true,
+      "layout": {
+        "observations": "Optical spaces around middle dot observed and recorded; semantic day/hour word space remains.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": "Confirm middle-dot and range dash at full native detail; 720 shape reads middle-dot and en dash.",
+      "revisit": {
+        "view": "native",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round21/production/R21-C1-M2/stages/initial/original.png",
+        "sha256": "0d97b9c5eb45ff5546a931dae73e1a86a60ab36a77bafea80f127ded701b5bce",
+        "raw_observed": "토 · 일 11:00–19:00",
+        "resolution": "The range stroke is visibly mid-height and approximately half-em, longer than a hyphen; the hour separator is a centered dot rather than a baseline period or bullet.",
+        "resolved": true,
+        "reason": "One exact same original PNG revisit for native punctuation class confirmation; initial read retained."
+      }
+    },
+    {
+      "copy_index": 8,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "성수 온실마당",
+      "raw_observed": "성수 온실마당",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "성수 온실마당",
+      "normalized_observed": "성수 온실마당",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "입장 무료 · 분갈이 시연",
+      "raw_observed": "입장 무료 · 분갈이 시연",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "입장 무료·분갈이 시연",
+      "normalized_observed": "입장 무료·분갈이 시연",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "식물 구매 시 관리 안내 제공",
+      "raw_observed": "식물 구매 시 관리 안내 제공",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "식물 구매 시 관리 안내 제공",
+      "normalized_observed": "식물 구매 시 관리 안내 제공",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 11,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "편하게 들러 천천히 둘러보세요.",
+      "raw_observed": "편하게 들러 천천히 둘러보세요.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "편하게 들러 천천히 둘러보세요.",
+      "normalized_observed": "편하게 들러 천천히 둘러보세요.",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 12,
+      "kind": "url",
+      "fixed_newlines": false,
+      "required": "leaves.example/market",
+      "raw_observed": "leaves.example/market",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "leaves.example/market",
+      "normalized_observed": "leaves.example/market",
+      "equal": true,
+      "layout": {
+        "observations": "Single-line entry with meaningful word boundaries retained.",
+        "fixed_newline_fidelity": "not fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "Upper-left title and full-width central scene",
+      "observation": "The Korean title is the dominant typographic anchor. The large varying botanical horizon spans the full width below it; date and venue remain a smaller upper-right visit group."
+    },
+    {
+      "view": "usage720",
+      "location": "Eyebrow/title/companion/subtitle at upper left, schedule at upper right",
+      "observation": "Market identity is immediately above the Korean title; companion and promise sit just below it. Date, hours and venue share one aligned group, readable without competing in size with the title."
+    },
+    {
+      "view": "usage720",
+      "location": "Below table, x about 27 through 613, y 289–334",
+      "observation": "The explanation reads as two complete sentence lines, with a stable left start and visible word spaces. Access/care and invitation/URL follow in two nearby rows beneath it."
+    },
+    {
+      "view": "native",
+      "location": "Entire mid-height plant horizon, about y255–656",
+      "observation": "Variegated broad leaves, upright blades, a woody branching plant, thin arching fronds, round leaf stalks and trailing growth have distinguishable stems and pots. Soil and rims are visible. The table physically links them as a market encounter."
+    },
+    {
+      "view": "native",
+      "location": "Rightmost coral pot and supporting hand, about x1430–1672, y480–630",
+      "observation": "One connected forearm enters from the right. Thumb rests against the pot wall; several curved fingers wrap below the lower pot edge. This gives a concrete selection/support action. The hand partially hides the pot's lower wall."
+    },
+    {
+      "view": "native",
+      "location": "Plant/pot/table boundaries and all text",
+      "observation": "Fine olive contour work and printed botanical color planes stay on images; type is crisp flat dark ink. Table shadows anchor the pots. No visible logo, QR, label, arrow, bullet, invented plant tag or additional copy."
+    }
+  ],
+  "mandatory_checks": {
+    "text": {
+      "normalization": "nfc-ws-optical-v1",
+      "observed_entry_count": 12,
+      "duplication_observation": "Each required copy entry was found once; no additional print observed.",
+      "ambiguities": [
+        {
+          "copy_index": 6,
+          "description": "Native revisit confirms a longer mid-height range dash visually consistent with en dash.",
+          "resolved": true
+        },
+        {
+          "copy_index": 7,
+          "description": "Native revisit confirms centered middle dot and longer mid-height range dash.",
+          "resolved": true
+        }
+      ],
+      "raster_limit": "Glyph classes were read from pixels; this does not certify underlying Unicode code points."
+    },
+    "style": {
+      "checked_requirement": "Graphic full-width botanical market horizon; upper-left dominant Korean Title, lower-weight upper schedule; two-line explanation and generous action rows below.",
+      "observed_relationship": "The full-width live plant/table/hand scene occupies the middle and organizes the boundary between promise and plant-selection explanation. Its varied foliage heights, crop and pot contact create the major image, rather than a tiny decoration on a passive information template.",
+      "planning_variations": "Native scene is taller, title/body heavier and lower action rows closer than the neutral guide. The chosen whole relationship and readable body-to-action route remain."
+    },
+    "substantive_visual": {
+      "concept": "Choosing and caring for living houseplants",
+      "evidence": "Multiple botanically differentiated rooted plants are presented together on a market table; planted soil and a connected hand supporting a pot concretize selection and handling."
+    },
+    "typography": {
+      "hangul": "Stable syllable proportions and open counters are visible in Title and prose. Meaningful word spaces remain. No apparent missing or malformed syllable was observed.",
+      "latin_numerals": "Latin companion and URL are coherent flat sans. Date and time numerals retain stable baselines; dots, colons, middle dots and visually longer mid-height dashes are distinguishable.",
+      "font_limit": "Native type is observed for anatomy and harmony, not certified as the guide's actual font file."
+    },
+    "information_relationship": {
+      "reading_route": "Market eyebrow → primary Title and nearby promise/Latin; visit cluster above the same table; plant horizon → two-line explanation → access/care → invitation/URL.",
+      "usage720": "Full explanation, market, date, hours, venue, access, care, invitation and URL are readable in the 720px-wide QA view.",
+      "thumbnail320": "Title and plant encounter retain the strongest visual hierarchy; body and action detail become small at this scale."
+    },
+    "function_contact": {
+      "requested_or_chosen_action": "One hand cradles a plant pot",
+      "observation": "Forearm, thumb and fingers belong to one connected hand; contact at the pot side and below its edge is legible.",
+      "url_observation": "Single continuous leaves.example/market string is visually readable; no network function test was requested or performed."
+    },
+    "material_edge_finish": {
+      "observation": "Botanical ink contours and pottery color planes stay coherent; stems terminate in visible planted soil, pots have readable rims and table contact shadows. Hand shading stays within the same illustration system."
+    },
+    "format": {
+      "observed_single_flat_poster": true,
+      "observed_no_mockup": true,
+      "requested_ratio": "16:9",
+      "maximum_resolution": "Requested in native prompt; actual returned dimensions are measured, maximum supported resolution is not independently established.",
+      "png_color_type": 2,
+      "png_transparency_chunk_present": false,
+      "opacity_evidence": "PNG RGB without alpha channel and without tRNS transparency chunk"
+    },
+    "ratio": {
+      "requested": "16:9",
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "exact_height_at_returned_width": 940.5,
+      "edge_rounding_error_pixels": 0.5,
+      "within_predeclared_rounding_tolerance": true,
+      "native_resize_performed": false,
+      "observation": "1672×941 native PNG; height differs by 0.5px from 16:9 at this width, allowed nearest-integer native rounding."
+    }
+  },
+  "residuals": [
+    {
+      "view": "native",
+      "location": "Body and title",
+      "observation": "The native body and title strokes are heavier than the medium/semibold planning guide. Counters and 720px reading remain clear."
+    },
+    {
+      "view": "native",
+      "location": "Rightmost pot/hand contact",
+      "observation": "The supporting hand hides part of the pot's lower edge and some fingertip separations compress at usage720; the one-hand support action remains legible."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Lower explanatory and practical copy",
+      "observation": "Detailed lower copy is small in the 320px thumbnail; the intended reading check used the 720px view."
+    }
+  ],
+  "selection_reason": "The initial inspected image retains the assigned graphic genre, substantive market horizon and useful reading route. All 12 required entries read as supplied under the predeclared normalization. No observed defect warrants a native repair; guide-coordinate and weight differences alone are not repair causes."
+}

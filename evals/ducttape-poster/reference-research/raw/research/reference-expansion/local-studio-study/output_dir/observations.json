@@ -1,0 +1,3990 @@
+{
+  "schema_version": 1,
+  "language": "ko",
+  "output_dir": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/output_dir",
+  "study_date": "2026-10-08",
+  "scope": {
+    "target_count": 37,
+    "local_pixel_observation": true,
+    "web_dns_browser_used": false,
+    "new_agents_or_chats_used": false,
+    "image_generation_or_modification_used": false,
+    "external_service_api_or_credentials_used": false,
+    "current_poster_results_or_evaluations_read": false,
+    "prior_research_read": false
+  },
+  "methodology": {
+    "first_visual_pass": "37개 모두 제공된 source.path를 view_image original로 열고 functions.exec image helper로 실제 image block을 반환한 뒤 관찰.",
+    "source_verification": "hashlib SHA-256와 macOS sips 원본 크기/형식 확인. 파일명 확장자에 의존하지 않음.",
+    "returned_raster_verification": "각 source.path를 view_image original로 다시 읽고 반환 data URL binary header의 raster 크기 확인. 추가 확인은 첫 픽셀 관찰을 대체하지 않음.",
+    "returned_dimension_downsampling_observed": false,
+    "largest_returned_rasters_px": [
+      [
+        3000,
+        2000
+      ],
+      [
+        1984,
+        2834
+      ],
+      [
+        2880,
+        1920
+      ]
+    ],
+    "physical_display_or_model_internal_resolution": "도구가 제공하지 않아 미확인. native raster 수치와 최종 표시 배율을 구별함.",
+    "copy_policy": "제목/저자는 metadata 유지. 실제 읽은 일부 카피만 사실 서술; 가려진·작은 본문은 추정하지 않음.",
+    "pin_policy": "좌표는 관찰 지점의 근사 bounding box. 외부 tool view/event ID를 만들지 않음.",
+    "dedup_policy": "같은 시리즈 색상·목업/매체 적용은 한 작품. exact composition equality와 같은 series 관계를 별도로 기록. 매체 불명·비포스터는 유효 포스터 수에서 제외.",
+    "classification_policy": {
+      "whole-positive": "사용자 취향에 맞는 전체 표현·공간·읽기 관계를 참고할 수 있음. 상훈/유명세/학습 또는 품질 보증의 뜻은 아님.",
+      "partial-only": "관찰된 일부 조판/이미지/편집 원리만 유용. 전체 하이엔드 예시로 추천하지 않음.",
+      "excluded-template": "요청된 큰 오브젝트+큰 제목+작은 하단 안내·장난감 패키지 기본 추천에서 제외.",
+      "non-poster": "단독 포스터로 보지 않은 로고/배너/책/지원 인쇄물/현장 사진.",
+      "unresolved": "해상도 또는 매체 판단 근거가 부족. 포스터 수/전체 추천을 보류."
+    }
+  },
+  "duplicate_groups": [
+    {
+      "key": "hey-gandules-2010",
+      "ids": [
+        "west-U02",
+        "west-U03",
+        "west-U04",
+        "west-U20"
+      ],
+      "reason": "U02의 세 색은 동심형·의자·위 정보 위치가 같아 한 작품. U04는 같은 포스터의 본문 확장. U03은 좁은 배너에 회전/크롭한 적용, U20은 다른 일정 정보판이지만 같은 캠페인의 지원매체라 새 포스터 수를 추가하지 않음.",
+      "same_composition": [
+        "west-U02",
+        "west-U04"
+      ],
+      "different_media": [
+        "west-U03",
+        "west-U20"
+      ]
+    },
+    {
+      "key": "dumbar-amsterdam-sinfonietta-series",
+      "ids": [
+        "west-U01",
+        "west-U16",
+        "west-U17"
+      ],
+      "reason": "정확히 동일 구도는 아니다. U01은 다이아몬드/반복 띠, U16은 사선 글자 밀도/원, U17은 큰 원환이다. 작은 문자→큰 패턴, 기관명과 하단 안내의 관계를 공유하는 한 시리즈로 보수적으로 1작품 집계.",
+      "same_composition": [],
+      "different_composition_same_series": [
+        "west-U01",
+        "west-U16",
+        "west-U17"
+      ]
+    },
+    {
+      "key": "hey-bgw-inaugural-series",
+      "ids": [
+        "west-U07",
+        "west-U22"
+      ],
+      "reason": "U07의 3장은 선 사각형 비율/색/위치 변형인 한 시리즈. U22는 같은 도형 인쇄물 일부와 열린 소책자 사진이라 새 포스터로 세지 않음.",
+      "different_media": [
+        "west-U22"
+      ]
+    },
+    {
+      "key": "hey-fi-de-partida-series",
+      "ids": [
+        "west-U14",
+        "west-U15"
+      ],
+      "reason": "U14 네 장은 체커 크기·정보 면 위치·언어/색 변형인 한 시리즈. U15는 같은 체커·색 면을 쓴 접힌 인쇄물/회화 뒷면 사진으로 독립 포스터 증가 없음.",
+      "different_media": [
+        "west-U15"
+      ]
+    },
+    {
+      "key": "hey-kosmopolis-series",
+      "ids": [
+        "west-U06",
+        "west-U23"
+      ],
+      "reason": "U06 한 줄 눈/문자 그래픽과 U23 단어 중심 옥외 배너는 같은 구도가 아니다. metadata 프로젝트가 같지만 둘 다 독립 포스터로 세지 않는다.",
+      "same_composition": [],
+      "different_media": [
+        "west-U06",
+        "west-U23"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "east-FNT-02",
+      "region": "east",
+      "title": "Public Design Festival 2022",
+      "author": "studio fnt",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-FNT-02.jpg",
+        "sha256": "4d40443b35d4c3d6af8f80b07ed4d7994c3aec5a747d84006e947349830b6dc8",
+        "verified_sha256": "4d40443b35d4c3d6af8f80b07ed4d7994c3aec5a747d84006e947349830b6dc8",
+        "sha256_matches": true,
+        "page_url": "https://studiofnt.com/Public-Design-Festival-2022",
+        "image_url": "https://freight.cargo.site/t/original/i/08e654f169dfe09d4402fc0a1af7647f8f23d247da674d525d7c22055c5bbd9e/web_DSC09242.jpg",
+        "metadata_size_px": [
+          3000,
+          2000
+        ],
+        "verified_size_px": [
+          3000,
+          2000
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          3000,
+          2000
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 2,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-photograph",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "fnt-public-design-2022",
+      "project_key": "studio fnt | Public Design Festival 2022",
+      "duplicate_group_ids": [
+        "east-FNT-02"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "하나의 획/구멍 규칙을 본문보다 큰 이미지 문법으로 확장하고, 안내를 비대칭 빈자리로 모은다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-FNT-02",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "노랑 바탕의 실물 부착 포스터. 파랑 굵은 각진 형과 빨강 원/고리가 우하단에서 좌하단까지 연속되며 일부 잘린다.",
+        "large_spatial_structure": "좌상단 제목·날짜 묶음, 우상단 직각 형, 중앙 사선, 우측 가느다란 후원 열이 비대칭 균형을 만든다.",
+        "letter_role": "중간 크기 한글 제목은 안내, 초대형 기하형은 글자 같은 이미지로 작동한다. 그 형의 정확한 문자 판독은 확정하지 않는다.",
+        "body_reading_path": "좌상단 제목→날짜→검정 장소 3행, 이어 우측 후원 열. 후원 세부는 판독 불확실.",
+        "specific_finishing_decisions": "삼원색 평면·날카로운 변·원형 구멍, 사선 위 작은 QR의 방향까지 큰 형에 맞춘다."
+      },
+      "transferable_principle": "하나의 획/구멍 규칙을 본문보다 큰 이미지 문법으로 확장하고, 안내를 비대칭 빈자리로 모은다.",
+      "do_not_transfer_original_specifics": "고유 한글 로고·기하 글자 형태·색 배합 전체·원작 QR/후원 로고를 그대로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.31,
+            0.08,
+            0.49,
+            0.23
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "좌상단 제목·날짜·검정 장소 묶음",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.3,
+            0.35,
+            0.64,
+            0.93
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "사선 파랑 형과 빨강 고리가 이어지는 큰 이미지",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.65,
+            0.5,
+            0.7,
+            0.92
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "우측 좁은 후원 열",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "좌상단 제목→날짜→검정 장소 3행, 이어 우측 후원 열. 후원 세부는 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-FNT-03",
+      "region": "east",
+      "title": "Secret Christmas Station",
+      "author": "studio fnt",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-FNT-03.jpg",
+        "sha256": "f8e6db7fdac8b792ca73786e77813f0a7fb1e55a379628dea47f905543fe1131",
+        "verified_sha256": "f8e6db7fdac8b792ca73786e77813f0a7fb1e55a379628dea47f905543fe1131",
+        "sha256_matches": true,
+        "page_url": "https://studiofnt.com/Secret-Christmas-Station",
+        "image_url": "https://freight.cargo.site/t/original/i/57f5030943b97bd154592640b7f6e1303301f0009b0ba8e763cedecf5a4b0b10/web_DSC08149.jpg",
+        "metadata_size_px": [
+          3000,
+          2000
+        ],
+        "verified_size_px": [
+          3000,
+          2000
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          3000,
+          2000
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-photograph",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "fnt-secret-christmas",
+      "project_key": "studio fnt | Secret Christmas Station",
+      "duplicate_group_ids": [
+        "east-FNT-03"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "partial-only",
+      "classification_reason": "그림과 제목에 동일한 면/음영 규칙을 적용하는 부분, 주변 좁은 정보 열을 활용할 수 있다. 전체 캐릭터 홍보 형식은 기본 전체 추천에서 낮춘다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-FNT-03",
+      "whole_reference_recommended": false,
+      "partial_reference_only": true,
+      "facts": {
+        "whole_expression": "주황빨강 바탕에 흰 눈송이·유령 같은 다면 캐릭터가 크기를 바꿔 떠 있고 아래 검정 원근 레일이 있다.",
+        "large_spatial_structure": "상단 중앙 둥근 제목, 좌우 좁은 명단 열, 아래 넓은 캐릭터 장. 레일은 가장 아래에서 안쪽으로 수렴한다.",
+        "letter_role": "제목도 캐릭터와 같은 흰색 면·회색 망점으로 처리해 재질을 맞췄다. 안내는 검정 고딕.",
+        "body_reading_path": "중앙 제목→영문/일정의 짧은 중앙 묶음→양측 참여 명단. 명단 전체 판독은 불확실.",
+        "specific_finishing_decisions": "망점으로 입체의 옆면만 구분하고 검정 두 점의 얼굴을 반복한다. 부드러운 제목과 각진 눈송이가 대비한다."
+      },
+      "transferable_principle": "그림과 제목에 동일한 면/음영 규칙을 적용하는 부분, 주변 좁은 정보 열을 활용할 수 있다. 전체 캐릭터 홍보 형식은 기본 전체 추천에서 낮춘다.",
+      "do_not_transfer_original_specifics": "특유 눈송이/유령 얼굴·레일·둥근 한글 타이틀의 조합을 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.36,
+            0.08,
+            0.64,
+            0.2
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "흰 망점 제목과 검정 중앙 안내",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.31,
+            0.2,
+            0.7,
+            0.86
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "크기 다른 다면 캐릭터 장",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.31,
+            0.83,
+            0.69,
+            0.92
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "하단 검정 원근 레일",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "중앙 제목→영문/일정의 짧은 중앙 묶음→양측 참여 명단. 명단 전체 판독은 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-FNT-04",
+      "region": "east",
+      "title": "Poster Series for the Korean Traditional Performances, Madangnori",
+      "author": "studio fnt",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-FNT-04.jpg",
+        "sha256": "c6f39a0f677f03a6d0fd564375ee9a1bb3434af0248612d20e14e6fb011a3159",
+        "verified_sha256": "c6f39a0f677f03a6d0fd564375ee9a1bb3434af0248612d20e14e6fb011a3159",
+        "sha256_matches": true,
+        "page_url": "https://studiofnt.com/Poster-Series-for-the-Korean-Traditional-Performances-Madangnori",
+        "image_url": "https://freight.cargo.site/t/original/i/085cd52b899af34cb5134be0ebd24f8e144c418ea42907f93b44c97ce6be339f/madangnori_4.jpg",
+        "metadata_size_px": [
+          2318,
+          2318
+        ],
+        "verified_size_px": [
+          2318,
+          2318
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2318,
+          2318
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-photograph",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "fnt-madangnori-series",
+      "project_key": "studio fnt | Poster Series for the Korean Traditional Performances, Madangnori",
+      "duplicate_group_ids": [
+        "east-FNT-04"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "그림의 지형 곡선을 제목 기준선과 정보 빈자리의 근거로 사용한다. 장면 전체가 읽기 리듬을 만든다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-FNT-04",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "녹색 구릉을 따라 전통복장의 여러 인물이 뛰고 노란 동전이 흩어진다. 상단 흰 장에 크고 기울어진 검정 제목이 흩어져 있다.",
+        "large_spatial_structure": "흰 상부와 녹색 하부를 곡선 경계로 잇는다. 인물은 중앙과 양 가장자리에 크기 차를 두고 배치한다.",
+        "letter_role": "한글 음절의 기울기·간격이 몸동작과 연결되고 날짜 행도 활처럼 휘어 있다.",
+        "body_reading_path": "상부 큰 제목→우상단 날짜/장소→중앙 짧은 제작진→좌하단 예매 묶음. 일부 작은 로고는 판독 불확실.",
+        "specific_finishing_decisions": "얇은 종이/인쇄 같은 거친 질감, 선명한 평면 색, 옷과 리본의 곡선. 하단 안내도 밝은 길 공간 안에 놓는다."
+      },
+      "transferable_principle": "그림의 지형 곡선을 제목 기준선과 정보 빈자리의 근거로 사용한다. 장면 전체가 읽기 리듬을 만든다.",
+      "do_not_transfer_original_specifics": "원작 등장인물·한복/동전 서사·제목 모양·극장 로고를 소재만 바꿔 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.2,
+            0.06,
+            0.79,
+            0.34
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "기울어진 음절·휘어진 날짜의 상부 흰 장",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.19,
+            0.33,
+            0.81,
+            0.9
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "구릉과 여러 달리는 인물",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.2,
+            0.85,
+            0.44,
+            0.94
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "하단 빈 지형 안의 안내",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "상부 큰 제목→우상단 날짜/장소→중앙 짧은 제작진→좌하단 예매 묶음. 일부 작은 로고는 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-EP-02",
+      "region": "east",
+      "title": "세종문화회관 모든누구나",
+      "author": "Everyday Practice / 일상의실천",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-EP-02.jpg",
+        "sha256": "5c77dac2be77e6ffc550b34023a8d4b8725332804d254ea7fed56b6039fa3530",
+        "verified_sha256": "5c77dac2be77e6ffc550b34023a8d4b8725332804d254ea7fed56b6039fa3530",
+        "sha256_matches": true,
+        "page_url": "https://everyday-practice.com/sejong-center-anyone-for-everyone/",
+        "image_url": "https://everyday-practice.com/wp-content/uploads/2024/09/01-1024x1024.jpg",
+        "metadata_size_px": [
+          1024,
+          1024
+        ],
+        "verified_size_px": [
+          1024,
+          1024
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1024,
+          1024
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "logo",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "ep-sejong-anyone-logo",
+      "project_key": "Everyday Practice / 일상의실천 | 세종문화회관 모든누구나",
+      "duplicate_group_ids": [
+        "east-EP-02"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "non-poster",
+      "classification_reason": "접속 획과 속공간을 동시에 설계하는 로고 원리만 참고한다. 포스터 수에 넣지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "검정 정사각형 안에 두 덩어리의 매우 굵고 둥근 흰 한글형 획이 있다.",
+        "large_spatial_structure": "가운데 가로 띠에 기호가 집중되고 상하 여백이 넓다.",
+        "letter_role": "글자/로고 자체가 전부이며 행사 안내의 위계나 본문은 없다.",
+        "body_reading_path": "본문 없음. 로고 문자 전체의 정확한 판독은 확정하지 않는다.",
+        "specific_finishing_decisions": "동일 두께와 둥근 끝, 흰 획 사이 검정 통로의 폭을 조절한다."
+      },
+      "transferable_principle": "접속 획과 속공간을 동시에 설계하는 로고 원리만 참고한다. 포스터 수에 넣지 않는다.",
+      "do_not_transfer_original_specifics": "고유 로고의 획 연결과 글자 모양을 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.05,
+            0.28,
+            0.49,
+            0.72
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "왼쪽 둥근 흰 연결 획",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.52,
+            0.28,
+            0.95,
+            0.72
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "오른쪽 흰 반복 획과 검정 속공간",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "no_poster_body",
+        "small_body_fully_transcribed": false,
+        "note": "본문 없음. 로고 문자 전체의 정확한 판독은 확정하지 않는다."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-EP-03",
+      "region": "east",
+      "title": "세종썸머페스티벌 2024",
+      "author": "Everyday Practice / 일상의실천",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-EP-03.jpg",
+        "sha256": "56c27820473aa46f54b33571976c27de7e91ec5c881683555be1d92fc196c320",
+        "verified_sha256": "56c27820473aa46f54b33571976c27de7e91ec5c881683555be1d92fc196c320",
+        "sha256_matches": true,
+        "page_url": "https://everyday-practice.com/2024-sejong-summer-festival/",
+        "image_url": "https://everyday-practice.com/wp-content/uploads/2024/09/1-1-1024x1024.jpg",
+        "metadata_size_px": [
+          1024,
+          1024
+        ],
+        "verified_size_px": [
+          1024,
+          1024
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1024,
+          1024
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat-on-color-ground",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "ep-sejong-summer-2024",
+      "project_key": "Everyday Practice / 일상의실천 | 세종썸머페스티벌 2024",
+      "duplicate_group_ids": [
+        "east-EP-03"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "partial-only",
+      "classification_reason": "사선 텍스트 띠가 콜라주 영역과 날짜 영역 사이를 연결하는 부분을 참고한다. 전체 다색 장난감성 연출은 기본 전체 추천에서 제외한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-EP-03",
+      "whole_reference_recommended": false,
+      "partial_reference_only": true,
+      "facts": {
+        "whole_expression": "파랑 바깥 여백·흰 세로 판 안에 형광색 신발/헤드폰/원판 같은 오브젝트와 스플래시가 겹친다.",
+        "large_spatial_structure": "상부 다색 오브젝트 콜라주, 중간 비스듬한 영문 띠, 아래 대형 장소명과 날짜가 쌓인다.",
+        "letter_role": "파랑 압축/확장 고딕이 띠와 사선으로 이미지를 잇는다. 하부 단어가 주요 시각 무게다.",
+        "body_reading_path": "상단 작은 행사명→중간 두 띠→아래 큰 장소명→최하단 날짜. 작은 부가 카피 판독 불확실.",
+        "specific_finishing_decisions": "3D 음영과 거친 형광 오버프린트, 평면 곡선·점들이 혼합된다. 흰 장과 파랑 테두리로 다색을 묶는다."
+      },
+      "transferable_principle": "사선 텍스트 띠가 콜라주 영역과 날짜 영역 사이를 연결하는 부분을 참고한다. 전체 다색 장난감성 연출은 기본 전체 추천에서 제외한다.",
+      "do_not_transfer_original_specifics": "특유 오브젝트 묶음·왜곡된 장소명·색 조합과 배열을 그대로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.16,
+            0.08,
+            0.84,
+            0.6
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "형광 다색 오브젝트와 평면 스플래시 중첩",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.16,
+            0.58,
+            0.83,
+            0.95
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "사선 띠와 큰 장소명·날짜",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "상단 작은 행사명→중간 두 띠→아래 큰 장소명→최하단 날짜. 작은 부가 카피 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-EP-04",
+      "region": "east",
+      "title": "2026 서울드럼페스티벌",
+      "author": "Everyday Practice / 일상의실천",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-EP-04.jpg",
+        "sha256": "f88eacc884c95f8105b2bfa95b0f668f62591fd0cac8cbc7e266864224cd6f4c",
+        "verified_sha256": "f88eacc884c95f8105b2bfa95b0f668f62591fd0cac8cbc7e266864224cd6f4c",
+        "sha256_matches": true,
+        "page_url": "https://everyday-practice.com/2026-seoul-drum-festival/",
+        "image_url": "https://everyday-practice.com/wp-content/uploads/2026/06/%EC%84%9C%EC%9A%B8%EB%93%9C%EB%9F%BC%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%97%85%EB%A1%9C%EB%93%9C_instagram_1080_1440px_01-768x1024.jpg",
+        "metadata_size_px": [
+          768,
+          1024
+        ],
+        "verified_size_px": [
+          768,
+          1024
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          768,
+          1024
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "ep-seoul-drum-2026",
+      "project_key": "Everyday Practice / 일상의실천 | 2026 서울드럼페스티벌",
+      "duplicate_group_ids": [
+        "east-EP-04"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "excluded-template",
+      "classification_reason": "날짜와 장소를 한 줄 두 덩어리로 정리한 부분만 확인되나, 큰 오브젝트+큰 제목+하단 안내 반복이라 기본 추천 제외.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-EP-04",
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "연한 파랑 장에 점무늬/다색 세로띠 3D 북 하나가 크게 있고 하부에 흰 테두리 보라 영문 제목이 겹친다.",
+        "large_spatial_structure": "상단 고딕 안내 띠→중앙 거대 북→하부 대제목→맨 아래 캡슐형 날짜/장소의 고정 적층.",
+        "letter_role": "두껍고 눌린 영문 제목은 스티커 같은 오브젝트이며 작은 고딕은 상단/하단 안내.",
+        "body_reading_path": "제목과 북에 먼저 시선 집중→상단 행사명→아래 두 안내 캡슐. 미세 문구 일부 판독 불확실.",
+        "specific_finishing_decisions": "플라스틱/장난감 같은 매끈한 음영, 다색 점무늬, 흰 굵은 외곽선, 보라 타원 배경."
+      },
+      "transferable_principle": "날짜와 장소를 한 줄 두 덩어리로 정리한 부분만 확인되나, 큰 오브젝트+큰 제목+하단 안내 반복이라 기본 추천 제외.",
+      "do_not_transfer_original_specifics": "북의 장난감 재질·점무늬·스티커 영문과 캡슐 조합을 기본 템플릿으로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.1,
+            0.12,
+            0.89,
+            0.63
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "거대 3D 북",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.1,
+            0.51,
+            0.91,
+            0.9
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "흰 테두리 대제목",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.07,
+            0.91,
+            0.93,
+            0.96
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "최하단 두 안내 캡슐",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "제목과 북에 먼저 시선 집중→상단 행사명→아래 두 안내 캡슐. 미세 문구 일부 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-SM-01",
+      "region": "east",
+      "title": "Professionalism",
+      "author": "Sulki and Min / 슬기와 민",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-SM-01.jpg",
+        "sha256": "af89d216b0095f825cc80f440ea34cc2d96700582ce384b924f0d0971c0a0db5",
+        "verified_sha256": "af89d216b0095f825cc80f440ea34cc2d96700582ce384b924f0d0971c0a0db5",
+        "sha256_matches": true,
+        "page_url": "https://www.sulki-min.com/wp/professionalism/",
+        "image_url": "https://www.sulki-min.com/wp/wp-content/uploads/2016/11/Professionalism-screen.png",
+        "metadata_size_px": [
+          1984,
+          2834
+        ],
+        "verified_size_px": [
+          1984,
+          2834
+        ],
+        "file_format": "png",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1984,
+          2834
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "sm-on-posters-visible-metadata-professionalism",
+      "project_key": "Sulki and Min / 슬기와 민 | Professionalism",
+      "duplicate_group_ids": [
+        "east-SM-01"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "이질적인 사진을 같은 톤 처리와 캡션 단위로 편집하고, 반복 중 몇 단위의 배경 형태를 달리해 리듬을 준다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-SM-01",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "거의 검정인 짙은 갈색 바탕에 빨강으로 이색화한 격투 인물 컷과 이름을 여러 행으로 배열한다. 하단 대형 영문은 실제 ON POSTERS로 읽힌다.",
+        "large_spatial_structure": "상부부터 반복하는 인물-이름 단위, 간헐적 원형 배경, 아래 대제목 양옆의 기울어진 일정.",
+        "letter_role": "좁고 굵은 고딕 이름은 각 이미지의 캡션이다. 하부 영문은 전체 표를 하나의 행사로 묶는다.",
+        "body_reading_path": "행별 그림→바로 아래 영문/한글 이름→하단 제목→양옆 일정. 최하단 주최 작은 줄 일부 판독 불확실.",
+        "specific_finishing_decisions": "사진 중간톤을 제거해 두 색으로 통일하되 컷아웃/원형의 번갈림으로 표의 단조로움을 끊는다."
+      },
+      "transferable_principle": "이질적인 사진을 같은 톤 처리와 캡션 단위로 편집하고, 반복 중 몇 단위의 배경 형태를 달리해 리듬을 준다.",
+      "do_not_transfer_original_specifics": "격투 사진·원작 이름 대응·배경 원의 위치·하단 ON POSTERS 조합을 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.06,
+            0.02,
+            0.97,
+            0.83
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "빨강 이색화 인물과 캡션 반복",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.26,
+            0.86,
+            0.74,
+            0.97
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "읽히는 하단 ON POSTERS",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.04,
+            0.85,
+            0.22,
+            0.94
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "기울어진 하단 좌측 일정",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "행별 그림→바로 아래 영문/한글 이름→하단 제목→양옆 일정. 최하단 주최 작은 줄 일부 판독 불확실."
+      },
+      "identity_uncertainties": [
+        "metadata 제목 Professionalism과 화면 하단 ON POSTERS가 다름. 제목 필드는 metadata 유지, 페이지와 이미지의 프로젝트 대응은 미확인."
+      ],
+      "unresolved_details": [
+        "metadata 제목 Professionalism과 화면 하단 ON POSTERS가 다름. 제목 필드는 metadata 유지, 페이지와 이미지의 프로젝트 대응은 미확인."
+      ]
+    },
+    {
+      "id": "east-SM-02",
+      "region": "east",
+      "title": "Modafe 2005",
+      "author": "Sulki and Min / 슬기와 민",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-SM-02.jpg",
+        "sha256": "c910f3f8d8b5fcb9d23cb75a3b7fbf149f8c6fe04cad981e29ee9a586427682f",
+        "verified_sha256": "c910f3f8d8b5fcb9d23cb75a3b7fbf149f8c6fe04cad981e29ee9a586427682f",
+        "sha256_matches": true,
+        "page_url": "https://www.sulki-min.com/wp/modafe-2005-poster/",
+        "image_url": "https://www.sulki-min.com/wp/wp-content/uploads/2005/05/Modafe-2005-poster-1.png",
+        "metadata_size_px": [
+          1400,
+          1899
+        ],
+        "verified_size_px": [
+          1400,
+          1899
+        ],
+        "file_format": "png",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1400,
+          1899
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "sm-modafe-2005",
+      "project_key": "Sulki and Min / 슬기와 민 | Modafe 2005",
+      "duplicate_group_ids": [
+        "east-SM-02"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "같은 정보를 여러 방향으로 재조합하되 최소 한 안내 묶음은 정방향에 남긴다. 이미지 모듈과 활자 블록의 크기를 교차한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-SM-02",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "흰 바탕 위 검정/마젠타 대문자와 연도, 사람 픽토그램의 원/호가 섞인다. 동일한 제목 요소가 90도/180도 회전해 반복한다.",
+        "large_spatial_structure": "좌상단 뒤집힌 연도·좌중단 회전 약칭, 우상단 긴 제목의 단어 쪼개기, 하부 재배치. 가운데에는 작은 안내의 여백이 남는다.",
+        "letter_role": "굵은 고딕 자체가 대형 블록이며 두 색 경계가 단어 중간을 가른다. 픽토그램은 원형/사슬로 크기 변화를 준다.",
+        "body_reading_path": "어느 모서리에서 들어와도 큰 제목을 발견→가운데/좌측 세로 정보→하단 정방향 안내. 미세 주최 명단 일부 판독 불확실.",
+        "specific_finishing_decisions": "마젠타 막대가 글자 묶음을 구획하고, 작은 사람 사슬은 글자와 겹쳐 평면 질서를 흔든다."
+      },
+      "transferable_principle": "같은 정보를 여러 방향으로 재조합하되 최소 한 안내 묶음은 정방향에 남긴다. 이미지 모듈과 활자 블록의 크기를 교차한다.",
+      "do_not_transfer_original_specifics": "원작 약칭의 정확한 쪼개기·마젠타 위치·사람 픽토그램 원형을 베끼지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.04,
+            0.03,
+            0.48,
+            0.36
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "회전한 연도·약칭",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.51,
+            0.03,
+            0.96,
+            0.37
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "마젠타/검정 단어 분할",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.21,
+            0.4,
+            0.49,
+            0.6
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "원형 사람 모듈과 중앙 여백",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "어느 모서리에서 들어와도 큰 제목을 발견→가운데/좌측 세로 정보→하단 정방향 안내. 미세 주최 명단 일부 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-SM-03",
+      "region": "east",
+      "title": "Design360° Festival 2023",
+      "author": "Sulki and Min / 슬기와 민",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-SM-03.jpg",
+        "sha256": "6cce50a564787ac9af76c1dbc2a2502805cae48111923409e0aaae951f6f2481",
+        "verified_sha256": "6cce50a564787ac9af76c1dbc2a2502805cae48111923409e0aaae951f6f2481",
+        "sha256_matches": true,
+        "page_url": "https://www.sulki-min.com/wp/design360-festival-2023-posters/",
+        "image_url": "https://www.sulki-min.com/wp/wp-content/uploads/2024/08/2023-Design360Festival-poster-print-1-RGB.png",
+        "metadata_size_px": [
+          1616,
+          2381
+        ],
+        "verified_size_px": [
+          1616,
+          2381
+        ],
+        "file_format": "png",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1616,
+          2381
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "sm-design360-2023",
+      "project_key": "Sulki and Min / 슬기와 민 | Design360° Festival 2023",
+      "duplicate_group_ids": [
+        "east-SM-03"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "큰 면-가는 선-얇은 활자의 세 밀도를 조절하고, 이미지의 방향에 정보 기준선을 맞춘다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-SM-03",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "다색 삼각형·부채꼴·가는 막대가 위아래로 잘리며 흰 공간 사이를 가로지른다. 얇은 검정 문자가 원호/회전/사선으로 놓인다.",
+        "large_spatial_structure": "굵은 색 면이 상단과 하단에 걸리고 중앙에는 바늘 같은 형이 모인다. 좌측 베이지 원형 장과 우측 녹색 면이 안내의 지지면이다.",
+        "letter_role": "가늘고 넓게 띄운 문자는 굵은 색 면의 무게에 대항한다. 제목은 원둘레, 장소는 사선/회전 방향.",
+        "body_reading_path": "좌측 원호 제목→원 안 날짜→우측/하단 장소. 원호·회전 때문에 읽기 시작점이 분산된다. 작은 상단 로고 문구는 판독 불확실.",
+        "specific_finishing_decisions": "평면 원색과 일부 미세 망점, 매우 가는 선을 함께 써 원근 대신 중첩과 두께로 층을 만든다."
+      },
+      "transferable_principle": "큰 면-가는 선-얇은 활자의 세 밀도를 조절하고, 이미지의 방향에 정보 기준선을 맞춘다.",
+      "do_not_transfer_original_specifics": "원작 색 조각의 정확한 모양/배치·원호 제목·기관 로고를 통째로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.02,
+            0.27,
+            0.5,
+            0.69
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "좌측 원호 제목과 베이지 날짜 지지면",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.49,
+            0.01,
+            0.91,
+            0.52
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "굵은 색 부채꼴과 가는 교차 막대",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.44,
+            0.63,
+            0.88,
+            0.83
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "하부 사선 장소 행",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "좌측 원호 제목→원 안 날짜→우측/하단 장소. 원호·회전 때문에 읽기 시작점이 분산된다. 작은 상단 로고 문구는 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-SM-04",
+      "region": "east",
+      "title": "Asia Culture Center Theater Opening Festival",
+      "author": "Sulki and Min / 슬기와 민",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-SM-04.jpg",
+        "sha256": "43c08994581df58528a993596f0518fc179ab6b9c1c65d285b35b785fae27a4b",
+        "verified_sha256": "43c08994581df58528a993596f0518fc179ab6b9c1c65d285b35b785fae27a4b",
+        "sha256_matches": true,
+        "page_url": "https://www.sulki-min.com/wp/asian-culture-center-theater-opening-festival-posters/",
+        "image_url": "https://www.sulki-min.com/wp/wp-content/uploads/2015/08/AAT-Opening-Festival-posters-screen-1-1.png",
+        "metadata_size_px": [
+          1684,
+          2381
+        ],
+        "verified_size_px": [
+          1684,
+          2381
+        ],
+        "file_format": "png",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1684,
+          2381
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "sm-acc-opening-2015",
+      "project_key": "Sulki and Min / 슬기와 민 | Asia Culture Center Theater Opening Festival",
+      "duplicate_group_ids": [
+        "east-SM-04"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "partial-only",
+      "classification_reason": "두 면의 접점과 큰 여백 비율, 가장자리의 세로 기관명 배치만 유용하다. 전체 고딕 안내+기하 면 형식은 기본 전체 예시로 추천하지 않는다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-SM-04",
+      "whole_reference_recommended": false,
+      "partial_reference_only": true,
+      "facts": {
+        "whole_expression": "흰 바탕에서 녹색 큰 삼각 면 두 개가 중앙 부근의 작은 접점으로 맞닿는다. 상단 날짜와 하단 행사명이 매우 큰 검정 고딕이다.",
+        "large_spatial_structure": "위/아래 큰 글자 띠 사이 넓은 빈 장, 약 60% 지점의 세로 경계와 대각선이 긴장점을 만든다.",
+        "letter_role": "날짜/행사명의 고딕은 정적 정보 덩어리. 오른쪽 작은 기관명이 90도 돌아 있다.",
+        "body_reading_path": "상단 날짜→하단 행사명→우측 세로 기관명. 별도 상세 본문은 이 이미지에 없다.",
+        "specific_finishing_decisions": "기하 면은 그라데이션 없이 순색이고 접점은 가는 흰 틈처럼 보인다. 글자는 두 바탕을 가로질러 같은 검정으로 유지된다."
+      },
+      "transferable_principle": "두 면의 접점과 큰 여백 비율, 가장자리의 세로 기관명 배치만 유용하다. 전체 고딕 안내+기하 면 형식은 기본 전체 예시로 추천하지 않는다.",
+      "do_not_transfer_original_specifics": "녹색 모래시계 같은 정확한 분할·날짜/행사명 크기와 위치를 템플릿으로 고정하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.09,
+            0.01,
+            0.93,
+            0.15
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "상단 대형 날짜",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.54,
+            0.63,
+            0.65,
+            0.77
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "두 녹색 면의 작은 접점",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.05,
+            0.85,
+            0.95,
+            0.99
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "하단 고딕 행사명",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "상단 날짜→하단 행사명→우측 세로 기관명. 별도 상세 본문은 이 이미지에 없다."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-SM-05",
+      "region": "east",
+      "title": "Festival Bo:m 2013",
+      "author": "Sulki and Min / 슬기와 민",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-SM-05.jpg",
+        "sha256": "5d802c4477d911dd8a40dd43ef86084ffb5940cf3e8a4e33210b5156ee19ca49",
+        "verified_sha256": "5d802c4477d911dd8a40dd43ef86084ffb5940cf3e8a4e33210b5156ee19ca49",
+        "sha256_matches": true,
+        "page_url": "https://www.sulki-min.com/wp/festival-bom-2013-posters/",
+        "image_url": "https://www.sulki-min.com/wp/wp-content/uploads/2013/03/Festival_Bom_2013_A.jpg",
+        "metadata_size_px": [
+          1251,
+          2045
+        ],
+        "verified_size_px": [
+          1251,
+          2045
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1251,
+          2045
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat-with-photograph",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "sm-festival-bom-2013",
+      "project_key": "Sulki and Min / 슬기와 민 | Festival Bo:m 2013",
+      "duplicate_group_ids": [
+        "east-SM-05"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "사진+색 면의 경계에서 글자의 반복을 일부 가려 깊이와 중단을 만든다. 큰 빈 색 면도 장면의 긴장을 맡을 수 있다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-SM-05",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "회색 흑백 사진 장의 한 인물이 상체를 앞으로 기울인다. 빨강 순색의 넓은 물결 면이 하반부를 덮어 인물과 반복 글자를 자른다.",
+        "large_spatial_structure": "사진은 위 절반에서 낮은 대비의 빈 공간을 만들고, 큰 곡선 경계가 좌측 낮은 곳에서 우측 높은 곳으로 이어진다. 하부 빨강은 거의 빈 장.",
+        "letter_role": "가는 흰 대문자 행사명/도시/날짜가 중앙 세로축에 간격을 두고 반복하며 마지막 반복은 가려진다.",
+        "body_reading_path": "상단 행사명→도시/날짜→동일 반복을 따라 아래로→좌측 세로 URL/사진 크레딧. 가려진 카피는 추정하지 않는다.",
+        "specific_finishing_decisions": "사진의 입자·회색 중간톤과 매끈한 빨강을 대비시키고, 색 면을 인물 앞 가림막으로 사용한다."
+      },
+      "transferable_principle": "사진+색 면의 경계에서 글자의 반복을 일부 가려 깊이와 중단을 만든다. 큰 빈 색 면도 장면의 긴장을 맡을 수 있다.",
+      "do_not_transfer_original_specifics": "원작 인물 사진·동일 물결·정확한 반복 카피와 위치를 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.32,
+            0.22,
+            0.57,
+            0.42
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "사진 인물과 반복 흰 문자",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0.28,
+            1,
+            0.47
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "회색 사진과 빨강 면의 곡선 경계",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.01,
+            0.48,
+            0.99,
+            0.99
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "거의 비어 있는 빨강 하부",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "상단 행사명→도시/날짜→동일 반복을 따라 아래로→좌측 세로 URL/사진 크레딧. 가려진 카피는 추정하지 않는다."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-OP-01",
+      "region": "east",
+      "title": "Act Festival 2016",
+      "author": "Ordinary People",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-OP-01.jpg",
+        "sha256": "7e6898085b72db56431ee41167f470b385853f5a22c893703646b99a1ca6626b",
+        "verified_sha256": "7e6898085b72db56431ee41167f470b385853f5a22c893703646b99a1ca6626b",
+        "sha256_matches": true,
+        "page_url": "https://ordinarypeople.info/work/act-festival-2016",
+        "image_url": "https://images.squarespace-cdn.com/content/v1/5fdcd66b0383b32fb0f59e0e/1613454187144-ED4LYKTGYAOXKWVOA8Y6/187_poster-585x825.jpg",
+        "metadata_size_px": [
+          851,
+          1200
+        ],
+        "verified_size_px": [
+          851,
+          1200
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          851,
+          1200
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "op-act-2016",
+      "project_key": "Ordinary People | Act Festival 2016",
+      "duplicate_group_ids": [
+        "east-OP-01"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "반복 내용을 다른 높이의 언어 열로 편집하고 가장자리에서 절단해 연속성을 만든다. 상세 정보는 반복 묶음마다 가까이 붙인다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-OP-01",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "검정 세로 장에 흰 기울어진 한글/영문 덩어리를 좌우 두 열로 반복한다. 위아래는 반복의 중간에서 잘린다.",
+        "large_spatial_structure": "두 열의 시작 높이가 어긋나며, 묶음 안에는 큰 제목/날짜와 작은 중앙 정렬 안내가 있다. 왼쪽 가장자리에 작은 세로 로고/주최 열.",
+        "letter_role": "강한 이탤릭과 아주 좁은 행간이 제목·날짜를 추진하는 이미지로 만든다. 두 언어를 별도 평행 열로 둔다.",
+        "body_reading_path": "좌/우 언어 선택→큰 행사명→주제→날짜→장소→작은 안내. 아래 반복에서 놓친 정보를 재발견한다. 일부 미세 글자는 판독 불확실.",
+        "specific_finishing_decisions": "흑백만 사용하나 기울기·단어폭·행의 밀착으로 높은 운동감이 생긴다."
+      },
+      "transferable_principle": "반복 내용을 다른 높이의 언어 열로 편집하고 가장자리에서 절단해 연속성을 만든다. 상세 정보는 반복 묶음마다 가까이 붙인다.",
+      "do_not_transfer_original_specifics": "원작 슬랜트/행간/문장 쪼개기와 이중열 전체 패턴을 그대로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.05,
+            0.04,
+            0.51,
+            0.39
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "한국어 정보 묶음과 강한 이탤릭",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.51,
+            0.04,
+            0.95,
+            0.44
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "영문 정보 묶음",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.04,
+            0.44,
+            0.94,
+            0.99
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "높이를 달리하는 반복·가장자리 절단",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "좌/우 언어 선택→큰 행사명→주제→날짜→장소→작은 안내. 아래 반복에서 놓친 정보를 재발견한다. 일부 미세 글자는 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-OP-02",
+      "region": "east",
+      "title": "Everyday, Graphic, and Calendar",
+      "author": "Ordinary People",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-OP-02.jpg",
+        "sha256": "50b29371bde6ebc9c74d148366f28385aa42c632ad2eeb2da1b792c1a6f7ff48",
+        "verified_sha256": "50b29371bde6ebc9c74d148366f28385aa42c632ad2eeb2da1b792c1a6f7ff48",
+        "sha256_matches": true,
+        "page_url": "https://ordinarypeople.info/work/everyday-graphic-and-calendar",
+        "image_url": "https://images.squarespace-cdn.com/content/v1/5fdcd66b0383b32fb0f59e0e/1613368489799-NUTPROMV5KOV5J88GNN2/%5Brgb%5Degc-poster.jpg",
+        "metadata_size_px": [
+          1684,
+          2384
+        ],
+        "verified_size_px": [
+          1684,
+          2384
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1684,
+          2384
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "op-everyday-graphic-calendar",
+      "project_key": "Ordinary People | Everyday, Graphic, and Calendar",
+      "duplicate_group_ids": [
+        "east-OP-02"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "전경의 문자 속에 단어를 넣고 배경에는 같은 정보를 반복해 가림을 견디는 이중 읽기 층을 만든다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-OP-02",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "빨강 바탕에 영문/일문 행사 정보를 검정으로 반복하고, 흰 속·파랑 테두리의 매우 큰 E/G/C 같은 문자가 그 위에 겹친다.",
+        "large_spatial_structure": "상부 사선 막대 묶음과 하부 원호 두 덩어리가 화면을 채우며 바탕의 두 언어 열을 부분 가린다.",
+        "letter_role": "작은 제목 단어를 초대형 문자 획 안에 다시 넣는다. 글자가 담는 정보와 글자 자체의 형태가 두 크기에서 동시 작동한다.",
+        "body_reading_path": "큰 흰/파랑 문자→획 안 단어→빨강 바탕의 반복 안내 중 가려지지 않은 날짜/장소. 가려진 부분은 다른 반복에서만 일부 확인.",
+        "specific_finishing_decisions": "순색 대비·매끈한 윤곽, 전경의 파랑 테두리 두께가 배경의 검정 행보다 크다."
+      },
+      "transferable_principle": "전경의 문자 속에 단어를 넣고 배경에는 같은 정보를 반복해 가림을 견디는 이중 읽기 층을 만든다.",
+      "do_not_transfer_original_specifics": "원작 약칭·거대 글자 모양·빨강/파랑 정확한 배열과 반복 문안을 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.03,
+            0.01,
+            0.94,
+            0.44
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "배경의 검정 반복 안내와 전경 사선 문자",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.04,
+            0.49,
+            0.96,
+            0.97
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "흰/파랑 큰 원호 문자 속 단어",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "큰 흰/파랑 문자→획 안 단어→빨강 바탕의 반복 안내 중 가려지지 않은 날짜/장소. 가려진 부분은 다른 반복에서만 일부 확인."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-OP-03",
+      "region": "east",
+      "title": "Superposition",
+      "author": "Ordinary People",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-OP-03.jpg",
+        "sha256": "00b10cd785016a1e8c459d203ac33122171bafead6b1e122d6011a1439446358",
+        "verified_sha256": "00b10cd785016a1e8c459d203ac33122171bafead6b1e122d6011a1439446358",
+        "sha256_matches": true,
+        "page_url": "https://ordinarypeople.info/work/superposition",
+        "image_url": "https://images.squarespace-cdn.com/content/v1/5fdcd66b0383b32fb0f59e0e/1613366100480-HFZAEE6FQHWHNXZCCA6L/finpromotion_img-1200x1800px.jpg",
+        "metadata_size_px": [
+          1200,
+          1800
+        ],
+        "verified_size_px": [
+          1200,
+          1800
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1200,
+          1800
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "op-superposition",
+      "project_key": "Ordinary People | Superposition",
+      "duplicate_group_ids": [
+        "east-OP-03"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "반복 모듈의 크기를 단계적으로 줄여 시선 이동을 만든다. 읽을 정보 한 단위는 중첩 밖에서 선명하게 남기는 방향으로 응용한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-OP-03",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "흑백 세로 스트라이프의 좁은 정보 열과 엄청 길쭉한 대제목이 중첩한다. 제목은 아래로 갈수록 작아지고 오른쪽으로 물러난다.",
+        "large_spatial_structure": "왼쪽 규칙적 세로 띠, 오른쪽 계단형으로 축소하는 대제목; 우하단에는 점/체커 무늬로 크기 변화가 끝난다.",
+        "letter_role": "극단적으로 좁은 영문과 작은 회전 정보가 같은 흑백 교대에 걸린다. 제목 자체가 반복 패턴이다.",
+        "body_reading_path": "상단 대제목→축소하는 제목→왼쪽 세로 날짜/전시명/장소. 작은 중첩 카피는 여러 부분이 판독 불확실.",
+        "specific_finishing_decisions": "검정/흰 반전·점·체커와 폭 축소만으로 밀도/깊이를 만든다. 정보에는 일부 가림과 왜곡이 있다."
+      },
+      "transferable_principle": "반복 모듈의 크기를 단계적으로 줄여 시선 이동을 만든다. 읽을 정보 한 단위는 중첩 밖에서 선명하게 남기는 방향으로 응용한다.",
+      "do_not_transfer_original_specifics": "원작 축소 계단·동일 타이틀 왜곡·정확한 흑백 스트라이프를 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0,
+            1,
+            0.2
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "극단적으로 세로 압축된 대제목",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0.2,
+            0.46,
+            0.99
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "흑백 세로 안내 띠",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.75,
+            0.79,
+            1,
+            1
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "축소 제목에서 점/체커로 이행",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "상단 대제목→축소하는 제목→왼쪽 세로 날짜/전시명/장소. 작은 중첩 카피는 여러 부분이 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "east-OP-04",
+      "region": "east",
+      "title": "THE BREMEN",
+      "author": "Ordinary People",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/east-OP-04.jpg",
+        "sha256": "6f2a74c9890326087e1731bda8bd0831f25b1ea3c50d078329880858320c405c",
+        "verified_sha256": "6f2a74c9890326087e1731bda8bd0831f25b1ea3c50d078329880858320c405c",
+        "sha256_matches": true,
+        "page_url": "https://ordinarypeople.info/work/bremen",
+        "image_url": "https://images.squarespace-cdn.com/content/v1/5fdcd66b0383b32fb0f59e0e/1613166020202-EMG4V2LS86CLNMY0RN1J/38_borposter.jpg",
+        "metadata_size_px": [
+          650,
+          920
+        ],
+        "verified_size_px": [
+          650,
+          920
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          650,
+          920
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "op-bremen",
+      "project_key": "Ordinary People | THE BREMEN",
+      "duplicate_group_ids": [
+        "east-OP-04"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "partial-only",
+      "classification_reason": "이질 소재를 같은 픽셀 단위로 재편집하는 부분만 참고한다. 전체 그림+검정 고딕 정보판 형식은 기본 전체 추천 제외.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "east-OP-04",
+      "whole_reference_recommended": false,
+      "partial_reference_only": true,
+      "facts": {
+        "whole_expression": "빨강/흰 체크와 청록/노랑 픽셀 얼굴, 검정 건반 같은 사선 물체가 겹친 패턴. 아래쪽 검정 직사각 띠에 흰 고딕 행사 정보가 있다.",
+        "large_spatial_structure": "위 약 3/4는 고밀도 픽셀 콜라주, 아래 정보판과 더 얇은 로고 띠는 수평 직사각형으로 분리된다.",
+        "letter_role": "흰 압축 고딕은 행사명/날짜를 읽히는 안내판이고, 이미지와 글자 사이 형태 연결은 적다.",
+        "body_reading_path": "하단 큰 행사명→날짜→장소→맨 아래 URL/로고. 로고/아주 작은 카피 일부 판독 불확실.",
+        "specific_finishing_decisions": "픽셀 계단 윤곽과 체크가 여러 소재를 같은 해상도 질감으로 묶는다. 검정 띠는 주변 패턴을 강하게 끊는다."
+      },
+      "transferable_principle": "이질 소재를 같은 픽셀 단위로 재편집하는 부분만 참고한다. 전체 그림+검정 고딕 정보판 형식은 기본 전체 추천 제외.",
+      "do_not_transfer_original_specifics": "고유 캐릭터·건반 물체·체크 배치와 검정 안내 띠 전체 조합을 베끼지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0,
+            1,
+            0.73
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "같은 픽셀 단위로 섞인 체크/캐릭터/건반 형",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.04,
+            0.73,
+            0.96,
+            0.89
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "수평 검정 정보판",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "하단 큰 행사명→날짜→장소→맨 아래 URL/로고. 로고/아주 작은 카피 일부 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U01",
+      "region": "west",
+      "title": "Amsterdam Sinfonietta",
+      "author": "Studio Dumbar/DEPT",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U01.jpg",
+        "sha256": "3e1c8591a256c7706a217a134249298f16aac946c235f51571bcc7377624a9c4",
+        "verified_sha256": "3e1c8591a256c7706a217a134249298f16aac946c235f51571bcc7377624a9c4",
+        "sha256_matches": true,
+        "page_url": "https://studiodumbar.com/work/amsterdam-sinfonietta",
+        "image_url": "https://studiodumbar.com/media/pages/work/amsterdam-sinfonietta/d306b3e94d-1682344652/as-2.jpg",
+        "metadata_size_px": [
+          2880,
+          1920
+        ],
+        "verified_size_px": [
+          2880,
+          1920
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2880,
+          1920
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-series-presentation",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "dumbar-amsterdam-sinfonietta-series",
+      "project_key": "Studio Dumbar/DEPT | Amsterdam Sinfonietta",
+      "duplicate_group_ids": [
+        "west-U01",
+        "west-U16",
+        "west-U17"
+      ],
+      "duplicate_comparison": "정확히 동일 구도는 아니다. U01은 다이아몬드/반복 띠, U16은 사선 글자 밀도/원, U17은 큰 원환이다. 작은 문자→큰 패턴, 기관명과 하단 안내의 관계를 공유하는 한 시리즈로 보수적으로 1작품 집계.",
+      "classification": "whole-positive",
+      "classification_reason": "활자에서 이미지 패턴을 만들고, 공연마다 패턴의 기울기/스케일은 바꾸되 기관명·안내 위치의 일부를 공유한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "west-U01",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "어두운 배경 위 두 세로 포스터. 왼쪽은 회색/파랑 문자 패턴과 검정 큰 제목, 오른쪽은 빨강/청록 문자 패턴과 큰 연주자/작곡가 이름.",
+        "large_spatial_structure": "바탕 문자들이 사선으로 축소하는 다이아몬드 면, 반복 띠, 원형 패턴을 만든다. 좌상단 기울어진 기관명과 아래 양쪽 안내 묶음이 유지된다.",
+        "letter_role": "큰 글자와 배경의 작은 글자가 같은 문자 재료다. 어떤 영역은 전경 제목에도 작은 패턴이 겹친다.",
+        "body_reading_path": "기관명→큰 공연 제목/이름→아래 양끝 날짜/장소/출연자. 일부 배경 문자는 장식화되어 정확한 카피를 확정하지 않는다.",
+        "specific_finishing_decisions": "평면 글자의 크기 변화·반복·회색 측면 같은 얕은 깊이, 극단적 대비색. 바탕 패턴의 색농도를 낮춰 큰 제목을 분리한다."
+      },
+      "transferable_principle": "활자에서 이미지 패턴을 만들고, 공연마다 패턴의 기울기/스케일은 바꾸되 기관명·안내 위치의 일부를 공유한다.",
+      "do_not_transfer_original_specifics": "원작 S/a/y 등의 패턴 모양·정확한 색 및 제목의 중첩 구도를 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.08,
+            0.09,
+            0.46,
+            0.89
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "좌측 사선 문자 패턴과 큰 제목",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.54,
+            0.09,
+            0.92,
+            0.9
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "우측 빨강/청록 문자 패턴",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.08,
+            0.76,
+            0.92,
+            0.88
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "각 포스터 하단 양끝 안내",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "기관명→큰 공연 제목/이름→아래 양끝 날짜/장소/출연자. 일부 배경 문자는 장식화되어 정확한 카피를 확정하지 않는다."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U02",
+      "region": "west",
+      "title": "Gandules",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U02.jpg",
+        "sha256": "418f4352f403a851975b32ef9cf12ebd88abfbddb8b94283c1ee353f916e0e49",
+        "verified_sha256": "418f4352f403a851975b32ef9cf12ebd88abfbddb8b94283c1ee353f916e0e49",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/gandules/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/Gandules2010%C2%A9hey01.jpeg",
+        "metadata_size_px": [
+          2048,
+          1365
+        ],
+        "verified_size_px": [
+          2048,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2048,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-series-photograph",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "hey-gandules-2010",
+      "project_key": "Hey | Gandules",
+      "duplicate_group_ids": [
+        "west-U02",
+        "west-U03",
+        "west-U04",
+        "west-U20"
+      ],
+      "duplicate_comparison": "U02의 세 색은 동심형·의자·위 정보 위치가 같아 한 작품. U04는 같은 포스터의 본문 확장. U03은 좁은 배너에 회전/크롭한 적용, U20은 다른 일정 정보판이지만 같은 캠페인의 지원매체라 새 포스터 수를 추가하지 않음.",
+      "classification": "partial-only",
+      "classification_reason": "선 간격으로 부피를 만드는 이미지 원리는 유용하나, 위 고딕 안내+부가 그림의 전체 형식은 기본 전체 추천에서 제외한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": "west-U04",
+      "whole_reference_recommended": false,
+      "partial_reference_only": true,
+      "facts": {
+        "whole_expression": "흰 세로 포스터 3장이 놓인 사진. 녹색/황적색/청자색 변형마다 하단의 줄무늬 둥근 삼각형과 위 작은 접이의자 기호가 같다.",
+        "large_spatial_structure": "위쪽은 좌우 고딕 제목/기관 안내, 아래 절반 이상은 한쪽 작은 소실점으로 모이는 동심 줄무늬 형.",
+        "letter_role": "굵은 검정 행사명과 가는 색 주제명은 같은 윗줄의 두 열. 글자와 그림의 직접 통합은 적다.",
+        "body_reading_path": "위 작은 기관명→행사명/주제명→의자→큰 줄무늬. 세 장에는 상세 프로그램 본문이 보이지 않는다.",
+        "specific_finishing_decisions": "줄 간격은 소실점 주변에서 촘촘하고 밖에서 넓어지며 색이 점진적으로 바뀐다. 종이 그림자/바닥 반사는 촬영 효과다."
+      },
+      "transferable_principle": "선 간격으로 부피를 만드는 이미지 원리는 유용하나, 위 고딕 안내+부가 그림의 전체 형식은 기본 전체 추천에서 제외한다.",
+      "do_not_transfer_original_specifics": "원작 동심 둥근 삼각형·의자·제목 2열 조합을 복제하지 않는다. 색 3개를 작품 3개로 세지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.08,
+            0.24,
+            0.37,
+            0.81
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "녹색 변형의 위 정보·아래 동심형",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.63,
+            0.23,
+            0.93,
+            0.84
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "청자색 변형의 동일 구도",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "위 작은 기관명→행사명/주제명→의자→큰 줄무늬. 세 장에는 상세 프로그램 본문이 보이지 않는다."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U03",
+      "region": "west",
+      "title": "Gandules",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U03.jpg",
+        "sha256": "397abad46fb2522d305dc132b0f9b39565f0ac0bdce9295d7f8a1e8c4ca91fd2",
+        "verified_sha256": "397abad46fb2522d305dc132b0f9b39565f0ac0bdce9295d7f8a1e8c4ca91fd2",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/gandules/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/Gandules2010%C2%A9hey03.jpeg",
+        "metadata_size_px": [
+          910,
+          1365
+        ],
+        "verified_size_px": [
+          910,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          910,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "outdoor-banner-photograph",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "hey-gandules-2010",
+      "project_key": "Hey | Gandules",
+      "duplicate_group_ids": [
+        "west-U02",
+        "west-U03",
+        "west-U04",
+        "west-U20"
+      ],
+      "duplicate_comparison": "U02의 세 색은 동심형·의자·위 정보 위치가 같아 한 작품. U04는 같은 포스터의 본문 확장. U03은 좁은 배너에 회전/크롭한 적용, U20은 다른 일정 정보판이지만 같은 캠페인의 지원매체라 새 포스터 수를 추가하지 않음.",
+      "classification": "non-poster",
+      "classification_reason": "같은 시각 모듈을 배너 비율에 맞춰 회전/크롭하는 적용만 참고한다. 독립 포스터 수에는 넣지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "건물에 달린 매우 긴 세로 배너 사진. 상부 행사명/주제가 90도 회전하고 중간에 검정 의자, 아래에 녹색 동심 줄과 기관명이 있다.",
+        "large_spatial_structure": "좁은 배너 비율에 맞춰 위 문자→의자→잘린 줄무늬→아래 기관명의 축을 만든다.",
+        "letter_role": "상부 글자는 세로 배너에 가로로 돌아 있고 하부 기관명은 정방향.",
+        "body_reading_path": "위 회전 행사명/주제명→중간 그림→아래 기관명. 상세 본문 없음.",
+        "specific_finishing_decisions": "건물 원근과 천의 말림은 현장 사진 효과. 그림이 양옆에서 크롭된다."
+      },
+      "transferable_principle": "같은 시각 모듈을 배너 비율에 맞춰 회전/크롭하는 적용만 참고한다. 독립 포스터 수에는 넣지 않는다.",
+      "do_not_transfer_original_specifics": "원작 의자·녹색 줄무늬 형태를 그대로 쓰지 않는다. U02/U04와 별도 작품으로 세지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.44,
+            0.15,
+            0.59,
+            0.36
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "회전 제목·주제",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.34,
+            0.49,
+            0.66,
+            0.82
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "배너 폭에 크롭된 동심형",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "no_poster_body",
+        "small_body_fully_transcribed": false,
+        "note": "위 회전 행사명/주제명→중간 그림→아래 기관명. 상세 본문 없음."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U04",
+      "region": "west",
+      "title": "Gandules",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U04.jpg",
+        "sha256": "7a1c8b770cf7b667f13998da618b3ddec21ff73ae6e93b46de5434b7abb80457",
+        "verified_sha256": "7a1c8b770cf7b667f13998da618b3ddec21ff73ae6e93b46de5434b7abb80457",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/gandules/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/Gandules2010%C2%A9hey02.jpeg",
+        "metadata_size_px": [
+          910,
+          1365
+        ],
+        "verified_size_px": [
+          910,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          910,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-photograph",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "hey-gandules-2010",
+      "project_key": "Hey | Gandules",
+      "duplicate_group_ids": [
+        "west-U02",
+        "west-U03",
+        "west-U04",
+        "west-U20"
+      ],
+      "duplicate_comparison": "U02의 세 색은 동심형·의자·위 정보 위치가 같아 한 작품. U04는 같은 포스터의 본문 확장. U03은 좁은 배너에 회전/크롭한 적용, U20은 다른 일정 정보판이지만 같은 캠페인의 지원매체라 새 포스터 수를 추가하지 않음.",
+      "classification": "partial-only",
+      "classification_reason": "본문 한 열을 주제 바로 아래 두고, 긴 목록은 줄 길이를 균일하게 정리하는 부분만 참고한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "west-U04",
+      "whole_reference_recommended": false,
+      "partial_reference_only": true,
+      "facts": {
+        "whole_expression": "U02의 청자색 줄무늬형과 같은 흰 세로 포스터. 우상단 주제 아래 프로그램 인명 여러 줄과 일정 안내가 추가되어 있다.",
+        "large_spatial_structure": "상부 두 열 중 오른쪽을 본문 열로 확장하고 왼쪽의 작은 의자/로고 아래에는 큰 빈 공간을 둔다. 하단 큰 줄무늬형은 동일.",
+        "letter_role": "굵은 행사명-가는 색 주제명-검정 작은 명단/굵은 안내 첫 줄의 위계.",
+        "body_reading_path": "좌상단 행사명→우측 색 주제명→인명 목록→굵은 일정 첫 줄→짧은 안내. 작은 왼쪽 로고는 일부 판독 불확실.",
+        "specific_finishing_decisions": "정밀한 선 간격·청색에서 자색으로 바뀌는 선색. 바닥 반사와 종이 그림자는 포스터 디자인 바깥의 촬영 요소."
+      },
+      "transferable_principle": "본문 한 열을 주제 바로 아래 두고, 긴 목록은 줄 길이를 균일하게 정리하는 부분만 참고한다.",
+      "do_not_transfer_original_specifics": "U02의 동일 줄무늬/의자/위 정보 조합을 전체 템플릿으로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.5,
+            0.2,
+            0.84,
+            0.4
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "주제 아래 명단/일정 열",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.11,
+            0.43,
+            0.88,
+            0.86
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "청자색 동심 줄무늬",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "좌상단 행사명→우측 색 주제명→인명 목록→굵은 일정 첫 줄→짧은 안내. 작은 왼쪽 로고는 일부 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U05",
+      "region": "west",
+      "title": null,
+      "author": "HORT",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U05.jpg",
+        "sha256": "f7148d274e3c90aa69e00d30c985751100780abace74438d5a0f36d7ca5f6e9a",
+        "verified_sha256": "f7148d274e3c90aa69e00d30c985751100780abace74438d5a0f36d7ca5f6e9a",
+        "sha256_matches": true,
+        "page_url": "https://hort.org.uk/",
+        "image_url": "https://hort.org.uk/wp-content/uploads/2022/02/02_Revolver-Identity-1980x1238.jpg",
+        "metadata_size_px": [
+          1980,
+          1238
+        ],
+        "verified_size_px": [
+          1980,
+          1238
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1980,
+          1238
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "wordmark-identity-specimen",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "hort-untitled-u05",
+      "project_key": null,
+      "duplicate_group_ids": [
+        "west-U05"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "non-poster",
+      "classification_reason": "단어의 부분별 획 성격을 바꿔 시각적 변화를 만드는 원리는 참고할 수 있으나 포스터 수에는 넣지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "흰 가로 장에 검정 글자 Re / vol / ver가 세 층으로 놓인 워드마크형 이미지. 위쪽 R과 e는 굵기 차·각진 변이 있고 아래 ver는 기울었다.",
+        "large_spatial_structure": "왼쪽 위에서 오른쪽 중앙, 아래 왼쪽으로 이동하는 글자 덩어리; 행사 일정이나 본문이 없다.",
+        "letter_role": "글자 자체의 변형 표본/워드마크 역할. 보이는 단어를 metadata 제목으로 대체하지 않는다.",
+        "body_reading_path": "Re→vol→ver. 별도 본문 없음.",
+        "specific_finishing_decisions": "세리프·산세리프·슬랜트 같은 다른 획 규칙을 단어 부분마다 충돌시키며 검정만 쓴다."
+      },
+      "transferable_principle": "단어의 부분별 획 성격을 바꿔 시각적 변화를 만드는 원리는 참고할 수 있으나 포스터 수에는 넣지 않는다.",
+      "do_not_transfer_original_specifics": "고유 워드마크 글자·분절·각진 획을 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.13,
+            0.07,
+            0.5,
+            0.51
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "윗부분의 각진 Re",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.22,
+            0.68,
+            0.7,
+            0.93
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "아래 기울어진 ver",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "no_poster_body",
+        "small_body_fully_transcribed": false,
+        "note": "Re→vol→ver. 별도 본문 없음."
+      },
+      "identity_uncertainties": [
+        "작품/프로젝트 제목 metadata가 null. 화면 카피/파일명으로 보충하지 않음."
+      ],
+      "unresolved_details": [
+        "작품/프로젝트 제목 metadata가 null. 화면 카피/파일명으로 보충하지 않음."
+      ]
+    },
+    {
+      "id": "west-U06",
+      "region": "west",
+      "title": "Kosmopolis",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U06.jpg",
+        "sha256": "8278da111be62350a65a063be23d23054bfdc6ae4e815939bcce28d0e2b8d9c2",
+        "verified_sha256": "8278da111be62350a65a063be23d23054bfdc6ae4e815939bcce28d0e2b8d9c2",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/kosmopolis/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/Kosmopolis%C2%A9hey07-2.jpeg",
+        "metadata_size_px": [
+          2048,
+          1365
+        ],
+        "verified_size_px": [
+          2048,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2048,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "identity-slogan-graphic",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "hey-kosmopolis-series",
+      "project_key": "Hey | Kosmopolis",
+      "duplicate_group_ids": [
+        "west-U06",
+        "west-U23"
+      ],
+      "duplicate_comparison": "U06 한 줄 눈/문자 그래픽과 U23 단어 중심 옥외 배너는 같은 구도가 아니다. metadata 프로젝트가 같지만 둘 다 독립 포스터로 세지 않는다.",
+      "classification": "non-poster",
+      "classification_reason": "문자 자리 하나를 이미지로 대체하고 그 이미지의 높이/색을 문자에 맞추는 부분 원리. 독립 포스터로 세지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "흰/아주 연한 회색 가로 장에 빨강 고딕 단어들이 한 줄 있고 중간에 광택 있는 눈 두 개가 문자 사이에 놓인다.",
+        "large_spatial_structure": "광대한 상하 빈 공간과 중앙의 가로 한 줄. 두 눈은 주변 글자 높이에 맞춰 끼워져 있다.",
+        "letter_role": "문장/단어 안에 눈을 넣어 문자 자리를 이미지가 맡는다. 행사 일정·프로그램은 없다.",
+        "body_reading_path": "왼쪽 글자→두 눈→오른쪽 긴 단어. 본문 없음.",
+        "specific_finishing_decisions": "평면 빨강 글자와 빨강 하이라이트의 입체 눈을 같은 색으로 연결한다."
+      },
+      "transferable_principle": "문자 자리 하나를 이미지로 대체하고 그 이미지의 높이/색을 문자에 맞추는 부분 원리. 독립 포스터로 세지 않는다.",
+      "do_not_transfer_original_specifics": "원작 문구·눈 형태·문자 사이의 정확한 삽입 위치를 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.14,
+            0.43,
+            0.86,
+            0.57
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "문장과 눈이 한 줄을 이룸",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.27,
+            0.43,
+            0.4,
+            0.57
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "문자 사이의 빨강 입체 눈 두 개",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "no_poster_body",
+        "small_body_fully_transcribed": false,
+        "note": "왼쪽 글자→두 눈→오른쪽 긴 단어. 본문 없음."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U07",
+      "region": "west",
+      "title": "Barcelona Gallery Weekend — inaugural edition",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U07.jpg",
+        "sha256": "5fa84e7c7bfa9c7d960577d7ec2ae12a625b9fa61988fcfd10a3a6b9c0b16622",
+        "verified_sha256": "5fa84e7c7bfa9c7d960577d7ec2ae12a625b9fa61988fcfd10a3a6b9c0b16622",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/bgw-1st-edition/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/B_BGW_01-1.jpg",
+        "metadata_size_px": [
+          1400,
+          945
+        ],
+        "verified_size_px": [
+          1400,
+          945
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1400,
+          945
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-series-photograph-or-presentation",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "hey-bgw-inaugural-series",
+      "project_key": "Hey | Barcelona Gallery Weekend — inaugural edition",
+      "duplicate_group_ids": [
+        "west-U07",
+        "west-U22"
+      ],
+      "duplicate_comparison": "U07의 3장은 선 사각형 비율/색/위치 변형인 한 시리즈. U22는 같은 도형 인쇄물 일부와 열린 소책자 사진이라 새 포스터로 세지 않음.",
+      "classification": "partial-only",
+      "classification_reason": "시리즈에서 도형의 비율과 제목 위치를 교환하면서 하단 안내를 유지하는 부분. 전체 수동적 고딕+부가 도형 형식은 기본 전체 추천 제외.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "west-U07",
+      "whole_reference_recommended": false,
+      "partial_reference_only": true,
+      "facts": {
+        "whole_expression": "청록·살구·민트 세 장의 포스터. 각 장에 검정 가는 선으로 나뉜 흰 사각 도형과 작은 고딕 행사/일정이 떨어져 있다.",
+        "large_spatial_structure": "세 장에서 사각 도형의 방향/비율과 제목의 위치가 바뀐다. 하단 URL/후원 띠는 공통.",
+        "letter_role": "소형 고딕은 제목·일정의 조용한 안내. 선 도형과 활자는 별개 덩어리다.",
+        "body_reading_path": "행사명→그 아래 일정→하단 URL/후원. 후원 작은 글자 판독 불확실.",
+        "specific_finishing_decisions": "순색 면, 가는 검정 윤곽, 넓은 무정보 여백. 바깥 그림자는 제시/촬영 효과로 구분한다."
+      },
+      "transferable_principle": "시리즈에서 도형의 비율과 제목 위치를 교환하면서 하단 안내를 유지하는 부분. 전체 수동적 고딕+부가 도형 형식은 기본 전체 추천 제외.",
+      "do_not_transfer_original_specifics": "원작 흰 접힌 공간 도형·파스텔 3색·정확한 제목 위치를 그대로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.06,
+            0.19,
+            0.33,
+            0.77
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "청록 장의 작은 안내와 도형",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.36,
+            0.19,
+            0.64,
+            0.77
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "살구 장에서 바뀐 도형/안내 위치",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.67,
+            0.19,
+            0.94,
+            0.77
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "민트 장에서 바뀐 도형/안내 위치",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "행사명→그 아래 일정→하단 URL/후원. 후원 작은 글자 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U08",
+      "region": "west",
+      "title": "Kulturbüro Zürich",
+      "author": "Studio Feixen",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U08.jpg",
+        "sha256": "cc9811518ff20c407efba683a1bacf3ec6566c8055d5d65aef49703264fc4491",
+        "verified_sha256": "cc9811518ff20c407efba683a1bacf3ec6566c8055d5d65aef49703264fc4491",
+        "sha256_matches": true,
+        "page_url": "https://www.studiofeixen.ch/kulturburo-zurich/",
+        "image_url": "https://www.studiofeixen.ch/wp-content/uploads/2020/01/KulturbueroZurich-StudioFeixen-Poster.png",
+        "metadata_size_px": [
+          751,
+          1000
+        ],
+        "verified_size_px": [
+          751,
+          1000
+        ],
+        "file_format": "png",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          751,
+          1000
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-photograph",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "feixen-kulturbuero-zurich",
+      "project_key": "Studio Feixen | Kulturbüro Zürich",
+      "duplicate_group_ids": [
+        "west-U08"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "수평 글자 질서와 비스듬한 곡선 마스크를 충돌시키고, 격자 밀도를 색 영역마다 달리해 층을 구분한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "west-U08",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "검정 거대 고딕이 흰 바탕을 거의 채운다. 빨강·보라·흰·회색 격자 띠가 물결처럼 굽어 글자를 부분 가리고 일부 글자 부분을 다른 위치에서 드러낸다.",
+        "large_spatial_structure": "위에서 아래로 흐르는 비스듬한 S형 띠가 수평 활자행을 가로지른다. 상단 작은 정보는 4개 열로 나뉜다.",
+        "letter_role": "고딕은 수평 격자의 무게, 물결 마스크는 읽기의 절단/접합을 만든다. 격자 간격도 넓은 것/촘촘한 것으로 바뀐다.",
+        "body_reading_path": "큰 단어의 남은 조각으로 주제를 확인→상단 작은 이름/날짜/URL/후원. 가려진 문자와 극소 주최 카피 판독 불확실.",
+        "specific_finishing_decisions": "선명한 순색과 얇은 격자, 글자 곡선에 닿는 마스크 경계. 외부 클립/회색 배경은 포스터 밖 촬영 요소."
+      },
+      "transferable_principle": "수평 글자 질서와 비스듬한 곡선 마스크를 충돌시키고, 격자 밀도를 색 영역마다 달리해 층을 구분한다.",
+      "do_not_transfer_original_specifics": "원작 거대 단어 쪼개기·띠 곡선·색과 격자 위치를 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.12,
+            0.09,
+            0.78,
+            0.14
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "상단 소형 4열 정보",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.12,
+            0.13,
+            0.89,
+            0.91
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "거대 수평 글자와 비스듬한 파형 마스크",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.42,
+            0.25,
+            0.67,
+            0.75
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "굵기 다른 격자 영역",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "큰 단어의 남은 조각으로 주제를 확인→상단 작은 이름/날짜/URL/후원. 가려진 문자와 극소 주최 카피 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U10",
+      "region": "west",
+      "title": "Bavarian State Opera — Season 2023–24",
+      "author": "Bureau Borsche",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U10.jpg",
+        "sha256": "f0cfb2b68721586ca2e2412bb4581b2d0f33fb8a5eb3dca357f935ab65ffeb6b",
+        "verified_sha256": "f0cfb2b68721586ca2e2412bb4581b2d0f33fb8a5eb3dca357f935ab65ffeb6b",
+        "sha256_matches": true,
+        "page_url": "https://bureauborsche.com/projects/bavarian-state-opera/season-2023-24",
+        "image_url": "https://bureauborsche.com/media/pages/projects/bavarian-state-opera/season-2023-24/e79ea268f8-1711122914/bureau-borsche-season-2023-24-7-76x.jpg",
+        "metadata_size_px": [
+          76,
+          114
+        ],
+        "verified_size_px": [
+          76,
+          114
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          76,
+          114
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 자체가 매우 작은 썸네일. 확대/복원 없이 이 크기로 관찰; 카피와 정밀 마감 판단 불가. UI 내부 배율은 미제공.",
+        "view_event_id": null
+      },
+      "media_type": "framed-poster-in-site-photograph",
+      "is_poster": true,
+      "poster_determination": "프레임 안 포스터 지면은 보이나 평가할 해상도 부족.",
+      "work_key": "bb-bavarian-2023-u10-unresolved",
+      "project_key": "Bureau Borsche | Bavarian State Opera — Season 2023–24",
+      "duplicate_group_ids": [
+        "west-U10"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "unresolved",
+      "classification_reason": "이 해상도에서 생성 원리를 채택하지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "76×114px 현장 사진. 건물 벽의 검정 테두리 세로 프레임 안에 파랑 장과 상부 작은 흰 가로 흔적이 보인다.",
+        "large_spatial_structure": "프레임 안 파랑 면이 대부분이고 벽/보도는 주변이다. 포스터 내부의 정밀 구획은 확인 불가.",
+        "letter_role": "흰 작은 흔적은 글자처럼 보이나 내용·서체·위계 판독 불확실.",
+        "body_reading_path": "카피 전부 판독 불확실. 안내 읽는 경로를 확정할 수 없다.",
+        "specific_finishing_decisions": "색 면/검정 프레임만 보임. 조판·입자·마감 판단 불가."
+      },
+      "transferable_principle": "이 해상도에서 생성 원리를 채택하지 않는다.",
+      "do_not_transfer_original_specifics": "추측한 제목/서체/사진/작곡가·색 의미를 원작 사실로 쓰지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.22,
+            0.25,
+            0.76,
+            0.83
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "파랑 세로 지면과 검정 프레임; 정밀 관찰 불가",
+          "precision": "coarse-thumbnail"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "unreadable",
+        "small_body_fully_transcribed": false,
+        "note": "카피 전부 판독 불확실. 안내 읽는 경로를 확정할 수 없다."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": [
+        "저해상도로 작은 카피·서체·정밀 마감 미확인"
+      ]
+    },
+    {
+      "id": "west-U11",
+      "region": "west",
+      "title": "Bavarian State Opera — Season 2023–24",
+      "author": "Bureau Borsche",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U11.jpg",
+        "sha256": "e2c5d23d6d60dcd48bcbbd1092313d164c78ce16faeb024bd120c54a46f9819f",
+        "verified_sha256": "e2c5d23d6d60dcd48bcbbd1092313d164c78ce16faeb024bd120c54a46f9819f",
+        "sha256_matches": true,
+        "page_url": "https://bureauborsche.com/projects/bavarian-state-opera/season-2023-24",
+        "image_url": "https://bureauborsche.com/media/pages/projects/bavarian-state-opera/season-2023-24/c91e1e2213-1711122924/bureau-borsche-season-2023-24-8-76x.jpg",
+        "metadata_size_px": [
+          76,
+          114
+        ],
+        "verified_size_px": [
+          76,
+          114
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          76,
+          114
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 자체가 매우 작은 썸네일. 확대/복원 없이 이 크기로 관찰; 카피와 정밀 마감 판단 불가. UI 내부 배율은 미제공.",
+        "view_event_id": null
+      },
+      "media_type": "architecture-site-photograph",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "bb-bavarian-2023-u11-site-photo",
+      "project_key": "Bureau Borsche | Bavarian State Opera — Season 2023–24",
+      "duplicate_group_ids": [
+        "west-U11"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "non-poster",
+      "classification_reason": "건축 현장 사진으로 분리하며 포스터 수와 생성 원리 근거에 넣지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "76×114px 파란 하늘과 기둥 있는 건물 전면 사진. 지붕 위 작은 진한 깃발/표식 같은 부분이 보인다.",
+        "large_spatial_structure": "대부분 하늘, 아래는 삼각 지붕과 기둥. 독립 포스터 지면을 확인하지 못했다.",
+        "letter_role": "읽을 수 있는 글자 없음. 깃발/표식 내용도 판독 불확실.",
+        "body_reading_path": "본문/포스터 읽는 경로 없음.",
+        "specific_finishing_decisions": "건축 원근과 맑은 하늘 색 정도만 확인. 그래픽 적용 세부 판단 불가."
+      },
+      "transferable_principle": "건축 현장 사진으로 분리하며 포스터 수와 생성 원리 근거에 넣지 않는다.",
+      "do_not_transfer_original_specifics": "건물 사진을 포스터 구성 증거로 대신 쓰거나 표식의 내용을 추정하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0,
+            1,
+            0.58
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "하늘과 지붕 위 작은 표식",
+          "precision": "coarse-thumbnail"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0.48,
+            1,
+            1
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "건물 전면; 포스터 지면 없음",
+          "precision": "coarse-thumbnail"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "no_poster_body",
+        "small_body_fully_transcribed": false,
+        "note": "본문/포스터 읽는 경로 없음."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": [
+        "저해상도로 작은 카피·서체·정밀 마감 미확인"
+      ]
+    },
+    {
+      "id": "west-U12",
+      "region": "west",
+      "title": "Julia Stoschek Foundation — A Fire in My Belly",
+      "author": "Bureau Borsche",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U12.jpg",
+        "sha256": "02328553877b3206ae2df5f5965c498142dbb34b7ef3b5c59abcef49c22eb5c6",
+        "verified_sha256": "02328553877b3206ae2df5f5965c498142dbb34b7ef3b5c59abcef49c22eb5c6",
+        "sha256_matches": true,
+        "page_url": "https://bureauborsche.com/projects/julia-stoschek-foundation/a-fire-in-my-belly",
+        "image_url": "https://bureauborsche.com/media/pages/projects/julia-stoschek-foundation/a-fire-in-my-belly/584995a4a1-1710781148/bb_stoschek_afimb_27-76x.jpg",
+        "metadata_size_px": [
+          57,
+          76
+        ],
+        "verified_size_px": [
+          57,
+          76
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          57,
+          76
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 자체가 매우 작은 썸네일. 확대/복원 없이 이 크기로 관찰; 카피와 정밀 마감 판단 불가. UI 내부 배율은 미제공.",
+        "view_event_id": null
+      },
+      "media_type": "site-photograph-with-graphic-panel-uncertain",
+      "is_poster": null,
+      "poster_determination": "독립 포스터 매체/세부 품질을 확정할 근거가 부족하여 보류.",
+      "work_key": "bb-stoschek-fire-u12-unresolved",
+      "project_key": "Bureau Borsche | Julia Stoschek Foundation — A Fire in My Belly",
+      "duplicate_group_ids": [
+        "west-U12"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "unresolved",
+      "classification_reason": "이 원본으로 포스터 원리를 채택하지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "57×76px 사진. 밝은 건축 프레임 사이에 어두운 세로 패널/장면, 위아래 빨강 글자 같은 띠가 보인다.",
+        "large_spatial_structure": "검정 중앙 면과 주변 밝은 벽, 하단 별도 검정/빨강 띠. 포스터/입구 그래픽/전시 사진 구분은 불확실.",
+        "letter_role": "빨강 글자처럼 보이는 형태만 확인. 제목·서체·본문 전부 판독 불확실.",
+        "body_reading_path": "읽는 경로 확정 불가.",
+        "specific_finishing_decisions": "중앙 흐린 회색 이미지의 소재·가림/인쇄 마감 확정 불가."
+      },
+      "transferable_principle": "이 원본으로 포스터 원리를 채택하지 않는다.",
+      "do_not_transfer_original_specifics": "metadata의 제목을 픽셀에서 읽은 카피로 간주하거나 중앙 소재를 추정하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.18,
+            0.18,
+            0.84,
+            0.82
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "어두운 중앙 패널/장면; 매체 불확실",
+          "precision": "coarse-thumbnail"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.15,
+            0.1,
+            0.9,
+            0.25
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "빨강 글자 같은 흔적; 판독 불가",
+          "precision": "coarse-thumbnail"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "unreadable",
+        "small_body_fully_transcribed": false,
+        "note": "읽는 경로 확정 불가."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": [
+        "저해상도로 작은 카피·서체·정밀 마감 미확인",
+        "포스터/입구 그래픽/전시 사진의 구분 미확인"
+      ]
+    },
+    {
+      "id": "west-U13",
+      "region": "west",
+      "title": "Dekmantel — Visual Identity 2023",
+      "author": "Bureau Borsche",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U13.jpg",
+        "sha256": "36d1a5be292ef86eda246e41b2557e5d8659143642f9b21e8f1fb009ec616b35",
+        "verified_sha256": "36d1a5be292ef86eda246e41b2557e5d8659143642f9b21e8f1fb009ec616b35",
+        "sha256_matches": true,
+        "page_url": "https://bureauborsche.com/projects/dekmantel/visual-identity-2023",
+        "image_url": "https://bureauborsche.com/media/pages/projects/dekmantel/visual-identity-2023/b86eb1e200-1711548839/bureau-borsche-festival-2023-64-76x.jpg",
+        "metadata_size_px": [
+          76,
+          43
+        ],
+        "verified_size_px": [
+          76,
+          43
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          76,
+          43
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 자체가 매우 작은 썸네일. 확대/복원 없이 이 크기로 관찰; 카피와 정밀 마감 판단 불가. UI 내부 배율은 미제공.",
+        "view_event_id": null
+      },
+      "media_type": "night-event-site-photograph",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "bb-dekmantel-2023-u13-site-photo",
+      "project_key": "Bureau Borsche | Dekmantel — Visual Identity 2023",
+      "duplicate_group_ids": [
+        "west-U13"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "non-poster",
+      "classification_reason": "현장 사진으로 분리하며 포스터 수와 생성 원리 근거에 넣지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "76×43px 가로 야간 사진. 어두운 군중/현장과 몇 개 밝은 노랑·흰 빛 형태, 빨강 계열 하부 영역이 보인다.",
+        "large_spatial_structure": "가로 현장 전경이며 식별 가능한 독립 포스터 지면은 없다.",
+        "letter_role": "밝은 형태가 문자/조명인지 확정 불가. 카피 판독 불확실.",
+        "body_reading_path": "포스터 본문 경로 없음.",
+        "specific_finishing_decisions": "조명 대비만 확인. 구체적 그래픽/마감 판단 불가."
+      },
+      "transferable_principle": "현장 사진으로 분리하며 포스터 수와 생성 원리 근거에 넣지 않는다.",
+      "do_not_transfer_original_specifics": "야간 분위기를 특정 포스터의 이미지/타이포 품질 증거로 바꾸지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "야간 현장 전체; 밝은 형태 내용 미확인",
+          "precision": "coarse-thumbnail"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "no_poster_body",
+        "small_body_fully_transcribed": false,
+        "note": "포스터 본문 경로 없음."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": [
+        "저해상도로 작은 카피·서체·정밀 마감 미확인"
+      ]
+    },
+    {
+      "id": "west-U14",
+      "region": "west",
+      "title": "Fi de Partida",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U14.jpg",
+        "sha256": "2771eaa7f3c81a8a66328effa18cf5bf6e8380f6f27dc999ffe70b258c9ce78e",
+        "verified_sha256": "2771eaa7f3c81a8a66328effa18cf5bf6e8380f6f27dc999ffe70b258c9ce78e",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/fi-de-partida/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/FJMFiDePartida%C2%A9hey05.jpeg",
+        "metadata_size_px": [
+          2048,
+          1365
+        ],
+        "verified_size_px": [
+          2048,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2048,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-like-print-series-presentation",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "hey-fi-de-partida-series",
+      "project_key": "Hey | Fi de Partida",
+      "duplicate_group_ids": [
+        "west-U14",
+        "west-U15"
+      ],
+      "duplicate_comparison": "U14 네 장은 체커 크기·정보 면 위치·언어/색 변형인 한 시리즈. U15는 같은 체커·색 면을 쓴 접힌 인쇄물/회화 뒷면 사진으로 독립 포스터 증가 없음.",
+      "classification": "partial-only",
+      "classification_reason": "시리즈의 칸 크기와 정보 면 위치를 교대해 변화를 만드는 부분만 참고한다. 전체 정보판+패턴 분리 형식은 기본 전체 추천에서 제외한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "west-U14",
+      "whole_reference_recommended": false,
+      "partial_reference_only": true,
+      "facts": {
+        "whole_expression": "회색 배경에 세로 인쇄물 네 장. 흑백 체커의 칸 크기가 단계적으로 커지고 회색/민트/파랑/노랑 정보 면이 위아래 번갈아 붙는다.",
+        "large_spatial_structure": "체커 큰 영역+약 1/3 높이의 정보 면. 정보 면의 상/하 위치는 교대하나 제목과 날짜는 같은 좌측 정렬 관계다.",
+        "letter_role": "소형 검정 산세리프 제목/설명 3행과 날짜 1행. 이미지와 정보가 수평 경계로 명확히 분리된다.",
+        "body_reading_path": "각 장의 제목/설명→빈 행 간격→날짜. 상세 본문 없음.",
+        "specific_finishing_decisions": "체커 크기를 8열 정도에서 2열까지 바꾸는 규칙과 색 면의 교환. 실제 인쇄물/제시 사진으로 보이나 제작 방식은 확정하지 않는다."
+      },
+      "transferable_principle": "시리즈의 칸 크기와 정보 면 위치를 교대해 변화를 만드는 부분만 참고한다. 전체 정보판+패턴 분리 형식은 기본 전체 추천에서 제외한다.",
+      "do_not_transfer_original_specifics": "원작 체커 수열·4색·언어별 정보 면 위치를 그대로 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.07,
+            0.28,
+            0.27,
+            0.71
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "조밀한 체커와 상부 정보 면",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.73,
+            0.28,
+            0.94,
+            0.71
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "큰 체커와 하부 정보 면",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "short_information_readable",
+        "small_body_fully_transcribed": false,
+        "note": "각 장의 제목/설명→빈 행 간격→날짜. 상세 본문 없음."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U15",
+      "region": "west",
+      "title": "Fi de Partida",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U15.jpg",
+        "sha256": "3448accd4a78d1e41b94d49cf40df57ac07d2ae007432dff05962689d5d57d74",
+        "verified_sha256": "3448accd4a78d1e41b94d49cf40df57ac07d2ae007432dff05962689d5d57d74",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/fi-de-partida/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/FJMFiDePartida%C2%A9hey08.jpeg",
+        "metadata_size_px": [
+          2048,
+          1365
+        ],
+        "verified_size_px": [
+          2048,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2048,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "folded-print-collateral-photograph",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "hey-fi-de-partida-series",
+      "project_key": "Hey | Fi de Partida",
+      "duplicate_group_ids": [
+        "west-U14",
+        "west-U15"
+      ],
+      "duplicate_comparison": "U14 네 장은 체커 크기·정보 면 위치·언어/색 변형인 한 시리즈. U15는 같은 체커·색 면을 쓴 접힌 인쇄물/회화 뒷면 사진으로 독립 포스터 증가 없음.",
+      "classification": "non-poster",
+      "classification_reason": "인쇄물 앞뒤/접힘으로 색 면과 그림을 교환하는 편집 원리만 참고한다. 독립 포스터 추가 수로 세지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "체커 테두리와 회화 이미지가 든 여러 인쇄물이 겹친 사진. 큰 판에는 접힌 선이 보이고 파랑/민트/노랑 뒷면 같은 순색 면이 있다.",
+        "large_spatial_structure": "회화/흑백 체커/큰 순색 뒷면이 다양한 방향으로 겹친다. 일부 가장자리와 하부 기관 안내가 잘린다.",
+        "letter_role": "행사 대제목보다 그림 안 문자·작은 세로 크레딧·하단 기관 안내가 보인다. 독립 포스터 앞면 조판은 확인되지 않는다.",
+        "body_reading_path": "그림→체커→보이는 기관/크레딧. 일부 카피는 크롭/작아서 판독 불확실.",
+        "specific_finishing_decisions": "접힘·종이 겹침과 순색 뒷면은 인쇄물의 물성 및 촬영 효과. U14와 체커/색을 공유한다."
+      },
+      "transferable_principle": "인쇄물 앞뒤/접힘으로 색 면과 그림을 교환하는 편집 원리만 참고한다. 독립 포스터 추가 수로 세지 않는다.",
+      "do_not_transfer_original_specifics": "원작 회화·체커 둘레·겹친 촬영 배열을 생성 포스터 구도로 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0,
+            0.58,
+            1
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "접힌 큰 회화/체커 인쇄물",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.5,
+            0.4,
+            1,
+            0.97
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "여러 순색 뒷면·체커/기관 띠",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "그림→체커→보이는 기관/크레딧. 일부 카피는 크롭/작아서 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U16",
+      "region": "west",
+      "title": "Amsterdam Sinfonietta",
+      "author": "Studio Dumbar/DEPT",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U16.jpg",
+        "sha256": "82435de5c626e06c5ebf282276712914d7201df70eff4b80e9efc7343dab46b7",
+        "verified_sha256": "82435de5c626e06c5ebf282276712914d7201df70eff4b80e9efc7343dab46b7",
+        "sha256_matches": true,
+        "page_url": "https://studiodumbar.com/work/amsterdam-sinfonietta",
+        "image_url": "https://studiodumbar.com/media/pages/work/amsterdam-sinfonietta/c96f0f3748-1682344658/as-22.jpg",
+        "metadata_size_px": [
+          2880,
+          1920
+        ],
+        "verified_size_px": [
+          2880,
+          1920
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2880,
+          1920
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-series-presentation",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "dumbar-amsterdam-sinfonietta-series",
+      "project_key": "Studio Dumbar/DEPT | Amsterdam Sinfonietta",
+      "duplicate_group_ids": [
+        "west-U01",
+        "west-U16",
+        "west-U17"
+      ],
+      "duplicate_comparison": "정확히 동일 구도는 아니다. U01은 다이아몬드/반복 띠, U16은 사선 글자 밀도/원, U17은 큰 원환이다. 작은 문자→큰 패턴, 기관명과 하단 안내의 관계를 공유하는 한 시리즈로 보수적으로 1작품 집계.",
+      "classification": "whole-positive",
+      "classification_reason": "작은 정보 문자의 반복을 이미지 명암으로 전환하되, 필요한 내용은 하부 읽을 크기로 재제시한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": "west-U01",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "두 포스터 중 왼쪽은 검정 바탕에 작은 흰 문자 밀도로 만든 사선 띠, 회색 큰 이름. 오른쪽은 갈색 바탕에 작은 밝은 문자로 만든 원/도넛과 빨강 사선 이름.",
+        "large_spatial_structure": "상부 기관명과 하부 좌/우 안내는 수평. 중앙은 왼쪽 지그재그 사선, 오른쪽 겹친 원으로 달라져 U01과 정확히 같은 구도는 아니다.",
+        "letter_role": "작은 반복 인명이 명암/형태가 되고 큰 제목은 별도 사선으로 읽힌다. 하부 정상 크기 정보가 핵심 안내를 다시 제공한다.",
+        "body_reading_path": "상단 기관→중앙 큰 이름→하부 출연자/날짜/장소. 패턴의 모든 미세 문자를 본문처럼 읽지는 못했으며 판독 불확실.",
+        "specific_finishing_decisions": "글자 밀도를 밝음/어두움으로 변화해 볼륨을 만들고, 일부 큰 글자 위로 패턴이 통과한다."
+      },
+      "transferable_principle": "작은 정보 문자의 반복을 이미지 명암으로 전환하되, 필요한 내용은 하부 읽을 크기로 재제시한다.",
+      "do_not_transfer_original_specifics": "원작 인명 패턴·도넛/띠 모양·사선 이름/색 배열을 그대로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.08,
+            0.09,
+            0.46,
+            0.9
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "왼쪽 작은 문자 밀도의 사선 띠",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.54,
+            0.09,
+            0.92,
+            0.9
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "오른쪽 작은 문자 원/도넛과 빨강 사선 제목",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "상단 기관→중앙 큰 이름→하부 출연자/날짜/장소. 패턴의 모든 미세 문자를 본문처럼 읽지는 못했으며 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U17",
+      "region": "west",
+      "title": "Amsterdam Sinfonietta",
+      "author": "Studio Dumbar/DEPT",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U17.jpg",
+        "sha256": "74f462f64737292e342c42d754585848ce93c7bcec51a76b9fa87d717fa97fe4",
+        "verified_sha256": "74f462f64737292e342c42d754585848ce93c7bcec51a76b9fa87d717fa97fe4",
+        "sha256_matches": true,
+        "page_url": "https://studiodumbar.com/work/amsterdam-sinfonietta",
+        "image_url": "https://studiodumbar.com/media/pages/work/amsterdam-sinfonietta/d612a5abdc-1682344651/as_standing-1.jpg",
+        "metadata_size_px": [
+          1620,
+          2096
+        ],
+        "verified_size_px": [
+          1620,
+          2096
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1620,
+          2096
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 큰 raster가 축소 없이 반환됨. 도구 반환의 축소 한계는 관측되지 않았지만 UI/모델 내부 표시 배율은 미제공. 전체본에서 미세 카피의 완전 판독을 주장하지 않음.",
+        "view_event_id": null
+      },
+      "media_type": "poster-presentation",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "dumbar-amsterdam-sinfonietta-series",
+      "project_key": "Studio Dumbar/DEPT | Amsterdam Sinfonietta",
+      "duplicate_group_ids": [
+        "west-U01",
+        "west-U16",
+        "west-U17"
+      ],
+      "duplicate_comparison": "정확히 동일 구도는 아니다. U01은 다이아몬드/반복 띠, U16은 사선 글자 밀도/원, U17은 큰 원환이다. 작은 문자→큰 패턴, 기관명과 하단 안내의 관계를 공유하는 한 시리즈로 보수적으로 1작품 집계.",
+      "classification": "whole-positive",
+      "classification_reason": "단어에서 추출한 문자로 이미지 재료를 제한하고 크기/밀도만 바꿔 시리즈를 확장한다. 안내는 별도 읽을 크기로 남긴다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": "west-U01",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "회색 포스터에 노랑/탁한 황갈색 문자 원환이 크게 있고 그 안/아래 큰 회색·황갈색 제목이 겹친다.",
+        "large_spatial_structure": "좌상단 기울어진 기관명, 거의 전체 폭의 문자 원환, 하부 큰 제목과 맨 아래 양끝 안내. U01/U16과 패턴 기하 및 제목 위치가 다르다.",
+        "letter_role": "제목의 글자를 원 둘레에 크기별 반복해 큰 이미지로 만든다. 중앙 큰 제목은 원환을 가로질러 일부 겹친다.",
+        "body_reading_path": "기관명→원환의 문자/중앙 제목→하단 출연자/일정/예약 양쪽 묶음. 원환 미세 글자의 완전 판독은 불확실.",
+        "specific_finishing_decisions": "노랑은 회색과 강한 대비, 황갈색/회색 큰 제목 일부는 낮은 대비다. 원의 글자 밀도와 크기로 깊이처럼 보이는 장을 만든다."
+      },
+      "transferable_principle": "단어에서 추출한 문자로 이미지 재료를 제한하고 크기/밀도만 바꿔 시리즈를 확장한다. 안내는 별도 읽을 크기로 남긴다.",
+      "do_not_transfer_original_specifics": "원작 원환·글자 순서·작곡가 이름 분절·회색/노랑/황갈색 조합을 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.13,
+            0.1,
+            0.87,
+            0.67
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "크기·밀도가 변하는 문자 원환",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.13,
+            0.46,
+            0.87,
+            0.78
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "원환에 걸린 큰 제목",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.14,
+            0.78,
+            0.85,
+            0.89
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "하단 양끝 안내",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "기관명→원환의 문자/중앙 제목→하단 출연자/일정/예약 양쪽 묶음. 원환 미세 글자의 완전 판독은 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U18",
+      "region": "west",
+      "title": null,
+      "author": "HORT",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U18.jpg",
+        "sha256": "4f3d178501c74c5cc472f56dc1785a92311c6f19ffd28f01ae86fcb60f497a6e",
+        "verified_sha256": "4f3d178501c74c5cc472f56dc1785a92311c6f19ffd28f01ae86fcb60f497a6e",
+        "sha256_matches": true,
+        "page_url": "https://hort.org.uk/",
+        "image_url": "https://hort.org.uk/wp-content/uploads/2020/02/BA-poster05.jpg",
+        "metadata_size_px": [
+          1054,
+          1490
+        ],
+        "verified_size_px": [
+          1054,
+          1490
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1054,
+          1490
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "poster-flat-with-photograph",
+      "is_poster": true,
+      "poster_determination": "제목/안내와 완결된 지면의 공간 구조가 보이는 포스터 또는 포스터 시리즈. 실제 제작 크기/촬영과 목업의 구분은 추정하지 않음.",
+      "work_key": "hort-untitled-u18",
+      "project_key": null,
+      "duplicate_group_ids": [
+        "west-U18"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "whole-positive",
+      "classification_reason": "사진의 긴 수직 구조에 제목 방향을 맞추고, 사진 밖 L자 정보 레일에 일정/크레딧을 연결한다.",
+      "eligible_for_poster_count": true,
+      "counted_as_unique_poster": true,
+      "unique_poster_representative_id": "west-U18",
+      "whole_reference_recommended": true,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "오른쪽/하단을 차지하는 큰 사진은 높은 건축 구조물과 그 위 사람들의 팔·깃발·천 현수막. 왼쪽 흰 세로 장에 큰 세리프 제목이 90도 회전하고 위 흰 장에는 일정/URL이 있다.",
+        "large_spatial_structure": "약 1/5 폭의 흰 왼쪽 레일과 위 가로 레일이 사진을 L자로 감싼다. 사진은 하단·우측에서 잘린다.",
+        "letter_role": "긴 세리프 문장은 세로 프레임, 날짜/URL도 세리프로 크기 차를 둔다. 사진 속 한글은 장면의 일부다.",
+        "body_reading_path": "왼쪽 큰 회전 제목→상부 일정 3행→입장/URL→상단 작은 후원 로고. 사진 속 어두운 현수막 카피와 미세 크레딧은 판독 불확실.",
+        "specific_finishing_decisions": "사진의 어두운 구조물과 하늘, 흰 종이 장의 대비. 얇은 세로 경계선과 사진 가장자리 작은 크레딧."
+      },
+      "transferable_principle": "사진의 긴 수직 구조에 제목 방향을 맞추고, 사진 밖 L자 정보 레일에 일정/크레딧을 연결한다.",
+      "do_not_transfer_original_specifics": "원작 정치적 장면·건축물·현수막·세로 제목 카피와 정확한 사진 크롭을 가져오지 않는다. 제목 metadata는 null 유지.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0,
+            0.17,
+            0.19,
+            0.98
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "큰 세로 세리프 제목 레일",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.28,
+            0.02,
+            0.63,
+            0.11
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "상단 일정·URL",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.19,
+            0.17,
+            1,
+            1
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "사진 구조물의 크롭과 어두운 면",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "왼쪽 큰 회전 제목→상부 일정 3행→입장/URL→상단 작은 후원 로고. 사진 속 어두운 현수막 카피와 미세 크레딧은 판독 불확실."
+      },
+      "identity_uncertainties": [
+        "작품/프로젝트 제목 metadata가 null. 화면 카피/파일명으로 보충하지 않음."
+      ],
+      "unresolved_details": [
+        "작품/프로젝트 제목 metadata가 null. 화면 카피/파일명으로 보충하지 않음."
+      ]
+    },
+    {
+      "id": "west-U19",
+      "region": "west",
+      "title": null,
+      "author": "HORT",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U19.jpg",
+        "sha256": "25afb618ddcc9d9c9dae3c62342d9a13cc1f4ede8765758ea58c2681df45bc4e",
+        "verified_sha256": "25afb618ddcc9d9c9dae3c62342d9a13cc1f4ede8765758ea58c2681df45bc4e",
+        "sha256_matches": true,
+        "page_url": "https://hort.org.uk/",
+        "image_url": "https://hort.org.uk/wp-content/uploads/2017/02/Hort_NikeXNBA_002-1980x1281.jpg",
+        "metadata_size_px": [
+          1980,
+          1281
+        ],
+        "verified_size_px": [
+          1980,
+          1281
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1980,
+          1281
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "logo-campaign-identity-graphic",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "hort-untitled-u19",
+      "project_key": null,
+      "duplicate_group_ids": [
+        "west-U19"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "non-poster",
+      "classification_reason": "가는 기호와 굵은 문장의 교차를 설계하는 아이덴티티 원리만 참고한다. 포스터 수에는 넣지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "검정 가로 장에 큰 흰 윤곽 스우시와 굵은 흰 영문 한 줄이 겹친다.",
+        "large_spatial_structure": "중앙 가로 문장이 스우시 아랫곡선과 가로지르고, 상하 검정 여백이 넓다.",
+        "letter_role": "굵은 산세리프 카피와 브랜드 기호의 교차. 일정/행사 본문이 없다.",
+        "body_reading_path": "읽을 영문 한 줄만 있음. 독립 포스터 안내 경로 없음.",
+        "specific_finishing_decisions": "매우 가는 윤곽선과 굵은 흰 활자의 두께 대비. 기호/문장의 겹침 순서가 부분적으로 바뀐다."
+      },
+      "transferable_principle": "가는 기호와 굵은 문장의 교차를 설계하는 아이덴티티 원리만 참고한다. 포스터 수에는 넣지 않는다.",
+      "do_not_transfer_original_specifics": "브랜드 기호·원작 캠페인 문구·교차 위치를 가져오지 않는다. 제목 metadata는 null 유지.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.14,
+            0.26,
+            0.84,
+            0.66
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "얇은 흰 기호 윤곽",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.12,
+            0.51,
+            0.87,
+            0.59
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "굵은 흰 가로 카피",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "no_poster_body",
+        "small_body_fully_transcribed": false,
+        "note": "읽을 영문 한 줄만 있음. 독립 포스터 안내 경로 없음."
+      },
+      "identity_uncertainties": [
+        "작품/프로젝트 제목 metadata가 null. 화면 카피/파일명으로 보충하지 않음."
+      ],
+      "unresolved_details": [
+        "작품/프로젝트 제목 metadata가 null. 화면 카피/파일명으로 보충하지 않음."
+      ]
+    },
+    {
+      "id": "west-U20",
+      "region": "west",
+      "title": "Gandules",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U20.jpg",
+        "sha256": "9fc4b6c27ed2c93084d18236d4818b7d609614f6ec8ccadf07a8ffe91a9e1b8a",
+        "verified_sha256": "9fc4b6c27ed2c93084d18236d4818b7d609614f6ec8ccadf07a8ffe91a9e1b8a",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/gandules/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/Gandules2010%C2%A9hey04.jpeg",
+        "metadata_size_px": [
+          2048,
+          1365
+        ],
+        "verified_size_px": [
+          2048,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2048,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "outdoor-schedule-banner-photograph",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "hey-gandules-2010",
+      "project_key": "Hey | Gandules",
+      "duplicate_group_ids": [
+        "west-U02",
+        "west-U03",
+        "west-U04",
+        "west-U20"
+      ],
+      "duplicate_comparison": "U02의 세 색은 동심형·의자·위 정보 위치가 같아 한 작품. U04는 같은 포스터의 본문 확장. U03은 좁은 배너에 회전/크롭한 적용, U20은 다른 일정 정보판이지만 같은 캠페인의 지원매체라 새 포스터 수를 추가하지 않음.",
+      "classification": "non-poster",
+      "classification_reason": "프로그램이 많을 때 주→날짜→작품→제작 정보 순으로 위계화하는 편집만 참고한다. 포스터 추가 수로 세지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "흰 가로 현수막에 U02/U04의 행사명/주제명, 우측 4주차 프로그램 열이 있다. 사진 왼쪽 사람의 몸이 안내 부분을 가린다.",
+        "large_spatial_structure": "왼쪽 소개 열+오른쪽 4개 같은 폭의 일정 열. 주별 제목 위 굵은 청록/녹색/파랑 선, 각 날짜 위 얇은 선.",
+        "letter_role": "일정명은 굵은 산세리프, 작품명 검정·제작 정보 회색·일부 작은 동그란 표식으로 위계화한다.",
+        "body_reading_path": "상단 행사/주제→주 선택→날짜→작품명→회색 제작/시간 정보. 가려진 왼쪽 본문은 판독 불확실.",
+        "specific_finishing_decisions": "열별 미묘한 색 구분과 얇은 구분선. 금속 틀/아일렛/사람은 현장 촬영 요소."
+      },
+      "transferable_principle": "프로그램이 많을 때 주→날짜→작품→제작 정보 순으로 위계화하는 편집만 참고한다. 포스터 추가 수로 세지 않는다.",
+      "do_not_transfer_original_specifics": "원작 4주 정보·열색 대응·캠페인명·현장 사진 구도를 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.34,
+            0.25,
+            0.85,
+            0.78
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "주→날짜→작품→제작 정보의 4열",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.02,
+            0.09,
+            0.28,
+            0.86
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "사람이 가린 왼쪽 본문",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "상단 행사/주제→주 선택→날짜→작품명→회색 제작/시간 정보. 가려진 왼쪽 본문은 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U21",
+      "region": "west",
+      "title": "Gandules",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U21.jpg",
+        "sha256": "ae3470d14663bf96d79fb5ea6ccc4ac17eb380db57cffe57244f67b4f0b093c3",
+        "verified_sha256": "ae3470d14663bf96d79fb5ea6ccc4ac17eb380db57cffe57244f67b4f0b093c3",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/gandules/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/Gandules2012%C2%A9hey01-1.jpeg",
+        "metadata_size_px": [
+          2048,
+          1365
+        ],
+        "verified_size_px": [
+          2048,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          2048,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "promotional-print-series-physical-format-unconfirmed",
+      "is_poster": null,
+      "poster_determination": "독립 포스터 매체/세부 품질을 확정할 근거가 부족하여 보류.",
+      "work_key": "hey-gandules-wavy-series-visible14",
+      "project_key": "Hey | Gandules",
+      "duplicate_group_ids": [
+        "west-U21"
+      ],
+      "duplicate_comparison": "이 목록에서 동일 조판/색상·목업 변형으로 확인된 다른 파일 없음. 외부 전체 시리즈를 검증한 것은 아님.",
+      "classification": "unresolved",
+      "classification_reason": "평행선의 위상 변화로 연속 운동을 만드는 이미지 원리만 참고한다. 단독 포스터 집계/전체 추천은 보류한다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "사진 안 여러 흰 인쇄물이 반복 배열. 각 장의 검정 행사명은 Gandules’14로 읽히며 아래 굵은 녹색/분홍/노랑/청록 평행선이 꺾여 물결을 만든다.",
+        "large_spatial_structure": "각 장의 상부 작은 기관/주최·행사명·의자, 하부 굵은 수평 파형. 바깥 사진 배열에서 파형이 이웃 장과 이어지는 듯 보인다.",
+        "letter_role": "제목/주제는 작은 고딕 두 행이고 그림은 별도 하단 띠. 종이 크기/용도가 드러나지 않아 독립 포스터인지 확정하지 않는다.",
+        "body_reading_path": "상부 기관→행사/주제→작은 의자→하부 선. 별도 상세 본문 없음. 모서리 카피는 잘려 판독 불확실.",
+        "specific_finishing_decisions": "굵은 선과 같은 폭 흰 간격, 한 굴곡 안에서 선마다 위상 차를 준다. 펼쳐 놓은 사진의 사선은 원본 각 장의 구도와 구분한다."
+      },
+      "transferable_principle": "평행선의 위상 변화로 연속 운동을 만드는 이미지 원리만 참고한다. 단독 포스터 집계/전체 추천은 보류한다.",
+      "do_not_transfer_original_specifics": "원작 파형·의자·다색 시리즈를 그대로 복제하지 않는다. URL 파일명의 2012를 화면 속 연도로 대신 쓰지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.29,
+            0.16,
+            0.47,
+            0.34
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "Gandules’14가 읽히는 한 인쇄물 상부",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.33,
+            0.29,
+            0.62,
+            0.52
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "평행선들의 위상 다른 굴곡",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "title_readable_no_detailed_body",
+        "small_body_fully_transcribed": false,
+        "note": "상부 기관→행사/주제→작은 의자→하부 선. 별도 상세 본문 없음. 모서리 카피는 잘려 판독 불확실."
+      },
+      "identity_uncertainties": [
+        "metadata image_url의 파일명에는 2012, 화면 카피는 Gandules’14로 읽힘. 파일명으로 픽셀 판독을 덮어쓰지 않으며 metadata 제목 Gandules 유지."
+      ],
+      "unresolved_details": [
+        "인쇄물 물리적 용도/독립 포스터 여부 미확인",
+        "metadata image_url의 파일명에는 2012, 화면 카피는 Gandules’14로 읽힘. 파일명으로 픽셀 판독을 덮어쓰지 않으며 metadata 제목 Gandules 유지."
+      ]
+    },
+    {
+      "id": "west-U22",
+      "region": "west",
+      "title": "Barcelona Gallery Weekend — inaugural edition",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U22.jpg",
+        "sha256": "4fffbe601820fb8db43b4afdcc7194d8ed0dbbb2893fc86edf95bcd98ebe761e",
+        "verified_sha256": "4fffbe601820fb8db43b4afdcc7194d8ed0dbbb2893fc86edf95bcd98ebe761e",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/bgw-1st-edition/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/BGW_05.jpg",
+        "metadata_size_px": [
+          1400,
+          945
+        ],
+        "verified_size_px": [
+          1400,
+          945
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          1400,
+          945
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "publication-spread-and-collateral-photograph",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "hey-bgw-inaugural-series",
+      "project_key": "Hey | Barcelona Gallery Weekend — inaugural edition",
+      "duplicate_group_ids": [
+        "west-U07",
+        "west-U22"
+      ],
+      "duplicate_comparison": "U07의 3장은 선 사각형 비율/색/위치 변형인 한 시리즈. U22는 같은 도형 인쇄물 일부와 열린 소책자 사진이라 새 포스터로 세지 않음.",
+      "classification": "non-poster",
+      "classification_reason": "두 대상 비교를 같은 제목-본문-이미지 단위로 편집하고 크레딧을 사진 가까운 좁은 레일에 두는 부분. 포스터 수에는 넣지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "가운데 펼친 소책자의 두 페이지에 인명 제목·세리프 본문·사진이 있고, 주변에는 붉은 명단 카드와 U07의 청록/살구 도형 인쇄물 일부가 보인다.",
+        "large_spatial_structure": "두 페이지가 제목→단락→사진 순의 평행 구조. 사진 옆 좁은 세로 크레딧과 페이지 번호가 있다.",
+        "letter_role": "산세리프 인명 제목·이탤릭 소제목·세리프 본문으로 세 종류 역할을 나눈다.",
+        "body_reading_path": "각 페이지 상단 작은 갤러리/웹→인명/소제목→단락→사진→가장자리 크레딧/페이지 번호. 전체 작은 본문은 판독 불확실.",
+        "specific_finishing_decisions": "책등/종이 그림자와 바깥 카드의 색은 촬영/편집 맥락. 균형 맞춘 사진 폭과 정렬된 본문."
+      },
+      "transferable_principle": "두 대상 비교를 같은 제목-본문-이미지 단위로 편집하고 크레딧을 사진 가까운 좁은 레일에 두는 부분. 포스터 수에는 넣지 않는다.",
+      "do_not_transfer_original_specifics": "원작 작가/작품 사진·책 페이지·주변 인쇄물 촬영 배열을 포스터 구도로 가져오지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.27,
+            0.34,
+            0.5,
+            0.85
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "왼쪽 제목-본문-사진 페이지",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.5,
+            0.34,
+            0.74,
+            0.85
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "오른쪽 평행 구성과 세로 크레딧",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "partial_small_copy_uncertain",
+        "small_body_fully_transcribed": false,
+        "note": "각 페이지 상단 작은 갤러리/웹→인명/소제목→단락→사진→가장자리 크레딧/페이지 번호. 전체 작은 본문은 판독 불확실."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    },
+    {
+      "id": "west-U23",
+      "region": "west",
+      "title": "Kosmopolis",
+      "author": "Hey",
+      "title_author_origin": "사용자 제공 metadata만 사용. 독립 저자/프로젝트 출처 확인은 수행하지 않음.",
+      "source": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/images/west-U23.jpg",
+        "sha256": "985664a78bd56e13230f25f3829a55502762b1c9d3ba09e38d3638d95658c2a8",
+        "verified_sha256": "985664a78bd56e13230f25f3829a55502762b1c9d3ba09e38d3638d95658c2a8",
+        "sha256_matches": true,
+        "page_url": "https://heystudio.es/project/kosmopolis/",
+        "image_url": "https://heystudio.es/wp-content/uploads/2023/05/Kosmopolis%C2%A9hey02.jpeg",
+        "metadata_size_px": [
+          910,
+          1365
+        ],
+        "verified_size_px": [
+          910,
+          1365
+        ],
+        "file_format": "jpeg",
+        "exif_orientation": "<nil>"
+      },
+      "actual_viewed": true,
+      "viewing": {
+        "method": "tools.view_image({path: source.path, detail: 'original'}) → functions.exec의 image(result.image_url, 'original')로 로컬 전체 원본 반환을 실제 이미지 블록으로 표시·관찰",
+        "visual_emission_confirmed": true,
+        "viewed_raster_size_px": [
+          910,
+          1365
+        ],
+        "size_definition": "view_image 반환 data URL의 실제 raster 크기. 출력 payload의 JPEG SOF/PNG IHDR 헤더를 별도 재열람에서 검증.",
+        "returned_detail": "original",
+        "cropped": false,
+        "generated_or_edited": false,
+        "visual_observation_passes": 1,
+        "payload_dimension_verification_read": true,
+        "physical_UI_display_size_px": null,
+        "display_limit": "원본 raster 그대로 반환됨. UI/모델 내부 표시 배율은 미제공. 읽지 못한 작은 카피는 관찰에 별도 표시.",
+        "view_event_id": null
+      },
+      "media_type": "outdoor-banner-site-photograph",
+      "is_poster": false,
+      "poster_determination": "로고·아이덴티티·현장 사진·배너·인쇄물/책의 해당 매체로 관찰. 독립 포스터 수에 포함하지 않음.",
+      "work_key": "hey-kosmopolis-series",
+      "project_key": "Hey | Kosmopolis",
+      "duplicate_group_ids": [
+        "west-U06",
+        "west-U23"
+      ],
+      "duplicate_comparison": "U06 한 줄 눈/문자 그래픽과 U23 단어 중심 옥외 배너는 같은 구도가 아니다. metadata 프로젝트가 같지만 둘 다 독립 포스터로 세지 않는다.",
+      "classification": "non-poster",
+      "classification_reason": "장소에서 반복 기관 신호와 일시 행사 신호를 색/서체 규모로 구분하는 적용 원리만 참고한다. 포스터 수에는 넣지 않는다.",
+      "eligible_for_poster_count": false,
+      "counted_as_unique_poster": false,
+      "unique_poster_representative_id": null,
+      "whole_reference_recommended": false,
+      "partial_reference_only": false,
+      "facts": {
+        "whole_expression": "건물에 달린 빨강 긴 배너에 흰 대문자 행사명이 90도 회전하고 아래 기관명은 세리프. 옆에는 흰 바탕의 검정 기관 배너가 반복된다.",
+        "large_spatial_structure": "빨강 행사 배너 하나와 흰 기관 배너 여러 개가 건물 원근을 따라 물러난다. 배너 안 구성은 단어 1개+기관명.",
+        "letter_role": "큰 산세리프 행사명과 아래 작은 세리프 기관명이 역할을 분리한다. U06의 눈 이미지는 이 배너에서 보이지 않는다.",
+        "body_reading_path": "회전 행사명→아래 기관명. 주변 건물/다른 배너는 현장 맥락이고 카피 일부 크롭.",
+        "specific_finishing_decisions": "빨강/흰 순색과 큰 글자, 천의 휨/봉 그림자는 현장 효과."
+      },
+      "transferable_principle": "장소에서 반복 기관 신호와 일시 행사 신호를 색/서체 규모로 구분하는 적용 원리만 참고한다. 포스터 수에는 넣지 않는다.",
+      "do_not_transfer_original_specifics": "원작 배너 글자·기관명·건축 현장 배열을 포스터 디자인으로 복제하지 않는다.",
+      "pins": [
+        {
+          "bbox_normalized_xyxy": [
+            0.48,
+            0.06,
+            0.67,
+            0.63
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "빨강 회전 행사 배너",
+          "precision": "approximate"
+        },
+        {
+          "bbox_normalized_xyxy": [
+            0.28,
+            0.31,
+            0.45,
+            0.73
+          ],
+          "coordinate_space": "로컬 원본 전체 raster; 좌상단=(0,0), 우하단=(1,1). 관찰 후 손으로 근사한 위치이며 새 view/event ID가 아님.",
+          "observed_fact": "흰 기관 배너의 반복",
+          "precision": "approximate"
+        }
+      ],
+      "reading_confidence": {
+        "body_status": "no_poster_body",
+        "small_body_fully_transcribed": false,
+        "note": "회전 행사명→아래 기관명. 주변 건물/다른 배너는 현장 맥락이고 카피 일부 크롭."
+      },
+      "identity_uncertainties": [],
+      "unresolved_details": []
+    }
+  ]
+}

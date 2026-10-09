@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "role": "R8-C1-M5",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "29196473e6c64cebfbc8e72c067490d3b6b28f9f06bc3ba196631ff854a3af99",
+  "parent_native_sha256": "966e509ab54579570e3b51ec8b019d3585febf70657349967d3a390d60eb1a94",
+  "changes": [
+    {
+      "location": "first frame shirt/hand",
+      "observed_change": "Large raised triangle and dotted diagonal replaced by mostly flat shirt with a small loose bottom hem and lowered inspecting hand."
+    },
+    {
+      "location": "second frame shirt/needle",
+      "observed_change": "Stitch row is shorter and placed on the corresponding lower outer hem; first-to-second state continuity is clearer."
+    },
+    {
+      "location": "all printed text",
+      "observed_change": "Same nine copy entries and title/bring wraps retained; all remain readable at usage720."
+    },
+    {
+      "location": "whole layout and last frame",
+      "observed_change": "Three staggered frames, adjacent information and final shared-pitcher transfer remain; minor shirt/button details and ochre rule lengths are not pixel-identical."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "first/second hem details at usage720 and thumbnail320",
+      "limit": "The fine thread ends and individual needle contact are subtle at usage720 and not separately readable in the thumbnail; the larger inspection/sewing actions remain visible."
+    },
+    {
+      "location": "scene fills/backgrounds",
+      "limit": "Cel shading and some mild fabric texture remain rather than fully uniform flat fields."
+    }
+  ]
+}

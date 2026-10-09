@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "role": "R7-B05-M1",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "b037269f7a99ec584c5f7126a24d63eb29ce7876cacf3a7ebe92f89470de30d1",
+  "parent_native_sha256": "b6a9d70b805803c05eb7a745e665d840f4be959763dfa5ad413977fe0e31d80f",
+  "changes": [
+    {
+      "view": "native",
+      "location": "upper title",
+      "observation": "Title has visibly smaller height/width and occupies less of the upper wall; event line also slightly smaller."
+    },
+    {
+      "view": "native",
+      "location": "large-loop left contour and small-loop right contour",
+      "observation": "Artwork spans a slightly wider frame area, closer to the source photo's broad silhouette. Vertical shift remains."
+    },
+    {
+      "view": "native",
+      "location": "wall and blue front surfaces",
+      "observation": "Surface patterns changed again; original A1 photographic detail restoration was not achieved."
+    },
+    {
+      "view": "usage720",
+      "location": "footer",
+      "observation": "Date/address and explanation/reservation are slightly smaller and moved left; all remain readable and full URL remains uncut."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "large loop top and both mounting pins",
+      "observation": "Artwork is still approximately 30px below its position in the supplied A1 photograph. Large-loop top visually near y=269 vs original around y=240; pins similarly lower. Estimates are visual, not pixel measurements."
+    },
+    {
+      "view": "native",
+      "location": "blue ribbon brushwork and wall",
+      "observation": "Generated brush marks and wall microtexture differ from A1. Original surface/color/lighting pixel identity is not preserved or certified; the blue shape remains recognizably the same connected two-loop work."
+    },
+    {
+      "view": "native",
+      "location": "title and common left alignment",
+      "observation": "Title is smaller than prior posters but remains above planned 52px scale; text start is visually around x=98 rather than intended x=124. Bottom date begins above the planned y=1170, though it does not cover artwork."
+    },
+    {
+      "view": "native",
+      "location": "whole poster",
+      "observation": "1122×1402 is allowed nearest-integer width rounding (0.4px width difference from 4:5), not mathematically exact 4:5. Returned dimensions do not establish maximum supported resolution or print suitability."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "lower explanatory and reservation lines",
+      "observation": "Small explanatory and reservation copy needs usage720/native view for confident reading; the thumbnail supports composition inspection."
+    }
+  ],
+  "retained_advantages": [
+    "Complete connected blue work at substantial size with two wall pins",
+    "Six literal copy entries read once with all URL text",
+    "Dark neutral typography, one opaque full-bleed poster, no invented tools or person"
+  ],
+  "comparison_basis": "Direct inspection of native, usage720 and thumbnail320 for both returned stages; no critic scores received."
+}

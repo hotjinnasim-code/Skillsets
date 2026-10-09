@@ -1,0 +1,9 @@
+# Supplemental conformance check, declared before any H critic starts
+
+The frozen prepare_reviews.py prompt already directs critics to actually view all supplied source assets, record `procedure.source_assets_viewed` entries with asset_id/path/sha256/viewed, and record protected-layout manifest read pins when applicable. The frozen summarize.py v4 does not check those extra source attestation fields. It checks the complete poster view set and all seven aesthetics and mandatory conditions.
+
+Keep v4 immutable. Run the separate audit_source_assets.py against the unchanged raw reports and exact packet to check that existing source-view/read requirement. For cases without sources, empty or absent source/layout arrays meet the zero-source requirement. For a supplied source, require one truthful viewed:true entry with its exact asset identity/path/hash. For protected measured layout, require each exact prescribed manifest pin in protected_layouts_read; a nested manifest pin is also accepted. No extra read:true field is invented where the frozen prompt only asked for read pins. Explicit read:false is inconsistent with the required read.
+
+Retain every original v4 summary, even a preliminary PASS. A source conformance NA keeps the corresponding complete case and its members NA in the terminal combined record; do not replace raw critics, generate pictures or silently repair source attestations. Exact-context reuse retains this check too. This is enforcement of prescribed input comparison, not a new score threshold or preference. All seven >=4 gates and literal condition fidelity are unchanged.
+
+Neither v4 nor this supplementary check proves semantic viewing from CLI tool serialization; both rely on truthful image-view/read attestations backed by exact file and session provenance. Freeze this checker before critic reports exist and disclose its scope in the final evidence.

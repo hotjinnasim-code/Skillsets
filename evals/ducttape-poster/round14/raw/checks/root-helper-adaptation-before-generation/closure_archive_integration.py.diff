@@ -1,0 +1,47 @@
+--- R13/checks/closure_archive_integration.py
++++ R14/checks/closure_archive_integration.py
+@@ -1,4 +1,4 @@
+-"""ROOT-only R13 archive replay, exact inventory, containment and link checks.
++"""ROOT-only R14 archive replay, exact inventory, containment and link checks.
+ 
+ Never launches actors/native calls or changes observations, scores or gates.
+ Preflight uses synthetic fixtures only; actual replay requires whole closure.
+@@ -23,7 +23,7 @@
+ 
+ 
+ def load_module(path):
+-    spec = importlib.util.spec_from_file_location('r13_root_archive_verifier', path)
++    spec = importlib.util.spec_from_file_location('r14_root_archive_verifier', path)
+     result = importlib.util.module_from_spec(spec)
+     spec.loader.exec_module(result)
+     return result
+@@ -68,7 +68,7 @@
+ def containment_fixtures(verifier):
+     attempts = []
+     rejected = []
+-    with tempfile.TemporaryDirectory(prefix='r13-archive-containment-') as temp:
++    with tempfile.TemporaryDirectory(prefix='r14-archive-containment-') as temp:
+         fixture = Path(temp).resolve(strict=True)
+         archive = fixture/'archive'; archive.mkdir()
+         external = fixture/'outside'; external.mkdir()
+@@ -252,9 +252,9 @@
+     results = []
+     original_module = verifier.module
+     for reused in (False, True):
+-        with tempfile.TemporaryDirectory(prefix='r13-synthetic-phase-') as temp:
++        with tempfile.TemporaryDirectory(prefix='r14-synthetic-phase-') as temp:
+             root = Path(temp).resolve(strict=True)/'archive'; root.mkdir()
+-            source = '/synthetic-r13-metadata-only/source'
++            source = '/synthetic-r14-metadata-only/source'
+             rows = []
+             def put(relative, value):
+                 data = (json.dumps(value, sort_keys=True)+'\n').encode()
+@@ -265,7 +265,7 @@
+                 rows.append({'source_absolute': pin['path'], 'archive_relative': 'raw/'+relative,
+                              'sha256': pin['sha256']})
+                 return pin
+-            cid = 'SYNTHETIC-R13'
++            cid = 'SYNTHETIC-R14'
+             roles = [cid+'-M'+str(i) for i in range(1, 6)]
+             case = {'case_id': cid, 'count': 5, 'roles': [{'role_id': role} for role in roles]}
+             corpus = put('planning/single-five-case.json', {'cases': [case]})

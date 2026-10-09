@@ -1,0 +1,167 @@
+{
+  "started_utc": "2026-10-08T19:45:36.040500+00:00",
+  "argv": [
+    "codex",
+    "--no-daemon",
+    "--ask-for-approval",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--json",
+    "--skip-git-repo-check",
+    "--sandbox",
+    "workspace-write",
+    "-C",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/reviews/R20-C1/selected/cli/portfolio",
+    "--output-last-message",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/reviews/R20-C1/selected/cli/portfolio/final.txt",
+    "-"
+  ],
+  "fresh_session": true,
+  "case_id": "R20-C1",
+  "wave": "selected",
+  "profile": "portfolio",
+  "model_override": null,
+  "prompt": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/reviews/R20-C1/selected/prompts/portfolio.txt",
+    "sha256": "bffbf6fc77b385d3e2aa7d7a96a3b6e00a31c442bed4c0a98b3c136dec4caec1"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/reviews/R20-C1/selected/packet.json",
+      "sha256": "2d9c4d3c0cf1d58a9a0f7902a27e1f1e00b91c9ba6615ca5e061bbbac26db472"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/reviews/R20-C1/selected/case.json",
+      "sha256": "cfa98e6b8581f51742a7eaf98278878e36f40e6de9740aa9e868a1c87bf591c2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/critic_rubric.md",
+      "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/planning/ratio-policy-before-generation.json",
+      "sha256": "20528c3fe255bf4a6a68a252cec454a964fde88b2b91cef8eeb6682fbb83dabd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M1/stages/initial/manifest.json",
+      "sha256": "f1fd99b5298e134853191ef45f83f3ae2b1cc9463939d064b81fa5d43bffa918"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M1/stages/initial/original.png",
+      "sha256": "b211670c1ffba19da1f80b10081e897cff59348061f7d9220aaabdb5d430cb86"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M1/stages/initial/usage-720.png",
+      "sha256": "ae944eb23f990be2dbe8d542273c90b5aee72107da52c52094eed6d5c0263c9a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M1/stages/initial/thumbnail-320.png",
+      "sha256": "6a64f4c4d0a1880a87949feeba81b5d0fdaba9c1745d34b0f79c346c5ea2525e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M2/stages/repair-2/manifest.json",
+      "sha256": "1b08d311a31cc0546e402aa741ec4f440c16aa9d16b315e61f2545ae3790a248"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M2/stages/repair-2/original.png",
+      "sha256": "414088e6deee1e367676524453a5b89fdcb0c4eb91c00475da2c676307cdd360"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M2/stages/repair-2/usage-720.png",
+      "sha256": "277c769e8188f57e39db2d73c907f2a9641302c3b7a40ec66da6f1859879b7e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M2/stages/repair-2/thumbnail-320.png",
+      "sha256": "84ad71a50ead76192ccfb9d615a83627cf95e781bf69a29d31f26e111b23d415"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/stages/initial/manifest.json",
+      "sha256": "7c3299ab3e78bcf2408e667ede90aa7b841f2ab895926b5829578b4baadbf872"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/stages/initial/original.png",
+      "sha256": "535f82eb35928c65fbfe9087185af15b65a85eb01291837d240b45b2e05eaead"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/stages/initial/usage-720.png",
+      "sha256": "05cfc92354d84e8687d76c13a182dbb631227d9855b8656046c9243319838ded"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/stages/initial/thumbnail-320.png",
+      "sha256": "abb02e6121996fddbef1ad114b51abd58552af25f25d3fadea75936c87c525ab"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M4/stages/repair-1/manifest.json",
+      "sha256": "54f831152b6f15f08ecd7368c55b802f5d035f0a1fec1f81d1ad20a487f9bfcd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M4/stages/repair-1/original.png",
+      "sha256": "51e627ac756b6935e8d9534bc185b7ad8d9499f488e059c2382331027233d2e3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M4/stages/repair-1/usage-720.png",
+      "sha256": "63ed8e7536792c17a792dd87f9236b0ee0a533050a1124a0150deec3cf984a6d"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M4/stages/repair-1/thumbnail-320.png",
+      "sha256": "b0ff826ce96e8d317f7d6abc8e19ec4e8ec1bbef22115bb6350ef4a0f7589e86"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M5/stages/repair-1/manifest.json",
+      "sha256": "eed4af2e4040fd59be38d04b4d4bec4a00aa93150625dca19292270d43a43b03"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M5/stages/repair-1/original.png",
+      "sha256": "326fec74b571cf995cc34e31b058e0747429357a020db9a965f73dd02e86678e"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M5/stages/repair-1/usage-720.png",
+      "sha256": "e0df230efeb05934318f39b92c85c974156a8f1a137521e08c48502f9b94be32"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M5/stages/repair-1/thumbnail-320.png",
+      "sha256": "55bf074d03fc3d99e9a7314993ac4a5289aa171a08aa1d05958b429fc882f6e2"
+    }
+  ],
+  "job": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/reviews/R20-C1/selected/jobs/portfolio.json",
+    "sha256": "fd5ccb4f8e23a6ee739bb561a8aa4efbd9ed47fd1e45720963356ab24653f619"
+  }
+}

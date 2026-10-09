@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "role": "R7-D1-M4",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/stages/repair-1/thumbnail-320.png"
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/stages/repair-1/original.png",
+      "sha256": "2b3dfb7d87af60824669945ebe1414c407de955f96f8551a68cf765a1285b081",
+      "bytes": 1881697,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/stages/repair-1/usage-720.png",
+      "sha256": "d4300378bf681b62fe3067800c1e2e7d80b57b2efaa31ab1edacdb17f3e78504",
+      "bytes": 974863,
+      "width": 720,
+      "height": 1080
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/stages/repair-1/thumbnail-320.png",
+      "sha256": "573fc422d205a6f00d1760797e3450323743ea1a32d6400de78e6bb2a1f09085",
+      "bytes": 109324,
+      "width": 213,
+      "height": 320
+    }
+  ],
+  "viewing_procedure": {
+    "initial_requested_order": [
+      "native",
+      "usage720",
+      "thumbnail320"
+    ],
+    "native_initial_display": "The first original-detail display again showed only a small pale corner, so the complete native asset was revisited once after the two QA views.",
+    "one_revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/stages/repair-1/original.png",
+      "sha256": "2b3dfb7d87af60824669945ebe1414c407de955f96f8551a68cf765a1285b081",
+      "raw_observed": "서로 다른 속도",
+      "resolution": "The same original appeared fully on one revisit, allowing the Hangul and changed right-leaf details to be seen.",
+      "resolved": true,
+      "reason": "Incomplete initial native display; no crop, resampling or regeneration used to obtain a reading."
+    }
+  },
+  "raw_observed_text": [
+    "서로 다른 속도"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "서로 다른 속도",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "서로 다른 속도",
+      "first_readable_required_view": "usage720",
+      "normalized_required": "서로 다른 속도",
+      "normalized_observed": "서로 다른 속도",
+      "equal": true,
+      "layout": {
+        "observed_line_count": 1,
+        "observations": "One horizontal line retained above common rootstock. Original word spaces are visible; no required fixed newline."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "observations": "Title read once as 서로 다른 속도, with intact six syllables and three spaced words; no other printed copy observed.",
+      "ambiguities": []
+    },
+    "style": {
+      "checked_requirement": "An expressive ink or relief-cut drawing whose solid foliage, directional stem marks and branching root contours describe actual plant structure. Selective irregularity follows the growth direction instead of covering the whole poster with texture. Robust hand-drawn Hangul keeps a consistent stroke logic, intact syllables and generous internal spaces.",
+      "observations": "Relief-cut green plant and orange hand-drawn Hangul remain consistent; cuts describe stems, veins and tapering roots."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "requested_ratio": "2:3",
+      "exact_cross_product_equal": true,
+      "measurement_source": "PNG header dimensions in native preservation manifest"
+    },
+    "substantive_visual": {
+      "observations": "Tall open-leaved left shoot and very short right shoot still connect through one horizontal rootstock and extensive exposed roots, legible at thumbnail.",
+      "limits": "Right leaf shapes narrowed but still present exposed branching side veins and spread laminae; a fold/rolled edge remains weak."
+    },
+    "hangul": {
+      "observations": "Native title keeps broad intact Hangul components, open internal spaces, consistent heavy strokes and clear word gaps."
+    },
+    "information_relationship": {
+      "observations": "Title continues to occupy the space between the tall and short stem bases, above roots; no plant stroke crosses a glyph."
+    },
+    "function_contact": {
+      "applicability": "No product/action or contact-information requirement. Both stem bases visibly join the shared rootstock."
+    },
+    "local_material_edge_finish": {
+      "observations": "Large leaves and roots remain irregular in the cutting direction; field retains faint fine mottling. Fine root contours vary from initial, especially below the right junction, without losing the connecting main structure."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "short leaf pair at right",
+      "observation": "Leaves are noticeably slimmer than initial, but several branching pale side veins remain visible on each."
+    },
+    {
+      "view": "usage720",
+      "location": "title boundary",
+      "observation": "Whole title remains legible and separated from stems and the shared rootstock."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole poster",
+      "observation": "Shared roots and unequal heights remain strong; the changed short leaves read as two small pointed leaves rather than a clearly closed unfolding bud."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "short right shoot leaves",
+      "observation": "Narrowing improved the developmental cue, but side veins and open silhouettes still weaken the explicit folded state.",
+      "impact": "The assigned comparison is still more about size than clearly asynchronous unfolding.",
+      "planned_correction": "Make two young leaves closed and V-folded along a single pale central seam, with no exposed branching vein fan."
+    },
+    {
+      "location": "pale field",
+      "observation": "Faint mottled paper-like field remains.",
+      "impact": "A minor material limit; the main non-glyph concept does not rely on this field."
+    }
+  ],
+  "decision": "Use the final allowed repair to make the folded state explicit while preserving title and root connection; no self score or PASS assigned."
+}

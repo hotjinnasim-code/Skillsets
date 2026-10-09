@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "closed_utc": "2026-10-08T10:57:12.951999+00:00",
+  "candidate": "M",
+  "corpus": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/planning/single-five-case.json",
+    "sha256": "6212977bc5043ea9169b3fe72e6d7c672154212df75680b3b3b84739c06177d8",
+    "bytes": 7230
+  },
+  "pre_generation_freeze": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/planning/candidate-m-pre-generation-freeze.json",
+    "sha256": "144df95297372ec0ca698289078b7d6e2563578d624174b323edadd6fd001e07",
+    "bytes": 23334
+  },
+  "critic_recording_freeze": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/planning/critic-recording-helper-freeze.json",
+    "sha256": "8c47a3ae2cce5eb641ef409ff2827e5f9bfcfb112560eba6f3984f5a6f8c77ed",
+    "bytes": 2542
+  },
+  "production_provenance_closure": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/planning/single-five-production-closure.json",
+    "sha256": "9bb7b81e1a5533c04321e2f5189d67e86acd7630db7a9ec3ef00c3e25f228e21",
+    "bytes": 8223
+  },
+  "poster_role_denominator": 5,
+  "cases": 1,
+  "poster_calls_closed": true,
+  "poster_native_attempts": 8,
+  "poster_attempt_cap": 15,
+  "makers": [
+    {
+      "case_id": "R13-C1",
+      "role": "R13-C1-M1",
+      "terminal": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M1/selection.json",
+        "sha256": "aecedd453950b3704e1a688eaa6ca7594639b287f6352055b79e52e27dc0f2bb",
+        "bytes": 5132
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M1/completion.json",
+        "sha256": "301de31e0390c256d760d9d274387930a6bba08c7f34facb157bb0cb8632356f",
+        "bytes": 4718
+      },
+      "counts": {
+        "native_calls": 1,
+        "returned": 1,
+        "failed": 0,
+        "repair_calls": 0
+      },
+      "selected_stage": "initial",
+      "recovered_transport_events": []
+    },
+    {
+      "case_id": "R13-C1",
+      "role": "R13-C1-M2",
+      "terminal": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M2/selection.json",
+        "sha256": "1b37c80a7363169d5460264d71f76aec678db5a11a671f8e07961781e9c11e3b",
+        "bytes": 5132
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M2/completion.json",
+        "sha256": "bfbd3d9cddefb40aa74e1283b2f04d164d135bd680bbd1fe49b5311919c024e0",
+        "bytes": 4718
+      },
+      "counts": {
+        "native_calls": 1,
+        "returned": 1,
+        "failed": 0,
+        "repair_calls": 0
+      },
+      "selected_stage": "initial",
+      "recovered_transport_events": []
+    },
+    {
+      "case_id": "R13-C1",
+      "role": "R13-C1-M3",
+      "terminal": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M3/selection.json",
+        "sha256": "6eecddb8281addb2a3b38127a288ab46a1f858d7ff721988fe0cee427a58e03f",
+        "bytes": 5132
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M3/completion.json",
+        "sha256": "545e245fbea7c9c42812d0462f13e31dcda4693d9e92124d77f4d7346b7f64e9",
+        "bytes": 4718
+      },
+      "counts": {
+        "native_calls": 1,
+        "returned": 1,
+        "failed": 0,
+        "repair_calls": 0
+      },
+      "selected_stage": "initial",
+      "recovered_transport_events": []
+    },
+    {
+      "case_id": "R13-C1",
+      "role": "R13-C1-M4",
+      "terminal": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M4/selection.json",
+        "sha256": "1690f0fe41b746dc480241a1747b2c716b274c32b58da22abb8d6aebe06e2c4c",
+        "bytes": 8260
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M4/completion.json",
+        "sha256": "5dd3ea39e19e053589c2953bb2de5d5de651243110e08d7ca194492047ab2897",
+        "bytes": 4718
+      },
+      "counts": {
+        "native_calls": 2,
+        "returned": 2,
+        "failed": 0,
+        "repair_calls": 1
+      },
+      "selected_stage": "repair-1",
+      "recovered_transport_events": []
+    },
+    {
+      "case_id": "R13-C1",
+      "role": "R13-C1-M5",
+      "terminal": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/selection.json",
+        "sha256": "b40134ca9264e9590429b62bd651d1da6e775ca64347682ff0788a19e37c9d71",
+        "bytes": 11381
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/completion.json",
+        "sha256": "1313ddf38956996d51fef7ebc584b98e3a176b7627eac596ce8eded1ec2c77c0",
+        "bytes": 4718
+      },
+      "counts": {
+        "native_calls": 3,
+        "returned": 3,
+        "failed": 0,
+        "repair_calls": 2
+      },
+      "selected_stage": "repair-1",
+      "recovered_transport_events": []
+    }
+  ],
+  "caller_records": [
+    {
+      "role": "R13-C1-M1",
+      "stage": "initial",
+      "caller": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M1/stages/initial/native-call.json",
+        "sha256": "5599886731bdbd388a5b43a6abfacfe373de7d372aed65c1547b82e8d2da4db0",
+        "bytes": 1038
+      },
+      "raw": {
+        "schema_version": 1,
+        "role": "R13-C1-M1",
+        "stage": "initial",
+        "native_tool": "tools.image_gen__imagegen",
+        "caller_started_at_utc": "2026-10-08T10:05:27.209Z",
+        "caller_ended_at_utc": "2026-10-08T10:06:09.212Z",
+        "outcome": "returned",
+        "interval_semantics": "Actual caller wrapper interval awaiting the native tool; not model internals or helper runtime",
+        "returned_metadata": {
+          "image_url": "[image/data payload omitted from metadata]",
+          "output_hint": "Generated images are saved to /Users/nahyeonbin/.codex/generated_images/01a11af7-ed05-7dd1-a15b-312e68294bd6 as /Users/nahyeonbin/.codex/generated_images/01a11af7-ed05-7dd1-a15b-312e68294bd6/exec-ea7104ce-86b2-4877-90b3-add069d07611.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+        },
+        "error": null
+      }
+    },
+    {
+      "role": "R13-C1-M2",
+      "stage": "initial",
+      "caller": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M2/stages/initial/native-call.json",
+        "sha256": "8f1ba368d0829135a7163c18895b99439609c019ae478eafa9073c6c49f9e1d9",
+        "bytes": 1068
+      },
+      "raw": {
+        "schema_version": 1,
+        "role": "R13-C1-M2",
+        "stage": "initial",
+        "native_tool": "tools.image_gen__imagegen",
+        "caller_started_at_utc": "2026-10-08T10:05:43.922Z",
+        "caller_ended_at_utc": "2026-10-08T10:06:19.838Z",
+        "interval_semantics": "actual caller interval around awaited native tool; not model internal time or helper runtime",
+        "outcome": "returned",
+        "returned_metadata": {
+          "image_url": {
+            "omitted_binary_or_long_string": true,
+            "length": 2799550
+          },
+          "output_hint": "Generated images are saved to /Users/nahyeonbin/.codex/generated_images/01a11af7-ed05-71d1-8751-b99cfeca8d7e as /Users/nahyeonbin/.codex/generated_images/01a11af7-ed05-71d1-8751-b99cfeca8d7e/exec-9b977b1a-eed6-4a38-adf9-a5fde6fd53d6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+        },
+        "error": null
+      }
+    },
+    {
+      "role": "R13-C1-M3",
+      "stage": "initial",
+      "caller": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M3/stages/initial/native-call.json",
+        "sha256": "938934ec033e7cfdfdc13e579a47ff7316a8d04e9d32cab2bf4a459c2ac15a54",
+        "bytes": 998
+      },
+      "raw": {
+        "schema_version": 1,
+        "role": "R13-C1-M3",
+        "stage": "initial",
+        "native_tool": "tools.image_gen__imagegen",
+        "caller_utc_start": "2026-10-08T10:05:38.695Z",
+        "caller_utc_end": "2026-10-08T10:06:16.733Z",
+        "outcome": "returned",
+        "wrapper_interval_semantics": "Caller interval awaiting the native tool; excludes evidence-helper runtime and makes no model-internal timing claim.",
+        "tool_result_metadata": {
+          "output_hint": "Generated images are saved to /Users/nahyeonbin/.codex/generated_images/01a11af7-ed09-7cf1-aa54-8533b3e05a1d as /Users/nahyeonbin/.codex/generated_images/01a11af7-ed09-7cf1-aa54-8533b3e05a1d/exec-04e678c4-7f81-45b7-b613-057663f5e949.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+        },
+        "error": null
+      }
+    },
+    {
+      "role": "R13-C1-M4",
+      "stage": "initial",
+      "caller": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M4/stages/initial/native-call.json",
+        "sha256": "05ea2bd86c89dc5b0afc73b8528c6ae6e4d13710a7b6d7fda2ed5c373baa6e28",
+        "bytes": 1054
+      },
+      "raw": {
+        "role": "R13-C1-M4",
+        "stage": "initial",
+        "native_tool": "tools.image_gen__imagegen",
+        "caller_started_utc": "2026-10-08T10:09:45.479Z",
+        "caller_ended_utc": "2026-10-08T10:10:31.042Z",
+        "outcome": "returned",
+        "interval_semantics": "caller wrapper interval around awaited native tool call, not model internals or helper preservation",
+        "returned_result_metadata": {
+          "image_url": {
+            "omitted_binary_or_large_string": true,
+            "length": 2386766
+          },
+          "output_hint": "Generated images are saved to /Users/nahyeonbin/.codex/generated_images/01a11afb-da87-7841-b3e9-4b1c59380efc as /Users/nahyeonbin/.codex/generated_images/01a11afb-da87-7841-b3e9-4b1c59380efc/exec-d5b17b8c-72c5-4bef-84c6-fe47d7f59550.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+        },
+        "error": null
+      }
+    },
+    {
+      "role": "R13-C1-M4",
+      "stage": "repair-1",
+      "caller": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M4/stages/repair-1/native-call.json",
+        "sha256": "4b621be83204f6784b91e54f854bb69939f9feb595ab5de1deef75381f4628ac",
+        "bytes": 1055
+      },
+      "raw": {
+        "role": "R13-C1-M4",
+        "stage": "repair-1",
+        "native_tool": "tools.image_gen__imagegen",
+        "caller_started_utc": "2026-10-08T10:13:04.968Z",
+        "caller_ended_utc": "2026-10-08T10:13:44.901Z",
+        "outcome": "returned",
+        "interval_semantics": "caller wrapper interval around awaited native tool call, not model internals or helper preservation",
+        "returned_result_metadata": {
+          "image_url": {
+            "omitted_binary_or_large_string": true,
+            "length": 2467926
+          },
+          "output_hint": "Generated images are saved to /Users/nahyeonbin/.codex/generated_images/01a11afb-da87-7841-b3e9-4b1c59380efc as /Users/nahyeonbin/.codex/generated_images/01a11afb-da87-7841-b3e9-4b1c59380efc/exec-5b2bf5e1-b3c7-4762-9d95-58d6471beb62.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+        },
+        "error": null
+      }
+    },
+    {
+      "role": "R13-C1-M5",
+      "stage": "initial",
+      "caller": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/initial/native-call.json",
+        "sha256": "e0dd9a6085a9a228135821fefc9c48c8948b6b3b1a09ba1d0465dfc80439baa9",
+        "bytes": 1617
+      },
+      "raw": {
+        "schema_version": 1,
+        "role": "R13-C1-M5",
+        "stage": "initial",
+        "native_tool": "tools.image_gen__imagegen",
+        "caller_started_at_utc": "2026-10-08T10:10:36.476Z",
+        "caller_ended_at_utc": "2026-10-08T10:11:15.671Z",
+        "outcome": "returned",
+        "interval_semantics": "Caller wrapper around awaited native tool; not model internals or helper runtime",
+        "result_metadata": {
+          "image_url": "[image data omitted]",
+          "output_hint": "Generated images are saved to /Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511 as /Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-650892f5-9851-4eaf-9413-863f1feae8a7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+        },
+        "error": null,
+        "returned_source_paths": [
+          "/Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-650892f5-9851-4eaf-9413-863f1feae8a7.png"
+        ],
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/initial/call-input.json",
+          "sha256": "bbd6629ad912d7d0f6af67897495e315590ed68763ce8092677e98e615cfe4ac"
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/initial/pre-call.json",
+          "sha256": "ae4e44b5d924839c6b564e306fd223b0f1599636671978e04e08c654d1ed976f"
+        }
+      }
+    },
+    {
+      "role": "R13-C1-M5",
+      "stage": "repair-1",
+      "caller": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/repair-1/native-call.json",
+        "sha256": "fb34b5913baa056e7ef12d8a05fa0ded41eb466d98b3cb6f424ea3edd74fe558",
+        "bytes": 1620
+      },
+      "raw": {
+        "schema_version": 1,
+        "role": "R13-C1-M5",
+        "stage": "repair-1",
+        "native_tool": "tools.image_gen__imagegen",
+        "caller_started_at_utc": "2026-10-08T10:13:39.963Z",
+        "caller_ended_at_utc": "2026-10-08T10:14:22.048Z",
+        "outcome": "returned",
+        "interval_semantics": "Caller wrapper around awaited native tool; not model internals or helper runtime",
+        "result_metadata": {
+          "image_url": "[image data omitted]",
+          "output_hint": "Generated images are saved to /Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511 as /Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-cef1eaad-af69-4f9a-8cd1-9719b57a1260.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+        },
+        "error": null,
+        "returned_source_paths": [
+          "/Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-cef1eaad-af69-4f9a-8cd1-9719b57a1260.png"
+        ],
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/repair-1/call-input.json",
+          "sha256": "7604397bf0eadb77923e697bbfb976de94e0a2b451b8188e7652c409e136fdcb"
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/repair-1/pre-call.json",
+          "sha256": "21b57be7284b4eb4b353979fe630baecee8449159991897ec2ac47c2f074f59a"
+        }
+      }
+    },
+    {
+      "role": "R13-C1-M5",
+      "stage": "repair-2",
+      "caller": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/repair-2/native-call.json",
+        "sha256": "90df27d6b07ed85d6cddb8b205df0dc01e2e42a84b0c6b7684e27f8065ec1c69",
+        "bytes": 1620
+      },
+      "raw": {
+        "schema_version": 1,
+        "role": "R13-C1-M5",
+        "stage": "repair-2",
+        "native_tool": "tools.image_gen__imagegen",
+        "caller_started_at_utc": "2026-10-08T10:17:46.498Z",
+        "caller_ended_at_utc": "2026-10-08T10:18:23.982Z",
+        "outcome": "returned",
+        "interval_semantics": "Caller wrapper around awaited native tool; not model internals or helper runtime",
+        "result_metadata": {
+          "image_url": "[image data omitted]",
+          "output_hint": "Generated images are saved to /Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511 as /Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-8e038f4a-99d9-4a98-8509-83005e8cdfa4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+        },
+        "error": null,
+        "returned_source_paths": [
+          "/Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-8e038f4a-99d9-4a98-8509-83005e8cdfa4.png"
+        ],
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/repair-2/call-input.json",
+          "sha256": "f8a05c7b81d47d577c33ea1cc48adb94b40b559d08162ab04e96d6445bf1d3a0"
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/production/R13-C1-M5/stages/repair-2/pre-call.json",
+          "sha256": "df343e684c400dbb2e21a4ae39339154364034206c08681122293520b6a20ce7"
+        }
+      }
+    }
+  ],
+  "native_source_cache_checks": [
+    {
+      "role": "R13-C1-M1",
+      "session": "01a11af7-ed05-7dd1-a15b-312e68294bd6",
+      "matches": true,
+      "sources": {
+        "/Users/nahyeonbin/.codex/generated_images/01a11af7-ed05-7dd1-a15b-312e68294bd6/exec-ea7104ce-86b2-4877-90b3-add069d07611.png": "898c9cc43f33b04239d3a194deb36050280b1be5142e62083da621d0728048c9"
+      }
+    },
+    {
+      "role": "R13-C1-M2",
+      "session": "01a11af7-ed05-71d1-8751-b99cfeca8d7e",
+      "matches": true,
+      "sources": {
+        "/Users/nahyeonbin/.codex/generated_images/01a11af7-ed05-71d1-8751-b99cfeca8d7e/exec-9b977b1a-eed6-4a38-adf9-a5fde6fd53d6.png": "b248155bd4fa2722c814926f91353ae80fceeb70401f89a14c27454ee3c9e11b"
+      }
+    },
+    {
+      "role": "R13-C1-M3",
+      "session": "01a11af7-ed09-7cf1-aa54-8533b3e05a1d",
+      "matches": true,
+      "sources": {
+        "/Users/nahyeonbin/.codex/generated_images/01a11af7-ed09-7cf1-aa54-8533b3e05a1d/exec-04e678c4-7f81-45b7-b613-057663f5e949.png": "c6747e7725589460d2d20b44b4796a2de48c8905ddee18bb4e54e578f009f897"
+      }
+    },
+    {
+      "role": "R13-C1-M4",
+      "session": "01a11afb-da87-7841-b3e9-4b1c59380efc",
+      "matches": true,
+      "sources": {
+        "/Users/nahyeonbin/.codex/generated_images/01a11afb-da87-7841-b3e9-4b1c59380efc/exec-d5b17b8c-72c5-4bef-84c6-fe47d7f59550.png": "3e742683ac2cb7605e231b8b2b6c4e86bda53010e3f1abc6952b358a601486b3",
+        "/Users/nahyeonbin/.codex/generated_images/01a11afb-da87-7841-b3e9-4b1c59380efc/exec-5b2bf5e1-b3c7-4762-9d95-58d6471beb62.png": "b4374c50c200fbe0a4ec864c69a51bd7d2f0712f192de4c6a0d0a1b7d022e021"
+      }
+    },
+    {
+      "role": "R13-C1-M5",
+      "session": "01a11afc-597a-7592-a274-1a1c84677511",
+      "matches": true,
+      "sources": {
+        "/Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-650892f5-9851-4eaf-9413-863f1feae8a7.png": "3f63cd93a13ee6ad049cb24b915b525f1404742870c3a54605769dd888eb3905",
+        "/Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-cef1eaad-af69-4f9a-8cd1-9719b57a1260.png": "632f764a90a01ddf4d818fc6aa73b8914ca0016aa453ac7cfd92492fb2c619a7",
+        "/Users/nahyeonbin/.codex/generated_images/01a11afc-597a-7592-a274-1a1c84677511/exec-8e038f4a-99d9-4a98-8509-83005e8cdfa4.png": "00923fe454ede4025421823262544676f5047810efdb31a9d578b01816ad6936"
+      }
+    }
+  ],
+  "stages": {
+    "initial": {
+      "cases": {
+        "R13-C1": {
+          "gate": "NA",
+          "original_v4_set_gate": "NA",
+          "original_v4_image_gates": {
+            "R13-C1-M1": "NA",
+            "R13-C1-M2": "NA",
+            "R13-C1-M3": "NA",
+            "R13-C1-M4": "NA",
+            "R13-C1-M5": "NA"
+          },
+          "source_attestation_gate": "PASS",
+          "source_attestation_audit": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/source-asset-audit.json",
+            "sha256": "1b0580a5b734daf261cbc9f4b6b7138a41859271a896c8831da4f2de41bc2b65",
+            "bytes": 1894
+          },
+          "compact_recording_gate": "NA",
+          "compact_recording_audit": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/compact-recording-audit.json",
+            "sha256": "b2098046e25b8b57d0a3bf1a257190bd3b320716e960c85d2a4fbe31100ac6e6",
+            "bytes": 11525
+          },
+          "summary": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/summary.json",
+            "sha256": "01b58ef4d7bc690da9d968ea1735e7a6603b1a26841700bd97a0ae6e8b714f15",
+            "bytes": 1033184
+          },
+          "reused_complete_initial_three": false
+        }
+      },
+      "image_gates": {
+        "R13-C1-M1": "NA",
+        "R13-C1-M2": "NA",
+        "R13-C1-M3": "NA",
+        "R13-C1-M4": "NA",
+        "R13-C1-M5": "NA"
+      },
+      "image_gate_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "NA": 5
+      },
+      "whole_corpus_gate": "NA"
+    },
+    "selected": {
+      "cases": {
+        "R13-C1": {
+          "gate": "NA",
+          "original_v4_set_gate": "NA",
+          "original_v4_image_gates": {
+            "R13-C1-M1": "FAIL",
+            "R13-C1-M2": "FAIL",
+            "R13-C1-M3": "FAIL",
+            "R13-C1-M4": "NA",
+            "R13-C1-M5": "FAIL"
+          },
+          "source_attestation_gate": "PASS",
+          "source_attestation_audit": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/source-asset-audit.json",
+            "sha256": "558b2b3f763028b03b40476bf2395abb179d8256f227a6650e3eafc16a5b3fe6",
+            "bytes": 1899
+          },
+          "compact_recording_gate": "PASS",
+          "compact_recording_audit": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/compact-recording-audit.json",
+            "sha256": "3596775e50340dced3d210e370b7c3909587e28f266ad3063e131b1cea482153",
+            "bytes": 12651
+          },
+          "summary": {
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/summary.json",
+            "sha256": "f650722f6b2eb79bdbb1a6ae82d796a430b3d3e2be32bef0274a7e380eb3adfc",
+            "bytes": 1055100
+          },
+          "reused_complete_initial_three": false
+        }
+      },
+      "image_gates": {
+        "R13-C1-M1": "FAIL",
+        "R13-C1-M2": "FAIL",
+        "R13-C1-M3": "FAIL",
+        "R13-C1-M4": "NA",
+        "R13-C1-M5": "FAIL"
+      },
+      "image_gate_counts": {
+        "PASS": 0,
+        "FAIL": 4,
+        "NA": 1
+      },
+      "whole_corpus_gate": "NA"
+    }
+  },
+  "actual_unique_review_sessions": 6,
+  "actual_review_counts": {
+    "records": 30,
+    "score_slots": 210,
+    "valid_scores": 210
+  },
+  "raw_observation_counts_separate": {
+    "records": 30,
+    "score_slots": 210,
+    "valid_scores": 210
+  },
+  "raw_observation_inventory": [
+    {
+      "wave": "initial",
+      "profile": "editorial",
+      "raw_observations": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/editorial/editorial.observations.json",
+        "sha256": "063e285a8dee0c280e2c6387b506c7c046df424a8c3f580aaebe97d8e572ef2a",
+        "bytes": 57538
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/editorial/completion.json",
+        "sha256": "de9a96fd4772d4f6c84d114eea2918f43b90659b112fa6f481963915ff1f6070",
+        "bytes": 9301
+      },
+      "counts": {
+        "records": 5,
+        "score_slots": 35,
+        "valid_scores": 35
+      }
+    },
+    {
+      "wave": "initial",
+      "profile": "craft",
+      "raw_observations": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/craft/craft.observations.json",
+        "sha256": "e339d7b22242d9a7840f78ab4f590448ac53f05102879d5c29465875df397212",
+        "bytes": 70576
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/craft/completion.json",
+        "sha256": "5c80b30628e5282412dd3a4544d4006d4f94aa966084a90b0c464fa88e40ed75",
+        "bytes": 9241
+      },
+      "counts": {
+        "records": 5,
+        "score_slots": 35,
+        "valid_scores": 35
+      }
+    },
+    {
+      "wave": "initial",
+      "profile": "portfolio",
+      "raw_observations": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/portfolio/portfolio.observations.json",
+        "sha256": "afe5a662a79e4ad05b23b81381e18a9a51236cdddd0f39378eee555dfd224d21",
+        "bytes": 66738
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/initial/cli/portfolio/completion.json",
+        "sha256": "8e5d52297926ac1116ed161f73a1b0cd6f2b17e66ca1ca8beea5e3aadb0049de",
+        "bytes": 9301
+      },
+      "counts": {
+        "records": 5,
+        "score_slots": 35,
+        "valid_scores": 35
+      }
+    },
+    {
+      "wave": "selected",
+      "profile": "editorial",
+      "raw_observations": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/cli/editorial/editorial.observations.json",
+        "sha256": "addf78163823fe73058c64a34e1857182ef9590c38462e1e04b86a229c3c6d55",
+        "bytes": 68291
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/cli/editorial/completion.json",
+        "sha256": "e2a82ec2d5776b3a130f8e6470061e03e872a651225aba554ab866b68efc3272",
+        "bytes": 9320
+      },
+      "counts": {
+        "records": 5,
+        "score_slots": 35,
+        "valid_scores": 35
+      }
+    },
+    {
+      "wave": "selected",
+      "profile": "craft",
+      "raw_observations": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/cli/craft/craft.observations.json",
+        "sha256": "7533d5c2ae4123306114aa1fe6ffd092c766524e475d31e2f4bfd7de9b83d6ce",
+        "bytes": 68836
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/cli/craft/completion.json",
+        "sha256": "55caafcc07a26b8b82384fbf1a70dabba116791cabb8368351b253a3866ea54e",
+        "bytes": 9260
+      },
+      "counts": {
+        "records": 5,
+        "score_slots": 35,
+        "valid_scores": 35
+      }
+    },
+    {
+      "wave": "selected",
+      "profile": "portfolio",
+      "raw_observations": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/cli/portfolio/portfolio.observations.json",
+        "sha256": "dc3286621c1baf86894bd32da331e39ee19ed2488e9b5402e5c747f9a4d030c4",
+        "bytes": 66646
+      },
+      "completion": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/reviews/R13-C1/selected/cli/portfolio/completion.json",
+        "sha256": "5b3ba17366ab72509631bb5b0f2bf6798e09888ad27affbf3c30173922dd441b",
+        "bytes": 9320
+      },
+      "counts": {
+        "records": 5,
+        "score_slots": 35,
+        "valid_scores": 35
+      }
+    }
+  ],
+  "limits": [
+    "One prospectively new architecture-photography exhibition landscape request after whole R12 closure; bounded transfer, no future guarantee.",
+    "M generic guidance, new case content, actual references and specific planning differ together; no isolated causal/statistical success-rate claim.",
+    "Same prospective three-field recording instrumentation in both phases; score gates and normalization unchanged.",
+    "Fresh sessions are trace-backed; semantic image viewing remains an attestation.",
+    "Source joins caller-literal returned identifiers, persistence/save-native commands, fresh CLI sessions, source/cache/manifests and exact hashes. Ephemeral CLI traces expose no direct native MCP invocation/result events.",
+    "All five makers and ROOT production closure precede initial review preparation and actual critic starts. No critic feedback is used to regenerate or reselect.",
+    "Both phases use predeclared supported anonymous-single-five label; raw case/path identifiers remain visible, so no universal or copy blindness is claimed.",
+    "ROOT views are recorded separately with actual unique files and reused phase slots; ROOT has read the case/plan and is not a blind scored critic.",
+    "First ROOT production closure failed on the existing literal tool_result_metadata container alias; a ROOT-only explicit alias was added and 8 actual joins plus 12 unsafe synthetic representations were checked before successful closure and any critic packet/launch. Raw actors, images, choices and frozen methods were unchanged; checks/source-alias-history retains the failure and reader diff.",
+    "After production closure and during the initial critic run the human explicitly rejected solid/near-solid backgrounds dominated by gothic text blocks. The later message is not in either original packet and does not replace raw ratings; planning/user-style-exclusion-after-production.json records the separate development requirement. M is not adopted as final on the basis of these original scores.",
+    "Initial editorial completed a fresh session and all 35 valid raw scores with exit 0 after recoverable WebSocket reconnect/fallback messages. The frozen v4 procedure treats these trace errors as invalid, so initial canonical procedure/recording and all five gates remain NA; raw ratings are retained separately. No scoring-method change or critic replacement is made.",
+    "No client assets; supplied-asset preservation and one-image follow-up editing remain untested by this case."
+  ]
+}

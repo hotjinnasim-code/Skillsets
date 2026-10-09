@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "case_id": "R7-B05",
+  "wave": "selected",
+  "profile": "portfolio",
+  "session_id": null,
+  "normalization": "nfc-ws-optical-v1",
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "viewed_count": 3,
+    "order_compliant": true,
+    "method": "Independently inspected the displayed raster returned by tools.view_image(detail='original'), forwarded through functions.exec's image helper. First viewed pinned A1 original.png, then R7-B05-M1 native, usage720 and thumbnail320, in that packet order and in separate calls. All three poster views were displayed before any transcription judgment, fidelity judgment or score. Read the pinned source and poster manifests before comparison; the packet supplies no protected-layout manifest. Verified all 13 explicitly permitted input files against their pinned SHA-256 and byte sizes, and checked PNG-header dimensions. After viewing, compared source placement with the native poster using a read-only standard-library PNG decode and a declared blue-pixel threshold. No image was generated, edited, cropped or written; no embedded unpinned path was followed. No session/thread ID was inferred.",
+    "source_assets_viewed": [
+      {
+        "asset_id": "A1",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+        "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+        "viewed": true
+      }
+    ],
+    "protected_layouts_read": [],
+    "manifests_read": [
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/manifest.json",
+        "sha256": "16057e224f6c2211345306be6906bf4ef6abe51fb419e93d75d0216a85a74d1d"
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/manifest.json",
+        "sha256": "07d3fec441626bc4f65085fa388519cb62331c0135c7f8ba389b8fd2ed54223a"
+      }
+    ],
+    "explicit_input_pin_checks": {
+      "count": 13,
+      "all_hashes_and_byte_sizes_match": true
+    }
+  },
+  "viewed": [
+    {
+      "image_id": "R7-B05-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/original.png",
+      "sha256": "1cb283db37eaeb4b8e32529ec46edb96d4815c4f912f78ce47394d91d19297ef"
+    },
+    {
+      "image_id": "R7-B05-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/usage-720.png",
+      "sha256": "f454b74b7ed06b4381bd852c425fa756072c497bc117147fbdc26ce0b49c98a4"
+    },
+    {
+      "image_id": "R7-B05-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/thumbnail-320.png",
+      "sha256": "10a2608fb057466fe55588887006c5aca691af1052ad2f748daada5757387fbd"
+    }
+  ],
+  "images": {
+    "R7-B05-M1": {
+      "image_id": "R7-B05-M1",
+      "role": "R7-B05-M1",
+      "stage": "repair-2",
+      "case_id": "R7-B05",
+      "profile": "portfolio",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "required": "작업실의 오후",
+              "raw_observed": "작업실의 오후",
+              "normalized_required": "작업실의 오후",
+              "normalized_observed": "작업실의 오후",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native upper-left title is one unbroken line. No fixed newlines were requested; no glyph is obscured."
+              },
+              "ambiguity": null,
+              "revisit": null,
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "first_read_view": "native",
+              "location": "upper-left title"
+            },
+            {
+              "required": "김서안 오픈 스튜디오",
+              "raw_observed": "김서안 오픈 스튜디오",
+              "normalized_required": "김서안 오픈 스튜디오",
+              "normalized_observed": "김서안 오픈 스튜디오",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native line immediately beneath the title is one unbroken line. The artist name and event name are separated by word spaces."
+              },
+              "ambiguity": null,
+              "revisit": null,
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "first_read_view": "native",
+              "location": "upper-left artist line"
+            },
+            {
+              "required": "2026.11.28 14:00–19:00",
+              "raw_observed": "2026.11.28 14:00–19:00",
+              "normalized_required": "2026.11.28 14:00–19:00",
+              "normalized_observed": "2026.11.28 14:00–19:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native lower-left first information line is unbroken; periods, colons and the longer time-range dash are visible. The date and time do not overlap the artwork."
+              },
+              "ambiguity": null,
+              "revisit": null,
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "first_read_view": "native",
+              "location": "lower-left date/time line"
+            },
+            {
+              "required": "연희로 18길 24, 2층",
+              "raw_observed": "연희로 18길 24, 2층",
+              "normalized_required": "연희로 18길 24, 2층",
+              "normalized_observed": "연희로 18길 24, 2층",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native lower-left second information line is unbroken; the comma after 24 is visible. The address does not overlap the artwork."
+              },
+              "ambiguity": null,
+              "revisit": null,
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "first_read_view": "native",
+              "location": "lower-left address line"
+            },
+            {
+              "required": "작품과 제작 과정을 함께 보는 시간",
+              "raw_observed": "작품과 제작 과정을 함께 보는 시간",
+              "normalized_required": "작품과 제작 과정을 함께 보는 시간",
+              "normalized_observed": "작품과 제작 과정을 함께 보는 시간",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native penultimate footer line is unbroken. The spaces between 작품과 / 제작 / 과정을 / 함께 / 보는 / 시간 are retained."
+              },
+              "ambiguity": null,
+              "revisit": null,
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "first_read_view": "native",
+              "location": "penultimate footer line"
+            },
+            {
+              "required": "방문 예약 example.org/atelier-afternoon",
+              "raw_observed": "방문 예약  example.org/atelier-afternoon",
+              "normalized_required": "방문 예약 example.org/atelier-afternoon",
+              "normalized_observed": "방문 예약 example.org/atelier-afternoon",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Native last footer line is unbroken. The initial read records the visibly wider gap after 예약 as two spaces; whitespace collapse preserves one word separator. The URL itself has a contiguous dot, slash and hyphen, with no inserted word spaces."
+              },
+              "ambiguity": null,
+              "revisit": null,
+              "copy_index": 5,
+              "kind": "url",
+              "fixed_newlines": false,
+              "first_read_view": "native",
+              "location": "last footer reservation/URL line"
+            }
+          ]
+        },
+        "style": {
+          "status": "FAIL",
+          "checked_requirement": "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요. 세로 4:5입니다. 사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다. 작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요. 작품을 새로 그리거나 다른 작품으로 바꾸지 마세요. 주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요. 아래 문구를 모두 그대로 넣어 주세요. 날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.\n\nLiteral client styles:\n{\"mode\": \"actual supplied synthetic photograph preservation\"}\n\nLiteral mandatory client conditions:\n첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요.\n세로 4:5입니다.\n사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다.\n작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.\n작품을 새로 그리거나 다른 작품으로 바꾸지 마세요.\n주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요.\n아래 문구를 모두 그대로 넣어 주세요.\n날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.\nThe actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Central artwork and wall, compared with pinned source A1",
+              "observation": "The complete blue double-loop identity, large/small loop proportions, colour family, brass pins and wall-shadow relationships remain recognisable. There is no visible substitute artwork, fake tool or artist's face."
+            },
+            {
+              "view": "native",
+              "location": "Artwork top edge and mounting points, compared with pinned source A1",
+              "observation": "The complete artwork and its mounting points sit about 29–30 pixels lower than in A1 on the same 1122×1402 frame. The blue-dominant bounds are A1 [123,239,974,1048] and poster [123,268,976,1076]. The client explicitly required the wall-hung position to be maintained."
+            },
+            {
+              "view": "usage720",
+              "location": "Whole flat poster and lower-left information area",
+              "observation": "One portrait poster contains all six supplied copy entries. Date/time and address are clear on the wall below the artwork; no copy overlays the sculpture and no additional copy or branding is visible."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Whole poster",
+              "observation": "The complete artwork remains a large nonglyph focal subject. The flat rectangular composition has a distinct title and supporting information block."
+            }
+          ],
+          "issues": [
+            "The explicit condition '작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.' is not fully met: the artwork and its mounting points are about 29–30 native pixels lower than in A1. The failure concerns observed placement, not an inference about how the image was made or an exact-pixel-equality demand."
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1122,
+            1402
+          ],
+          "issues": [],
+          "required_ratio": [
+            4,
+            5
+          ],
+          "rounding_policy": "nearest-integer-single-edge",
+          "mathematically_exact": false,
+          "rounding_applied": true,
+          "width_error_pixels": 0.4,
+          "height_error_pixels": 0.5,
+          "observations": "Width differs from height*4/5 by 0.4 pixel; height differs from width*5/4 by 0.5 pixel. Both meet the predeclared half-pixel single-edge allowance. Native bytes and dimensions were not changed."
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Central artwork, approximately x123-976, y268-1076",
+              "observation": "The large complete cobalt ribbon sculpture, including both loops, its twist, brass mounts and wall shadows, is substantive nonglyph content that identifies the work being shown at the open studio."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Centre of full poster",
+              "observation": "The blue two-loop sculpture dominates the nonglyph composition even at thumbnail scale; it is neither a token ornament nor a texture-only backdrop."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Central artwork, approximately x123-976, y268-1076",
+              "observation": "The large complete cobalt ribbon sculpture, including both loops, its twist, brass mounts and wall shadows, is substantive nonglyph content that identifies the work being shown at the open studio."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Centre of full poster",
+              "observation": "The blue two-loop sculpture dominates the nonglyph composition even at thumbnail scale; it is neither a token ornament nor a texture-only backdrop."
+            }
+          ],
+          "issues": []
+        }
+      },
+      "conditions": [
+        {
+          "requirement": "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster",
+              "observation": "One photograph-centred artist open-studio poster is supplied; the distinctive complete A1 artwork is the central subject."
+            }
+          ]
+        },
+        {
+          "requirement": "세로 4:5입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster",
+              "observation": "1122×1402 is portrait and passes 4:5 under the pinned nearest-integer-single-edge policy; it is not mathematically exact."
+            }
+          ]
+        },
+        {
+          "requirement": "사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Central artwork compared with A1",
+              "observation": "The whole blue artwork is visible at substantial size and remains the main nonglyph focal subject in all three views."
+            }
+          ]
+        },
+        {
+          "requirement": "작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.",
+          "status": "FAIL",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Central artwork compared with A1",
+              "observation": "Proportions and the cobalt colour family are maintained, but the wall-hung position is displaced downward by about 29–30 pixels relative to A1."
+            }
+          ]
+        },
+        {
+          "requirement": "작품을 새로 그리거나 다른 작품으로 바꾸지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Central artwork compared with A1",
+              "observation": "The distinctive two-loop form, band crossing and mounting arrangement match A1; no different artwork is observable. The visible texture differences alone do not establish a redraw."
+            }
+          ]
+        },
+        {
+          "requirement": "주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster",
+              "observation": "The source's wall and lighting are used; no fake working tools or artist's face are visible."
+            }
+          ]
+        },
+        {
+          "requirement": "아래 문구를 모두 그대로 넣어 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "Required copy and lower-left footer",
+              "observation": "All six required entries match under nfc-ws-optical-v1, including the separately protected URL entry. No unresolved transcription ambiguity remains."
+            }
+          ]
+        },
+        {
+          "requirement": "날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "Required copy and lower-left footer",
+              "observation": "Date/time and address are legible below the sculpture at native and usage720 and do not cover it."
+            }
+          ]
+        },
+        {
+          "requirement": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "Whole poster",
+              "observation": "The member is one separate flat opaque rectangular poster, with the specified rounded ratio and all supplied copy."
+            }
+          ]
+        },
+        {
+          "requirement": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "Whole poster",
+              "observation": "Complete supplied copy is present; no additional wording, logo, sponsor or label is visible."
+            }
+          ]
+        },
+        {
+          "requirement": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "Whole poster",
+              "observation": "The large photographed blue double-loop artwork is substantive content-grounded nonglyph imagery."
+            }
+          ]
+        },
+        {
+          "requirement": "The actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+          "status": "FAIL",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Central artwork compared with A1",
+              "observation": "The authoritative synthetic A1 fixture was actually viewed and compared. Identity is retained, but the specified position property fails as detailed above; exact-pixel inequality alone was not used as the test."
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "Central photograph, approximately x123–976, y268–1076",
+            "observation": "The complete cobalt blue ribbon artwork, with its large upper-left loop and smaller lower-right loop, is the dominant nonglyph subject. Its recognisable form directly supplies the artist/open-studio content."
+          },
+          {
+            "view": "usage720",
+            "location": "Middle of poster, above the four footer lines",
+            "observation": "Both loop interiors, the crossing band, mounting pegs and wall shadows remain visible at use size. The artwork has substantial scale rather than functioning as a small decorative accent."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "thumbnail320",
+            "location": "Upper-left title, central blue artwork and lower-left footer",
+            "observation": "The bold title remains identifiable and the blue double-loop silhouette remains the strongest nonglyph focus. The smaller artist line and bottom information block form clear supporting levels."
+          },
+          {
+            "view": "native",
+            "location": "Lower-left information block, approximately y1133–1328",
+            "observation": "Date/time and address are larger than the descriptive and reservation lines and sit below the complete artwork, so practical visit information is easy to find without covering it."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "Title and artist line at upper left",
+            "observation": "The heavy title and lighter artist line have intact, legible Hangul glyphs, consistent baselines and a clear weight/size relationship. Neither line is clipped or crosses the artwork."
+          },
+          {
+            "view": "usage720",
+            "location": "Footer date, address, explanatory line and URL",
+            "observation": "All six required copy entries are readable across the poster. The footer retains the date periods, time colons and range dash, address comma, and contiguous URL punctuation."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Bottom two footer lines",
+            "observation": "The descriptive and reservation copy becomes very small at 256×320; the complete URL cannot be confidently read at this scale alone. It remains legible in the previously viewed native and usage720 views."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "Left edges of header and footer, approximately x96–100",
+            "observation": "Title, artist line and all footer lines share a nearly common left margin. The top margin, short header-to-art gap, art-to-date gap and bottom margin form deliberate separation rather than crowded overlays."
+          },
+          {
+            "view": "usage720",
+            "location": "Wall within the two loops and around the right-hand contour",
+            "observation": "The open wall areas preserve the sculpture's negative spaces and cast shadows. The complete right loop stays inside the frame, and the footer sits in the wall area beneath it."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "Blue band surfaces, two brass mounting points and rightward wall shadows",
+            "observation": "The cobalt ribbon retains the source-specific large/small loop geometry, twisting band, painterly surface and plausible wall contact. Light, surface texture and shadows read as a coherent photograph-style image."
+          },
+          {
+            "view": "native",
+            "location": "Artwork's upper and lower extents, compared with source A1",
+            "observation": "The artwork retains approximately the same size, proportions and blue colour family, but its position is displaced downward: the source blue-pixel bounds begin at y239 and the poster's at y268. This is a preservation-condition failure despite strong local material construction."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "native",
+            "location": "Warm off-white wall, blue sculpture and soft cast shadows",
+            "observation": "The photographed wall texture and gentle light convey a quiet, intimate viewing atmosphere grounded in the actual supplied artwork. The specific blue object carries the mood without added faces or invented studio props."
+          },
+          {
+            "view": "usage720",
+            "location": "Black header and footer surrounding the photograph",
+            "observation": "The firm title supplies an event announcement while the smaller supporting text lets the artwork and light remain prominent. The restrained text treatment is coherent with this observed open-studio photograph."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "Whole poster, especially artwork crossings and footer copy",
+            "observation": "There are no observable extra tools, faces, logos, sponsors, invented labels or arbitrary decorative motifs. The two loops and crossing band remain structurally coherent and the required text is intact."
+          },
+          {
+            "view": "usage720",
+            "location": "Photographic centre and surrounding wall",
+            "observation": "The layout uses the substantial supplied visual and useful information without token ornaments or contradictory scene additions. The small source-placement drift is documented explicitly rather than being treated as perfect preservation."
+          }
+        ]
+      },
+      "score_rationales": {
+        "content_form": "4 — the complete, specific supplied artwork strongly resolves the subject of the invitation.",
+        "hierarchy": "4 — title, artwork and visit details have distinct, functional levels across the three views.",
+        "typography": "4 — complete readable copy and deliberate weights are resolved at native/use size; tiny thumbnail footer copy limits finer recognition.",
+        "space": "4 — aligned information and controlled clearances accommodate the whole artwork.",
+        "image_material": "4 — the sculpture, surface and wall lighting are convincingly constructed; the explicit position constraint fails separately.",
+        "emotion_control": "4 — quiet photographic intimacy and a firm announcement are coherent and source-specific.",
+        "ai_slop": "4 — no observable arbitrary additions or unresolved glyph/scene artifacts; the preservation drift remains recorded."
+      },
+      "residuals": [
+        "Source-placement fidelity: the artwork is shifted downward by about 29 pixels (about 2.1% of native frame height); source and poster blue-mask bounds are recorded separately.",
+        "At thumbnail320 the smallest descriptive and reservation lines are too small for reliable full transcription; they were read from the native view after all three views were inspected.",
+        "The left/front blue band appears slightly brighter and its local brush marks are not pixel-identical to A1. The recognisable identity, colour family and proportions remain; no redraw or substitution is inferred from pixel differences alone."
+      ]
+    }
+  },
+  "source_comparison_measurements": {
+    "method": "Read-only PNG decoding; inclusive bounds of pixels satisfying B>75, B>1.35R, B>1.15G and B-R>40. These are blue-surface bounds, not a protected-layout manifest or exact outer-shadow segmentation.",
+    "source": {
+      "asset_id": "A1",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+      "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+      "blue_pixel_bounds": [
+        123,
+        239,
+        974,
+        1048
+      ],
+      "selected_pixels": 145006
+    },
+    "poster": {
+      "image_id": "R7-B05-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/original.png",
+      "sha256": "1cb283db37eaeb4b8e32529ec46edb96d4815c4f912f78ce47394d91d19297ef",
+      "blue_pixel_bounds": [
+        123,
+        268,
+        976,
+        1076
+      ],
+      "selected_pixels": 145327
+    },
+    "top_edge_displacement_pixels": 29,
+    "bottom_edge_displacement_pixels": 28,
+    "interpretation": "The visually compared mounting points also move approximately 30 pixels downward. Scale/proportions and colour family are retained, but the specified wall-hung position is changed."
+  },
+  "set": {
+    "members": [
+      "R7-B05-M1"
+    ],
+    "requested_count": 1,
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 1,
+      "required_count": 1,
+      "issues": []
+    },
+    "diversity": null,
+    "not_applicable_reason": "single requested image",
+    "evidence": [],
+    "residuals": []
+  }
+}

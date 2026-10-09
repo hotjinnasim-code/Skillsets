@@ -1,0 +1,34 @@
+{
+  "kind": "root_only_reporting_and_closure_helper_inventory",
+  "utc": "2026-10-08T09:00:27.115818+00:00",
+  "helpers": {
+    "seal_single_five.py": {
+      "sha256": "e5fcd2278472a5b7f44eeabd38da12d5aa740a157ea5f7267d2e2e1eae321bef",
+      "bytes": 20725
+    },
+    "build_closed_report.py": {
+      "sha256": "28b126d932d62694c2976d7c71c160eb1aef863b391a1a1d405ca7925838090c",
+      "bytes": 7704
+    },
+    "close_production.py": {
+      "sha256": "8acc1f3a8036d121ea7c2214a08b63c57c420b9113f5a1339571a5e9778ecfe2",
+      "bytes": 9441
+    },
+    "build_single_five_gallery.py": {
+      "sha256": "f08e747452fb36e7ac7ff2a4830bde9ea5c1d97b4e007a302ad58e2e90c02d64",
+      "bytes": 3676
+    },
+    "archive_single_five.py": {
+      "sha256": "2c88e9b1867d71ce5c26bd78aea2d185cd2877acde629c4fd1e328ccf0923cd6",
+      "bytes": 6291
+    },
+    "verify_archive.py": {
+      "sha256": "777fd1a3e3b98a24fd7ed662b59ba555ba322335197b33011f8cce32b48ff517",
+      "bytes": 18169
+    }
+  },
+  "limits": [
+    "This root-only inventory is after production and records actual source-reader/reporting history; it is not called a pre-generation actor-method freeze.",
+    "All six runtime and nineteen actor/method helpers remain pinned at their prospective freeze; no critic raw data or gate changes."
+  ]
+}

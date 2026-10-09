@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R19-C1",
+  "role": "R19-C1-M4",
+  "candidate": "V",
+  "ordinal": 4,
+  "expected_count": 5,
+  "ratio": "16:9",
+  "direction": {
+    "ratio": "16:9",
+    "working_name_not_printed": "Botanical atlas: the explanation leads, ground becomes the visit ledger",
+    "whole_relationship": "A substantial three-line explanatory paragraph is the first verbal encounter among crossing specimen canopies. Independent drawn plants descend across the full width, and their stepped shared ground supports a horizontal visit row followed locally by access/care and invitation/URL. A compact identity stays beside the explanatory entry rather than a competing headline.",
+    "positive_direction": "Make a botanical editorial poster that takes the range from small pot to long-grown tree seriously. Draw independent specimens at different living scales: a small broad-leaf pot, a branching houseplant and a taller indoor tree, with gently descending ground heights across the whole landscape. Give leaves convincing attachments, articulated stems, actual pot rims, visible soil and a selectively visible root-ball section. The large canopy enters the upper crop and individual stems cross the field at uneven heights; this is an actively drawn atlas spread, not three little specimens decorating a text board. Work in observed colored-pencil and fine ink, mineral green, deep olive, warm bark brown and restrained blue, with richer leaf masses balanced by fine internal drawing. Do not add species names or technical labels.\n\nLet the actual explanatory paragraph be the first verbal encounter in a broad, stable three-line area adjacent to the crossing canopy. Use a mature Korean book serif with generous open counters, sturdy thin strokes, controlled triangular terminals and calm, consistent word spaces. Give its full syllable body, width and dark weight enough optical presence to lead; at the assumed SNS view, a comfortable roughly18–20pixel body is a starting design choice, not a required native coordinate. Keep paragraph ink clean and planar. Place the Korean title, Latin companion and slogan as one compact, clearly quieter identifying group beside its entry. Their role is to name and reinforce the already intelligible offer, not make three additional headlines.\n\nFrom the paragraph's final line, the nearby market-name start continues down its optical axis onto the drawn specimens' shared stepped ground. Date, hours and venue extend as one clear horizontal visit row along that ground. Access and the care offer form the next short local row; invitation and URL complete the same visible ledger immediately nearby. Vary leaf and pot scale rather than breaking useful strings around different specimens. Use aligned baselines, adequate numeral and dash forms, visible word boundaries and deliberate group spacing. The botanical field remains substantial around and between these reading relationships. The explanation-to-ground movement and horizontal practical ledger differ from a left paragraph with a separate right information column.",
+    "hierarchy": {
+      "primary": {
+        "entry": 4,
+        "role": "The broad three-line explanation is the main verbal encounter: full readable book-serif body, strong ink and optical area."
+      },
+      "support": [
+        {
+          "entry": 1,
+          "role": "Compact identity beside the paragraph entry, clearly quieter than the explanatory block."
+        },
+        {
+          "entry": 2,
+          "role": "Small companion joined to that identity."
+        },
+        {
+          "entry": 3,
+          "role": "Supporting sentence in the same identifying group, with lower visual weight."
+        }
+      ],
+      "visit": {
+        "entries": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "shape": "Market name begins below the paragraph end; date/hours/venue continue horizontally on the actual stepped-ground ledger."
+      },
+      "next_action": {
+        "entries": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "shape": "Nearby succeeding ledger rows: access/care pair, then invitation/URL, all one local horizontal family."
+      }
+    },
+    "body_line_groups": [
+      "작은 화분부터 오래 키운 나무까지 만납니다.",
+      "재배자의 이야기를 듣고, 우리 집의 빛과",
+      "생활에 맞는 식물을 골라보세요."
+    ],
+    "body_end_to_next_info": "The paragraph end and nearby market-name start share one optical axis and short downward transition. The specimens share a stepped ground that carries date/hours/venue horizontally, with access/care and invitation/URL succeeding locally. There is no separate right-hand visit column or return across an image to find the URL.",
+    "nearest_peer": {
+      "role_id": "R19-C1-M3",
+      "structural_distinction": "M4 begins with the broad explanation and continues to a horizontal practical ledger on the specimens ground. M3 enters through date/hours/venue before turning between two connected colony openings; its identity is encountered later.",
+      "style_distinction": "M4 uses observed colored-pencil/ink anatomy, independently articulated specimens and an open stepped-ground field. M3 uses interlocking large flat cut-paper silhouettes surrounding an internal passage."
+    },
+    "role": "R19-C1-M4"
+  },
+  "common_constraints": [
+    "count: 5",
+    "ratio: 16:9",
+    "output: One complete flat opaque landscape poster per maker; complete native generation directly, not a mockup, comparison sheet or manually composed final.",
+    "copy: Print each of the twelve supplied entries once, preserving actual Korean, Latin, numbers, spaces and punctuation. Entry indices in this plan are internal references and are never printed. No new words, labels, numbers, captions, logo, QR, plant tags, watermark or incidental image lettering.",
+    "ratio_resolution: Preserve requested ratio and request the maximum supported native resolution. No fixed source pixel dimensions are invented.",
+    "display_assumption: A 720-pixel-wide SNS view is an internal planning assumption, not a client pixel requirement, a new quality threshold, or proof of final readability.",
+    "body_construction: Allocate the actual explanation and useful visit information substantial readable space from the outset. Body line groups below are meaningful current design choices, flexible where the complete result works; they do not authorize rewriting copy or fitting a good result to coordinates. Mature Korean/Latin/numeral forms, meaningful word spaces, precise flat typesetting and clear contrast remain coherent within each group.",
+    "punctuation: Keep supplied date and hours range dashes, colons, middle dots, ampersand, periods and URL exactly. Give range dashes optically distinct extended midline forms, preserving numeric baselines and word boundaries. Font descriptions specify visual anatomy, not certification that native generation applied a font file.",
+    "default_exclusion: Exclude passive solid, near-solid or split-field headline/date/information templates with subordinate images, including small-image, texture, font-substitution and empty-room text-board variants. Current instructions do not release this exclusion. Gothic, quiet space, pictorial scenes and a suitable individual direction's column remain available when the whole image-and-copy relationship fulfills this request.",
+    "style: Five current-content choices, not a permanent five-family runtime menu. Avoid clay/toy/complementary packages and repeating a large object, large heading and tiny footer. Plants carry substantive meaning and spatial organization, not merely garnish information.",
+    "Reuse accumulated ideas without source artwork re-opening. This case supplies no client image or supporting guide; create a complete first native poster directly. Current central coordinates/line groups/optical choices are design choices, not new client preservation conditions. Preserve every literal actual requirement and the unchanged native-call bounds."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "1919330d9c899aeab9b721d2d3bc30a30784c035298d12235aaecf2c45afc9a7",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "6e7e8818ec39943d3f68764a4123af391c15718c97a8820dd63ebd5ddc371c70"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M4/case.json",
+    "sha256": "471ea8a0adb205b5e2dd0b5d2194a6792244fc151c302c865518026a93f7c175"
+  }
+}

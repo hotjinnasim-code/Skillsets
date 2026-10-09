@@ -1,0 +1,16 @@
+{
+  "native_imagegen_exposed": true,
+  "native_view_image_exposed": true,
+  "native_imagegen_callable": "tools.image_gen__imagegen",
+  "native_view_image_callable": "tools.view_image",
+  "invoked_via": "functions.exec",
+  "fields": [
+    "prompt",
+    "referenced_image_paths",
+    "num_last_images_to_include",
+    "transparent_background"
+  ],
+  "extra_native_probe_calls": 0,
+  "utc": "2026-10-08T11:01:40.173005+00:00",
+  "scope": "Current ROOT exposed tools and prior actual native CLI calls; not a fresh image probe or future exposure guarantee."
+}

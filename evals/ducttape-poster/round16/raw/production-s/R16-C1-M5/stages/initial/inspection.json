@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "role": "R16-C1-M5",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M5/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "저녁을 켜는 빛",
+    "ONBIT / DESK LAMP",
+    "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+    "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+    "온빛 데스크 램프 체험전",
+    "2027.04.09–04.11",
+    "금–일 13:00–19:00",
+    "성수 온빛 스튜디오",
+    "관람 무료 · 현장 구매 가능",
+    "예약 없이 방문",
+    "책과 종이를 가져와 직접 빛을 느껴보세요.",
+    "onbit.example/light"
+  ],
+  "first_read_view": "native",
+  "observations": [
+    {
+      "view": "native",
+      "location": "left-centre lamp from shade to base",
+      "observation": "The full forest-green product is visible; wide rounded canopy, luminous underside, two straight connected support columns and oval base remain identifiable."
+    },
+    {
+      "view": "native",
+      "location": "right lit-paper plane",
+      "observation": "All twelve supplied entries are visible once in a single optical left-aligned column; description sentences are contiguous, with the long second sentence on one line."
+    },
+    {
+      "view": "usage720",
+      "location": "right paragraph near y185–207",
+      "observation": "Both description lines are much smaller than the title; the long second sentence occupies a compressed single line with tiny Korean counters at 720px width."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "The large complete lamp and paper folds are visible, but the right title and stacked event/visit column read as a conventional side information arrangement."
+    },
+    {
+      "view": "native",
+      "location": "top and left diagonal folded surfaces",
+      "observation": "Substantial warm/green paper folds show depth, yet the image reads as one staged product scene more than distinct intersecting photographic crops."
+    },
+    {
+      "view": "native",
+      "location": "lamp rims, base contact and paper fold edges",
+      "observation": "Shade and base edges are continuous; base rests on a warm surface with contact shadow; no obvious disconnected support or local doubled contour."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "right description paragraph",
+      "limit": "Long description is compressed to a tiny single line at usage720; body size and line grouping need improvement."
+    },
+    {
+      "location": "whole layout",
+      "limit": "All information remains one right column on a lit plane; montage editing does not sufficiently organise the text/space relationship."
+    },
+    {
+      "location": "raster punctuation",
+      "limit": "Read dash/middle-dot/slash forms are optical observations, not Unicode source certification."
+    }
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "occurrence_observation": "Twelve supplied entries visible once, no extra visible print.",
+      "ambiguities": []
+    },
+    "style": {
+      "checked_requirement": "빛의 크롭과 컬러 사진 몽타주",
+      "observation": "Deep green/warm folded-paper scene present; explicit photographic crop editing and body flow remain weak."
+    },
+    "ratio": {
+      "requested": [
+        16,
+        9
+      ],
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "exact_height_for_width": 940.5,
+      "edge_rounding_delta_pixels": 0.5,
+      "observation": "Permitted nearest-integer edge rounding; no resize."
+    },
+    "substantive_visual": {
+      "observation": "Complete lamp plus large illuminated paper folds carry product/light content."
+    },
+    "product_identity": {
+      "observation": "All four requested physical identity features visible in one complete product."
+    },
+    "hangul": {
+      "observation": "Native syllable shapes and word spaces readable; usage720 long paragraph counters are too small."
+    },
+    "information_relationship": {
+      "observation": "Description/event/visit groups share one left alignment; over-reliance on a right stacked information plane needs reorganisation."
+    },
+    "function_contact": {
+      "observation": "Warm light below canopy and base contact visible; no hands or requested mechanical action."
+    },
+    "local_finish": {
+      "observation": "Continuous product boundaries and plausible paper folds/contact shadow; no obvious detached components."
+    },
+    "format": {
+      "observation": "Single flat opaque landscape poster; no mockup, comparison sheet, logo, QR, or watermark visible."
+    }
+  },
+  "repair_decision": {
+    "required": true,
+    "cause": "Observed tiny long description and conventional side information arrangement.",
+    "maintain": "Accurate full product identity, exact copy and warm/green fold material."
+  },
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "저녁을 켜는 빛",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "저녁을 켜는 빛",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "저녁을 켜는 빛",
+      "normalized_observed": "저녁을 켜는 빛",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 1,
+      "required": "ONBIT / DESK LAMP",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "ONBIT / DESK LAMP",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "ONBIT/DESK LAMP",
+      "normalized_observed": "ONBIT/DESK LAMP",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "required": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+      "normalized_observed": "조용한 빛으로 책상 위의 시간을 바꿉니다.",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "required": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+      "normalized_observed": "넓은 갓 아래로 퍼지는 빛과 짙은 초록의 구조를 가까이에서 살펴보세요.",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "required": "온빛 데스크 램프 체험전",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "온빛 데스크 램프 체험전",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "온빛 데스크 램프 체험전",
+      "normalized_observed": "온빛 데스크 램프 체험전",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "required": "2027.04.09–04.11",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "2027.04.09–04.11",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "2027.04.09–04.11",
+      "normalized_observed": "2027.04.09–04.11",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "required": "금–일 13:00–19:00",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "금–일 13:00–19:00",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "금–일 13:00–19:00",
+      "normalized_observed": "금–일 13:00–19:00",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "required": "성수 온빛 스튜디오",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "성수 온빛 스튜디오",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "성수 온빛 스튜디오",
+      "normalized_observed": "성수 온빛 스튜디오",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "required": "관람 무료 · 현장 구매 가능",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "관람 무료 · 현장 구매 가능",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "관람 무료·현장 구매 가능",
+      "normalized_observed": "관람 무료·현장 구매 가능",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "required": "예약 없이 방문",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "예약 없이 방문",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "예약 없이 방문",
+      "normalized_observed": "예약 없이 방문",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "required": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+      "normalized_observed": "책과 종이를 가져와 직접 빛을 느껴보세요.",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 11,
+      "required": "onbit.example/light",
+      "kind": "url",
+      "fixed_newlines": false,
+      "raw_observed": "onbit.example/light",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "onbit.example/light",
+      "normalized_observed": "onbit.example/light",
+      "equal": true,
+      "layout": {
+        "fixed_newlines_requested": false,
+        "observations": "Single visible line; no hard newline preservation requested."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ]
+}

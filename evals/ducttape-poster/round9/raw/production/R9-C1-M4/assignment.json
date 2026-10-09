@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R9-C1",
+  "role": "R9-C1-M4",
+  "candidate": "I",
+  "ordinal": 4,
+  "expected_count": 5,
+  "ratio": "16:9",
+  "direction": {
+    "role": "R9-C1-M4",
+    "ratio": "16:9",
+    "concept": "From among the audience, a film becomes a conversation. Close foreground listeners frame a central invitation as one adult passes a microphone toward another.",
+    "substantive_non_glyph_visual": "Two adult shoulder-and-profile crops enter from opposite lower edges; a hand and microphone establish conversation on the right. A smaller distant film screen is visible in the upper-left opening beneath a bridge beam. These people belong to one shared outdoor scene.",
+    "expression_system": "High-contrast image cuts preserve natural human proportions and readable gestures, with a controlled broad light field between them. Use close cropping and scale differences between foreground listeners and the distant screen, rather than a celebrity portrait.",
+    "copy_visual_relationship": "First gaze: the large inward-facing profiles and microphone exchange. Next: the central title and immediately adjacent schedule. The bodies are physical parentheses around a flat central text corridor; type touches their silhouette boundaries only through intentional whitespace.",
+    "whole_visual_layout": "Foreground bodies occupy the outer roughly 26% on each side and bleed through the bottom crop. Keep a central 42–44% corridor uniformly light and open from top to bottom. Distant screen remains entirely in the left image territory; the right gesture remains outside the corridor. Stack identity/activity, schedule/place, then practical guidance down the center.",
+    "typography_plan": "Korean title 32–36 px at width 720, English 18 px, descriptor 17–18 px. Time 26–29 px and date 20–22 px. Practical entries at least 17 px, with a slightly heavier weight. Left-align within the corridor; keep the supplied long descriptor to two lines and allow useful word-boundary wraps. Keep the Korean title on one line within the central approximately310px corridor; do not inherit a two-line stack from another role.",
+    "color_material_emotion": "Black and warm off-white image masses with a concentrated burgundy background create an intimate, grown-up cultural invitation. Controlled tonal cuts describe faces, clothing and contact; the bright information corridor remains plain and easy to read.",
+    "closest_other_role": "R9-C1-M1",
+    "distinction": "Even without color/material labels, M4 has large edge-cropped foreground bodies framing text in the middle; M1 has an expansive distant audience on the left with text in a right-hand architectural opening. The near human exchange leads M4; the whole venue leads M1.",
+    "reference_observations": [
+      {
+        "url": "https://www.pentagram.com/work/the-public-theater",
+        "observed_principle": "The first viewed cache uses a dramatically diagonal cropped leg and shoe, strongly separated flat color fields, a small side information column and an angled large title. The bodily gesture and crop establish the theatrical action before detail.",
+        "current_request_application": "Use adult shoulder/profile and microphone crops to make conversation a visible action, while redesigning the type into a horizontal, high-contrast central corridor suited to the Korean copy and width720."
+      },
+      {
+        "url": "https://www.pentagram.com/work/the-public-theater",
+        "observed_principle": "The second viewed cache fills most of a dark field with dense red directional scribbles that partly construct huge letterforms; comparatively small credit information remains near an edge. Density and movement carry the emotion.",
+        "current_request_application": "Let the image margins carry expressive density and movement, while the supplied event and attendance copy receive an uninterrupted calm center. Preserve every supplied word as ordinary readable type."
+      }
+    ],
+    "positive_construction": "Set the adult profiles and microphone exchange at convincing close distance, retain a visible distant screen to establish cinema, then reserve and typeset the central corridor as three complete information groups.",
+    "copy_groups": [
+      {
+        "copy_indexes": [
+          0,
+          1,
+          2
+        ],
+        "role": "Identity and combined screening/conversation offer",
+        "position_relationship": "Central corridor x28–71%, y5–39%; Korean title, English and descriptor form one ascending-to-descending hierarchy."
+      },
+      {
+        "copy_indexes": [
+          3,
+          4,
+          5
+        ],
+        "role": "When and where",
+        "position_relationship": "Same corridor y43–65%; date and larger time lead to venue, using the same left edge."
+      },
+      {
+        "copy_indexes": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "role": "Complete attendance guidance",
+        "position_relationship": "Same corridor y71–96%; four readable entries, clear of the foreground shoulder crops."
+      }
+    ]
+  },
+  "common_constraints": [
+    "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+    "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+    "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+    "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+    "Outdoor short-film screening and conversation must be recognizable, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "dd9dc2e5ca649b658f9271d25338ed87b83d1b0beae381679beb8895839bbc86",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "6ada5ad7be344794b5c24c27c73a628cefb22ddb07d849e8a4284d6641695fe2"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/case.json",
+    "sha256": "f125d032f2fe7b029aa190312e883e92ae5d04478af3f024b0823328d625af87"
+  }
+}

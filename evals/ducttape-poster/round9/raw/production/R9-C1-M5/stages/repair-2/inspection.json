@@ -1,0 +1,354 @@
+{
+  "role": "R9-C1-M5",
+  "stage": "repair-2",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/repair-2/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/repair-2/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/repair-2/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "다리\n아래\n영화관",
+    "BRIDGE CINEMA",
+    "야외 단편 상영 · 감독과의 대화",
+    "2026.12.05 토요일",
+    "18:00–20:30",
+    "홍제천 연가교\n아래",
+    "17:30부터 입장",
+    "돗자리 지참",
+    "무료 관람 ·\n선착순 80명",
+    "우천 시 실내로\n변경"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "locations": [
+    "left pier title stack",
+    "left English baseline",
+    "programme baseline above arch",
+    "upper schedule date",
+    "upper schedule time",
+    "right column first group",
+    "right column second group",
+    "right column third group",
+    "right column fourth group",
+    "right column fifth group"
+  ],
+  "layouts": [
+    "Three original title word groups on three lines.",
+    "English on one baseline.",
+    "Full descriptor on one horizontal baseline.",
+    "Date on one horizontal line.",
+    "Time on one horizontal line.",
+    "Venue wraps between second and third words.",
+    "Arrival stays on one line.",
+    "Mat instruction stays on one line.",
+    "Free entry/capacity wraps after the middle dot.",
+    "Weather wraps before its last word."
+  ],
+  "mandatory": {
+    "text": {
+      "observed_once_each": true,
+      "extra_printed_text_observed": false,
+      "ambiguities": [],
+      "method": "First native transcription retained and then compared after usage720 and thumbnail320 were viewed in the required order. No ambiguity revisit used.",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "다리 아래 영화관",
+          "raw_observed": "다리\n아래\n영화관",
+          "normalized_required": "다리 아래 영화관",
+          "normalized_observed": "다리 아래 영화관",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "left pier title stack",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Three original title word groups on three lines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "BRIDGE CINEMA",
+          "raw_observed": "BRIDGE CINEMA",
+          "normalized_required": "BRIDGE CINEMA",
+          "normalized_observed": "BRIDGE CINEMA",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "left English baseline",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "English on one baseline."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "야외 단편 상영 · 감독과의 대화",
+          "raw_observed": "야외 단편 상영 · 감독과의 대화",
+          "normalized_required": "야외 단편 상영·감독과의 대화",
+          "normalized_observed": "야외 단편 상영·감독과의 대화",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "programme baseline above arch",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Full descriptor on one horizontal baseline."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2026.12.05 토요일",
+          "raw_observed": "2026.12.05 토요일",
+          "normalized_required": "2026.12.05 토요일",
+          "normalized_observed": "2026.12.05 토요일",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "upper schedule date",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Date on one horizontal line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "18:00–20:30",
+          "raw_observed": "18:00–20:30",
+          "normalized_required": "18:00–20:30",
+          "normalized_observed": "18:00–20:30",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "upper schedule time",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Time on one horizontal line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "홍제천 연가교 아래",
+          "raw_observed": "홍제천 연가교\n아래",
+          "normalized_required": "홍제천 연가교 아래",
+          "normalized_observed": "홍제천 연가교 아래",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "right column first group",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Venue wraps between second and third words."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "17:30부터 입장",
+          "raw_observed": "17:30부터 입장",
+          "normalized_required": "17:30부터 입장",
+          "normalized_observed": "17:30부터 입장",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "right column second group",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Arrival stays on one line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "돗자리 지참",
+          "raw_observed": "돗자리 지참",
+          "normalized_required": "돗자리 지참",
+          "normalized_observed": "돗자리 지참",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "right column third group",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Mat instruction stays on one line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "무료 관람 · 선착순 80명",
+          "raw_observed": "무료 관람 ·\n선착순 80명",
+          "normalized_required": "무료 관람·선착순 80명",
+          "normalized_observed": "무료 관람·선착순 80명",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "right column fourth group",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Free entry/capacity wraps after the middle dot."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "우천 시 실내로 변경",
+          "raw_observed": "우천 시 실내로\n변경",
+          "normalized_required": "우천 시 실내로 변경",
+          "normalized_observed": "우천 시 실내로 변경",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "view": "native",
+          "location": "right column fifth group",
+          "layout": {
+            "fixed_newlines": false,
+            "observation": "Weather wraps before its last word."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "mineral-blue frontal bridge graphic construction: strong title pier, upper schedule lintel, central screening-and-conversation arch, right practical pier",
+      "observations": [
+        {
+          "view": "native",
+          "location": "bridge and text territories",
+          "observation": "Major span/pier relationships survive with a frontal shallow arch and level date/time/programme baselines; flat blue surfaces are cleaner, with some residual depth accents."
+        },
+        {
+          "view": "native",
+          "location": "central scene",
+          "observation": "Carefully drawn adults, film screen and mic speaker continue to carry the event; scenic panorama persists rather than simple flat bands."
+        }
+      ]
+    },
+    "ratio": {
+      "requested": "16:9",
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "exact_height_for_native_width": 940.5,
+      "native_rounding_edge_difference_px": 0.5,
+      "observation": "Within the predeclared nearest-integer one-edge tolerance. Original/final remain byte-identical native copies; no native resizing."
+    },
+    "substantive_visual": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "open arch",
+          "observation": "Large film screen with a nontext still, multiple seated adult neighbours on mats and standing mic speaker occupy a substantial portion of the poster."
+        },
+        {
+          "view": "usage720",
+          "location": "scene",
+          "observation": "Screen, audience and speaker remain distinguishable at usage width, with the stream/city backdrop signalling outdoors."
+        }
+      ]
+    },
+    "hangul": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "title and practical text",
+          "observation": "Title proportions and counters remain clear; practical Hangul shapes, date digits and English are readable. Large-title strokes have deliberate angled lower terminals."
+        },
+        {
+          "view": "usage720",
+          "location": "right column",
+          "observation": "All five practical groups can be read and have intentional word-boundary wrapping. Exact nominal font point/pixel sizing is not certified by visual inspection."
+        }
+      ]
+    },
+    "information_relationship": {
+      "observations": [
+        {
+          "view": "thumbnail320",
+          "location": "whole composition",
+          "observation": "Left title stack and upper schedule dominate the first gaze; the screen/speaker opening and right column remain separate territories."
+        },
+        {
+          "view": "usage720",
+          "location": "right column",
+          "observation": "Eight lines in five groups are separated by blank gaps; divider rules are removed and the final weather entry has bottom clearance."
+        }
+      ]
+    },
+    "function_contact": {
+      "requested_contact": false,
+      "observations": [
+        {
+          "view": "native",
+          "location": "standing adult",
+          "observation": "Microphone is held close to the mouth and the other hand gestures toward listeners."
+        },
+        {
+          "view": "native",
+          "location": "audience, screen and mats",
+          "observation": "Screen has visible support stands; adults sit on visibly separate mats, with sensible drawn body boundaries and floor contact."
+        }
+      ]
+    },
+    "material_edges": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "upper bridge and info areas",
+          "observation": "Railings and glowing lamps are removed. Level span, title pier and practical face have clear contrasting contours."
+        },
+        {
+          "view": "native",
+          "location": "human scene",
+          "observation": "People, mats and screen edges are coherent; foreground bags/bottles and detailed sunset background remain smaller illustrative details."
+        }
+      ]
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "all printed territories",
+      "observation": "Ten required entries were transcribed, each present once; no added printed text, watermark, logo or QR observed."
+    },
+    {
+      "view": "usage720",
+      "location": "practical column",
+      "observation": "Arrival, mats, free entry/capacity and weather are readable; venue and two longer groups use the planned wraps."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "scene opening",
+      "observation": "Screen left, audience below and speaker right form a discernible event scene."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "whole layout",
+      "observation": "Central arch remains approximately x30–81% and practical pier approximately x82–98%, rather than the assigned x38–74% arch and x78–97% practical pier. All five practical groups are legible in the inspected720 view, but exact requested font size is not independently measurable from raster inspection."
+    },
+    {
+      "location": "scene and architecture",
+      "observation": "The image still has detailed sunset city/river scenery and shaded human forms rather than the requested simplified flat stream-bank bands. Small beveled/depth accents and blue tonal variation remain on the structure."
+    },
+    {
+      "location": "upper schedule",
+      "observation": "Schedule is now level and more prominent; date/time scale is visibly larger than the assigned27px plan at720."
+    }
+  ]
+}

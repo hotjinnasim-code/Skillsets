@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "case_id": "R14-C1",
+  "candidate_label": "anonymous-single-five",
+  "wave": "selected",
+  "expected_count": 5,
+  "critic_profiles": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "full_request": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\n\n빛이 머무는 집\nOPEN HOUSE\n건축 사진전 · 공간 이야기\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요",
+  "literal_case_sha256": "01a8e6c97dfe34599d06d97940c3e085f33d71c9a02a75c33acbf50bac532d5e",
+  "normalization": "nfc-ws-optical-v1",
+  "copy": [
+    {
+      "text": "빛이 머무는 집",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "OPEN HOUSE",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "건축 사진전 · 공간 이야기",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2027.02.06 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "13:00–15:00",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "연남 생활문화공간",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "12:40부터 입장",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "관람 무료 · 해설 제공",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "사전 신청 · 정원 24명",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "편한 신발로 방문해 주세요",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "건축을 몰라도 괜찮아요",
+      "kind": "text",
+      "fixed_newlines": false
+    }
+  ],
+  "requirements": {
+    "style": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\n\n빛이 머무는 집\nOPEN HOUSE\n건축 사진전 · 공간 이야기\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nArchitecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.\nExplicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested.",
+    "ratio": [
+      16,
+      9
+    ],
+    "ratio_rounding": "nearest-integer-single-edge",
+    "no_type_only": true
+  },
+  "review_rules": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/review_rules.md",
+    "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495",
+    "bytes": 14119
+  },
+  "critic_rubric": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/critic_rubric.md",
+    "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c",
+    "bytes": 6580
+  },
+  "ratio_policy": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/planning/ratio-policy-before-generation.json",
+    "sha256": "06b47043249e3e0de85f9555f4cf91b8b82d9ec111fbf9ad50fc55868244e022",
+    "bytes": 402
+  },
+  "helper_pins": {
+    "evidence_io.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2",
+      "bytes": 15373
+    },
+    "summarize.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+      "bytes": 38350
+    },
+    "run_agent.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+      "bytes": 2390
+    },
+    "prepare_reviews_compact.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+      "bytes": 33273
+    },
+    "compact_critic_adapter.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "README.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+      "bytes": 10025
+    },
+    "compact-recording-addendum.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+      "bytes": 7465
+    },
+    "audit_compact_bindings.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+      "bytes": 21050
+    }
+  },
+  "source_assets": [],
+  "protected_layouts": [],
+  "images": [
+    {
+      "image_id": "R14-C1-M1",
+      "role": "R14-C1-M1",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/manifest.json",
+        "sha256": "514ad2b73ba027fde93cb36f8123797feb94ed2e795f6a4cd2f436ee49e2963d",
+        "bytes": 2642
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/original.png",
+          "sha256": "08b7ec085ad219b4387d0bce66c622c691af2bcfba625aaf5ce94fabba9d3af4",
+          "bytes": 2345913,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/usage-720.png",
+          "sha256": "2906b772bd45abe442b79c89b7e35888aa5cf150a794f94ced347497b8e15563",
+          "bytes": 453357,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M1/stages/initial/thumbnail-320.png",
+          "sha256": "122e288ec0f98c4639bdbdeb4191e1334de9895c25f24ca94a272efca484f1f8",
+          "bytes": 93452,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\n\n빛이 머무는 집\nOPEN HOUSE\n건축 사진전 · 공간 이야기\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nArchitecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.\nExplicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested."
+    },
+    {
+      "image_id": "R14-C1-M2",
+      "role": "R14-C1-M2",
+      "stage": "repair-1",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/manifest.json",
+        "sha256": "53b2186c270c2cd4c82af6908ee79344bdf33a00c19f608313d90ac62284333e",
+        "bytes": 2649
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/original.png",
+          "sha256": "b0624df9bf50e41f57480962a5d66531a2d6ffe24c4b26731610dcf0fdada2e1",
+          "bytes": 2037529,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/usage-720.png",
+          "sha256": "6b924842413331c7b0af3c8c5c316a8845a9f8cbda11a18565c8d20ad302c067",
+          "bytes": 397493,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M2/stages/repair-1/thumbnail-320.png",
+          "sha256": "192986db4aff0f8b0aefd6eaeec26a486b70d38f568d0d3969f9a24fd4077150",
+          "bytes": 89561,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\n\n빛이 머무는 집\nOPEN HOUSE\n건축 사진전 · 공간 이야기\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nArchitecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.\nExplicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested."
+    },
+    {
+      "image_id": "R14-C1-M3",
+      "role": "R14-C1-M3",
+      "stage": "repair-1",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/manifest.json",
+        "sha256": "945b1e8f6fb72e3c8c1a0a46c0176aa6f99dff7a2ba516432a8abca5ed320784",
+        "bytes": 2649
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/original.png",
+          "sha256": "12dd5cfb29d383bfde3b5f591c8cfdcac9f1697fa93a2eb689a0fd6c0f4fcd23",
+          "bytes": 1589722,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/usage-720.png",
+          "sha256": "c54f7a5ccaa94ff333b618ecebcf9ab0cbf3d6f75ca211f0bb46b58667b54807",
+          "bytes": 347006,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/thumbnail-320.png",
+          "sha256": "2a4a2b9c44495826c4a1ad9a3e729c88e2bbbd5936b7f4815e9158b297fb45f3",
+          "bytes": 82238,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\n\n빛이 머무는 집\nOPEN HOUSE\n건축 사진전 · 공간 이야기\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nArchitecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.\nExplicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested."
+    },
+    {
+      "image_id": "R14-C1-M4",
+      "role": "R14-C1-M4",
+      "stage": "repair-2",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M4/stages/repair-2/manifest.json",
+        "sha256": "488365a0c1c2af9bd865e59a711bb5eae3a05b163d0922bc077814fe1f7cb426",
+        "bytes": 2649
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M4/stages/repair-2/original.png",
+          "sha256": "a2a59c86494b742ef2fa3fc9c83998503650c9e6ed8c065f647f0ef437adc048",
+          "bytes": 1381476,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M4/stages/repair-2/usage-720.png",
+          "sha256": "6246619a88655736d669ccad9bd8a2f0630446ed6a2d0ad02ebbcc041ed37676",
+          "bytes": 282276,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M4/stages/repair-2/thumbnail-320.png",
+          "sha256": "c7b0e65cd27e783f27292ad27f3d1f1f5a626a3bd2cc384b7348e4b330f70540",
+          "bytes": 64835,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\n\n빛이 머무는 집\nOPEN HOUSE\n건축 사진전 · 공간 이야기\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nArchitecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.\nExplicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested."
+    },
+    {
+      "image_id": "R14-C1-M5",
+      "role": "R14-C1-M5",
+      "stage": "repair-1",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/stages/repair-1/manifest.json",
+        "sha256": "8df74cb505f97785888accd1eb615465f0507761e71244deec22ac63882d47a9",
+        "bytes": 2649
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/stages/repair-1/original.png",
+          "sha256": "0040f819b27218df4a0dad8dd5a80f09e98c32544af19e1394007994c6306901",
+          "bytes": 1863230,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/stages/repair-1/usage-720.png",
+          "sha256": "094e5ae7dadfc038fbd5a1d0a83e72ef97627dc9d503bf154360e7563facce40",
+          "bytes": 414597,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/stages/repair-1/thumbnail-320.png",
+          "sha256": "ce8c65c3dcbf4451e0cce8079e129f5f8c0ba4bd868d47e31888a7abec84815f",
+          "bytes": 99725,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\n\n빛이 머무는 집\nOPEN HOUSE\n건축 사진전 · 공간 이야기\n2027.02.06 토요일\n13:00–15:00\n연남 생활문화공간\n12:40부터 입장\n관람 무료 · 해설 제공\n사전 신청 · 정원 24명\n편한 신발로 방문해 주세요\n건축을 몰라도 괜찮아요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nArchitecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.\nExplicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested."
+    }
+  ],
+  "compact_recording": {
+    "schema_version": 2,
+    "kind": "compact_critic_observations",
+    "pin_schema": "path-sha256-bytes-v2",
+    "python": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "adapter": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "method": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+      "bytes": 10025
+    },
+    "addendum": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+      "bytes": 7465
+    },
+    "binding_audit": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+      "bytes": 21050
+    },
+    "preparer": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+      "bytes": 33273
+    },
+    "expected_outputs": [
+      "PROFILE.observations.json",
+      "PROFILE.json",
+      "PROFILE.md"
+    ],
+    "execution": "Inside the same fresh critic session before immutable CLI completion; no post-completion export"
+  }
+}

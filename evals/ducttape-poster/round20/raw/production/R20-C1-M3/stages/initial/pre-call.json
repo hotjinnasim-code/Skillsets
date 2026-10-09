@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "role": "R20-C1-M3",
+  "stage": "initial",
+  "attempt_number": 1,
+  "prepared_at_utc": "2026-10-08T19:20:38.130804+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "planned_arguments": {
+    "prompt": "Use case: ads-marketing. Create ONE finished flat opaque landscape 16:9 poster for a weekend houseplant market, ready for SNS.\n\nInput image 1 is an authored planning diagram ONLY: use its mature Korean type anatomy, substantial complete prose area, continuous prose-to-visit reading route and close figure/hand/rootball/pot relationships as guidance. Its neutral polygons and gray coloring are placeholders, not final artwork. Interpret the geometry naturally; no fixed-coordinate preservation is requested. Do not print guide metadata.\n\nShow the real work behind choosing and caring for a plant. A closely cropped adult grower leans in from the left, shoulder and torso cropped by the left edge, head lowered in concentration, ordinary worn work shirt with rolled sleeves. The weight of the body and both forearms carries diagonally across the lower foreground. One anatomically clear hand supports an exposed soil/rootball from beneath, the other steadies the rim of one practical empty pot immediately beside it. The rootball is physically attached to visible branching stems and several identifiable living houseplant leaves. Show distinct fingers, wrist ownership, palm support, root fibers, uneven soil, rim thickness and contact. No floating hands or detached ornamental foliage. The figure, hands and work are a substantial integrated image that wraps the left and lower edges of the reading area.\n\nStyle: forceful observed ink-and-oxide painting, controlled broad nearly black/very dark green brush masses for the cropped figure, selective dry thin contours at fingers and contact, a limited burnt-orange/brown oxide mass weighting the rootball and ordinary terracotta pot. Specific cloth folds and soil marks, deliberately selective detail, resolved edges. Restrained living green in attached foliage. Warm light buff substrate, flat matte printed finish. This is an adult painterly working scene with tension, weight and care, not soft blob clipart, toy clay, a sentimental smiling mascot or a neutral diagram.\n\nThe complete explanatory paragraph is the first verbal voice above the work, broad at upper right starting just past the shoulder. Use substantial mature Korean serif type: stable square syllable proportions, open counters, restrained stroke contrast, precise flat upright typesetting with normal word spaces and readable leading. Use three meaning-based lines, as printed below; give the prose the greatest verbal area. It should remain comfortably readable at a 720-wide display. Do not carry image texture into type.\n\nContinue immediately below that paragraph on the same start axis: smaller supporting slogan, then the market name with a modest weight increase; date and hours paired on one row; venue beneath; access and care statements paired on the next local row; invitation and URL directly below. These practical lines are full reading size in a precise stable Korean sans with compatible Latin and numerals, not tiny footer captions. Preserve spacious word boundaries, distinct middle dots and colons, visibly medium-length en dashes. Body and information are one nearby readable sequence, with clean clearance from sleeves, leaves and soil. The forearm approaches and supports the reading direction. Lower-left beside the grounded cropped figure, put the Korean identity as a quiet serif imprint and its Latin companion immediately underneath, quieter than the prose and not a competing giant headline.\n\nPrint each of these twelve entries exactly ONCE, and no other lettering. Quotation marks here are not printed. Paragraph line breaks are soft layout choices; preserve every word and punctuation:\n\"집 안의 작은 숲\"\n\"LEAVES & LIVING\"\n\"초록을 고르고, 일상을 가꿉니다.\"\n\"작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는 식물을 골라보세요.\"\n\"성수 주말 식물 마켓\"\n\"2027.06.12–06.13\"\n\"토·일 11:00–19:00\"\n\"성수 온실마당\"\n\"입장 무료 · 분갈이 시연\"\n\"식물 구매 시 관리 안내 제공\"\n\"편하게 들러 천천히 둘러보세요.\"\n\"leaves.example/market\"\n\nNo logo, QR, watermark, plant label, invented print, arrows or new heading. Keep all copy fully on canvas. Exclude passive solid/near-solid/split-field headline/date/information templates with small subordinate imagery, texture/font substitutions or empty-room dressing. Here the active cropped figure and continuous hands/rootball/pot action must organize the image/text boundary and whole composition. No large headline plus big object plus tiny footer structure. No mockup, frame, contact sheet, comparison panels or extra experiment image. One complete native poster with an opaque background. 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력",
+    "referenced_image_paths": [
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/guides/layout.png"
+    ],
+    "transparent_background": false
+  },
+  "call_input": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/stages/initial/call-input.json",
+    "sha256": "056122c1f362a38394e46c9571f866a3ae4f3162014ff773a4aed8cdf197483f"
+  },
+  "planned_argument_sha256": "586cfae85a5733ead811d68946c0ae2a5962d09290df931c00d5936b5cea105a",
+  "argument_hash_method": "UTF-8 canonical JSON, sorted keys, compact separators",
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/case.json",
+      "sha256": "ac84b54f571d9aae7c44363625efa7b216fa24bfbb8af791502ba288183cc918"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/assignment.json",
+      "sha256": "99c7eb7990fc17435bcdad6df4eb29b96956a3a88b1625f97df8821a6aeaa1a8"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/SKILL.md",
+      "sha256": "04875b72ea33005cb4dc65d4ca955fd40076f1b128107849e602290ee81a874a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/agents/openai.yaml",
+      "sha256": "7a9e257f2cdcdbbab372a4574faea6b69b208584275a2d66f86ae01fe4386be4"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/references/art-direction.md",
+      "sha256": "d8f5587ed18dd2cc2a7ebc4bba7bf44f14effea2129393c7bfd23bd63dfd771b"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/references/parallel-production.md",
+      "sha256": "3e706fdd676fc1222fbfece9deb70aa66dc5ba36148e4dc4761f7b2b3edf56c3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/references/visual-research.md",
+      "sha256": "677bb0b121b226ddcdb7cecd526bdc75f29b433caf1b1ea808b4fed3e71cbb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/references/evaluation-loop.md",
+      "sha256": "97449098b56468636519330a32a8f1ccbc5881cf92cd97c21315bc68705bd3d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/references/production-brief.md",
+      "sha256": "2d0ab2b62b498f243abd56040a257048a954ecb752aa7c3a11202ab010d45550"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/references/design-grammar.md",
+      "sha256": "77418552f2fa1310063983eeb4ea274bc6d29d7971c9b880afdedd2981daa6ff"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/references/layout-guide.md",
+      "sha256": "ab65d49d9b3bf795474ccc0712a55af87b3c6d1c7f91581d8869ea84589655a3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/snapshots/candidate-w/references/layout-guide-contract.md",
+      "sha256": "e5476c1aed79b9ab2c2308a86cd747cc580ff931efefd4c4a2d756e8891cd492"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/capability-probe/result.json",
+      "sha256": "846b62232dde3286969225f9292b36a12fbb88ce666141950504bc2b4b97e1fd"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/guides/layout.spec.json",
+      "sha256": "e21bb75031da1d1a23205b1575fc1eba810b6246fca3471327ddbe537b1f39b2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/guides/layout.manifest.json",
+      "sha256": "6ab0417559f06d20c15da582affe7655fc4512c2ea4fcdb5b1e6c0e6f3b6ab2f"
+    }
+  ],
+  "supplied_reference_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M3/guides/layout.png",
+      "sha256": "7ce22c0408d48062171934263ac647f8f1279c6e58f1b675a084bf7179cb389b",
+      "role": "own authored layout and actual-font type planning reference; not client preservation asset",
+      "actually_viewed_original": true
+    }
+  ],
+  "client_assets": [],
+  "observed_repair_cause": null,
+  "maintained_features": [
+    "close active grower and hand/rootball/pot support",
+    "substantial serif prose leads continuous visit axis",
+    "quiet lower-left paired identity"
+  ],
+  "ratio": "16:9",
+  "ratio_policy": "nearest-integer one-edge rounding <=0.5 pixel permitted",
+  "guide_observation": "Viewed original 1600x900 planning image: left leaning figure and two forearms lead to supported rootball beside pot, upper three-line serif prose continues into local practical group; neutral polygons are placeholders."
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "role": "R16-C1-M3",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "754a18573279499a3480e45363ba1f9a694bb27cbf83aa129d1f61cae9cec186",
+  "parent_native_sha256": "6b1d4e5ea4c494339653a5fbb0750385926fb97a54a7a910478259f472933495",
+  "changes": [
+    {
+      "view": "usage720",
+      "location": "invitation and main body",
+      "observation": "Invitation moved from small lower-right text to the paragraph's shared left axis and increased to approximately12–13px; it remains one line."
+    },
+    {
+      "view": "usage720",
+      "location": "practical information",
+      "observation": "Admission, no-reservation and URL form a cleaner group after invitation removal; event/date/time/place retained."
+    },
+    {
+      "view": "native",
+      "location": "product/photo/line/plane",
+      "observation": "Fixture structure, colour and photograph finish retained; the paper's upper line now meets the invitation area more closely."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole",
+      "observation": "Intermediate invitation provides a stronger route from explanation to practical details."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "usage720 long explanation x466–700, y210–237",
+      "limit": "The long two-line explanation is still about 11–12 px and relatively compact; it is smaller than the bold lead sentence and event data."
+    },
+    {
+      "location": "thumbnail320 body",
+      "limit": "Body copy is not readable at thumbnail320; this view supports composition inspection only."
+    },
+    {
+      "location": "usage720 overall",
+      "limit": "Lamp and title still dominate relative to information, although invitation and practical group legibility improved."
+    }
+  ],
+  "preserved_advantages": [
+    "All12 literal copy entries remain visually present once.",
+    "Intact fixture and sharp contour/photo relationship retained.",
+    "Broad warm footprint and paper geometry retained.",
+    "Practical-group clarity from repair-1 retained."
+  ]
+}

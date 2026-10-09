@@ -1,0 +1,11 @@
+--- 
++++ 
+@@ -27,7 +27,7 @@
+  assert len(helpers)==19
+  helpers.append(pin(ROOT/'capability-probe/result.json'))
+  methodpaths=sorted(p for p in (ROOT/'method-recording-v2').iterdir() if p.is_file() and p.suffix!='.pyc')
+- references=[ROOT/'coordinator/R14-C1/own-reference-view-note.md',ROOT/'plan-review/plan-review.md',ROOT/'planning/root-whole-plan-preflight.json',ROOT/'planning/prospective-critic-label.json',ROOT/'planning/root-helper-adaptation-before-generation.json',ROOT/'planning/latest-human-style-requirement.json',ROOT/'planning/literal-landscape-request.txt',ROOT/'planning/method-source-identity.json']
++ references=[ROOT/'coordinator/R14-C1/own-reference-view-note.md',ROOT/'plan-review/plan-review.md',ROOT/'planning/root-whole-plan-preflight.json',ROOT/'planning/plan-advisory-disposition-before-generation.json',ROOT/'planning/prospective-critic-label.json',ROOT/'planning/root-helper-adaptation-before-generation.json',ROOT/'planning/latest-human-style-requirement.json',ROOT/'planning/literal-landscape-request.txt',ROOT/'planning/method-source-identity.json']
+  references += sorted(p for p in (ROOT/'research').rglob('*') if p.is_file())
+  references += sorted(p for p in (ROOT/'development-context/n-adoption').rglob('*') if p.is_file())
+  for d in ('coordinator/R14-C1','plan-review'):

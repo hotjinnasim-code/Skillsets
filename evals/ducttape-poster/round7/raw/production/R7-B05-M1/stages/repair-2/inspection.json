@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "role": "R7-B05-M1",
+  "stage": "repair-2",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/thumbnail-320.png"
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/original.png",
+      "sha256": "1cb283db37eaeb4b8e32529ec46edb96d4815c4f912f78ce47394d91d19297ef",
+      "bytes": 2232337,
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/usage-720.png",
+      "sha256": "f454b74b7ed06b4381bd852c425fa756072c497bc117147fbdc26ce0b49c98a4",
+      "bytes": 869198,
+      "width": 720,
+      "height": 900
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/repair-2/thumbnail-320.png",
+      "sha256": "10a2608fb057466fe55588887006c5aca691af1052ad2f748daada5757387fbd",
+      "bytes": 106819,
+      "width": 256,
+      "height": 320
+    }
+  ],
+  "raw_observed_text": [
+    "작업실의 오후",
+    "김서안 오픈 스튜디오",
+    "2026.11.28 14:00–19:00",
+    "연희로 18길 24, 2층",
+    "작품과 제작 과정을 함께 보는 시간",
+    "방문 예약 example.org/atelier-afternoon"
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "large loop top and both mounting pins",
+      "observation": "Artwork is still approximately 30px below its position in the supplied A1 photograph. Large-loop top visually near y=269 vs original around y=240; pins similarly lower. Estimates are visual, not pixel measurements."
+    },
+    {
+      "view": "native",
+      "location": "blue ribbon brushwork and wall",
+      "observation": "Generated brush marks and wall microtexture differ from A1. Original surface/color/lighting pixel identity is not preserved or certified; the blue shape remains recognizably the same connected two-loop work."
+    },
+    {
+      "view": "native",
+      "location": "title and common left alignment",
+      "observation": "Title is smaller than prior posters but remains above planned 52px scale; text start is visually around x=98 rather than intended x=124. Bottom date begins above the planned y=1170, though it does not cover artwork."
+    },
+    {
+      "view": "native",
+      "location": "whole poster",
+      "observation": "1122×1402 is allowed nearest-integer width rounding (0.4px width difference from 4:5), not mathematically exact 4:5. Returned dimensions do not establish maximum supported resolution or print suitability."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "lower explanatory and reservation lines",
+      "observation": "Small explanatory and reservation copy needs usage720/native view for confident reading; the thumbnail supports composition inspection."
+    }
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "작업실의 오후",
+          "raw_observed": "작업실의 오후",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "작업실의 오후",
+          "normalized_observed": "작업실의 오후",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "upper empty wall",
+            "observations": "Complete single line, visible normal word gaps; no fixed line-break requirement."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "김서안 오픈 스튜디오",
+          "raw_observed": "김서안 오픈 스튜디오",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "김서안 오픈 스튜디오",
+          "normalized_observed": "김서안 오픈 스튜디오",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "upper empty wall",
+            "observations": "Complete single line, visible normal word gaps; no fixed line-break requirement."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "2026.11.28 14:00–19:00",
+          "raw_observed": "2026.11.28 14:00–19:00",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2026.11.28 14:00–19:00",
+          "normalized_observed": "2026.11.28 14:00–19:00",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "lower empty wall",
+            "observations": "Complete single line, visible normal word gaps; no fixed line-break requirement."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "연희로 18길 24, 2층",
+          "raw_observed": "연희로 18길 24, 2층",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "연희로 18길 24, 2층",
+          "normalized_observed": "연희로 18길 24, 2층",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "lower empty wall",
+            "observations": "Complete single line, visible normal word gaps; no fixed line-break requirement."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "작품과 제작 과정을 함께 보는 시간",
+          "raw_observed": "작품과 제작 과정을 함께 보는 시간",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "작품과 제작 과정을 함께 보는 시간",
+          "normalized_observed": "작품과 제작 과정을 함께 보는 시간",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "lower empty wall",
+            "observations": "Complete single line, visible normal word gaps; no fixed line-break requirement."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "kind": "url",
+          "fixed_newlines": false,
+          "required": "방문 예약 example.org/atelier-afternoon",
+          "raw_observed": "방문 예약 example.org/atelier-afternoon",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "방문 예약 example.org/atelier-afternoon",
+          "normalized_observed": "방문 예약 example.org/atelier-afternoon",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "location": "lower empty wall",
+            "observations": "Complete single line, visible normal word gaps; no fixed line-break requirement."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "ambiguities": [],
+      "issues": [],
+      "observations": "Six entries read once at native and usage720; no visibly additional printed text. Raster punctuation interpretation does not certify Unicode encoding."
+    },
+    "style": {
+      "checked_requirement": "actual supplied synthetic photograph preservation",
+      "observations": "Entire connected blue two-loop work and two mounting pins represented. Actual source placement and brush/wall detail remain changed.",
+      "issues": [
+        {
+          "view": "native",
+          "location": "large loop top and both mounting pins",
+          "observation": "Artwork is still approximately 30px below its position in the supplied A1 photograph. Large-loop top visually near y=269 vs original around y=240; pins similarly lower. Estimates are visual, not pixel measurements."
+        },
+        {
+          "view": "native",
+          "location": "blue ribbon brushwork and wall",
+          "observation": "Generated brush marks and wall microtexture differ from A1. Original surface/color/lighting pixel identity is not preserved or certified; the blue shape remains recognizably the same connected two-loop work."
+        }
+      ]
+    },
+    "ratio": {
+      "requested_ratio": [
+        4,
+        5
+      ],
+      "observed_dimensions": [
+        1122,
+        1402
+      ],
+      "edge_error_pixels": 0.4,
+      "permitted_native_rounding": true,
+      "observations": "Native PNG preserved without resizing; helper created only QA reductions."
+    },
+    "substantive_visual": {
+      "location": "central wall photograph",
+      "observations": "Large diagonal blue loop connected to a smaller lower-right loop fills roughly source-sized central area; blue form, holes, crossing and two wall pins visibly explain the invitation to see the work."
+    },
+    "typography": {
+      "location": "upper two and lower four lines",
+      "observations": "Hangul proportions are natural with visible counters and word gaps; no horizontal squeezing observed. Smaller title has less visual competition with art. Date/address and full one-line URL remain readable at usage720."
+    },
+    "information_relationship": {
+      "location": "upper and lower wall",
+      "observations": "Title/event above sculpture; date/address grouped below, followed by purpose and reservation. All copy stays outside blue artwork and neither date nor address occludes it."
+    },
+    "function_contact": {
+      "location": "bottom reservation line",
+      "observations": "The full exact reservation URL reads at usage720. No external website availability was tested or inferred."
+    },
+    "material_edge_finish": {
+      "location": "blue crossing, mounting pins, edges and wall",
+      "observations": "Continuous strips and both mount points are visible with no new tool/person or extra panel. Wall grain and blue brush details have been regenerated; protected source-photo fidelity remains limited."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "large loop and small loop",
+      "observation": "Large-loop left edge and small-loop right edge span more of the frame than repair-1, visually closer to supplied A1's width, but the work remains lower."
+    },
+    {
+      "view": "usage720",
+      "location": "bottom four lines",
+      "observation": "All four entries, including long reservation string, read in the actual 720px-wide view with distinguishable word spaces."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "upper text and central work",
+      "observation": "Reduced title gives the connected blue sculpture stronger primary visual weight than initial and repair-1."
+    }
+  ],
+  "repair_decision": {
+    "will_attempt_repair": false,
+    "reason": "Three actual native invocations consumed the bounded attempt budget."
+  },
+  "selection_reason": "Prefer this inspected stage over initial/repair-1 because its smaller title competes less with the large work and artwork width is closer to A1, while all six copy entries remain readable. This is selection despite unresolved photo-preservation limits, not a quality score or PASS."
+}

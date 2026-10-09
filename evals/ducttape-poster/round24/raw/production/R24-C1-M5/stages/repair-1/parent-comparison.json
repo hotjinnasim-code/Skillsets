@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "role": "R24-C1-M5",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "changes": [
+    {
+      "view": "native",
+      "location": "상부 코트",
+      "observation": "초기의 전면 미세 입자와 직물 사진 세부가 큰 군청/아이보리 면과 국소 규칙 망점으로 단순화되었다. 접힘의 사선 방향과 카피 열림 경계가 유지된다."
+    },
+    {
+      "view": "native",
+      "location": "오른쪽 금속과 하부 천",
+      "observation": "초기의 사진적 금속 광택·직조감이 더 단단한 밝은/어두운 추출 면으로 바뀌고 점 밀도가 보인다. 금속의 오른쪽 크롭과 천의 하단 세로 흐름·녹슨 붉은색 위치가 유지된다."
+    },
+    {
+      "view": "usage720",
+      "location": "제목과 본문",
+      "observation": "원본과 보정본 모두 동일한 정확한 카피, 두 줄/네 줄, 같은 시작축, 같은 문단 크기와 이어 읽기 경로가 관찰된다. 보정본은 글자 주변의 전면 입자가 줄어 더 깨끗한 밝은 열림을 만든다."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "전체",
+      "observation": "두 결과의 큰 사선·곡선·세로 덩어리와 제목 위계는 유지된다. 보정본에서는 단순화된 마스크와 점 밀도의 대비가 더 분명하고 사진의 미세 직조와 부드러운 광택은 덜 남았다."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "thumbnail320",
+      "location": "하부 천의 그림자 골",
+      "observation": "개별 망점은 축소에서 밀집된 세로 띠로 합쳐져 읽힌다. 밝은 골과 어두운 골의 흐름은 남지만 원본의 점 간격·섬유 세부는 이 보기에서 구별되지 않는다."
+    }
+  ],
+  "parent_manifest_sha256": "e9d79799e197fdf12918214d508f7e7049c5ad418319ddfc376902c1537ac844",
+  "parent_native_sha256": "d2731d0e82c0d2d989c951d1406a990874baac66d95826546fda2892515c2a65",
+  "actually_compared_viewed_stages": [
+    "initial",
+    "repair-1"
+  ]
+}

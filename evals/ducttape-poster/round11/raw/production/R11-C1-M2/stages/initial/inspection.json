@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "role": "R11-C1-M2",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M2/stages/initial/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "raw_observed_text": [
+    "인쇄하고 읽는 밤",
+    "PRINT & READ",
+    "고무판 인쇄 · 짧은 낭독",
+    "2026.12.12 토요일",
+    "18:00–20:30",
+    "망원 생활문화센터",
+    "17:40부터 입장",
+    "참가비 5,000원 · 재료 포함",
+    "신청 후 참여 · 정원 24명",
+    "앞치마 지참",
+    "처음 해도 괜찮아요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "upper-left printing view",
+      "observation": "Connected adult hand and wrist grip the thick pale cream inked slab. A curved-band-and-oval navy relief image recurs on the exposed impression."
+    },
+    {
+      "view": "native",
+      "location": "lower-left reading view",
+      "observation": "Two adult neighbours have visible faces and hands gripping a frontal printed sheet; the woman has an open speaking mouth and both look toward the work."
+    },
+    {
+      "view": "usage720",
+      "location": "right column x430–704",
+      "observation": "Date and time occupy the upper coral module, event/activity the blue module, and six factual rows the ivory module. All eleven copy entries can be read."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole poster",
+      "observation": "Stacked action photos and date-first right modules remain identifiable; photos are flush to outside edges and fill roughly56% of width."
+    },
+    {
+      "view": "native",
+      "location": "paper/photographic boundary",
+      "observation": "Fresh imprint in upper photo and held sheet in lower photo are separated by a hard horizontal photo seam; no single central page cutout bridges that seam."
+    },
+    {
+      "view": "native",
+      "location": "right Korean title and support lines",
+      "observation": "Korean counters and syllables are distinct with word spaces. Title and facts are heavier than the assigned medium/open-regular typographic roles."
+    }
+  ],
+  "residuals": [
+    "Photo column fills about56% of canvas and has no requested outside margins; assigned action windows occupy about43% with margins.",
+    "English sits near the bottom of the lower held sheet, not on a substantial paper bridge between the views.",
+    "The printing slab's pale cream rough edge could read as wood or linoleum rather than recognizably rubber.",
+    "Title and support copy use heavy weights rather than the warmer medium title/open regular facts role."
+  ],
+  "mandatory": {
+    "copy": {
+      "occurrences": "Each of the eleven entries visibly occurs once; no additional readable text observed.",
+      "readability": "All practical lines read at720×405; thumbnail text is naturally smaller.",
+      "ambiguities": []
+    },
+    "substantive_visual": {
+      "observation": "Printing and shared reading take substantial photo area; shared nonletter curved-band/oval print links the actions."
+    },
+    "style": {
+      "observation": "Realistic actions, cobalt/coral/ivory orthogonal modules and slab-like English are present.",
+      "layout_fidelity": "Date-first right column is retained; window width, margins, linking-page position and lighter text roles differ from assignment."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested": "16:9",
+      "rounding": "Exact16:9 height for width1672 is940.5; returned height941 is0.5px from that edge, within declared tolerance. Native bytes have not been resized."
+    },
+    "hangul": {
+      "observation": "Complete syllable forms and open counters are visible at native; word spaces distinguish 인쇄하고/읽는/밤 and all fact entries. No unreadable Hangul seen at usage720."
+    },
+    "information_relationship": {
+      "observation": "Date/time lead into event/activity then the six aligned participation lines; repeated print links two activities but cutout bridge is absent."
+    },
+    "function_contact": {
+      "requested": false,
+      "observation": "No URL,QR,contact or interactive function supplied or invented."
+    },
+    "material_edge_finish": {
+      "observation": "Faces and visible grips are anatomically intelligible with ordinary skin tones; paper print is textured, outside photograph crop is flush rather than controlled inset.",
+      "limit": "Rubber material remains visually ambiguous from the pale rough slab edge."
+    }
+  },
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "인쇄하고 읽는 밤",
+      "raw_observed": "인쇄하고 읽는 밤",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "인쇄하고 읽는 밤",
+      "normalized_observed": "인쇄하고 읽는 밤",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 1,
+      "required": "PRINT & READ",
+      "raw_observed": "PRINT & READ",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "PRINT & READ",
+      "normalized_observed": "PRINT & READ",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "required": "고무판 인쇄 · 짧은 낭독",
+      "raw_observed": "고무판 인쇄 · 짧은 낭독",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "고무판 인쇄·짧은 낭독",
+      "normalized_observed": "고무판 인쇄·짧은 낭독",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "required": "2026.12.12 토요일",
+      "raw_observed": "2026.12.12 토요일",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "2026.12.12 토요일",
+      "normalized_observed": "2026.12.12 토요일",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "required": "18:00–20:30",
+      "raw_observed": "18:00–20:30",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "18:00–20:30",
+      "normalized_observed": "18:00–20:30",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "required": "망원 생활문화센터",
+      "raw_observed": "망원 생활문화센터",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "망원 생활문화센터",
+      "normalized_observed": "망원 생활문화센터",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "required": "17:40부터 입장",
+      "raw_observed": "17:40부터 입장",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "17:40부터 입장",
+      "normalized_observed": "17:40부터 입장",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "required": "참가비 5,000원 · 재료 포함",
+      "raw_observed": "참가비 5,000원 · 재료 포함",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "참가비 5,000원·재료 포함",
+      "normalized_observed": "참가비 5,000원·재료 포함",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "required": "신청 후 참여 · 정원 24명",
+      "raw_observed": "신청 후 참여 · 정원 24명",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "신청 후 참여·정원 24명",
+      "normalized_observed": "신청 후 참여·정원 24명",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "required": "앞치마 지참",
+      "raw_observed": "앞치마 지참",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "앞치마 지참",
+      "normalized_observed": "앞치마 지참",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "required": "처음 해도 괜찮아요",
+      "raw_observed": "처음 해도 괜찮아요",
+      "normalization": "nfc-ws-optical-v1",
+      "normalized_required": "처음 해도 괜찮아요",
+      "normalized_observed": "처음 해도 괜찮아요",
+      "equal": true,
+      "layout": {
+        "fixed_newlines": false,
+        "observed_lines": 1,
+        "observations": "One horizontal line; ordinary word spaces and optical middle-dot spaces visible."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "punctuation_observation": "Time range has a centered visibly extended dash; colons, comma and middle dots can be distinguished. Raster observation does not certify a stored Unicode code point."
+}

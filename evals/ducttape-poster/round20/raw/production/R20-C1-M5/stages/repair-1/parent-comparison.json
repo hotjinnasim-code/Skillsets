@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "role": "R20-C1-M5",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "485d340ebaf3060c38a8629a2a7b9fef6e02e94a3e41ec5879a62d30ee125486",
+  "parent_native_sha256": "1b0a945049776ce1743f6d2f9378558df9ff0b1af4d01f25fc77c2435a534459",
+  "actually_compared_views": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "comparison_semantics": "Both stages were actually displayed at all three pinned views, with a single full native revisit each after first-emission display limitations.",
+  "changes": [
+    {
+      "view": "native",
+      "location": "Right tree and wall",
+      "target_change": "Reduce painterly botanical density and leafy wall shadows.",
+      "observed_change": "Tree leaf silhouettes are flatter and dark-outlined with clearer branch gaps; leafy cast shadows are replaced by crisp window geometry.",
+      "preserved_advantage": "A mature tree still connects a visible large floor pot to the upper/right crop without obscuring copy."
+    },
+    {
+      "view": "native",
+      "location": "Table, sill and large pot",
+      "target_change": "Strengthen planar furniture and support contacts.",
+      "observed_change": "Table edge/legs use flatter clay-red surfaces and teal sill planes have crisp boundaries; the large floor pot gains a clear saucer and floor contact.",
+      "preserved_advantage": "Three differing support heights and plausible pot bases remain visible."
+    },
+    {
+      "view": "usage720",
+      "location": "Whole lettering route",
+      "target_change": "Protect exact copy, broad prose and practical ledger.",
+      "observed_change": "All twelve entries remain once with matching normalized transcriptions; some type and ledger positions are slightly larger/shifted but all functional relationships remain. Invitation/body/slogan/market share the left start; ledger sits immediately under the table edge.",
+      "preserved_advantage": "Long explanation and date/hours/place/access/care/URL stay readable and locally connected."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Step and lower identity",
+      "target_change": "Keep lower identity seam and whole support comparison.",
+      "observed_change": "The lower identity is slightly lower/right but still begins beneath the central sill seam; the descending furniture section and floor-rooted right mass persist.",
+      "preserved_advantage": "The identity does not interrupt the useful visit route."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "Clay pottery and leaf interiors",
+      "issue": "Pot texture and selected leaf-vein marks remain; contour treatment is cleaner and more polished than rough charcoal."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Clay-red architecture",
+      "issue": "Clay-red remains concentrated in the table edge, legs and pottery rather than a large wall plane; teal provides the larger architectural mass."
+    }
+  ],
+  "selection_preference": "repair-1"
+}

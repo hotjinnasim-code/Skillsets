@@ -1,0 +1,333 @@
+{
+  "role": "R20-C1-M4",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M4/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M4/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M4/stages/repair-1/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "집 안의 작은 숲",
+    "LEAVES & LIVING",
+    "초록을 고르고, 일상을 가꿉니다.",
+    "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+    "성수 주말 식물 마켓",
+    "2027.06.12–06.13",
+    "토·일 11:00–19:00",
+    "성수 온실마당",
+    "입장 무료 · 분갈이 시연",
+    "식물 구매 시 관리 안내 제공",
+    "편하게 들러 천천히 둘러보세요.",
+    "leaves.example/market"
+  ],
+  "native_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round20/production/R20-C1-M4/stages/repair-1/original.png",
+    "sha256": "51e627ac756b6935e8d9534bc185b7ad8d9499f488e059c2382331027233d2e3",
+    "raw_observed": [
+      "집 안의 작은 숲",
+      "LEAVES & LIVING",
+      "초록을 고르고, 일상을 가꿉니다.",
+      "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "성수 주말 식물 마켓",
+      "2027.06.12–06.13",
+      "토·일 11:00–19:00",
+      "성수 온실마당",
+      "입장 무료 · 분갈이 시연",
+      "식물 구매 시 관리 안내 제공",
+      "편하게 들러 천천히 둘러보세요.",
+      "leaves.example/market"
+    ],
+    "resolution": "The single exact-original revisit displayed the full poster, allowing full native glyph, punctuation and contact inspection. All usage first reads remain unchanged.",
+    "resolved": true,
+    "reason": "First original-detail emission only showed a small reading-field detail."
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "all three image bands",
+      "observation": "Natural green, brown and skin hues are gone. Neutral bright highlights, black soil and subtle blue-gray shadow tones give the requested monochrome treatment; roots and skin texture remain differentiated."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Upper-right, middle-left and lower-right image crops alternate substantial activity views; upper-left date is the main verbal entry and lower-left identity finishes the third turn."
+    },
+    {
+      "view": "usage720",
+      "location": "upper-left visit",
+      "observation": "Date, market, hours and venue remain one readable group; date and hour range dashes are longer than a short hyphen, periods and colons remain clear."
+    },
+    {
+      "view": "usage720",
+      "location": "middle-right",
+      "observation": "Slogan leads the complete three-line paragraph with stable start alignment. Access and care remain directly under the last body line. Korean anatomy and word spaces remain readable."
+    },
+    {
+      "view": "usage720",
+      "location": "lower-left",
+      "observation": "Korean/Latin identity, invitation and intact URL stay adjacent. URL period and slash are visibly separate; no extra lettering is present."
+    },
+    {
+      "view": "native",
+      "location": "top and middle actions",
+      "observation": "A palm visibly supports the rootball; stabilizing fingers connect to a hand above/right. Root/soil texture and connected variegated leaves identify the same ordinary repotting activity, with a plain receiving pot alongside."
+    },
+    {
+      "view": "native",
+      "location": "lower-right",
+      "observation": "Two hands clearly contact and grip the sides of the pot; the plant is seated in soil. The pot's full base and complete table contact remain outside the bottom crop."
+    },
+    {
+      "view": "native",
+      "location": "type, surfaces and cut edges",
+      "observation": "Flat opaque reading openings, crisp rectangular photograph cuts, no simulated folds/tape/arrow, precise upright dark type. Photography carries the material texture; the letters are clean."
+    }
+  ],
+  "residuals": [
+    "The lower pot base remains cropped, limiting direct verification of the full base-to-table contact.",
+    "Maximum supported output resolution cannot be certified from the exposed tool; actual native dimensions are recorded."
+  ],
+  "selection_rationale": "Choose repair-1 over initial because it resolves the observed natural-color style defect while retaining all copy and the functioning three-turn reading route. No further call is warranted for permitted ratio rounding or planning-coordinate differences.",
+  "normalization": "nfc-ws-optical-v1",
+  "transcriptions": [
+    {
+      "copy_index": 1,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "집 안의 작은 숲",
+      "raw_observed": "집 안의 작은 숲",
+      "normalized_required": "집 안의 작은 숲",
+      "normalized_observed": "집 안의 작은 숲",
+      "equal": true,
+      "layout": {
+        "location": "lower-left identity",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "LEAVES & LIVING",
+      "raw_observed": "LEAVES & LIVING",
+      "normalized_required": "LEAVES & LIVING",
+      "normalized_observed": "LEAVES & LIVING",
+      "equal": true,
+      "layout": {
+        "location": "lower-left Latin identity",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "초록을 고르고, 일상을 가꿉니다.",
+      "raw_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "normalized_required": "초록을 고르고, 일상을 가꿉니다.",
+      "normalized_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "equal": true,
+      "layout": {
+        "location": "middle-right slogan",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "raw_observed": "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "normalized_required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "normalized_observed": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "equal": true,
+      "layout": {
+        "location": "middle-right three-line paragraph",
+        "observations": "Complete three-line explanation; word-boundary wrapping."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "성수 주말 식물 마켓",
+      "raw_observed": "성수 주말 식물 마켓",
+      "normalized_required": "성수 주말 식물 마켓",
+      "normalized_observed": "성수 주말 식물 마켓",
+      "equal": true,
+      "layout": {
+        "location": "upper-left market",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "2027.06.12–06.13",
+      "raw_observed": "2027.06.12–06.13",
+      "normalized_required": "2027.06.12–06.13",
+      "normalized_observed": "2027.06.12–06.13",
+      "equal": true,
+      "layout": {
+        "location": "upper-left date",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "토·일 11:00–19:00",
+      "raw_observed": "토·일 11:00–19:00",
+      "normalized_required": "토·일 11:00–19:00",
+      "normalized_observed": "토·일 11:00–19:00",
+      "equal": true,
+      "layout": {
+        "location": "upper-left hours",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "성수 온실마당",
+      "raw_observed": "성수 온실마당",
+      "normalized_required": "성수 온실마당",
+      "normalized_observed": "성수 온실마당",
+      "equal": true,
+      "layout": {
+        "location": "upper-left venue",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "입장 무료 · 분갈이 시연",
+      "raw_observed": "입장 무료 · 분갈이 시연",
+      "normalized_required": "입장 무료·분갈이 시연",
+      "normalized_observed": "입장 무료·분갈이 시연",
+      "equal": true,
+      "layout": {
+        "location": "middle-right access",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "식물 구매 시 관리 안내 제공",
+      "raw_observed": "식물 구매 시 관리 안내 제공",
+      "normalized_required": "식물 구매 시 관리 안내 제공",
+      "normalized_observed": "식물 구매 시 관리 안내 제공",
+      "equal": true,
+      "layout": {
+        "location": "middle-right care",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 11,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "편하게 들러 천천히 둘러보세요.",
+      "raw_observed": "편하게 들러 천천히 둘러보세요.",
+      "normalized_required": "편하게 들러 천천히 둘러보세요.",
+      "normalized_observed": "편하게 들러 천천히 둘러보세요.",
+      "equal": true,
+      "layout": {
+        "location": "lower-left invitation",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 12,
+      "kind": "url",
+      "fixed_newlines": false,
+      "required": "leaves.example/market",
+      "raw_observed": "leaves.example/market",
+      "normalized_required": "leaves.example/market",
+      "normalized_observed": "leaves.example/market",
+      "equal": true,
+      "layout": {
+        "location": "lower-left URL",
+        "observations": "One upright line with natural word spacing. Raw optical middle-dot gaps retained."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "observed_entry_count": 12,
+      "observed_once_each": true,
+      "additional_print_observed": false,
+      "issues": [],
+      "ambiguities": []
+    },
+    "style": {
+      "checked_requirement": "Three unequal alternating tightly cropped repotting action photographs, monochrome with restrained blue shadows; date-led sans copy turns",
+      "issues": [],
+      "observation": "Neutral monochrome photographs with subtle cool darks; whole action sequence and staggered reading turns retained."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": [
+        16,
+        9
+      ],
+      "exact_height_at_observed_width": 940.5,
+      "edge_difference_px": 0.5,
+      "rounding_policy": "Permitted nearest-integer native edge rounding; no native resizing"
+    },
+    "substantive_visual": {
+      "observation": "Rootball lift/support, close root/soil relation and seated plant with gripping hands are substantial nonglyph content."
+    },
+    "hangul": {
+      "observation": "Mature consistent upright glyph proportions, clear counters and word spaces; body and information read at usage720."
+    },
+    "information_relationship": {
+      "observation": "Date/visit at upper-left, slogan/body/access/care at middle-right and identity/invitation/URL locally grouped lower-left."
+    },
+    "function_contact": {
+      "observation": "Visible palm-to-rootball and hands-to-pot support; full base contact outside final crop is a remaining assessment limit."
+    },
+    "material_edge_finish": {
+      "observation": "Controlled monochrome roots/soil/skin/pot detail and stable darks; crisp image cuts and untextured flat type."
+    },
+    "opacity": {
+      "observation": "Visibly opaque single flat landscape poster."
+    }
+  }
+}

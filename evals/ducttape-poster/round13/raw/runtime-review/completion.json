@@ -1,0 +1,80 @@
+{
+  "started_utc": "2026-10-08T09:38:59.384225+00:00",
+  "argv": [
+    "codex",
+    "--no-daemon",
+    "--ask-for-approval",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--json",
+    "--skip-git-repo-check",
+    "--sandbox",
+    "workspace-write",
+    "-C",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/runtime-review",
+    "--output-last-message",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/runtime-review/final.txt",
+    "-"
+  ],
+  "fresh_session": true,
+  "case_id": "R13-C1",
+  "wave": "preproduction",
+  "profile": "runtime-audit",
+  "model_override": null,
+  "prompt": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/runtime-review/prompt.txt",
+    "sha256": "40c7eac9af37afbfcefac347bf3fd3aacb231fbad1fc51e86dd7a82b2f78a6f3"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/SKILL.md",
+      "sha256": "2373a415e0077212a26137333cc1bba40b5b627601b6e87d252fd2de20bbae9a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/agents/openai.yaml",
+      "sha256": "18e733c202cc1b8d153d2f1dc8bac85826787a88fe336f0e1aa5fa65f523f7e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/references/art-direction.md",
+      "sha256": "818748a8cfe57bfbc17549f4ed7474475c5c8ae45edf37797b2ab988c16e1fda"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/references/parallel-production.md",
+      "sha256": "e31b6fc34727ae753d4cc888a5eeea7f034ffc875fee3b2709fa75051a44f66a"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/references/visual-research.md",
+      "sha256": "2bf486e75e252dd27960c499b5c4ef4a68a8d6a967823d2f5bbd6148abf5e705"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/snapshots/candidate-m/references/evaluation-loop.md",
+      "sha256": "cf94b86511ab5295a7235c624757889906c49eb1bb9febea5b8145926f6bcb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/planning/single-five-case.json",
+      "sha256": "6212977bc5043ea9169b3fe72e6d7c672154212df75680b3b3b84739c06177d8"
+    }
+  ],
+  "job": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/runtime-review/job.json",
+    "sha256": "8d8337629ca09577eda605c2e47315be390c861b31feb567906d59414c1b4a41"
+  },
+  "completed_utc": "2026-10-08T09:43:19.267967+00:00",
+  "exit_code": 0,
+  "session_ids": [
+    "01a11ae1-5ce8-7743-98c1-aa079b5c6a82"
+  ],
+  "turn_completed_count": 1,
+  "input_pins_unchanged": true,
+  "trace": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/runtime-review/trace.jsonl",
+    "sha256": "2986c07ff8788fee49229e7acf9e1503b2dad3ca6d07b70dafb06b5958bcbbd7"
+  },
+  "reports": {
+    "runtime-review.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round13/runtime-review/runtime-review.md",
+      "sha256": "74c516baf4373bbfaff018a95b5f7b439398893e7722f10f6b3460cb1b9c4f92"
+    }
+  }
+}

@@ -1,0 +1,580 @@
+{
+  "schema_version": 1,
+  "role": "R19-C1-M3",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M3/stages/repair-1/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "raw_observed_text": [
+    "집 안의\n작은 숲",
+    "LEAVES\n& LIVING",
+    "초록을 고르고, 일상을 가꿉니다.",
+    "작은 화분부터\n오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+    "성수 주말 식물 마켓",
+    "2027.06.12–06.13",
+    "토 · 일 11:00–19:00",
+    "성수 온실마당",
+    "입장 무료 · 분갈이 시연",
+    "식물 구매 시 관리 안내 제공",
+    "편하게 들러 천천히 둘러보세요.",
+    "leaves.example/market"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "transcriptions": [
+    {
+      "copy_index": 1,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "집 안의 작은 숲",
+      "raw_observed": "집 안의\n작은 숲",
+      "normalized_required": "집 안의 작은 숲",
+      "normalized_observed": "집 안의 작은 숲",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "Soft wrapping preserves meaningful words; identity/Latin companion use two lines and prose five."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "LEAVES & LIVING",
+      "raw_observed": "LEAVES\n& LIVING",
+      "normalized_required": "LEAVES & LIVING",
+      "normalized_observed": "LEAVES & LIVING",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "Soft wrapping preserves meaningful words; identity/Latin companion use two lines and prose five."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "초록을 고르고, 일상을 가꿉니다.",
+      "raw_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "normalized_required": "초록을 고르고, 일상을 가꿉니다.",
+      "normalized_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One coherent line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "raw_observed": "작은 화분부터\n오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+      "normalized_required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "normalized_observed": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "Soft wrapping preserves meaningful words; identity/Latin companion use two lines and prose five."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "성수 주말 식물 마켓",
+      "raw_observed": "성수 주말 식물 마켓",
+      "normalized_required": "성수 주말 식물 마켓",
+      "normalized_observed": "성수 주말 식물 마켓",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One coherent line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "2027.06.12–06.13",
+      "raw_observed": "2027.06.12–06.13",
+      "normalized_required": "2027.06.12–06.13",
+      "normalized_observed": "2027.06.12–06.13",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One coherent line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "토·일 11:00–19:00",
+      "raw_observed": "토 · 일 11:00–19:00",
+      "normalized_required": "토·일 11:00–19:00",
+      "normalized_observed": "토·일 11:00–19:00",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One line; optical gaps around the middle dot remain in raw reading."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "성수 온실마당",
+      "raw_observed": "성수 온실마당",
+      "normalized_required": "성수 온실마당",
+      "normalized_observed": "성수 온실마당",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One coherent line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "입장 무료 · 분갈이 시연",
+      "raw_observed": "입장 무료 · 분갈이 시연",
+      "normalized_required": "입장 무료·분갈이 시연",
+      "normalized_observed": "입장 무료·분갈이 시연",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One line; optical gaps around the middle dot remain in raw reading."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "식물 구매 시 관리 안내 제공",
+      "raw_observed": "식물 구매 시 관리 안내 제공",
+      "normalized_required": "식물 구매 시 관리 안내 제공",
+      "normalized_observed": "식물 구매 시 관리 안내 제공",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One coherent line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 11,
+      "kind": "text",
+      "fixed_newlines": false,
+      "required": "편하게 들러 천천히 둘러보세요.",
+      "raw_observed": "편하게 들러 천천히 둘러보세요.",
+      "normalized_required": "편하게 들러 천천히 둘러보세요.",
+      "normalized_observed": "편하게 들러 천천히 둘러보세요.",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One coherent line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 12,
+      "kind": "url",
+      "fixed_newlines": false,
+      "required": "leaves.example/market",
+      "raw_observed": "leaves.example/market",
+      "normalized_required": "leaves.example/market",
+      "normalized_observed": "leaves.example/market",
+      "equal": true,
+      "normalization": "nfc-ws-optical-v1",
+      "layout": {
+        "observations": "One coherent line."
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "entries_observed": 12,
+      "each_observed_once": true,
+      "extra_print_observed": false,
+      "ambiguities": [],
+      "transcriptions": [
+        {
+          "copy_index": 1,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "집 안의 작은 숲",
+          "raw_observed": "집 안의\n작은 숲",
+          "normalized_required": "집 안의 작은 숲",
+          "normalized_observed": "집 안의 작은 숲",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Soft wrapping preserves meaningful words; identity/Latin companion use two lines and prose five."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "LEAVES & LIVING",
+          "raw_observed": "LEAVES\n& LIVING",
+          "normalized_required": "LEAVES & LIVING",
+          "normalized_observed": "LEAVES & LIVING",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Soft wrapping preserves meaningful words; identity/Latin companion use two lines and prose five."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "초록을 고르고, 일상을 가꿉니다.",
+          "raw_observed": "초록을 고르고, 일상을 가꿉니다.",
+          "normalized_required": "초록을 고르고, 일상을 가꿉니다.",
+          "normalized_observed": "초록을 고르고, 일상을 가꿉니다.",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One coherent line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "raw_observed": "작은 화분부터\n오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+          "normalized_required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "normalized_observed": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "Soft wrapping preserves meaningful words; identity/Latin companion use two lines and prose five."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "성수 주말 식물 마켓",
+          "raw_observed": "성수 주말 식물 마켓",
+          "normalized_required": "성수 주말 식물 마켓",
+          "normalized_observed": "성수 주말 식물 마켓",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One coherent line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "2027.06.12–06.13",
+          "raw_observed": "2027.06.12–06.13",
+          "normalized_required": "2027.06.12–06.13",
+          "normalized_observed": "2027.06.12–06.13",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One coherent line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "토·일 11:00–19:00",
+          "raw_observed": "토 · 일 11:00–19:00",
+          "normalized_required": "토·일 11:00–19:00",
+          "normalized_observed": "토·일 11:00–19:00",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One line; optical gaps around the middle dot remain in raw reading."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "성수 온실마당",
+          "raw_observed": "성수 온실마당",
+          "normalized_required": "성수 온실마당",
+          "normalized_observed": "성수 온실마당",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One coherent line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "입장 무료 · 분갈이 시연",
+          "raw_observed": "입장 무료 · 분갈이 시연",
+          "normalized_required": "입장 무료·분갈이 시연",
+          "normalized_observed": "입장 무료·분갈이 시연",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One line; optical gaps around the middle dot remain in raw reading."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "식물 구매 시 관리 안내 제공",
+          "raw_observed": "식물 구매 시 관리 안내 제공",
+          "normalized_required": "식물 구매 시 관리 안내 제공",
+          "normalized_observed": "식물 구매 시 관리 안내 제공",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One coherent line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 11,
+          "kind": "text",
+          "fixed_newlines": false,
+          "required": "편하게 들러 천천히 둘러보세요.",
+          "raw_observed": "편하게 들러 천천히 둘러보세요.",
+          "normalized_required": "편하게 들러 천천히 둘러보세요.",
+          "normalized_observed": "편하게 들러 천천히 둘러보세요.",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One coherent line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 12,
+          "kind": "url",
+          "fixed_newlines": false,
+          "required": "leaves.example/market",
+          "raw_observed": "leaves.example/market",
+          "normalized_required": "leaves.example/market",
+          "normalized_observed": "leaves.example/market",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "observations": "One coherent line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Cut-paper plant colony around connected prose/action passage, upper date primary and quieter lower-left identity",
+      "observations": [
+        {
+          "view": "native",
+          "location": "left/top/lower-right botanical field",
+          "observation": "Broad green split leaves, dark layered foliage, upright blades and rounded-leaf stems form a substantial irregular colony with visible pink pot mouths and planted branches. Two adjoining citron cavities are cut from this active field."
+        },
+        {
+          "view": "usage720",
+          "location": "upper date and lower-left identity",
+          "observation": "The date is the largest verbal entry. Event, hours and venue continue immediately beneath it. The lower-left Korean identity is visibly smaller and less heavy, with its Latin companion beside it."
+        },
+        {
+          "view": "usage720",
+          "location": "central left prose and right care opening",
+          "observation": "The slogan starts a five-line aligned paragraph; larger letter bodies and broader cavities make all words clearer than the initial. Access, care, invitation and URL form one nearby continuous group across a short stem."
+        },
+        {
+          "view": "thumbnail320",
+          "location": "whole composition",
+          "observation": "The plant community surrounds and shapes the passage. Date entrance and two content openings are visible; the small lower identity no longer competes as a separate dominant headline."
+        }
+      ],
+      "limits": [
+        {
+          "view": "usage720",
+          "location": "left paragraph ending to right action beginning",
+          "observation": "The last paragraph line is below the first access line. The adjacent group is easy to find across the short stem boundary, but the handoff requires a slight upward reading turn rather than a shared level ledge."
+        }
+      ]
+    },
+    "ratio": {
+      "requested": "16:9",
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "exact_height_from_width": 940.5,
+      "edge_rounding_pixels": 0.5,
+      "permitted_nearest_integer_rounding": true
+    },
+    "substantive_visual": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "left/top/lower-right botanical field",
+          "observation": "Broad green split leaves, dark layered foliage, upright blades and rounded-leaf stems form a substantial irregular colony with visible pink pot mouths and planted branches. Two adjoining citron cavities are cut from this active field."
+        },
+        {
+          "view": "thumbnail320",
+          "location": "whole composition",
+          "observation": "The plant community surrounds and shapes the passage. Date entrance and two content openings are visible; the small lower identity no longer competes as a separate dominant headline."
+        }
+      ]
+    },
+    "hangul": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "Korean and Latin letterforms",
+          "observation": "Open squared Korean counters, consistent stem widths and steady baselines are readable. Meaningful word spaces remain clear, text is unobscured, and range dashes have extended midline forms."
+        }
+      ],
+      "ambiguities": []
+    },
+    "information_relationship": {
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "upper date and lower-left identity",
+          "observation": "The date is the largest verbal entry. Event, hours and venue continue immediately beneath it. The lower-left Korean identity is visibly smaller and less heavy, with its Latin companion beside it."
+        },
+        {
+          "view": "usage720",
+          "location": "central left prose and right care opening",
+          "observation": "The slogan starts a five-line aligned paragraph; larger letter bodies and broader cavities make all words clearer than the initial. Access, care, invitation and URL form one nearby continuous group across a short stem."
+        }
+      ],
+      "limits": [
+        {
+          "view": "usage720",
+          "location": "left paragraph ending to right action beginning",
+          "observation": "The last paragraph line is below the first access line. The adjacent group is easy to find across the short stem boundary, but the handoff requires a slight upward reading turn rather than a shared level ledge."
+        }
+      ]
+    },
+    "function_contact": {
+      "requested": "Literal URL, no logo or QR",
+      "observed": "URL is intact and readable; no extra labels, tags, logo, QR or other print observed."
+    },
+    "local_finish": {
+      "observations": [
+        {
+          "view": "native",
+          "location": "cuts, leaf overlap and pots",
+          "observation": "Crisp cut edges and mild paper grain remain consistent across leaves and pink pots. Connected branches and pot-mouth contacts remain visible after local cavity expansion."
+        }
+      ]
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "left/top/lower-right botanical field",
+      "observation": "Broad green split leaves, dark layered foliage, upright blades and rounded-leaf stems form a substantial irregular colony with visible pink pot mouths and planted branches. Two adjoining citron cavities are cut from this active field."
+    },
+    {
+      "view": "usage720",
+      "location": "upper date and lower-left identity",
+      "observation": "The date is the largest verbal entry. Event, hours and venue continue immediately beneath it. The lower-left Korean identity is visibly smaller and less heavy, with its Latin companion beside it."
+    },
+    {
+      "view": "usage720",
+      "location": "central left prose and right care opening",
+      "observation": "The slogan starts a five-line aligned paragraph; larger letter bodies and broader cavities make all words clearer than the initial. Access, care, invitation and URL form one nearby continuous group across a short stem."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "The plant community surrounds and shapes the passage. Date entrance and two content openings are visible; the small lower identity no longer competes as a separate dominant headline."
+    },
+    {
+      "view": "native",
+      "location": "Korean and Latin letterforms",
+      "observation": "Open squared Korean counters, consistent stem widths and steady baselines are readable. Meaningful word spaces remain clear, text is unobscured, and range dashes have extended midline forms."
+    },
+    {
+      "view": "native",
+      "location": "cuts, leaf overlap and pots",
+      "observation": "Crisp cut edges and mild paper grain remain consistent across leaves and pink pots. Connected branches and pot-mouth contacts remain visible after local cavity expansion."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "usage720",
+      "location": "left paragraph ending to right action beginning",
+      "observation": "The last paragraph line is below the first access line. The adjacent group is easy to find across the short stem boundary, but the handoff requires a slight upward reading turn rather than a shared level ledge."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "paragraph and action copy",
+      "observation": "Detailed prose and care information require the 720-wide/native views; the thumbnail chiefly communicates date and plant community."
+    },
+    {
+      "view": "native",
+      "location": "raster typography",
+      "observation": "Visual reading cannot certify the applied font file or original Unicode code points; no unresolved visual glyph ambiguity was observed."
+    }
+  ],
+  "decision": {
+    "selected_for_closure": true,
+    "reason": "Improved body/action readability and date-led hierarchy retain the substantial plant passage and all copy; no further actual defect justifies another bounded call."
+  }
+}

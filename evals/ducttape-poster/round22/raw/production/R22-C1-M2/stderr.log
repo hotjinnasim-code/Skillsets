@@ -1,0 +1,16 @@
+2026-10-08T21:50:44.647710Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-10-08T21:50:44.647765Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-10-08T21:50:44.682346Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-08T21:50:44.703332Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-08T21:50:44.716302Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-08T21:50:44.728097Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-08T21:50:44.742261Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-08T21:50:44.870023Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-10-08T21:50:44.870048Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-10-08T21:57:31.844527Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 216ms)... turn_id=01a11d7f-4e05-76b0-ad97-d7888e3bb4d2 retries=1 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed
+2026-10-08T21:57:34.023967Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (2/5 in 431ms)... turn_id=01a11d7f-4e05-76b0-ad97-d7888e3bb4d2 retries=2 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed
+2026-10-08T21:57:36.813984Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (3/5 in 808ms)... turn_id=01a11d7f-4e05-76b0-ad97-d7888e3bb4d2 retries=3 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed
+2026-10-08T21:57:38.860703Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (4/5 in 1.666s)... turn_id=01a11d7f-4e05-76b0-ad97-d7888e3bb4d2 retries=4 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed
+2026-10-08T21:57:43.733592Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (5/5 in 3.287s)... turn_id=01a11d7f-4e05-76b0-ad97-d7888e3bb4d2 retries=5 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed
+2026-10-08T21:57:49.182018Z  WARN codex_core::client: falling back to HTTP
+2026-10-08T22:02:19.715848Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at AbsolutePathBuf("/Users/nahyeonbin/.codex/shell_snapshots/01a11d7f-4d9f-7371-b292-83b5406ab356.1791496244652885000.sh"): Os { code: 2, kind: NotFound, message: "No such file or directory" }

@@ -1,0 +1,2453 @@
+{
+  "schema_version": 1,
+  "case_id": "R8-C1",
+  "wave": "selected",
+  "profile": "editorial",
+  "session_id": null,
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "viewed_count": 15,
+    "order_compliant": true,
+    "method": "Independent review in this fresh conversation. I verified the explicitly supplied file hashes and byte counts and read the pinned packet, case, rules, rubric, ratio policy, helper source files and five native-evidence manifests without opening their unlisted embedded paths. The packet declares no source_assets or protected_layouts, so their procedure arrays are empty. I used five functions.exec viewing batches in packet order M1, M2, M3, M4, M5. Each batch awaited three tools.view_image calls in native, usage720, thumbnail320 order with detail:'original', and emitted each returned image using image(...,'original'), for fifteen actual image-view calls. I visually inspected all fifteen returned images before retaining the first transcription readings, assigning any image scores or judging set diversity. No revisit was used. PNG headers independently verified native dimensions and RGB color type 2 without tRNS; no image was resized or edited by me. The runner's session/thread identity is not observable to me and is left null; no trace-derived assertion is made.",
+    "source_assets_viewed": [],
+    "protected_layouts_read": [],
+    "source_assets_not_applicable_reason": "The pinned packet's source_assets array is empty.",
+    "protected_layouts_not_applicable_reason": "The pinned packet's protected_layouts array is empty.",
+    "native_manifests_read": [
+      {
+        "image_id": "R8-C1-M1",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M1/stages/repair-2/manifest.json",
+        "sha256": "5b8e17d27f7dbf284ad0a76087709f802612ee0725fc08a13d8dc9de06c71339",
+        "read": true
+      },
+      {
+        "image_id": "R8-C1-M2",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M2/stages/repair-2/manifest.json",
+        "sha256": "4cee838d80274398fa30bfed2577d3069691d42b9d7a9448be523baa3eed8436",
+        "read": true
+      },
+      {
+        "image_id": "R8-C1-M3",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/repair-2/manifest.json",
+        "sha256": "81f462629ba002c0a9b08380c1447c152933846439426cf5e9382fc7f480504b",
+        "read": true
+      },
+      {
+        "image_id": "R8-C1-M4",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/manifest.json",
+        "sha256": "689411e8cb07943551d89334cab65d1e8c382cc5c8ab9bb63a8ddc289d8c578f",
+        "read": true
+      },
+      {
+        "image_id": "R8-C1-M5",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M5/stages/repair-2/manifest.json",
+        "sha256": "85583f25dcbe707dcfca3632cf03c40c6597b8f134f5fa4696ef3ad6141236b7",
+        "read": true
+      }
+    ],
+    "normalization": "nfc-ws-optical-v1",
+    "revisits_count": 0
+  },
+  "viewed": [
+    {
+      "image_id": "R8-C1-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M1/stages/repair-2/original.png",
+      "sha256": "c8b71c265a6136da644ea933a684b1cf8c340e0005c22cf9ba61f3f485ff435b"
+    },
+    {
+      "image_id": "R8-C1-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M1/stages/repair-2/usage-720.png",
+      "sha256": "43fd93829c029d767407ac8920dfe81bd6748d0c39a0f3ab061d368e74e00cca"
+    },
+    {
+      "image_id": "R8-C1-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M1/stages/repair-2/thumbnail-320.png",
+      "sha256": "2e8d468019a1589df3b79dd3debfecf64d349baaab3026594646668374c33b37"
+    },
+    {
+      "image_id": "R8-C1-M2",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M2/stages/repair-2/original.png",
+      "sha256": "77344d386f09d947f53e017f19fdd0437317a430444a7270d362ffa93f93ca07"
+    },
+    {
+      "image_id": "R8-C1-M2",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M2/stages/repair-2/usage-720.png",
+      "sha256": "182549c4b00cd0051e80a20be83225866ed9898d923053439d48fb97ff75648d"
+    },
+    {
+      "image_id": "R8-C1-M2",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M2/stages/repair-2/thumbnail-320.png",
+      "sha256": "0eab0243c26216b8ffee8b0eca265d935dfbcad65f45aef957f3b973d4ce1490"
+    },
+    {
+      "image_id": "R8-C1-M3",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/repair-2/original.png",
+      "sha256": "8f9276144de298300955409ead9c90d126fd04b2cc527815ca2cccf9d11a640c"
+    },
+    {
+      "image_id": "R8-C1-M3",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/repair-2/usage-720.png",
+      "sha256": "c6b018f7da66d2d70f49ff90482357309329003f62e45c3628a2d0c0e4fca59c"
+    },
+    {
+      "image_id": "R8-C1-M3",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/repair-2/thumbnail-320.png",
+      "sha256": "c2c0b169e0aff755b7825a7c255ed4302776f2d9d135ab152091a186db9f7c2f"
+    },
+    {
+      "image_id": "R8-C1-M4",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/original.png",
+      "sha256": "59d95c31f28ff3d4c37e3228ac7e1ecfb15d95b18ca2805a24040fd2c39ae8fe"
+    },
+    {
+      "image_id": "R8-C1-M4",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/usage-720.png",
+      "sha256": "9c93afec6fe7186cf3ebed36ae425f30be69d9864ffc187b2e4b267838707a45"
+    },
+    {
+      "image_id": "R8-C1-M4",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M4/stages/repair-1/thumbnail-320.png",
+      "sha256": "eabaaad8fed534cd1b5a6958d4aaec45e410902378d47f85663248ae655fb654"
+    },
+    {
+      "image_id": "R8-C1-M5",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M5/stages/repair-2/original.png",
+      "sha256": "844e6affbaeebb23a9ec5920fefb7f06a6f40913a1f53607511ef52ecc2f4748"
+    },
+    {
+      "image_id": "R8-C1-M5",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M5/stages/repair-2/usage-720.png",
+      "sha256": "27d85883a57962a739469e3c44b4b32357d6d59e0fae1ee0c697b6b7cf754186"
+    },
+    {
+      "image_id": "R8-C1-M5",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M5/stages/repair-2/thumbnail-320.png",
+      "sha256": "de2c89eec1aad1a4551d1058de8a8ec30a1aa0b1d232b41eff5b8c61fe9edf7d"
+    }
+  ],
+  "images": {
+    "R8-C1-M1": {
+      "image_id": "R8-C1-M1",
+      "role": "R8-C1-M1",
+      "stage": "repair-2",
+      "case_id": "R8-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "middle left, two-line orange title",
+              "required": "한 번 더 쓰는 하루",
+              "raw_observed": "한 번 더\n쓰는 하루",
+              "normalized_required": "한 번 더 쓰는 하루",
+              "normalized_observed": "한 번 더 쓰는 하루",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the soft wrap is retained in raw_observed. fixed_newlines is false, so comparison collapses the wrap to a word space. All words and punctuation remain present."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper right, first black line",
+              "required": "동네 수선·교환 모임",
+              "raw_observed": "동네 수선·교환 모임",
+              "normalized_required": "동네 수선·교환 모임",
+              "normalized_observed": "동네 수선·교환 모임",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper right, second black line",
+              "required": "2026.11.14 토요일",
+              "raw_observed": "2026.11.14 토요일",
+              "normalized_required": "2026.11.14 토요일",
+              "normalized_observed": "2026.11.14 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper right, third black line",
+              "required": "13:00–17:00",
+              "raw_observed": "13:00–17:00",
+              "normalized_required": "13:00–17:00",
+              "normalized_observed": "13:00–17:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper right, fourth black line",
+              "required": "연희 생활센터",
+              "raw_observed": "연희 생활센터",
+              "normalized_required": "연희 생활센터",
+              "normalized_observed": "연희 생활센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower left, first participation line",
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "raw_observed": "고칠 물건 하나, 바꿀 물건 하나",
+              "normalized_required": "고칠 물건 하나, 바꿀 물건 하나",
+              "normalized_observed": "고칠 물건 하나, 바꿀 물건 하나",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower left, second participation line",
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "raw_observed": "작은 옷 수선 · 생활물건 교환",
+              "normalized_required": "작은 옷 수선·생활물건 교환",
+              "normalized_observed": "작은 옷 수선·생활물건 교환",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 7,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower left, third participation line",
+              "required": "참가비 없음",
+              "raw_observed": "참가비 없음",
+              "normalized_required": "참가비 없음",
+              "normalized_observed": "참가비 없음",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 8,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower left, orange closing line",
+              "required": "천천히 들러요",
+              "raw_observed": "천천히 들러요",
+              "normalized_required": "천천히 들러요",
+              "normalized_observed": "천천히 들러요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "copy_entry_occurrences": [
+            {
+              "copy_index": 0,
+              "required": "한 번 더 쓰는 하루",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 1,
+              "required": "동네 수선·교환 모임",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 2,
+              "required": "2026.11.14 토요일",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 3,
+              "required": "13:00–17:00",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 4,
+              "required": "연희 생활센터",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 5,
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 6,
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 7,
+              "required": "참가비 없음",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 8,
+              "required": "천천히 들러요",
+              "observed_count": 1
+            }
+          ],
+          "extra_copy_observed": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole poster and nine located copy entries",
+              "observation": "Each of the nine supplied entries is present once; no other readable copy, logo or watermark is visible. Soft wraps and optical dot spaces are retained in the separate raw/layout records."
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "덕테이프 포스터로 동네 수선·교환 모임 포스터를 만들어줘. 처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 서로 다른 스타일 다섯 장을 세로 2:3으로 만들어줘. 스타일은 맡길게. 아래 문구만 넣고, 일정·장소·참여 안내가 실제 포스터에서 잘 읽혀야 해.\n\n한 번 더 쓰는 하루\n동네 수선·교환 모임\n2026.11.14 토요일\n13:00–17:00\n연희 생활센터\n고칠 물건 하나, 바꿀 물건 하나\n작은 옷 수선 · 생활물건 교환\n참가비 없음\n천천히 들러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 스타일은 맡길게.\"}\n\nLiteral mandatory client conditions:\nPrint each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.\nEach output is a separate single flat opaque poster, portrait 2:3.\nFive genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.\nUse a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.\nNeighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "upper-right information block and lower-left participation block",
+              "observation": "The event name, date, time and venue are dark on the pale tabletop. The bring-one/change-one instruction, activity description, free-entry line and invitation remain readable without zooming."
+            },
+            {
+              "view": "native",
+              "location": "whole photographic composition",
+              "observation": "The two hand-and-object encounters give the repair/exchange purpose a specific human form. A pale tabletop, restrained orange emphasis and close contact with ordinary used objects communicate patient, approachable participation."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "whole composition relative to M2–M5",
+              "observation": "The title sits midway down the left side, logistics at upper right and participation at lower left, within one continuous photographic tabletop. This differs from M2's central banner, M3's sewn textile field, M4's object grid/footer title and M5's framed narrative panels."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "requested_ratio": [
+            2,
+            3
+          ],
+          "policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "integer_rounding_used": false,
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper-left clothing repair and lower-right book between hands",
+              "observation": "Hands work at the frayed edge of a striped garment; another pair of hands meets on a visibly worn book. These are large, legible repair and transfer subjects, occupying the composition rather than small decorative marks."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper-left clothing repair and lower-right book between hands",
+              "observation": "Hands work at the frayed edge of a striped garment; another pair of hands meets on a visibly worn book. These are large, legible repair and transfer subjects, occupying the composition rather than small decorative marks."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 5,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "upper-left frayed striped garment",
+            "observation": "Visible thread, a button, fabric wear and fingers working at the garment edge communicate an actual small repair rather than merely displaying sewing equipment."
+          },
+          {
+            "view": "native",
+            "location": "lower-right book and two hands entering from different edges",
+            "observation": "The shared grip on the worn book supplies a readable object-transfer relationship. Together with the garment action it specifically joins both halves of the repair/exchange brief; no claim about unseen identities or the direction of transfer is needed."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "upper-right event/date/time/venue block",
+            "observation": "The four short lines form an easily scanned practical-information unit. The event is identified before the reader needs to decode the surrounding photograph."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "orange title at middle left and orange invitation at lower left",
+            "observation": "Color connects the title and invitation across the page. The title is displaced from the top, so the sequence is less linear, but the separated black logistics and lower participation text still remain distinct."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "middle-left two-line title and upper-right logistics",
+            "observation": "Intact Hangul, deliberate word spaces and a soft title wrap after '더' survive in the first reading. Date dots, time colons and the range dash are visible."
+          },
+          {
+            "view": "usage720",
+            "location": "lower-left four-line participation group",
+            "observation": "The smaller activity line stays legible on the light tabletop; the two orange lines use larger weight/size without displacing the supplied body copy."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "open tabletop between the two cropped actions",
+            "observation": "The large pale center gives the offset title room while the upper-left garment and lower-right book make a diagonal relationship across it."
+          },
+          {
+            "view": "usage720",
+            "location": "right information block and left lower copy margins",
+            "observation": "Practical text occupies clear tabletop areas with consistent inset edges. No hand, book edge or thread crosses the required text."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "striped garment cuff, thread and book cover",
+            "observation": "Fabric stripe direction, frayed fibers, button holes, book corners and page block are locally legible; grayscale lighting holds both material subjects in one tabletop setting."
+          },
+          {
+            "view": "native",
+            "location": "hands at top and bottom of the photograph",
+            "observation": "Visible finger joints and contact shadows make the object grips coherent. The tight crops reduce context but do not conceal the repair subject or the book contact."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "native",
+            "location": "hands and worn everyday objects",
+            "observation": "The close, careful hand work and shared contact with a used book convey care rather than urgency. Wear is presented as something worth keeping."
+          },
+          {
+            "view": "usage720",
+            "location": "orange title and closing invitation",
+            "observation": "The warm emphasis on '천천히 들러요' supports the client's low-pressure invitation while the dark practical copy remains straightforward."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "whole tabletop and object encounters",
+            "observation": "The pictured objects and actions all relate to reuse, repair or transfer. The surface marks and loose thread belong to the scene rather than appearing as unrelated symbolic decoration."
+          },
+          {
+            "view": "usage720",
+            "location": "all copy regions",
+            "observation": "There are no visible added slogans, logos, watermarks or random letterforms. Material detail does not spread over or corrupt the copy."
+          }
+        ]
+      },
+      "residuals": [
+        "The title is midway down the left side, so the reading path is distributed rather than a single top-to-bottom column; the practical blocks remain clear."
+      ],
+      "conditions": [
+        {
+          "checked_requirement": "Print each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "nine copy entries across the poster",
+              "observation": "All nine entries are observed once and compare equal under nfc-ws-optical-v1. No extra readable words, logos or watermark are visible."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Each output is a separate single flat opaque poster, portrait 2:3.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "entire PNG canvas",
+              "observation": "This is one standalone poster canvas, not a photographed mockup. Actual PNG dimensions are 1024×1536, mathematically 2:3; native PNG color type is RGB (2) without a tRNS chunk."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Five genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "whole composition relative to M2–M5",
+              "observation": "The title sits midway down the left side, logistics at upper right and participation at lower left, within one continuous photographic tabletop. This differs from M2's central banner, M3's sewn textile field, M4's object grid/footer title and M5's framed narrative panels."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Use a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper-left clothing repair and lower-right book between hands",
+              "observation": "Hands work at the frayed edge of a striped garment; another pair of hands meets on a visibly worn book. These are large, legible repair and transfer subjects, occupying the composition rather than small decorative marks."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Neighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "upper-right information block and lower-left participation block",
+              "observation": "The event name, date, time and venue are dark on the pale tabletop. The bring-one/change-one instruction, activity description, free-entry line and invitation remain readable without zooming."
+            },
+            {
+              "view": "native",
+              "location": "whole photographic composition",
+              "observation": "The two hand-and-object encounters give the repair/exchange purpose a specific human form. A pale tabletop, restrained orange emphasis and close contact with ordinary used objects communicate patient, approachable participation."
+            }
+          ]
+        }
+      ]
+    },
+    "R8-C1-M2": {
+      "image_id": "R8-C1-M2",
+      "role": "R8-C1-M2",
+      "stage": "repair-2",
+      "case_id": "R8-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, small blue title",
+              "required": "한 번 더 쓰는 하루",
+              "raw_observed": "한 번 더 쓰는 하루",
+              "normalized_required": "한 번 더 쓰는 하루",
+              "normalized_observed": "한 번 더 쓰는 하루",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "middle, large white event-name band",
+              "required": "동네 수선·교환 모임",
+              "raw_observed": "동네 수선·교환 모임",
+              "normalized_required": "동네 수선·교환 모임",
+              "normalized_observed": "동네 수선·교환 모임",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, first dark logistics line",
+              "required": "2026.11.14 토요일",
+              "raw_observed": "2026.11.14 토요일",
+              "normalized_required": "2026.11.14 토요일",
+              "normalized_observed": "2026.11.14 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, second dark logistics line",
+              "required": "13:00–17:00",
+              "raw_observed": "13:00–17:00",
+              "normalized_required": "13:00–17:00",
+              "normalized_observed": "13:00–17:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, third dark logistics line",
+              "required": "연희 생활센터",
+              "raw_observed": "연희 생활센터",
+              "normalized_required": "연희 생활센터",
+              "normalized_observed": "연희 생활센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower right, two-line instruction",
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "raw_observed": "고칠 물건 하나,\n바꿀 물건 하나",
+              "normalized_required": "고칠 물건 하나, 바꿀 물건 하나",
+              "normalized_observed": "고칠 물건 하나, 바꿀 물건 하나",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the soft wrap is retained in raw_observed. fixed_newlines is false, so comparison collapses the wrap to a word space. All words and punctuation remain present."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower right, smaller activity line",
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "raw_observed": "작은 옷 수선 · 생활물건 교환",
+              "normalized_required": "작은 옷 수선·생활물건 교환",
+              "normalized_observed": "작은 옷 수선·생활물건 교환",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 7,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower left, large blue fee line",
+              "required": "참가비 없음",
+              "raw_observed": "참가비 없음",
+              "normalized_required": "참가비 없음",
+              "normalized_observed": "참가비 없음",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 8,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower left, dark closing line",
+              "required": "천천히 들러요",
+              "raw_observed": "천천히 들러요",
+              "normalized_required": "천천히 들러요",
+              "normalized_observed": "천천히 들러요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "copy_entry_occurrences": [
+            {
+              "copy_index": 0,
+              "required": "한 번 더 쓰는 하루",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 1,
+              "required": "동네 수선·교환 모임",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 2,
+              "required": "2026.11.14 토요일",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 3,
+              "required": "13:00–17:00",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 4,
+              "required": "연희 생활센터",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 5,
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 6,
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 7,
+              "required": "참가비 없음",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 8,
+              "required": "천천히 들러요",
+              "observed_count": 1
+            }
+          ],
+          "extra_copy_observed": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole poster and nine located copy entries",
+              "observation": "Each of the nine supplied entries is present once; no other readable copy, logo or watermark is visible. Soft wraps and optical dot spaces are retained in the separate raw/layout records."
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "덕테이프 포스터로 동네 수선·교환 모임 포스터를 만들어줘. 처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 서로 다른 스타일 다섯 장을 세로 2:3으로 만들어줘. 스타일은 맡길게. 아래 문구만 넣고, 일정·장소·참여 안내가 실제 포스터에서 잘 읽혀야 해.\n\n한 번 더 쓰는 하루\n동네 수선·교환 모임\n2026.11.14 토요일\n13:00–17:00\n연희 생활센터\n고칠 물건 하나, 바꿀 물건 하나\n작은 옷 수선 · 생활물건 교환\n참가비 없음\n천천히 들러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 스타일은 맡길게.\"}\n\nLiteral mandatory client conditions:\nPrint each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.\nEach output is a separate single flat opaque poster, portrait 2:3.\nFive genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.\nUse a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.\nNeighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "upper-left logistics, central event name and bottom participation copy",
+              "observation": "The date/time/venue block is large and clear. The dominant central event name identifies the meeting, and both bottom participation groups are legible."
+            },
+            {
+              "view": "native",
+              "location": "blue diagonal composition with white hands and everyday objects",
+              "observation": "Bold blue and cream shapes give an energetic public invitation. Opposing hand gestures and the repaired garment connect that energy to the neighborhood repair/exchange purpose."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "whole composition relative to M1–M5",
+              "observation": "The huge white event name cuts across a blue central band, with illustrated transfers above and below. The event label is the main typographic anchor, unlike the other members' title-led or panel-led systems."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "requested_ratio": [
+            2,
+            3
+          ],
+          "policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "integer_rounding_used": false,
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper book transfer and lower patched garment between hands",
+              "observation": "Two large illustrated hand/object encounters show a book and a folded garment with a stitched square patch. They give reuse/exchange and clothing repair substantial visual content."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper book transfer and lower patched garment between hands",
+              "observation": "Two large illustrated hand/object encounters show a book and a folded garment with a stitched square patch. They give reuse/exchange and clothing repair substantial visual content."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 5,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "upper-right and middle-left hands surrounding the book",
+            "observation": "The opposing grips make sharing an ordinary usable object immediately intelligible. The book is a complete, substantial subject."
+          },
+          {
+            "view": "native",
+            "location": "lower garment with outlined neck and stitched patch",
+            "observation": "The patch and seam marks make the garment's repair status visible. The two object encounters connect repair and exchange within one graphic system."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "thumbnail320",
+            "location": "central white event-name band",
+            "observation": "'동네 수선·교환 모임' is the unmistakable first large text anchor even at the smallest supplied view. This directly answers the first-time viewer's question about the event."
+          },
+          {
+            "view": "usage720",
+            "location": "top-left logistics and two lower copy groups",
+            "observation": "Date, time and venue are stacked together; the bring-one/change-one instruction and free invitation occupy separate readable bottom areas. The large type keeps practical participation information unusually accessible."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "large central event name and upper-left title",
+            "observation": "Heavy Hangul retains distinct counters and intact syllable forms. The small title remains subordinate to the event name rather than competing at its size."
+          },
+          {
+            "view": "usage720",
+            "location": "bottom-right wrapped instruction and smaller activity line",
+            "observation": "The comma is retained at the end of the first instruction line; wrapping does not remove words. The single activity line is smaller but readable. Pale offset edges around some bold type are visible at native scale without preventing reading."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "diagonal blue/cream fields and central band",
+            "observation": "The diagonal fields carry the hands across the composition and make a clear uninterrupted slot for the huge event label."
+          },
+          {
+            "view": "usage720",
+            "location": "bottom-left free/invitation block and bottom-right bring/activity block",
+            "observation": "Both groups occupy the cream gaps around the lower garment. The right activity line approaches the edge more closely than the other blocks but remains inside the canvas and uncropped."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "book edge, page lines and hand outlines",
+            "observation": "Flat fills, dark contours and straight page lines form a consistent illustration language; the fingers remain distinguishable against the blue book."
+          },
+          {
+            "view": "native",
+            "location": "folded garment, cuffs and patch stitches",
+            "observation": "The garment's folded layers and the opposing sleeve cuffs remain readable with the same line treatment. Local simplification is coherent with this flat graphic style."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "thumbnail320",
+            "location": "blue diagonal field and large white event label",
+            "observation": "The high-contrast composition feels lively and public-facing, appropriate to an easy-to-find community meeting."
+          },
+          {
+            "view": "usage720",
+            "location": "ordinary object gestures and prominent free-entry invitation",
+            "observation": "Shared handling of familiar belongings makes the energetic graphic feel participatory; the conspicuous fee-free invitation lowers the threshold to attend."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "whole illustrated composition",
+            "observation": "The repeated hands have distinct roles around the two objects, and the garment's patch supplies a content-specific detail. There are no unrelated floating icons or invented labels."
+          },
+          {
+            "view": "usage720",
+            "location": "type and contour boundaries",
+            "observation": "The major fills and outlines remain closed and readable. Slight pale typographic offsets are a visible finish limitation, but they do not turn into broken words or stray copy."
+          }
+        ]
+      },
+      "residuals": [
+        "Some bold type has pale offset edges at native scale, and the lower-right activity line has a comparatively tight right margin; both remain readable at usage720."
+      ],
+      "conditions": [
+        {
+          "checked_requirement": "Print each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "nine copy entries across the poster",
+              "observation": "All nine entries are observed once and compare equal under nfc-ws-optical-v1. No extra readable words, logos or watermark are visible."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Each output is a separate single flat opaque poster, portrait 2:3.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "entire PNG canvas",
+              "observation": "This is one standalone poster canvas, not a photographed mockup. Actual PNG dimensions are 1024×1536, mathematically 2:3; native PNG color type is RGB (2) without a tRNS chunk."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Five genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "whole composition relative to M1–M5",
+              "observation": "The huge white event name cuts across a blue central band, with illustrated transfers above and below. The event label is the main typographic anchor, unlike the other members' title-led or panel-led systems."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Use a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper book transfer and lower patched garment between hands",
+              "observation": "Two large illustrated hand/object encounters show a book and a folded garment with a stitched square patch. They give reuse/exchange and clothing repair substantial visual content."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Neighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "upper-left logistics, central event name and bottom participation copy",
+              "observation": "The date/time/venue block is large and clear. The dominant central event name identifies the meeting, and both bottom participation groups are legible."
+            },
+            {
+              "view": "native",
+              "location": "blue diagonal composition with white hands and everyday objects",
+              "observation": "Bold blue and cream shapes give an energetic public invitation. Opposing hand gestures and the repaired garment connect that energy to the neighborhood repair/exchange purpose."
+            }
+          ]
+        }
+      ]
+    },
+    "R8-C1-M3": {
+      "image_id": "R8-C1-M3",
+      "role": "R8-C1-M3",
+      "stage": "repair-2",
+      "case_id": "R8-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top, large dark title",
+              "required": "한 번 더 쓰는 하루",
+              "raw_observed": "한 번 더 쓰는 하루",
+              "normalized_required": "한 번 더 쓰는 하루",
+              "normalized_observed": "한 번 더 쓰는 하루",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top, centered event subtitle",
+              "required": "동네 수선·교환 모임",
+              "raw_observed": "동네 수선 · 교환 모임",
+              "normalized_required": "동네 수선·교환 모임",
+              "normalized_observed": "동네 수선·교환 모임",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right center, first logistics line",
+              "required": "2026.11.14 토요일",
+              "raw_observed": "2026.11.14 토요일",
+              "normalized_required": "2026.11.14 토요일",
+              "normalized_observed": "2026.11.14 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right center, second logistics line",
+              "required": "13:00–17:00",
+              "raw_observed": "13:00–17:00",
+              "normalized_required": "13:00–17:00",
+              "normalized_observed": "13:00–17:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right center, third logistics line",
+              "required": "연희 생활센터",
+              "raw_observed": "연희 생활센터",
+              "normalized_required": "연희 생활센터",
+              "normalized_observed": "연희 생활센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "middle right, first participation line",
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "raw_observed": "고칠 물건 하나, 바꿀 물건 하나",
+              "normalized_required": "고칠 물건 하나, 바꿀 물건 하나",
+              "normalized_observed": "고칠 물건 하나, 바꿀 물건 하나",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "middle right, second participation line",
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "raw_observed": "작은 옷 수선 · 생활물건 교환",
+              "normalized_required": "작은 옷 수선·생활물건 교환",
+              "normalized_observed": "작은 옷 수선·생활물건 교환",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 7,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower right, first closing line",
+              "required": "참가비 없음",
+              "raw_observed": "참가비 없음",
+              "normalized_required": "참가비 없음",
+              "normalized_observed": "참가비 없음",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 8,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower right, second closing line",
+              "required": "천천히 들러요",
+              "raw_observed": "천천히 들러요",
+              "normalized_required": "천천히 들러요",
+              "normalized_observed": "천천히 들러요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "copy_entry_occurrences": [
+            {
+              "copy_index": 0,
+              "required": "한 번 더 쓰는 하루",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 1,
+              "required": "동네 수선·교환 모임",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 2,
+              "required": "2026.11.14 토요일",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 3,
+              "required": "13:00–17:00",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 4,
+              "required": "연희 생활센터",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 5,
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 6,
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 7,
+              "required": "참가비 없음",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 8,
+              "required": "천천히 들러요",
+              "observed_count": 1
+            }
+          ],
+          "extra_copy_observed": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole poster and nine located copy entries",
+              "observation": "Each of the nine supplied entries is present once; no other readable copy, logo or watermark is visible. Soft wraps and optical dot spaces are retained in the separate raw/layout records."
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "덕테이프 포스터로 동네 수선·교환 모임 포스터를 만들어줘. 처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 서로 다른 스타일 다섯 장을 세로 2:3으로 만들어줘. 스타일은 맡길게. 아래 문구만 넣고, 일정·장소·참여 안내가 실제 포스터에서 잘 읽혀야 해.\n\n한 번 더 쓰는 하루\n동네 수선·교환 모임\n2026.11.14 토요일\n13:00–17:00\n연희 생활센터\n고칠 물건 하나, 바꿀 물건 하나\n작은 옷 수선 · 생활물건 교환\n참가비 없음\n천천히 들러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 스타일은 맡길게.\"}\n\nLiteral mandatory client conditions:\nPrint each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.\nEach output is a separate single flat opaque poster, portrait 2:3.\nFive genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.\nUse a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.\nNeighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "top heading, right-side logistics and participation groups",
+              "observation": "All required copy is readable over the pale fabric. The event label explains repair/exchange, with date, time and venue in a separate practical block."
+            },
+            {
+              "view": "native",
+              "location": "terracotta/cream fabric join and stitched patch",
+              "observation": "The repaired cloth makes 'using again' tangible. Warm material colors and an unhurried arrangement create an approachable craft-oriented public-event tone."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "whole composition relative to M1–M5",
+              "observation": "A sweeping sewn boundary and patched cloth carry the image role, with a serif-like title above a right-side sequence of information. This is a distinct material-and-layout system rather than the photographic action, blue transfer graphics, object grid or comic panels of the other members."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "requested_ratio": [
+            2,
+            3
+          ],
+          "policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "integer_rounding_used": false,
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "large curved diagonal fabric join and lower-left square patch",
+              "observation": "Two differently colored fabric regions are visibly joined by substantial raised stitches, with frayed edges and a square sewn patch. The seam and patch form a large content-bearing repair construction, not just a background weave texture."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "large curved diagonal fabric join and lower-left square patch",
+              "observation": "Two differently colored fabric regions are visibly joined by substantial raised stitches, with frayed edges and a square sewn patch. The seam and patch form a large content-bearing repair construction, not just a background weave texture."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "diagonal seam and stitched square patch",
+            "observation": "The main image is itself a repair: the broad stitched join and added fabric patch concretely express continued use and clothing mending."
+          },
+          {
+            "view": "usage720",
+            "location": "event name and activity description on cream fabric",
+            "observation": "Exchange is communicated by the supplied event name and body text rather than a separate pictured exchange encounter. The repair emphasis is specific and resolved, while the image's range is narrower than M1 or M5."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "thumbnail320",
+            "location": "top title/subtitle and staggered groups below",
+            "observation": "The large top title leads to the event label; date/time/venue, bring/activity lines and fee/invitation then remain separated down the light field."
+          },
+          {
+            "view": "usage720",
+            "location": "right-center logistics block",
+            "observation": "Large dark short lines make date, time and venue easy to find despite the busy fabric material. They do not merge with the nearby seam."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "top title and event subtitle",
+            "observation": "The title's contrasting serif-like Hangul treatment separates it from the dark supporting sans type. Word spaces and the event-name middle dot remain visible."
+          },
+          {
+            "view": "usage720",
+            "location": "right-side participation and closing lines",
+            "observation": "The longer bring instruction and activity line remain intact on single lines; the larger fee/invitation pair is clearly readable. The optical spacing around middle dots is recorded separately from word fidelity."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "curved terracotta/cream boundary beside the text",
+            "observation": "The seam progressively changes the usable pale area, and the text groups are fitted into that widening field without sitting on the dark fabric."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "gaps between heading, logistics, participation and closing group",
+            "observation": "The intervals make four discernible information clusters rather than a single dense paragraph. The lower-left patch balances the final right-side copy."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "fabric weave, frayed joined edges and raised stitches",
+            "observation": "The weave, folds and raised thread shadows create a coherent tactile cloth surface. The large join remains readable even where the stitch spacing is irregular."
+          },
+          {
+            "view": "native",
+            "location": "lower-left square repair patch",
+            "observation": "The patch has a distinct cut edge and surrounding stitches, supporting the depicted repair rather than merely repeating the fabric color."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "warm terracotta/cream materials and dark copy",
+            "observation": "The textile warmth and patient spacing produce a calm, approachable craft impression suitable for stopping by a local meeting."
+          },
+          {
+            "view": "native",
+            "location": "visible imperfect mending alongside the invitation",
+            "observation": "The hand-worked appearance makes repair feel attainable rather than precious; the plainly stated free entry and slow invitation reinforce accessibility."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "seam, patch and entire fabric field",
+            "observation": "The detailed thread and fraying are concentrated on the repair boundaries. The visual contains no unrelated object collage, arbitrary badges or added alphabetic fragments."
+          },
+          {
+            "view": "usage720",
+            "location": "whole copy-bearing pale region",
+            "observation": "Dark letterforms stay intact despite the woven texture; there are no visible duplicate supplied entries, logos or watermarks."
+          }
+        ]
+      },
+      "residuals": [
+        "The image directly depicts repair; exchange is carried by the event name and participation copy rather than a pictured transfer."
+      ],
+      "conditions": [
+        {
+          "checked_requirement": "Print each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "nine copy entries across the poster",
+              "observation": "All nine entries are observed once and compare equal under nfc-ws-optical-v1. No extra readable words, logos or watermark are visible."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Each output is a separate single flat opaque poster, portrait 2:3.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "entire PNG canvas",
+              "observation": "This is one standalone poster canvas, not a photographed mockup. Actual PNG dimensions are 1024×1536, mathematically 2:3; native PNG color type is RGB (2) without a tRNS chunk."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Five genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "whole composition relative to M1–M5",
+              "observation": "A sweeping sewn boundary and patched cloth carry the image role, with a serif-like title above a right-side sequence of information. This is a distinct material-and-layout system rather than the photographic action, blue transfer graphics, object grid or comic panels of the other members."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Use a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "large curved diagonal fabric join and lower-left square patch",
+              "observation": "Two differently colored fabric regions are visibly joined by substantial raised stitches, with frayed edges and a square sewn patch. The seam and patch form a large content-bearing repair construction, not just a background weave texture."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Neighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "top heading, right-side logistics and participation groups",
+              "observation": "All required copy is readable over the pale fabric. The event label explains repair/exchange, with date, time and venue in a separate practical block."
+            },
+            {
+              "view": "native",
+              "location": "terracotta/cream fabric join and stitched patch",
+              "observation": "The repaired cloth makes 'using again' tangible. Warm material colors and an unhurried arrangement create an approachable craft-oriented public-event tone."
+            }
+          ]
+        }
+      ]
+    },
+    "R8-C1-M4": {
+      "image_id": "R8-C1-M4",
+      "role": "R8-C1-M4",
+      "stage": "repair-1",
+      "case_id": "R8-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom, oversized black title",
+              "required": "한 번 더 쓰는 하루",
+              "raw_observed": "한 번 더 쓰는 하루",
+              "normalized_required": "한 번 더 쓰는 하루",
+              "normalized_observed": "한 번 더 쓰는 하루",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom, black event descriptor to left of blue rule",
+              "required": "동네 수선·교환 모임",
+              "raw_observed": "동네 수선 · 교환 모임",
+              "normalized_required": "동네 수선·교환 모임",
+              "normalized_observed": "동네 수선·교환 모임",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, first logistics line",
+              "required": "2026.11.14 토요일",
+              "raw_observed": "2026.11.14 토요일",
+              "normalized_required": "2026.11.14 토요일",
+              "normalized_observed": "2026.11.14 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, second logistics line",
+              "required": "13:00–17:00",
+              "raw_observed": "13:00–17:00",
+              "normalized_required": "13:00–17:00",
+              "normalized_observed": "13:00–17:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, third logistics line",
+              "required": "연희 생활센터",
+              "raw_observed": "연희 생활센터",
+              "normalized_required": "연희 생활센터",
+              "normalized_observed": "연희 생활센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "middle right, two-line blue-box instruction",
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "raw_observed": "고칠 물건 하나,\n바꿀 물건 하나",
+              "normalized_required": "고칠 물건 하나, 바꿀 물건 하나",
+              "normalized_observed": "고칠 물건 하나, 바꿀 물건 하나",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the soft wrap is retained in raw_observed. fixed_newlines is false, so comparison collapses the wrap to a word space. All words and punctuation remain present."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "middle right, activity line below blue box",
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "raw_observed": "작은 옷 수선 · 생활물건 교환",
+              "normalized_required": "작은 옷 수선·생활물건 교환",
+              "normalized_observed": "작은 옷 수선·생활물건 교환",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 7,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom, blue fee line to right of separator",
+              "required": "참가비 없음",
+              "raw_observed": "참가비 없음",
+              "normalized_required": "참가비 없음",
+              "normalized_observed": "참가비 없음",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 8,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom center, small closing line",
+              "required": "천천히 들러요",
+              "raw_observed": "천천히 들러요",
+              "normalized_required": "천천히 들러요",
+              "normalized_observed": "천천히 들러요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "copy_entry_occurrences": [
+            {
+              "copy_index": 0,
+              "required": "한 번 더 쓰는 하루",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 1,
+              "required": "동네 수선·교환 모임",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 2,
+              "required": "2026.11.14 토요일",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 3,
+              "required": "13:00–17:00",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 4,
+              "required": "연희 생활센터",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 5,
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 6,
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 7,
+              "required": "참가비 없음",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 8,
+              "required": "천천히 들러요",
+              "observed_count": 1
+            }
+          ],
+          "extra_copy_observed": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole poster and nine located copy entries",
+              "observation": "Each of the nine supplied entries is present once; no other readable copy, logo or watermark is visible. Soft wraps and optical dot spaces are retained in the separate raw/layout records."
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "덕테이프 포스터로 동네 수선·교환 모임 포스터를 만들어줘. 처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 서로 다른 스타일 다섯 장을 세로 2:3으로 만들어줘. 스타일은 맡길게. 아래 문구만 넣고, 일정·장소·참여 안내가 실제 포스터에서 잘 읽혀야 해.\n\n한 번 더 쓰는 하루\n동네 수선·교환 모임\n2026.11.14 토요일\n13:00–17:00\n연희 생활센터\n고칠 물건 하나, 바꿀 물건 하나\n작은 옷 수선 · 생활물건 교환\n참가비 없음\n천천히 들러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 스타일은 맡길게.\"}\n\nLiteral mandatory client conditions:\nPrint each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.\nEach output is a separate single flat opaque poster, portrait 2:3.\nFive genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.\nUse a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.\nNeighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "upper-left date/time/venue and central participation block",
+              "observation": "The logistics are immediately readable. The blue bring-one/change-one box and activity line supply clear practical participation guidance; the fee and invitation remain visible at the bottom."
+            },
+            {
+              "view": "native",
+              "location": "familiar worn objects on a light page",
+              "observation": "The patched shirt and ordinary reusable belongings communicate the neighborhood purpose without needing an unexplained symbol. The open light field and plain wording keep the invitation accessible."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "object arrangement and large footer title relative to M1–M5",
+              "observation": "The oversized title anchors the foot of an object catalog, while logistics start at the upper left and the bring instruction sits between objects. This differs in viewpoint, information structure and image/type role from the other four systems."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "requested_ratio": [
+            2,
+            3
+          ],
+          "policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "integer_rounding_used": false,
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "large blue patched shirt, yellow book, red mug and green bag",
+              "observation": "Four substantial recognizable belongings occupy most of the page. The shirt's sewn plaid patch specifically shows repair, while the worn book, mug and bag give concrete examples of household objects for continued use or exchange."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "large blue patched shirt, yellow book, red mug and green bag",
+              "observation": "Four substantial recognizable belongings occupy most of the page. The shirt's sewn plaid patch specifically shows repair, while the worn book, mug and bag give concrete examples of household objects for continued use or exchange."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "upper-right blue shirt with plaid square patch",
+            "observation": "The stitching around the square patch and along the shirt area gives a direct mending cue rather than an unmodified fashion image."
+          },
+          {
+            "view": "native",
+            "location": "left yellow book/red mug and lower-right green shoulder bag",
+            "observation": "The everyday usable objects support the household-exchange description. This is a concrete inventory of things someone might bring, though it does not picture the social exchange itself."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "upper-left logistics and blue central instruction box",
+            "observation": "Both the when/where details and what-to-bring instruction are large, distinct and readable. The light-blue box adds a second clear functional anchor."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "large bottom title and event/fee row beneath it",
+            "observation": "The main title is at the foot, below the object grid; the event descriptor and free-entry line remain visible there. This makes the object display an earlier visual entry point, but the complete event information is still easy to locate."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "large bottom title, event/fee row and top logistics",
+            "observation": "The bold Hangul has intact syllable shapes and clear numeric punctuation. The blue vertical separator in the bottom row is a layout rule between two separate copy entries, not an added word."
+          },
+          {
+            "view": "usage720",
+            "location": "central wrapped instruction, activity line and bottom invitation",
+            "observation": "The comma survives the two-line instruction wrap. The activity line and smaller invitation remain readable; the largest title has tight side margins but is not cropped."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "two-column object arrangement around the central copy slot",
+            "observation": "The book/mug left column and shirt/bag right column create a recognizable grid with a clear central space for participation copy."
+          },
+          {
+            "view": "usage720",
+            "location": "bottom title/descriptor/invitation stack",
+            "observation": "The objects stop before the large title, and the short closing line has its own bottom interval. The title is near the left/right edges, but all required words remain contained."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "shirt weave and patch, book corners, mug rim and bag strap",
+            "observation": "The different fabrics, worn cover, glazed ceramic and bag hardware remain locally distinguishable. Detail communicates reuse rather than a set of anonymous silhouettes."
+          },
+          {
+            "view": "native",
+            "location": "object silhouettes on the light field",
+            "observation": "Cut edges are clear around the mug handle and bag strap; the shirt's deliberate top/right crop is continuous with the page edge. The belongings remain visually coherent as isolated objects on one poster."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "familiar belongings and clearly stated fee-free invitation",
+            "observation": "Recognizable domestic objects and direct instructions make participation feel ordinary and attainable."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "light background with blue, yellow, red and green object accents",
+            "observation": "The varied useful objects give a friendly, colorful impression. The catalog-like distance is less socially intimate than the human encounters in M1/M5, but it remains appropriate to a public exchange invitation."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "whole object grid",
+            "observation": "Every main object has a content-grounded role; there are no floating decorative props, invented product labels or random badges."
+          },
+          {
+            "view": "usage720",
+            "location": "edges around objects and text slots",
+            "observation": "No object covers a required text line. The blue rule and blue instruction field consistently separate information rather than creating extraneous copy."
+          }
+        ]
+      },
+      "residuals": [
+        "The object display precedes the footer title, and the large title uses tight side margins. Exchange is represented by usable objects rather than a pictured handover."
+      ],
+      "conditions": [
+        {
+          "checked_requirement": "Print each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "nine copy entries across the poster",
+              "observation": "All nine entries are observed once and compare equal under nfc-ws-optical-v1. No extra readable words, logos or watermark are visible."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Each output is a separate single flat opaque poster, portrait 2:3.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "entire PNG canvas",
+              "observation": "This is one standalone poster canvas, not a photographed mockup. Actual PNG dimensions are 1024×1536, mathematically 2:3; native PNG color type is RGB (2) without a tRNS chunk."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Five genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "object arrangement and large footer title relative to M1–M5",
+              "observation": "The oversized title anchors the foot of an object catalog, while logistics start at the upper left and the bring instruction sits between objects. This differs in viewpoint, information structure and image/type role from the other four systems."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Use a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "large blue patched shirt, yellow book, red mug and green bag",
+              "observation": "Four substantial recognizable belongings occupy most of the page. The shirt's sewn plaid patch specifically shows repair, while the worn book, mug and bag give concrete examples of household objects for continued use or exchange."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Neighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "upper-left date/time/venue and central participation block",
+              "observation": "The logistics are immediately readable. The blue bring-one/change-one box and activity line supply clear practical participation guidance; the fee and invitation remain visible at the bottom."
+            },
+            {
+              "view": "native",
+              "location": "familiar worn objects on a light page",
+              "observation": "The patched shirt and ordinary reusable belongings communicate the neighborhood purpose without needing an unexplained symbol. The open light field and plain wording keep the invitation accessible."
+            }
+          ]
+        }
+      ]
+    },
+    "R8-C1-M5": {
+      "image_id": "R8-C1-M5",
+      "role": "R8-C1-M5",
+      "stage": "repair-2",
+      "case_id": "R8-C1",
+      "profile": "editorial",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, two-line large title",
+              "required": "한 번 더 쓰는 하루",
+              "raw_observed": "한 번 더\n쓰는 하루",
+              "normalized_required": "한 번 더 쓰는 하루",
+              "normalized_observed": "한 번 더 쓰는 하루",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the soft wrap is retained in raw_observed. fixed_newlines is false, so comparison collapses the wrap to a word space. All words and punctuation remain present."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, event line under curved gold rule",
+              "required": "동네 수선·교환 모임",
+              "raw_observed": "동네 수선 · 교환 모임",
+              "normalized_required": "동네 수선·교환 모임",
+              "normalized_observed": "동네 수선·교환 모임",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, first logistics line",
+              "required": "2026.11.14 토요일",
+              "raw_observed": "2026.11.14 토요일",
+              "normalized_required": "2026.11.14 토요일",
+              "normalized_observed": "2026.11.14 토요일",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, second logistics line",
+              "required": "13:00–17:00",
+              "raw_observed": "13:00–17:00",
+              "normalized_required": "13:00–17:00",
+              "normalized_observed": "13:00–17:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper left, third logistics line",
+              "required": "연희 생활센터",
+              "raw_observed": "연희 생활센터",
+              "normalized_required": "연희 생활센터",
+              "normalized_observed": "연희 생활센터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "middle right, two-line instruction",
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "raw_observed": "고칠 물건 하나,\n바꿀 물건 하나",
+              "normalized_required": "고칠 물건 하나, 바꿀 물건 하나",
+              "normalized_observed": "고칠 물건 하나, 바꿀 물건 하나",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the soft wrap is retained in raw_observed. fixed_newlines is false, so comparison collapses the wrap to a word space. All words and punctuation remain present."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "middle right, smaller activity line",
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "raw_observed": "작은 옷 수선 · 생활물건 교환",
+              "normalized_required": "작은 옷 수선·생활물건 교환",
+              "normalized_observed": "작은 옷 수선·생활물건 교환",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 7,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower left, first large closing line",
+              "required": "참가비 없음",
+              "raw_observed": "참가비 없음",
+              "normalized_required": "참가비 없음",
+              "normalized_observed": "참가비 없음",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 8,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "lower left, second large closing line",
+              "required": "천천히 들러요",
+              "raw_observed": "천천히 들러요",
+              "normalized_required": "천천히 들러요",
+              "normalized_observed": "천천히 들러요",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line in this copy entry; no fixed-newline constraint. Word spacing is retained, with only the predeclared optical exception applied around any exact middle dot."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ],
+          "copy_entry_occurrences": [
+            {
+              "copy_index": 0,
+              "required": "한 번 더 쓰는 하루",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 1,
+              "required": "동네 수선·교환 모임",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 2,
+              "required": "2026.11.14 토요일",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 3,
+              "required": "13:00–17:00",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 4,
+              "required": "연희 생활센터",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 5,
+              "required": "고칠 물건 하나, 바꿀 물건 하나",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 6,
+              "required": "작은 옷 수선 · 생활물건 교환",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 7,
+              "required": "참가비 없음",
+              "observed_count": 1
+            },
+            {
+              "copy_index": 8,
+              "required": "천천히 들러요",
+              "observed_count": 1
+            }
+          ],
+          "extra_copy_observed": [],
+          "evidence": [
+            {
+              "view": "native",
+              "location": "whole poster and nine located copy entries",
+              "observation": "Each of the nine supplied entries is present once; no other readable copy, logo or watermark is visible. Soft wraps and optical dot spaces are retained in the separate raw/layout records."
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "덕테이프 포스터로 동네 수선·교환 모임 포스터를 만들어줘. 처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 서로 다른 스타일 다섯 장을 세로 2:3으로 만들어줘. 스타일은 맡길게. 아래 문구만 넣고, 일정·장소·참여 안내가 실제 포스터에서 잘 읽혀야 해.\n\n한 번 더 쓰는 하루\n동네 수선·교환 모임\n2026.11.14 토요일\n13:00–17:00\n연희 생활센터\n고칠 물건 하나, 바꿀 물건 하나\n작은 옷 수선 · 생활물건 교환\n참가비 없음\n천천히 들러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"처음 보는 사람도 어떤 행사인지 알아보고 편하게 들를 수 있는 친근한 느낌이면 좋겠어. 스타일은 맡길게.\"}\n\nLiteral mandatory client conditions:\nPrint each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.\nEach output is a separate single flat opaque poster, portrait 2:3.\nFive genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.\nUse a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.\nNeighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "upper-left logistics, middle-right instruction and lower-left fee/invitation",
+              "observation": "Date, time and venue remain readable in the narrow upper-left column. What to bring, the activity description, free entry and the closing invitation are separated beside the corresponding panels."
+            },
+            {
+              "view": "native",
+              "location": "people sewing and sharing a kettle in a warm indoor setting",
+              "observation": "Relaxed expressions, an ordinary table, sewing tools and household objects make the event recognizable to a newcomer and give the requested friendly, low-pressure tone."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "alternating three-panel/copy structure relative to M1–M4",
+              "observation": "An upper-right scene, middle-left close-up and lower-right exchange scene alternate with text on the other side. This narrative system and hand-drawn lettering differ from the continuous photograph, diagonal blue illustration, textile join and object grid of the other members."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "requested_ratio": [
+            2,
+            3
+          ],
+          "policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "integer_rounding_used": false,
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "top repair encounter, middle sewing close-up and lower kettle handover",
+              "observation": "Three large framed illustrations show people at a garment repair table, hands sewing its edge, and two people meeting on a kettle. They explicitly depict both repair and exchange as approachable social activities."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "top repair encounter, middle sewing close-up and lower kettle handover",
+              "observation": "Three large framed illustrations show people at a garment repair table, hands sewing its edge, and two people meeting on a kettle. They explicitly depict both repair and exchange as approachable social activities."
+            }
+          ]
+        }
+      },
+      "scores": {
+        "content_form": 5,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 5,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "top scene and middle close-up of the orange garment",
+            "observation": "The scene establishes clothing repair with tools and a person working; the close-up then makes needle/thread activity legible. The second panel adds task information rather than only a different color treatment."
+          },
+          {
+            "view": "native",
+            "location": "bottom panel, two people holding a green kettle over a table",
+            "observation": "The shared kettle and surrounding usable belongings visibly connect the exchange half of the brief to a friendly encounter. Repair and household transfer become a concrete sequence."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "thumbnail320",
+            "location": "upper-left title and three alternating image/text rows",
+            "observation": "The title is a clear entry point, followed by the event/logistics and successive repair/exchange panels. The alternating grid gives a readable story sequence."
+          },
+          {
+            "view": "usage720",
+            "location": "upper-left small logistics and middle-right large instruction",
+            "observation": "The date/time/venue are smaller than the illustration and bring instruction, but still read clearly. The large fee and closing lines remain separate at lower left."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "two-line hand-drawn title and rounded instruction lettering",
+            "observation": "Hangul remains intact in the expressive lettering; the title wrap after '더' and instruction wrap after the comma preserve all supplied words."
+          },
+          {
+            "view": "usage720",
+            "location": "upper-left numeric/date block and middle-right activity line",
+            "observation": "The smaller practical copy uses clearer, less heavy forms and remains readable. Exact date dots, time colons, dash and the activity middle dot are retained."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "three framed panels with alternating left/right copy columns",
+            "observation": "Panel edges establish a deliberate grid; each text area has its own pale field and does not intrude into a face or the sewing action."
+          },
+          {
+            "view": "usage720",
+            "location": "gold separators and gaps between rows",
+            "observation": "Short rules and cream gutters segment the information. The upper-left column is dense compared with the lower-left fee/invitation pair, but its lines remain separated."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "sewing panels, hands, thread and tabletop tools",
+            "observation": "The warm line-and-fill treatment is consistent across hands, cloth, pincushions, scissors and thread spools. The close-up's long needle and stitched edge are legible."
+          },
+          {
+            "view": "native",
+            "location": "lower kettle, hands, cups and books",
+            "observation": "Object contact and outlined handles remain understandable within the same illustration language. The simplified indoor setting supports the interaction without taking over the event copy."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "native",
+            "location": "top seated pair and lower smiling exchange pair",
+            "observation": "Relaxed postures and attentive faces show participation as social and comfortable. The repaired clothing is handled patiently rather than dramatized as damage."
+          },
+          {
+            "view": "usage720",
+            "location": "warm cream/ochre/green setting beside fee-free invitation",
+            "observation": "The domestic palette, familiar table objects and conspicuous slow invitation reinforce an inviting neighborhood meeting. The emotional effect is specific to visible cooperative acts."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "three panels and their objects",
+            "observation": "Sewing tools stay with the repair scenes, while the kettle, clothes, books and cups stay with the exchange table. No unrelated fantasy props or invented labels are visible."
+          },
+          {
+            "view": "usage720",
+            "location": "whole narrative and all copy",
+            "observation": "Recurring garment and setting details keep the panels coherent. The repeated repair emphasis is noticeable, but the final transfer scene gives a distinct function; no extra slogans, watermark or broken copy appears."
+          }
+        ]
+      },
+      "residuals": [
+        "The upper-left logistics column is comparatively dense, and two panels emphasize garment repair; the final kettle scene still clearly adds exchange."
+      ],
+      "conditions": [
+        {
+          "checked_requirement": "Print each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "nine copy entries across the poster",
+              "observation": "All nine entries are observed once and compare equal under nfc-ws-optical-v1. No extra readable words, logos or watermark are visible."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Each output is a separate single flat opaque poster, portrait 2:3.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "entire PNG canvas",
+              "observation": "This is one standalone poster canvas, not a photographed mockup. Actual PNG dimensions are 1024×1536, mathematically 2:3; native PNG color type is RGB (2) without a tRNS chunk."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Five genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "alternating three-panel/copy structure relative to M1–M4",
+              "observation": "An upper-right scene, middle-left close-up and lower-right exchange scene alternate with text on the other side. This narrative system and hand-drawn lettering differ from the continuous photograph, diagonal blue illustration, textile join and object grid of the other members."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Use a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "top repair encounter, middle sewing close-up and lower kettle handover",
+              "observation": "Three large framed illustrations show people at a garment repair table, hands sewing its edge, and two people meeting on a kettle. They explicitly depict both repair and exchange as approachable social activities."
+            }
+          ]
+        },
+        {
+          "checked_requirement": "Neighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "upper-left logistics, middle-right instruction and lower-left fee/invitation",
+              "observation": "Date, time and venue remain readable in the narrow upper-left column. What to bring, the activity description, free entry and the closing invitation are separated beside the corresponding panels."
+            },
+            {
+              "view": "native",
+              "location": "people sewing and sharing a kettle in a warm indoor setting",
+              "observation": "Relaxed expressions, an ordinary table, sewing tools and household objects make the event recognizable to a newcomer and give the requested friendly, low-pressure tone."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "set": {
+    "members": [
+      "R8-C1-M1",
+      "R8-C1-M2",
+      "R8-C1-M3",
+      "R8-C1-M4",
+      "R8-C1-M5"
+    ],
+    "requested_count": 5,
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 5,
+      "required_count": 5,
+      "issues": []
+    },
+    "diversity": 4,
+    "evidence": [
+      {
+        "image_id": "R8-C1-M1",
+        "view": "thumbnail320",
+        "location": "continuous photographic tabletop, offset orange title",
+        "observation": "One continuous overhead scene uses cropped repair and book-contact actions around open tabletop. Title, logistics and participation occupy three different corners/levels, unlike the banner, textile, catalog and panel structures of M2–M5."
+      },
+      {
+        "image_id": "R8-C1-M2",
+        "view": "thumbnail320",
+        "location": "central white event-name banner and diagonal blue exchanges",
+        "observation": "Flat contour illustration and diagonal blue/cream fields make the event name the main type anchor, with objects crossing above and below. This is a different image/type role and reading structure from M1's dispersed photographic text or M4's footer title."
+      },
+      {
+        "image_id": "R8-C1-M3",
+        "view": "thumbnail320",
+        "location": "stitched fabric boundary and pale right-side information field",
+        "observation": "The repaired material itself carries the image role. A top serif-like title and descending right-side copy follow the cloth join; the design contains neither a separate hero-object grid nor narrative frames."
+      },
+      {
+        "image_id": "R8-C1-M4",
+        "view": "thumbnail320",
+        "location": "isolated object grid above oversized footer title",
+        "observation": "The front-facing reusable objects form a catalog-like arrangement. Date starts at upper left, a blue bring instruction sits between objects, and the title resolves at the bottom, a different viewpoint and information structure from the action scenes and top-title textile."
+      },
+      {
+        "image_id": "R8-C1-M5",
+        "view": "thumbnail320",
+        "location": "three framed scenes alternating with copy columns",
+        "observation": "Multiple social/action scenes form an illustrated sequence. The alternating image/text grid and expressive lettering create a narrative system distinct from the continuous photograph, blue diagonal banner, textile seam and single-page inventory."
+      }
+    ],
+    "residuals": [
+      "All five systems are genuinely distinct in composition and image/type roles. Several share bold supporting sans type and ordinary garment/book subjects; the set is strongly resolved rather than uniformly exceptional in refinement."
+    ]
+  }
+}

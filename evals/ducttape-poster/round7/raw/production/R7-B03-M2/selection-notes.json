@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "role": "R7-B03-M2",
+  "selected_stage": "repair-1",
+  "reason": "Repair-1 gives a more exposed upper pad and clearer open-jaw angle while retaining the six correct copy entries, single pivot and index contact. Further generation is not justified by the subtle thumbnail paper-edge limitation.",
+  "native_counts": {
+    "native_calls": 2,
+    "returned": 2,
+    "failed": 0,
+    "repair_calls": 1
+  },
+  "quality_score": null,
+  "unresolved_limits": [
+    {
+      "view": "usage720",
+      "location": "upper pad under raised upper jaw",
+      "observation": "Upper pad is broader and separated from aluminum, but its contact face remains seen obliquely, unlike the upward-facing bottom pad."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "paper leading edge immediately left of open gap",
+      "observation": "Thin entry edge is subtle at thumbnail size; usage view is needed to read its precise approach to the gap."
+    },
+    {
+      "view": "native_return_display",
+      "location": "skin at right, desk surface and black body",
+      "observation": "Fine surface texture remains visible on the desk and body; skin folds are prominent. Photographic depiction does not verify manufacture, physical dimensions or function."
+    },
+    {
+      "kind": "procedure",
+      "location": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M2/stages/repair-1/original.png",
+      "observation": "The full 1024×1536 native result was visually inspected in the generated display and is byte-identically preserved. Both view_image(original,detail=original) emissions appeared only as a small pale patch. One same-asset revisit was used; no further native retrieval. Detailed native observations therefore also depend on the full returned image display, not a successful full original-path viewer rendering.",
+      "impact": "Required native-path display evidence is incomplete; usage720 and thumbnail320 displayed fully."
+    },
+    {
+      "kind": "procedure",
+      "location": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M2/stages/initial/native-call.json",
+      "observation": "Initial exact caller end timestamp was not retained after native return; this is not a native failure."
+    }
+  ],
+  "closure_note": "No peers or critic records read or requested. Selection will be exclusively sealed by pinned evidence_io.py."
+}

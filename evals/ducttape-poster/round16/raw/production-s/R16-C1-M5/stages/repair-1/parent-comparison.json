@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "role": "R16-C1-M5",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "c3833a17f9328c823bb64ee758ea7cdb0d817995ebdb768fdfcd14b0cf75cc54",
+  "parent_native_sha256": "d5c789eedee6243c20ff7605f4cbcdd85cf8094e3f3b8421500f5931b6c25c26",
+  "changes": [
+    {
+      "view": "usage720",
+      "location": "description paragraph",
+      "observation": "Initially two tiny single lines; now first sentence occupies one larger line and second wraps into two larger phrase-length lines."
+    },
+    {
+      "view": "native",
+      "location": "title/event/visit relationship",
+      "observation": "Title moved from upper-right column to lower-left crop near base; event and visit now share an adjacent group baseline below the description."
+    },
+    {
+      "view": "native",
+      "location": "upper-right photo crop",
+      "observation": "Enlarged warm shade underside adds a clear second image scale; illuminated paper ridge crosses the lower right."
+    },
+    {
+      "view": "native",
+      "location": "complete lamp",
+      "observation": "Both viewed stages retain whole forest-green lamp, curved canopy, two columns and oval base with continuous outline."
+    },
+    {
+      "view": "native",
+      "location": "all copy groups",
+      "observation": "All twelve required entries remain once in both stages; repair wraps only at semantic word boundaries."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "right visitor/URL group at usage720",
+      "limit": "Smaller than main paragraph and event/date text; readable at the inspected 720px width but has less optical margin."
+    },
+    {
+      "location": "thumbnail320",
+      "limit": "Small visitor details and URL cannot be used as reading copy at this thumbnail size; usage720/native is needed."
+    },
+    {
+      "location": "raster punctuation",
+      "limit": "Visual dash/middle-dot/slash shapes do not certify original Unicode code points."
+    }
+  ],
+  "maintained_advantages": [
+    "complete identifiable lamp and material detail",
+    "warm light/paper relation",
+    "all exact supplied text, no added print",
+    "flat opaque native landscape format"
+  ],
+  "choice_observation": "repair-1 is preferred for materially clearer paragraph and stronger photographic crop relationship."
+}

@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "case_id": "R9-C1",
+  "candidate_label": "I",
+  "wave": "initial",
+  "expected_count": 5,
+  "critic_profiles": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "full_request": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경",
+  "literal_case_sha256": "3f4dc0b77eb0253ae0f38d4c1d8d09de9bb94fff5b5cf55e60740f4cfc248478",
+  "normalization": "nfc-ws-optical-v1",
+  "copy": [
+    {
+      "text": "다리 아래 영화관",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "BRIDGE CINEMA",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "야외 단편 상영 · 감독과의 대화",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.12.05 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "18:00–20:30",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "홍제천 연가교 아래",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "17:30부터 입장",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "돗자리 지참",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "무료 관람 · 선착순 80명",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "우천 시 실내로 변경",
+      "kind": "text",
+      "fixed_newlines": false
+    }
+  ],
+  "requirements": {
+    "style": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nOutdoor short-film screening and conversation must be recognizable, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720.",
+    "ratio": [
+      16,
+      9
+    ],
+    "ratio_rounding": "nearest-integer-single-edge",
+    "no_type_only": true
+  },
+  "review_rules": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/review_rules.md",
+    "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495",
+    "bytes": 14119
+  },
+  "critic_rubric": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/critic_rubric.md",
+    "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c",
+    "bytes": 6580
+  },
+  "ratio_policy": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/planning/ratio-policy-before-generation.json",
+    "sha256": "1c4d5767ef6789a6d8593f8b83fb56370bc9170d8bf674efece1573e498fffc4",
+    "bytes": 401
+  },
+  "helper_pins": {
+    "evidence_io.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2",
+      "bytes": 15373
+    },
+    "summarize.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+      "bytes": 38350
+    },
+    "run_agent.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+      "bytes": 2390
+    },
+    "prepare_reviews_compact.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/prepare_reviews_compact.py",
+      "sha256": "bec8bb1ac4d65cc29bebf834b6175c07bf6c60c76b3e1f62a1f739d18fc5a55d",
+      "bytes": 32653
+    },
+    "compact_critic_adapter.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact_critic_adapter.py",
+      "sha256": "f9280a57559856264fb0692199f0ca574a3b74ad6a58e743a051dd0f84667076",
+      "bytes": 19148
+    },
+    "README.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/README.md",
+      "sha256": "4a59037ac800e00a27415172c24859c4ca28ace638c36028d3ef802149478595",
+      "bytes": 7960
+    },
+    "compact-recording-addendum.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact-recording-addendum.md",
+      "sha256": "fcf58f5235a6408316353ffc6c1e7e7cfa713845a7bb7bd5c37a5613bb8c8ef1",
+      "bytes": 6734
+    },
+    "audit_compact_bindings.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/audit_compact_bindings.py",
+      "sha256": "6ab75100e264430b53d6f38768c4db7ce0ac3f9df9ec862e4b86ef99403ff6cf",
+      "bytes": 20202
+    }
+  },
+  "source_assets": [],
+  "protected_layouts": [],
+  "images": [
+    {
+      "image_id": "R9-C1-M1",
+      "role": "R9-C1-M1",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/manifest.json",
+        "sha256": "94d5fdf43867b1783b5261c00cb6444128658f5d860a785fd51bfa7c520fd033",
+        "bytes": 2630
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/original.png",
+          "sha256": "1ccae12223688c608df9afbf02d05bcbe71003b6e76269b98a47b2a90b539653",
+          "bytes": 2191768,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/usage-720.png",
+          "sha256": "a2a6cf8c8c98b955b3b184537f342f0f43a11e072c90cb9d62f2820867ed792b",
+          "bytes": 474446,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/thumbnail-320.png",
+          "sha256": "07e00b7572642e9ece3e951fa211a8b67f8656c1e3e7ea26bfed505d132d4054",
+          "bytes": 107232,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nOutdoor short-film screening and conversation must be recognizable, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+    },
+    {
+      "image_id": "R9-C1-M2",
+      "role": "R9-C1-M2",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M2/stages/initial/manifest.json",
+        "sha256": "327248e8fef2475c962183abcd55457931bcce5902f61d015e8f96fb04942858",
+        "bytes": 2630
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M2/stages/initial/original.png",
+          "sha256": "f719801e6ca7eba2ead96527ebacb42cf7e32b99f6b1dd8c9cc08f87ef93c98f",
+          "bytes": 2498683,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M2/stages/initial/usage-720.png",
+          "sha256": "02729b6e44684ff3e31cfc15d2f2e6b7e62f9ebaa2f9f4e20545de6ee371a5ca",
+          "bytes": 525636,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M2/stages/initial/thumbnail-320.png",
+          "sha256": "7e69a27b870438e280e9edae0cbd16daf0cb1007b38fdc4186dafb1bfd60a746",
+          "bytes": 117170,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nOutdoor short-film screening and conversation must be recognizable, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+    },
+    {
+      "image_id": "R9-C1-M3",
+      "role": "R9-C1-M3",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/manifest.json",
+        "sha256": "2d251f8039536fcb197e96a1ce9d5577af835b62823324dcd38815d79e64a899",
+        "bytes": 2630
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/original.png",
+          "sha256": "678288b6b780783e30b61fff3c060d939b2d260475297f7e768c71ace2a9288f",
+          "bytes": 1983741,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/usage-720.png",
+          "sha256": "68a10c5c5bf2ef82cf028e17113aeb27c41ae6d96d00d07ecb2b866cc1c62233",
+          "bytes": 450123,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/thumbnail-320.png",
+          "sha256": "c9191ef9262b5ab5b0bf128c7d9c0eadc49c01b9924fd7fe6c07fc6c8dc8b59f",
+          "bytes": 107701,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nOutdoor short-film screening and conversation must be recognizable, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+    },
+    {
+      "image_id": "R9-C1-M4",
+      "role": "R9-C1-M4",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/stages/initial/manifest.json",
+        "sha256": "02a94a3937305956703638b01691340c383787567af045ad073d97497b633a23",
+        "bytes": 2630
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/stages/initial/original.png",
+          "sha256": "7fc48f695e6559ceb5e1cec708f638a21107a4f7d978a91301363a619cc498b7",
+          "bytes": 2052362,
+          "width": 1672,
+          "height": 940
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/stages/initial/usage-720.png",
+          "sha256": "49efe68388363eab31505749fcc791ba381e8fabb51c2b813d9f0fb8be2ccf8a",
+          "bytes": 460606,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/stages/initial/thumbnail-320.png",
+          "sha256": "6b0a52a291f6054b3891f3238363e700758fd301efa441c7905f7427243d4c1f",
+          "bytes": 107692,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nOutdoor short-film screening and conversation must be recognizable, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+    },
+    {
+      "image_id": "R9-C1-M5",
+      "role": "R9-C1-M5",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/initial/manifest.json",
+        "sha256": "0bf02defa86bd723312a813a157a0bbe6f14a70296fc943023ef66e4189d2913",
+        "bytes": 2630
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/initial/original.png",
+          "sha256": "8fbce53480b1c7372ffb0b5acbbbf20a804fd1f7f836f07e41fd6bb4a2a6a3a7",
+          "bytes": 2433531,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/initial/usage-720.png",
+          "sha256": "61fba908c484def45f15340e819a1fc76e5ba0d557551966381ff37eadc493c8",
+          "bytes": 495969,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/initial/thumbnail-320.png",
+          "sha256": "ab519368d7a07687b47a5c790cb5c19992c4abd9f09a8e2a13692b51499a2c30",
+          "bytes": 108859,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n다리 아래 영화관\nBRIDGE CINEMA\n야외 단편 상영 · 감독과의 대화\n2026.12.05 토요일\n18:00–20:30\n홍제천 연가교 아래\n17:30부터 입장\n돗자리 지참\n무료 관람 · 선착순 80명\n우천 시 실내로 변경\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 야외 영화 행사 안내를 만들어줘. 동네 주민에게 친근하면서 성인 문화 행사에 어울리는 느낌이면 좋겠어. 지하철역과 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 상영과 대화라는 행사가 알아보이고 일정·장소·입장·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.\nEach result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.\nFive genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.\nSubstantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.\nOutdoor short-film screening and conversation must be recognizable, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+    }
+  ],
+  "compact_recording": {
+    "schema_version": 1,
+    "kind": "compact_critic_observations",
+    "python": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "adapter": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact_critic_adapter.py",
+      "sha256": "f9280a57559856264fb0692199f0ca574a3b74ad6a58e743a051dd0f84667076",
+      "bytes": 19148
+    },
+    "method": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/README.md",
+      "sha256": "4a59037ac800e00a27415172c24859c4ca28ace638c36028d3ef802149478595",
+      "bytes": 7960
+    },
+    "addendum": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/compact-recording-addendum.md",
+      "sha256": "fcf58f5235a6408316353ffc6c1e7e7cfa713845a7bb7bd5c37a5613bb8c8ef1",
+      "bytes": 6734
+    },
+    "binding_audit": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/method-only/audit_compact_bindings.py",
+      "sha256": "6ab75100e264430b53d6f38768c4db7ce0ac3f9df9ec862e4b86ef99403ff6cf",
+      "bytes": 20202
+    },
+    "preparer": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/prepare_reviews_compact.py",
+      "sha256": "bec8bb1ac4d65cc29bebf834b6175c07bf6c60c76b3e1f62a1f739d18fc5a55d",
+      "bytes": 32653
+    },
+    "expected_outputs": [
+      "PROFILE.observations.json",
+      "PROFILE.json",
+      "PROFILE.md"
+    ],
+    "execution": "Inside the same fresh critic session before immutable CLI completion; no post-completion export"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "kind": "native_evidence",
+  "role": "R16-C1-M4",
+  "stage": "repair-2",
+  "outcome": "returned",
+  "native_call_count": 1,
+  "saved_at_utc": "2026-10-08T14:01:36.827267+00:00",
+  "saved_at_semantics": "helper preservation time; not native tool start/end",
+  "source_argument": "/Users/nahyeonbin/.codex/generated_images/01a11bc7-2bc4-7922-970d-e2e34fa2344c/exec-3c36dce0-b322-49d0-acd0-2c99fbd9354b.png",
+  "source": {
+    "path": "/Users/nahyeonbin/.codex/generated_images/01a11bc7-2bc4-7922-970d-e2e34fa2344c/exec-3c36dce0-b322-49d0-acd0-2c99fbd9354b.png",
+    "sha256": "e95851edcedfb61b95849d2d0c5f22d1326f08cdd81a47d34f7c98fa5b0fcdaa",
+    "bytes": 2459580,
+    "width": 1672,
+    "height": 941
+  },
+  "input_pins": {
+    "call_input": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/repair-2/call-input.json",
+      "sha256": "90f5c2d18d14ac2aaf667b012e8525e8eab715684391dd1f698247b08342b24c",
+      "bytes": 4532
+    },
+    "pre_call": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/repair-2/pre-call.json",
+      "sha256": "446bc7a1caca2257fb3af65d14e54bb83756edfe300f409bdba4783ffedf3317",
+      "bytes": 10315
+    }
+  },
+  "files": {
+    "original": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/repair-2/original.png",
+      "sha256": "e95851edcedfb61b95849d2d0c5f22d1326f08cdd81a47d34f7c98fa5b0fcdaa",
+      "bytes": 2459580,
+      "width": 1672,
+      "height": 941
+    },
+    "final": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/repair-2/final.png",
+      "sha256": "e95851edcedfb61b95849d2d0c5f22d1326f08cdd81a47d34f7c98fa5b0fcdaa",
+      "bytes": 2459580,
+      "width": 1672,
+      "height": 941
+    },
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/repair-2/usage-720.png",
+      "sha256": "387ae55e0f8ee946568ed0fdcd33623c34154174d827235546fb7c018a92d5bb",
+      "bytes": 531745,
+      "width": 720,
+      "height": 405
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/production-s/R16-C1-M4/stages/repair-2/thumbnail-320.png",
+      "sha256": "dcda91671e67b34f3075532ed00bcbb1f6c4114b9127f4c03fa18cd4ad0ee793",
+      "bytes": 115111,
+      "width": 320,
+      "height": 180
+    }
+  },
+  "native_byte_preserved": true,
+  "qa": {
+    "method": "Pillow LANCZOS, PNG, downsampling only",
+    "usage720": "width <=720",
+    "thumbnail320": "long side <=320"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "REFERENCE-EXPANSION",
+  "wave": "binding-audit",
+  "profile": "binding",
+  "prompt_file": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/reference-expansion-binding-audit/prompt.txt",
+  "output_dir": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/reference-expansion-binding-audit",
+  "inputs": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/archive/root-observations.json",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/archive/downloaded.json",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/downloaded.json",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/output_dir/observations.json",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/output_dir/status.json",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/completion.json",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-t/references/reference-catalog.json",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-t/references/visual-research.md"
+  ],
+  "expected_outputs": [
+    "audit.md",
+    "status.json"
+  ]
+}

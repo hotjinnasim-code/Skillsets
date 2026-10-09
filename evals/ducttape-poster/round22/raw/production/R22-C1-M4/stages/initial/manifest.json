@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "kind": "native_evidence",
+  "role": "R22-C1-M4",
+  "stage": "initial",
+  "outcome": "returned",
+  "native_call_count": 1,
+  "saved_at_utc": "2026-10-08T21:58:41.591146+00:00",
+  "saved_at_semantics": "helper preservation time; not native tool start/end",
+  "source_argument": "/Users/nahyeonbin/.codex/generated_images/01a11d83-9311-7991-938d-19b388301a24/exec-af0c7aae-b15a-4717-bd42-2b49ad4628f6.png",
+  "source": {
+    "path": "/Users/nahyeonbin/.codex/generated_images/01a11d83-9311-7991-938d-19b388301a24/exec-af0c7aae-b15a-4717-bd42-2b49ad4628f6.png",
+    "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+    "bytes": 2298058,
+    "width": 1672,
+    "height": 941
+  },
+  "input_pins": {
+    "call_input": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/call-input.json",
+      "sha256": "fee8a063670829642f48a9ac15238a71ae5e9d533c335488ecc7bf46f671a00a",
+      "bytes": 4454
+    },
+    "pre_call": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/pre-call.json",
+      "sha256": "7ee68a35c896b9322f77441486452b3e7ed68084116f0cc240caed9c27183e5a",
+      "bytes": 10217
+    }
+  },
+  "files": {
+    "original": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/original.png",
+      "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+      "bytes": 2298058,
+      "width": 1672,
+      "height": 941
+    },
+    "final": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/final.png",
+      "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+      "bytes": 2298058,
+      "width": 1672,
+      "height": 941
+    },
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/usage-720.png",
+      "sha256": "81258c131fdbc869501b3a755ededc20f3f8c72dd4ddba5921083b48e3db8e5c",
+      "bytes": 481679,
+      "width": 720,
+      "height": 405
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/thumbnail-320.png",
+      "sha256": "69e8845df63bf2f49ac3fbbd59efc1cdd42688296d78bf9e025241903ea5a82e",
+      "bytes": 106217,
+      "width": 320,
+      "height": 180
+    }
+  },
+  "native_byte_preserved": true,
+  "qa": {
+    "method": "Pillow LANCZOS, PNG, downsampling only",
+    "usage720": "width <=720",
+    "thumbnail320": "long side <=320"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "case_id": "R7-B07",
+  "candidate_label": "H",
+  "wave": "initial",
+  "expected_count": 3,
+  "critic_profiles": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "full_request": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.",
+  "literal_case_sha256": "46db136a72ba8f51e5c9915acaa2794ecd699a8c02c7601b72e4d6156bbe8fd8",
+  "normalization": "nfc-ws-optical-v1",
+  "copy": [
+    {
+      "text": "손이 기억하는 물건",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "열쇠와 손잡이의 생활사",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.12.08–2027.02.14",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "생활기억박물관 작은전시실",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "화–일 10:00–18:00 / 월요일 휴관",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "관람료 무료",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "전시 안내 example.org/hand-memory",
+      "kind": "url",
+      "fixed_newlines": false
+    }
+  ],
+  "requirements": {
+    "style": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\n\nLiteral client styles:\n{\"mode\": \"explicit monochrome\", \"colour\": \"흑백만\", \"allowed_media\": [\"사진\", \"그래픽\"]}\n\nLiteral mandatory client conditions:\n생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.\n오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.\n열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.\n이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.\n으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.\n아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+    "ratio": [
+      2,
+      3
+    ],
+    "ratio_rounding": "nearest-integer-single-edge",
+    "no_type_only": true
+  },
+  "review_rules": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/review_rules.md",
+    "sha256": "c80926b19a05bd34ce5dcc3261f03fbcbfa0bc7c403bc8d3290f43cb10861b82",
+    "bytes": 14110
+  },
+  "critic_rubric": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/critic_rubric.md",
+    "sha256": "01cacc9325fa9883df2deed9c0e33daee7072be764c56e47a4f5bb94c147de44",
+    "bytes": 5918
+  },
+  "ratio_policy": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/planning/ratio-policy-before-generation.json",
+    "sha256": "ea9c88b7191e689107b0636ab25af47fd0326c4d5f7b4543e3e15b2d53047350",
+    "bytes": 1105
+  },
+  "helper_pins": {
+    "evidence_io.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2",
+      "bytes": 15373
+    },
+    "summarize.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+      "bytes": 38350
+    },
+    "run_agent.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+      "bytes": 2390
+    },
+    "prepare_reviews_v2.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/prepare_reviews_v2.py",
+      "sha256": "6fcb2f3e792c174f65c38684b0447b5a137f5de72f01df3cf0bd029968996771",
+      "bytes": 29562
+    }
+  },
+  "source_assets": [],
+  "protected_layouts": [],
+  "images": [
+    {
+      "image_id": "R7-B07-M1",
+      "role": "R7-B07-M1",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/manifest.json",
+        "sha256": "e9f5651fa6eb2360fcb36d4bf7c4c6b92e6f2fff82a1f57c83e006a2a37d7039",
+        "bytes": 2644
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/original.png",
+          "sha256": "ff929dbc8f73c98412dac7db0deea1b1e7bbb168f4e2846e84d71cb4bfc98cd6",
+          "bytes": 2587080,
+          "width": 1024,
+          "height": 1536
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/usage-720.png",
+          "sha256": "0856668907331796c9cc6bd3b17fe713336a7bec48f58946b253bd3689756349",
+          "bytes": 1179340,
+          "width": 720,
+          "height": 1080
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/initial/thumbnail-320.png",
+          "sha256": "68c5815dc6ddae5dc196dac6bb9175e1cee9c071500ee34a15a94493a45cd041",
+          "bytes": 108295,
+          "width": 213,
+          "height": 320
+        }
+      },
+      "ratio_requirement": [
+        2,
+        3
+      ],
+      "style_requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\n\nLiteral client styles:\n{\"mode\": \"explicit monochrome\", \"colour\": \"흑백만\", \"allowed_media\": [\"사진\", \"그래픽\"]}\n\nLiteral mandatory client conditions:\n생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.\n오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.\n열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.\n이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.\n으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.\n아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient."
+    },
+    {
+      "image_id": "R7-B07-M2",
+      "role": "R7-B07-M2",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/manifest.json",
+        "sha256": "39445c2f0f63d644945f1acfe57b8f57409f1ef84a2ccd10a0efa060767e3d56",
+        "bytes": 2642
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/original.png",
+          "sha256": "06c899df1fb3b6547da43a9e24ad5cce58e6127d754a81e2dd21a626672dcc08",
+          "bytes": 1876093,
+          "width": 1024,
+          "height": 1536
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/usage-720.png",
+          "sha256": "57b3f9d95e0403a05716cce39a1675ddaa668e36682720e9bed1b12552370814",
+          "bytes": 899123,
+          "width": 720,
+          "height": 1080
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M2/stages/initial/thumbnail-320.png",
+          "sha256": "6dc236ace0bdbb6faa4ef53e9a5b217e7b38c6d997f4d6e9b2d9648001c42add",
+          "bytes": 93824,
+          "width": 213,
+          "height": 320
+        }
+      },
+      "ratio_requirement": [
+        2,
+        3
+      ],
+      "style_requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\n\nLiteral client styles:\n{\"mode\": \"explicit monochrome\", \"colour\": \"흑백만\", \"allowed_media\": [\"사진\", \"그래픽\"]}\n\nLiteral mandatory client conditions:\n생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.\n오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.\n열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.\n이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.\n으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.\n아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient."
+    },
+    {
+      "image_id": "R7-B07-M3",
+      "role": "R7-B07-M3",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/manifest.json",
+        "sha256": "14e70cdd67fa5a154a1787ade20da221230185856c3b0913916d8f5ca7323667",
+        "bytes": 2642
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/original.png",
+          "sha256": "69bdbb8945091475211b81a10589f5a357620191ddd4938296bb816bb3bdb376",
+          "bytes": 2075903,
+          "width": 1024,
+          "height": 1536
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/usage-720.png",
+          "sha256": "53f0a5fa35af435793236bb2c9b0300762623cf62948797faea4bd8f09443822",
+          "bytes": 968358,
+          "width": 720,
+          "height": 1080
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/initial/thumbnail-320.png",
+          "sha256": "73f9290b32fa4dacd249fe02fea00d1e3ccf9ac5ac5a4cfc2b85e3acbb39739c",
+          "bytes": 93078,
+          "width": 213,
+          "height": 320
+        }
+      },
+      "ratio_requirement": [
+        2,
+        3
+      ],
+      "style_requirement": "생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다. 오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다. 열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요. 이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요. 으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다. 아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\n\nLiteral client styles:\n{\"mode\": \"explicit monochrome\", \"colour\": \"흑백만\", \"allowed_media\": [\"사진\", \"그래픽\"]}\n\nLiteral mandatory client conditions:\n생활사 박물관의 소규모 전시 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n흑백만 쓰되 사진과 그래픽은 사용할 수 있습니다.\n오래 쓰며 손에 익은 열쇠와 손잡이를 주제로 한 전시입니다.\n열쇠의 마모와 손잡이의 닿는 부분이 주제에 연결되게 해 주세요.\n이 물건의 실제 관계가 충분한 크기의 비문자 시각 중심이어야 하고, 글자와 여백이나 작은 기호만으로 끝내지 마세요.\n으스스한 범죄물이나 골동품 상점 광고처럼 보이지 않았으면 합니다.\n아래 문구를 모두 그대로 넣고, 없는 유물 번호나 연대는 만들지 마세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient."
+    }
+  ]
+}

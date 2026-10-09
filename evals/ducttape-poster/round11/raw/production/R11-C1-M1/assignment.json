@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R11-C1",
+  "role": "R11-C1-M1",
+  "candidate": "K",
+  "ordinal": 1,
+  "expected_count": 5,
+  "ratio": "16:9",
+  "direction": {
+    "role": "R11-C1-M1",
+    "ratio": "16:9",
+    "content_form": "A diagonal printing-to-reading paper field crosses a tall left title/information spine. The English entry appears once on the actual shared sheet.",
+    "whole_expression_style": "Assertive constructed culture: heavy compact Korean, flat cut planes and adult profiles. An active crossing field meets a stable joining-information spine.",
+    "reference_transfer": "Feixen: continuous movement links type, image and ground; rebuild it as a functional sheet/impression, without ribbons, grid or cropped letters. Mut: one event hierarchy binds making and reading; people replace the bloom.",
+    "layout": {
+      "large_relationship": "Left 42%: title and eight practical rows. Right 53%: diagonal shared sheet/table with readers above and rubber contact below. Activity sits at the upper image edge. Only nontext planes leave the frame.",
+      "image_area_720": [
+        317,
+        57,
+        381,
+        329
+      ],
+      "alignment": "Title and practical rows share x28. Activity starts x323. English sits on a broad horizontal reader-facing paper area.",
+      "visible_reading_route": "First two-line Korean title; next date/time directly below on the same left spine, then place, entry, fee, application, preparation and welcome without searching. Activity at upper right leads into the connected printing/reading scene."
+    },
+    "typography": {
+      "roles": "Title: straight-sided compact grotesk, 49 px on two word-group lines. Facts: open humanist sans 17 px/21 px rows, tabular figures. Activity: 19 px medium. Page English: broad upright display capitals, 23 px. Essential letters have solid clean strokes.",
+      "image_type_boundary": "Title/facts use flat ground; English belongs only to the held sheet. Hands and relief marks stay outside text boxes."
+    },
+    "image": {
+      "scene": "Flat cut illustration. Two adult upper-body profiles at upper right share a broad page: one speaks, both look at its English line. A visible lower-right forearm lifts an edge of a thick carved rubber slab from the paper.",
+      "action_relation": "The same asymmetric nonletter relief pattern appears on inked rubber underside, fresh adjacent impression and reader-held end. Paper remains one connected object. Fingers grip the clean slab edge; rubber thickness, contact gap and transferred mark are separate. Two readers support the same sheet with visible gaze/mouths.",
+      "crop": "Bodies may enter at right/bottom. Retain eyes, mouths, gripping fingers, slab thickness, paper edge and full impression; heads 65–80 px, block/imprint 60–85 px."
+    },
+    "material": "Flat ink-like planes; controlled relief cuts only in nontext marks. Smooth readable type; no decorative tape.",
+    "color": "Citron ground, near-black type/hands, deep petrol planes and pale reading paper. Contrast directs the spine and contact.",
+    "emotion": "Energetic adult neighbourhood culture, made approachable by attentive faces and the readable welcome.",
+    "copy_groups": [
+      {
+        "purpose": "Main title",
+        "copy_indexes": [
+          0
+        ],
+        "area_720": [
+          28,
+          30,
+          276,
+          156
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          49
+        ],
+        "line_plan": "2 lines; break after word 1; 58 px baseline step; widest ≈196 px."
+      },
+      {
+        "purpose": "Shared paper being read",
+        "copy_indexes": [
+          1
+        ],
+        "area_720": [
+          475,
+          176,
+          211,
+          48
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          23
+        ],
+        "line_plan": "1 horizontal page line; width ≈166 px."
+      },
+      {
+        "purpose": "Activity identification",
+        "copy_indexes": [
+          2
+        ],
+        "area_720": [
+          323,
+          23,
+          371,
+          29
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          19
+        ],
+        "line_plan": "1 line; width ≈210 px."
+      },
+      {
+        "purpose": "Complete useful participation route",
+        "copy_indexes": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "area_720": [
+          28,
+          210,
+          276,
+          175
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ],
+        "line_plan": "8 rows at 21 px; height ≈164 px; widest ≈226 of 276 px."
+      }
+    ],
+    "nearest_direction_difference": {
+      "role": "R11-C1-M5",
+      "stripped_material_color_test": "M1 retains upper-left title, lower-left full practical spine and a diagonal right action field. M5 retains a centred tall text-bearing sheet flanked by huge opposing profiles. First anchor, symmetry, facts and scene scale differ without colour/material."
+    }
+  },
+  "common_constraints": [
+    "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+    "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+    "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+    "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+    "Rubber-block printing onto paper and shared reading of that printed work must be visibly connected, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "b1821ae7607fa62e781a956545fae88eec6c6fba8fc3ef1fe414d8fa1ddb17b2",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "0d78b91b17e0baf4563200bcc75093c49f649fb425d5b23445946e8482511aa0"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M1/case.json",
+    "sha256": "805b2d93a67502b5423cd410704b5dcfb6640041d467146db04f3a676e216f8e"
+  }
+}

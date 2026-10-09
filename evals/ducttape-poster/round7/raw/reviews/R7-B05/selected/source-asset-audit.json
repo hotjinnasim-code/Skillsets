@@ -1,0 +1,70 @@
+{
+  "kind": "prescribed_source_attestation_audit",
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/packet.json",
+    "sha256": "e56508c47dc7d85efe406c773f33ab5256839bb89423352eb343acba04a47585"
+  },
+  "case_id": "R7-B05",
+  "wave": "selected",
+  "gate": "PASS",
+  "expected_source_assets": 1,
+  "expected_protected_layout_manifests": 0,
+  "profiles": {
+    "editorial": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/cli/editorial/editorial.json",
+        "sha256": "bde174389aca43fbfac6d2df5774e649efe80b7dd9fcdbd8d47d3459fc07c70d"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "A1",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+          "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": []
+    },
+    "craft": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/cli/craft/craft.json",
+        "sha256": "168eb19fcf18fce8e44e3c719790535f8e3aad66b5165f1bc5a42d8609549a15"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "A1",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+          "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": []
+    },
+    "portfolio": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/reviews/R7-B05/selected/cli/portfolio/portfolio.json",
+        "sha256": "b06195738cfe54b80e29597476230665df9ad514c74495048637b08f6aec8bd6"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "A1",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+          "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": []
+    }
+  },
+  "limits": [
+    "Checks existing frozen prompt requirements; no new aesthetic gate, raw rewrite or critic replacement.",
+    "Source viewing/read and order are semantic attestations, not serialized native-tool events.",
+    "The original frozen v4 summary remains separately preserved."
+  ]
+}

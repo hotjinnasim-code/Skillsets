@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "case_id": "R15-C1",
+  "candidate_label": "anonymous-single-five",
+  "wave": "initial",
+  "expected_count": 5,
+  "critic_profiles": [
+    "editorial",
+    "craft",
+    "portfolio"
+  ],
+  "full_request": "덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n밤의 식탁\nNIGHT MARKET\n제철 음식 · 동네 음악\n2027.03.13 토요일\n18:00–21:00\n망원 작은마당\n17:30부터 입장\n입장 무료 · 음식 별도 구매\n현장 참여 · 누구나 환영\n다회용 컵을 가져와 주세요\n이웃과 천천히 머물러요",
+  "literal_case_sha256": "64c1c282642ac79f4f85cd8c0ca82f3d4b9eab130bc720e26a5fc7566317709a",
+  "normalization": "nfc-ws-optical-v1",
+  "copy": [
+    {
+      "text": "밤의 식탁",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "NIGHT MARKET",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "제철 음식 · 동네 음악",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2027.03.13 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "18:00–21:00",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "망원 작은마당",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "17:30부터 입장",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "입장 무료 · 음식 별도 구매",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "현장 참여 · 누구나 환영",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "다회용 컵을 가져와 주세요",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "이웃과 천천히 머물러요",
+      "kind": "text",
+      "fixed_newlines": false
+    }
+  ],
+  "requirements": {
+    "style": "덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n밤의 식탁\nNIGHT MARKET\n제철 음식 · 동네 음악\n2027.03.13 토요일\n18:00–21:00\n망원 작은마당\n17:30부터 입장\n입장 무료 · 음식 별도 구매\n현장 참여 · 누구나 환영\n다회용 컵을 가져와 주세요\n이웃과 천천히 머물러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes the skill, not physical tape or collage. Styles open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once with readable Korean/English and intact punctuation; no added copy,logos,watermark,QR or pseudo-print.\nOne separate flat opaque landscape16:9 poster per role; not a stretched/cropped portrait,contact sheet or room mockup.\nFive genuinely distinct complete image/editing/space/type systems and impressions beyond material,scene-object,palette or viewpoint substitution alone.\nSubstantive content-grounded nonglyph visual construction, not type/whitespace-only,tiny texture/icon or glyph-model loophole.\nAn approachable adult neighborhood evening with seasonal food and local music coherently connected as one event. All supplied practical participation information readable at usage720. No identifiable real business or performer promotion.\nExclude the passive solid/near-solid/split-field gothic headline/date/information template with subordinate pictures. Small pictures,thin texture,gradient,grids,font-only swaps or photographic/empty-room dressing of blank text-bearing planes do not cure the unchanged whole relation. Gothic font,negative space and coherent image-led scenes themselves are not banned. No scoped composition override.",
+    "ratio": [
+      16,
+      9
+    ],
+    "ratio_rounding": "nearest-integer-single-edge",
+    "no_type_only": true
+  },
+  "review_rules": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/review_rules.md",
+    "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495",
+    "bytes": 14119
+  },
+  "critic_rubric": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/critic_rubric.md",
+    "sha256": "d1f4544bdcb03eb1bac2d0eaeb5c84277ac7effc6e2164479be52e7be235745c",
+    "bytes": 6580
+  },
+  "ratio_policy": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/planning/ratio-policy-before-generation.json",
+    "sha256": "06b47043249e3e0de85f9555f4cf91b8b82d9ec111fbf9ad50fc55868244e022",
+    "bytes": 402
+  },
+  "helper_pins": {
+    "evidence_io.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2",
+      "bytes": 15373
+    },
+    "summarize.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/summarize.py",
+      "sha256": "4c5dc9847694b4cfe1744115ff1a79e9e7e9d5c71abea38b7f3250600c2144e0",
+      "bytes": 38350
+    },
+    "run_agent.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984",
+      "bytes": 2390
+    },
+    "prepare_reviews_compact.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+      "bytes": 33273
+    },
+    "compact_critic_adapter.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "README.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+      "bytes": 10025
+    },
+    "compact-recording-addendum.md": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+      "bytes": 7465
+    },
+    "audit_compact_bindings.py": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+      "bytes": 21050
+    }
+  },
+  "source_assets": [],
+  "protected_layouts": [],
+  "images": [
+    {
+      "image_id": "R15-C1-M1",
+      "role": "R15-C1-M1",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M1/stages/initial/manifest.json",
+        "sha256": "52c66e5c3591824a305d506aa95fda7b7d03be646342c67490b79b28442bc548",
+        "bytes": 2643
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M1/stages/initial/original.png",
+          "sha256": "019ace4adff2cdb8e0524be2fe4cfd0886e4495b11efe405990597c1cd8cf7cf",
+          "bytes": 3182667,
+          "width": 1672,
+          "height": 940
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M1/stages/initial/usage-720.png",
+          "sha256": "f73d0f778479df4b056de761bb38da23b74f95e3e4f216863735ac3d065fe1cf",
+          "bytes": 657708,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M1/stages/initial/thumbnail-320.png",
+          "sha256": "f2c5e4b75167a2ed40f74999aa9daf9b8a9a1898142a2c661faeefb1f98f620c",
+          "bytes": 142362,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n밤의 식탁\nNIGHT MARKET\n제철 음식 · 동네 음악\n2027.03.13 토요일\n18:00–21:00\n망원 작은마당\n17:30부터 입장\n입장 무료 · 음식 별도 구매\n현장 참여 · 누구나 환영\n다회용 컵을 가져와 주세요\n이웃과 천천히 머물러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes the skill, not physical tape or collage. Styles open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once with readable Korean/English and intact punctuation; no added copy,logos,watermark,QR or pseudo-print.\nOne separate flat opaque landscape16:9 poster per role; not a stretched/cropped portrait,contact sheet or room mockup.\nFive genuinely distinct complete image/editing/space/type systems and impressions beyond material,scene-object,palette or viewpoint substitution alone.\nSubstantive content-grounded nonglyph visual construction, not type/whitespace-only,tiny texture/icon or glyph-model loophole.\nAn approachable adult neighborhood evening with seasonal food and local music coherently connected as one event. All supplied practical participation information readable at usage720. No identifiable real business or performer promotion.\nExclude the passive solid/near-solid/split-field gothic headline/date/information template with subordinate pictures. Small pictures,thin texture,gradient,grids,font-only swaps or photographic/empty-room dressing of blank text-bearing planes do not cure the unchanged whole relation. Gothic font,negative space and coherent image-led scenes themselves are not banned. No scoped composition override."
+    },
+    {
+      "image_id": "R15-C1-M2",
+      "role": "R15-C1-M2",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/manifest.json",
+        "sha256": "f726741e9a25a477834e9359aeb296591cf15249683dfe3c27366273dff85840",
+        "bytes": 2643
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/original.png",
+          "sha256": "54dbec3ed065e4eb16e95ae0b0120c02ae76fd0720fa79464e6f6c4bcdbf552a",
+          "bytes": 2484239,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/usage-720.png",
+          "sha256": "352ada50370e6765e1c111d1fb938a802000a65609d8d89a1e4dfe8ba10be6ce",
+          "bytes": 556434,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/thumbnail-320.png",
+          "sha256": "280f363ab3764375c0fc93c1b74e496220f0582109d743e3e368ec6fb26d908c",
+          "bytes": 130340,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n밤의 식탁\nNIGHT MARKET\n제철 음식 · 동네 음악\n2027.03.13 토요일\n18:00–21:00\n망원 작은마당\n17:30부터 입장\n입장 무료 · 음식 별도 구매\n현장 참여 · 누구나 환영\n다회용 컵을 가져와 주세요\n이웃과 천천히 머물러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes the skill, not physical tape or collage. Styles open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once with readable Korean/English and intact punctuation; no added copy,logos,watermark,QR or pseudo-print.\nOne separate flat opaque landscape16:9 poster per role; not a stretched/cropped portrait,contact sheet or room mockup.\nFive genuinely distinct complete image/editing/space/type systems and impressions beyond material,scene-object,palette or viewpoint substitution alone.\nSubstantive content-grounded nonglyph visual construction, not type/whitespace-only,tiny texture/icon or glyph-model loophole.\nAn approachable adult neighborhood evening with seasonal food and local music coherently connected as one event. All supplied practical participation information readable at usage720. No identifiable real business or performer promotion.\nExclude the passive solid/near-solid/split-field gothic headline/date/information template with subordinate pictures. Small pictures,thin texture,gradient,grids,font-only swaps or photographic/empty-room dressing of blank text-bearing planes do not cure the unchanged whole relation. Gothic font,negative space and coherent image-led scenes themselves are not banned. No scoped composition override."
+    },
+    {
+      "image_id": "R15-C1-M3",
+      "role": "R15-C1-M3",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M3/stages/initial/manifest.json",
+        "sha256": "ccfe924518c897f490a3ac334367a605a9660b12bd220930662aa7dcbe1a7dd8",
+        "bytes": 2643
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M3/stages/initial/original.png",
+          "sha256": "d743b1d137c5eb21b1ec6811138545115f85ec61c23790bc3b7ade512e6160fd",
+          "bytes": 2681827,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M3/stages/initial/usage-720.png",
+          "sha256": "01b6dec745cc3e4404d1b77b26530d9aa9f1b408842d4e3763b6b3a620a18d33",
+          "bytes": 576097,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M3/stages/initial/thumbnail-320.png",
+          "sha256": "0588a3e82509606520c1fba120ce87a5d9f1f340a6f4344bfcae657379654f53",
+          "bytes": 130777,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n밤의 식탁\nNIGHT MARKET\n제철 음식 · 동네 음악\n2027.03.13 토요일\n18:00–21:00\n망원 작은마당\n17:30부터 입장\n입장 무료 · 음식 별도 구매\n현장 참여 · 누구나 환영\n다회용 컵을 가져와 주세요\n이웃과 천천히 머물러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes the skill, not physical tape or collage. Styles open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once with readable Korean/English and intact punctuation; no added copy,logos,watermark,QR or pseudo-print.\nOne separate flat opaque landscape16:9 poster per role; not a stretched/cropped portrait,contact sheet or room mockup.\nFive genuinely distinct complete image/editing/space/type systems and impressions beyond material,scene-object,palette or viewpoint substitution alone.\nSubstantive content-grounded nonglyph visual construction, not type/whitespace-only,tiny texture/icon or glyph-model loophole.\nAn approachable adult neighborhood evening with seasonal food and local music coherently connected as one event. All supplied practical participation information readable at usage720. No identifiable real business or performer promotion.\nExclude the passive solid/near-solid/split-field gothic headline/date/information template with subordinate pictures. Small pictures,thin texture,gradient,grids,font-only swaps or photographic/empty-room dressing of blank text-bearing planes do not cure the unchanged whole relation. Gothic font,negative space and coherent image-led scenes themselves are not banned. No scoped composition override."
+    },
+    {
+      "image_id": "R15-C1-M4",
+      "role": "R15-C1-M4",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M4/stages/initial/manifest.json",
+        "sha256": "9a90c56c318987d82069f4ac00a3c384a1e355740a618bde29f53ca6a596db66",
+        "bytes": 2643
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M4/stages/initial/original.png",
+          "sha256": "c1d7352cafe9c243256b1ad85877495dffb3170f820459c942781309aa6d6ae8",
+          "bytes": 2382486,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M4/stages/initial/usage-720.png",
+          "sha256": "f5f1cac06f64103102abc9790b1565d50a071eeb475846c31f0b50ac3e236820",
+          "bytes": 507726,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M4/stages/initial/thumbnail-320.png",
+          "sha256": "a18bf2da96119688623530b458c3b484aecf4963f753089727d0cb78d5673f3b",
+          "bytes": 116966,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n밤의 식탁\nNIGHT MARKET\n제철 음식 · 동네 음악\n2027.03.13 토요일\n18:00–21:00\n망원 작은마당\n17:30부터 입장\n입장 무료 · 음식 별도 구매\n현장 참여 · 누구나 환영\n다회용 컵을 가져와 주세요\n이웃과 천천히 머물러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes the skill, not physical tape or collage. Styles open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once with readable Korean/English and intact punctuation; no added copy,logos,watermark,QR or pseudo-print.\nOne separate flat opaque landscape16:9 poster per role; not a stretched/cropped portrait,contact sheet or room mockup.\nFive genuinely distinct complete image/editing/space/type systems and impressions beyond material,scene-object,palette or viewpoint substitution alone.\nSubstantive content-grounded nonglyph visual construction, not type/whitespace-only,tiny texture/icon or glyph-model loophole.\nAn approachable adult neighborhood evening with seasonal food and local music coherently connected as one event. All supplied practical participation information readable at usage720. No identifiable real business or performer promotion.\nExclude the passive solid/near-solid/split-field gothic headline/date/information template with subordinate pictures. Small pictures,thin texture,gradient,grids,font-only swaps or photographic/empty-room dressing of blank text-bearing planes do not cure the unchanged whole relation. Gothic font,negative space and coherent image-led scenes themselves are not banned. No scoped composition override."
+    },
+    {
+      "image_id": "R15-C1-M5",
+      "role": "R15-C1-M5",
+      "stage": "initial",
+      "source_manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M5/stages/initial/manifest.json",
+        "sha256": "0c314ef8bbf68622615f2136b25050a6e9ff54d07fcae0ecae2445720f1ca45a",
+        "bytes": 2643
+      },
+      "views": {
+        "native": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M5/stages/initial/original.png",
+          "sha256": "bf34f06abb60b661766597da76c691d7a29e5a16d25bbf233866722b179df1df",
+          "bytes": 2573670,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M5/stages/initial/usage-720.png",
+          "sha256": "36ed438d4a077a9d0d3abe006119dfeee07722b8c25240cff56f755af437978f",
+          "bytes": 580852,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M5/stages/initial/thumbnail-320.png",
+          "sha256": "3c2d0a74c2ba31dcdd22924030033618377121541aa867e695ebb03fa9f47032",
+          "bytes": 135386,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "ratio_requirement": [
+        16,
+        9
+      ],
+      "style_requirement": "덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n밤의 식탁\nNIGHT MARKET\n제철 음식 · 동네 음악\n2027.03.13 토요일\n18:00–21:00\n망원 작은마당\n17:30부터 입장\n입장 무료 · 음식 별도 구매\n현장 참여 · 누구나 환영\n다회용 컵을 가져와 주세요\n이웃과 천천히 머물러요\n\nLiteral client styles:\n{\"mode\": \"open\", \"exact_request\": \"덕테이프 포스터로 성인 주민을 위한 동네 저녁 음식·음악 행사를 안내해줘. 제철 음식을 즐기며 동네 음악을 듣고 이웃과 편하게 머무르는 하나의 행사로 느껴지게 해줘. 커뮤니티 디지털 화면에 쓰는16:9 가로형으로 서로 다른 전체 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 일정·장소·입장·참여·방문 안내를 읽을 수 있어야 하고 실제 업체나 음악가의 홍보물처럼 보이지 않게 해줘. 단색·거의 단색·분할 색 바탕의 큰 고딕 제목과 안내 블록에 작은 사진을 붙인 템플릿은 제외해줘. 제목과 안내만 담으려고 빈 벽·바닥·실내 장면을 배경으로 만들거나 글꼴·질감만 바꿔 같은 정보 판형을 유지하지 말아줘. 이미지 표현·편집·크롭·공간·글자·정보의 관계까지 서로 다른 다섯 방향이어야 해. 아래 문구만 각각 한 번씩 넣어줘.\", \"invocation_interpretation\": \"덕테이프 포스터로 invokes the skill, not physical tape or collage. Styles open.\"}\n\nLiteral mandatory client conditions:\nPrint every supplied entry exactly once with readable Korean/English and intact punctuation; no added copy,logos,watermark,QR or pseudo-print.\nOne separate flat opaque landscape16:9 poster per role; not a stretched/cropped portrait,contact sheet or room mockup.\nFive genuinely distinct complete image/editing/space/type systems and impressions beyond material,scene-object,palette or viewpoint substitution alone.\nSubstantive content-grounded nonglyph visual construction, not type/whitespace-only,tiny texture/icon or glyph-model loophole.\nAn approachable adult neighborhood evening with seasonal food and local music coherently connected as one event. All supplied practical participation information readable at usage720. No identifiable real business or performer promotion.\nExclude the passive solid/near-solid/split-field gothic headline/date/information template with subordinate pictures. Small pictures,thin texture,gradient,grids,font-only swaps or photographic/empty-room dressing of blank text-bearing planes do not cure the unchanged whole relation. Gothic font,negative space and coherent image-led scenes themselves are not banned. No scoped composition override."
+    }
+  ],
+  "compact_recording": {
+    "schema_version": 2,
+    "kind": "compact_critic_observations",
+    "pin_schema": "path-sha256-bytes-v2",
+    "python": "/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "adapter": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/compact_critic_adapter.py",
+      "sha256": "fbb1526996108679d6df1ab47e902cc0cd4ab77d4e21616eb512184486a88b1e",
+      "bytes": 19204
+    },
+    "method": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/README.md",
+      "sha256": "0f28d5ca18d5022ddd3973d77183fdca3355ab9dc1d90ac12e8044f0453725d3",
+      "bytes": 10025
+    },
+    "addendum": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/compact-recording-addendum.md",
+      "sha256": "ca36cc350135a6f10184880494c83a05f4a1c1562e809f2a31051d22a643d9ab",
+      "bytes": 7465
+    },
+    "binding_audit": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/audit_compact_bindings.py",
+      "sha256": "61ebc67facced137d7525240bd105d6c22d8f7a5158ff5d3ae55acc8a8c0a58f",
+      "bytes": 21050
+    },
+    "preparer": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/method-recording-v2/prepare_reviews_compact.py",
+      "sha256": "4f988ba0e33e9fe6774cbdc6feec33cbebbbd006da0702115dadd288e11b5db7",
+      "bytes": 33273
+    },
+    "expected_outputs": [
+      "PROFILE.observations.json",
+      "PROFILE.json",
+      "PROFILE.md"
+    ],
+    "execution": "Inside the same fresh critic session before immutable CLI completion; no post-completion export"
+  }
+}

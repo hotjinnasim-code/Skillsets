@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "role": "R12-C1-M2",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "changes": [
+    {
+      "view": "native",
+      "location": "activity figures",
+      "observation": "Fabric texture and shaded edge treatment are reduced; dark outlines now more consistently define all figures and hands."
+    },
+    {
+      "view": "native",
+      "location": "above shared pouches",
+      "observation": "Both groups of coral rays are removed."
+    },
+    {
+      "view": "usage720",
+      "location": "all text and composition",
+      "observation": "All copy, date-first hierarchy, object correspondences, reciprocal arrows and aligned fact groups remain visibly unchanged in content and relative arrangement."
+    },
+    {
+      "view": "native",
+      "location": "canvas",
+      "observation": "Width changed from1672 to1671 while height stayed941; initial was within0.5px ratio rounding, repair1 is outside it."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "teal body/fronts, ochre band, coral pouch and pale background",
+      "observation": "Visible low-amplitude tonal variation remains across broad fields even though fabric grain and dimensional shading were substantially reduced; fills are not fully uniform."
+    },
+    {
+      "view": "native",
+      "location": "whole canvas",
+      "observation": "Returned native dimensions 1671×941 exceed the predeclared nearest-integer ratio tolerance: ideal height at this width is 939.9375 (difference1.0625px), ideal width at this height is1672.8889 (difference1.8889px). No resizing was performed."
+    },
+    {
+      "view": "usage720",
+      "location": "activity band and lower facts",
+      "observation": "Illustrated band remains taller and lower facts remain lower than planned; facts remain aligned and readable with bottom margin."
+    },
+    {
+      "view": "native",
+      "location": "source and corresponding teal pouches",
+      "observation": "Patch continues to overlap the ochre band; same right-side relation is retained consistently."
+    }
+  ],
+  "parent_manifest_sha256": "76fdb25fab672719dd57c6094043de078dd73227c61922219e447dd20eb92170",
+  "parent_native_sha256": "81810affec93e362be17eb53d5758734a791bfaf07730bf9b729c9a44b9d4133"
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-09",
+  "status": "completed_with_documentation_discrepancies",
+  "scope": "Independent recomputation of pinned text/JSON counts and bindings; no independent reconstruction of visual tool events or quality assessment.",
+  "read_inputs": [
+    {
+      "name": "archive_observations",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/archive/root-observations.json",
+      "sha256": "72b6bc7bfa19cc9ae8ad974b6ab827bbc7eb3367704090f75b9bde79591e6f7d",
+      "bytes": 437977
+    },
+    {
+      "name": "archive_downloads",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/archive/downloaded.json",
+      "sha256": "65feb71760be73870dda8c04fe1ff94c4db488f52856842f59d1fbe14ed65671",
+      "bytes": 166194
+    },
+    {
+      "name": "studio_downloads",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/studio-downloads/downloaded.json",
+      "sha256": "a654aa69ab6358e514a3b9e45b8dcfcb6d3f898c7c0010bb514658a48cfe239e",
+      "bytes": 24833
+    },
+    {
+      "name": "studio_observations",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/output_dir/observations.json",
+      "sha256": "e414801fbf2dcb111531c0cf1094fc4e682e7314fdc7b7d9683d01f670480bfe",
+      "bytes": 217126
+    },
+    {
+      "name": "studio_status",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/output_dir/status.json",
+      "sha256": "e6e17e71c42e54f53c72e4a1784231eb961a5c16944207bb77c353a3721f1ebc",
+      "bytes": 21800
+    },
+    {
+      "name": "completion",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/completion.json",
+      "sha256": "138f480c6a5b5b2703465943f7b0d40649a87198fad9df1d2f94f358bd2757c6",
+      "bytes": 10260
+    },
+    {
+      "name": "catalog",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-t/references/reference-catalog.json",
+      "sha256": "04cbcfc3dbef2d6e8f6797b14e86991d280780b5f2f8e6d82b87ea9a50efc017",
+      "bytes": 250923
+    },
+    {
+      "name": "visual_research",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/drafts/candidate-t/references/visual-research.md",
+      "sha256": "da937958c964e289df069f1496fcafaed93af4f450ad3997b0af7686ebcb5564",
+      "bytes": 5537
+    }
+  ],
+  "constraints_observed": {
+    "pinned_inputs_only": true,
+    "raw_inputs_unchanged": true,
+    "completion_unchanged": true,
+    "source_rasters_reopened": false,
+    "browser_used": false,
+    "image_generation_used": false,
+    "new_agents_used": false,
+    "credentials_used": false,
+    "source_images_are_research_only": true,
+    "client_asset_or_redistributed_runtime_image_authorization": false,
+    "outputs": [
+      "audit.md",
+      "status.json"
+    ],
+    "extra_output_dir_created": false
+  },
+  "recomputed_totals": {
+    "archive": {
+      "download_manifest_rows": 200,
+      "unique_article_urls": 200,
+      "selected_images_per_article": 1,
+      "observation_records": 200,
+      "actual_viewed_true_observer_attestations": 200,
+      "layout_scale_observed_article_works_as_attested": 200,
+      "native_revisit_records": 8,
+      "native_revisit_ids": [
+        "BP2025-035",
+        "BP2025-047",
+        "BP2025-082",
+        "BP2024-013",
+        "BP2024-038",
+        "BP2024-063",
+        "BP2024-077",
+        "BP2024-078"
+      ],
+      "native_revisits_add_new_works": 0,
+      "distinct_declared_source_hashes": 200,
+      "duplicate_declared_source_hash_excess": 0,
+      "classification_by_record": {
+        "partial-only": 86,
+        "whole-positive": 100,
+        "excluded-template": 14
+      },
+      "non_poster_classified_records": 0,
+      "unresolved_classified_records": 0,
+      "non_poster_and_unresolved_counts_basis": "No such classes are assigned in the archive records; this audit did not independently determine media or visual certainty.",
+      "author_credit_labels_nonempty_exact_strings": 148,
+      "missing_author_ids": [
+        "BP2025-012"
+      ],
+      "distinct_author_title_label_pairs_including_missing_author": 198,
+      "repeated_author_title_labels": [
+        {
+          "author": "Michel Domeisen, Emily Horrolt, Hannah Klarer",
+          "title": "Dario Argento, Filmpodium Zürich",
+          "ids": [
+            "BP2025-002",
+            "BP2025-018"
+          ]
+        },
+        {
+          "author": "Neo Neo",
+          "title": "Scène Ella Fitzgerald",
+          "ids": [
+            "BP2025-064",
+            "BP2024-040"
+          ]
+        }
+      ],
+      "independent_studio_count": null,
+      "independently_reconstructed_visual_work_count": null,
+      "counting_unit": "One selected image / distinct archive article, not a validated cross-article series group.",
+      "attested_contact_sheet_references": 25
+    },
+    "studios": {
+      "manifest_candidates": 41,
+      "downloaded_source_records": 37,
+      "unavailable_candidates": 4,
+      "unavailable_ids": [
+        "east-FNT-01",
+        "east-EP-01",
+        "east-EP-05",
+        "west-U09"
+      ],
+      "observation_records": 37,
+      "actual_viewed_true_observer_attestations": 37,
+      "distinct_declared_source_hashes": 37,
+      "duplicate_declared_source_hash_excess": 0,
+      "classification_by_file": {
+        "whole-positive": 14,
+        "partial-only": 8,
+        "non-poster": 11,
+        "excluded-template": 1,
+        "unresolved": 3
+      },
+      "all_media_work_keys": 29,
+      "all_media_grouping_file_reduction": 8,
+      "confirmed_poster_surface_files_as_recorded": 24,
+      "confirmed_poster_surface_work_keys_as_recorded": 21,
+      "eligible_poster_files": 23,
+      "counted_poster_work_groups": 20,
+      "poster_grouping_file_reduction": 3,
+      "counted_poster_group_classes": {
+        "whole-positive": 12,
+        "partial-only": 7,
+        "excluded-template": 1
+      },
+      "whole_or_partial_poster_groups": 19,
+      "confirmed_poster_surface_excluded_for_unresolved_details_ids": [
+        "west-U10"
+      ],
+      "non_poster_files": 11,
+      "unresolved_files": 3,
+      "unresolved_ids": [
+        "west-U10",
+        "west-U12",
+        "west-U21"
+      ],
+      "poster_media_unknown_ids": [
+        "west-U12",
+        "west-U21"
+      ],
+      "classification_scoped_work_keys": {
+        "whole-positive": 12,
+        "partial-only": 7,
+        "non-poster": 9,
+        "excluded-template": 1,
+        "unresolved": 3
+      },
+      "author_credit_labels": 9,
+      "author_labels_with_counted_poster_groups": 8,
+      "independent_studio_count": null,
+      "independently_verified_author_values_reported_by_worker": 0,
+      "known_author_title_metadata_pairs": 24,
+      "null_title_ids": [
+        "west-U05",
+        "west-U18",
+        "west-U19"
+      ],
+      "author_breakdown": [
+        {
+          "author": "studio fnt",
+          "rasters": 3,
+          "counted_poster_groups": 3
+        },
+        {
+          "author": "Everyday Practice / 일상의실천",
+          "rasters": 3,
+          "counted_poster_groups": 2
+        },
+        {
+          "author": "Sulki and Min / 슬기와 민",
+          "rasters": 5,
+          "counted_poster_groups": 5
+        },
+        {
+          "author": "Ordinary People",
+          "rasters": 4,
+          "counted_poster_groups": 4
+        },
+        {
+          "author": "Studio Dumbar/DEPT",
+          "rasters": 3,
+          "counted_poster_groups": 1
+        },
+        {
+          "author": "Hey",
+          "rasters": 11,
+          "counted_poster_groups": 3
+        },
+        {
+          "author": "HORT",
+          "rasters": 3,
+          "counted_poster_groups": 1
+        },
+        {
+          "author": "Studio Feixen",
+          "rasters": 1,
+          "counted_poster_groups": 1
+        },
+        {
+          "author": "Bureau Borsche",
+          "rasters": 4,
+          "counted_poster_groups": 0
+        }
+      ]
+    },
+    "combined_records": {
+      "catalog_rows": 237,
+      "distinct_declared_source_hashes": 237,
+      "cross_collection_declared_hash_overlap": 0,
+      "combined_independent_poster_work_count": null,
+      "reason": "Archive article observations and studio series groups use different counting units; do not assert 220 independently distinct poster works."
+    }
+  },
+  "observer_tool_claims": {
+    "archive_native_revisits_reported": 8,
+    "studio_view_image_calls_reported": 74,
+    "studio_visual_emissions_reported": 38,
+    "studio_unique_originals_reported": 37,
+    "studio_per_row_visual_observation_passes_sum": 38,
+    "studio_null_view_event_ids": 37,
+    "physical_ui_display_size_unknown": true,
+    "independently_reconstructed_or_confirmed_by_this_audit": false
+  },
+  "binding_checks": {
+    "archive_manifest_observation_differences_except_view_flag": [],
+    "studio_manifest_observation_binding_differences": [],
+    "catalog_retained_field_differences": [],
+    "archive_catalog_id_coverage": 200,
+    "studio_catalog_id_coverage": 37,
+    "native_revisit_sources_match_parent_records": true,
+    "completion_manifest_sha256_matches_read_manifest": true,
+    "completion_raster_pins_match_declared_studio_sources": true,
+    "source_raster_bytes_or_dimensions_independently_verified": false
+  },
+  "preserved_uncertainties": {
+    "east-SM-01": "Metadata title Professionalism versus observer-reported visible ON POSTERS; page/image project binding unresolved, metadata title unchanged.",
+    "west-U21": "URL filename 2012 versus observer-reported visible Gandules’14; media unresolved, metadata Gandules unchanged.",
+    "HORT_null_titles": [
+      "west-U05",
+      "west-U18",
+      "west-U19"
+    ],
+    "very_low_resolution_ids": [
+      "west-U10",
+      "west-U11",
+      "west-U12",
+      "west-U13"
+    ],
+    "partial_small_copy_record_count": 25,
+    "unreadable_body_record_count": 2,
+    "catalog_identity_uncertainties_and_unresolved_details_equal_worker_records": true
+  },
+  "worker_report_location_discrepancy": {
+    "completion_reports_observed": {},
+    "actual_reports_location": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/output_dir",
+    "actual_reports": [
+      "observations.json",
+      "study.md",
+      "status.json"
+    ],
+    "actual_report_count": 3,
+    "actual_report_basis": "User-provided fact, consistent with pinned worker status artifact declarations; no unpinned file inspection.",
+    "pinned_reports_read": [
+      "observations.json",
+      "status.json"
+    ],
+    "unpinned_report_not_read": "study.md",
+    "completion_rewritten": false
+  },
+  "discrepancies": [
+    {
+      "id": "D1",
+      "kind": "report_registration_discrepancy",
+      "evidence": [
+        "completion.json#/reports",
+        "studio_status#/output_dir",
+        "studio_status#/artifacts"
+      ],
+      "detail": "completion.reports is {}, while the user identifies three actual worker reports in local-studio-study/output_dir and the pinned worker status declares observations.json, study.md, and status.json there. Two reports are pinned and read; study.md is not pinned and was not opened. The empty completion registration remains unchanged."
+    },
+    {
+      "id": "D2",
+      "kind": "archive_observation_status_conflict",
+      "count": 200,
+      "evidence": [
+        "archive_observations#/observations/*/status",
+        "archive_observations#/observations/*/actual_viewed"
+      ],
+      "detail": "All 200 root observation rows retain status=\"unviewed candidate\" while actual_viewed=true and observation text is present. The raw download manifest has actual_viewed=false for all 200 as a candidate snapshot; that preserved raw state is not an observation count."
+    },
+    {
+      "id": "D3",
+      "kind": "catalog_provenance_qualification_omitted",
+      "evidence": [
+        "catalog#/limits/1",
+        "studio_observations#/observations/*/title_author_origin",
+        "studio_status#/metadata_attribution"
+      ],
+      "detail": "The catalog says labels come from source-page metadata but omits the studio study qualifier that all 37 author/title labels are user-provided metadata and independently unverified. The underlying label values and explicit row-level identity uncertainties are preserved. This omission does not prove that the labels did not ultimately originate on source pages."
+    }
+  ],
+  "quality_or_ai_authorship_conclusion": null
+}

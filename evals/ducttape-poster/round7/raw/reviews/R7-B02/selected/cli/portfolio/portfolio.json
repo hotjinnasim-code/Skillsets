@@ -1,0 +1,2226 @@
+{
+  "schema_version": 1,
+  "case_id": "R7-B02",
+  "wave": "selected",
+  "profile": "portfolio",
+  "session_id": null,
+  "normalization": "nfc-ws-optical-v1",
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "viewed_count": 9,
+    "order_compliant": true,
+    "method": "I verified the explicitly pinned input bytes with SHA-256, read the pinned packet, case, rules, rubric, scripts, ratio policy and three native-evidence manifests without following their embedded unpinned paths. The packet supplies no source assets or protected layouts. I then opened and visually inspected the nine exact PNGs using tools.view_image(detail='original') through functions.exec and displayed each returned image. The completed display order was M1 native, usage720, thumbnail320; M2 native, usage720, thumbnail320; M3 native, usage720, thumbnail320. All nine displays completed before I made any transcription judgment, image score or diversity score. First transcriptions below were read manually from the native views; use and thumbnail views informed readability. There was no OCR, crop, image edit, additional image revisit, peer consultation or author-concept inference. I do not claim a runtime thread ID or runner provenance; session_id is null.",
+    "source_assets_viewed": [],
+    "protected_layouts_read": [],
+    "source_assets_note": "The pinned packet declares source_assets: []; there are no supplied reference assets to view.",
+    "protected_layouts_note": "The pinned packet declares protected_layouts: []; no protected-layout measurement manifest is applicable.",
+    "native_manifests_read": [
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1/stages/initial/manifest.json",
+        "sha256": "ef28f04c69dca8d040d94ed1baa7cff181da4b793f28469f7c696ada7971a83c",
+        "bytes": 2644,
+        "image_id": "R7-B02-M1",
+        "read": true
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M2/stages/initial/manifest.json",
+        "sha256": "4038a6622c253c4cdb983b0ca0a5c43313c3d1addf97e3064edc86b53e2c10fd",
+        "bytes": 2644,
+        "image_id": "R7-B02-M2",
+        "read": true
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/repair-2/manifest.json",
+        "sha256": "47c409f060e6d6c7c4f87014a30e5cff33ebbccd9c6728ea38efdc1f7e3c9873",
+        "bytes": 2651,
+        "image_id": "R7-B02-M3",
+        "read": true
+      }
+    ],
+    "revisits": []
+  },
+  "viewed": [
+    {
+      "image_id": "R7-B02-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1/stages/initial/original.png",
+      "sha256": "c86eed8d5e035ebeb4df00235483845f638df34e1a9056efeab977405dd2dbaf"
+    },
+    {
+      "image_id": "R7-B02-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1/stages/initial/usage-720.png",
+      "sha256": "058fdff0bece55a76bbfcd42b1311932815c557394008116f8bacca0deeba7ad"
+    },
+    {
+      "image_id": "R7-B02-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1/stages/initial/thumbnail-320.png",
+      "sha256": "222a7b95bee0189320848c7262aaebf00235dc725fd0bb20bd6fecb0b150e328"
+    },
+    {
+      "image_id": "R7-B02-M2",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M2/stages/initial/original.png",
+      "sha256": "000a4d5aa0009c04d9162320d7b00740678fa169093fb038f5f73625fe4d734e"
+    },
+    {
+      "image_id": "R7-B02-M2",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M2/stages/initial/usage-720.png",
+      "sha256": "71cd3b6b4b64be7e99ca4c4bb15397ea3192f2e93282f60d42c2e487664c8e3f"
+    },
+    {
+      "image_id": "R7-B02-M2",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M2/stages/initial/thumbnail-320.png",
+      "sha256": "e0aa2630f48bbe6326c9d16808007b3275736f76ea6965ad198e3338dd1a3f8c"
+    },
+    {
+      "image_id": "R7-B02-M3",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/repair-2/original.png",
+      "sha256": "14b0c1ba75b1bc6a7107d54df64df8ad1e62d81ba8a7146f230c49f6cf380877"
+    },
+    {
+      "image_id": "R7-B02-M3",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/repair-2/usage-720.png",
+      "sha256": "9b01d381c6adf1ca816649840d2b7e2d6155fb1ad04ec610a1a2298ce6722fe3"
+    },
+    {
+      "image_id": "R7-B02-M3",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M3/stages/repair-2/thumbnail-320.png",
+      "sha256": "2d5ada216b51daa0a65e5671b86d6842fb0cd3532cc4b2610bed2160afced5d0"
+    }
+  ],
+  "images": {
+    "R7-B02-M1": {
+      "image_id": "R7-B02-M1",
+      "role": "R7-B02-M1",
+      "stage": "initial",
+      "case_id": "R7-B02",
+      "profile": "portfolio",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-right title",
+              "required": "도시를 읽는 데이터",
+              "raw_observed": "도시를 읽는\n데이터",
+              "normalized_required": "도시를 읽는 데이터",
+              "normalized_observed": "도시를 읽는 데이터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-right English title",
+              "required": "Reading the City Through Data",
+              "raw_observed": "Reading the City\nThrough Data",
+              "normalized_required": "Reading the City Through Data",
+              "normalized_observed": "Reading the City Through Data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column below English title",
+              "required": "도시 데이터 실무 포럼 2026",
+              "raw_observed": "도시 데이터 실무 포럼 2026",
+              "normalized_required": "도시 데이터 실무 포럼 2026",
+              "normalized_observed": "도시 데이터 실무 포럼 2026",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column below Korean forum name",
+              "required": "Urban Data Practice Forum 2026",
+              "raw_observed": "Urban Data Practice Forum 2026",
+              "normalized_required": "Urban Data Practice Forum 2026",
+              "normalized_observed": "Urban Data Practice Forum 2026",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column above venue",
+              "required": "2026.11.26 13:30–17:30",
+              "raw_observed": "2026.11.26 13:30–17:30",
+              "normalized_required": "2026.11.26 13:30–17:30",
+              "normalized_observed": "2026.11.26 13:30–17:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column venue block",
+              "required": "성수공유홀 3층",
+              "raw_observed": "성수공유홀 3층",
+              "normalized_required": "성수공유홀 3층",
+              "normalized_observed": "성수공유홀 3층",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column venue block",
+              "required": "Seongsu Shared Hall, 3F",
+              "raw_observed": "Seongsu Shared Hall, 3F",
+              "normalized_required": "Seongsu Shared Hall, 3F",
+              "normalized_observed": "Seongsu Shared Hall, 3F",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 7,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column schedule, first row",
+              "required": "13:30 등록 / Registration",
+              "raw_observed": "13:30 등록 / Registration",
+              "normalized_required": "13:30 등록/Registration",
+              "normalized_observed": "13:30 등록/Registration",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 8,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column schedule, second row",
+              "required": "14:00 생활 데이터의 빈틈 / Gaps in Everyday Data",
+              "raw_observed": "14:00 생활 데이터의 빈틈 /\nGaps in Everyday Data",
+              "normalized_required": "14:00 생활 데이터의 빈틈/Gaps in Everyday Data",
+              "normalized_observed": "14:00 생활 데이터의 빈틈/Gaps in Everyday Data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 9,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column schedule, third row",
+              "required": "15:00 지역을 설명하는 지도 / Mapping Local Context",
+              "raw_observed": "15:00 지역을 설명하는 지도 /\nMapping Local Context",
+              "normalized_required": "15:00 지역을 설명하는 지도/Mapping Local Context",
+              "normalized_observed": "15:00 지역을 설명하는 지도/Mapping Local Context",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 10,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column schedule, fourth row",
+              "required": "16:00 작은 팀의 협업 / Collaboration in Small Teams",
+              "raw_observed": "16:00 작은 팀의 협업 /\nCollaboration in Small Teams",
+              "normalized_required": "16:00 작은 팀의 협업/Collaboration in Small Teams",
+              "normalized_observed": "16:00 작은 팀의 협업/Collaboration in Small Teams",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 11,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column schedule, fifth row",
+              "required": "17:00 질의응답 / Questions and Answers",
+              "raw_observed": "17:00 질의응답 / Questions and Answers",
+              "normalized_required": "17:00 질의응답/Questions and Answers",
+              "normalized_observed": "17:00 질의응답/Questions and Answers",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 12,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column audience block",
+              "required": "대상 공공기관 실무자와 지역 데이터 팀",
+              "raw_observed": "대상 공공기관 실무자와 지역 데이터 팀",
+              "normalized_required": "대상 공공기관 실무자와 지역 데이터 팀",
+              "normalized_observed": "대상 공공기관 실무자와 지역 데이터 팀",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 13,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column audience block",
+              "required": "For public-sector practitioners and local data teams",
+              "raw_observed": "For public-sector practitioners and local data teams",
+              "normalized_required": "For public-sector practitioners and local data teams",
+              "normalized_observed": "For public-sector practitioners and local data teams",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 14,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column attendance block",
+              "required": "참가비 무료 / Free admission",
+              "raw_observed": "참가비 무료 / Free admission",
+              "normalized_required": "참가비 무료/Free admission",
+              "normalized_observed": "참가비 무료/Free admission",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 15,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column attendance block",
+              "required": "정원 80명 / Capacity 80",
+              "raw_observed": "정원 80명 / Capacity 80",
+              "normalized_required": "정원 80명/Capacity 80",
+              "normalized_observed": "정원 80명/Capacity 80",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 16,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column registration deadline",
+              "required": "신청 마감 2026.11.20 18:00",
+              "raw_observed": "신청 마감 2026.11.20 18:00",
+              "normalized_required": "신청 마감 2026.11.20 18:00",
+              "normalized_observed": "신청 마감 2026.11.20 18:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 17,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column registration deadline",
+              "required": "Registration closes 2026.11.20 18:00",
+              "raw_observed": "Registration closes 2026.11.20 18:00",
+              "normalized_required": "Registration closes 2026.11.20 18:00",
+              "normalized_observed": "Registration closes 2026.11.20 18:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 18,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column orange registration link",
+              "required": "신청 example.org/city-data",
+              "raw_observed": "신청 example.org/city-data",
+              "normalized_required": "신청 example.org/city-data",
+              "normalized_observed": "신청 example.org/city-data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. URL is a separate protected entry; its slash, dot and word spacing receive no optical exception."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 19,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column orange registration link",
+              "required": "Register example.org/city-data",
+              "raw_observed": "Register example.org/city-data",
+              "normalized_required": "Register example.org/city-data",
+              "normalized_observed": "Register example.org/city-data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. URL is a separate protected entry; its slash, dot and word spacing receive no optical exception."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 20,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column contact block",
+              "required": "문의 city-data@example.org",
+              "raw_observed": "문의 city-data@example.org",
+              "normalized_required": "문의 city-data@example.org",
+              "normalized_observed": "문의 city-data@example.org",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 21,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "right column contact block",
+              "required": "Contact city-data@example.org",
+              "raw_observed": "Contact city-data@example.org",
+              "normalized_required": "Contact city-data@example.org",
+              "normalized_observed": "Contact city-data@example.org",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 22,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right organiser block",
+              "required": "주최 도시실무연구회",
+              "raw_observed": "주최 도시실무연구회",
+              "normalized_required": "주최 도시실무연구회",
+              "normalized_observed": "주최 도시실무연구회",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 23,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right organiser block",
+              "required": "Organised by Urban Practice Network",
+              "raw_observed": "Organised by Urban Practice Network",
+              "normalized_required": "Organised by Urban Practice Network",
+              "normalized_observed": "Organised by Urban Practice Network",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ]
+        },
+        "style": {
+          "status": "FAIL",
+          "checked_requirement": "공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다. 아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요. 프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요. 신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다. 특정 스타일이나 색은 정하지 않겠습니다. 도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다. 글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.\n\nLiteral client styles:\n{\"mode\": \"open\", \"tone\": \"신뢰할 수 있고 활기 있는 행사\"}\n\nLiteral mandatory client conditions:\n공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다.\n아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요.\n프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요.\n신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다.\n특정 스타일이나 색은 정하지 않겠습니다.\n도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다.\n글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "bilingual programme, audience, venue and application regions",
+              "observation": "Korean and English supply the same programme, audience, fee/capacity, deadline, registration, contact and organiser information. These functions occupy distinct accessible groups; all 24 required entries compare equal under the predeclared rule."
+            },
+            {
+              "view": "native",
+              "location": "whole poster and information/illustration boundaries",
+              "observation": "This is a single opaque flat poster with no mockup frame or visible extra logo, sponsor, invented label, mapped place name, geographic coordinate or quantitative chart. The city imagery is illustrative and does not assert real geographic accuracy."
+            },
+            {
+              "view": "native",
+              "location": "left half, tree-lined facade and adjoining pale city silhouette",
+              "observation": "A large coloured street illustration transitions into a pale, simplified version of buildings, trees and pavement. This is substantive urban observation imagery, rather than lettering or token ornament."
+            },
+            {
+              "view": "usage720",
+              "location": "centre-left boundary between the rendered street and pale shapes",
+              "observation": "The tonal reduction is visible, but it contains no discernible analytical relationship: the second street remains a decorative silhouette, without an observable selection, comparison or organisation of urban observations into data."
+            },
+            {
+              "view": "usage720",
+              "location": "green canopy, warm orange facade and navy information column",
+              "observation": "Fresh greenery and a warm street generate an inviting, lively daytime mood, while the ordered navy copy keeps the forum credible."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "overall colour and title relationship",
+              "observation": "The bright image does not overpower the title or action accent; the emotional effect is controlled and suitable for an accessible public event."
+            }
+          ],
+          "issues": [
+            "The required relationship between urban observation and data is not sufficiently communicated by the nonglyph visual: the pale second city treatment supplies stylistic reduction, but no clear information relationship."
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "required_ratio": [
+            2,
+            3
+          ],
+          "rounding_policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "rounding_used": false,
+          "calculation": "1024*3 == 1536*2 == 3072; exact equality, so no integer-rounding exception is needed.",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "left half, tree-lined facade and adjoining pale city silhouette",
+              "observation": "A large coloured street illustration transitions into a pale, simplified version of buildings, trees and pavement. This is substantive urban observation imagery, rather than lettering or token ornament."
+            },
+            {
+              "view": "usage720",
+              "location": "centre-left boundary between the rendered street and pale shapes",
+              "observation": "The tonal reduction is visible, but it contains no discernible analytical relationship: the second street remains a decorative silhouette, without an observable selection, comparison or organisation of urban observations into data."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "left half, tree-lined facade and adjoining pale city silhouette",
+              "observation": "A large coloured street illustration transitions into a pale, simplified version of buildings, trees and pavement. This is substantive urban observation imagery, rather than lettering or token ornament."
+            },
+            {
+              "view": "usage720",
+              "location": "centre-left boundary between the rendered street and pale shapes",
+              "observation": "The tonal reduction is visible, but it contains no discernible analytical relationship: the second street remains a decorative silhouette, without an observable selection, comparison or organisation of urban observations into data."
+            }
+          ],
+          "issues": []
+        }
+      },
+      "conditions": [
+        {
+          "requirement": "공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요.",
+          "status": "PASS",
+          "observations": "This member is one urban-data forum poster in the exact three-member set; the supplied copy is present. No additional co-host identity was invented."
+        },
+        {
+          "requirement": "모두 세로 2:3입니다.",
+          "status": "PASS",
+          "observations": "Native PNG is 1024 × 1536, mathematically exact portrait 2:3."
+        },
+        {
+          "requirement": "한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다.",
+          "status": "PASS",
+          "observations": "Korean and English entries are paired and convey the same supplied information; no language-specific missing entry was observed."
+        },
+        {
+          "requirement": "아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요.",
+          "status": "PASS",
+          "observations": "All 24 literal entries are preserved after the predeclared normalization, with soft wraps recorded separately."
+        },
+        {
+          "requirement": "프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요.",
+          "status": "PASS",
+          "observations": "Programme, audience, application and venue have distinct located regions documented in transcription and hierarchy evidence."
+        },
+        {
+          "requirement": "신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다.",
+          "status": "PASS",
+          "observations": "The lively colour/urban scene and ordered bilingual typography communicate an inviting, credible practical event."
+        },
+        {
+          "requirement": "특정 스타일이나 색은 정하지 않겠습니다.",
+          "status": "PASS",
+          "observations": "No fixed palette, house style, rendering medium or anti-3D condition was imposed; the achieved style was judged from the pixels."
+        },
+        {
+          "requirement": "도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다.",
+          "status": "FAIL",
+          "observations": "The required relationship between urban observation and data is not sufficiently communicated by the nonglyph visual: the pale second city treatment supplies stylistic reduction, but no clear information relationship."
+        },
+        {
+          "requirement": "글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.",
+          "status": "PASS",
+          "observations": "The large nonglyph urban scene exceeds token decoration; no invented factual map label, data series, geographic coordinate or unsupported numerical claim is visible."
+        },
+        {
+          "requirement": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "observations": "One flat opaque member at its exact assigned ratio, with all 24 supplied entries present."
+        },
+        {
+          "requirement": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "observations": "Title and full copy are preserved; no additional copy, logo, sponsor or label was observed."
+        },
+        {
+          "requirement": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "observations": "A substantial content-grounded nonglyph city visual occupies a major part of the poster; its data relationship is judged separately and is not substituted with a type-only exception."
+        }
+      ],
+      "scores": {
+        "content_form": 3,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "left half, detailed street beside a pale repeat of its forms",
+            "observation": "The specific city setting is clear, and the adjacent reduced forms suggest abstraction, but the shift has little visible structure that identifies what is being learned or represented as data."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "left visual strip beside the right text column",
+            "observation": "At small scale it reads chiefly as a tree-lined neighbourhood illustration. The city-to-data connection depends heavily on the title; the content relationship remains generic, warranting 3."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "right column from title through date, venue, schedule and application",
+            "observation": "The large bilingual title leads to clearly separated event, venue, timed programme and attendance blocks. Orange registration lines make the action easy to locate."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "top-right title and orange lower-right link",
+            "observation": "The title and application accent survive reduction; the many supporting lines become small, but the main reading structure remains visible."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "right column bilingual schedule and supporting copy",
+            "observation": "Hangul and Latin forms are clean; times occupy a stable left rail and longer English programme names wrap under their Korean names. All required glyphs and punctuation were observed."
+          },
+          {
+            "view": "usage720",
+            "location": "audience line and last programme row at right edge",
+            "observation": "The longest lines sit close to the right margin but remain readable and do not collide or clip. Consistent dark-blue type and clear weight changes provide professional handling."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "full composition, illustrated left strip and right information column",
+            "observation": "A stable vertical division reserves roughly half the width for illustration while the right column shares consistent left edges and repeated thin separator rules."
+          },
+          {
+            "view": "usage720",
+            "location": "right-column blocks from schedule to organiser",
+            "observation": "Intervals between programme, audience, application, contact and organiser are systematic; the lower organiser retains a clear bottom inset."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "left foreground tree, orange entrance and pavement shadows",
+            "observation": "Painterly foliage, bark, window planes and sunlit paving share a coherent illustrated material; the near tree and receding street remain legible."
+          },
+          {
+            "view": "native",
+            "location": "centre-left pale blue street and white contour edges",
+            "observation": "The simplified planes continue the street direction coherently; the material transition is controlled even though its data meaning is weak."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "green canopy, warm orange facade and navy information column",
+            "observation": "Fresh greenery and a warm street generate an inviting, lively daytime mood, while the ordered navy copy keeps the forum credible."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "overall colour and title relationship",
+            "observation": "The bright image does not overpower the title or action accent; the emotional effect is controlled and suitable for an accessible public event."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "tree trunk, facade edges and schedule column",
+            "observation": "The scene has consistent construction and the information column has no observable invented labels, malformed copy or stray icons."
+          },
+          {
+            "view": "usage720",
+            "location": "illustration/text boundary and repeated horizontal rules",
+            "observation": "The visual boundary and separators are deliberate and coherent; no unresolved generated defect stands out. The weak data specificity is recorded in content_form rather than inferred as an artifact."
+          }
+        ]
+      },
+      "residuals": [
+        "The visual city/data relationship remains underdeveloped; the first two palette/rendering treatments should not be mistaken for visible data simply because the title mentions it.",
+        "The longest right-column supporting lines have limited breathing room, and fine supporting text is small at thumbnail scale."
+      ]
+    },
+    "R7-B02-M2": {
+      "image_id": "R7-B02-M2",
+      "role": "R7-B02-M2",
+      "stage": "initial",
+      "case_id": "R7-B02",
+      "profile": "portfolio",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "central Korean title",
+              "required": "도시를 읽는 데이터",
+              "raw_observed": "도시를 읽는 데이터",
+              "normalized_required": "도시를 읽는 데이터",
+              "normalized_observed": "도시를 읽는 데이터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "central English title",
+              "required": "Reading the City Through Data",
+              "raw_observed": "Reading the City\nThrough Data",
+              "normalized_required": "Reading the City Through Data",
+              "normalized_observed": "Reading the City Through Data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top-left forum name",
+              "required": "도시 데이터 실무 포럼 2026",
+              "raw_observed": "도시 데이터 실무 포럼 2026",
+              "normalized_required": "도시 데이터 실무 포럼 2026",
+              "normalized_observed": "도시 데이터 실무 포럼 2026",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top-left forum name",
+              "required": "Urban Data Practice Forum 2026",
+              "raw_observed": "Urban Data Practice Forum 2026",
+              "normalized_required": "Urban Data Practice Forum 2026",
+              "normalized_observed": "Urban Data Practice Forum 2026",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top-left date/time",
+              "required": "2026.11.26 13:30–17:30",
+              "raw_observed": "2026.11.26 13:30–17:30",
+              "normalized_required": "2026.11.26 13:30–17:30",
+              "normalized_observed": "2026.11.26 13:30–17:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top-left venue",
+              "required": "성수공유홀 3층",
+              "raw_observed": "성수공유홀 3층",
+              "normalized_required": "성수공유홀 3층",
+              "normalized_observed": "성수공유홀 3층",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top-left venue",
+              "required": "Seongsu Shared Hall, 3F",
+              "raw_observed": "Seongsu Shared Hall, 3F",
+              "normalized_required": "Seongsu Shared Hall, 3F",
+              "normalized_observed": "Seongsu Shared Hall, 3F",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 7,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "central schedule, first row",
+              "required": "13:30 등록 / Registration",
+              "raw_observed": "13:30 등록 / Registration",
+              "normalized_required": "13:30 등록/Registration",
+              "normalized_observed": "13:30 등록/Registration",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 8,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "central schedule, second row",
+              "required": "14:00 생활 데이터의 빈틈 / Gaps in Everyday Data",
+              "raw_observed": "14:00 생활 데이터의 빈틈 /\nGaps in Everyday Data",
+              "normalized_required": "14:00 생활 데이터의 빈틈/Gaps in Everyday Data",
+              "normalized_observed": "14:00 생활 데이터의 빈틈/Gaps in Everyday Data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 9,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "central schedule, third row",
+              "required": "15:00 지역을 설명하는 지도 / Mapping Local Context",
+              "raw_observed": "15:00 지역을 설명하는 지도 /\nMapping Local Context",
+              "normalized_required": "15:00 지역을 설명하는 지도/Mapping Local Context",
+              "normalized_observed": "15:00 지역을 설명하는 지도/Mapping Local Context",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 10,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "central schedule, fourth row",
+              "required": "16:00 작은 팀의 협업 / Collaboration in Small Teams",
+              "raw_observed": "16:00 작은 팀의 협업 /\nCollaboration in Small Teams",
+              "normalized_required": "16:00 작은 팀의 협업/Collaboration in Small Teams",
+              "normalized_observed": "16:00 작은 팀의 협업/Collaboration in Small Teams",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 11,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "central schedule, fifth row",
+              "required": "17:00 질의응답 / Questions and Answers",
+              "raw_observed": "17:00 질의응답 / Questions and Answers",
+              "normalized_required": "17:00 질의응답/Questions and Answers",
+              "normalized_observed": "17:00 질의응답/Questions and Answers",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 12,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-left audience block",
+              "required": "대상 공공기관 실무자와 지역 데이터 팀",
+              "raw_observed": "대상 공공기관 실무자와 지역 데이터 팀",
+              "normalized_required": "대상 공공기관 실무자와 지역 데이터 팀",
+              "normalized_observed": "대상 공공기관 실무자와 지역 데이터 팀",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 13,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-left audience block",
+              "required": "For public-sector practitioners and local data teams",
+              "raw_observed": "For public-sector practitioners\nand local data teams",
+              "normalized_required": "For public-sector practitioners and local data teams",
+              "normalized_observed": "For public-sector practitioners and local data teams",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 14,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-left attendance block",
+              "required": "참가비 무료 / Free admission",
+              "raw_observed": "참가비 무료 / Free admission",
+              "normalized_required": "참가비 무료/Free admission",
+              "normalized_observed": "참가비 무료/Free admission",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 15,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-left attendance block",
+              "required": "정원 80명 / Capacity 80",
+              "raw_observed": "정원 80명 / Capacity 80",
+              "normalized_required": "정원 80명/Capacity 80",
+              "normalized_observed": "정원 80명/Capacity 80",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 16,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right registration deadline",
+              "required": "신청 마감 2026.11.20 18:00",
+              "raw_observed": "신청 마감 2026.11.20 18:00",
+              "normalized_required": "신청 마감 2026.11.20 18:00",
+              "normalized_observed": "신청 마감 2026.11.20 18:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 17,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right registration deadline",
+              "required": "Registration closes 2026.11.20 18:00",
+              "raw_observed": "Registration closes 2026.11.20 18:00",
+              "normalized_required": "Registration closes 2026.11.20 18:00",
+              "normalized_observed": "Registration closes 2026.11.20 18:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 18,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right registration link",
+              "required": "신청 example.org/city-data",
+              "raw_observed": "신청 example.org/city-data",
+              "normalized_required": "신청 example.org/city-data",
+              "normalized_observed": "신청 example.org/city-data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. URL is a separate protected entry; its slash, dot and word spacing receive no optical exception."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 19,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right registration link",
+              "required": "Register example.org/city-data",
+              "raw_observed": "Register example.org/city-data",
+              "normalized_required": "Register example.org/city-data",
+              "normalized_observed": "Register example.org/city-data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. URL is a separate protected entry; its slash, dot and word spacing receive no optical exception."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 20,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right contact block",
+              "required": "문의 city-data@example.org",
+              "raw_observed": "문의 city-data@example.org",
+              "normalized_required": "문의 city-data@example.org",
+              "normalized_observed": "문의 city-data@example.org",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 21,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right contact block",
+              "required": "Contact city-data@example.org",
+              "raw_observed": "Contact city-data@example.org",
+              "normalized_required": "Contact city-data@example.org",
+              "normalized_observed": "Contact city-data@example.org",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 22,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top-left organiser block",
+              "required": "주최 도시실무연구회",
+              "raw_observed": "주최 도시실무연구회",
+              "normalized_required": "주최 도시실무연구회",
+              "normalized_observed": "주최 도시실무연구회",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 23,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top-left organiser block",
+              "required": "Organised by Urban Practice Network",
+              "raw_observed": "Organised by Urban Practice Network",
+              "normalized_required": "Organised by Urban Practice Network",
+              "normalized_observed": "Organised by Urban Practice Network",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ]
+        },
+        "style": {
+          "status": "FAIL",
+          "checked_requirement": "공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다. 아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요. 프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요. 신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다. 특정 스타일이나 색은 정하지 않겠습니다. 도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다. 글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.\n\nLiteral client styles:\n{\"mode\": \"open\", \"tone\": \"신뢰할 수 있고 활기 있는 행사\"}\n\nLiteral mandatory client conditions:\n공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다.\n아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요.\n프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요.\n신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다.\n특정 스타일이나 색은 정하지 않겠습니다.\n도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다.\n글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "bilingual programme, audience, venue and application regions",
+              "observation": "Korean and English supply the same programme, audience, fee/capacity, deadline, registration, contact and organiser information. These functions occupy distinct accessible groups; all 24 required entries compare equal under the predeclared rule."
+            },
+            {
+              "view": "native",
+              "location": "whole poster and information/illustration boundaries",
+              "observation": "This is a single opaque flat poster with no mockup frame or visible extra logo, sponsor, invented label, mapped place name, geographic coordinate or quantitative chart. The city imagery is illustrative and does not assert real geographic accuracy."
+            },
+            {
+              "view": "native",
+              "location": "upper-right workspace, lower-left cafe and surrounding architectural cutaways",
+              "observation": "Large architectural scenes contain a laptop user, seated conversation and pedestrians; these supply a substantial inhabited urban setting."
+            },
+            {
+              "view": "usage720",
+              "location": "whole architectural frame around the central title and schedule",
+              "observation": "The cutaways frame the copy, but do not visibly turn urban observation into data or compare observations. The laptop screen has no legible data content; the scene reads as a leafy workplace/cafe setting."
+            },
+            {
+              "view": "usage720",
+              "location": "lit cafe scene and bright green architectural frame",
+              "observation": "People working, talking and walking in sunny planted space create a welcoming and active tone appropriate to a professional community gathering."
+            },
+            {
+              "view": "usage720",
+              "location": "cream centre with navy title and timed programme",
+              "observation": "The restrained information field balances the lush surroundings and gives the event credibility instead of reducing it to decorative scenery alone."
+            }
+          ],
+          "issues": [
+            "The required relationship between urban observation and data is absent from the visible nonglyph scene; planted cutaway architecture, a laptop user and cafe conversation do not visibly represent data."
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "required_ratio": [
+            2,
+            3
+          ],
+          "rounding_policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "rounding_used": false,
+          "calculation": "1024*3 == 1536*2 == 3072; exact equality, so no integer-rounding exception is needed.",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper-right workspace, lower-left cafe and surrounding architectural cutaways",
+              "observation": "Large architectural scenes contain a laptop user, seated conversation and pedestrians; these supply a substantial inhabited urban setting."
+            },
+            {
+              "view": "usage720",
+              "location": "whole architectural frame around the central title and schedule",
+              "observation": "The cutaways frame the copy, but do not visibly turn urban observation into data or compare observations. The laptop screen has no legible data content; the scene reads as a leafy workplace/cafe setting."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "upper-right workspace, lower-left cafe and surrounding architectural cutaways",
+              "observation": "Large architectural scenes contain a laptop user, seated conversation and pedestrians; these supply a substantial inhabited urban setting."
+            },
+            {
+              "view": "usage720",
+              "location": "whole architectural frame around the central title and schedule",
+              "observation": "The cutaways frame the copy, but do not visibly turn urban observation into data or compare observations. The laptop screen has no legible data content; the scene reads as a leafy workplace/cafe setting."
+            }
+          ],
+          "issues": []
+        }
+      },
+      "conditions": [
+        {
+          "requirement": "공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요.",
+          "status": "PASS",
+          "observations": "This member is one urban-data forum poster in the exact three-member set; the supplied copy is present. No additional co-host identity was invented."
+        },
+        {
+          "requirement": "모두 세로 2:3입니다.",
+          "status": "PASS",
+          "observations": "Native PNG is 1024 × 1536, mathematically exact portrait 2:3."
+        },
+        {
+          "requirement": "한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다.",
+          "status": "PASS",
+          "observations": "Korean and English entries are paired and convey the same supplied information; no language-specific missing entry was observed."
+        },
+        {
+          "requirement": "아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요.",
+          "status": "PASS",
+          "observations": "All 24 literal entries are preserved after the predeclared normalization, with soft wraps recorded separately."
+        },
+        {
+          "requirement": "프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요.",
+          "status": "PASS",
+          "observations": "Programme, audience, application and venue have distinct located regions documented in transcription and hierarchy evidence."
+        },
+        {
+          "requirement": "신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다.",
+          "status": "PASS",
+          "observations": "The lively colour/urban scene and ordered bilingual typography communicate an inviting, credible practical event."
+        },
+        {
+          "requirement": "특정 스타일이나 색은 정하지 않겠습니다.",
+          "status": "PASS",
+          "observations": "No fixed palette, house style, rendering medium or anti-3D condition was imposed; the achieved style was judged from the pixels."
+        },
+        {
+          "requirement": "도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다.",
+          "status": "FAIL",
+          "observations": "The required relationship between urban observation and data is absent from the visible nonglyph scene; planted cutaway architecture, a laptop user and cafe conversation do not visibly represent data."
+        },
+        {
+          "requirement": "글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.",
+          "status": "PASS",
+          "observations": "The large nonglyph urban scene exceeds token decoration; no invented factual map label, data series, geographic coordinate or unsupported numerical claim is visible."
+        },
+        {
+          "requirement": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "observations": "One flat opaque member at its exact assigned ratio, with all 24 supplied entries present."
+        },
+        {
+          "requirement": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "observations": "Title and full copy are preserved; no additional copy, logo, sponsor or label was observed."
+        },
+        {
+          "requirement": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "observations": "A substantial content-grounded nonglyph city visual occupies a major part of the poster; its data relationship is judged separately and is not substituted with a type-only exception."
+        }
+      ],
+      "scores": {
+        "content_form": 3,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "upper-right laptop table and lower-left seated group",
+            "observation": "Work, conversation and pedestrian scenes fit a small professional gathering, but the prominent imagery is a generic planted architectural environment."
+          },
+          {
+            "view": "usage720",
+            "location": "architectural frame surrounding the title and schedule",
+            "observation": "No visible representation connects city observation to data; the cutaway buildings serve mainly as a scenic frame. The essential topic relies on copy, so this dimension is functional but generic: 3."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "central title/schedule, top-left logistics and bottom two-column footer",
+            "observation": "The central title is the main focus, timed rows read sequentially, and logistics and registration occupy distinct regions. Korean and English are paired within each region."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "centre title contrasted with top-left forum heading",
+            "observation": "The central title remains strongest despite the large upper-left heading; the footer is much smaller but retains a visible two-column structure."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "central cream opening and architectural fragments around its perimeter",
+            "observation": "The buildings and foliage form an intentional irregular frame; the central schedule occupies a stable opening rather than sitting on detailed textures."
+          },
+          {
+            "view": "usage720",
+            "location": "bottom audience and application columns",
+            "observation": "A vertical divider separates the two information groups, and aligned thin rules keep their internal spacing consistent despite the irregular image perimeter."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "upper-right terrace, concrete planters and orange structural sections",
+            "observation": "Sunlight, concrete surfaces, foliage and warm orange sections share a coherent rendered material; table/chair scale and the laptop user are readable."
+          },
+          {
+            "view": "native",
+            "location": "lower-left cafe and right-side walking figure",
+            "observation": "People and furniture remain locally legible. The exposed architectural segments clearly operate as a poster collage; this assessment does not impose a ban on rendered or impossible cutaway compositions."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "lit cafe scene and bright green architectural frame",
+            "observation": "People working, talking and walking in sunny planted space create a welcoming and active tone appropriate to a professional community gathering."
+          },
+          {
+            "view": "usage720",
+            "location": "cream centre with navy title and timed programme",
+            "observation": "The restrained information field balances the lush surroundings and gives the event credibility instead of reducing it to decorative scenery alone."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "upper terrace, foreground pedestrians and programme rules",
+            "observation": "The figures, building segments and ruled schedule show no conspicuous malformed appendage, stray label or copy corruption. The repeated plants belong to the urban setting."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "whole cutaway frame",
+            "observation": "The collage maintains an intentional shape at small size; repetition of greenery is thematically consistent. Topic genericness is a content problem, not evidence of an invented production defect."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "central timed rows and bottom bilingual audience block",
+            "observation": "Times, Korean names and English translations maintain aligned readable roles; the audience translation wraps after practitioners without losing words."
+          },
+          {
+            "view": "usage720",
+            "location": "bottom registration/contact lines and top-left logistics",
+            "observation": "The smallest English lines remain readable at use size, and the long deadline line stays inside its block. At thumbnail size fine copy is small, but the major title remains clear."
+          }
+        ]
+      },
+      "residuals": [
+        "The urban-data topic depends on the lettering; the inhabited architectural frame could equally illustrate a workspace or neighbourhood event.",
+        "The central title is clear, but the dense bottom footer is considerably smaller than the image and title at thumbnail scale."
+      ]
+    },
+    "R7-B02-M3": {
+      "image_id": "R7-B02-M3",
+      "role": "R7-B02-M3",
+      "stage": "repair-2",
+      "case_id": "R7-B02",
+      "profile": "portfolio",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [],
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre Korean title below schedule",
+              "required": "도시를 읽는 데이터",
+              "raw_observed": "도시를 읽는 데이터",
+              "normalized_required": "도시를 읽는 데이터",
+              "normalized_observed": "도시를 읽는 데이터",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre English title",
+              "required": "Reading the City Through Data",
+              "raw_observed": "Reading the City Through Data",
+              "normalized_required": "Reading the City Through Data",
+              "normalized_observed": "Reading the City Through Data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre forum name",
+              "required": "도시 데이터 실무 포럼 2026",
+              "raw_observed": "도시 데이터 실무 포럼 2026",
+              "normalized_required": "도시 데이터 실무 포럼 2026",
+              "normalized_observed": "도시 데이터 실무 포럼 2026",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre forum name",
+              "required": "Urban Data Practice Forum 2026",
+              "raw_observed": "Urban Data Practice Forum 2026",
+              "normalized_required": "Urban Data Practice Forum 2026",
+              "normalized_observed": "Urban Data Practice Forum 2026",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre date/time",
+              "required": "2026.11.26 13:30–17:30",
+              "raw_observed": "2026.11.26 13:30–17:30",
+              "normalized_required": "2026.11.26 13:30–17:30",
+              "normalized_observed": "2026.11.26 13:30–17:30",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre venue",
+              "required": "성수공유홀 3층",
+              "raw_observed": "성수공유홀 3층",
+              "normalized_required": "성수공유홀 3층",
+              "normalized_observed": "성수공유홀 3층",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 6,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre venue",
+              "required": "Seongsu Shared Hall, 3F",
+              "raw_observed": "Seongsu Shared Hall, 3F",
+              "normalized_required": "Seongsu Shared Hall, 3F",
+              "normalized_observed": "Seongsu Shared Hall, 3F",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 7,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top schedule, first row",
+              "required": "13:30 등록 / Registration",
+              "raw_observed": "13:30 등록 / Registration",
+              "normalized_required": "13:30 등록/Registration",
+              "normalized_observed": "13:30 등록/Registration",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 8,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top schedule, second row",
+              "required": "14:00 생활 데이터의 빈틈 / Gaps in Everyday Data",
+              "raw_observed": "14:00 생활 데이터의 빈틈 / Gaps in Everyday Data",
+              "normalized_required": "14:00 생활 데이터의 빈틈/Gaps in Everyday Data",
+              "normalized_observed": "14:00 생활 데이터의 빈틈/Gaps in Everyday Data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 9,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top schedule, third row",
+              "required": "15:00 지역을 설명하는 지도 / Mapping Local Context",
+              "raw_observed": "15:00 지역을 설명하는 지도 / Mapping Local Context",
+              "normalized_required": "15:00 지역을 설명하는 지도/Mapping Local Context",
+              "normalized_observed": "15:00 지역을 설명하는 지도/Mapping Local Context",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 10,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top schedule, fourth row",
+              "required": "16:00 작은 팀의 협업 / Collaboration in Small Teams",
+              "raw_observed": "16:00 작은 팀의 협업 / Collaboration in Small Teams",
+              "normalized_required": "16:00 작은 팀의 협업/Collaboration in Small Teams",
+              "normalized_observed": "16:00 작은 팀의 협업/Collaboration in Small Teams",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 11,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "top schedule, fifth row",
+              "required": "17:00 질의응답 / Questions and Answers",
+              "raw_observed": "17:00 질의응답 / Questions and Answers",
+              "normalized_required": "17:00 질의응답/Questions and Answers",
+              "normalized_observed": "17:00 질의응답/Questions and Answers",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. Time and description occupy aligned roles; column separation is layout, not missing copy."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 12,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-left yellow audience panel",
+              "required": "대상 공공기관 실무자와 지역 데이터 팀",
+              "raw_observed": "대상 공공기관 실무자와 지역 데이터 팀",
+              "normalized_required": "대상 공공기관 실무자와 지역 데이터 팀",
+              "normalized_observed": "대상 공공기관 실무자와 지역 데이터 팀",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 13,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-left yellow audience panel",
+              "required": "For public-sector practitioners and local data teams",
+              "raw_observed": "For public-sector practitioners\nand local data teams",
+              "normalized_required": "For public-sector practitioners and local data teams",
+              "normalized_observed": "For public-sector practitioners and local data teams",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "Two displayed lines; the newline is a soft layout wrap, and fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 14,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-left yellow attendance panel",
+              "required": "참가비 무료 / Free admission",
+              "raw_observed": "참가비 무료 / Free admission",
+              "normalized_required": "참가비 무료/Free admission",
+              "normalized_observed": "참가비 무료/Free admission",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 15,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-left yellow attendance panel",
+              "required": "정원 80명 / Capacity 80",
+              "raw_observed": "정원 80명 / Capacity 80",
+              "normalized_required": "정원 80명/Capacity 80",
+              "normalized_observed": "정원 80명/Capacity 80",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 16,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right mint registration panel",
+              "required": "신청 마감 2026.11.20 18:00",
+              "raw_observed": "신청 마감 2026.11.20 18:00",
+              "normalized_required": "신청 마감 2026.11.20 18:00",
+              "normalized_observed": "신청 마감 2026.11.20 18:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 17,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right mint registration panel",
+              "required": "Registration closes 2026.11.20 18:00",
+              "raw_observed": "Registration closes 2026.11.20 18:00",
+              "normalized_required": "Registration closes 2026.11.20 18:00",
+              "normalized_observed": "Registration closes 2026.11.20 18:00",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 18,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right blue registration link",
+              "required": "신청 example.org/city-data",
+              "raw_observed": "신청 example.org/city-data",
+              "normalized_required": "신청 example.org/city-data",
+              "normalized_observed": "신청 example.org/city-data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. URL is a separate protected entry; its slash, dot and word spacing receive no optical exception."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 19,
+              "kind": "url",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right blue registration link",
+              "required": "Register example.org/city-data",
+              "raw_observed": "Register example.org/city-data",
+              "normalized_required": "Register example.org/city-data",
+              "normalized_observed": "Register example.org/city-data",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false. URL is a separate protected entry; its slash, dot and word spacing receive no optical exception."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 20,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right blue contact line",
+              "required": "문의 city-data@example.org",
+              "raw_observed": "문의 city-data@example.org",
+              "normalized_required": "문의 city-data@example.org",
+              "normalized_observed": "문의 city-data@example.org",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 21,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "bottom-right blue contact line",
+              "required": "Contact city-data@example.org",
+              "raw_observed": "Contact city-data@example.org",
+              "normalized_required": "Contact city-data@example.org",
+              "normalized_observed": "Contact city-data@example.org",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 22,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre organiser below venue",
+              "required": "주최 도시실무연구회",
+              "raw_observed": "주최 도시실무연구회",
+              "normalized_required": "주최 도시실무연구회",
+              "normalized_observed": "주최 도시실무연구회",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 23,
+              "kind": "text",
+              "fixed_newlines": false,
+              "view": "native",
+              "location": "upper-centre organiser below venue",
+              "required": "Organised by Urban Practice Network",
+              "raw_observed": "Organised by Urban Practice Network",
+              "normalized_required": "Organised by Urban Practice Network",
+              "normalized_observed": "Organised by Urban Practice Network",
+              "equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One displayed line; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ]
+        },
+        "style": {
+          "status": "PASS",
+          "checked_requirement": "공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다. 아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요. 프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요. 신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다. 특정 스타일이나 색은 정하지 않겠습니다. 도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다. 글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.\n\nLiteral client styles:\n{\"mode\": \"open\", \"tone\": \"신뢰할 수 있고 활기 있는 행사\"}\n\nLiteral mandatory client conditions:\n공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요.\n모두 세로 2:3입니다.\n한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다.\n아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요.\n프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요.\n신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다.\n특정 스타일이나 색은 정하지 않겠습니다.\n도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다.\n글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "bilingual programme, audience, venue and application regions",
+              "observation": "Korean and English supply the same programme, audience, fee/capacity, deadline, registration, contact and organiser information. These functions occupy distinct accessible groups; all 24 required entries compare equal under the predeclared rule."
+            },
+            {
+              "view": "native",
+              "location": "whole poster and information/illustration boundaries",
+              "observation": "This is a single opaque flat poster with no mockup frame or visible extra logo, sponsor, invented label, mapped place name, geographic coordinate or quantitative chart. The city imagery is illustrative and does not assert real geographic accuracy."
+            },
+            {
+              "view": "native",
+              "location": "middle half, two hands holding joined yellow and mint city panels",
+              "observation": "Two hands bring illustrated urban fragments together along a red joining edge. Buildings, pedestrians, paving, a bench and street trees become a shared portable spatial representation, connecting observation of a city with assembling local information."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "large diagonal yellow/mint diagram across the centre",
+              "observation": "The two held pieces and their join remain recognisable without reading the title, so the visual communicates combining local observations and collaboration at small scale."
+            },
+            {
+              "view": "usage720",
+              "location": "yellow/mint city pieces, red title emphasis and blue links",
+              "observation": "The bright, contrasting accents produce an energetic and approachable mood; paired language blocks and the ruled schedule keep the practical forum tone credible."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "two hands bringing local scenes together",
+              "observation": "A visible shared action conveys participation and collaborative work without needing to infer an unseen narrative from the title."
+            }
+          ],
+          "issues": []
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1024,
+            1536
+          ],
+          "required_ratio": [
+            2,
+            3
+          ],
+          "rounding_policy": "nearest-integer-single-edge",
+          "mathematically_exact": true,
+          "rounding_used": false,
+          "calculation": "1024*3 == 1536*2 == 3072; exact equality, so no integer-rounding exception is needed.",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "middle half, two hands holding joined yellow and mint city panels",
+              "observation": "Two hands bring illustrated urban fragments together along a red joining edge. Buildings, pedestrians, paving, a bench and street trees become a shared portable spatial representation, connecting observation of a city with assembling local information."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "large diagonal yellow/mint diagram across the centre",
+              "observation": "The two held pieces and their join remain recognisable without reading the title, so the visual communicates combining local observations and collaboration at small scale."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "middle half, two hands holding joined yellow and mint city panels",
+              "observation": "Two hands bring illustrated urban fragments together along a red joining edge. Buildings, pedestrians, paving, a bench and street trees become a shared portable spatial representation, connecting observation of a city with assembling local information."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "large diagonal yellow/mint diagram across the centre",
+              "observation": "The two held pieces and their join remain recognisable without reading the title, so the visual communicates combining local observations and collaboration at small scale."
+            }
+          ],
+          "issues": []
+        }
+      },
+      "conditions": [
+        {
+          "requirement": "공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요.",
+          "status": "PASS",
+          "observations": "This member is one urban-data forum poster in the exact three-member set; the supplied copy is present. No additional co-host identity was invented."
+        },
+        {
+          "requirement": "모두 세로 2:3입니다.",
+          "status": "PASS",
+          "observations": "Native PNG is 1024 × 1536, mathematically exact portrait 2:3."
+        },
+        {
+          "requirement": "한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다.",
+          "status": "PASS",
+          "observations": "Korean and English entries are paired and convey the same supplied information; no language-specific missing entry was observed."
+        },
+        {
+          "requirement": "아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요.",
+          "status": "PASS",
+          "observations": "All 24 literal entries are preserved after the predeclared normalization, with soft wraps recorded separately."
+        },
+        {
+          "requirement": "프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요.",
+          "status": "PASS",
+          "observations": "Programme, audience, application and venue have distinct located regions documented in transcription and hierarchy evidence."
+        },
+        {
+          "requirement": "신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다.",
+          "status": "PASS",
+          "observations": "The lively colour/urban scene and ordered bilingual typography communicate an inviting, credible practical event."
+        },
+        {
+          "requirement": "특정 스타일이나 색은 정하지 않겠습니다.",
+          "status": "PASS",
+          "observations": "No fixed palette, house style, rendering medium or anti-3D condition was imposed; the achieved style was judged from the pixels."
+        },
+        {
+          "requirement": "도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다.",
+          "status": "PASS",
+          "observations": "The large joined hand-held city diagrams visibly turn local scenes into a shared spatial representation, linking observation, information assembly and collaboration."
+        },
+        {
+          "requirement": "글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.",
+          "status": "PASS",
+          "observations": "The large nonglyph urban scene exceeds token decoration; no invented factual map label, data series, geographic coordinate or unsupported numerical claim is visible."
+        },
+        {
+          "requirement": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "observations": "One flat opaque member at its exact assigned ratio, with all 24 supplied entries present."
+        },
+        {
+          "requirement": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "observations": "Title and full copy are preserved; no additional copy, logo, sponsor or label was observed."
+        },
+        {
+          "requirement": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "observations": "A substantial content-grounded nonglyph city visual occupies a major part of the poster; its data relationship is judged separately and is not substituted with a type-only exception."
+        }
+      ],
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 4,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "central joined yellow/mint city fragments held by two hands",
+            "observation": "The city is made into two manipulable spatial records. Joining them supplies an observable connection between local observation, shared information and small-team collaboration, rather than only illustrating a street."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "middle visual spanning most of the width",
+            "observation": "The hands, coloured fragments and red seam stay visible as the main nonglyph concept. The information-assembly relationship is specific enough to support the supplied mapping and collaboration programme."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "usage720",
+            "location": "top programme, central bilingual title/logistics and bottom cards",
+            "observation": "The programme is immediately accessible at the top; the larger title below it anchors the event, followed by venue/date, while two coloured bottom cards separate audience from registration."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "central title and yellow/mint lower panels",
+            "observation": "The title and diagram form a strong central focus, with the programme strip clearly separate. Date and organiser are subordinate and relatively small, preventing an exceptional hierarchy score."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "top five timed rows and central bilingual title",
+            "observation": "Clean bilingual forms and stable aligned times make the schedule readable. Red emphasis on 데이터/Data is consistent across languages; all literal copy was observed."
+          },
+          {
+            "view": "usage720",
+            "location": "bottom panels and compact English title",
+            "observation": "The long English audience entry wraps into two lines while the registration URLs remain intact. The English title is tightly set and the logistics stack is compact, but neither is clipped or confused with illustration."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "full-width programme and diagonal central diagram",
+            "observation": "The top rules share aligned ends, the title/logistics occupy the open notch above the two city fragments, and the diagonal composition gives the substantial visual room."
+          },
+          {
+            "view": "usage720",
+            "location": "bottom yellow and mint cards",
+            "observation": "Matched rounded panels, a clear central gutter and repeated inner rules establish orderly attendance and application areas. The diagram approaches the card tops closely but does not cover the copy."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "two hands, black-edged city panels and red seam",
+            "observation": "Outlined hands, flat shaded city surfaces and diagram edges share a consistent illustrated language. Fingers visibly grip the fragments; the seam remains clear through the paving and facade."
+          },
+          {
+            "view": "native",
+            "location": "central trees, bench, lamp and pedestrians",
+            "observation": "Small urban elements remain coherent at a consistent diagram scale, with readable pathways and distinct figures. The image functions as an illustrative spatial model without claiming a named real map."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "usage720",
+            "location": "yellow/mint city pieces, red title emphasis and blue links",
+            "observation": "The bright, contrasting accents produce an energetic and approachable mood; paired language blocks and the ruled schedule keep the practical forum tone credible."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "two hands bringing local scenes together",
+            "observation": "A visible shared action conveys participation and collaborative work without needing to infer an unseen narrative from the title."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "right hand grip and joined urban diagrams",
+            "observation": "The hands connect to the panels, city furniture fits the representation, and the red seam has a consistent compositional role rather than appearing as arbitrary decoration."
+          },
+          {
+            "view": "native",
+            "location": "programme, central logistics and bottom registration panel",
+            "observation": "No extraneous sponsor, legend, fabricated statistic or stray label is visible. Repeated tree shapes are part of the city depiction, and the copy blocks remain orderly."
+          }
+        ]
+      },
+      "residuals": [
+        "The English title and central logistics stack are tightly set; date, venue and organiser are subordinate to the programme and central image.",
+        "The spatial representation communicates shared local observation, but offers no explicit data-analysis process; this limits exceptional specificity without invalidating the visible content relationship."
+      ]
+    }
+  },
+  "set": {
+    "members": [
+      "R7-B02-M1",
+      "R7-B02-M2",
+      "R7-B02-M3"
+    ],
+    "requested_count": 3,
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 3,
+      "required_count": 3,
+      "issues": []
+    },
+    "diversity": 4,
+    "evidence": [
+      {
+        "image_id": "R7-B02-M1",
+        "view": "thumbnail320",
+        "location": "whole composition",
+        "observation": "A painterly vertical street strip sits beside a single right information column; the rendered-to-pale street treatment differs materially and spatially from M2 and M3."
+      },
+      {
+        "image_id": "R7-B02-M2",
+        "view": "thumbnail320",
+        "location": "whole composition",
+        "observation": "Rendered architectural cutaways enclose a central title/programme opening, with top-left logistics and a two-column footer. This is a different image construction and reading structure from M1, rather than only a palette substitution."
+      },
+      {
+        "image_id": "R7-B02-M3",
+        "view": "thumbnail320",
+        "location": "whole composition",
+        "observation": "Two hands join outlined yellow/mint urban fragments, below a full-width programme and above coloured attendance cards. Its active diagram concept and composition differ from both scenic posters."
+      }
+    ],
+    "residuals": [
+      "All three return to leafy architecture and similar dark sans-serif bilingual type; the set is meaningfully varied in concept, rendering and composition, but not exceptionally wide in visual vocabulary.",
+      "M1 and M2 retain observed content/style weaknesses; set diversity does not cancel those failures."
+    ]
+  }
+}

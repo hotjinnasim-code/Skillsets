@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-08T00:49:03.384675+00:00",
+  "preparer": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/prepare_production.py",
+    "sha256": "481445e659ed377d144fd9c80c11a796699a54e88d0728307db99c76de377fba"
+  },
+  "queue": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/planning/D1-maker-queue.json",
+    "sha256": "6e40cf62b119506098205fd7dd5e4572f26f1650c21d78964a0dcc7d94df737f"
+  },
+  "jobs": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M1/job.json",
+      "sha256": "da661db213eec9ff04c1239f46abbbcaeaec6ffa6972524b3458ca199f0716a9"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M2/job.json",
+      "sha256": "c3120154aec861ce178a034cf14699fa4ce036b2c3dc42476a92ee18d602dfa9"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M3/job.json",
+      "sha256": "9a233168e38a8b064d4042cc6fafaaba4cf32796a300b3c4b5045f931f35ad60"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M4/job.json",
+      "sha256": "a3e086ae2a7d0656b95a2466c64cf462959eb374abb7fee9ca86c502dadc7bf7"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-D1-M5/job.json",
+      "sha256": "5060234ca03c11a6e0ba3bc1dc995ca8ec2d80f381274dba9f6718d56d67b651"
+    }
+  ],
+  "configured_workers": 2,
+  "reason": "Root plus M2 preparation plus two fresh maker CLI processes fits actual four total worker cap; remaining makers queue.",
+  "all_previous_frozen_input_hashes_match": true
+}

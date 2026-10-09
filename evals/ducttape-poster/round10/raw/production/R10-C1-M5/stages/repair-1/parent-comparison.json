@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "role": "R10-C1-M5",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "03514390178e0db6e20338ebad7d5d68632a765baf5a02df60845f24267aad3b",
+  "parent_native_sha256": "6b219f4441b0fde880c602c917695cfbc8e838760fd22e8e0d8404280260ea9b",
+  "changes": [
+    {
+      "location": "upper-right identity",
+      "observation": "Korean title shrank substantially and English tracking remains legible; date is now clearly dominant.",
+      "direction": "improved assigned hierarchy"
+    },
+    {
+      "location": "left matrix",
+      "observation": "All eight left rows and punctuation retained; practical contrast and spacing remain useful.",
+      "direction": "retained advantage"
+    },
+    {
+      "location": "right scene",
+      "observation": "Scene expanded leftward and gained foreground floor/vegetation. Photographic projection and large bridge still remain.",
+      "direction": "bounded scene requirement not resolved"
+    },
+    {
+      "location": "speaker",
+      "observation": "Distinct raised gesture hand and mic-holding arm are visible; conversation is retained.",
+      "direction": "retained action"
+    }
+  ],
+  "residuals": [
+    "Right scene remains a photorealistic cutout with perspective rather than consistent oblique architectural relief.",
+    "Scene base reaches farther left than initial, narrowing clearance beside practical rows; letters remain unobscured.",
+    "Deck and riverbank still occupy substantially more width than assigned bounded right section.",
+    "Minute hands and facial anatomy remain small and simplified."
+  ]
+}

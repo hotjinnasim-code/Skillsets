@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "role": "R14-C1-M2",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "ef5e498f88c257901254ce1cbb0eb612ba3965d5108078753a091ff573b6b6c3",
+  "parent_native_sha256": "924120e68f8ab2e1c9e7213182875f3df48e37b29e321f66519355e01e9f9a2e",
+  "compared_actually_viewed_stages": [
+    "initial",
+    "repair-1"
+  ],
+  "view_scales": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "changes": [
+    {
+      "view": "native",
+      "location": "central title",
+      "before": "Two lines with the final word extending into the adjoining photograph",
+      "after": "Three word lines entirely inside the central cream seam",
+      "effect": "Restores the assigned narrow vertical identity"
+    },
+    {
+      "view": "usage720",
+      "location": "all practical information groups",
+      "before": "Upper-left schedule/venue, upper-right participation, lower-right subtitle and lower-left welcome readable",
+      "after": "Same wording and guide positions remain readable",
+      "effect": "No observed copy loss or guide displacement"
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "before": "Second title line pulls right across the photographic boundary",
+      "after": "Vertical title stack remains contained; photo crop edges retain the large visual structure",
+      "effect": "Stronger relation of identity to the narrow gap"
+    },
+    {
+      "view": "native",
+      "location": "wall textures and reflective floor",
+      "before": "Somewhat crisper granular surface detail",
+      "after": "Slightly softened texture and reflection detail",
+      "effect": "Small material drift; retained crop geometry, sunlight and edge relations"
+    }
+  ],
+  "residuals": [
+    {
+      "view": "usage720",
+      "location": "small practical guides, especially lower-left welcome",
+      "observation": "The guide type appears smaller than the initial planning range; all lines were read at 720px width, but the smallest guidance offers limited comfort at still smaller display widths."
+    },
+    {
+      "view": "native",
+      "location": "cream wall / reflective floor",
+      "observation": "The edit slightly softens photographic surface texture relative to initial."
+    },
+    {
+      "view": "native",
+      "location": "time-range punctuation",
+      "observation": "The dash is visually read as an en dash; underlying Unicode code point cannot be certified from a raster."
+    }
+  ],
+  "selection_preference": "repair-1: corrected narrow three-line identity with preserved readable copy and main crop relations outweighs minor texture softening; choice based on inspected outcomes, not recency"
+}

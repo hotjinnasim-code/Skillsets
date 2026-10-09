@@ -1,0 +1,365 @@
+You are one fresh, isolated ducttape-poster maker. Own exactly R14-C1-M5, one final independent poster.
+Your working/output directory is /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5. Do not spawn agents or create tasks. Do not read the full corpus, coordinator plans, other makers' directions/prompts/results, critic files, prior rounds, parent evaluation history or unrelated projects. Only read this job's pinned inputs and your own newly written evidence (plus the exact native source paths explicitly returned by your own tool). Never run another project executable or a wrapper/image-generation API, SDK, image CLI, credential/config/environment lookup. The only project helper you may execute is the pinned evidence_io.py below. Read-only access to exact pinned text and own-directory exclusive metadata writes/hash checks using the bundled Python are allowed. No Python/Pillow image or asset editing; the helper's QA-only reduction is the only pixel operation.
+
+First read these exact pinned inputs, applying the current SKILL and needed references. Read review_rules.md's native evidence/transcription contract. The evaluation reference does not authorize you to judge or inspect peers/critics:
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/case.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5/assignment.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/agents/openai.yaml
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/art-direction.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/parallel-production.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/visual-research.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/evaluation-loop.md
+- /Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/review_rules.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/evidence_io.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/run_agent.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/capability-probe/result.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/prepare_production.py
+Read case.json and assignment.json. They contain the complete literal user input/common conditions and ONLY your assigned direction. Before designing, actually view every supplied image with tools.view_image through functions.exec, emitting it via image(...,'original'). Honor each supplied asset role and every requested identity/style/ratio/copy condition. Preserve reference geometry or measured_layout only when the user requests composition/position/proportion preservation; a style-only reference does not impose its coordinates. Old reference-poster copy is not new copy. All supplied images for this role are:
+[]
+
+COMPLETE ORIGINAL USER REQUEST (maker understanding and full verification context, not a compulsory native-prompt prefix):
+덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.
+
+빛이 머무는 집
+OPEN HOUSE
+건축 사진전 · 공간 이야기
+2027.02.06 토요일
+13:00–15:00
+연남 생활문화공간
+12:40부터 입장
+관람 무료 · 해설 제공
+사전 신청 · 정원 24명
+편한 신발로 방문해 주세요
+건축을 몰라도 괜찮아요
+
+ALL LITERAL COPY ENTRIES (full verification context; initial native spec prints this copy once, preserving exact strings, kinds, word spaces, punctuation and fixed-newline rules):
+[
+  {
+    "text": "빛이 머무는 집",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "OPEN HOUSE",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "건축 사진전 · 공간 이야기",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "2027.02.06 토요일",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "13:00–15:00",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "연남 생활문화공간",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "12:40부터 입장",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "관람 무료 · 해설 제공",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "사전 신청 · 정원 24명",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "편한 신발로 방문해 주세요",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "건축을 몰라도 괜찮아요",
+    "kind": "text",
+    "fixed_newlines": false
+  }
+]
+
+COMMON USER CONDITIONS/STYLES/RATIOS (honor every applicable condition in the result; the role's ratio is "16:9"):
+{
+  "conditions": [
+    "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+    "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+    "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+    "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+    "Architecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.",
+    "Explicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested."
+  ],
+  "styles": {
+    "mode": "open",
+    "exact_request": "덕테이프 포스터로 성인 대상 동네 건축 사진전과 공간 해설 행사를 안내해줘. 처음 오는 주민도 편하게 참여할 수 있고 건축과 빛을 관찰하는 즐거움이 느껴지게 해줘. 생활문화공간과 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 건축 공간의 빛과 형태를 보는 사진전, 함께 듣는 공간 이야기가 하나의 행사로 연결되어 보이고 일정·장소·입장·신청·방문 안내가 읽혀야 해. 특정 실존 건물이나 기관의 홍보물로 보이지 않도록 해줘. 단색 또는 유사 단색 배경에 큰 고딕 제목·날짜·안내문을 올리고 사진을 작은 칸이나 아래 띠로 붙이는 전체 구성은 제외해줘. 색을 나누거나 얇은 질감·그라데이션을 더하거나 글꼴만 바꾸어 같은 템플릿을 유지하지 말고, 이미지·시점·크롭·공간·글자·정보의 관계부터 서로 다른 전체 스타일로 설계해줘. 아래 문구만 각각 한 번씩 넣어줘.",
+    "invocation_interpretation": "덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open."
+  },
+  "ratios": [
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9"
+  ]
+}
+COMMON COORDINATOR CONSTRAINTS:
+[
+  "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+  "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+  "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+  "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+  "Architecture/light observation and the photo-exhibition plus space-talk event must connect coherently, with an approachable adult community-event tone. All supplied practical information must be readable at usage720. No identifiable real building/institution promotion.",
+  "Explicit whole-template exclusion: passive solid/near-solid/split-color fields dominated by gothic title/date/information blocks with subordinate inset/bottom-strip imagery. Thin texture/gradient/grids or title/all-font-only substitutions do not cure unchanged organization. Evaluate actual whole image/scene/editing/space/type relationships; readable information groups or negative space alone are not violations. No explicit override is requested."
+]
+YOUR OWN DIRECTION, no peer plan:
+{
+  "role": "R14-C1-M5",
+  "ratio": "16:9",
+  "content_form": "건축 빛 사진을 바라보는 성인들과 서로 공간 이야기를 나누는 사람들이 같은 방을 공유하는 넓은 일상 장면. 가까운 몸의 크롭과 비어 있는 빛의 바닥이 사람을 관람 안으로 초대하며, 아래쪽 열린 바닥의 정체성이 이 공유 공간을 행사 이름으로 붙잡는다.",
+  "whole_expression_style": "앞쪽 양 가장자리에 가까운 성인의 어깨/등이 잘리고, 뒤쪽 긴 벽에는 글자 없는 빛 사진과 일상적인 대화가 펼쳐지는 서정적인 파노라마 그림. 중앙 아래의 넓은 바닥은 큰 단일 물체 자리가 아니라 관객과 사람 사이 거리이며, 제목은 그 열린 거리 안에 놓인다. 일정은 뒤 벽의 높은 조용한 면, 환영은 가까운 가장자리로 내려온다.",
+  "reference_transfer": {
+    "sources": [
+      "vi-grandfather-painted-collage",
+      "se-newspaper",
+      "mon-life-banner"
+    ],
+    "observed_principle": "서로 다른 규모의 인물/이미지가 전체 시야를 조직하고, 몸과 공간의 관계와 열린 공공문화의 인상이 글자 역할까지 바꾼다.",
+    "new_decision": "초상과 역사 자료 대신 익명의 현재 주민이 공간을 함께 보는 장면. 가까운 몸/먼 전시 벽의 넓은 간격 안에 아래쪽 제목을 두고, 안내는 그 시야를 막지 않는 뒤 벽의 면을 쓴다.",
+    "limits": "실제 얼굴·개인사·필기 문서·신문 접힘·브랜드 나선·원작 가족 사진을 복제하지 않는다. 가짜 손그림 흔적이나 빈티지 표면으로 따뜻함을 대신하지 않는다."
+  },
+  "layout": {
+    "large_relationship": "가까운 몸의 양끝 크롭과 먼 벽의 관람/대화가 수평 시야를 만들고, 그 사이의 열린 바닥에 행사 정체성이 내려앉는다. 사람과 전시 벽이 제목 위의 작은 삽화가 아니라 포스터의 시점과 빈 공간을 정한다.",
+    "alignment": "아래 중앙 제목/부제는 열린 바닥의 중심을 공유한다. 위 왼쪽 일정과 위 오른쪽 조건은 뒤 벽에 각각 수평으로 읽히고, 왼쪽 중간 환영은 가까운 크롭 옆에 붙는다. 활자를 그림 속 액자/말풍선/간판으로 위장하지 않는다.",
+    "visible_reading_route": "가까운 관객에서 먼 벽으로 열린 공동 관람 장면 → 아래 중앙 제목/부제/작은 영어 → 뒤 벽 왼쪽 일정·장소·입장 → 뒤 벽 오른쪽 무료·신청 → 가까운 왼쪽의 방문·환영. 제목 아래에 안내 띠를 만들지 않는다."
+  },
+  "typography": "한글 제목은 40px 넓고 열린 인간적인 고딕 보통 무게 한 줄, 중앙 정렬의 안정된 어절 간격. 영어 13px은 아래 작은 동반자, 부제 17px은 바로 위의 연결 역할. 일정/조건은 16px 중간 무게, 방문은 16.5px 보통 무게. 둥근 과장 글자·손글씨 흉내·굵은 날짜 경쟁을 피한다.",
+  "image": "성인 비례의 현대적 회화/드로잉으로 익명의 밝은 생활 공간을 그린다. 일부는 사진을 보고 일부는 자연스럽게 이야기를 나누며, 특정 지도자·지시 손짓·주목받는 얼굴은 필요 없다. 사진 작품은 글자 없는 건축 빛 이미지로 뒤 벽의 일부가 되고 모든 것이 같은 원근·조명에 속한다.",
+  "material": "맑은 불투명 색 면과 선택한 윤곽을 함께 쓰는 현대 회화적 표현. 옷·벽·그림자의 경계가 일관되며 모든 면에 붓 질감을 덧칠하지 않는다. 손 제작 또는 특정 회화 기법의 실물 이력을 주장하지 않는다.",
+  "color": "살구와 옅은 황토의 실내 빛, 남청과 먹색의 가까운 옷, 청록의 작은 벽 대비. 제목/정보는 밝은 바닥·벽 위 짙은 색으로 읽힌다. 인물 피부색과 옷색은 다양하되 대비가 임의 장식이 되지 않는다.",
+  "emotion": "혼자 처음 와도 함께 머물 수 있는 친근함. 아동 프로그램·과장된 행복 표정·전문가 강연 권위 대신 자연스러운 성인의 관람과 대화.",
+  "copy_groups": [
+    {
+      "purpose": "열린 바닥의 중심 정체성",
+      "copy_indexes": [
+        0
+      ],
+      "area_720": [
+        181,
+        313,
+        405,
+        54
+      ],
+      "font_px_at_720": 40,
+      "line_plan": [
+        {
+          "copy_index": 0,
+          "lines": [
+            "빛이 머무는 집"
+          ],
+          "line_height_px": 49
+        }
+      ],
+      "alignment": "center"
+    },
+    {
+      "purpose": "정체성 아래 작은 영어",
+      "copy_indexes": [
+        1
+      ],
+      "area_720": [
+        267,
+        371,
+        186,
+        20
+      ],
+      "font_px_at_720": 13,
+      "line_plan": [
+        {
+          "copy_index": 1,
+          "lines": [
+            "OPEN HOUSE"
+          ],
+          "line_height_px": 18
+        }
+      ],
+      "alignment": "center"
+    },
+    {
+      "purpose": "같은 바닥에서 두 경험의 결합",
+      "copy_indexes": [
+        2
+      ],
+      "area_720": [
+        218,
+        281,
+        327,
+        27
+      ],
+      "font_px_at_720": 17,
+      "line_plan": [
+        {
+          "copy_index": 2,
+          "lines": [
+            "건축 사진전 · 공간 이야기"
+          ],
+          "line_height_px": 23
+        }
+      ],
+      "alignment": "center"
+    },
+    {
+      "purpose": "뒤 벽 왼쪽의 방문 일정",
+      "copy_indexes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "area_720": [
+        29,
+        28,
+        229,
+        113
+      ],
+      "font_px_at_720": 16,
+      "line_plan": [
+        {
+          "copy_index": 3,
+          "lines": [
+            "2027.02.06 토요일"
+          ],
+          "line_height_px": 25
+        },
+        {
+          "copy_index": 4,
+          "lines": [
+            "13:00–15:00"
+          ],
+          "line_height_px": 25
+        },
+        {
+          "copy_index": 5,
+          "lines": [
+            "연남 생활문화공간"
+          ],
+          "line_height_px": 25
+        },
+        {
+          "copy_index": 6,
+          "lines": [
+            "12:40부터 입장"
+          ],
+          "line_height_px": 25
+        }
+      ],
+      "alignment": "left"
+    },
+    {
+      "purpose": "뒤 벽 오른쪽의 참여 조건",
+      "copy_indexes": [
+        7,
+        8
+      ],
+      "area_720": [
+        470,
+        29,
+        223,
+        58
+      ],
+      "font_px_at_720": 16,
+      "line_plan": [
+        {
+          "copy_index": 7,
+          "lines": [
+            "관람 무료 · 해설 제공"
+          ],
+          "line_height_px": 26
+        },
+        {
+          "copy_index": 8,
+          "lines": [
+            "사전 신청 · 정원 24명"
+          ],
+          "line_height_px": 26
+        }
+      ],
+      "alignment": "left"
+    },
+    {
+      "purpose": "가까운 관객 옆의 환영과 배려",
+      "copy_indexes": [
+        9,
+        10
+      ],
+      "area_720": [
+        29,
+        215,
+        269,
+        62
+      ],
+      "font_px_at_720": 16.5,
+      "line_plan": [
+        {
+          "copy_index": 9,
+          "lines": [
+            "편한 신발로 방문해 주세요"
+          ],
+          "line_height_px": 27
+        },
+        {
+          "copy_index": 10,
+          "lines": [
+            "건축을 몰라도 괜찮아요"
+          ],
+          "line_height_px": 27
+        }
+      ],
+      "alignment": "left"
+    }
+  ],
+  "template_counterfactual": "사람과 먼 전시 벽을 없애면 가운데 낮은 정체성이 놓인 관객 사이의 열린 거리도 사라진다. 그림을 제목 위 작은 칸/아래 띠로 축소하지 않는다. 그림의 몸 크롭·공동 시선·빈 바닥이 실제 전체 시야를 조직해야 하며, 제목 아래 정보 푸터를 붙이는 형태로 바꾸지 않는다."
+}
+
+Keep the complete request and verification record separate from a focused native production spec. Apply the skill's native-input boundary: exact printed copy once in the initial spec, all relevant client constraints, and your chosen concrete whole visual design. Do not mechanically prepend the request, copy JSON, plan JSON, rubric, or reference commentary to the tool prompt. Repairs state the observed change and protected relationships; retain any exact text needed for that edit and verify the entire copy after return. Do not drop necessary constraints to shorten a prompt.
+
+Native generation ONLY: tools.image_gen__imagegen via functions.exec, exactly one single flat opaque poster per call, transparent_background:false, assigned width:height ratio. No multi-poster comparison panels, contact sheet, mockup or extra experiment image. A single finished poster may contain legitimate content-based image sequences or information modules as its chosen layout. For this aspect-only case, include: "요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력". Explicit user pixel dimensions or lower-resolution requests take precedence; for those requests use the specified output size instead. This is a request, not proof of maximum output; measure the returned native dimensions.
+The predeclared ratio policy permits nearest-integer native rounding of one edge, <=0.5 pixel from the exact requested ratio on one dimension. Report actual dimensions, never resize or claim mathematically exact ratio, and do not spend a repair only on permitted rounding. Materially wrong aspect ratio still needs correction. This tolerance never overrides an explicit pixel-size request.
+One initial attempt plus at most TWO own repairs, including actual failed native attempts: at most three native invocations for this role/candidate, named initial, repair-1, repair-2 in that order. A new role name or regeneration does not reset the budget. Correct only your own actually inspected defects while retaining the specified genre and user constraints. Do not claim quality PASS or assign scores from self-inspection. Do not seek or receive external critic scores before exclusive selection closure.
+
+BEFORE EACH invocation, exclusively create stages/STAGE/call-input.json containing the COMPLETE EXACT JSON argument object that will be passed to tools.image_gen__imagegen (do not add metadata-only arguments). Separately exclusively create pre-call.json with role, stage, prepared_at_utc, native_tool, complete planned argument/input hash pins, supplied reference pins, own observed repair cause/maintained features, and attempt number. Save both before starting; do not retrofit them after a return. Keep the identical argument object in runtime store for the native invocation. Fresh initial without supplied references omits BOTH referenced_image_paths and num_last_images_to_include. With supplied assets, actually pass ALL required local asset paths using referenced_image_paths; omit num_last_images_to_include. For a bounded repair with a previous returned inspected own image, pass that exact own target and all required client assets using referenced_image_paths, never a peer result. If the immediate prior attempt failed, use the last actually returned inspected own target if any; otherwise make a fresh bounded retry with required client assets and no invented repair target. Preserve immediate-attempt failure evidence and record the actual target stage separately when it differs. Never guess a newer file or use directory newest-file scanning.
+
+The native functions.exec cell starts with exactly this directive:
+// @exec: {"yield_time_ms":120000,"max_output_tokens":1000}
+Before awaiting tools.image_gen__imagegen, store/emit the actual caller UTC start and role/stage. Emit meaningful native-wait status at intervals <=45 seconds via notify()/setTimeout while awaiting (no invented model percentage). Clear the timer on return/failure. Record actual caller UTC end and whether the invocation returned or failed; preserve explicit returned path/result hints and real error metadata separately in stages/STAGE/native-call.json after return. Its wrapper interval describes the awaited native call, not helper runtime or model internals. Do not print/notify raw result/base64; retain needed result metadata in runtime store and display the generated image with generatedImage(result) as supported. Never infer source paths or generation times from filenames/helper saved_at. When yielded, resume only that exec cell, without submitting the image call again.
+
+For every returned PNG, obtain its exact absolute source path from the actual tool return, then execute the pinned helper with safely quoted exact paths:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/evidence_io.py save-native --role R14-C1-M5 --stage STAGE --source EXACT_RETURNED_ABSOLUTE_PATH --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5
+Replace only STAGE/EXACT_RETURNED_ABSOLUTE_PATH with actual values. The helper saves byte-identical original.png/final.png, QA views and manifest.json. It does NOT edit typography, materials, crop or assets. If the returned source path is unavailable or preservation fails, preserve the actual error/tool evidence and report the unsealable return honestly; do not invent an image path or relabel a returned image as a failed native call. Stop for root handling rather than claiming a selectable asset.
+
+ACTUALLY inspect EVERY returned stage before deciding another native invocation, in this exact order: original.png at native detail, usage-720.png, thumbnail-320.png. For native display use:
+const v = await tools.view_image({path: exactOriginalPath, detail:'original'}); image(v.image_url,'original');
+Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS.
+
+Every returned repair needs exclusive parent-comparison.json: role, stage, parent_stage, parent_outcome:'returned'|'failure', the immediate parent's exact parent_manifest_sha256 and parent_native_sha256 OR parent_failure_sha256, changes:[], residuals:[]. Compare actually viewed returned stages, preserving earlier advantages; a failure parent has no visual comparison. Prefer the most suitable inspected result, not automatically the latest; preserve ALL returned originals, failures and unselected stages.
+For each actual failed native invocation, write failure.json with role, stage, outcome:'failure', native_call_count:1, error:the actual recorded error. Preserve its pre-call/input/native-call evidence. Failures count in the three-attempt cap; no placeholder images or false inspection.
+
+When one or more inspected native outcomes exist, choose the most suitable returned stage and execute only:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/evidence_io.py finalize --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M5 --selected-stage CHOSEN_STAGE
+Replace CHOSEN_STAGE with initial, repair-1 or repair-2. selection.json is exclusive and immutable before any critics. Do not alter stage inputs, images, observations, selected pins or selection after closure. The helper rejects missing/out-of-order outcomes and nonexistent comparisons. Do not also create unavailable.json.
+ONLY when all THREE actual attempts failed, do not call finalize or fabricate selection.json. Exclusively write unavailable.json with schema_version:1, kind:'role_unavailable', case_id, role, outcome:'unavailable', closed:true, reason:actual failure explanation, counts:{native_calls:3,returned:0,failed:3,repair_calls:2}, stages:[{stage,outcome:'failure',failure:{path,sha256},input_pins:{call_input:{path,sha256},pre_call:{path,sha256}},native_call:{path,sha256}}] for all three preserved actual stages. selection.json and unavailable.json may NEVER coexist. Any interruption or returned-but-unsealable outcome is explicitly incomplete, not an invented all-failed terminal record.
+
+Return a compact account of the true terminal path, selected native dimensions if any, actual call/repair/failure counts, and concrete unresolved limits. No quality score, universal guarantee or extra image generation.

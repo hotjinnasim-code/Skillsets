@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "role": "R12-C1-M4",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M4/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M4/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M4/stages/repair-1/thumbnail-320.png"
+  ],
+  "viewing_order": [
+    "native",
+    "usage720",
+    "thumbnail320",
+    "native_same_asset_revisit"
+  ],
+  "first_native_display_limit": "First native emission appeared as a small background fragment; one same-path revisit displayed complete native canvas.",
+  "raw_observed_text": [
+    {
+      "copy_index": 0,
+      "raw_observed": "입던 옷의\n다음 장면",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 1,
+      "raw_observed": "REMAKE & SHARE",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "티셔츠를 파우치로 ·\n완성품 나눔",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 3,
+      "raw_observed": "2027.01.16 토요일",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 4,
+      "raw_observed": "14:00–16:30",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 5,
+      "raw_observed": "성산 생활문화센터",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 6,
+      "raw_observed": "13:40부터 입장",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 7,
+      "raw_observed": "참가비 3,000원 · 도구 제공",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 8,
+      "raw_observed": "사전 신청 · 정원 18명",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 9,
+      "raw_observed": "깨끗한 티셔츠 한 장 지참",
+      "first_read_view": "usage720"
+    },
+    {
+      "copy_index": 10,
+      "raw_observed": "바느질이 처음이어도 괜찮아요",
+      "first_read_view": "usage720"
+    }
+  ],
+  "residuals": [
+    {
+      "location": "pouch front",
+      "observation": "Navy stripe appears on both sides of diagonal green band, but green band occludes the crossing and no exposed offset junction is visible within the assembled front."
+    },
+    {
+      "location": "lower-left shirt",
+      "observation": "Source garment still reaches left/bottom edges and extends about 340px at usage720 rather than a smaller fully contained source vignette."
+    },
+    {
+      "location": "upper-right adult scene and lower-right facts",
+      "observation": "Adult scene expands toward centre, and participation starts near y308 with small bottom reserve. Compact two-line title and English remain larger than planned."
+    }
+  ],
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "left identity/upper-right scene",
+      "observation": "Two-line Korean name is now dominant with English below; two smiling adult faces are another strong anchor. Foliage and frame no longer compete."
+    },
+    {
+      "view": "usage720",
+      "location": "identity/activity to attendance and preparation",
+      "observation": "All eleven strings are readable. Two-line activity then central four-line attendance and lower-right four-line participation continue over quiet cream table, but scene sits closer to centre and facts lower than planned."
+    },
+    {
+      "view": "native",
+      "location": "upper-left Korean and English",
+      "observation": "Title breaks between 옷의 and 다음; activity breaks after middle dot. Dark upright glyphs, open counters and word gaps remain."
+    },
+    {
+      "view": "native",
+      "location": "central time line",
+      "observation": "Range separator remains a mid-height dash visibly longer than a short hyphen; read as en dash without asserting Unicode encoding."
+    },
+    {
+      "view": "native",
+      "location": "source shirt versus exchanged pouch",
+      "observation": "Broad green diagonal is retained. Source blue stripe crosses the green with small seam/offset; pouch blue appears on both sides but is hidden beneath the green crossing, so the junction remains unexposed."
+    },
+    {
+      "view": "native",
+      "location": "giver grip/receiver support",
+      "observation": "Two clearly owned forearms/wrists contact top side and base. Zip mouth, sewn pouch bottom and table-supported second different pouch remain coherent."
+    },
+    {
+      "view": "native",
+      "location": "table and cloth surfaces",
+      "observation": "Warm opaque painted rendering remains, with dense cloth brush relief rather than economical flat contours. Source hem is partly beyond the bottom edge."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "normalization": "nfc-ws-optical-v1",
+      "ambiguities": [],
+      "extra_text_observed": [],
+      "raster_codepoint_limit": "Optical punctuation readings do not certify encoded characters.",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "입던 옷의 다음 장면",
+          "raw_observed": "입던 옷의\n다음 장면",
+          "normalized_required": "입던 옷의 다음 장면",
+          "normalized_observed": "입던 옷의 다음 장면",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Two-line soft wrap at requested word boundary."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "REMAKE & SHARE",
+          "raw_observed": "REMAKE & SHARE",
+          "normalized_required": "REMAKE & SHARE",
+          "normalized_observed": "REMAKE & SHARE",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "티셔츠를 파우치로 · 완성품 나눔",
+          "raw_observed": "티셔츠를 파우치로 ·\n완성품 나눔",
+          "normalized_required": "티셔츠를 파우치로·완성품 나눔",
+          "normalized_observed": "티셔츠를 파우치로·완성품 나눔",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "Two-line soft wrap at requested word boundary."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2027.01.16 토요일",
+          "raw_observed": "2027.01.16 토요일",
+          "normalized_required": "2027.01.16 토요일",
+          "normalized_observed": "2027.01.16 토요일",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "14:00–16:30",
+          "raw_observed": "14:00–16:30",
+          "normalized_required": "14:00–16:30",
+          "normalized_observed": "14:00–16:30",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "성산 생활문화센터",
+          "raw_observed": "성산 생활문화센터",
+          "normalized_required": "성산 생활문화센터",
+          "normalized_observed": "성산 생활문화센터",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "13:40부터 입장",
+          "raw_observed": "13:40부터 입장",
+          "normalized_required": "13:40부터 입장",
+          "normalized_observed": "13:40부터 입장",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 3,000원 · 도구 제공",
+          "raw_observed": "참가비 3,000원 · 도구 제공",
+          "normalized_required": "참가비 3,000원·도구 제공",
+          "normalized_observed": "참가비 3,000원·도구 제공",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "사전 신청 · 정원 18명",
+          "raw_observed": "사전 신청 · 정원 18명",
+          "normalized_required": "사전 신청·정원 18명",
+          "normalized_observed": "사전 신청·정원 18명",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "깨끗한 티셔츠 한 장 지참",
+          "raw_observed": "깨끗한 티셔츠 한 장 지참",
+          "normalized_required": "깨끗한 티셔츠 한 장 지참",
+          "normalized_observed": "깨끗한 티셔츠 한 장 지참",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "바느질이 처음이어도 괜찮아요",
+          "raw_observed": "바느질이 처음이어도 괜찮아요",
+          "normalized_required": "바느질이 처음이어도 괜찮아요",
+          "normalized_observed": "바느질이 처음이어도 괜찮아요",
+          "equal": true,
+          "layout": {
+            "fixed_newlines": false,
+            "observations": "One upright line."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Warm opaque gouache-like adult neighbour table scene, opposed garment and exchange with compact two-line name and factual corridor.",
+      "observations": "Warm mature scene retained; economy increased by removing room details, though painted cloth detail and figure scale still exceed the proposed compact vignettes."
+    },
+    "substantive_visual": {
+      "observations": "Source shirt and clear two-person pouch exchange are substantial content-bearing construction."
+    },
+    "hangul": {
+      "observations": "Consistent upright dark strokes, distinguishable counters and word spaces at usage720."
+    },
+    "information_relationship": {
+      "observations": "Title and activity now wrap as planned; attendance and participation remain contiguous. Strong faces and large shirt compete with compact informational route."
+    },
+    "function_contact": {
+      "observations": "Separate giver grip and receiver supporting palm remain visible. Pouch mouths and seams are distinct from loose cloth. Exact stripe-junction correspondence is still incomplete."
+    },
+    "material_finish": {
+      "observations": "Painted contact edges coherent; no extra action hand, scene less cluttered."
+    },
+    "ratio": {
+      "requested": [
+        16,
+        9
+      ],
+      "observed_dimensions": [
+        1672,
+        940
+      ],
+      "nearest_integer_rounding_edge_error_px": 0.5,
+      "observations": "Measured native dimensions within one-edge half-pixel rounding policy; native bytes not resized."
+    }
+  },
+  "revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M4/stages/repair-1/original.png",
+    "raw_observed": "입던 옷의\n다음 장면\nREMAKE & SHARE\n티셔츠를 파우치로 ·\n완성품 나눔\n2027.01.16 토요일\n14:00–16:30\n성산 생활문화센터\n13:40부터 입장\n참가비 3,000원 · 도구 제공\n사전 신청 · 정원 18명\n깨끗한 티셔츠 한 장 지참\n바느질이 처음이어도 괜찮아요",
+    "resolution": "Full native canvas now displayed. Korean counters, spacing and dash were readable; navy stripe's crossing on pouch is hidden by the green band.",
+    "resolved": true,
+    "reason": "First native display was a small background fragment.",
+    "sha256": "f7c0835a6776244596911d93ef0b24bf3876eaff446ef6022a3b614c7062bba0"
+  }
+}

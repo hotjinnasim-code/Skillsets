@@ -1,0 +1,63 @@
+{
+  "role": "R7-B02-M3",
+  "stage": "repair-2",
+  "parent_stage": "repair-1",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "c157e2c7327227c360385822cc83ba7b293e0c4961127cc4e5b2bb635f91e945",
+  "parent_native_sha256": "c2afbde40b0ebad8ce377365ed962813d8e2438948a9d1b0f7ff4d2484e5d0ef",
+  "changes": [
+    {
+      "location": "central bilingual title",
+      "before": "Large full-width heavy headline pair",
+      "after": "Smaller centred pair retains full text; density is reduced in overall composition"
+    },
+    {
+      "location": "central urban sheets and grips",
+      "before": "Scene occupies middle area below large titles",
+      "after": "Scene expands upward and wider, with larger entrance/paving/tree and larger opposite hand action"
+    },
+    {
+      "location": "central overview",
+      "before": "Overview below large headline",
+      "after": "Overview shifted upward; pairs/date/organiser retained, organiser English somewhat smaller"
+    },
+    {
+      "location": "lower participation",
+      "before": "Broad left/right rounded surfaces with complete paired information",
+      "after": "Same grouping retained with modest vertical shifts; all 24 transcriptions normalized equal"
+    },
+    {
+      "location": "sheet/floor contours",
+      "before": "Pavement joins at seam, threshold mostly left",
+      "after": "Shared pavement relationship remains; strong continuous threshold still absent"
+    }
+  ],
+  "preserved_advantages": [
+    "Clear Forum 2026 word space",
+    "Clean outside background without skyline/foliage",
+    "Top chronological programme rows",
+    "Adjacent bilingual information, unbroken URL/email",
+    "Large collaborative urban non-glyph visual",
+    "Actual 1024×1536 returned original bytes"
+  ],
+  "residuals": [
+    {
+      "location": "native and usage720, central red seam/doorstep",
+      "observation": "The two paved planes align as a shared urban observation; the doorway and stair/threshold stay mostly on the yellow piece and do not form a strong continuous doorstep contour across the seam.",
+      "impact": "Collaboration is clearer in the hand action and joined pavement than in the exact threshold match.",
+      "remaining_limit": true
+    },
+    {
+      "location": "usage720, overview organiser English",
+      "observation": "Organised by Urban Practice Network is the smallest required line, legible in the 720 view but not independently readable at thumbnail320.",
+      "impact": "Smallest organisation detail requires the usage/native view.",
+      "remaining_limit": true
+    },
+    {
+      "location": "thumbnail320, title pair versus hand contact",
+      "observation": "Title contrast is still strong despite scale reduction; both the enlarged urban scene and title attract attention.",
+      "impact": "A strictly hand-first fixation cannot be established from this static composition.",
+      "remaining_limit": true
+    }
+  ]
+}

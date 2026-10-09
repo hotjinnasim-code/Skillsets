@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "role": "R14-C1-M3",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "빛이 머무는 집",
+    "OPEN HOUSE",
+    "건축 사진전 · 공간 이야기",
+    "2027.02.06 토요일",
+    "13:00–15:00",
+    "연남 생활문화공간",
+    "12:40부터 입장",
+    "관람 무료 · 해설 제공",
+    "사전 신청 · 정원 24명",
+    "편한 신발로 방문해 주세요",
+    "건축을 몰라도 괜찮아요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "raw_first_read_view": "usage720 (first original-detail display was a fragment)",
+  "residuals": [
+    {
+      "view": "native",
+      "location": "ceiling/wall/floor plane interiors",
+      "observation": "Faint smooth tonal shading remains within some broad planes; materials are substantially simplified but not mathematically uniform flat fills."
+    },
+    {
+      "view": "native",
+      "location": "small conversational adults at right",
+      "observation": "Hands and faces remain small illustrative suggestions; individual fingers are not consistently articulated. The standing conversational grouping is clear."
+    },
+    {
+      "view": "native",
+      "location": "native-view procedure",
+      "observation": "First native-detail display showed a tiny fragment. One revisit of the same pinned original displayed full native detail; initial limitation is preserved."
+    }
+  ],
+  "observations": [
+    {
+      "view": "thumbnail320",
+      "location": "whole poster",
+      "observation": "Dark teal stepped cut and the opened continuous room remain the first large visual anchor. The illustration shapes left outside-cut information and the two right type areas, rather than acting as a subordinate image inset."
+    },
+    {
+      "view": "usage720",
+      "location": "photo wall through conversation area",
+      "observation": "Four unlettered architecture-light photographs and three viewers connect across one floor to four conversational adults. Pale apricot light crosses the wall and shared floor."
+    },
+    {
+      "view": "usage720",
+      "location": "left schedule/participation and lower right",
+      "observation": "All practical text is readable. Schedule remains four lines, participation remains two lines, visiting/welcome remains two slightly enlarged lines outside the floor edge."
+    },
+    {
+      "view": "native",
+      "location": "surfaces/cut outlines",
+      "observation": "Glossy floor reflections, internal tree/leaf shadows and visible wood grain have been removed. Teal cut planes and controlled structural outlines are clean; pale plane shading remains."
+    },
+    {
+      "view": "native",
+      "location": "typography",
+      "observation": "Eleven entries remain single horizontal lines with regular Hangul block proportions, open counters and distinct word boundaries. Middle dots are small centered round marks; time dash is longer than a short hyphen and centered. Original Unicode cannot be proven from raster."
+    },
+    {
+      "view": "native",
+      "location": "people/photos/frame edges",
+      "observation": "Small adult figures are simplified, feet contact the common floor; displayed photo boundaries are thin and clear. Room extends beyond frame instead of a centered isolated model. No labels, dimensions, extra photo captions, logos, QR or watermark observed."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "entry_count_observed": 11,
+      "extra_text_observed": false,
+      "ambiguities": [],
+      "issues": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "빛이 머무는 집",
+          "raw_observed": "빛이 머무는 집",
+          "normalized_required": "빛이 머무는 집",
+          "normalized_observed": "빛이 머무는 집",
+          "equal": true,
+          "location": "upper right",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "OPEN HOUSE",
+          "raw_observed": "OPEN HOUSE",
+          "normalized_required": "OPEN HOUSE",
+          "normalized_observed": "OPEN HOUSE",
+          "equal": true,
+          "location": "upper right beneath Korean identity",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line; English widely tracked."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "건축 사진전 · 공간 이야기",
+          "raw_observed": "건축 사진전 · 공간 이야기",
+          "normalized_required": "건축 사진전·공간 이야기",
+          "normalized_observed": "건축 사진전·공간 이야기",
+          "equal": true,
+          "location": "upper left",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2027.02.06 토요일",
+          "raw_observed": "2027.02.06 토요일",
+          "normalized_required": "2027.02.06 토요일",
+          "normalized_observed": "2027.02.06 토요일",
+          "equal": true,
+          "location": "left schedule line 1",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "13:00–15:00",
+          "raw_observed": "13:00–15:00",
+          "normalized_required": "13:00–15:00",
+          "normalized_observed": "13:00–15:00",
+          "equal": true,
+          "location": "left schedule line 2",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "연남 생활문화공간",
+          "raw_observed": "연남 생활문화공간",
+          "normalized_required": "연남 생활문화공간",
+          "normalized_observed": "연남 생활문화공간",
+          "equal": true,
+          "location": "left schedule line 3",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "12:40부터 입장",
+          "raw_observed": "12:40부터 입장",
+          "normalized_required": "12:40부터 입장",
+          "normalized_observed": "12:40부터 입장",
+          "equal": true,
+          "location": "left schedule line 4",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "관람 무료 · 해설 제공",
+          "raw_observed": "관람 무료 · 해설 제공",
+          "normalized_required": "관람 무료·해설 제공",
+          "normalized_observed": "관람 무료·해설 제공",
+          "equal": true,
+          "location": "left participation line 1",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "사전 신청 · 정원 24명",
+          "raw_observed": "사전 신청 · 정원 24명",
+          "normalized_required": "사전 신청·정원 24명",
+          "normalized_observed": "사전 신청·정원 24명",
+          "equal": true,
+          "location": "left participation line 2",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "편한 신발로 방문해 주세요",
+          "raw_observed": "편한 신발로 방문해 주세요",
+          "normalized_required": "편한 신발로 방문해 주세요",
+          "normalized_observed": "편한 신발로 방문해 주세요",
+          "equal": true,
+          "location": "lower right line 1",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "건축을 몰라도 괜찮아요",
+          "raw_observed": "건축을 몰라도 괜찮아요",
+          "normalized_required": "건축을 몰라도 괜찮아요",
+          "normalized_observed": "건축을 몰라도 괜찮아요",
+          "equal": true,
+          "location": "lower right line 2",
+          "layout": {
+            "fixed_newlines": false,
+            "observed_lines": 1,
+            "observation": "Single horizontal line with word boundaries retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "requirement": "Expansive diagonal anonymous open-room section in controlled architectural ink, limited plane colors; warm white, deep teal cuts and pale apricot skylight; adults viewing photographs and sharing space stories",
+      "observed": "Large cropped cutaway, flat illustrative surfaces and small adult groups support assigned architectural drawing system. Faint broad tonal shading remains.",
+      "issues": []
+    },
+    "ratio": {
+      "requested": "16:9",
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "exact_height_for_native_width": 940.5,
+      "height_rounding_error_px": 0.5,
+      "policy": "Nearest-integer one-edge rounding <=0.5px",
+      "resized": false
+    },
+    "substantive_visual": {
+      "observation": "The open room, wall images, shared skylight and adult activity form substantive non-glyph content and organize the text spaces."
+    },
+    "template_exclusion": {
+      "observation": "Whole spatial cutaway makes the type's outside/edge areas. Title is modest and imagery structurally dominant; no passive-field gothic-block/subordinate-inset template."
+    },
+    "hangul": {
+      "observation": "Consistent proportions, counters and word spacing; all eleven entries readable at width 720."
+    },
+    "information_relationship": {
+      "route": "Open-room section/light -> upper-right identity and upper-left subtitle -> left four-line schedule -> participation pair -> lower-right visiting/welcome"
+    },
+    "function_contact": {
+      "requested": false,
+      "observation": "No supplied URL/QR/contact; none invented. Adult foot-floor contact and spatial continuity are visible."
+    },
+    "local_finish": {
+      "observation": "Clean cut outlines, displayed-photo borders and text edges. Some faint plane shading and small simplified hand/face detail remain."
+    }
+  },
+  "native_view_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/repair-1/original.png",
+    "raw_observed": "Full native cutaway poster displayed; all eleven entries and clean architectural planes visible.",
+    "resolution": "Revisit restored full 1672×941 native-detail display.",
+    "resolved": true,
+    "reason": "First native view displayed only a tiny fragment.",
+    "initial_read": "Tiny warm-white fragment; full native detail unavailable on initial display.",
+    "sha256": "12dd5cfb29d383bfde3b5f591c8cfdcac9f1697fa93a2eb689a0fd6c0f4fcd23"
+  },
+  "selection_rationale": "Choose repair-1: it corrects the observed reflective/material rendering departure while retaining exact copy, the large section silhouette, the shared-floor/light relationship and reading route. No further native call justified by residual faint shading."
+}

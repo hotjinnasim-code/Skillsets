@@ -1,0 +1,95 @@
+{
+  "started_utc": "2026-10-08T05:32:25.936026+00:00",
+  "argv": [
+    "codex",
+    "--no-daemon",
+    "--ask-for-approval",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--json",
+    "--skip-git-repo-check",
+    "--sandbox",
+    "workspace-write",
+    "-C",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M3",
+    "--output-last-message",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M3/final.txt",
+    "-"
+  ],
+  "fresh_session": true,
+  "case_id": "R10-C1",
+  "wave": "J-R10-C1-production",
+  "profile": "R10-C1-M3",
+  "model_override": null,
+  "prompt": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M3/prompt.txt",
+    "sha256": "b9634d84aabf1935d36148bd2ffa130745359201af643a0eda65027319e6e580"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M3/case.json",
+      "sha256": "813b75e7840c44915e14b7d614677fc504fc2ea92fbe0e753726b3e376a731ac"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M3/assignment.json",
+      "sha256": "1932f4ea58cd5493c2ed63c80f037b401a3469bf3f60fcc7348911a065229f27"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M3/prompt.txt",
+      "sha256": "b9634d84aabf1935d36148bd2ffa130745359201af643a0eda65027319e6e580"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/snapshots/candidate-j/SKILL.md",
+      "sha256": "8c841ea48592bd8b015135ce038d8ef09e429f8a6988934252aa8ca6474dd3eb"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/snapshots/candidate-j/agents/openai.yaml",
+      "sha256": "18e733c202cc1b8d153d2f1dc8bac85826787a88fe336f0e1aa5fa65f523f7e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/snapshots/candidate-j/references/art-direction.md",
+      "sha256": "618ec8a08e2a9ac39eb3e6bebca2516992249933648aaf86dfbaba068faf3a72"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/snapshots/candidate-j/references/parallel-production.md",
+      "sha256": "013b9631de6ca2e9dce611a0a511408a0ac2960f0471cb372e697f6372fc02f6"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/snapshots/candidate-j/references/visual-research.md",
+      "sha256": "2bf486e75e252dd27960c499b5c4ef4a68a8d6a967823d2f5bbd6148abf5e705"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/snapshots/candidate-j/references/evaluation-loop.md",
+      "sha256": "cf94b86511ab5295a7235c624757889906c49eb1bb9febea5b8145926f6bcb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/capability-probe/result.json",
+      "sha256": "8afa1bd26e3b2a0c86da70f1f6d897be3b634fd4d612b3fe95cff5f407b64523"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    }
+  ],
+  "job": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M3/job.json",
+    "sha256": "2069aa7a6997837d22ce291b0a56aa24a1ab9211ddab2606c096875933207c17"
+  }
+}

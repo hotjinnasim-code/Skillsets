@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "role": "R7-B03-M1",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M1/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M1/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M1/stages/repair-1/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "누름클립",
+    "한 손으로 열고, 메모를 잡다",
+    "상부 레버를 누르면 집게턱이 열립니다",
+    "알루미늄 몸체 / 고무 패드",
+    "책상 가장자리에 고정하는 메모 집게",
+    "제품 소개 example.org/press-clip"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "observations": [
+    {
+      "view": "native",
+      "location": "fingertip, left lever, pivot and two right jaws",
+      "observation": "One fingertip maintains contact; one silver axle and two open pads remain large and clear. The clip outline and desk hook remain close to the initial target."
+    },
+    {
+      "view": "native",
+      "location": "paper's left point and desk to the right of lower jaw",
+      "observation": "Paper's foremost corner moved leftward/up toward the open gap. The edge remains a diagonal plane reaching from the gap out toward the right; no clear supported-to-lifted transition or desk contact shadow is visible near the mouth."
+    },
+    {
+      "view": "native",
+      "location": "upper lever top/side and pivot-side black aluminum",
+      "observation": "Irregular contour-like fine scratches and marbling now appear on broad aluminum faces where the initial showed more even fine grain."
+    },
+    {
+      "view": "usage720",
+      "location": "six text locations",
+      "observation": "All six entries retain the same readable single-line wording and their semantic locations, with clearance from the working parts."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "full poster",
+      "observation": "Finger, pivot and open jaws remain a strong horizontal visual center. Sheet extends toward the gap; small support detail is not discernible at this size."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "raw_read_preserved": true,
+      "ambiguities": [],
+      "issues": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "누름클립",
+          "raw_observed": "누름클립",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line with clear silhouette clearance."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "누름클립",
+          "normalized_observed": "누름클립",
+          "equal": true
+        },
+        {
+          "copy_index": 1,
+          "required": "한 손으로 열고, 메모를 잡다",
+          "raw_observed": "한 손으로 열고, 메모를 잡다",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line with clear silhouette clearance."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "한 손으로 열고, 메모를 잡다",
+          "normalized_observed": "한 손으로 열고, 메모를 잡다",
+          "equal": true
+        },
+        {
+          "copy_index": 2,
+          "required": "상부 레버를 누르면 집게턱이 열립니다",
+          "raw_observed": "상부 레버를 누르면 집게턱이 열립니다",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line with clear silhouette clearance."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "상부 레버를 누르면 집게턱이 열립니다",
+          "normalized_observed": "상부 레버를 누르면 집게턱이 열립니다",
+          "equal": true
+        },
+        {
+          "copy_index": 3,
+          "required": "알루미늄 몸체 / 고무 패드",
+          "raw_observed": "알루미늄 몸체 / 고무 패드",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Optical slash spaces visible; word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "알루미늄 몸체/고무 패드",
+          "normalized_observed": "알루미늄 몸체/고무 패드",
+          "equal": true
+        },
+        {
+          "copy_index": 4,
+          "required": "책상 가장자리에 고정하는 메모 집게",
+          "raw_observed": "책상 가장자리에 고정하는 메모 집게",
+          "kind": "text",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line with clear silhouette clearance."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "책상 가장자리에 고정하는 메모 집게",
+          "normalized_observed": "책상 가장자리에 고정하는 메모 집게",
+          "equal": true
+        },
+        {
+          "copy_index": 5,
+          "required": "제품 소개 example.org/press-clip",
+          "raw_observed": "제품 소개 example.org/press-clip",
+          "kind": "url",
+          "fixed_newlines": false,
+          "layout": {
+            "fixed_newline_requirement": false,
+            "observed_lines": 1,
+            "observations": "Complete single line with clear silhouette clearance."
+          },
+          "ambiguity": null,
+          "revisit": null,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "제품 소개 example.org/press-clip",
+          "normalized_observed": "제품 소개 example.org/press-clip",
+          "equal": true
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "진짜 제품 촬영 같은 표현",
+      "observed": "One continuous close photographic product scene with distinct metal, skin, paper and desk surfaces; no diagrams or mockup frame.",
+      "limits": [
+        "Irregular fine contour-like marks on broad aluminum faces retain a synthetic surface character."
+      ]
+    },
+    "ratio": {
+      "requested": "3:2",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "allowed_one_edge_rounding_pixels": 0.5,
+      "observed_edge_error_pixels": 0,
+      "actual_native_dimensions_measured": true,
+      "max_resolution_verified": false
+    },
+    "substantive_visual": {
+      "observed": "A large single-hand mechanical press/open-jaw scene conveys the requested function.",
+      "glyph_only": false
+    },
+    "hangul": {
+      "observed": "Normal-width Korean with clear word spaces and counters. Title has heavy square strokes; body lines have lighter strokes. Mixed URL baseline is readable at usage720.",
+      "issues": []
+    },
+    "information_relationship": {
+      "observed": "Semantic copy is placed near left press, central mechanism, body and right desk area.",
+      "limits": [
+        "Title and action group are high in the frame but still adjacent to the entering press."
+      ]
+    },
+    "function_contact": {
+      "observed": "Index contact, single axis, two open padded jaws and desk edge are separately visible.",
+      "issues": [
+        "Leading paper corner is nearer the gap, but the diagonal paper plane still lacks a clearly visible supported-to-lifted transition on the desk."
+      ]
+    },
+    "materials_edges": {
+      "observed": "Smooth black silhouettes, restrained edge highlights, bright axle and natural fingertip; no doubled outline observed.",
+      "issues": [
+        "Repair introduced fine irregular marbling/scratch patterns on black metal faces outside the intended paper correction.",
+        "Metal and pads remain close in their texture response."
+      ]
+    },
+    "format": {
+      "observed": "One flat opaque landscape poster; one product, one visible hand and one blank memo; no extra visible copy, logo or ornament."
+    }
+  },
+  "native_view_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B03-M1/stages/repair-1/original.png",
+    "sha256": "81a75f0e724ef73d4d1929f1c6875c238afeb95d7a74e477057393d0a518f15b",
+    "initial_display": "The first original-detail call showed a small upper-left skin patch.",
+    "raw_observed": [
+      "누름클립",
+      "한 손으로 열고, 메모를 잡다",
+      "상부 레버를 누르면 집게턱이 열립니다",
+      "알루미늄 몸체 / 고무 패드",
+      "책상 가장자리에 고정하는 메모 집게",
+      "제품 소개 example.org/press-clip"
+    ],
+    "resolution": "A single revisit displayed the entire native poster, permitting full text and surface inspection.",
+    "resolved": true,
+    "reason": "Native view display limitation; no transcription glyph-class ambiguity."
+  },
+  "residuals": [
+    "Paper is nearer the open gap but its physical support by the desk remains visually unclear.",
+    "Irregular fine marbling was introduced on black aluminum outside the paper edit.",
+    "Dark metal and rubber are only weakly distinguished by their granular finishes.",
+    "Maximum supported output resolution is not independently verified."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "status": "draft_review_complete",
+  "draft_only": true,
+  "review_date": "2026-10-09",
+  "review_file": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/layout-guide-integration-audit/review.md",
+  "review_method": "Read-only source and documentation review, AST inspection, targeted bundle-path existence checks, and input hash verification",
+  "supplied_inputs_reviewed": 7,
+  "findings": [
+    {
+      "id": "workspace_api_boundary",
+      "summary": "Import-time ROOT conflicts with the documented current-workspace API contract",
+      "evidence": "Static source and AST inspection",
+      "change_applied": false
+    },
+    {
+      "id": "helper_integration_wiring",
+      "summary": "Supplied candidate docs have no executable helper locator/recipe and the README-style bundle paths are absent",
+      "evidence": "Supplied documentation and read-only targeted path existence checks",
+      "change_applied": false
+    },
+    {
+      "id": "effective_cmap_coverage",
+      "summary": "Union-of-cmaps coverage is not tied to Pillow's active cmap and cannot guarantee missing-glyph rejection",
+      "evidence": "Static logic inspection; no discrepant installed font tested",
+      "change_applied": false
+    }
+  ],
+  "test_evidence": {
+    "prior_observation": "User reports root already observed 17 unit tests pass",
+    "test_methods_inspected": 17,
+    "suite_rerun": false,
+    "helper_executed": false,
+    "interpretation": "Implementation evidence only; no design-performance inference"
+  },
+  "scope": {
+    "inputs_read_only": true,
+    "input_hashes_unchanged_during_review": true,
+    "input_helper_or_runtime_modified": false,
+    "poster_images_or_evaluation_reports_accessed": false,
+    "web_used": false,
+    "image_tools_used": false,
+    "credentials_accessed": false,
+    "new_agents_created": false,
+    "new_diagrams_or_case_plans_created": false,
+    "installation_or_deployment_performed": false,
+    "quality_or_approval_scores_created": false
+  },
+  "limitations": [
+    "No helper rendering, font-rendering probe, or cross-platform execution performed",
+    "No current poster outcome or design performance evaluated",
+    "Referenced documents outside the seven supplied inputs were not reviewed",
+    "Filesystem assessment covers ordinary resolved paths and output collisions, not adversarial concurrent path replacement"
+  ],
+  "written_files": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/layout-guide-integration-audit/review.md",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/history/layout-guide-integration-audit/status.json"
+  ]
+}

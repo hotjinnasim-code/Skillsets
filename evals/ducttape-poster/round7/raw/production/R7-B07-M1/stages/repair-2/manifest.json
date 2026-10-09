@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "kind": "native_evidence",
+  "role": "R7-B07-M1",
+  "stage": "repair-2",
+  "outcome": "returned",
+  "native_call_count": 1,
+  "saved_at_utc": "2026-10-08T01:46:34.357160+00:00",
+  "saved_at_semantics": "helper preservation time; not native tool start/end",
+  "source_argument": "/Users/nahyeonbin/.codex/generated_images/01a1192a-0fc4-7dd2-8443-8ca324064863/exec-cbc82892-94e2-4573-9636-d9f4575f69d6.png",
+  "source": {
+    "path": "/Users/nahyeonbin/.codex/generated_images/01a1192a-0fc4-7dd2-8443-8ca324064863/exec-cbc82892-94e2-4573-9636-d9f4575f69d6.png",
+    "sha256": "77049628becdf8f5fd1ac2cd2c2f1a418f6074a3370bf675c51a7e3e78a160c0",
+    "bytes": 2465178,
+    "width": 1024,
+    "height": 1536
+  },
+  "input_pins": {
+    "call_input": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/repair-2/call-input.json",
+      "sha256": "ac935ec5392e49a9bea183fb3353fe094028da35d5941feadb4c0090bab7610e",
+      "bytes": 11948
+    },
+    "pre_call": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/repair-2/pre-call.json",
+      "sha256": "aacb90854a7b25f821bc86acbafe59e3f88e288ee21bd27f626fee175aac9b14",
+      "bytes": 17855
+    }
+  },
+  "files": {
+    "original": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/repair-2/original.png",
+      "sha256": "77049628becdf8f5fd1ac2cd2c2f1a418f6074a3370bf675c51a7e3e78a160c0",
+      "bytes": 2465178,
+      "width": 1024,
+      "height": 1536
+    },
+    "final": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/repair-2/final.png",
+      "sha256": "77049628becdf8f5fd1ac2cd2c2f1a418f6074a3370bf675c51a7e3e78a160c0",
+      "bytes": 2465178,
+      "width": 1024,
+      "height": 1536
+    },
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/repair-2/usage-720.png",
+      "sha256": "a972dcce287dc8cd69e6a94c0a28413aec1d795727ae12f26a033feb30eb32bb",
+      "bytes": 1170196,
+      "width": 720,
+      "height": 1080
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M1/stages/repair-2/thumbnail-320.png",
+      "sha256": "cc7149d3b44e9766dc0db467e6a768ac5b7927cdf3b75f75bda2ffe1b329341b",
+      "bytes": 110183,
+      "width": 213,
+      "height": 320
+    }
+  },
+  "native_byte_preserved": true,
+  "qa": {
+    "method": "Pillow LANCZOS, PNG, downsampling only",
+    "usage720": "width <=720",
+    "thumbnail320": "long side <=320"
+  }
+}

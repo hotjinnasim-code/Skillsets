@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "kind": "native_evidence",
+  "role": "R15-C1-M2",
+  "stage": "initial",
+  "outcome": "returned",
+  "native_call_count": 1,
+  "saved_at_utc": "2026-10-08T12:29:36.424336+00:00",
+  "saved_at_semantics": "helper preservation time; not native tool start/end",
+  "source_argument": "/Users/nahyeonbin/.codex/generated_images/01a11b7a-34d6-7b01-b495-f8488d16e150/exec-fee3b0d7-1e28-4d7e-b11b-8e82d76d3cc5.png",
+  "source": {
+    "path": "/Users/nahyeonbin/.codex/generated_images/01a11b7a-34d6-7b01-b495-f8488d16e150/exec-fee3b0d7-1e28-4d7e-b11b-8e82d76d3cc5.png",
+    "sha256": "54dbec3ed065e4eb16e95ae0b0120c02ae76fd0720fa79464e6f6c4bcdbf552a",
+    "bytes": 2484239,
+    "width": 1672,
+    "height": 941
+  },
+  "input_pins": {
+    "call_input": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/call-input.json",
+      "sha256": "2ff1025dab6a7435c871bc04ec023d0626ff149cdb9e1d6aebe1d89af06e3f3b",
+      "bytes": 4770
+    },
+    "pre_call": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/pre-call.json",
+      "sha256": "cad12ef8c010747b6311fd388877744bb8acb7aba3c4803ca523173c6da26707",
+      "bytes": 3293
+    }
+  },
+  "files": {
+    "original": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/original.png",
+      "sha256": "54dbec3ed065e4eb16e95ae0b0120c02ae76fd0720fa79464e6f6c4bcdbf552a",
+      "bytes": 2484239,
+      "width": 1672,
+      "height": 941
+    },
+    "final": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/final.png",
+      "sha256": "54dbec3ed065e4eb16e95ae0b0120c02ae76fd0720fa79464e6f6c4bcdbf552a",
+      "bytes": 2484239,
+      "width": 1672,
+      "height": 941
+    },
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/usage-720.png",
+      "sha256": "352ada50370e6765e1c111d1fb938a802000a65609d8d89a1e4dfe8ba10be6ce",
+      "bytes": 556434,
+      "width": 720,
+      "height": 405
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/production/R15-C1-M2/stages/initial/thumbnail-320.png",
+      "sha256": "280f363ab3764375c0fc93c1b74e496220f0582109d743e3e368ec6fb26d908c",
+      "bytes": 130340,
+      "width": 320,
+      "height": 180
+    }
+  },
+  "native_byte_preserved": true,
+  "qa": {
+    "method": "Pillow LANCZOS, PNG, downsampling only",
+    "usage720": "width <=720",
+    "thumbnail320": "long side <=320"
+  }
+}

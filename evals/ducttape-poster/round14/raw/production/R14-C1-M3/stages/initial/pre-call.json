@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "role": "R14-C1-M3",
+  "stage": "initial",
+  "attempt_number": 1,
+  "prepared_at_utc": "2026-10-08T11:25:33.107077+00:00",
+  "native_tool": "tools.image_gen__imagegen",
+  "planned_argument_object": {
+    "prompt": "Create ONE finished flat opaque 16:9 landscape event poster for adult neighborhood residents, suitable for a community digital screen and a local cultural space. Use a clean architectural section illustration with limited plane colors and controlled ink lines, warm white space, deep teal cut faces, pale apricot daylight and charcoal readable typography. This is an imagined anonymous interior, not a real building or actual venue floor plan. Friendly, adult, observant and accessible.\n\nWhole composition: a large open room SECTION runs diagonally from the lower left toward the upper right across the screen. The sliced wall, ceiling, skylight, exhibition wall and continuous floor form the poster's main structure. Let structural planes continue beyond the frame at the bottom and right, so this is an expansive opened space rather than one isolated building model centered on a blank background. Restrained perspective, architectural drawing rather than isometric toy. Strong deep teal cut edges set a long diagonal silhouette. A clear broad apricot beam from a ceiling skylight passes over the exhibition wall and reaches the floor where small adult visitors share the space. Three or four unlettered architectural light photographs hung on the wall show anonymous openings, shadow and geometric surfaces. Include small adults looking at those photographs and a small conversational group sharing the same uninterrupted floor, visibly joining viewing photographs and listening to space stories in one room. Their modest scale gives a human measure, without cartoon cuteness, a pointing lecturer requirement, complex equipment or technical drafting decoration.\n\nTypography inhabits spaces made by the cutaway: practical information sits outside the left cut edge, aligned on one vertical baseline; a modest single-line identity sits at the upper right beside the end of the upper wall; two welcoming lines sit just outside the low right floor edge. All text is horizontal, structural diagonals never cross a glyph. In a 720px-wide viewing version, plan about 28px medium humane Korean sans for the identity, 13px widely tracked English, 16.5px subtitle, 16px schedule and 15–15.5px participation/visiting text. Open counters, normal Hangul proportions, clean word spaces, calm stable numerals. The illustration leads the whole image; avoid heavy oversized gothic title/date blocks.\n\nPrint ONLY these eleven entries, each exactly once, spelled verbatim with intact word spacing and punctuation. Keep each entry on one line:\nUpper right near x63%, y7%: \"빛이 머무는 집\"\nDirectly below it near x63%, y18%: \"OPEN HOUSE\"\nUpper left near x4%, y7%: \"건축 사진전 · 공간 이야기\"\nLeft schedule outside the cut section, starting x4%, y23%, four separated lines in this order:\n\"2027.02.06 토요일\"\n\"13:00–15:00\"\n\"연남 생활문화공간\"\n\"12:40부터 입장\"\nLeft participation area below, near x4%, y56%, two separated lines:\n\"관람 무료 · 해설 제공\"\n\"사전 신청 · 정원 24명\"\nLower right just outside the floor edge near x63%, y78%, two separated lines:\n\"편한 신발로 방문해 주세요\"\n\"건축을 몰라도 괜찮아요\"\n\nAll practical copy must remain legible at 720px poster width, with generous open margins and high contrast. Preserve the en dash in the time range, middle dots and exact numerals. Do not add labels, dimensions, room names, photo captions, text-like marks, logos, brands, QR, watermark or any other copy. Do not use a contact sheet, multi-poster comparison, mockup, frame, physical paper model, collage, distressed blueprint, stencil or newspaper. Do not use the excluded whole template of a passive solid/near-solid/split-color field dominated by large gothic title/date/info blocks and subordinate small inset or bottom-strip photos. Thin texture, gradient, grid or font substitution does not cure that template: the diagonal open section itself must create the image/type/space relationships. Keep planes, cut lines, displayed photos and text edges clean and distinct. Exactly one finished poster.\n\n요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력",
+    "transparent_background": false
+  },
+  "planned_argument_sha256": "c0b8fa0a0cc214ae7413d6d977c7ecf77de4e2717d8415a942ed2ad95f30340f",
+  "prompt_sha256": "f3bf053b594651e9f4350075334581762b17b62d0e4d603687b987e6bd0c8fab",
+  "call_input": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/stages/initial/call-input.json",
+    "sha256": "5165cc7f861fd72f4f1fa30248984182da0a419898aa014fc4630b71b88340b4"
+  },
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/case.json",
+      "sha256": "9476399b44633c6b2d596739a8ba5aee8750abb6e1538eb731c1763f682c8c08"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/production/R14-C1-M3/assignment.json",
+      "sha256": "38c0144c1fd6dadda91fd1e4f3ea651591216a33c230529f29208db37166fe02"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/SKILL.md",
+      "sha256": "23245762a257232969e09691e4bd8ff1eb29b2d517355a478c5a997b52d62674"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/agents/openai.yaml",
+      "sha256": "18e733c202cc1b8d153d2f1dc8bac85826787a88fe336f0e1aa5fa65f523f7e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/art-direction.md",
+      "sha256": "5b8fec6095fb92f704d91eaf9c21556e39e0bd35d96d9e44e0b94ddd6c1c1219"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/parallel-production.md",
+      "sha256": "0c008caac11dde6caf05030e984e22126af7ba15a8809f94a23787fa7b3cdba7"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/visual-research.md",
+      "sha256": "3fbb63a6eac4e373dd88483ebf01843d2d962ee8997a103f3ebed858d6a851a6"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/snapshots/candidate-n/references/evaluation-loop.md",
+      "sha256": "0dbb5dd7a89484b0a6ed3fde6e960b7deb8c230b6edda5a7b7d38860d7395dc2"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/capability-probe/result.json",
+      "sha256": "4a37c768e27e702fde10867840679e356559dfd9d39a91ff61046a8e26c2fd73"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round14/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    }
+  ],
+  "supplied_reference_pins": [],
+  "repair_cause": null,
+  "maintained_features": [],
+  "reference_target_stage": null
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "R7 additional20; declared before first poster generation",
+  "policy": "nearest-integer-single-edge",
+  "scope": "Aspect-ratio-only requests. Explicit pixel dimensions remain exact.",
+  "rule": "For requested a:b, native width,height must be exact or |width-height*a/b|<=0.5 or |height-width*b/a|<=0.5. This admits nearest-integer native rounding of one edge, not rescaling or a different composition ratio.",
+  "reason": "The supplied-input fixture requested4:5 returned1122x1402. Exact integer equality would treat native pixel rounding as a visual failure. This phase policy is declared before the20 poster outcomes; R6 and earlier gates are unchanged.",
+  "reporting": "Preserve and report actual native dimensions. Distinguish exact from rounded aspect ratio. Never claim unsupported maximum resolution, exact mathematical ratio, resize/upscale or changed native bytes.",
+  "default_for_unmarked_packets": "exact",
+  "quality_gates": "Unchanged: each of three critics must rate all seven dimensions>=4; mandatory copy/style/count/non-glyph concept PASS; diversity>=4 each when N>=2."
+}

@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "role": "R12-C1-M2",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M2/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M2/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M2/stages/repair-1/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "first_native_display_limit": "Initial native-detail emission appeared as a small pale image; one revisit of the same native pinned asset after the ordered QA views displayed the complete poster.",
+  "raw_observed_text": [
+    {
+      "copy_index": 0,
+      "raw_observed": "입던 옷의 다음 장면",
+      "view": "usage720",
+      "location": "upper right"
+    },
+    {
+      "copy_index": 1,
+      "raw_observed": "REMAKE & SHARE",
+      "view": "usage720",
+      "location": "below name"
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "티셔츠를 파우치로 · 완성품 나눔",
+      "view": "usage720",
+      "location": "activity line"
+    },
+    {
+      "copy_index": 3,
+      "raw_observed": "2027.01.16 토요일",
+      "view": "usage720",
+      "location": "upper left"
+    },
+    {
+      "copy_index": 4,
+      "raw_observed": "14:00–16:30",
+      "view": "usage720",
+      "location": "below date"
+    },
+    {
+      "copy_index": 5,
+      "raw_observed": "성산 생활문화센터",
+      "view": "usage720",
+      "location": "lower left first line"
+    },
+    {
+      "copy_index": 6,
+      "raw_observed": "13:40부터 입장",
+      "view": "usage720",
+      "location": "lower left second line"
+    },
+    {
+      "copy_index": 7,
+      "raw_observed": "참가비 3,000원 · 도구 제공",
+      "view": "usage720",
+      "location": "lower middle first line"
+    },
+    {
+      "copy_index": 8,
+      "raw_observed": "사전 신청 · 정원 18명",
+      "view": "usage720",
+      "location": "lower middle second line"
+    },
+    {
+      "copy_index": 9,
+      "raw_observed": "깨끗한 티셔츠 한 장 지참",
+      "view": "usage720",
+      "location": "lower right first line"
+    },
+    {
+      "copy_index": 10,
+      "raw_observed": "바느질이 처음이어도 괜찮아요",
+      "view": "usage720",
+      "location": "lower right second line"
+    }
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "residuals": [
+    {
+      "view": "native",
+      "location": "teal body/fronts, ochre band, coral pouch and pale background",
+      "observation": "Visible low-amplitude tonal variation remains across broad fields even though fabric grain and dimensional shading were substantially reduced; fills are not fully uniform."
+    },
+    {
+      "view": "native",
+      "location": "whole canvas",
+      "observation": "Returned native dimensions 1671×941 exceed the predeclared nearest-integer ratio tolerance: ideal height at this width is 939.9375 (difference1.0625px), ideal width at this height is1672.8889 (difference1.8889px). No resizing was performed."
+    },
+    {
+      "view": "usage720",
+      "location": "activity band and lower facts",
+      "observation": "Illustrated band remains taller and lower facts remain lower than planned; facts remain aligned and readable with bottom margin."
+    },
+    {
+      "view": "native",
+      "location": "source and corresponding teal pouches",
+      "observation": "Patch continues to overlap the ochre band; same right-side relation is retained consistently."
+    }
+  ],
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "whole poster",
+      "observation": "Large date leads; upper-right identity remains secondary. The shirt/pouch/exchange sequence remains substantial and the three lower groups remain separate."
+    },
+    {
+      "view": "usage720",
+      "location": "top and lower facts",
+      "observation": "All eleven entries can be read on single lines; lower facts preserve the destination/arrival, cost/tools/booking/capacity and bring/reassurance groups."
+    },
+    {
+      "view": "native",
+      "location": "shirt, pouch, palms",
+      "observation": "Dark outlines and seam dashes are more consistent. Most textured surface grain and shadowed edge modelling have disappeared. Decorative coral rays have been removed."
+    },
+    {
+      "view": "native",
+      "location": "upper left time",
+      "observation": "Medium-length centered horizontal time-range dash is clearly distinguishable from adjacent colon dots; read as an en dash."
+    },
+    {
+      "view": "native",
+      "location": "source/result/share fronts",
+      "observation": "Teal fabric with broad ochre band and lower-right coral patch recurs from the shirt through the middle pouch to the offered pouch; shared counterpart remains coral."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "checked": true,
+      "issues": [],
+      "ambiguities": [],
+      "no_added_print_observed": true,
+      "occurrences_observed": 11,
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "입던 옷의 다음 장면",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "입던 옷의 다음 장면",
+          "normalized_required": "입던 옷의 다음 장면",
+          "normalized_observed": "입던 옷의 다음 장면",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "REMAKE & SHARE",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "REMAKE & SHARE",
+          "normalized_required": "REMAKE & SHARE",
+          "normalized_observed": "REMAKE & SHARE",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "티셔츠를 파우치로 · 완성품 나눔",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "티셔츠를 파우치로 · 완성품 나눔",
+          "normalized_required": "티셔츠를 파우치로·완성품 나눔",
+          "normalized_observed": "티셔츠를 파우치로·완성품 나눔",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2027.01.16 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2027.01.16 토요일",
+          "normalized_required": "2027.01.16 토요일",
+          "normalized_observed": "2027.01.16 토요일",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "14:00–16:30",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "14:00–16:30",
+          "normalized_required": "14:00–16:30",
+          "normalized_observed": "14:00–16:30",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "성산 생활문화센터",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "성산 생활문화센터",
+          "normalized_required": "성산 생활문화센터",
+          "normalized_observed": "성산 생활문화센터",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "13:40부터 입장",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "13:40부터 입장",
+          "normalized_required": "13:40부터 입장",
+          "normalized_observed": "13:40부터 입장",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 3,000원 · 도구 제공",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "참가비 3,000원 · 도구 제공",
+          "normalized_required": "참가비 3,000원·도구 제공",
+          "normalized_observed": "참가비 3,000원·도구 제공",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "사전 신청 · 정원 18명",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "사전 신청 · 정원 18명",
+          "normalized_required": "사전 신청·정원 18명",
+          "normalized_observed": "사전 신청·정원 18명",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "깨끗한 티셔츠 한 장 지참",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "깨끗한 티셔츠 한 장 지참",
+          "normalized_required": "깨끗한 티셔츠 한 장 지참",
+          "normalized_observed": "깨끗한 티셔츠 한 장 지참",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "바느질이 처음이어도 괜찮아요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "바느질이 처음이어도 괜찮아요",
+          "normalized_required": "바느질이 처음이어도 괜찮아요",
+          "normalized_observed": "바느질이 처음이어도 괜찮아요",
+          "equal": true,
+          "layout": {
+            "observed_line_count": 1,
+            "soft_wrap": false,
+            "observations": "Single line; word spaces and punctuation separators visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Bright contemporary civic graphics with precise flat illustration, strong date-led calendar hierarchy, three practical stations and adult proportions.",
+      "observed": "The assigned content and civic graphic hierarchy persist, and outline clarity improves; mild broad-area color variation remains."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1671,
+        941
+      ],
+      "requested_ratio": [
+        16,
+        9
+      ],
+      "exact_ratio_height": 939.9375,
+      "height_deviation_px": 1.0625,
+      "exact_ratio_width": 1672.888888888889,
+      "width_deviation_px": 1.8888888888889142,
+      "permitted_nearest_integer_rounding": false,
+      "native_resized": false,
+      "maximum_resolution_verified": false
+    },
+    "substantive_visual": {
+      "checked": true,
+      "observation": "Large connected non-glyph shirt/remade pouch/mutual pouch-sharing band is present."
+    },
+    "information_relationship": {
+      "checked": true,
+      "first_anchor": "date",
+      "next_cue": "time then activity",
+      "full_path": "date/time → Korean/English name and activity → source/result/share → lower venue/arrival → cost/tools/booking/capacity → bring/reassurance",
+      "correspondence": "Ochre band and right coral patch correspond on all three teal fabric objects. The sewn result gains pouch mouth and side seams and loses collar/sleeves. Reciprocal arrows and opposing palms connect two completed pouches."
+    },
+    "function_contact": {
+      "checked": true,
+      "observation": "No contact link or QR was requested. Two wrists connect to their respective palms; each pouch rests on its palm; mouths and side seams remain visible."
+    },
+    "hangul_and_spacing": {
+      "checked": true,
+      "observation": "Coherent Korean glyph proportions, open counters and intact visible word spaces at native and720. No text clipping or duplication observed."
+    },
+    "material_edge_finish": {
+      "checked": true,
+      "observation": "Dark outline weights and seam dash language are consistent; mild tonal variation remains despite a much flatter treatment."
+    }
+  },
+  "native_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M2/stages/repair-1/original.png",
+    "sha256": "538ba460399df84443b41ab343d452aa78c0664592dd93cfe4599052fbaeb4d1",
+    "raw_observed": "All eleven first-read strings retained; time range read 14:00–16:30.",
+    "resolution": "Complete original-detail revisit displays coherent glyphs and reduced surface texture, with remaining mild broad-field color variation.",
+    "resolved": true,
+    "reason": "First original-detail emission did not display enough area to inspect native material and punctuation."
+  },
+  "observed_at_utc": "2026-10-08T08:31:48.210184+00:00"
+}

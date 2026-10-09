@@ -1,0 +1,241 @@
+You are one fresh, isolated ducttape-poster maker. Own exactly R7-B02-M1, one final independent poster.
+Your working/output directory is /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1. Do not spawn agents or create tasks. Do not read the full corpus, coordinator plans, other makers' directions/prompts/results, critic files, prior rounds, parent evaluation history or unrelated projects. Only read this job's pinned inputs and your own newly written evidence (plus the exact native source paths explicitly returned by your own tool). Never run another project executable or a wrapper/image-generation API, SDK, image CLI, credential/config/environment lookup. The only project helper you may execute is the pinned evidence_io.py below. Read-only access to exact pinned text and own-directory exclusive metadata writes/hash checks using the bundled Python are allowed. No Python/Pillow image or asset editing; the helper's QA-only reduction is the only pixel operation.
+
+First read these exact pinned inputs, applying the current SKILL and needed references. Read review_rules.md's native evidence/transcription contract. The evaluation reference does not authorize you to judge or inspect peers/critics:
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1/case.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1/assignment.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/agents/openai.yaml
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/art-direction.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/parallel-production.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/visual-research.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/snapshots/candidate-h/references/evaluation-loop.md
+- /Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/review_rules.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/run_agent.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/capability-probe/result.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/prepare_production.py
+Read case.json and assignment.json. They contain the complete literal user input/common conditions and ONLY your assigned direction. Before designing, actually view every supplied image with tools.view_image through functions.exec, emitting it via image(...,'original'). Preserve all asset identity, requested style, ratio, literal copy, supplied reference geometry and measured_layout; old reference-poster copy is not new copy. All supplied images for this role are:
+[]
+
+COMPLETE ORIGINAL USER REQUEST (include this entire literal request before your design spec in EVERY native call, including repairs):
+공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요. 모두 세로 2:3입니다. 한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다. 아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요. 프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요. 신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다. 특정 스타일이나 색은 정하지 않겠습니다. 도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다. 글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.
+
+ALL LITERAL COPY ENTRIES (preserve exact strings, kinds, word spacing, punctuation and fixed-newline rules in EVERY native call before your design spec):
+[
+  {
+    "text": "도시를 읽는 데이터",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "Reading the City Through Data",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "도시 데이터 실무 포럼 2026",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "Urban Data Practice Forum 2026",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "2026.11.26 13:30–17:30",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "성수공유홀 3층",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "Seongsu Shared Hall, 3F",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "13:30 등록 / Registration",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "14:00 생활 데이터의 빈틈 / Gaps in Everyday Data",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "15:00 지역을 설명하는 지도 / Mapping Local Context",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "16:00 작은 팀의 협업 / Collaboration in Small Teams",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "17:00 질의응답 / Questions and Answers",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "대상 공공기관 실무자와 지역 데이터 팀",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "For public-sector practitioners and local data teams",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "참가비 무료 / Free admission",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "정원 80명 / Capacity 80",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "신청 마감 2026.11.20 18:00",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "Registration closes 2026.11.20 18:00",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "신청 example.org/city-data",
+    "kind": "url",
+    "fixed_newlines": false
+  },
+  {
+    "text": "Register example.org/city-data",
+    "kind": "url",
+    "fixed_newlines": false
+  },
+  {
+    "text": "문의 city-data@example.org",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "Contact city-data@example.org",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "주최 도시실무연구회",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "Organised by Urban Practice Network",
+    "kind": "text",
+    "fixed_newlines": false
+  }
+]
+
+COMMON USER CONDITIONS/STYLES/RATIOS (include every applicable condition in every call; the role's ratio is "2:3"):
+{
+  "conditions": [
+    "공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요.",
+    "모두 세로 2:3입니다.",
+    "한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다.",
+    "아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요.",
+    "프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요.",
+    "신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다.",
+    "특정 스타일이나 색은 정하지 않겠습니다.",
+    "도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다.",
+    "글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.",
+    "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+    "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+    "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient."
+  ],
+  "styles": {
+    "mode": "open",
+    "tone": "신뢰할 수 있고 활기 있는 행사"
+  },
+  "ratios": [
+    "2:3",
+    "2:3",
+    "2:3"
+  ]
+}
+COMMON COORDINATOR CONSTRAINTS:
+[
+  "공공기관과 작은 데이터 기업이 함께 여는 도시 데이터 실무 포럼의 포스터 3종을 만들어 주세요.",
+  "모두 세로 2:3입니다.",
+  "한국어와 영어 참석자가 같은 정보를 찾을 수 있어야 합니다.",
+  "아래 문구를 한 줄도 빼지 말고 모두 그대로 넣어 주세요.",
+  "프로그램, 대상, 신청, 위치를 쉽게 찾게 해 주세요.",
+  "신뢰할 수 있고 활기 있는 행사로 보이면 좋겠습니다.",
+  "특정 스타일이나 색은 정하지 않겠습니다.",
+  "도시의 관찰과 데이터의 관계를 보여 주는 충분한 크기의 비문자 시각 중심이 있어야 합니다.",
+  "글자와 여백, 작은 장식만으로 끝내지 말고, 사실이 아닌 지도 정보나 수치는 넣지 말아 주세요.",
+  "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+  "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+  "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+  "총 3개 역할만 계획한다. R7-B02-M1, R7-B02-M2, R7-B02-M3는 각각 독립된 불투명 단일 평면 포스터 한 장이며 모두 세로 2:3이다. 한 장에 여러 방향을 합치거나 목업으로 만들지 않는다.",
+  "각 방향에 원문 24개 카피 항목을 모두 정확히 한 번씩 사용한다. 철자, 띄어쓰기, 날짜, 숫자, 대소문자, 슬래시, 쉼표, 하이픈, 시간 범위의 –를 보존한다. 제목을 축약하거나 영문을 새로 번역하지 않는다.",
+  "입력의 fixed_newlines는 모두 false이다. 필요하면 어절과 의미 단위에서 시각적으로 줄을 나눌 수 있지만 문자열을 삭제·윤문하지 않으며 URL과 이메일 내부를 나누지 않는다. fullcopy는 원문 입력 순서대로 각 항목을 개행 하나로 연결한 값이다.",
+  "한글·영문 대응 항목을 같은 정보 묶음에 인접 배치하고 같은 중요도의 판독 수준을 확보한다. 한글만 주된 안내로 키우고 영문을 미세한 각주로 처리하지 않는다. 숫자로 제공된 행사 일시는 두 언어가 함께 찾을 수 있는 공통 위치에 놓는다.",
+  "프로그램 다섯 항목은 13:30, 14:00, 15:00, 16:00, 17:00의 원문 순서를 유지한다. 장소 두 항목, 대상 두 항목, 마감 두 항목, 신청 두 항목, 문의 두 항목, 주최 두 항목을 각각 대응 묶음으로 보존한다. 참가비와 정원도 읽을 수 있는 본문 정보로 남긴다.",
+  "프로그램, 대상, 신청, 위치를 기존 카피의 시간·선두어·묶음·대비와 정렬로 쉽게 찾게 한다. 별도의 프로그램/Programme 같은 새 소제목, 장식 문자, QR 코드, 로고, 후원사, 출처 문구를 만들지 않는다.",
+  "도시 그림은 관찰과 데이터의 관계를 설명하는 개념 장면이다. 성수공유홀이나 실제 지역의 외관·위치·도로망을 재현했다고 주장하지 않는다. 지명, 도로명, 좌표, 축척, 지도 범례, 그래프 축, 측정값, 데이터 점수·비율 등 제공되지 않은 사실성 표식을 넣지 않는다.",
+  "도시와 데이터의 연결은 각 방향의 큰 비문자 장면·형태·행동 자체에서 보인다. 작은 아이콘, 배경 질감, 무늬, 글자만으로 대체하지 않는다. 그림의 면적과 전체 안내의 판독 면적을 함께 확보한다.",
+  "스타일과 색은 열려 있다. 공통 고정 팔레트나 제목–물체–하단 안내의 공통 틀을 부과하지 않는다. 신뢰는 정확한 정보 묶음과 안정된 글자·경계에서, 활기는 관찰·드러냄·함께 맞추는 동작과 리듬에서 만든다.",
+  "가장 긴 영문 대상 문장과 혼합 언어 프로그램 항목을 기준으로 본문 폭·행간을 먼저 잡는다. 글자를 가로로 압축하거나 자간을 몰아 넣지 않는다. 필수 안내를 작은 하단 띠로 밀지 않으며, 장면과 글자의 우연한 접선·겹침을 피한다.",
+  "제공된 자산은 모든 역할에서 빈 배열이다. 참조 이미지나 자산 매니페스트를 임의로 가정하지 않는다.",
+  "향후 제작 명세에는 요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력하도록 적는다. 이 계획에서는 생성·편집·보정·에이전트 실행을 하지 않으며, 실제 해상도나 결과 판독을 검증했다고 주장하지 않는다."
+]
+YOUR OWN DIRECTION, no peer plan:
+{
+  "role": "R7-B02-M1",
+  "ratio": "2:3",
+  "fullcopy": "도시를 읽는 데이터\nReading the City Through Data\n도시 데이터 실무 포럼 2026\nUrban Data Practice Forum 2026\n2026.11.26 13:30–17:30\n성수공유홀 3층\nSeongsu Shared Hall, 3F\n13:30 등록 / Registration\n14:00 생활 데이터의 빈틈 / Gaps in Everyday Data\n15:00 지역을 설명하는 지도 / Mapping Local Context\n16:00 작은 팀의 협업 / Collaboration in Small Teams\n17:00 질의응답 / Questions and Answers\n대상 공공기관 실무자와 지역 데이터 팀\nFor public-sector practitioners and local data teams\n참가비 무료 / Free admission\n정원 80명 / Capacity 80\n신청 마감 2026.11.20 18:00\nRegistration closes 2026.11.20 18:00\n신청 example.org/city-data\nRegister example.org/city-data\n문의 city-data@example.org\nContact city-data@example.org\n주최 도시실무연구회\nOrganised by Urban Practice Network",
+  "concept": "생활 속 도시의 구체적인 형태를 보는 일과 이를 공유 가능한 기록으로 정돈하는 일을 연결한다. 눈높이의 보행 공간에서 문턱, 가로수, 길 가장자리를 관찰하고, 같은 윤곽이 옆의 큰 정리된 관찰 면으로 이어지는 장면을 만든다. 첫 시선은 도시의 살아 있는 형태와 그 대응 관계를 함께 붙잡고, 제목 두 언어는 관찰 장면과 기록 면의 경계에 맞춰 그 관계를 명명한다. 그 경계에서 오른쪽의 일정·장소·참여 안내로 읽기가 이어져 도시를 읽는 주제와 실무 포럼의 정보 읽기가 같은 측면 정렬을 공유한다.",
+  "substantive_non_glyph_visual": "포스터 왼쪽 약 3분의 1을 세로로 관통하는 충분히 큰 눈높이 도시 장면을 그린다. 건물의 문턱과 보행 바닥, 가로수의 몸체·수관이 알아보일 정도의 면과 실루엣을 가지며, 관찰된 형태 일부가 오른쪽 경계의 넓은 평면으로 단순화되어 대응한다. 대응 면에는 수치·문자·차트가 없고 실제 장면과 연결되는 큰 윤곽만 있다. 카피를 가려도 구체적인 도시 형태가 관찰되고 정리되는 관계가 남아야 한다. 실제 장소 사진이나 지도, 독립된 장식 카드 더미로 보이지 않게 한다.",
+  "expression_system": "도시는 눈높이의 연속된 입면과 바닥으로, 정리된 관찰 형태는 같은 윤곽을 가진 명료한 평면으로 표현한다. 경계·선의 굵기와 대상의 면적 차이로 현장의 풍부함과 기록의 정돈을 구분한다. 활기는 도시의 형태가 오른쪽으로 이어지는 방향에서 얻고, 본문은 안정적인 수평 기준선과 높은 배경 대비를 유지한다. 제목은 한글과 영문 모두 넓은 속공간을 가진 읽기 쉬운 자형으로 완전하게 표시하고, 관찰 경계에 광학 정렬한다. 같은 질감을 모든 표면에 덮거나 데이터처럼 보이는 장식 숫자를 쓰지 않는다.",
+  "copy_visual_relationship": "오른쪽의 넓은 정보 면을 전체 높이에 걸쳐 먼저 확보한다. 한글 제목과 영문 제목을 경계 가까이에 붙이고, 포럼명 두 항목과 행사 일시·장소 두 항목을 바로 이어지는 상부 묶음으로 둔다. 중간의 가장 긴 폭을 프로그램 다섯 항목에 배정해 시간 선두와 한 항목 안의 한국어/영어가 함께 읽히게 한다. 그 아래에서는 대상 두 문장, 참가비·정원, 마감·신청·문의 대응쌍, 주최 대응쌍을 기능별 간격으로 묶는다. 모두 오른쪽의 동일한 기록 기준선을 사용하지만 프로그램과 신청의 중요도를 굵기·행간·여백으로 구분한다. 도시의 바닥·윤곽이 정보의 왼쪽 경계에서 멈추게 해 본문 획을 침범하지 않는다. 정보 폭은 긴 영어 문장에 맞춰 조정하며 필요한 경우 장면의 폭을 줄여도 실질적인 도시 장면의 규모는 유지한다.",
+  "closest_other_role": "R7-B02-M2",
+  "distinction": "M2와 모두 도시 관찰을 다루지만, 이 방향은 눈높이의 연속된 현장과 그 옆의 정리된 기록을 수평으로 대응시킨다. 먼저 알아보는 것은 거리의 구체적 형태이며, 글자는 관찰 경계에서 이어지는 세로 정보 면의 역할을 한다. M2의 벌어진 단면과 중앙을 가로지르는 넓은 프로그램 공간을 반복하지 않는다."
+}
+
+Native generation ONLY: tools.image_gen__imagegen via functions.exec, exactly one single flat opaque poster per call, transparent_background:false, assigned width:height ratio. No panels, contact sheet, mockup or extra experiment image. Each prompt must explicitly include: "요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력". This is a request, not proof of maximum output; measure the returned native dimensions.
+The predeclared ratio policy permits nearest-integer native rounding of one edge, <=0.5 pixel from the exact requested ratio on one dimension. Report actual dimensions, never resize or claim mathematically exact ratio, and do not spend a repair only on permitted rounding. Materially wrong aspect ratio still needs correction. This tolerance never overrides an explicit pixel-size request.
+One initial attempt plus at most TWO own repairs, including actual failed native attempts: at most three native invocations for this role/candidate, named initial, repair-1, repair-2 in that order. A new role name or regeneration does not reset the budget. Correct only your own actually inspected defects while retaining the specified genre and user constraints. Do not claim quality PASS or assign scores from self-inspection. Do not seek or receive external critic scores before exclusive selection closure.
+
+BEFORE EACH invocation, exclusively create stages/STAGE/call-input.json containing the COMPLETE EXACT JSON argument object that will be passed to tools.image_gen__imagegen (do not add metadata-only arguments). Separately exclusively create pre-call.json with role, stage, prepared_at_utc, native_tool, complete planned argument/input hash pins, supplied reference pins, own observed repair cause/maintained features, and attempt number. Save both before starting; do not retrofit them after a return. Keep the identical argument object in runtime store for the native invocation. Fresh initial without supplied references omits BOTH referenced_image_paths and num_last_images_to_include. With supplied assets, actually pass ALL required local asset paths using referenced_image_paths; omit num_last_images_to_include. For repairs, pass the exact own prior returned target and all required assets using referenced_image_paths, never a peer result. Never guess a newer file or use directory newest-file scanning.
+
+The native functions.exec cell starts with exactly this directive:
+// @exec: {"yield_time_ms":120000,"max_output_tokens":1000}
+Before awaiting tools.image_gen__imagegen, store/emit the actual caller UTC start and role/stage. Emit meaningful native-wait status at intervals <=45 seconds via notify()/setTimeout while awaiting (no invented model percentage). Clear the timer on return/failure. Record actual caller UTC end and whether the invocation returned or failed; preserve explicit returned path/result hints and real error metadata separately in stages/STAGE/native-call.json after return. Its wrapper interval describes the awaited native call, not helper runtime or model internals. Do not print/notify raw result/base64; retain needed result metadata in runtime store and display the generated image with generatedImage(result) as supported. Never infer source paths or generation times from filenames/helper saved_at. When yielded, resume only that exec cell, without submitting the image call again.
+
+For every returned PNG, obtain its exact absolute source path from the actual tool return, then execute the pinned helper with safely quoted exact paths:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py save-native --role R7-B02-M1 --stage STAGE --source EXACT_RETURNED_ABSOLUTE_PATH --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1
+Replace only STAGE/EXACT_RETURNED_ABSOLUTE_PATH with actual values. The helper saves byte-identical original.png/final.png, QA views and manifest.json. It does NOT edit typography, materials, crop or assets. If the returned source path is unavailable or preservation fails, preserve the actual error/tool evidence and report the unsealable return honestly; do not invent an image path or relabel a returned image as a failed native call. Stop for root handling rather than claiming a selectable asset.
+
+ACTUALLY inspect EVERY returned stage before deciding another native invocation, in this exact order: original.png at native detail, usage-720.png, thumbnail-320.png. For native display use:
+const v = await tools.view_image({path: exactOriginalPath, detail:'original'}); image(v.image_url,'original');
+Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS.
+
+Every returned repair needs exclusive parent-comparison.json: role, stage, parent_stage, parent_outcome:'returned'|'failure', the immediate parent's exact parent_manifest_sha256 and parent_native_sha256 OR parent_failure_sha256, changes:[], residuals:[]. Compare actually viewed returned stages, preserving earlier advantages; a failure parent has no visual comparison. Prefer the most suitable inspected result, not automatically the latest; preserve ALL returned originals, failures and unselected stages.
+For each actual failed native invocation, write failure.json with role, stage, outcome:'failure', native_call_count:1, error:the actual recorded error. Preserve its pre-call/input/native-call evidence. Failures count in the three-attempt cap; no placeholder images or false inspection.
+
+When one or more inspected native outcomes exist, choose the most suitable returned stage and execute only:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/evidence_io.py finalize --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B02-M1 --selected-stage CHOSEN_STAGE
+Replace CHOSEN_STAGE with initial, repair-1 or repair-2. selection.json is exclusive and immutable before any critics. Do not alter stage inputs, images, observations, selected pins or selection after closure. The helper rejects missing/out-of-order outcomes and nonexistent comparisons. Do not also create unavailable.json.
+ONLY when all THREE actual attempts failed, do not call finalize or fabricate selection.json. Exclusively write unavailable.json with schema_version:1, kind:'role_unavailable', case_id, role, outcome:'unavailable', closed:true, reason:actual failure explanation, counts:{native_calls:3,returned:0,failed:3,repair_calls:2}, stages:[{stage,outcome:'failure',failure:{path,sha256},input_pins:{call_input:{path,sha256},pre_call:{path,sha256}},native_call:{path,sha256}}] for all three preserved actual stages. selection.json and unavailable.json may NEVER coexist. Any interruption or returned-but-unsealable outcome is explicitly incomplete, not an invented all-failed terminal record.
+
+Return a compact account of the true terminal path, selected native dimensions if any, actual call/repair/failure counts, and concrete unresolved limits. No quality score, universal guarantee or extra image generation.

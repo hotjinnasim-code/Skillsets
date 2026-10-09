@@ -1,0 +1,1639 @@
+{
+  "schema_version": 1,
+  "kind": "compact_critic_observations",
+  "case_id": "R9-C1",
+  "wave": "initial",
+  "profile": "editorial",
+  "session_id": null,
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/reviews/R9-C1/initial/packet.json",
+    "sha256": "fd56e83b90be9510fb2003c3a537bc8c0920ca5c5f5174bf45f3b7f036851cc9",
+    "bytes": 26163
+  },
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "order_compliant": true,
+    "method": "Independent review in this fresh session, with no spawned, forked or resumed critic and no peer or producer records inspected. Verified the pinned packet, case, rubric, rules, method/addendum/helper bytes and all five manifests and fifteen poster byte pins. Packet source_assets and protected_layouts are both empty: no source opens or protected-layout reads were applicable. Read all five exact pinned native-evidence manifests before the poster opens, without following their unlisted embedded paths. Used functions.exec with tools.view_image(detail:'original') and image(...,'original') to actually display and inspect M1 native/usage720/thumbnail320, then M2 native/usage720/thumbnail320, then M3 native/usage720/thumbnail320, then M4 native/usage720/thumbnail320, then M5 native/usage720/thumbnail320. All fifteen opens completed before the first copy-reading/transcription stage, judgment or score. Recorded all fifty first readings afterward in packet copy order. A single genuine glyph uncertainty on M1 copy index 7 prompted one additional open of that exact pinned native image; the first reading remains unchanged and the revisit is retained. No other repeat open, substitute view, crop, resampling, OCR, image generation or editing was used. Actual native dimensions are 1672x941 for M1/M2/M3/M5 and 1672x940 for M4. All pass the pinned 16:9 nearest-integer-single-edge rule through abs(height-1672*9/16)=0.5; none is mathematically exact. Usage views are 720x405 and thumbnails 320x180, respecting width/long-edge limits and aspect rounding. Receipts attest actual semantic inspection; they do not claim a serialized tool-event identity or runtime session ID.",
+    "source_assets_viewed": [],
+    "protected_layouts_read": [],
+    "native_evidence_manifests_read": [
+      {
+        "manifest": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/manifest.json",
+          "sha256": "94d5fdf43867b1783b5261c00cb6444128658f5d860a785fd51bfa7c520fd033"
+        },
+        "read": true
+      },
+      {
+        "manifest": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M2/stages/initial/manifest.json",
+          "sha256": "327248e8fef2475c962183abcd55457931bcce5902f61d015e8f96fb04942858"
+        },
+        "read": true
+      },
+      {
+        "manifest": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/manifest.json",
+          "sha256": "2d251f8039536fcb197e96a1ce9d5577af835b62823324dcd38815d79e64a899"
+        },
+        "read": true
+      },
+      {
+        "manifest": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/stages/initial/manifest.json",
+          "sha256": "02a94a3937305956703638b01691340c383787567af045ad073d97497b633a23"
+        },
+        "read": true
+      },
+      {
+        "manifest": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/initial/manifest.json",
+          "sha256": "0bf02defa86bd723312a813a157a0bbe6f14a70296fc943023ef66e4189d2913"
+        },
+        "read": true
+      }
+    ]
+  },
+  "viewed": [
+    {
+      "image_id": "R9-C1-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/original.png",
+      "sha256": "1ccae12223688c608df9afbf02d05bcbe71003b6e76269b98a47b2a90b539653",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/usage-720.png",
+      "sha256": "a2a6cf8c8c98b955b3b184537f342f0f43a11e072c90cb9d62f2820867ed792b",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/thumbnail-320.png",
+      "sha256": "07e00b7572642e9ece3e951fa211a8b67f8656c1e3e7ea26bfed505d132d4054",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M2",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M2/stages/initial/original.png",
+      "sha256": "f719801e6ca7eba2ead96527ebacb42cf7e32b99f6b1dd8c9cc08f87ef93c98f",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M2",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M2/stages/initial/usage-720.png",
+      "sha256": "02729b6e44684ff3e31cfc15d2f2e6b7e62f9ebaa2f9f4e20545de6ee371a5ca",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M2",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M2/stages/initial/thumbnail-320.png",
+      "sha256": "7e69a27b870438e280e9edae0cbd16daf0cb1007b38fdc4186dafb1bfd60a746",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M3",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/original.png",
+      "sha256": "678288b6b780783e30b61fff3c060d939b2d260475297f7e768c71ace2a9288f",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M3",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/usage-720.png",
+      "sha256": "68a10c5c5bf2ef82cf028e17113aeb27c41ae6d96d00d07ecb2b866cc1c62233",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M3",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M3/stages/initial/thumbnail-320.png",
+      "sha256": "c9191ef9262b5ab5b0bf128c7d9c0eadc49c01b9924fd7fe6c07fc6c8dc8b59f",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M4",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/stages/initial/original.png",
+      "sha256": "7fc48f695e6559ceb5e1cec708f638a21107a4f7d978a91301363a619cc498b7",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M4",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/stages/initial/usage-720.png",
+      "sha256": "49efe68388363eab31505749fcc791ba381e8fabb51c2b813d9f0fb8be2ccf8a",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M4",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M4/stages/initial/thumbnail-320.png",
+      "sha256": "6b0a52a291f6054b3891f3238363e700758fd301efa441c7905f7427243d4c1f",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M5",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/initial/original.png",
+      "sha256": "8fbce53480b1c7372ffb0b5acbbbf20a804fd1f7f836f07e41fd6bb4a2a6a3a7",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M5",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/initial/usage-720.png",
+      "sha256": "61fba908c484def45f15340e819a1fc76e5ba0d557551966381ff37eadc493c8",
+      "viewed": true
+    },
+    {
+      "image_id": "R9-C1-M5",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M5/stages/initial/thumbnail-320.png",
+      "sha256": "ab519368d7a07687b47a5c790cb5c19992c4abd9f09a8e2a13692b51499a2c30",
+      "viewed": true
+    }
+  ],
+  "images": {
+    "R9-C1-M1": {
+      "copy": [
+        {
+          "raw": "다리 아래\n영화관",
+          "layout": {
+            "status": "PASS",
+            "observations": "Upper-right title is two lines: the line break follows 아래. These are soft layout lines; no fixed newline was requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "BRIDGE CINEMA",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single upper-right English line beneath the Korean title; the meaningful word space separates BRIDGE and CINEMA."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "야외 단편 상영 · 감독과의 대화",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single right-column event line; optical spaces surround the visible middle dot. No fixed newline."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2026.12.05 토요일",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single right-column date line with word space before 토요일."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "18:00–20:30",
+          "layout": {
+            "status": "PASS",
+            "observations": "Separate single time line directly below the date; colon separators and a horizontal en dash are visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "홍제천 연가교 아래",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single right-column location line beneath the time; two meaningful word spaces are visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "17:30부터 입장",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single lower-right instruction line below the thin divider; 17:30부터 is joined and 입장 follows a word space."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "돗자마 지참",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single lower-right preparation line; no wrap or clipping. The last syllable of the first word was uncertain on the first read and is tracked separately under ambiguity."
+          },
+          "ambiguity": "First reading was 돗자마 지참; the final syllable of the first word needed confirmation as 마 versus 리. This is a glyph-shape uncertainty, not a word-space or soft-line-break inference.",
+          "revisit": {
+            "view": "native",
+            "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round9/production/R9-C1-M1/stages/initial/original.png",
+            "sha256": "1ccae12223688c608df9afbf02d05bcbe71003b6e76269b98a47b2a90b539653",
+            "raw_observed": "돗자마 지참",
+            "resolved": true,
+            "reason": "Confirm the actual last Hangul syllable in the preparation word after the first reading raised a 마/리 distinction.",
+            "resolution": "The revisit shows a closed rectangular ㅁ body with a right-side ㅏ construction in the final syllable: 마. It does not show the ㄹ and ㅣ construction of 리. The actual reading remains 돗자마 지참, a definite glyph mismatch with the supplied preparation wording."
+          }
+        },
+        {
+          "raw": "무료 관람 · 선착순 80명",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single lower-right admission line; optical spaces surround the visible middle dot, and 80명 stays together."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "우천 시 실내로 변경",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single last instruction line in the right column; word spaces separate 우천, 시, 실내로 and 변경."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "FAIL",
+          "issues": [
+            "Copy index 7 is printed as 돗자마 지참; the one exact-native revisit confirms final syllable 마 instead of the supplied 리. The other nine entries are present once, with no observed added copy."
+          ]
+        },
+        "style": {
+          "status": "FAIL",
+          "issues": [
+            "The literal exact-copy condition is violated by the confirmed preparation-word glyph substitution. Open style, adult neighborhood tone, landscape format and substantive event imagery are otherwise fulfilled."
+          ],
+          "evidence": [
+            [
+              "native",
+              "whole poster and right information column",
+              "One complete landscape photographic poster, with a substantive bridge-side film audience and microphone speaker. The direction is visually open and coherent, rather than a type-only composition."
+            ],
+            [
+              "native",
+              "left audience on mats, screen and standing speaker",
+              "Casual adult neighbors, mats, projection and conversation communicate the specified outdoor screening/dialogue with an approachable adult tone."
+            ],
+            [
+              "usage720",
+              "right column, schedule/place and four practical lines",
+              "Date, time, place, entry, admission and rain instructions are readable; preparation is readable as 돗자마 지참, which violates faithful copy rather than being an invisible omission."
+            ],
+            [
+              "native",
+              "all printed regions",
+              "Ten requested text positions are visible once; the preparation word is corrupted. No extra readable slogan, logo, pseudo-print, watermark or QR appears."
+            ],
+            [
+              "thumbnail320",
+              "whole composition in relation to M2–M5",
+              "Night photography with a dark right sidebar differs from M2's high-angle audience ring, M3's horizontal illustrated bands, M4's central dialogue montage and M5's architectural frame. The complete set supports distinct composition systems."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "left two-thirds",
+              "A full photographic bridge/riverbank cinema scene with seated audience, mats, projection and microphone speaker occupies most of the poster, independently of the glyphs."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "left screen, seated audience and standing speaker",
+              "The large nonglyph construction explicitly communicates outdoor film viewing and discussion; the scene is still recognizable at usage scale, beyond a small icon or backdrop texture."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "left two-thirds, under the bridge",
+              "A full audience seated on mats faces a freestanding projected film screen; a standing microphone speaker links screening with conversation in the same riverbank setting."
+            ],
+            [
+              "usage720",
+              "scene and right information column",
+              "The bridge ceiling, river, screen and seated adults remain recognizable beside the title and practical information, grounding the event in a neighborhood outdoor cinema."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 4,
+          "evidence": [
+            [
+              "thumbnail320",
+              "right column and bright screen at left",
+              "The two-line Korean title and bright rectangular screen remain the first anchors; the date/time block forms a secondary stop."
+            ],
+            [
+              "usage720",
+              "right-column lower third",
+              "A thin rule separates date/time/place from four entry/preparation/admission/rain lines, producing a clear main-to-supporting reading sequence."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "lower-right preparation line",
+              "The preparation word reads 돗자마 rather than 돗자리, as confirmed in the one retained exact-native revisit. This leaves the type handling unfinished despite otherwise clear glyphs."
+            ],
+            [
+              "usage720",
+              "right-column schedule and instructions",
+              "White type has strong dark-ground contrast; the instructions are materially smaller than the date and title but can be read."
+            ],
+            [
+              "thumbnail320",
+              "bottom-right instructions",
+              "The smallest guidance becomes weak at this scale, while the title and time remain identifiable."
+            ]
+          ]
+        },
+        "space": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "photo/right-column boundary",
+              "The photographic crowd occupies roughly two-thirds of the width and the dark column roughly one-third; the edge cleanly separates the busy scene from the reading area."
+            ],
+            [
+              "usage720",
+              "right-column blocks",
+              "Title, descriptor, schedule and ruled instruction group have distinct vertical gaps and a stable left alignment without colliding with the people."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "screen, bridge beams and foreground seated figures",
+              "Screen perspective, dusk illumination and warm reflected light across the paving form a coherent photographic scene with substantive local detail."
+            ],
+            [
+              "usage720",
+              "speaker and projected landscape",
+              "The speaker silhouette and microphone are distinct from the projection, keeping the two advertised activities legible after downsampling."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "riverbank audience and warm pools of light",
+              "Casual adult neighbors in coats sitting together on mats convey an approachable cultural gathering; warm light against blue dusk gives the scene a calm evening character."
+            ],
+            [
+              "usage720",
+              "whole composition",
+              "The restrained dark column and unforced audience scene support the adult tone without turning the event into a spectacle."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 3,
+          "evidence": [
+            [
+              "native",
+              "lower-right preparation line",
+              "The glyph substitution in 돗자마 is an unresolved visible artifact in functional event information."
+            ],
+            [
+              "native",
+              "upper/right descriptor and scene",
+              "A small pale mark above the descriptor's first character is untidy; the main scene itself retains a consistent bridge/screen/audience relationship and has no readable extraneous branding."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [],
+      "residuals": [
+        "Confirmed preparation-word glyph error: 돗자마 지참. Text and rolled-up literal style fail; typography and ai_slop remain below 4.",
+        "The smallest right-column guidance is substantially less prominent than the date/time and becomes weak at thumbnail320; usage720 permits reading the actual wrong preparation word.",
+        "A small pale mark above the event descriptor's first glyph leaves a minor local imperfection.",
+        "Native 1672x941 is not mathematically exact 16:9; it passes only the predeclared single-edge rounding rule, with height difference 0.5 pixel.",
+        "No source assets or protected geometry are supplied, so source_fidelity is explicitly empty and no external identity claim is made."
+      ]
+    },
+    "R9-C1-M2": {
+      "copy": [
+        {
+          "raw": "다리 아래 영화관",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single large upper-left Korean title with spaces between its three word groups."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "BRIDGE CINEMA",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single upper-left English line beneath the title; BRIDGE and CINEMA remain separated."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "야외 단편 상영 · 감독과의 대화",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single upper-right line; optical spaces around the middle dot, with word groups kept distinct."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2026.12.05 토요일",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single large date line in the open center of the audience ring; word space before 토요일."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "18:00–20:30",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single central time line below the date; colons and horizontal en dash remain visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "홍제천 연가교 아래",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single upper-right location line below the event descriptor, right aligned."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "17:30부터 입장",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single lower-left instruction line, with joined 17:30부터 followed by a word space."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "돗자리 지참",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single lower-right preparation line, above the rain instruction."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "무료 관람 · 선착순 80명",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single lower-left admission line below the entry instruction; optical gaps surround the middle dot."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "우천 시 실내로 변경",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single lower-right rain instruction below the preparation line; no wrap or clipping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "whole poster",
+              "One complete flat landscape illustrated poster uses a high-angle audience ring and cobalt information on golden pavement, an achieved open visual direction."
+            ],
+            [
+              "native",
+              "right screen/discussion group and semicircle of mats",
+              "A film projection, standing microphone speaker, seated discussants and relaxed adult participants on mats make screening/conversation and an approachable adult neighborhood tone recognizable."
+            ],
+            [
+              "usage720",
+              "center schedule and upper-right/lower-corner information",
+              "All ten strings are readable once, including date/time/place, entry, mat preparation, free admission limit and rain contingency. No text is cropped."
+            ],
+            [
+              "native",
+              "all text groups and scene surfaces",
+              "Only the ten supplied entries are observed; no added readable print, logo, watermark or QR is visible. The substantial crowd/screen scene fulfills the nonglyph requirement."
+            ],
+            [
+              "thumbnail320",
+              "whole composition in relation to other members",
+              "The audience creates a central open schedule field, with information distributed to corners: this differs structurally from M1/M4 columns, M3 horizontal bands and M5 bridge signage, supporting the set's five distinct systems."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "audience ring and right screen group",
+              "Large illustrated adult figures, mats, speakers and projection create a substantive event scene across most of the frame, rather than a tiny ornament or textured type field."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "audience curve and discussion group",
+              "Nonglyph seating, screen and microphone discussion remain legible and describe how neighbors participate in the event."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "large ring of seated participants around the central schedule",
+              "Mats and adult audience figures make participation visible; the speaker with a microphone and adjacent seated discussants beside a film screen explicitly represent the two activities."
+            ],
+            [
+              "usage720",
+              "central opening and top bridge support",
+              "The date/time occupy the open center of the audience's gathering space, and the cropped concrete support and river edge locate the activity outdoors."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 4,
+          "evidence": [
+            [
+              "thumbnail320",
+              "upper-left title, central date/time and audience ring",
+              "The title and central schedule survive reduction as separate anchors, with the audience curve carrying the eye between them."
+            ],
+            [
+              "usage720",
+              "four perimeter text groups",
+              "Descriptor/place are grouped upper right, entry/admission lower left and preparation/rain lower right; the consistent blue type binds the separated groups."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "all ten text positions",
+              "Korean and English glyphs, date punctuation, time colons/dash and middle dots read clearly, with the preparation word correctly formed."
+            ],
+            [
+              "usage720",
+              "upper-right descriptor and both lower corners",
+              "The smaller practical and activity lines retain readable blue-on-yellow contrast; meaningful word spaces remain visible."
+            ],
+            [
+              "thumbnail320",
+              "central date/time",
+              "The central schedule remains prominent even as the smaller corners lose fine detail."
+            ]
+          ]
+        },
+        "space": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "center of the audience ellipse",
+              "The large unoccupied paving area is given a purposeful role as the schedule's field, while people and mats form the surrounding boundary."
+            ],
+            [
+              "usage720",
+              "upper-left and lower corner blocks",
+              "Margins keep the large title and corner information from hitting the audience; the composition uses the whole landscape rather than leaving an accidental void."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "illustrated figures, mats and screen at right",
+              "The high viewpoint, consistent long shadows, varied coat colors and patterned mats build a coherent illustrated gathering; screen supports and chairs have legible roles."
+            ],
+            [
+              "usage720",
+              "right-side discussion group",
+              "The standing microphone speaker, seated listeners and freestanding screen remain separated in silhouette, so the scene does not dissolve into decoration."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "golden paving, blue type and casually seated adults",
+              "The saturated blue/yellow pairing and relaxed human gathering feel welcoming without infantilizing the adult audience."
+            ],
+            [
+              "usage720",
+              "whole composition",
+              "The circular gathering and open central field produce an energetic communal mood distinct from M1's quiet dusk."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "audience ring and right discussion group",
+              "Participants have varied orientations, clothing and mats; the repeated gathering motif has an observable organizing role rather than becoming arbitrary ornament."
+            ],
+            [
+              "native",
+              "text and peripheral environment",
+              "No unrelated slogans, pseudo-print, logo or QR interrupt the scene, and the projection, supports and people retain coherent spatial roles."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [],
+      "residuals": [
+        "The corner groups require more eye travel than the single reading columns of M1 and M4; their separation is purposeful but participation details are distributed.",
+        "The golden daylight treatment and cropped bridge support give less immediate evening/under-bridge atmosphere than M1 and M5, while the outdoor screening and conversation remain recognizable.",
+        "Small upper-right activity/place information loses ease at thumbnail320, though it is readable at usage720.",
+        "Native 1672x941 uses the allowed 0.5-pixel height rounding tolerance rather than mathematically exact 16:9.",
+        "No supplied source assets or protected geometry: source_fidelity is explicitly empty."
+      ]
+    },
+    "R9-C1-M3": {
+      "copy": [
+        {
+          "raw": "다리 아래 영화관",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single large upper-left Korean title in the cream header, preserving its word spaces."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "BRIDGE CINEMA",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single English line under the Korean title; the interword gap is visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "야외 단편 상영 · 감독과의 대화",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single large event descriptor in the bottom-right cream band; middle dot and optical surrounding spaces remain visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2026.12.05 토요일",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single date line in the upper-right header, with a word space before the weekday."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "18:00–20:30",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single upper-right time line beneath the date; colons and horizontal en dash visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "홍제천 연가교 아래",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single upper-right location line beneath the time; meaningful word spaces remain."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "17:30부터 입장",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single entry line in the bottom-left information block; no wrap."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "돗자리 지참",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single preparation line in the bottom-left block, beneath entry."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "무료 관람 · 선착순 80명",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single admission line at the bottom-left; optical middle-dot spacing and joined 80명 are visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "우천 시 실내로 변경",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single bottom-right rain line below the event descriptor; no clipping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "whole poster",
+              "One complete flat landscape illustration has a continuous public-event panorama between substantial cream information bands, an achieved open direction."
+            ],
+            [
+              "native",
+              "middle scene, especially left mat preparation and right microphone exchange",
+              "The outdoor bridge/river screening, participant conversation and mat preparation are substantive visible actions, with casual adult neighbors and a friendly cultural-event tone."
+            ],
+            [
+              "usage720",
+              "cream header and footer",
+              "All ten supplied strings appear once and are readable, including date/time/place, entry, preparation, admission limit and rain contingency."
+            ],
+            [
+              "native",
+              "all printed regions and projection",
+              "No additional readable copy, logo, pseudo-print, watermark or QR is observed; the nonglyph film/audience scene is not a decorative icon."
+            ],
+            [
+              "thumbnail320",
+              "whole composition in relation to M1/M2/M4/M5",
+              "Horizontal cream framing around a frontal panoramic scene differs from M2's central ring, M1's dark sidebar, M4's close conversational montage and M5's architecture. Shared human motifs do not erase the compositional differences."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "central full-width scene",
+              "The bridge, river, projection, audience, mat-spreading neighbor and microphone exchange form a substantial nonglyph panorama tied to the content."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "left mat spread, central screen and right conversation",
+              "Large visible actions connect preparation, outdoor cinema and audience dialogue, fulfilling the visual requirement beyond glyphs, texture or small symbols."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "middle panoramic scene",
+              "A projected bridge film, microphone exchange with a seated participant, and a neighbor spreading a mat explicitly connect cinema, conversation and preparation."
+            ],
+            [
+              "usage720",
+              "bridge/river scene between cream text bands",
+              "The bridge overhead and river behind the audience are recognizable, while the surrounding information identifies the neighborhood event."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 4,
+          "evidence": [
+            [
+              "thumbnail320",
+              "cream header and bottom band",
+              "The title leads at upper left, date/time sit upper right, and the horizontal scene sits between them and the supporting footer."
+            ],
+            [
+              "usage720",
+              "bottom-right event descriptor and bottom-left instructions",
+              "The large event descriptor supplies a distinct footer anchor; entry, preparation and free admission stay grouped at the opposite edge."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "header and footer type",
+              "Heavy black Korean glyphs and the spaced English line are consistent and fully readable; the ten observed strings retain their words and punctuation."
+            ],
+            [
+              "usage720",
+              "schedule and participation lines",
+              "All practical details remain legible against the cream field, including the mat instruction and rain contingency."
+            ],
+            [
+              "thumbnail320",
+              "title and schedule",
+              "The title and schedule remain clear at small scale; the smaller footer details retain their grouping even when fine glyph detail weakens."
+            ]
+          ]
+        },
+        "space": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "whole landscape layout",
+              "The cream header, continuous illustrated middle band and cream footer use distinct height proportions; the figure silhouettes meet the scene edges without colliding with text."
+            ],
+            [
+              "usage720",
+              "upper-right schedule and split footer",
+              "Aligned blocks and generous unprinted cream ground keep the dense scene from overwhelming the practical reading areas."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "projection and right-side microphone exchange",
+              "The grayscale film image contrasts coherently with the warm colored audience; a speaker and seated attendee communicate a specific conversation rather than a generic crowd."
+            ],
+            [
+              "native",
+              "left foreground mat and middle bridge structure",
+              "The mat's spread shape, kneeling neighbor, bridge piers and continuous riverbank establish a convincing illustrated environment with useful action."
+            ],
+            [
+              "usage720",
+              "central screen and foreground audience",
+              "The screen, audience and mat-preparation action remain individually recognizable."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "casual audience, mat preparation and microphone exchange",
+              "Visible helping/preparation and direct audience participation create an inviting adult neighborhood culture tone."
+            ],
+            [
+              "usage720",
+              "cream field and warm scene palette",
+              "The scene feels relaxed and orderly; the strong black information framing supplies sufficient seriousness without suppressing the social warmth."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "scene's left and right actions",
+              "The mat-spreading neighbor and microphone exchange have discernible functions and fit the advertised event; the image is not padded with disconnected symbolic objects."
+            ],
+            [
+              "native",
+              "full header/footer and projection",
+              "No additional print, branding or QR is visible, and the bridge film and surrounding site remain separately intelligible."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [],
+      "residuals": [
+        "The large bottom-right activity descriptor competes somewhat with the top-right schedule; the footer split introduces a second reading zone.",
+        "The rain contingency and some smallest instruction details weaken at thumbnail320, while remaining readable at usage720.",
+        "The heavy black sans-serif family overlaps the typographic character of M2/M4/M5, limiting the range of type expression across the set.",
+        "Native 1672x941 passes by the allowed 0.5-pixel height rounding tolerance, not exact mathematical 16:9.",
+        "No supplied source assets or protected geometry: source_fidelity is explicitly empty."
+      ]
+    },
+    "R9-C1-M4": {
+      "copy": [
+        {
+          "raw": "다리 아래 영화관",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single Korean title across the top of the central cream column; word spaces remain."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "BRIDGE CINEMA",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single English line beneath the Korean title in the center column."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "야외 단편 상영 · 감독과의 대화",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single event descriptor beneath the English line; visible middle dot with optical surrounding spaces."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2026.12.05 토요일",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single center-column date line; weekday remains separated from numeric date."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "18:00–20:30",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single larger time line below the date; colons and horizontal en dash visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "홍제천 연가교 아래",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single central location line below the time; both word gaps are retained."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "17:30부터 입장",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single first line of the lower central instructions, with joined 17:30부터 and a space before 입장."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "돗자리 지참",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single second instruction line in the center column; no wrapping or clipping."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "무료 관람 · 선착순 80명",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single third instruction line; middle-dot optical gaps do not remove word spaces."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "우천 시 실내로 변경",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single last instruction line in the center column; all meaningful word spaces remain."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "whole montage and central column",
+              "One complete flat landscape poster combines warm photographic dialogue portraits, an outdoor-screening inset and a central cream information field, an achieved open visual direction."
+            ],
+            [
+              "native",
+              "large listener/speaker and upper-left bridge cinema",
+              "The smiling adult conversation and visible microphone provide dialogue; the bridge-side projection and seated cinema audience establish outdoor screening. The expressions and coats support an approachable adult cultural event."
+            ],
+            [
+              "usage720",
+              "central text column",
+              "All ten strings appear once and are readable, including date/time/place and all four practical instructions; the portraits do not occlude the copy."
+            ],
+            [
+              "native",
+              "central text and outer photographic surfaces",
+              "No extra readable print, logo, pseudo-print, watermark or QR is observed. Substantive nonglyph subjects occupy the outer frame and the screening inset."
+            ],
+            [
+              "thumbnail320",
+              "whole composition compared with the other four",
+              "Face-to-face close portraits flank the information and prioritize dialogue, distinguishing this system from broad crowd views in M1–M3 and the architectural organization in M5."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "left and right portraits plus upper-left screening scene",
+              "Large human subjects visibly listen and speak through a microphone, while a real-sized cinema inset conveys the setting; the nonglyph content is central to the message."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "faces, microphone and background projection",
+              "The construction delivers recognizable conversation and screening rather than relying on type, tiny ornaments or texture."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "large facing figures and upper-left screening scene",
+              "The smiling listener and microphone speaker make conversation the primary subject; the outdoor audience and projection under bridge beams establish the cinema context behind them."
+            ],
+            [
+              "usage720",
+              "faces framing the center information column",
+              "Human exchange remains readable next to the event descriptor, so the design communicates more than a generic movie screening."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 4,
+          "evidence": [
+            [
+              "thumbnail320",
+              "central column and facing portraits",
+              "The title and time are clear central anchors, with the two faces directing attention toward the cream column."
+            ],
+            [
+              "usage720",
+              "central information stack",
+              "Title, English name, descriptor, date/time/place and smaller instructions follow one vertical reading sequence with deliberate size changes."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "central cream column",
+              "All ten strings have intact glyphs, meaningful word spaces and visible punctuation; the Korean title is heavy but separated from the English line."
+            ],
+            [
+              "usage720",
+              "four lower instruction lines",
+              "Black-on-cream instructions remain readable, including the correctly formed mat wording and rain line, with no overlap from the flanking portraits."
+            ],
+            [
+              "thumbnail320",
+              "center title/time and bottom instructions",
+              "The title and time persist; smallest instructions lose ease of reading, but their block remains ordered."
+            ]
+          ]
+        },
+        "space": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "cream column and rough vertical photographic edges",
+              "The central field gives the copy a quiet area while the cropped figures fill the outer thirds; the rough seams operate as stable boundaries."
+            ],
+            [
+              "usage720",
+              "right portrait edge and central schedule",
+              "The figure approaches the schedule but does not cover any words; the lower instruction block keeps a usable inset from the cream boundary."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "faces, microphone and outdoor-screen inset",
+              "Warm skin and coat detail, a legible microphone and bridge-lit cinema scene give the montage a coherent photographic mood."
+            ],
+            [
+              "usage720",
+              "foreground dialogue and upper-left screen",
+              "The face-to-face relationship survives downsampling and the secondary screen/audience scene remains identifiable rather than becoming meaningless texture."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "smiling listener and microphone speaker",
+              "Visible listening and easy expressions communicate approachable adult discussion, with winter coats and warm night lighting supporting a local cultural evening."
+            ],
+            [
+              "usage720",
+              "whole montage",
+              "The close human scale differentiates its conversational mood from the broader public gathering views in M1, M2 and M3."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "foreground conversation and central column",
+              "The faces, microphone and gesturing foreground hand relate to the conversation; the montage boundaries keep the scenes understandable rather than fusing them into unexplained scenery."
+            ],
+            [
+              "native",
+              "all printed areas",
+              "There is no observable added slogan, logo, QR or pseudo-text competing with the ten requested entries."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [],
+      "residuals": [
+        "The outdoor screening is a smaller upper-left contextual scene, so dialogue is recognized more immediately than the bridge cinema at thumbnail320.",
+        "Lower participation instructions are noticeably smaller than the title/time and lose ease at thumbnail320, despite full usage720 readability.",
+        "The central sans-serif stack is less distinctive in type expression than the photographic close-up framing is in composition.",
+        "Native 1672x940 passes by the allowed 0.5-pixel height rounding tolerance, not exact mathematical 16:9.",
+        "No supplied source assets or protected geometry: source_fidelity is explicitly empty."
+      ]
+    },
+    "R9-C1-M5": {
+      "copy": [
+        {
+          "raw": "다리\n아래\n영화관",
+          "layout": {
+            "status": "PASS",
+            "observations": "Left architectural title is three soft lines, one each for 다리, 아래 and 영화관. Layout breaks correspond to word boundaries; no fixed newline was requested."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "BRIDGE CINEMA",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single English line at the base of the left title pier; BRIDGE and CINEMA separated."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "야외 단편 상영 · 감독과의 대화",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single slightly perspective-aligned event line on the lintel above the arch; visibly spaced word groups and middle dot."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "2026.12.05 토요일",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single date line in the upper cream beam panel; slight perspective baseline and word space before weekday."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "18:00–20:30",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single time line below the date in the beam panel; colons and horizontal en dash visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "홍제천 연가교 아래",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single top row of the right cream information pier; word spaces preserved."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "17:30부터 입장",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single second row of the right information pier; 17:30부터 remains joined before 입장."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "돗자리 지참",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single middle row of the right information pier, separated by rules; no wrap."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "무료 관람 · 선착순 80명",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single narrow admission row on the right pier; optical gap around the middle dot is tight, with 관람 and 선착순 still separate."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "raw": "우천 시 실내로 변경",
+          "layout": {
+            "status": "PASS",
+            "observations": "Single bottom row of the right information pier; no clipping, with the meaningful word gaps intact."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": []
+        },
+        "style": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "whole architectural composition",
+              "One complete flat landscape illustrated poster integrates information with bridge piers, beam and arch; this is an achieved open direction with a substantive scene below the bridge."
+            ],
+            [
+              "native",
+              "arch opening with screen, speaker and seated audience",
+              "Outdoor projection, a microphone speaker and adult neighbors seated on mats establish the specified screening/dialogue and a warm approachable adult cultural mood."
+            ],
+            [
+              "usage720",
+              "overhead schedule panel and right ruled information pier",
+              "All ten supplied strings appear once and are readable, including location, entry, mat instruction, free admission/80-person limit and rain change."
+            ],
+            [
+              "native",
+              "architectural text panels and scene",
+              "No extra readable text, branding, pseudo-print, watermark or QR is visible. Large nonglyph bridge and event construction remains substantive despite the very large title."
+            ],
+            [
+              "thumbnail320",
+              "whole composition compared with M1–M4",
+              "The stacked title pier, overhead schedule beam and right information pier surround an arched scene, creating an information structure different from the other four, beyond a palette or illustration filter change."
+            ]
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "native",
+              "arch opening and bridge structure",
+              "A large bridge environment with audience, screen, mats and standing microphone speaker provides substantial content-specific nonglyph form; the typography is only part of the construction."
+            ]
+          ]
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "issues": [],
+          "evidence": [
+            [
+              "usage720",
+              "central screen and audience below bridge arch",
+              "The scene remains visibly an outdoor cinema and discussion even when read independently of the large lettering, exceeding the tiny-icon/texture/glyph-model loopholes."
+            ]
+          ]
+        }
+      },
+      "ratings": {
+        "content_form": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "bridge arch and central outdoor-screen scene",
+              "The actual bridge structure organizes title, schedule and practical directions around a substantive screening scene with a standing microphone speaker and seated neighbors."
+            ],
+            [
+              "usage720",
+              "left title pier, overhead date beam and right instruction pier",
+              "Architectural components give information a content-related role: the audience literally occupies the opening below the bridge."
+            ]
+          ]
+        },
+        "hierarchy": {
+          "score": 4,
+          "evidence": [
+            [
+              "thumbnail320",
+              "left stacked title and upper cream schedule panel",
+              "The huge title and date/time are distinct first anchors; the arch then directs attention to the audience and screen."
+            ],
+            [
+              "usage720",
+              "right information pier",
+              "Ruled rows separate place, entry, mat preparation, free admission and rain instructions; this panel is a recognizable practical-information destination."
+            ]
+          ]
+        },
+        "typography": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "left stacked title, overhead beam and right rows",
+              "The title's three soft lines preserve word boundaries; all ten strings and punctuation read correctly, including the dense admission row."
+            ],
+            [
+              "usage720",
+              "right information pier and lintel descriptor",
+              "The practical rows remain legible at the required width, while the perspective-aligned descriptor retains its word spaces."
+            ],
+            [
+              "thumbnail320",
+              "left English line and right admission row",
+              "Title/date retain impact, but the narrow admission row becomes less comfortable to read at this smaller inspection scale."
+            ]
+          ]
+        },
+        "space": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "whole architectural frame",
+              "A left title pier, top schedule beam, arched scene opening and narrow right instruction pier form a purposeful landscape allocation rather than a generic title/hero/footer stack."
+            ],
+            [
+              "usage720",
+              "right ruled panel and central scene",
+              "Rules and margins isolate the practical rows from the busy audience while the arch contains the lower scene; the dense admission line is the tightest area."
+            ]
+          ]
+        },
+        "image_material": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "blue bridge piers, arch soffit and projected film",
+              "Textured structural surfaces, railings, consistent arch geometry and the sunset projection form a coherent illustrated environment."
+            ],
+            [
+              "native",
+              "foreground mats and standing speaker",
+              "Varied coats, mats, bags and a microphone speaker supply substantive event action, distinct from the architectural type surfaces."
+            ],
+            [
+              "usage720",
+              "arch opening",
+              "The projection and speaker remain separately identifiable beside the audience."
+            ]
+          ]
+        },
+        "emotion_control": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "blue evening bridge and warm sunset scene",
+              "Blue structure and warm light create a neighborly evening atmosphere with an adult cultural-event character; the seated audience feels accessible."
+            ],
+            [
+              "usage720",
+              "large architectural title around small social scene",
+              "The monumental lettering gives the event civic presence while the gathering preserves warmth."
+            ]
+          ]
+        },
+        "ai_slop": {
+          "score": 4,
+          "evidence": [
+            [
+              "native",
+              "architectural information surfaces",
+              "Every typographic panel has an identifiable informational purpose; the bridge/title integration avoids unrelated floating ornaments or filler inscriptions."
+            ],
+            [
+              "native",
+              "screen/audience scene and right instruction rows",
+              "No added readable text, brand mark or QR appears, and the microphone/screen/audience relationships are coherent."
+            ]
+          ]
+        }
+      },
+      "source_fidelity": [],
+      "residuals": [
+        "The right admission row is dense in the narrow information pier, making the smallest practical copy fragile at thumbnail320 despite readable usage720.",
+        "Perspective on the lintel descriptor and top panel adds spatial character but reduces typographic regularity compared with M3's flat bands.",
+        "The repeated seated-audience/screen/speaker motif links this illustration to M2/M3, although the architecture changes the information structure.",
+        "Native 1672x941 passes by the allowed 0.5-pixel height rounding tolerance, not exact mathematical 16:9.",
+        "No supplied source assets or protected geometry: source_fidelity is explicitly empty."
+      ]
+    }
+  },
+  "set": {
+    "members": [
+      "R9-C1-M1",
+      "R9-C1-M2",
+      "R9-C1-M3",
+      "R9-C1-M4",
+      "R9-C1-M5"
+    ],
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 5,
+      "issues": []
+    },
+    "diversity": 4,
+    "evidence": [
+      [
+        "R9-C1-M1",
+        "thumbnail320",
+        "whole composition",
+        "Night photographic scene takes roughly two-thirds of the frame and a dark right sidebar contains a linear information sequence; quieter and more observational than M2's central ring or M4's close dialogue montage."
+      ],
+      [
+        "R9-C1-M2",
+        "thumbnail320",
+        "central field and perimeter",
+        "High-angle seated audience surrounds the large date/time in an open center; title/activity/practical groups occupy corners. This is a different viewpoint and information structure from the columns and horizontal bands of M1/M3/M4."
+      ],
+      [
+        "R9-C1-M3",
+        "thumbnail320",
+        "header, full-width scene and footer",
+        "Cream horizontal bands frame a frontal illustrated panorama with preparation and discussion actions. Its scene-as-band and split header/footer roles differ from M2's wraparound audience and M5's architectural compartments."
+      ],
+      [
+        "R9-C1-M4",
+        "thumbnail320",
+        "large dialogue faces and central column",
+        "Intimate photographic faces flank central information, with screening as a smaller background scene. The dominant human exchange and middle-column reading provide a system distinct from M1's broader evening observation and M2/M3's public-gathering panoramas."
+      ],
+      [
+        "R9-C1-M5",
+        "thumbnail320",
+        "title pier, date beam, arch and right rows",
+        "Bridge architecture organizes the stacked title, overhead schedule and right practical panel around the audience scene; these structural roles differ from all four other layouts, not just their palettes or materials."
+      ],
+      [
+        "R9-C1-M2",
+        "usage720",
+        "relationship with M3 and M5",
+        "These three illustrations share adult audience/screen/microphone content and strong sans-serif type, but their overhead ring, horizontal panorama and architectural frame change viewpoint, crop, image/type roles and practical-information routing."
+      ],
+      [
+        "R9-C1-M4",
+        "usage720",
+        "relationship with M1",
+        "Both use photography and information columns, but M4's face-to-face close-up and central cream column have a distinct emotional focus and balance from M1's broad dusk scene and dark right sidebar."
+      ]
+    ],
+    "residuals": [
+      "Distinct complete compositions support diversity 4, but heavy sans-serif headlines and literal audience/screen/speaker imagery repeat through much of the set, limiting exceptional range.",
+      "M1 retains its definite preparation-copy failure and sub-4 typography/ai_slop; a favorable independent diversity judgment cannot cancel this member's failed checks.",
+      "Every requested member is retained; there is no averaging, selection or claim about other critics' reviews.",
+      "The assessment applies only to these five exact initial members and the displayed native/usage720/thumbnail320 views. It does not establish legibility at an unspecified physical screen distance or fidelity to unsupplied sources."
+    ]
+  }
+}

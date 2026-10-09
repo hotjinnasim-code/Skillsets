@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "role": "R18-C1-M5",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "1f54793e17dfb4049a0a13572991624aa6c3e75a411d56c395310bf03874f22f",
+  "parent_native_sha256": "d593c5a7467083533cffe7dd71b2a25e428fb9bd1ba545a4702acea90ce912f1",
+  "changes": [
+    {
+      "view": "native",
+      "location": "time beneath date",
+      "target_change": "Range stroke widened and visually distinguishable as an en dash; ambiguity resolved on the single revisit."
+    },
+    {
+      "view": "usage720",
+      "location": "complete left text spine",
+      "preserved_advantage": "All 12 supplied entries still read once; the substantial three-line paragraph and practical sequence retain their sizes and order."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "preserved_advantage": "Date-led side route, full-height cropped action and shared edge remain; no new information-card scaffold."
+    },
+    {
+      "view": "native",
+      "location": "chair, sleeves, patch and folds",
+      "incidental_change": "Fine print hatching shifted and some marks darkened slightly. Major contour/hand ownership and repair action remain legible; no material reading regression observed."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "upper chair joint",
+      "limit": "The rail tenon remains separated from the upright; this shows repair in progress, not a completed structural connection."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "small body and sewing details",
+      "limit": "Thumbnail use establishes organization and action recognition; complete body reading and needle/stitch details use the 720/native views."
+    },
+    {
+      "view": "native",
+      "location": "time punctuation",
+      "limit": "Glyph-class reading is resolved visually. The raster does not certify its underlying Unicode code point."
+    }
+  ]
+}

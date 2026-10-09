@@ -1,0 +1,16 @@
+{
+  "change": "pre-launch actual runner global-flag argv integration only",
+  "old_sha256": "a171f9a7f8ba15f05e5b2ede3eca60dbfc3664ee1fe58f7ddaee225239c1a48a",
+  "new_sha256": "fd575d7354ffa417bdea256f9d98dcd66f26260012d7ee6b6a154685668e5dc3",
+  "synthetic_only": true,
+  "passed": 6,
+  "checks": [
+    "actual run_agent argv and trace provenance accepted",
+    "negative command rejected: codex resume --ephemeral",
+    "negative command rejected: codex --unknown exec --ephemeral",
+    "negative command rejected: codex exec exec --ephemeral",
+    "negative command rejected: codex exec --ephemeral fork",
+    "wrong actual-runtime session rejected"
+  ],
+  "unchanged_scope": "normalization, all seven gates, evidence, counts and raw/source/provenance joins"
+}

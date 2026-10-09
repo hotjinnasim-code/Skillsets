@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "kind": "role_selection",
+  "role": "R17-C1-M4",
+  "selected_stage": "repair-2",
+  "selected_manifest": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/manifest.json",
+    "sha256": "021257084ba1225f67c5f1fcd2ddc045eff96c265adf0ff377baab7e5499c784",
+    "bytes": 2681
+  },
+  "selected_native_sha256": "e210775c3053f93106e7d9c42981fe91f24eaa768a5376fd520a1a8e83b9788c",
+  "selected_files": {
+    "original": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/original.png",
+      "sha256": "e210775c3053f93106e7d9c42981fe91f24eaa768a5376fd520a1a8e83b9788c",
+      "bytes": 2501270,
+      "width": 1672,
+      "height": 941
+    },
+    "final": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/final.png",
+      "sha256": "e210775c3053f93106e7d9c42981fe91f24eaa768a5376fd520a1a8e83b9788c",
+      "bytes": 2501270,
+      "width": 1672,
+      "height": 941
+    },
+    "usage720": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/usage-720.png",
+      "sha256": "ab8559d47fd41b98a892ae5abb408248e17026130aadec7ee56abefab79d2179",
+      "bytes": 559410,
+      "width": 720,
+      "height": 405
+    },
+    "thumbnail320": {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/thumbnail-320.png",
+      "sha256": "b3570a576bf34e2f5495560770d9b9c82206dac3d52e5956650ff14b27fb0128",
+      "bytes": 127228,
+      "width": 320,
+      "height": 180
+    }
+  },
+  "selected_inspection": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/inspection.json",
+    "sha256": "8d0f791bb8983ff2437f2badb46d79ca0b0c341633853384a923b676e7599af5",
+    "bytes": 16516
+  },
+  "counts": {
+    "native_calls": 3,
+    "returned": 3,
+    "failed": 0,
+    "repair_calls": 2
+  },
+  "stages": [
+    {
+      "stage": "initial",
+      "outcome": "returned",
+      "input_pins": {
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/initial/call-input.json",
+          "sha256": "1fbdb6184cce0b700f8dc2dd4b85e0d484d6c6b8db900974a5831e507422a828",
+          "bytes": 5899
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/initial/pre-call.json",
+          "sha256": "083d20d02f6e952cdb563ccc0e2e76d5755e7cf354c2baba63bd5ee93e5bd392",
+          "bytes": 10401
+        }
+      },
+      "manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/initial/manifest.json",
+        "sha256": "d82b4f1c0877527d3dd690ea5ba3e882efbb8c826d6f1cd35765d033686be06d",
+        "bytes": 2674
+      },
+      "source": {
+        "path": "/Users/nahyeonbin/.codex/generated_images/01a11c1a-5276-7ae1-b313-d883aaa331c4/exec-fafaba12-7977-45d7-86f5-c091e3ef2013.png",
+        "sha256": "7c6d21e148c3b59ba9e944de5202b07bc8ef5609c28ca06e5b51ec6f0b254277",
+        "bytes": 2725281,
+        "width": 1672,
+        "height": 941
+      },
+      "files": {
+        "original": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/initial/original.png",
+          "sha256": "7c6d21e148c3b59ba9e944de5202b07bc8ef5609c28ca06e5b51ec6f0b254277",
+          "bytes": 2725281,
+          "width": 1672,
+          "height": 941
+        },
+        "final": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/initial/final.png",
+          "sha256": "7c6d21e148c3b59ba9e944de5202b07bc8ef5609c28ca06e5b51ec6f0b254277",
+          "bytes": 2725281,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/initial/usage-720.png",
+          "sha256": "bdac6aab9f5ea5bb56898f97f50ca35b65e6a9cbb639dcffcac0f7e4573d5a96",
+          "bytes": 560546,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/initial/thumbnail-320.png",
+          "sha256": "541e23023932212288eb18e9a1ec4e34926f8f2de394ff1ac96cfe13fa8d1400",
+          "bytes": 124894,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "inspection": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/initial/inspection.json",
+        "sha256": "7152f5262c5f8f6ed11e22c0cfd53342a0f422e91f3ee30b2f7ab41e6194ee50",
+        "bytes": 16365
+      }
+    },
+    {
+      "stage": "repair-1",
+      "outcome": "returned",
+      "input_pins": {
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/call-input.json",
+          "sha256": "050afced60105faf55e583d24859e4aa40a6ae9f9727c9752a6ad7ab9790ffb8",
+          "bytes": 4214
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/pre-call.json",
+          "sha256": "7e9dafd3c36860e09338626f6fbb770cc8fda8bfc3b148125c7631c0ca424e44",
+          "bytes": 10059
+        }
+      },
+      "manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/manifest.json",
+        "sha256": "dc55fcd0f025da785041756a6383bfa5f0bbd54a6208cc7008df0ee0e9b7f244",
+        "bytes": 2681
+      },
+      "source": {
+        "path": "/Users/nahyeonbin/.codex/generated_images/01a11c1a-5276-7ae1-b313-d883aaa331c4/exec-1fd694b0-aa34-4c54-8f92-d1fe3541ef38.png",
+        "sha256": "3e35270665bdb11e0ec159b2db8764dafca971947d00c89eaabbb037493e86cb",
+        "bytes": 2586434,
+        "width": 1672,
+        "height": 941
+      },
+      "files": {
+        "original": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/original.png",
+          "sha256": "3e35270665bdb11e0ec159b2db8764dafca971947d00c89eaabbb037493e86cb",
+          "bytes": 2586434,
+          "width": 1672,
+          "height": 941
+        },
+        "final": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/final.png",
+          "sha256": "3e35270665bdb11e0ec159b2db8764dafca971947d00c89eaabbb037493e86cb",
+          "bytes": 2586434,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/usage-720.png",
+          "sha256": "02389d16c04fb9161e1de102c1e5120dde595194d9bc308e88b5f2034669d142",
+          "bytes": 559953,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/thumbnail-320.png",
+          "sha256": "c56652751c487297a950c002037089a46ad7d5efafccf7f3bb6f7105e9095916",
+          "bytes": 127426,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "inspection": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/inspection.json",
+        "sha256": "391bc17e6dce42496f0b5308c6be45888a90459626988d280be7e430d6bbc50e",
+        "bytes": 13911
+      },
+      "parent_comparison": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-1/parent-comparison.json",
+        "sha256": "3b4a353535b8f4431dfce4565520a855b48b83d4db907edc52b897171755c2d0",
+        "bytes": 1430
+      }
+    },
+    {
+      "stage": "repair-2",
+      "outcome": "returned",
+      "input_pins": {
+        "call_input": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/call-input.json",
+          "sha256": "b0cc9107a8b6d9578bc88c8beb6a19c496529cf92a72199a722e64a93abe1ed3",
+          "bytes": 4398
+        },
+        "pre_call": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/pre-call.json",
+          "sha256": "824e42585560db19e17eb6cf29d02382fa5766e536af0ee4695f60fffcb8435d",
+          "bytes": 10219
+        }
+      },
+      "manifest": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/manifest.json",
+        "sha256": "021257084ba1225f67c5f1fcd2ddc045eff96c265adf0ff377baab7e5499c784",
+        "bytes": 2681
+      },
+      "source": {
+        "path": "/Users/nahyeonbin/.codex/generated_images/01a11c1a-5276-7ae1-b313-d883aaa331c4/exec-c6ceb5b4-0756-43ae-b915-30bd9d6df2ad.png",
+        "sha256": "e210775c3053f93106e7d9c42981fe91f24eaa768a5376fd520a1a8e83b9788c",
+        "bytes": 2501270,
+        "width": 1672,
+        "height": 941
+      },
+      "files": {
+        "original": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/original.png",
+          "sha256": "e210775c3053f93106e7d9c42981fe91f24eaa768a5376fd520a1a8e83b9788c",
+          "bytes": 2501270,
+          "width": 1672,
+          "height": 941
+        },
+        "final": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/final.png",
+          "sha256": "e210775c3053f93106e7d9c42981fe91f24eaa768a5376fd520a1a8e83b9788c",
+          "bytes": 2501270,
+          "width": 1672,
+          "height": 941
+        },
+        "usage720": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/usage-720.png",
+          "sha256": "ab8559d47fd41b98a892ae5abb408248e17026130aadec7ee56abefab79d2179",
+          "bytes": 559410,
+          "width": 720,
+          "height": 405
+        },
+        "thumbnail320": {
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/thumbnail-320.png",
+          "sha256": "b3570a576bf34e2f5495560770d9b9c82206dac3d52e5956650ff14b27fb0128",
+          "bytes": 127228,
+          "width": 320,
+          "height": 180
+        }
+      },
+      "inspection": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/inspection.json",
+        "sha256": "8d0f791bb8983ff2437f2badb46d79ca0b0c341633853384a923b676e7599af5",
+        "bytes": 16516
+      },
+      "parent_comparison": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round17/production/R17-C1-M4/stages/repair-2/parent-comparison.json",
+        "sha256": "93e76d58d5368f2b872e1bb605c24138feebb4804c1b18d0329456334a8b2d3b",
+        "bytes": 1603
+      }
+    }
+  ],
+  "sealed_at_utc": "2026-10-08T15:34:09.695585+00:00",
+  "inspection_semantics": "recorded maker attestations; helper does not view or score images",
+  "native_timing_semantics": "caller-recorded pre-call/input pins only; saved_at is not a native interval"
+}

@@ -1,0 +1,19 @@
+--- 
++++ 
+@@ -72,7 +72,15 @@
+         if 'hints' in metadata:
+             typed_hints(metadata['hints'])
+     if 'returned_result_hints' in caller:
+-        typed_hints(caller['returned_result_hints'])
++        value = caller['returned_result_hints']
++        if isinstance(value, dict):
++            # Actual caller metadata container; keep the same literal grammar.
++            assert 'output_hint' in value, 'Missing literal native return hint'
++            representations.append([hint_path(value['output_hint'])])
++            if 'hints' in value:
++                typed_hints(value['hints'])
++        else:
++            typed_hints(value)
+     assert representations and all(len(paths) == 1 for paths in representations), 'Exactly one explicit returned source is required'
+     path = representations[0][0]
+     assert Path(path).is_absolute() and Path(path).suffix == '.png' and '..' not in Path(path).parts

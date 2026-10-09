@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "role": "R8-C1-M3",
+  "stage": "initial",
+  "recorded_at_utc": "2026-10-08T02:55:20.983726+00:00",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/initial/thumbnail-320.png"
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/initial/original.png",
+      "sha256": "b189df1703c10a6e6e156cd08b28783382c636f86d84489d7639af7e72ed0d66",
+      "bytes": 4250743,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/initial/usage-720.png",
+      "sha256": "f7cc01f4c9cbe2c5b9edac9cad6b5ed9f8ff9f6a7549d0e23e1941b5aef3bc5d",
+      "bytes": 1856840,
+      "width": 720,
+      "height": 1080
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/initial/thumbnail-320.png",
+      "sha256": "e8a613e534e730301e42912cfe2e02ebbb173dd070abb3555296289f721283c2",
+      "bytes": 143138,
+      "width": 213,
+      "height": 320
+    }
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "viewing_limit_and_revisit": {
+    "initial_native_display": "첫 original-detail 표시가 32px 정도의 왼쪽 윗부분으로 나타나 원본 세부 확인이 제한됨; 첫 세 뷰의 호출 순서는 native, usage720, thumbnail320",
+    "revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M3/stages/initial/original.png",
+      "sha256": "b189df1703c10a6e6e156cd08b28783382c636f86d84489d7639af7e72ed0d66",
+      "raw_observed": [
+        "한 번 더 쓰는 하루",
+        "동네 수선·교환 모임",
+        "2026.11.14 토요일",
+        "13:00–17:00",
+        "연희 생활센터",
+        "고칠 물건 하나, 바꿀 물건 하나",
+        "작은 옷 수선 · 생활물건 교환",
+        "참가비 없음",
+        "천천히 들러요"
+      ],
+      "resolution": "같은 원본을 original detail로 한 번 재조회했을 때 전체 1024×1536 화면이 표시되어 획·수선선·재질을 직접 확인함",
+      "resolved": true,
+      "reason": "최초 원본 보기의 화면 표시 제한"
+    }
+  },
+  "raw_observed_text": [
+    "한 번 더 쓰는 하루",
+    "동네 수선·교환 모임",
+    "2026.11.14 토요일",
+    "13:00–17:00",
+    "연희 생활센터",
+    "고칠 물건 하나, 바꿀 물건 하나",
+    "작은 옷 수선 · 생활물건 교환",
+    "참가비 없음",
+    "천천히 들러요"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "한 번 더 쓰는 하루",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "한 번 더 쓰는 하루",
+          "first_read_view": "usage720",
+          "location": "윗면의 긴 한 줄 제목",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "한 번 더 쓰는 하루",
+          "normalized_observed": "한 번 더 쓰는 하루",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "동네 수선·교환 모임",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "동네 수선·교환 모임",
+          "first_read_view": "usage720",
+          "location": "제목 바로 아래 행사 식별",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "동네 수선·교환 모임",
+          "normalized_observed": "동네 수선·교환 모임",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "2026.11.14 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2026.11.14 토요일",
+          "first_read_view": "usage720",
+          "location": "오른쪽 중간 일정 그룹 첫 줄",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2026.11.14 토요일",
+          "normalized_observed": "2026.11.14 토요일",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "13:00–17:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "13:00–17:00",
+          "first_read_view": "usage720",
+          "location": "일정 그룹 둘째 줄",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "13:00–17:00",
+          "normalized_observed": "13:00–17:00",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "연희 생활센터",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "연희 생활센터",
+          "first_read_view": "usage720",
+          "location": "일정 그룹 셋째 줄",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "연희 생활센터",
+          "normalized_observed": "연희 생활센터",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "고칠 물건 하나, 바꿀 물건 하나",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "고칠 물건 하나, 바꿀 물건 하나",
+          "first_read_view": "usage720",
+          "location": "오른쪽 아래 준비·활동 그룹 첫 줄",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "고칠 물건 하나, 바꿀 물건 하나",
+          "normalized_observed": "고칠 물건 하나, 바꿀 물건 하나",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "작은 옷 수선 · 생활물건 교환",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "작은 옷 수선 · 생활물건 교환",
+          "first_read_view": "usage720",
+          "location": "준비·활동 그룹 둘째 줄",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "작은 옷 수선·생활물건 교환",
+          "normalized_observed": "작은 옷 수선·생활물건 교환",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 없음",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "참가비 없음",
+          "first_read_view": "usage720",
+          "location": "아래 오른쪽 초대 그룹 첫 줄",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "참가비 없음",
+          "normalized_observed": "참가비 없음",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "천천히 들러요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "천천히 들러요",
+          "first_read_view": "usage720",
+          "location": "초대 그룹 둘째 줄",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "천천히 들러요",
+          "normalized_observed": "천천히 들러요",
+          "equal": true,
+          "layout": {
+            "observed_lines": 1,
+            "fixed_newlines_required": false,
+            "observation": "한 줄로 보이며 어절 간격이 구별됨"
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "visible_occurrence_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "invented_copy_observed": false,
+      "ambiguities": [],
+      "usage720_observation": "일정·장소·준비·활동·무료·초대 모두 읽힘. 한글 획·받침과 숫자·어절이 구별됨; 래스터 기호 판독은 원 Unicode 인증을 의미하지 않음"
+    },
+    "ratio": {
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "policy": "nearest-integer native rounding of one edge <=0.5px",
+      "observed_policy_fit": true,
+      "native_not_resized": true
+    },
+    "format": {
+      "single_flat_poster_observed": true,
+      "opaque_visual_observed": true,
+      "mockup_or_panels_observed": false,
+      "logos_or_watermarks_observed": false
+    },
+    "substantive_visual": {
+      "view": "native",
+      "location": "왼쪽 끝에서 아래 오른쪽 끝까지 이어지는 큰 천 경계",
+      "observation": "황토빛 낡은 천과 밝은 면직물이 큰 불규칙 경계와 실제 겹침·보강 수선선으로 연결됨. 열린 구멍과 보강 패치가 수선 상태를 드러내고 경계가 정보의 넓은 밝은 면을 결정함"
+    },
+    "style": {
+      "checked_requirement": "큰 결합 경계와 밝은 연속 천 면, 비대칭 안내, 명조 제목과 인쇄 고딕, 평면에 가까운 물성 이미지",
+      "observation": "이 관계는 보이지만 제목 획과 크기가 계획보다 강함. 실제 안내는 진한 고딕으로 선명하게 보이고 자수 변형을 입히지 않음"
+    },
+    "hangul": {
+      "view": "native",
+      "location": "전체 9개 카피",
+      "observation": "받침과 모음이 빠진 음절은 보이지 않음. 고딕의 속공간이 열려 있고 단어 간격이 구별됨. 제목은 명조 성격이나 두껍고 붓처럼 표현된 획 끝"
+    },
+    "information_relationship": {
+      "view": "usage720",
+      "location": "위 식별→오른쪽 중간 일정→그 아래 준비→하단 초대",
+      "observation": "5개 의미 그룹이 여백으로 나뉘며 준비·활동을 작은 각주로 축소하지 않음"
+    },
+    "function_contact": {
+      "required": false,
+      "observation": "연락처·실제 손·도구 기능·로고 재현을 요구하지 않은 입력. 추가 연락 정보 없음"
+    },
+    "material_edge_finish": {
+      "view": "native",
+      "location": "왼쪽 중간 열린 올과 아래 보강 패치",
+      "observation": "직조, 접힌 낡은 올, 천 겹침의 얕은 그림자와 부드러운 사용 흔적이 보임. 경계에 많은 느슨한 올이 남고 아래쪽 작은 사각 보강천이 결합되어 있음"
+    }
+  },
+  "located_observations": [
+    {
+      "view": "thumbnail320",
+      "location": "전체 화면",
+      "observation": "큰 비스듬한 천 경계와 넓은 상단 제목이 첫눈을 만들고 오른쪽 정보 그룹이 세 덩어리로 읽힘"
+    },
+    {
+      "view": "native",
+      "location": "전체",
+      "observation": "천이 화면 밖으로 이어져 중앙 상품 오브젝트나 별도 캡션 프레임으로 분리되지 않음"
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "상단 제목",
+      "observation": "제목이 넓은 한 줄을 유지하지만 획이 굵고 붓끝처럼 강하게 벌어져 배정된 단정한 중간 굵기 명조보다 크고 무겁게 보임",
+      "repairable": true
+    },
+    {
+      "view": "usage720",
+      "location": "준비·활동 그룹의 오른쪽 줄 끝",
+      "observation": "두 줄의 마지막 글자가 오른쪽 끝 약 3% 여백에 가까워 넉넉한 읽는 면의 끝이 좁아 보임. 글자가 잘리지는 않음",
+      "repairable": true
+    }
+  ],
+  "next_action": "제목을 더 단정하고 중간 굵기로 낮추며 제목과 준비 그룹의 오른쪽 안전 여백을 확보하는 국소 보정 1회. 수선 경계·넓은 읽는 면·안내 크기를 유지."
+}

@@ -1,0 +1,5 @@
+{
+  "scope": "Root-only integration checker; archived raw files unchanged",
+  "finding": "Wrapper links to the checker output currently being written, so pre-write existence check failed.",
+  "fix": "Permit exactly the explicit scheduled output during pre-write link audit; rerun full link existence audit immediately after creating it. All other links must exist in both audits."
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "role": "R7-B04-M1",
+  "stage": "repair-2",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M1/stages/repair-2/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M1/stages/repair-2/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M1/stages/repair-2/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "raw_observed_text": [
+    "다시\n내 모양",
+    "누르고 만들고 되돌리는 하루",
+    "2026.12.05\n13:00–18:00",
+    "도형제작소 1층",
+    "청소년 메이커 데이",
+    "신청\nexample.org/my-shape"
+  ],
+  "first_observed_view": "native",
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "required": "다시 내 모양",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "다시\n내 모양",
+      "layout": {
+        "observations": "다시 / 내 모양의 두 행; 내와 모양 사이 어절 간격.",
+        "fixed_newline_required": false
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "comparison_observation_source": "initial_raw",
+      "normalized_required": "다시 내 모양",
+      "normalized_observed": "다시 내 모양",
+      "equal": true
+    },
+    {
+      "copy_index": 1,
+      "required": "누르고 만들고 되돌리는 하루",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "누르고 만들고 되돌리는 하루",
+      "layout": {
+        "observations": "한 줄이고 어절 사이 간격이 보인다.",
+        "fixed_newline_required": false
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "comparison_observation_source": "initial_raw",
+      "normalized_required": "누르고 만들고 되돌리는 하루",
+      "normalized_observed": "누르고 만들고 되돌리는 하루",
+      "equal": true
+    },
+    {
+      "copy_index": 2,
+      "required": "2026.12.05 13:00–18:00",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "2026.12.05\n13:00–18:00",
+      "layout": {
+        "observations": "날짜 뒤 어절 경계에서 줄바꿈, 시간은 한 줄.",
+        "fixed_newline_required": false
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "comparison_observation_source": "initial_raw",
+      "normalized_required": "2026.12.05 13:00–18:00",
+      "normalized_observed": "2026.12.05 13:00–18:00",
+      "equal": true
+    },
+    {
+      "copy_index": 3,
+      "required": "도형제작소 1층",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "도형제작소 1층",
+      "layout": {
+        "observations": "한 줄이고 어절 사이 간격이 보인다.",
+        "fixed_newline_required": false
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "comparison_observation_source": "initial_raw",
+      "normalized_required": "도형제작소 1층",
+      "normalized_observed": "도형제작소 1층",
+      "equal": true
+    },
+    {
+      "copy_index": 4,
+      "required": "청소년 메이커 데이",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "청소년 메이커 데이",
+      "layout": {
+        "observations": "한 줄이고 어절 사이 간격이 보인다.",
+        "fixed_newline_required": false
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "comparison_observation_source": "initial_raw",
+      "normalized_required": "청소년 메이커 데이",
+      "normalized_observed": "청소년 메이커 데이",
+      "equal": true
+    },
+    {
+      "copy_index": 5,
+      "required": "신청 example.org/my-shape",
+      "kind": "url",
+      "fixed_newlines": false,
+      "raw_observed": "신청\nexample.org/my-shape",
+      "layout": {
+        "observations": "신청 다음 행에 URL 전체 한 줄.",
+        "fixed_newline_required": false
+      },
+      "ambiguity": null,
+      "revisit": null,
+      "comparison_observation_source": "initial_raw",
+      "normalized_required": "신청 example.org/my-shape",
+      "normalized_observed": "신청 example.org/my-shape",
+      "equal": true
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "checked": true,
+      "ambiguities": [],
+      "observations": "여섯 문구가 각각 한 번 보이고 native와 720px에서 읽혔다. Date periods, time의 긴 dash, URL의 짧은 hyphen 및 slash가 구별된다. 추가·누락 문구를 관찰하지 않았다."
+    },
+    "style": {
+      "checked": true,
+      "requirement": {
+        "mode": "explicit",
+        "medium": "클레이 3D",
+        "type": "두껍게 올라온 읽기 쉬운 한글",
+        "colour": "강한 보색 대비",
+        "tone": "밝고 장난스러우면서도 정교한 구성"
+      },
+      "observations": "파랑 바탕, 불투명 무광 주황 몸통, 크림 입체 제목, 노랑 입체 행사명, 낮은 돌출 안내의 조합이 유지된다. 동일한 방향의 그림자가 깊이를 보여준다."
+    },
+    "ratio": {
+      "checked": true,
+      "requested": "1:1",
+      "dimensions_source": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M1/stages/repair-2/manifest.json",
+      "observed_dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "no_type_only": {
+      "checked": true,
+      "observations": "넓게 눌린 발에서 굵은 하부 주름을 거쳐 둥근 윗몸까지 이어진 오른쪽 큰 점토와 누름판이 실질적인 비문자 중심을 유지한다."
+    },
+    "substantive_visual": {
+      "checked": true,
+      "observations": "첫 결과의 원반 같은 윗머리와 목 주름이 다시 생기지 않았다. 둥근 몸통이 하부 압축 주름과 넓은 발에 연속되고 얕은 윗면 눌림 자국 위에 누름판이 작은 틈으로 올라 있다.",
+      "limitation": "하부 여러 주름은 비교적 평행한 띠처럼 보이는 부분이 남는다."
+    },
+    "hangul": {
+      "checked": true,
+      "observations": "모·양 및 안내의 속공간, 초·중·종성, 내/모양 및 정보 어절 간격이 유지된다. Native와 720px에서 문자 비례와 baseline이 읽히며 URL이나 시간의 가로 압축은 관찰하지 않았다."
+    },
+    "information_relationship": {
+      "checked": true,
+      "observations": "왼쪽 큰 두 행 제목에서 행사명·설명·날짜/시간·장소·신청/URL로 이어지는 열이 유지된다. 오른쪽 몸통과 행사명·설명 끝 사이에 파랑 틈이 생겨 접촉이 사라졌지만 행사명 옆 틈은 여전히 좁다."
+    },
+    "function_contact": {
+      "checked": true,
+      "observations": "누름판의 밑면은 얕게 눌린 crown 바로 위에서 작은 파랑 틈을 보이며 같은 압력 축을 따른다. 발은 바닥에서 퍼져 있고 짙은 접지 그림자가 있다. 압착과 회복은 한 덩어리 안에서 연결된다."
+    },
+    "material_edge_finish": {
+      "checked": true,
+      "observations": "오른쪽 몸통이 일부 오른쪽으로 이동하며 약간 좁아졌고 둥근 윤곽은 끊기지 않는다. 몸통과 발에 무광의 빚은 표면이 있다. 하부 주름은 굵고 평행한 띠 부분이 남으며 판에는 이전보다 잔잔한 요철이 더 보인다. 우측 넓은 발은 프레임 끝에서 잘린다."
+    },
+    "extra_copy": {
+      "checked": true,
+      "observations": "추가 문구·로고·숫자·워터마크를 관찰하지 않았다."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "event name right end and orange left flank",
+      "observation": "노랑 마지막 이 뒤에 주황이 직접 겹치지 않고 좁은 파랑 틈이 보인다."
+    },
+    {
+      "view": "native",
+      "location": "right crown / shoulders",
+      "observation": "얕은 눌림 자국과 둥근 어깨가 연결되고 상단 원반/목 주름이 없다."
+    },
+    {
+      "view": "usage720",
+      "location": "left subtitle right end",
+      "observation": "하루 끝과 몸통 사이 파랑 여백이 보여 흰 안내와 주황 형태의 접촉이 사라졌다."
+    },
+    {
+      "view": "usage720",
+      "location": "application lower left",
+      "observation": "신청과 example.org/my-shape가 두 행이고 URL 전체가 한 줄로 읽힌다."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole",
+      "observation": "큰 크림 제목과 주황 윗몸, 눌린 하부 주름, 위 판의 작은 틈이 구별된다."
+    }
+  ],
+  "residuals": [
+    "행사명 마지막 이와 주황 몸통 사이 파랑 간격은 접촉을 피했지만 여전히 좁다.",
+    "하부 압축 주름 일부가 비교적 규칙적인 평행 띠처럼 보인다.",
+    "넓은 점토 발의 우측 끝은 포스터 경계에서 잘린다.",
+    "320px 축소는 가장 작은 글자의 세부 판독용 크기가 아니며, 최대 해상도 적용·인쇄 적합성·래스터 글리프의 원래 Unicode 코드 포인트는 검증하지 않았다."
+  ],
+  "selection_consideration": "세 반환 결과를 실제로 본 범위에서 repair-2는 initial보다 둥근 윗몸의 회복 연결이 분명하고 repair-1의 글자/몸통 접촉을 줄였다. 이전 결과의 여섯 문구 판독·좌측 정보 계층·큰 비문자 중심·보색과 무광 클레이를 유지하므로 이 결과가 더 적합하다. 이는 자기 품질 점수나 PASS가 아니다.",
+  "actual_view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M1/stages/repair-2/original.png",
+      "sha256": "a5cbf053b99a20a023d8c8104f9dee21d11e9437eaf6ac39487f13cc6df49e79",
+      "bytes": 2009465,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M1/stages/repair-2/usage-720.png",
+      "sha256": "92ece0f81ee6fc3ccf2c8ae485b79c88af86ce1b5e0ff77a3ce620c3a1b66a6b",
+      "bytes": 744385,
+      "width": 720,
+      "height": 720
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B04-M1/stages/repair-2/thumbnail-320.png",
+      "sha256": "708019bf50a294f7140352989e025736bcefbecb69c4bab3d3f6abc2fba1c836",
+      "bytes": 162385,
+      "width": 320,
+      "height": 320
+    }
+  ]
+}

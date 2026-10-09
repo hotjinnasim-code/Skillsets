@@ -1,0 +1,412 @@
+{
+  "role": "R22-C1-M4",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/thumbnail-320.png"
+  ],
+  "raw_observed_text": [
+    "집 안의 작은 숲",
+    "LEAVES & LIVING",
+    "초록을 고르고, 일상을 가꿉니다.",
+    "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+    "성수 주말 식물 마켓",
+    "2027.06.12 – 06.13",
+    "토 · 일 11:00 – 19:00",
+    "성수 온실마당",
+    "입장 무료 · 분갈이 시연",
+    "식물 구매 시 관리 안내 제공",
+    "편하게 들러 천천히 둘러보세요.",
+    "leaves.example/market"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "revisits": [
+    {
+      "copy_index": 6,
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/original.png",
+      "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+      "raw_observed": "2027.06.12 – 06.13",
+      "resolution": "At the one same-asset native revisit the horizontal mark reads as a midline range dash. Large flanking gaps remain visible; no silent whitespace deletion. Raster shape cannot authenticate a Unicode code point.",
+      "resolved": true,
+      "reason": "Resolve dash glyph class and visible spacing after first read."
+    },
+    {
+      "copy_index": 7,
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/original.png",
+      "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+      "raw_observed": "토 · 일 11:00 – 19:00",
+      "resolution": "One same-asset native revisit shows a round midline middle dot and midline range dash, clean paired colons. Large gaps by the dash remain; dot-adjacent optical spaces receive only the declared text exception.",
+      "resolved": true,
+      "reason": "Resolve middle-dot and range-dash class; retain first raw read."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "observed_occurrences_per_entry": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_print_observed": false,
+      "issues": [
+        "Date and hours have visible spaces around range bars unlike required literal strings."
+      ],
+      "ambiguities": [
+        {
+          "copy_index": 6,
+          "description": "Initial dash-class/optical-spacing question",
+          "resolved": true
+        },
+        {
+          "copy_index": 7,
+          "description": "Initial dot/dash class question",
+          "resolved": true
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Vivid citron/aubergine authored lithographic illustration with restrained burnt-orange touch points; large real-habit plant forms and adult hands.",
+      "observations": [
+        "Citron field, aubergine typography/stems/table, orange hands and pot, lithographic grain and restrained hatch are visible.",
+        "Both leaf faces are predominantly green, an observed deviation from the assigned aubergine ink emphasis."
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested": "16:9",
+      "height_at_exact_ratio": 940.5,
+      "rounding_difference_px": 0.5,
+      "policy": "Permitted nearest-integer one-edge rounding; no resizing."
+    },
+    "substantive_visual": {
+      "observations": [
+        "Compact branching oval-leaf plant and broad fenestrated-leaf plant differ in habit and scale.",
+        "Upper adult hand holds/touches a compact plant leaf; lower right adult hand wraps around orange pot; pots stand on shared oblique table."
+      ]
+    },
+    "hangul": {
+      "observations": [
+        "All syllables read with mature proportions, visible counters and stable baselines; body retains meaningful Korean word spaces.",
+        "At 720 the regular paragraph and practical lines can be followed; English/URL are smaller but readable in this displayed view."
+      ]
+    },
+    "information_relationship": {
+      "observations": [
+        "Title is immediately distinct at thumbnail; bold leaf silhouettes and hands carry the right half.",
+        "Same left start links eyebrow/title/companion/subtitle to whole paragraph, then date/hours/place; access/care pair and invitation/URL continue below.",
+        "The shared table and differing plant reaches organize the illustration with the typography; plants are substantial active content rather than tiny added decoration."
+      ]
+    },
+    "function_contact": {
+      "observations": [
+        "Upper thumb/index overlap an intact leaf while stems continue to soil.",
+        "Right hand wraps pot front/side, with distinguishable finger contours; visible pot rim and stems remain legible.",
+        "The hand is lower on the pot side than the suggested thumb-at-rim detail, but support is readable; guide geometry is flexible."
+      ]
+    },
+    "local_finish": {
+      "observations": [
+        "Controlled jagged printed leaf edges and vein cuts; speckle sits on leaves/pots/table while small text remains separate.",
+        "Some leaflet boundaries overlap intentionally; no broken pot/table footing or floating stem observed."
+      ]
+    }
+  },
+  "observations": [
+    {
+      "view": "native",
+      "location": "Left body paragraph x75–600,y375–525",
+      "observation": "Four complete soft lines, regular glyph body and word spaces."
+    },
+    {
+      "view": "usage720",
+      "location": "Left rail from paragraph ending to bottom URL",
+      "observation": "Nearby practical groups keep same optical start; date/hours large enough to find immediately."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Whole composition",
+      "observation": "Large bold title left, active upper hand and two distinctly scaled plants right balance on diagonal table."
+    },
+    {
+      "view": "native",
+      "location": "Leaf faces on both plants",
+      "observation": "Naturalistic green ink is visually dominant despite the prescribed aubergine palette."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "Both plants' leaf faces",
+      "limit": "Dominant dark green dilutes the assigned aubergine ink identity."
+    },
+    {
+      "location": "Date/hour range bars",
+      "limit": "Visible gaps around dashes are retained in raw transcription and differ after declared normalization."
+    },
+    {
+      "location": "Thumbnail320 lower left copy",
+      "limit": "Thumbnail supports hierarchy only; paragraph/footer are too small for full-text reading."
+    }
+  ],
+  "view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/original.png",
+      "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+      "bytes": 2298058,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/usage-720.png",
+      "sha256": "81258c131fdbc869501b3a755ededc20f3f8c72dd4ddba5921083b48e3db8e5c",
+      "bytes": 481679,
+      "width": 720,
+      "height": 405
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/thumbnail-320.png",
+      "sha256": "69e8845df63bf2f49ac3fbbd59efc1cdd42688296d78bf9e025241903ea5a82e",
+      "bytes": 106217,
+      "width": 320,
+      "height": 180
+    }
+  ],
+  "first_read_pin": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/first-read.json",
+    "sha256": "8985b8730de2cf65e503088e7fb1561dd44f84c0364b0497b7f60c1dcfe48e6c"
+  },
+  "transcriptions": [
+    {
+      "copy_index": 1,
+      "required": "집 안의 작은 숲",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "집 안의 작은 숲",
+      "normalized_required": "집 안의 작은 숲",
+      "normalized_observed": "집 안의 작은 숲",
+      "equal": true,
+      "layout": {
+        "observations": "Single broad bold title on left upper field; meaningful word spaces visible.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "required": "LEAVES & LIVING",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "LEAVES & LIVING",
+      "normalized_required": "LEAVES & LIVING",
+      "normalized_observed": "LEAVES & LIVING",
+      "equal": true,
+      "layout": {
+        "observations": "Smaller single-line Latin companion below title.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "required": "초록을 고르고, 일상을 가꿉니다.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "normalized_required": "초록을 고르고, 일상을 가꿉니다.",
+      "normalized_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "equal": true,
+      "layout": {
+        "observations": "One-line medium/bold bridge to paragraph; punctuation visible.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+      "normalized_required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "normalized_observed": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+      "equal": true,
+      "layout": {
+        "observations": "Four meaning-led soft lines with stable left starts; no fixed-newline requirement.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "required": "성수 주말 식물 마켓",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "성수 주말 식물 마켓",
+      "normalized_required": "성수 주말 식물 마켓",
+      "normalized_observed": "성수 주말 식물 마켓",
+      "equal": true,
+      "layout": {
+        "observations": "Subordinate single-line eyebrow above title.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "required": "2027.06.12–06.13",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "2027.06.12 – 06.13",
+      "normalized_required": "2027.06.12–06.13",
+      "normalized_observed": "2027.06.12 – 06.13",
+      "equal": false,
+      "layout": {
+        "observations": "Single serif date line; visible extra spacing beside range bar.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": {
+        "description": "Initial dash-class/optical-spacing question",
+        "resolved": true
+      },
+      "revisit": {
+        "copy_index": 6,
+        "view": "native",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/original.png",
+        "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+        "raw_observed": "2027.06.12 – 06.13",
+        "resolution": "At the one same-asset native revisit the horizontal mark reads as a midline range dash. Large flanking gaps remain visible; no silent whitespace deletion. Raster shape cannot authenticate a Unicode code point.",
+        "resolved": true,
+        "reason": "Resolve dash glyph class and visible spacing after first read."
+      }
+    },
+    {
+      "copy_index": 7,
+      "required": "토·일 11:00–19:00",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "토 · 일 11:00 – 19:00",
+      "normalized_required": "토·일 11:00–19:00",
+      "normalized_observed": "토·일 11:00 – 19:00",
+      "equal": false,
+      "layout": {
+        "observations": "Single serif hour line; optical spaces around middle dot plus visible extra spacing beside range bar.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": {
+        "description": "Initial dot/dash class question",
+        "resolved": true
+      },
+      "revisit": {
+        "copy_index": 7,
+        "view": "native",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round22/production/R22-C1-M4/stages/initial/original.png",
+        "sha256": "d0e5e6eda97ac807e9e2beaf8d36cd1a2068e45168420a7817b5505b49b00375",
+        "raw_observed": "토 · 일 11:00 – 19:00",
+        "resolution": "One same-asset native revisit shows a round midline middle dot and midline range dash, clean paired colons. Large gaps by the dash remain; dot-adjacent optical spaces receive only the declared text exception.",
+        "resolved": true,
+        "reason": "Resolve middle-dot and range-dash class; retain first raw read."
+      }
+    },
+    {
+      "copy_index": 8,
+      "required": "성수 온실마당",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "성수 온실마당",
+      "normalized_required": "성수 온실마당",
+      "normalized_observed": "성수 온실마당",
+      "equal": true,
+      "layout": {
+        "observations": "Place sits immediately below date/hours, heavier than regular practical lines.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "required": "입장 무료 · 분갈이 시연",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "입장 무료 · 분갈이 시연",
+      "normalized_required": "입장 무료·분갈이 시연",
+      "normalized_observed": "입장 무료·분갈이 시연",
+      "equal": true,
+      "layout": {
+        "observations": "Access and demonstration line follows place with functional gap.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 10,
+      "required": "식물 구매 시 관리 안내 제공",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "식물 구매 시 관리 안내 제공",
+      "normalized_required": "식물 구매 시 관리 안내 제공",
+      "normalized_observed": "식물 구매 시 관리 안내 제공",
+      "equal": true,
+      "layout": {
+        "observations": "Care line directly below access line.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 11,
+      "required": "편하게 들러 천천히 둘러보세요.",
+      "kind": "text",
+      "fixed_newlines": false,
+      "raw_observed": "편하게 들러 천천히 둘러보세요.",
+      "normalized_required": "편하게 들러 천천히 둘러보세요.",
+      "normalized_observed": "편하게 들러 천천히 둘러보세요.",
+      "equal": true,
+      "layout": {
+        "observations": "Invitation follows access/care pair on same start axis.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 12,
+      "required": "leaves.example/market",
+      "kind": "url",
+      "fixed_newlines": false,
+      "raw_observed": "leaves.example/market",
+      "normalized_required": "leaves.example/market",
+      "normalized_observed": "leaves.example/market",
+      "equal": true,
+      "layout": {
+        "observations": "URL beneath invitation, complete single line.",
+        "fixed_newline_fidelity": "not_fixed"
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ],
+  "recorded_at_utc": "2026-10-08T22:00:20.069478+00:00"
+}

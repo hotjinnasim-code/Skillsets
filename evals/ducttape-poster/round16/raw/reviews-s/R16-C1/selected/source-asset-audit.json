@@ -1,0 +1,70 @@
+{
+  "kind": "prescribed_source_attestation_audit",
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/selected/packet.json",
+    "sha256": "a0b4af1d5182bc3605b0d890d41c2a90fe2b7d7b66b1f1768dd02b7dc02494e1"
+  },
+  "case_id": "R16-C1",
+  "wave": "selected",
+  "gate": "PASS",
+  "expected_source_assets": 1,
+  "expected_protected_layout_manifests": 0,
+  "profiles": {
+    "editorial": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/selected/cli/editorial/editorial.json",
+        "sha256": "8972f68baaa48a9a677a31b545c1bba420920c53765258cb31fb9dae11e2a559"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+          "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": []
+    },
+    "craft": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/selected/cli/craft/craft.json",
+        "sha256": "8020ed44c807be5156bd035b9788c0d78fd16d861c5ee742ae4d0ff5ddc3fdfc"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+          "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": []
+    },
+    "portfolio": {
+      "gate": "PASS",
+      "errors": [],
+      "raw_report": {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/reviews-s/R16-C1/selected/cli/portfolio/portfolio.json",
+        "sha256": "b6cbd69ae06dc9e2cb06a45730a6898c0b46317ea8e66fe55c3291c2d32f7410"
+      },
+      "observed_source_assets_viewed": [
+        {
+          "asset_id": "LAMP-FIXTURE",
+          "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round16/assets/lamp/original.png",
+          "sha256": "2ae394007edb69b80afe297a8092e17582d88d5afb137860d873b23767fc1eb2",
+          "viewed": true
+        }
+      ],
+      "observed_protected_layouts_read": []
+    }
+  },
+  "limits": [
+    "Checks existing frozen prompt requirements; no new aesthetic gate, raw rewrite or critic replacement.",
+    "Source viewing/read and order are semantic attestations, not serialized native-tool events.",
+    "The original frozen v4 summary remains separately preserved."
+  ]
+}

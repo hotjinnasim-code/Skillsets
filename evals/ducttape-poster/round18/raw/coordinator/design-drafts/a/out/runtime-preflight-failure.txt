@@ -1,0 +1,6 @@
+Runtime preflight before guide rendering: default python3 could not import PIL.
+Traceback (most recent call last):
+  File <stdin>, line 1, in <module>
+ModuleNotFoundError: No module named 'PIL'
+No guide spec/render was attempted in this preflight.
+Resolved using existing Pillow dependency runtime, read only; no installation or network call.

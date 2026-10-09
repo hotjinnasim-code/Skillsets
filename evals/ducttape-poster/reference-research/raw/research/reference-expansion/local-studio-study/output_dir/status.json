@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "study_date": "2026-10-08",
+  "completion": "completed_local_observation_and_artifacts",
+  "output_dir": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/research/reference-expansion/local-studio-study/output_dir",
+  "actual_viewing": {
+    "requested_files": 37,
+    "unique_local_originals_opened": 37,
+    "unique_originals_visually_emitted": 37,
+    "observation_record_count": 37,
+    "not_opened_ids": [],
+    "first_pass_view_image_calls": 37,
+    "dimension_verification_view_image_calls": 37,
+    "total_view_image_calls": 74,
+    "visual_image_emissions": 38,
+    "extra_visual_emission": "east-FNT-02 반환 크기 검증 중 재표시 1회",
+    "original_detail": 37,
+    "returned_raster_matches_original_count": 37,
+    "returned_raster_downsampling_observed_count": 0,
+    "physical_UI_display_size": "미제공 / 미확인",
+    "native_long_edge_min_px": 76,
+    "native_long_edge_max_px": 3000,
+    "source_sha256_matches": 37,
+    "source_dimension_matches": 37,
+    "source_formats": {
+      "jpeg": 32,
+      "png": 5
+    },
+    "source_byte_identical_duplicate_groups": [],
+    "tool_view_or_event_ids": "존재하지 않는 ID를 생성하지 않았으며 기록한 view_event_id는 null"
+  },
+  "counting": {
+    "classification_by_file": {
+      "whole-positive": 14,
+      "partial-only": 8,
+      "excluded-template": 1,
+      "non-poster": 11,
+      "unresolved": 3
+    },
+    "distinct_work_keys_all_media": 29,
+    "extra_files_after_all_media_grouping": 8,
+    "effective_poster_files_before_dedup": 23,
+    "effective_unique_posters_after_dedup": 20,
+    "poster_duplicate_file_reductions": 3,
+    "whole_positive_unique_poster_works": 12,
+    "partial_only_unique_poster_works": 7,
+    "excluded_template_unique_poster_works": 1,
+    "usable_whole_or_partial_unique_poster_works": 19,
+    "confirmed_poster_surface_but_unresolved_quality_ids": [
+      "west-U10"
+    ],
+    "non_poster_file_count": 11,
+    "unresolved_file_count": 3,
+    "poster_rule": "whole-positive / partial-only / excluded-template 중 확정 포스터 지면만 유효 포스터 수에 포함. excluded-template도 실제 매체 수에는 포함되며 기본 추천에서는 제외. 비포스터·미확인은 제외. U10 포스터 지면은 보이지만 품질/조판 평가 불가라 유효 수에는 제외.",
+    "classification_scoped_distinct_work_keys": {
+      "whole-positive": 12,
+      "partial-only": 7,
+      "excluded-template": 1,
+      "non-poster": 9,
+      "unresolved": 3
+    },
+    "scoped_work_count_note": "시리즈가 poster와 지원매체를 함께 포함하므로 classification_scoped_distinct_work_keys를 더하면 all-media 29와 같지 않을 수 있음.",
+    "duplicate_groups": [
+      {
+        "key": "hey-gandules-2010",
+        "ids": [
+          "west-U02",
+          "west-U03",
+          "west-U04",
+          "west-U20"
+        ],
+        "reason": "U02의 세 색은 동심형·의자·위 정보 위치가 같아 한 작품. U04는 같은 포스터의 본문 확장. U03은 좁은 배너에 회전/크롭한 적용, U20은 다른 일정 정보판이지만 같은 캠페인의 지원매체라 새 포스터 수를 추가하지 않음.",
+        "same_composition": [
+          "west-U02",
+          "west-U04"
+        ],
+        "different_media": [
+          "west-U03",
+          "west-U20"
+        ]
+      },
+      {
+        "key": "dumbar-amsterdam-sinfonietta-series",
+        "ids": [
+          "west-U01",
+          "west-U16",
+          "west-U17"
+        ],
+        "reason": "정확히 동일 구도는 아니다. U01은 다이아몬드/반복 띠, U16은 사선 글자 밀도/원, U17은 큰 원환이다. 작은 문자→큰 패턴, 기관명과 하단 안내의 관계를 공유하는 한 시리즈로 보수적으로 1작품 집계.",
+        "same_composition": [],
+        "different_composition_same_series": [
+          "west-U01",
+          "west-U16",
+          "west-U17"
+        ]
+      },
+      {
+        "key": "hey-bgw-inaugural-series",
+        "ids": [
+          "west-U07",
+          "west-U22"
+        ],
+        "reason": "U07의 3장은 선 사각형 비율/색/위치 변형인 한 시리즈. U22는 같은 도형 인쇄물 일부와 열린 소책자 사진이라 새 포스터로 세지 않음.",
+        "different_media": [
+          "west-U22"
+        ]
+      },
+      {
+        "key": "hey-fi-de-partida-series",
+        "ids": [
+          "west-U14",
+          "west-U15"
+        ],
+        "reason": "U14 네 장은 체커 크기·정보 면 위치·언어/색 변형인 한 시리즈. U15는 같은 체커·색 면을 쓴 접힌 인쇄물/회화 뒷면 사진으로 독립 포스터 증가 없음.",
+        "different_media": [
+          "west-U15"
+        ]
+      },
+      {
+        "key": "hey-kosmopolis-series",
+        "ids": [
+          "west-U06",
+          "west-U23"
+        ],
+        "reason": "U06 한 줄 눈/문자 그래픽과 U23 단어 중심 옥외 배너는 같은 구도가 아니다. metadata 프로젝트가 같지만 둘 다 독립 포스터로 세지 않는다.",
+        "same_composition": [],
+        "different_media": [
+          "west-U06",
+          "west-U23"
+        ]
+      }
+    ]
+  },
+  "metadata_attribution": {
+    "distinct_authors": 9,
+    "known_author_title_project_pairs": 24,
+    "unknown_project_title_files": [
+      "west-U05",
+      "west-U18",
+      "west-U19"
+    ],
+    "unknown_title_count": 3,
+    "author_values_independently_verified": 0,
+    "author_values_taken_from_user_metadata": 37,
+    "known_project_values_independently_verified": 0,
+    "author_breakdown": [
+      {
+        "author": "studio fnt",
+        "metadata_only": true,
+        "file_count": 3,
+        "actual_viewed": 3,
+        "known_metadata_project_count": 3,
+        "unknown_title_file_count": 0,
+        "unique_effective_poster_count": 3,
+        "whole_positive_unique_work_count": 2,
+        "classification_by_file": {
+          "whole-positive": 2,
+          "partial-only": 1,
+          "excluded-template": 0,
+          "non-poster": 0,
+          "unresolved": 0
+        }
+      },
+      {
+        "author": "Everyday Practice / 일상의실천",
+        "metadata_only": true,
+        "file_count": 3,
+        "actual_viewed": 3,
+        "known_metadata_project_count": 3,
+        "unknown_title_file_count": 0,
+        "unique_effective_poster_count": 2,
+        "whole_positive_unique_work_count": 0,
+        "classification_by_file": {
+          "whole-positive": 0,
+          "partial-only": 1,
+          "excluded-template": 1,
+          "non-poster": 1,
+          "unresolved": 0
+        }
+      },
+      {
+        "author": "Sulki and Min / 슬기와 민",
+        "metadata_only": true,
+        "file_count": 5,
+        "actual_viewed": 5,
+        "known_metadata_project_count": 5,
+        "unknown_title_file_count": 0,
+        "unique_effective_poster_count": 5,
+        "whole_positive_unique_work_count": 4,
+        "classification_by_file": {
+          "whole-positive": 4,
+          "partial-only": 1,
+          "excluded-template": 0,
+          "non-poster": 0,
+          "unresolved": 0
+        }
+      },
+      {
+        "author": "Ordinary People",
+        "metadata_only": true,
+        "file_count": 4,
+        "actual_viewed": 4,
+        "known_metadata_project_count": 4,
+        "unknown_title_file_count": 0,
+        "unique_effective_poster_count": 4,
+        "whole_positive_unique_work_count": 3,
+        "classification_by_file": {
+          "whole-positive": 3,
+          "partial-only": 1,
+          "excluded-template": 0,
+          "non-poster": 0,
+          "unresolved": 0
+        }
+      },
+      {
+        "author": "Studio Dumbar/DEPT",
+        "metadata_only": true,
+        "file_count": 3,
+        "actual_viewed": 3,
+        "known_metadata_project_count": 1,
+        "unknown_title_file_count": 0,
+        "unique_effective_poster_count": 1,
+        "whole_positive_unique_work_count": 1,
+        "classification_by_file": {
+          "whole-positive": 3,
+          "partial-only": 0,
+          "excluded-template": 0,
+          "non-poster": 0,
+          "unresolved": 0
+        }
+      },
+      {
+        "author": "Hey",
+        "metadata_only": true,
+        "file_count": 11,
+        "actual_viewed": 11,
+        "known_metadata_project_count": 4,
+        "unknown_title_file_count": 0,
+        "unique_effective_poster_count": 3,
+        "whole_positive_unique_work_count": 0,
+        "classification_by_file": {
+          "whole-positive": 0,
+          "partial-only": 4,
+          "excluded-template": 0,
+          "non-poster": 6,
+          "unresolved": 1
+        }
+      },
+      {
+        "author": "HORT",
+        "metadata_only": true,
+        "file_count": 3,
+        "actual_viewed": 3,
+        "known_metadata_project_count": 0,
+        "unknown_title_file_count": 3,
+        "unique_effective_poster_count": 1,
+        "whole_positive_unique_work_count": 1,
+        "classification_by_file": {
+          "whole-positive": 1,
+          "partial-only": 0,
+          "excluded-template": 0,
+          "non-poster": 2,
+          "unresolved": 0
+        }
+      },
+      {
+        "author": "Studio Feixen",
+        "metadata_only": true,
+        "file_count": 1,
+        "actual_viewed": 1,
+        "known_metadata_project_count": 1,
+        "unknown_title_file_count": 0,
+        "unique_effective_poster_count": 1,
+        "whole_positive_unique_work_count": 1,
+        "classification_by_file": {
+          "whole-positive": 1,
+          "partial-only": 0,
+          "excluded-template": 0,
+          "non-poster": 0,
+          "unresolved": 0
+        }
+      },
+      {
+        "author": "Bureau Borsche",
+        "metadata_only": true,
+        "file_count": 4,
+        "actual_viewed": 4,
+        "known_metadata_project_count": 3,
+        "unknown_title_file_count": 0,
+        "unique_effective_poster_count": 0,
+        "whole_positive_unique_work_count": 0,
+        "classification_by_file": {
+          "whole-positive": 0,
+          "partial-only": 0,
+          "excluded-template": 0,
+          "non-poster": 2,
+          "unresolved": 2
+        }
+      }
+    ],
+    "project_breakdown": [
+      {
+        "title": "Public Design Festival 2022",
+        "author": "studio fnt",
+        "source": "user metadata",
+        "ids": [
+          "east-FNT-02"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "fnt-public-design-2022"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Secret Christmas Station",
+        "author": "studio fnt",
+        "source": "user metadata",
+        "ids": [
+          "east-FNT-03"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "fnt-secret-christmas"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Poster Series for the Korean Traditional Performances, Madangnori",
+        "author": "studio fnt",
+        "source": "user metadata",
+        "ids": [
+          "east-FNT-04"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "fnt-madangnori-series"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "세종문화회관 모든누구나",
+        "author": "Everyday Practice / 일상의실천",
+        "source": "user metadata",
+        "ids": [
+          "east-EP-02"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "ep-sejong-anyone-logo"
+        ],
+        "unique_effective_poster_count": 0
+      },
+      {
+        "title": "세종썸머페스티벌 2024",
+        "author": "Everyday Practice / 일상의실천",
+        "source": "user metadata",
+        "ids": [
+          "east-EP-03"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "ep-sejong-summer-2024"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "2026 서울드럼페스티벌",
+        "author": "Everyday Practice / 일상의실천",
+        "source": "user metadata",
+        "ids": [
+          "east-EP-04"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "ep-seoul-drum-2026"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Professionalism",
+        "author": "Sulki and Min / 슬기와 민",
+        "source": "user metadata",
+        "ids": [
+          "east-SM-01"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "sm-on-posters-visible-metadata-professionalism"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Modafe 2005",
+        "author": "Sulki and Min / 슬기와 민",
+        "source": "user metadata",
+        "ids": [
+          "east-SM-02"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "sm-modafe-2005"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Design360° Festival 2023",
+        "author": "Sulki and Min / 슬기와 민",
+        "source": "user metadata",
+        "ids": [
+          "east-SM-03"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "sm-design360-2023"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Asia Culture Center Theater Opening Festival",
+        "author": "Sulki and Min / 슬기와 민",
+        "source": "user metadata",
+        "ids": [
+          "east-SM-04"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "sm-acc-opening-2015"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Festival Bo:m 2013",
+        "author": "Sulki and Min / 슬기와 민",
+        "source": "user metadata",
+        "ids": [
+          "east-SM-05"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "sm-festival-bom-2013"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Act Festival 2016",
+        "author": "Ordinary People",
+        "source": "user metadata",
+        "ids": [
+          "east-OP-01"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "op-act-2016"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Everyday, Graphic, and Calendar",
+        "author": "Ordinary People",
+        "source": "user metadata",
+        "ids": [
+          "east-OP-02"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "op-everyday-graphic-calendar"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Superposition",
+        "author": "Ordinary People",
+        "source": "user metadata",
+        "ids": [
+          "east-OP-03"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "op-superposition"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "THE BREMEN",
+        "author": "Ordinary People",
+        "source": "user metadata",
+        "ids": [
+          "east-OP-04"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "op-bremen"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Amsterdam Sinfonietta",
+        "author": "Studio Dumbar/DEPT",
+        "source": "user metadata",
+        "ids": [
+          "west-U01",
+          "west-U16",
+          "west-U17"
+        ],
+        "file_count": 3,
+        "distinct_observed_work_keys": [
+          "dumbar-amsterdam-sinfonietta-series"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Gandules",
+        "author": "Hey",
+        "source": "user metadata",
+        "ids": [
+          "west-U02",
+          "west-U03",
+          "west-U04",
+          "west-U20",
+          "west-U21"
+        ],
+        "file_count": 5,
+        "distinct_observed_work_keys": [
+          "hey-gandules-2010",
+          "hey-gandules-wavy-series-visible14"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Kosmopolis",
+        "author": "Hey",
+        "source": "user metadata",
+        "ids": [
+          "west-U06",
+          "west-U23"
+        ],
+        "file_count": 2,
+        "distinct_observed_work_keys": [
+          "hey-kosmopolis-series"
+        ],
+        "unique_effective_poster_count": 0
+      },
+      {
+        "title": "Barcelona Gallery Weekend — inaugural edition",
+        "author": "Hey",
+        "source": "user metadata",
+        "ids": [
+          "west-U07",
+          "west-U22"
+        ],
+        "file_count": 2,
+        "distinct_observed_work_keys": [
+          "hey-bgw-inaugural-series"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Kulturbüro Zürich",
+        "author": "Studio Feixen",
+        "source": "user metadata",
+        "ids": [
+          "west-U08"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "feixen-kulturbuero-zurich"
+        ],
+        "unique_effective_poster_count": 1
+      },
+      {
+        "title": "Bavarian State Opera — Season 2023–24",
+        "author": "Bureau Borsche",
+        "source": "user metadata",
+        "ids": [
+          "west-U10",
+          "west-U11"
+        ],
+        "file_count": 2,
+        "distinct_observed_work_keys": [
+          "bb-bavarian-2023-u10-unresolved",
+          "bb-bavarian-2023-u11-site-photo"
+        ],
+        "unique_effective_poster_count": 0
+      },
+      {
+        "title": "Julia Stoschek Foundation — A Fire in My Belly",
+        "author": "Bureau Borsche",
+        "source": "user metadata",
+        "ids": [
+          "west-U12"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "bb-stoschek-fire-u12-unresolved"
+        ],
+        "unique_effective_poster_count": 0
+      },
+      {
+        "title": "Dekmantel — Visual Identity 2023",
+        "author": "Bureau Borsche",
+        "source": "user metadata",
+        "ids": [
+          "west-U13"
+        ],
+        "file_count": 1,
+        "distinct_observed_work_keys": [
+          "bb-dekmantel-2023-u13-site-photo"
+        ],
+        "unique_effective_poster_count": 0
+      },
+      {
+        "title": "Fi de Partida",
+        "author": "Hey",
+        "source": "user metadata",
+        "ids": [
+          "west-U14",
+          "west-U15"
+        ],
+        "file_count": 2,
+        "distinct_observed_work_keys": [
+          "hey-fi-de-partida-series"
+        ],
+        "unique_effective_poster_count": 1
+      }
+    ],
+    "unknown_title_rule": "HORT null 세 건을 한 프로젝트로 합치거나 보이는 단어/파일명으로 제목을 만들지 않음."
+  },
+  "unconfirmed": {
+    "unresolved_classification_ids": [
+      "west-U10",
+      "west-U12",
+      "west-U21"
+    ],
+    "very_low_resolution_ids": [
+      "west-U10",
+      "west-U11",
+      "west-U12",
+      "west-U13"
+    ],
+    "very_low_resolution_count": 4,
+    "poster_media_unconfirmed_ids": [
+      "west-U12",
+      "west-U21"
+    ],
+    "metadata_title_visible_copy_mismatch_ids": [
+      "east-SM-01"
+    ],
+    "source_filename_visible_year_mismatch_ids": [
+      "west-U21"
+    ],
+    "small_body_reading_partial_ids": [
+      "east-FNT-02",
+      "east-FNT-03",
+      "east-FNT-04",
+      "east-EP-03",
+      "east-EP-04",
+      "east-SM-01",
+      "east-SM-02",
+      "east-SM-03",
+      "east-SM-04",
+      "east-SM-05",
+      "east-OP-01",
+      "east-OP-02",
+      "east-OP-03",
+      "east-OP-04",
+      "west-U01",
+      "west-U02",
+      "west-U04",
+      "west-U07",
+      "west-U08",
+      "west-U15",
+      "west-U16",
+      "west-U17",
+      "west-U18",
+      "west-U20",
+      "west-U22"
+    ],
+    "small_body_reading_unreadable_ids": [
+      "west-U10",
+      "west-U12"
+    ],
+    "independent_author_and_project_attribution": "수행하지 않음. 사용자 metadata를 기록한 것이며 웹 검증을 요구하거나 새 의무로 만들지 않음.",
+    "photograph_vs_composited_mockup": "포스터 주변 그림자/배경만으로 실물 촬영과 합성 목업을 확정하지 않음. 개별 media_type에 관찰 가능한 제시 방식을 기록."
+  },
+  "user_fit": {
+    "whole_reference_ids": [
+      "east-FNT-02",
+      "east-FNT-04",
+      "east-SM-01",
+      "east-SM-02",
+      "east-SM-03",
+      "east-SM-05",
+      "east-OP-01",
+      "east-OP-02",
+      "east-OP-03",
+      "west-U01",
+      "west-U08",
+      "west-U16",
+      "west-U17",
+      "west-U18"
+    ],
+    "partial_only_ids": [
+      "east-FNT-03",
+      "east-EP-03",
+      "east-SM-04",
+      "east-OP-04",
+      "west-U02",
+      "west-U04",
+      "west-U07",
+      "west-U14"
+    ],
+    "excluded_template_ids": [
+      "east-EP-04"
+    ],
+    "whole_positive_means": "이번 취향에 맞는 전체 표현 참고. 모델 학습 또는 미래 모든 포스터 품질 보증의 뜻이 아님.",
+    "clay_or_toy_package_default_recommendation": false,
+    "actual_product_or_package_artifact_count": 0,
+    "toy_like_rendered_object_excluded_ids": [
+      "east-EP-04"
+    ],
+    "gothic_whitespace_strong_color_3d_blanket_banned": false
+  },
+  "artifacts": {
+    "observations": "observations.json",
+    "study": "study.md",
+    "status": "status.json"
+  },
+  "limits": "레퍼런스는 한 번 축적할 아이디어다. 실사용마다 새 검색·원본 재열람·출처 대응표 의무를 만들지 않는다. 이번 파일/한정된 시리즈 관찰을 넘는 전체 스튜디오 평가가 아니다."
+}

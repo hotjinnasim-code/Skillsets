@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-08T05:26:34.959974+00:00",
+  "official_skill_validator": "PASS",
+  "runtime_local_links": "PASS",
+  "fresh_static_review": "PASS",
+  "generalization_audit_routing_findings_resolved": "Nonglyph default applies unless user explicitly excludes it; small-type warning tied to difficult reading. Fresh static reviewer checked final six files.",
+  "runtime_changes": [
+    "SKILL.md",
+    "references/art-direction.md",
+    "references/evaluation-loop.md"
+  ],
+  "runtime_files": [
+    {
+      "file": "SKILL.md",
+      "sha256": "8c841ea48592bd8b015135ce038d8ef09e429f8a6988934252aa8ca6474dd3eb",
+      "bytes": 13840,
+      "changed_from_I": true
+    },
+    {
+      "file": "agents/openai.yaml",
+      "sha256": "18e733c202cc1b8d153d2f1dc8bac85826787a88fe336f0e1aa5fa65f523f7e5",
+      "bytes": 518,
+      "changed_from_I": false
+    },
+    {
+      "file": "references/art-direction.md",
+      "sha256": "618ec8a08e2a9ac39eb3e6bebca2516992249933648aaf86dfbaba068faf3a72",
+      "bytes": 10461,
+      "changed_from_I": true
+    },
+    {
+      "file": "references/evaluation-loop.md",
+      "sha256": "cf94b86511ab5295a7235c624757889906c49eb1bb9febea5b8145926f6bcb00",
+      "bytes": 17459,
+      "changed_from_I": true
+    },
+    {
+      "file": "references/parallel-production.md",
+      "sha256": "013b9631de6ca2e9dce611a0a511408a0ac2960f0471cb372e697f6372fc02f6",
+      "bytes": 4727,
+      "changed_from_I": false
+    },
+    {
+      "file": "references/visual-research.md",
+      "sha256": "2bf486e75e252dd27960c499b5c4ef4a68a8d6a967823d2f5bbd6148abf5e705",
+      "bytes": 7614,
+      "changed_from_I": false
+    }
+  ],
+  "native_calls": 0,
+  "limits": "Static checks only; J generated-image quality pending. No R9 raw image, score or gate modified."
+}

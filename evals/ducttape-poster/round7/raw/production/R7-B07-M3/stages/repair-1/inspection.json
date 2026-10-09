@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "role": "R7-B07-M3",
+  "stage": "repair-1",
+  "recorded_at_utc": "2026-10-08T01:48:53.983428+00:00",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/repair-1/thumbnail-320.png"
+  ],
+  "actual_view_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/repair-1/original.png",
+      "sha256": "035193422841ae976515f39f5d41391f3baa98510c3486e2b6ff4b4b5e826dbe",
+      "bytes": 2067945,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/repair-1/usage-720.png",
+      "sha256": "b80339f1ef81134036a9bebe90fd82d8151ba43b770663719c74ebfb33e726a3",
+      "bytes": 980986,
+      "width": 720,
+      "height": 1080
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/repair-1/thumbnail-320.png",
+      "sha256": "29e0c1ea9ed32bf2cec0937101f00dff41da69455bd2eb4506f183d8a283b873",
+      "bytes": 96646,
+      "width": 213,
+      "height": 320
+    }
+  ],
+  "view_sequence": [
+    "native initial display",
+    "usage720",
+    "thumbnail320",
+    "native single revisit"
+  ],
+  "native_view_display_issue": {
+    "initial_read": "First native display showed only a small top-left door-texture patch. No text was readable in that display.",
+    "revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B07-M3/stages/repair-1/original.png",
+      "sha256": "035193422841ae976515f39f5d41391f3baa98510c3486e2b6ff4b4b5e826dbe",
+      "raw_observed": [
+        "손이 기억하는 물건",
+        "열쇠와 손잡이의 생활사",
+        "2026.12.08–2027.02.14",
+        "생활기억박물관 작은전시실",
+        "화–일 10:00–18:00 / 월요일 휴관",
+        "관람료 무료",
+        "전시 안내 example.org/hand-memory"
+      ],
+      "resolution": "The single revisit of the same original displayed the entire poster; full native type and metal finish could be inspected.",
+      "resolved": true,
+      "reason": "Resolve a truncated native display without modifying the file."
+    }
+  },
+  "raw_observed_text": [
+    "손이 기억하는 물건",
+    "열쇠와 손잡이의 생활사",
+    "2026.12.08–2027.02.14",
+    "생활기억박물관 작은전시실",
+    "화–일 10:00–18:00 / 월요일 휴관",
+    "관람료 무료",
+    "전시 안내 example.org/hand-memory"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "손이 기억하는 물건",
+          "raw_observed": "손이 기억하는 물건",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "손이 기억하는 물건",
+          "normalized_observed": "손이 기억하는 물건",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line for each entry; normal word spacing and all copy centrally grouped between the photographs.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "열쇠와 손잡이의 생활사",
+          "raw_observed": "열쇠와 손잡이의 생활사",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "열쇠와 손잡이의 생활사",
+          "normalized_observed": "열쇠와 손잡이의 생활사",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line for each entry; normal word spacing and all copy centrally grouped between the photographs.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "2026.12.08–2027.02.14",
+          "raw_observed": "2026.12.08–2027.02.14",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "2026.12.08–2027.02.14",
+          "normalized_observed": "2026.12.08–2027.02.14",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line for each entry; normal word spacing and all copy centrally grouped between the photographs.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "생활기억박물관 작은전시실",
+          "raw_observed": "생활기억박물관 작은전시실",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "생활기억박물관 작은전시실",
+          "normalized_observed": "생활기억박물관 작은전시실",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line for each entry; normal word spacing and all copy centrally grouped between the photographs.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "화–일 10:00–18:00 / 월요일 휴관",
+          "raw_observed": "화–일 10:00–18:00 / 월요일 휴관",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "화–일 10:00–18:00/월요일 휴관",
+          "normalized_observed": "화–일 10:00–18:00/월요일 휴관",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line for each entry; normal word spacing and all copy centrally grouped between the photographs.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "관람료 무료",
+          "raw_observed": "관람료 무료",
+          "first_observed_view": "usage720",
+          "kind": "text",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "관람료 무료",
+          "normalized_observed": "관람료 무료",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line for each entry; normal word spacing and all copy centrally grouped between the photographs.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "전시 안내 example.org/hand-memory",
+          "raw_observed": "전시 안내 example.org/hand-memory",
+          "first_observed_view": "usage720",
+          "kind": "url",
+          "fixed_newlines": false,
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "전시 안내 example.org/hand-memory",
+          "normalized_observed": "전시 안내 example.org/hand-memory",
+          "equal": true,
+          "layout": {
+            "observations": "One horizontal line for each entry; normal word spacing and all copy centrally grouped between the photographs.",
+            "fixed_newline_fidelity": "not fixed"
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ],
+      "ambiguities": [],
+      "additional_copy_observed": false,
+      "raster_limit": "Visible punctuation classes are transcribed; original Unicode code points cannot be certified from raster marks."
+    },
+    "style": {
+      "checked_requirement": "Neutral explicit monochrome museum poster",
+      "observations": "Gray photographs and black-on-white text; no visible hue, sepia, ominous vignette or commercial ornament."
+    },
+    "ratio": {
+      "requested_width_height": [
+        2,
+        3
+      ],
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "width_error_from_exact_ratio": 0.0,
+      "rounding_policy_pixels": 0.5,
+      "resized": false
+    },
+    "substantive_non_glyph": {
+      "observations": "Upper lever and lower inserted key photographs take about 63% of height and remain content-specific large forms."
+    },
+    "layout_fidelity": {
+      "observations": "Two independent photo regions and all visit copy between them; same central grouping and clear photo/type gaps."
+    },
+    "hangul": {
+      "observations": "Natural square proportions, visible counters and distinct word gaps retained; detail readable in usage720."
+    },
+    "function_contact": {
+      "observations": "Lever grip and rotation mount, cylinder/keyway and inserted shaft remain visible. The intended wear positions remain less isolated because of pervasive texture."
+    },
+    "local_material_edge_finish": {
+      "observations": "Chip islands reduced; repeated fine wavy texture on the grip, protected neck and key center remains."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "Upper photograph, lever front",
+      "observation": "Large chipped-looking dark islands have been replaced with a more continuous metal tonal field; its highlight is broad and smooth-looking at usage size. Dense wavy fine texture remains across the grip."
+    },
+    {
+      "view": "native",
+      "location": "Lower photograph, key head",
+      "observation": "The key head center is less mottled; brighter perimeter and hole edge remain. Fine similar wavy texture occupies almost the whole head."
+    },
+    {
+      "view": "usage720",
+      "location": "Central white area",
+      "observation": "All seven entries are readable in the same grouping and their observed transcription matches the required text under the predeclared normalization. Address stays on one line."
+    },
+    {
+      "view": "native",
+      "location": "Hangul title, subtitle and body",
+      "observation": "Syllable counters remain open, letter proportions natural and word boundaries clear. The clean black type and full central white area are retained."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Whole poster",
+      "observation": "The upper long lever and lower inserted key remain the dominant nonletter subjects; central title links the two independent views."
+    },
+    {
+      "view": "native",
+      "location": "Upper mount and lower keyway",
+      "observation": "Hardware attachment and continuous insertion are retained; no loose floating key, extra props or decorative marks appear."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "native",
+      "location": "Upper lever grip and protected neck; lower key head center",
+      "observation": "Dark flaking-looking islands are reduced, but closely spaced wavy scratch/etch marks still cover almost every part of the grip and head, including protected areas. Both surfaces now have similar fine pattern scale.",
+      "impact": "The broad smooth touched patch versus narrow smooth touched rim is still less distinct than specified."
+    },
+    {
+      "view": "native",
+      "location": "Lower cylinder face and outer plate",
+      "observation": "Dense scratch lines occupy much of the cylinder and plate, making protective and touched areas similarly weathered.",
+      "impact": "Material finish competes with the contact-specific interpretation."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Central information area, detailed visit information",
+      "observation": "The large title and both objects remain evident; small detail text is comfortable at usage720 and less comfortable at thumbnail size.",
+      "impact": "All-detail readability is attested at usage720, not every possible display size."
+    }
+  ],
+  "self_scores_assigned": false,
+  "quality_pass_claimed": false
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "role": "R11-C1-M3",
+  "case_id": "R11-C1",
+  "complete_request": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.\n\n인쇄하고 읽는 밤\nPRINT & READ\n고무판 인쇄 · 짧은 낭독\n2026.12.12 토요일\n18:00–20:30\n망원 생활문화센터\n17:40부터 입장\n참가비 5,000원 · 재료 포함\n신청 후 참여 · 정원 24명\n앞치마 지참\n처음 해도 괜찮아요",
+  "copy": [
+    {
+      "text": "인쇄하고 읽는 밤",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "PRINT & READ",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "고무판 인쇄 · 짧은 낭독",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "2026.12.12 토요일",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "18:00–20:30",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "망원 생활문화센터",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "17:40부터 입장",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "참가비 5,000원 · 재료 포함",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "신청 후 참여 · 정원 24명",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "앞치마 지참",
+      "kind": "text",
+      "fixed_newlines": false
+    },
+    {
+      "text": "처음 해도 괜찮아요",
+      "kind": "text",
+      "fixed_newlines": false
+    }
+  ],
+  "common_conditions": [
+    "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+    "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+    "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+    "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+    "Rubber-block printing onto paper and shared reading of that printed work must be visibly connected, with an approachable adult cultural-event tone. All supplied practical information must be readable at usage720."
+  ],
+  "styles": {
+    "mode": "open",
+    "exact_request": "덕테이프 포스터로 성인 대상 동네 인쇄·낭독 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 문화 행사에 어울리게 해줘. 생활문화센터와 커뮤니티의 디지털 화면에 쓰는 16:9 가로형으로, 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 고무판으로 종이에 찍는 작업과 그 인쇄물을 함께 읽는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.",
+    "invocation_interpretation": "덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open."
+  },
+  "ratio": "16:9",
+  "own_direction": {
+    "role": "R11-C1-M3",
+    "ratio": "16:9",
+    "content_form": "Two readers and a printing forearm gather around one title-bearing sheet on an oblique overhead table; useful information occupies clear upper/lower ledges.",
+    "whole_expression_style": "Saturated social illustration: engraved people and an elliptical table orient toward one centre. Square literary title, extended English and economical numbers contrast.",
+    "reference_transfer": "Canva: made objects and hand marks lower the participation barrier. Replace generic craft with one adult shared output, without portrait resizing. Mut’s making/gathering hierarchy becomes a table with large readable facts.",
+    "layout": {
+      "large_relationship": "A broad ellipse and three body/arm entries fill [61,130,606,199]. Title-bearing paper is central. Upper left combines date/time/place/entry; upper right holds English/activity. Fee/application and preparation/welcome share the lower ledge.",
+      "image_area_720": [
+        61,
+        130,
+        606,
+        199
+      ],
+      "alignment": "Clean horizontal ledges start x28/x392 above and x28/x420 below. Central paper has horizontal title baselines; no curved text.",
+      "visible_reading_route": "First the shared title paper and attentive faces; next isolated upper-left date/time/place/entry answering attendance together. Then sweep the common lower baseline from fee/application to preparation/welcome. English/activity remains near the central event rather than a second headline."
+    },
+    "typography": {
+      "roles": "Page title: clear square Korean serif 33 px, two lines. English: extended light capitals 19 px; activity open sans 18 px. Date/time tabular 20/23 px; venue/entry 18/17 px. Lower facts: regular sans 17 px. Engraved contours never break letter strokes.",
+      "image_type_boundary": "Title appears only on the shared paper. Texture avoids words; perimeter facts sit on unobstructed contrasting ground."
+    },
+    "image": {
+      "scene": "Two adult heads/upper bodies enter above and from the right, both looking at the central page; one mouth reads aloud. A third adult forearm enters lower left and lifts a carved rubber slab beside the fresh impression on that same sheet.",
+      "action_relation": "One continuous paper carries title and matching nonletter impression. Rubber underside, adjacent print, slab thickness, lifting gap and clean-edge fingers remain distinct. The two readers’ gaze converges on the actual supplied title; no invented page words.",
+      "crop": "Retain adult eyes/mouths, shoulders and continuing forearm. Heads 65–75 px; block/imprint 55–65 px. Avoid overhead framing that reduces reading to hands alone."
+    },
+    "material": "Contemporary flat drawing with angular carved contours. Nontext ink cuts communicate transfer; exact type stays crisp, without antique-paper simulation.",
+    "color": "Burnt-orange table, indigo people/contours, pale lilac outer ground and light central sheet. Warm gathering mass contrasts with cool fact ledges.",
+    "emotion": "Companionable, active adult participation; social scale supplies welcome rather than cute motifs.",
+    "copy_groups": [
+      {
+        "purpose": "Shared page title",
+        "copy_indexes": [
+          0
+        ],
+        "area_720": [
+          279,
+          192,
+          221,
+          81
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          33
+        ],
+        "line_plan": "2 lines; break after word 1; 39 px step; widest ≈132 px."
+      },
+      {
+        "purpose": "Event identification at upper right",
+        "copy_indexes": [
+          1,
+          2
+        ],
+        "area_720": [
+          392,
+          28,
+          300,
+          54
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          19,
+          18
+        ],
+        "line_plan": "2 rows at 26 px; widest ≈199 px."
+      },
+      {
+        "purpose": "Complete attendance anchor",
+        "copy_indexes": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "area_720": [
+          28,
+          23,
+          286,
+          101
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          20,
+          23,
+          18,
+          17
+        ],
+        "line_plan": "4 rows with 24–26 px boxes; widest ≈197 px."
+      },
+      {
+        "purpose": "Cost and application together",
+        "copy_indexes": [
+          7,
+          8
+        ],
+        "area_720": [
+          28,
+          345,
+          334,
+          45
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          17,
+          17
+        ],
+        "line_plan": "2 rows at 23 px; widest ≈226 px."
+      },
+      {
+        "purpose": "Preparation and welcome",
+        "copy_indexes": [
+          9,
+          10
+        ],
+        "area_720": [
+          420,
+          345,
+          272,
+          45
+        ],
+        "alignment": "left",
+        "font_px_at_720": [
+          17,
+          17
+        ],
+        "line_plan": "2 rows at 23 px; widest ≈148 px."
+      }
+    ],
+    "nearest_direction_difference": {
+      "role": "R11-C1-M5",
+      "stripped_material_color_test": "M3 retains an oblique elliptical table, smaller heads and facts on perimeter ledges. M5 retains a tall frontal page, huge opposing face crops and every fact inside it. Viewpoint, people distribution, text boundary and retrieval remain different without colour/material."
+    }
+  },
+  "assets": [],
+  "normalization": "nfc-ws-optical-v1",
+  "input_pins": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/case.json",
+      "sha256": "ad95c006d24a1f68a2253305bd28688c7fe89ae08066598dd2f6207f130ebaf3"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/assignment.json",
+      "sha256": "45c7f574fb1fa426f2c8822936c92973ec361d4eb33b7134a32f963b55b44f26"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/snapshots/candidate-k/SKILL.md",
+      "sha256": "0ea9766e9a6f0354abc875d6a0a5de4c74deaee5ed119e32e0cc00d57547a957"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/snapshots/candidate-k/agents/openai.yaml",
+      "sha256": "18e733c202cc1b8d153d2f1dc8bac85826787a88fe336f0e1aa5fa65f523f7e5"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/snapshots/candidate-k/references/art-direction.md",
+      "sha256": "99e4aae845d2c5543a1ecadedb3efa8a97766503ea2ab9bb1e396a094c9c0212"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/snapshots/candidate-k/references/parallel-production.md",
+      "sha256": "fa9b896cece98d40c1b6291bd1601f0e3886a9978f4f4dc0401bd41c6191f139"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/snapshots/candidate-k/references/visual-research.md",
+      "sha256": "2bf486e75e252dd27960c499b5c4ef4a68a8d6a967823d2f5bbd6148abf5e705"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/snapshots/candidate-k/references/evaluation-loop.md",
+      "sha256": "cf94b86511ab5295a7235c624757889906c49eb1bb9febea5b8145926f6bcb00"
+    },
+    {
+      "path": "/Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/review_rules.md",
+      "sha256": "1d89057c79b3db4bb7b1184d73da0d6d980f6c7379589e9ce0897e4a427f6495"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/evidence_io.py",
+      "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/run_agent.py",
+      "sha256": "44ff56818aa78a0fe46423ca5c6b8ca9bb8eacda59bbabff4549c783e1ac4984"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/capability-probe/result.json",
+      "sha256": "8afa1bd26e3b2a0c86da70f1f6d897be3b634fd4d612b3fe95cff5f407b64523"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/prepare_production.py",
+      "sha256": "460d4a786c71345df9112b65711b95962728adbafbd0b4e2ac3dfbc7ab48bde1"
+    }
+  ],
+  "scope": "One isolated assigned poster; no peer or critic access; no agents spawned."
+}

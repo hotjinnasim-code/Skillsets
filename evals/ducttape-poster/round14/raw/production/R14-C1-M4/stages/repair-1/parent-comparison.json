@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "role": "R14-C1-M4",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "4d42f98bd3de6bd27f6da8b98dcb1a0a057a9f5216bb31fb451b38669726bc39",
+  "parent_native_sha256": "02414c6a52314354dca6e363142e5eb05c5f50bd5d251fe152ceb4136c762d61",
+  "comparison_method": "Direct observation of both preserved stages at original, usage720 and thumbnail320; initial reads retained.",
+  "changes": [
+    {
+      "location": "central wall title",
+      "observed": "Single line changed to two lines; final character no longer reaches shadow edge; title became larger and heavier."
+    },
+    {
+      "location": "upper-right participation",
+      "observed": "Each phrase now wraps into two lines and uses larger horizontal type."
+    },
+    {
+      "location": "surfaces",
+      "observed": "Fine visible texture reduced; broad gradient shading persists."
+    },
+    {
+      "location": "protected geometry and practical groups",
+      "observed": "Opening positions, wall/floor seam, diagonal light and location/date/visit groups broadly retained; small shifts in jamb widths and subtitle indentation occurred."
+    },
+    {
+      "location": "left English",
+      "observed": "Tilt not corrected."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "left upper OPEN HOUSE",
+      "limit": "English baseline still follows sloping jamb instead of remaining horizontal."
+    },
+    {
+      "location": "plum wall and floor / coral wall / pale light",
+      "limit": "Soft continuous tonal shading remains inside major planes rather than uniform texture-free ink tones."
+    }
+  ]
+}

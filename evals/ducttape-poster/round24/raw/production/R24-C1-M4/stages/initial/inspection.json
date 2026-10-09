@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "kind": "maker_inspection",
+  "role": "R24-C1-M4",
+  "stage": "initial",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/thumbnail-320.png"
+  ],
+  "first_read_record": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/first-read.json",
+    "sha256": "218acb6034e645370c1b852678ae92487711562f778b7aadc1410069198c234c"
+  },
+  "raw_observed_text": [
+    "걷다가\n발견한 것들",
+    "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "viewing_order": {
+    "initial": [
+      "native",
+      "usage720",
+      "thumbnail320"
+    ],
+    "native_first_emission_limitation": "Only a small upper-left excerpt was perceptible in the first native view result.",
+    "same_asset_single_revisit": {
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/original.png",
+      "sha256": "b6fe5002d8d1faf576363997a2e0b4672f3ea53554dd1580e2d74030056252de",
+      "raw_observed": [
+        "걷다가\n발견한 것들",
+        "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요."
+      ],
+      "resolution": "The revisit displayed the complete 1024 × 1536 native poster. Title stems/counters, body punctuation, roof edges, wire endpoints, cloth folds, paint marks and warm window were inspected.",
+      "resolved": true,
+      "reason": "Resolve incomplete native display, preserving the already stored usage720 first read. No text ambiguity or text replacement was inferred."
+    }
+  },
+  "mandatory": {
+    "text": {
+      "checked": true,
+      "printed_entry_counts": [
+        1,
+        1
+      ],
+      "additional_copy_observed": false,
+      "issues": [],
+      "ambiguities": [],
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "걷다가 발견한 것들",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "걷다가\n발견한 것들",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "걷다가 발견한 것들",
+          "normalized_observed": "걷다가 발견한 것들",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observed_line_count": 2,
+            "observations": "Soft wrapping at existing word boundaries; spaces and punctuation remain visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "익숙한 길을 천천히 걸으며\n빛, 소리, 사람의 흔적을 만납니다.\n스쳐 지나간 풍경에서\n새로운 이야기를 발견해보세요.",
+          "normalization": "nfc-ws-optical-v1",
+          "normalized_required": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "normalized_observed": "익숙한 길을 천천히 걸으며 빛, 소리, 사람의 흔적을 만납니다. 스쳐 지나간 풍경에서 새로운 이야기를 발견해보세요.",
+          "equal": true,
+          "layout": {
+            "fixed_newlines_required": false,
+            "observed_line_count": 4,
+            "observations": "Soft wrapping at existing word boundaries; spaces and punctuation remain visible."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked": true,
+      "checked_requirement": "올려다본 도시의 불투명 붓질 — 큰 획과 잘린 지붕 사이의 빛",
+      "observations": [
+        {
+          "view": "native",
+          "location": "left facade and roof at middle left; right overhanging roof and facade",
+          "observation": "Opaque umber and slate masses use directional brush marks with rough dry gaps and firm overlapping boundaries. Roof profiles crop strongly at the left and upper-right edges."
+        },
+        {
+          "view": "usage720",
+          "location": "whole picture",
+          "observation": "A close upward view between differing roof heights gives a continuous bent sky corridor; warm yellow left window, suspended cream cloth at right, and crossing wire provide inhabited street traces."
+        }
+      ],
+      "issues": []
+    },
+    "ratio": {
+      "checked": true,
+      "requested": "2:3",
+      "observed_dimensions": [
+        1024,
+        1536
+      ],
+      "native_dimension_source": "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round24/production/R24-C1-M4/stages/initial/manifest.json",
+      "observed_rounding_deviation_px": 0,
+      "resized_native": false
+    },
+    "substantive_visual": {
+      "checked": true,
+      "observations": [
+        {
+          "view": "thumbnail320",
+          "location": "whole composition",
+          "observation": "Buildings, overhangs and wire form the scene and occupy substantial cropped area. They establish the upward urban observation rather than serve as a small appended ornament."
+        }
+      ]
+    },
+    "style_exclusion": {
+      "checked": true,
+      "observations": [
+        {
+          "view": "usage720",
+          "location": "whole composition and sky corridor",
+          "observation": "Painted building edges, depth and the wire/cloth define the sky opening carrying the two text groups. The image visibly organizes the composition; there is no isolated small image on a passive solid headline board."
+        }
+      ]
+    },
+    "format": {
+      "checked": true,
+      "observed": "One flat rectangular opaque-looking poster; no mockup, comparison panels, frame, visible logo, QR or watermark."
+    },
+    "hangul": {
+      "checked": true,
+      "observations": [
+        {
+          "view": "native",
+          "location": "title upper sky",
+          "observation": "Heavy serif title has broad interior counters, strong vertical strokes and restrained endings; two coherent lines and clear word separation."
+        },
+        {
+          "view": "usage720",
+          "location": "lower sky paragraph",
+          "observation": "All four body lines use consistent normal-width letterforms, stable baseline and moderate weight. Commas and sentence periods are distinct. No squeezed last-line fragment or isolated punctuation."
+        }
+      ]
+    },
+    "information_relationship": {
+      "checked": true,
+      "observations": [
+        {
+          "view": "thumbnail320",
+          "location": "upper title, central wire and lower paragraph",
+          "observation": "Large dark title is the typographic anchor; the roof and downward wire lead through the continuous sky to the lower paragraph."
+        },
+        {
+          "view": "usage720",
+          "location": "paragraph",
+          "observation": "The full body is a single four-line left-aligned paragraph with visible line spacing and ample contrast, without a separate information box."
+        }
+      ]
+    },
+    "function_contact": {
+      "requested": false,
+      "observation": "No contact, URL, QR, hand interaction or functional mechanism requested."
+    },
+    "local_material_edge_finish": {
+      "checked": true,
+      "observations": [
+        {
+          "view": "native",
+          "location": "left warm window, middle wire, right cloth",
+          "observation": "Window remains nested in the wall; wire continues between opposite building edges; cloth folds retain a connected silhouette and hangs by a line. Dry gaps and varied short paint edges occur within the opaque illustration, while text stays clean."
+        }
+      ]
+    }
+  },
+  "residuals": [
+    {
+      "view": "native",
+      "location": "lower facades, foliage and roof rail at lower right",
+      "observation": "Small paint flecks, leaf marks and balcony rail details remain finer and more numerous than the main wide roof/wall strokes."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "lower paragraph",
+      "observation": "The body becomes small at the 213 × 320 thumbnail; complete reading was checked on the 720 × 1080 usage view."
+    }
+  ],
+  "selection_reason": "Retain the inspected initial stage: exact observed copy, comfortable usage720 paragraph, clear title hierarchy and substantive upward urban painting are present. Finer lower-scene details do not justify disturbing the established reading and inhabited sky corridor."
+}

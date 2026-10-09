@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "role": "R11-C1-M3",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-1/thumbnail-320.png"
+  ],
+  "view_order": [
+    "native",
+    "usage720",
+    "thumbnail320"
+  ],
+  "view_events": [
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-1/original.png",
+      "viewed_at_utc": "2026-10-08T06:47:47.640Z"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-1/usage-720.png",
+      "viewed_at_utc": "2026-10-08T06:47:51.508Z"
+    },
+    {
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-1/thumbnail-320.png",
+      "viewed_at_utc": "2026-10-08T06:47:58.391Z"
+    }
+  ],
+  "raw_observed_text": [
+    "인쇄하고\n읽는 밤",
+    "PRINT & READ",
+    "고무판 인쇄 · 짧은 낭독",
+    "2026.12.12 토요일",
+    "18:00–20:30",
+    "망원 생활문화센터",
+    "17:40부터 입장",
+    "참가비 5,000원 · 재료 포함",
+    "신청 후 참여 · 정원 24명",
+    "앞치마 지참",
+    "처음 해도 괜찮아요"
+  ],
+  "first_read_view": "usage720",
+  "native_display_revisit": {
+    "view": "native",
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round11/production/R11-C1-M3/stages/repair-1/original.png",
+    "sha256": "501255b94078d233c706a96e4a381f7ed5e3c231b422459281b48d93feb1ecd0",
+    "requested_detail": "high",
+    "emitted_detail": "original",
+    "viewed_at_utc": "2026-10-08T06:48:05.283Z",
+    "initial_limit": "Original-detail view again displayed only a tiny pale-lilac patch. First copy read is retained from the full usage720 view.",
+    "raw_observed": [
+      "인쇄하고\n읽는 밤",
+      "PRINT & READ",
+      "고무판 인쇄 · 짧은 낭독",
+      "2026.12.12 토요일",
+      "18:00–20:30",
+      "망원 생활문화센터",
+      "17:40부터 입장",
+      "참가비 5,000원 · 재료 포함",
+      "신청 후 참여 · 정원 24명",
+      "앞치마 지참",
+      "처음 해도 괜찮아요"
+    ],
+    "resolution": "Same original PNG displayed completely in the high-detail revisit; spelling agrees with the retained usage720 read and native contours are now visible.",
+    "resolved": true,
+    "reason": "Original-detail rendering displayed a tiny pale-lilac patch."
+  },
+  "normalization": "nfc-ws-optical-v1",
+  "mandatory": {
+    "text": {
+      "observed_entry_count": 11,
+      "observed_duplicates": [],
+      "observed_additions": [],
+      "ambiguities": [],
+      "issues": [],
+      "raster_limit": "Visible punctuation classes can be read; original Unicode code points cannot be certified from raster shapes.",
+      "transcriptions": [
+        {
+          "copy_index": 0,
+          "required": "인쇄하고 읽는 밤",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "인쇄하고\n읽는 밤",
+          "first_read_view": "usage720",
+          "normalized_required": "인쇄하고 읽는 밤",
+          "normalized_observed": "인쇄하고 읽는 밤",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "shared paper title",
+            "observations": "Soft wrap after first word.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 1,
+          "required": "PRINT & READ",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "PRINT & READ",
+          "first_read_view": "usage720",
+          "normalized_required": "PRINT & READ",
+          "normalized_observed": "PRINT & READ",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "upper-right English",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "고무판 인쇄 · 짧은 낭독",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "고무판 인쇄 · 짧은 낭독",
+          "first_read_view": "usage720",
+          "normalized_required": "고무판 인쇄·짧은 낭독",
+          "normalized_observed": "고무판 인쇄·짧은 낭독",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "upper-right activity",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "2026.12.12 토요일",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2026.12.12 토요일",
+          "first_read_view": "usage720",
+          "normalized_required": "2026.12.12 토요일",
+          "normalized_observed": "2026.12.12 토요일",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "upper-left date",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "18:00–20:30",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "18:00–20:30",
+          "first_read_view": "usage720",
+          "normalized_required": "18:00–20:30",
+          "normalized_observed": "18:00–20:30",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "upper-left time",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "망원 생활문화센터",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "망원 생활문화센터",
+          "first_read_view": "usage720",
+          "normalized_required": "망원 생활문화센터",
+          "normalized_observed": "망원 생활문화센터",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "upper-left venue",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "17:40부터 입장",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "17:40부터 입장",
+          "first_read_view": "usage720",
+          "normalized_required": "17:40부터 입장",
+          "normalized_observed": "17:40부터 입장",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "upper-left entry",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "참가비 5,000원 · 재료 포함",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "참가비 5,000원 · 재료 포함",
+          "first_read_view": "usage720",
+          "normalized_required": "참가비 5,000원·재료 포함",
+          "normalized_observed": "참가비 5,000원·재료 포함",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "lower-left fee",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "신청 후 참여 · 정원 24명",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "신청 후 참여 · 정원 24명",
+          "first_read_view": "usage720",
+          "normalized_required": "신청 후 참여·정원 24명",
+          "normalized_observed": "신청 후 참여·정원 24명",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "lower-left application",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "앞치마 지참",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "앞치마 지참",
+          "first_read_view": "usage720",
+          "normalized_required": "앞치마 지참",
+          "normalized_observed": "앞치마 지참",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "lower-right preparation",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "처음 해도 괜찮아요",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "처음 해도 괜찮아요",
+          "first_read_view": "usage720",
+          "normalized_required": "처음 해도 괜찮아요",
+          "normalized_observed": "처음 해도 괜찮아요",
+          "equal": true,
+          "normalization": "nfc-ws-optical-v1",
+          "layout": {
+            "location": "lower-right welcome",
+            "observations": "Single row; raw gaps around punctuation retained.",
+            "fixed_newline_applicability": false
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked_requirement": "Saturated social illustration; orange oblique ellipse, indigo engraved adults, pale lilac ledges, central title-bearing sheet, square Korean title and extended English.",
+      "evidence": [
+        {
+          "view": "usage720",
+          "location": "whole table scene",
+          "observation": "Two adult readers and the printing forearm still converge on one central sheet; warm table and cool fact areas remain separate."
+        },
+        {
+          "view": "native",
+          "location": "slab left of title",
+          "observation": "Slab side walls are now smooth grey-violet planes instead of beige woodlike striations."
+        }
+      ],
+      "issues": [
+        "Top head remains larger and more closely cropped than the 65–75px guide.",
+        "Lower-right facts remain right aligned."
+      ]
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_ratio": [
+        16,
+        9
+      ],
+      "exact_height_for_returned_width": 940.5,
+      "edge_rounding_difference_px": 0.5,
+      "policy": "Nearest-integer one-edge rounding <=0.5px",
+      "issues": []
+    },
+    "format": {
+      "observation": "One flat opaque-looking landscape poster; no panel, contact sheet or environmental mockup.",
+      "transparent_background_argument": false
+    },
+    "no_type_only": {
+      "evidence": [
+        {
+          "view": "thumbnail320",
+          "location": "central scene",
+          "observation": "Readers, the large elliptical table, held block and corresponding paper establish a substantive making-and-reading activity."
+        }
+      ]
+    },
+    "substantive_visual": {
+      "evidence": [
+        {
+          "view": "usage720",
+          "location": "forearm, slab and shared paper",
+          "observation": "A clean continuing forearm grips and lifts the thick rubber-looking slab adjacent to the nonletter plant impression; readers attend to the same title-bearing paper."
+        }
+      ],
+      "issues": [
+        "The slab face is a pale plant on a dark field, while the adjacent print is a dark positive plant; the inked relief-to-print relationship is still inconsistent.",
+        "Individual leaf/berry positions are still only approximately related."
+      ]
+    },
+    "hangul": {
+      "view": "native",
+      "location": "all five text groups",
+      "observation": "The two-line square title and sans facts remain legible with intact counters and visible word spacing; no ambiguous Hangul was observed."
+    },
+    "information_relationship": {
+      "view": "usage720",
+      "location": "upper-left block and lower ledges",
+      "observation": "Attendance facts stay grouped in four rows; cost/application and preparation/welcome remain two paired groups. All eleven entries remain readable at 720px width."
+    },
+    "function_contact": {
+      "applicability": "No contact/URL/QR or interactive function requested.",
+      "observation": "No invented contact details visible."
+    },
+    "material_edge_finish": {
+      "view": "native",
+      "location": "printing block",
+      "observation": "Matte grey-violet ungrained sides clarify rubber. The block face still resembles pale cut artwork on a dark ink field rather than dark inked raised branches. Fingers and the lifted outline remain separated."
+    }
+  },
+  "located_observations": [
+    {
+      "view": "native",
+      "location": "slab thick side walls",
+      "observation": "Beige linear woodgrain was removed; smooth violet-grey cut planes occupy the same footprint."
+    },
+    {
+      "view": "usage720",
+      "location": "perimeter copy and central title",
+      "observation": "No observed wording or punctuation difference from the initial stage; positions and type sizes appear retained."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "overall silhouette",
+      "observation": "Social gathering, orange ellipse and page continue to dominate; neither fact ledge is obscured."
+    }
+  ],
+  "residuals": [
+    "Relief face is a pale plant on dark ink while the impression is a dark positive plant; the physical transfer relationship remains inconsistent.",
+    "Botanical cut features are not a clear feature-for-feature transfer match.",
+    "Top reader is larger and hair more tightly clipped than the assigned size guide.",
+    "Lower-right copy is right aligned rather than the planned left alignment.",
+    "Faint paper speckles and lilac ground mottling remain."
+  ],
+  "next_action": "Last permitted bounded repair: make the slab face carry dark indigo inked raised relief against light recessed rubber, matching the positive impression. Preserve all text and the gathering geometry.",
+  "self_quality_score": null
+}

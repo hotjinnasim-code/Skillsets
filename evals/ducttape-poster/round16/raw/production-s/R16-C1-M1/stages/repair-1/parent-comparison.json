@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "role": "R16-C1-M1",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "452cb4bdf578e868347b8b62d41aceb9a8ceab2a87a7d117b655b4bfc043350a",
+  "parent_native_sha256": "3d791eebef1c2e65c5ec6e696b4c4afd171be092dbd4570ae4a1377658cd559a",
+  "changes": [
+    {
+      "view": "usage720",
+      "location": "right descriptions and visit column",
+      "change": "Body enlarged and moved upward/left toward seam; sustained shared optical start is retained. Prose/visit/URL easier to read than initial."
+    },
+    {
+      "view": "usage720",
+      "location": "event/date/place",
+      "change": "Event and numeric information also enlarged despite requested slight reduction of event emphasis. Readability improved, with event name now heavier as right-column anchor."
+    },
+    {
+      "view": "native",
+      "location": "left lamp/book photo, title, photo seam",
+      "change": "Complete fixture shape, photo depth, left title placement and two-view scale transition remain visually close; textures regenerated slightly."
+    },
+    {
+      "view": "usage720",
+      "location": "invitation ending",
+      "change": "Still on darker book-page edge; targeted contrast/wrap change not fully realized."
+    }
+  ],
+  "residuals": [
+    {
+      "view": "usage720",
+      "location": "invitation last words near curved-page shadow",
+      "limit": "Reduced contrast relative to the bright-paper beginning; one-line invitation still crosses the book edge shadow."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "description and visit text",
+      "limit": "Full prose is too small for comfortable reading at this diagnostic thumbnail; intended usage inspection is width720."
+    }
+  ]
+}

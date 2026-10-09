@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "case_id": "R7-B05",
+  "wave": "initial",
+  "profile": "portfolio",
+  "session_id": null,
+  "procedure": {
+    "fresh_session": true,
+    "all_views_before_scoring": true,
+    "viewed_count": 3,
+    "order_compliant": true,
+    "method": "Verified bytes and SHA-256 of all 13 explicitly pinned inputs. Read the pinned packet, case, review rules, rubric, ratio policy, and supplied asset/native manifests without following their embedded paths. Actually inspected A1 first using tools.view_image(detail:original) through functions.exec, forwarding its image with image(...,original). Then actually inspected the three exact poster files in separate awaited calls, in packet order native → usage720 → thumbnail320, also at original detail. Only after those three initial poster views did I record first raw transcriptions and assess scores/fidelity. A genuine date-dash class ambiguity triggered one further view_image of the same pinned native file; both raw reads are retained in the transcription revisit. viewed_count=3 and viewed list refer to the required initial poster sequence, excluding the source and the single revisit. Read PNG IHDR dimensions and performed in-memory, text-only pixel measurements on the pinned source/native bytes; no images or auxiliary files were written. No session/thread ID is observable or claimed. No peer review, unpinned path, author explanation, credential, or other round was accessed.",
+    "source_assets_viewed": [
+      {
+        "asset_id": "A1",
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/original.png",
+        "sha256": "e3dfe1e4b6825d9456e0e6c072d110fe212b33ef67e4183034cebc849df45460",
+        "viewed": true
+      }
+    ],
+    "protected_layouts_read": [],
+    "protected_layouts_not_applicable_reason": "packet.protected_layouts is empty; no protected-layout measurement manifest is supplied.",
+    "manifests_read": [
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/assets/A1/manifest.json",
+        "sha256": "16057e224f6c2211345306be6906bf4ef6abe51fb419e93d75d0216a85a74d1d"
+      },
+      {
+        "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/initial/manifest.json",
+        "sha256": "6bc48dd7b86fa8af0decae127d82352cbe613d987f3b14769a06fe6baafe4cdb"
+      }
+    ],
+    "pixel_measurement": {
+      "method": "In-memory PNG decoding; inclusive bbox of pixels satisfying B > 1.5R, B > 1.15G and B − R > 35. Same threshold applied to the pinned source and native poster. This locates the cobalt silhouette, not its wall shadow. Mount centers are approximate visual observations.",
+      "source_artwork_bbox": [
+        123,
+        240,
+        975,
+        1048
+      ],
+      "poster_artwork_bbox": [
+        128,
+        275,
+        968,
+        1071
+      ],
+      "bbox_center_shift_pixels": [
+        -1,
+        29
+      ]
+    }
+  },
+  "viewed": [
+    {
+      "image_id": "R7-B05-M1",
+      "view": "native",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/initial/original.png",
+      "sha256": "41c0d2d003c62e06384ee6f11cee7b6f924982990c689f36882855d7bae0cdf1"
+    },
+    {
+      "image_id": "R7-B05-M1",
+      "view": "usage720",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/initial/usage-720.png",
+      "sha256": "14b2c8ec78bb73f6a9a8449bfe4e432438f7181b2e1581b97eeaece9dc294b12"
+    },
+    {
+      "image_id": "R7-B05-M1",
+      "view": "thumbnail320",
+      "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/initial/thumbnail-320.png",
+      "sha256": "5ce51469ed2d0281f8bba97261089e7f83e93938ed27cd560c0f23b986251f4a"
+    }
+  ],
+  "images": {
+    "R7-B05-M1": {
+      "image_id": "R7-B05-M1",
+      "role": "R7-B05-M1",
+      "stage": "initial",
+      "case_id": "R7-B05",
+      "profile": "portfolio",
+      "mandatory": {
+        "text": {
+          "status": "PASS",
+          "issues": [],
+          "ambiguities": [
+            {
+              "copy_index": 2,
+              "description": "The first read provisionally represented the horizontal range mark as an en dash (–), but its class versus a short hyphen was initially uncertain.",
+              "resolved": true
+            }
+          ],
+          "normalization": "nfc-ws-optical-v1",
+          "transcriptions": [
+            {
+              "copy_index": 0,
+              "kind": "text",
+              "fixed_newlines": false,
+              "required": "작업실의 오후",
+              "raw_observed": "작업실의 오후",
+              "normalized_required": "작업실의 오후",
+              "normalized_observed": "작업실의 오후",
+              "equal": true,
+              "glyph_word_punctuation_equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line in the upper-left header. Word space between 작업실의 and 오후 is retained; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 1,
+              "kind": "text",
+              "fixed_newlines": false,
+              "required": "김서안 오픈 스튜디오",
+              "raw_observed": "김서안 오픈 스튜디오",
+              "normalized_required": "김서안 오픈 스튜디오",
+              "normalized_observed": "김서안 오픈 스튜디오",
+              "equal": true,
+              "glyph_word_punctuation_equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line directly below the title. Spaces between 김서안, 오픈 and 스튜디오 are retained; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 2,
+              "kind": "text",
+              "fixed_newlines": false,
+              "required": "2026.11.28 14:00–19:00",
+              "raw_observed": "2026.11.28 14:00–19:00",
+              "normalized_required": "2026.11.28 14:00–19:00",
+              "normalized_observed": "2026.11.28 14:00–19:00",
+              "equal": true,
+              "glyph_word_punctuation_equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line in the lower-left information block, entirely below the artwork. The gap around the range mark is ordinary glyph sidebearing, not an observed extra word space; fixed_newlines is false."
+              },
+              "ambiguity": "The first read provisionally represented the horizontal range mark as an en dash (–), but its class versus a short hyphen was initially uncertain.",
+              "revisit": {
+                "view": "native",
+                "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round7/production/R7-B05-M1/stages/initial/original.png",
+                "sha256": "41c0d2d003c62e06384ee6f11cee7b6f924982990c689f36882855d7bae0cdf1",
+                "raw_observed": "2026.11.28 14:00–19:00",
+                "resolution": "On the one exact native revisit, the range mark is a single midline horizontal en dash, visibly longer than the ordinary hyphen in the booking URL. Supporting dark-pixel inspection finds a 19 px wide range stroke versus an 11 px URL hyphen at the respective text sizes. No extra word space or changed punctuation class is observed.",
+                "resolved": true,
+                "reason": "Resolve the genuine initial en-dash-versus-hyphen class ambiguity while retaining the initial raw read."
+              }
+            },
+            {
+              "copy_index": 3,
+              "kind": "text",
+              "fixed_newlines": false,
+              "required": "연희로 18길 24, 2층",
+              "raw_observed": "연희로 18길 24, 2층",
+              "normalized_required": "연희로 18길 24, 2층",
+              "normalized_observed": "연희로 18길 24, 2층",
+              "equal": true,
+              "glyph_word_punctuation_equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line immediately below the date/time. The comma after 24 and the space before 2층 are visible; no artwork overlap; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 4,
+              "kind": "text",
+              "fixed_newlines": false,
+              "required": "작품과 제작 과정을 함께 보는 시간",
+              "raw_observed": "작품과 제작 과정을 함께 보는 시간",
+              "normalized_required": "작품과 제작 과정을 함께 보는 시간",
+              "normalized_observed": "작품과 제작 과정을 함께 보는 시간",
+              "equal": true,
+              "glyph_word_punctuation_equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One smaller line below the address, with the supplied word divisions retained; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            },
+            {
+              "copy_index": 5,
+              "kind": "url",
+              "fixed_newlines": false,
+              "required": "방문 예약 example.org/atelier-afternoon",
+              "raw_observed": "방문 예약 example.org/atelier-afternoon",
+              "normalized_required": "방문 예약 example.org/atelier-afternoon",
+              "normalized_observed": "방문 예약 example.org/atelier-afternoon",
+              "equal": true,
+              "glyph_word_punctuation_equal": true,
+              "layout": {
+                "status": "PASS",
+                "observations": "One line at the bottom-left. The booking words precede the uninterrupted URL; no soft wrap or slash-spacing exception is used; fixed_newlines is false."
+              },
+              "ambiguity": null,
+              "revisit": null
+            }
+          ]
+        },
+        "style": {
+          "status": "FAIL",
+          "checked_requirement": "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요. 세로 4:5입니다. 사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다. 작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요. 작품을 새로 그리거나 다른 작품으로 바꾸지 마세요. 주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요. 아래 문구를 모두 그대로 넣어 주세요. 날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.\n\nLiteral client styles:\n{\"mode\": \"actual supplied synthetic photograph preservation\"}\n\nLiteral mandatory client conditions:\n첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요.\n세로 4:5입니다.\n사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다.\n작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.\n작품을 새로 그리거나 다른 작품으로 바꾸지 마세요.\n주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요.\n아래 문구를 모두 그대로 넣어 주세요.\n날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.\nEvery role is one separate flat opaque poster at its specified ratio with all supplied copy.\nPreserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.\nA substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.\nThe actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+              "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+            },
+            {
+              "view": "native",
+              "location": "Complete cobalt artwork, especially upper-left and right mounting pins; compare A1 at the same 1122 × 1402 frame size",
+              "observation": "The source cobalt silhouette spans x=123–975, y=240–1048; the poster spans x=128–968, y=275–1071 under the same blue-pixel threshold. Its silhouette center moves down 29 px. The upper-left gold pin is approximately (248,309) in A1 versus (252,342) here, and the right pin approximately (899,722) versus (891,747). The depicted hanging position is lower. This is a placement comparison, not a requirement for pixel-identical texture."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Middle of the poster, diagonal two-loop blue work",
+              "observation": "The full cobalt sculpture remains a large, recognizable nonglyph focus between the upper title and lower information. Its two open loops and wall shadows communicate an artwork encounter and materially carry the studio invitation."
+            },
+            {
+              "view": "usage720",
+              "location": "Lower-left information block, below the small loop",
+              "observation": "The date/time and address are dark, readable, separate lines below the artwork. The description and booking URL follow beneath them; none crosses the blue ribbon silhouette."
+            },
+            {
+              "view": "native",
+              "location": "Whole poster and surrounding wall",
+              "observation": "The image is one flat opaque RGB poster. Visible content consists of the supplied artwork and light wall, its mounting hardware/shadows, and the six required copy entries. No artist face, invented working tools, added logo, sponsor, or extra label is visible."
+            },
+            {
+              "view": "native",
+              "location": "Upper-left title/subtitle and lower-left four information lines",
+              "observation": "All six required copy entries are present as separate unwrapped lines. The booking entry is read and compared as kind:url; its example.org/atelier-afternoon token remains contiguous."
+            },
+            {
+              "view": "native",
+              "location": "Whole 1122 × 1402 canvas",
+              "observation": "PNG IHDR gives actual native dimensions 1122 × 1402. This is not mathematically exact 4:5: width differs from height × 4/5 by 0.4 px and height differs from width × 5/4 by 0.5 px. It passes the pinned nearest-integer-single-edge policy without resizing."
+            }
+          ],
+          "issues": [
+            "The literal condition to maintain the artwork’s wall-hanging position is not met as depicted within the identically sized source and poster frames: the silhouette center is 29 px lower and both mounting pins are visibly lower. The artwork identity, proportions, cobalt color, completeness and substantial prominence are retained."
+          ]
+        },
+        "ratio": {
+          "status": "PASS",
+          "observed_dimensions": [
+            1122,
+            1402
+          ],
+          "requested_ratio": [
+            4,
+            5
+          ],
+          "mathematically_exact": false,
+          "rounding_policy": "nearest-integer-single-edge",
+          "rounding_used": true,
+          "edge_error_pixels": {
+            "width": 0.4,
+            "height": 0.5
+          },
+          "issues": []
+        },
+        "no_type_only": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "Middle of the poster, diagonal two-loop blue work",
+              "observation": "The full cobalt sculpture remains a large, recognizable nonglyph focus between the upper title and lower information. Its two open loops and wall shadows communicate an artwork encounter and materially carry the studio invitation."
+            },
+            {
+              "view": "native",
+              "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+              "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+            }
+          ],
+          "issues": []
+        },
+        "substantive_visual": {
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "Middle of the poster, diagonal two-loop blue work",
+              "observation": "The full cobalt sculpture remains a large, recognizable nonglyph focus between the upper title and lower information. Its two open loops and wall shadows communicate an artwork encounter and materially carry the studio invitation."
+            },
+            {
+              "view": "native",
+              "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+              "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+            }
+          ],
+          "issues": []
+        }
+      },
+      "conditions": [
+        {
+          "condition": "첨부한 `atelier-photo.jpg`를 중심으로 작가 오픈 스튜디오 포스터 1종을 만들어 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+              "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Middle of the poster, diagonal two-loop blue work",
+              "observation": "The full cobalt sculpture remains a large, recognizable nonglyph focus between the upper title and lower information. Its two open loops and wall shadows communicate an artwork encounter and materially carry the studio invitation."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "세로 4:5입니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole 1122 × 1402 canvas",
+              "observation": "PNG IHDR gives actual native dimensions 1122 × 1402. This is not mathematically exact 4:5: width differs from height × 4/5 by 0.4 px and height differs from width × 5/4 by 0.5 px. It passes the pinned nearest-integer-single-edge policy without resizing."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "사진 속 작품 전체가 충분한 크기의 비문자 시각 중심이어야 합니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+              "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+            },
+            {
+              "view": "thumbnail320",
+              "location": "Middle of the poster, diagonal two-loop blue work",
+              "observation": "The full cobalt sculpture remains a large, recognizable nonglyph focus between the upper title and lower information. Its two open loops and wall shadows communicate an artwork encounter and materially carry the studio invitation."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "작품의 비율과 색, 벽에 걸린 위치를 유지해 주세요.",
+          "status": "FAIL",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+              "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+            },
+            {
+              "view": "native",
+              "location": "Complete cobalt artwork, especially upper-left and right mounting pins; compare A1 at the same 1122 × 1402 frame size",
+              "observation": "The source cobalt silhouette spans x=123–975, y=240–1048; the poster spans x=128–968, y=275–1071 under the same blue-pixel threshold. Its silhouette center moves down 29 px. The upper-left gold pin is approximately (248,309) in A1 versus (252,342) here, and the right pin approximately (899,722) versus (891,747). The depicted hanging position is lower. This is a placement comparison, not a requirement for pixel-identical texture."
+            }
+          ],
+          "issues": [
+            "The represented hanging position has moved downward relative to the supplied source frame."
+          ]
+        },
+        {
+          "condition": "작품을 새로 그리거나 다른 작품으로 바꾸지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+              "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "주변의 벽과 실제 작업실 분위기를 활용할 수 있지만, 가짜 작업 도구나 작가의 얼굴은 추가하지 마세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster and surrounding wall",
+              "observation": "The image is one flat opaque RGB poster. Visible content consists of the supplied artwork and light wall, its mounting hardware/shadows, and the six required copy entries. No artist face, invented working tools, added logo, sponsor, or extra label is visible."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "아래 문구를 모두 그대로 넣어 주세요.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Upper-left title/subtitle and lower-left four information lines",
+              "observation": "All six required copy entries are present as separate unwrapped lines. The booking entry is read and compared as kind:url; its example.org/atelier-afternoon token remains contiguous."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "날짜와 주소가 작품을 가리지 않게 읽혀야 합니다.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "usage720",
+              "location": "Lower-left information block, below the small loop",
+              "observation": "The date/time and address are dark, readable, separate lines below the artwork. The description and booking URL follow beneath them; none crosses the blue ribbon silhouette."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "Every role is one separate flat opaque poster at its specified ratio with all supplied copy.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster and surrounding wall",
+              "observation": "The image is one flat opaque RGB poster. Visible content consists of the supplied artwork and light wall, its mounting hardware/shadows, and the six required copy entries. No artist face, invented working tools, added logo, sponsor, or extra label is visible."
+            },
+            {
+              "view": "native",
+              "location": "Whole 1122 × 1402 canvas",
+              "observation": "PNG IHDR gives actual native dimensions 1122 × 1402. This is not mathematically exact 4:5: width differs from height × 4/5 by 0.4 px and height differs from width × 5/4 by 0.5 px. It passes the pinned nearest-integer-single-edge policy without resizing."
+            },
+            {
+              "view": "native",
+              "location": "Upper-left title/subtitle and lower-left four information lines",
+              "observation": "All six required copy entries are present as separate unwrapped lines. The booking entry is read and compared as kind:url; its example.org/atelier-afternoon token remains contiguous."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "Preserve the complete title/copy; do not invent additional copy, logos, sponsors or labels.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Whole poster and surrounding wall",
+              "observation": "The image is one flat opaque RGB poster. Visible content consists of the supplied artwork and light wall, its mounting hardware/shadows, and the six required copy entries. No artist face, invented working tools, added logo, sponsor, or extra label is visible."
+            },
+            {
+              "view": "native",
+              "location": "Upper-left title/subtitle and lower-left four information lines",
+              "observation": "All six required copy entries are present as separate unwrapped lines. The booking entry is read and compared as kind:url; its example.org/atelier-afternoon token remains contiguous."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "A substantive content-grounded non-glyph visual is required; glyph-only output, 3D type alone, texture and token ornament are insufficient.",
+          "status": "PASS",
+          "evidence": [
+            {
+              "view": "thumbnail320",
+              "location": "Middle of the poster, diagonal two-loop blue work",
+              "observation": "The full cobalt sculpture remains a large, recognizable nonglyph focus between the upper title and lower information. Its two open loops and wall shadows communicate an artwork encounter and materially carry the studio invitation."
+            }
+          ],
+          "issues": []
+        },
+        {
+          "condition": "The actual inputs are original authorized synthetic fixtures, not real client photographs or real products. Exact request attachment aliases map to authoritative native PNG paths. Preserve identity and specified properties; exact-pixel equality is not automatic.",
+          "status": "FAIL",
+          "evidence": [
+            {
+              "view": "native",
+              "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+              "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+            },
+            {
+              "view": "native",
+              "location": "Complete cobalt artwork, especially upper-left and right mounting pins; compare A1 at the same 1122 × 1402 frame size",
+              "observation": "The source cobalt silhouette spans x=123–975, y=240–1048; the poster spans x=128–968, y=275–1071 under the same blue-pixel threshold. Its silhouette center moves down 29 px. The upper-left gold pin is approximately (248,309) in A1 versus (252,342) here, and the right pin approximately (899,722) versus (891,747). The depicted hanging position is lower. This is a placement comparison, not a requirement for pixel-identical texture."
+            }
+          ],
+          "issues": [
+            "The represented hanging position has moved downward relative to the supplied source frame."
+          ]
+        }
+      ],
+      "scores": {
+        "content_form": 4,
+        "hierarchy": 4,
+        "typography": 4,
+        "space": 4,
+        "image_material": 3,
+        "emotion_control": 4,
+        "ai_slop": 4
+      },
+      "evidence": {
+        "content_form": [
+          {
+            "view": "native",
+            "location": "Central two-loop cobalt work occupying approximately three quarters of the frame width",
+            "observation": "The work is complete and prominent, with its large upper-left loop, smaller lower-right loop and crossing supplying the particular content of this open-studio invitation. The source-specific motif carries the message."
+          },
+          {
+            "view": "usage720",
+            "location": "Upper-left title and lower description surrounding the work",
+            "observation": "The title, artist/open-studio line and production-process sentence establish the purpose while leaving the artwork itself visible. This is a resolved artwork-led invitation rather than a token picture beside text."
+          }
+        ],
+        "hierarchy": [
+          {
+            "view": "thumbnail320",
+            "location": "Upper title → large blue artwork → lower date/address",
+            "observation": "The heavy title reads first; the much larger blue form establishes the visual center, and the two stronger information lines lead the bottom block. The artist line and smaller description/URL remain subordinate."
+          },
+          {
+            "view": "usage720",
+            "location": "Lower-left information block, below the small loop",
+            "observation": "The date/time and address are dark, readable, separate lines below the artwork. The description and booking URL follow beneath them; none crosses the blue ribbon silhouette."
+          }
+        ],
+        "typography": [
+          {
+            "view": "native",
+            "location": "Header Hangul and lower date/address/booking lines",
+            "observation": "The Hangul syllable blocks are intact, the comma and colon forms are clear, and the URL is continuous. The date range mark was resolved as an en dash on the one pinned revisit. Weight and size distinguish title, event identity, visit details and supporting copy."
+          },
+          {
+            "view": "usage720",
+            "location": "All six text lines",
+            "observation": "Dark text on the light wall reads clearly at the usage size; there is no clipped syllable, word collision, or artwork crossing through the date/address."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Lower description and URL",
+            "observation": "The two smallest footer lines become fine print at 256 × 320, while the title and visit-detail block still read. This limits small-scale refinement but does not establish a missing glyph or an unreadable native/usage copy entry."
+          }
+        ],
+        "space": [
+          {
+            "view": "native",
+            "location": "Left alignment near x=114–120; top and bottom blocks",
+            "observation": "The header and lower information share a consistent left edge. The artwork fills the central field without cropping; open wall between the blocks supplies usable breathing room, and the footer stays inside the bottom margin."
+          },
+          {
+            "view": "usage720",
+            "location": "Gap below the artwork and between address and supporting copy",
+            "observation": "A visible wall gap separates the small blue loop from the date line. A second, slightly larger grouping gap distinguishes practical visit details from the description and booking line."
+          }
+        ],
+        "image_material": [
+          {
+            "view": "native",
+            "location": "Large upper-left loop, central crossing, smaller lower-right loop",
+            "observation": "The complete two-loop cobalt ribbon work is recognizable against the light textured wall. The relative large/small loops and central crossing are retained; the silhouette proportions are close (853 × 809 source bounding box; 841 × 797 poster bounding box). Neither loop is cropped or replaced by a different motif."
+          },
+          {
+            "view": "native",
+            "location": "Complete cobalt artwork, especially upper-left and right mounting pins; compare A1 at the same 1122 × 1402 frame size",
+            "observation": "The source cobalt silhouette spans x=123–975, y=240–1048; the poster spans x=128–968, y=275–1071 under the same blue-pixel threshold. Its silhouette center moves down 29 px. The upper-left gold pin is approximately (248,309) in A1 versus (252,342) here, and the right pin approximately (899,722) versus (891,747). The depicted hanging position is lower. This is a placement comparison, not a requirement for pixel-identical texture."
+          },
+          {
+            "view": "native",
+            "location": "Ribbon surfaces, two gold pins and wall shadows",
+            "observation": "The cobalt brush-like surface variation, dark inner turns and soft wall shadows form a convincing complete object. However, the literal source-position requirement is unresolved: both hanging points and the entire silhouette are lower in the output, so the supplied-photo preservation is functional rather than strongly resolved."
+          }
+        ],
+        "emotion_control": [
+          {
+            "view": "native",
+            "location": "Cobalt loops on the warm light wall",
+            "observation": "Saturated blue against the quiet, lightly textured wall gives a specific tactile, contemplative art-viewing mood. The sculpture’s open loops and gentle cast shadows make the encounter feel close and unhurried."
+          },
+          {
+            "view": "usage720",
+            "location": "Simple black header and information around the photograph",
+            "observation": "The restrained information framing supports a welcoming studio visit without arbitrary dramatic effects or promotional ornaments. The emotional effect remains consistent with the visible source atmosphere."
+          }
+        ],
+        "ai_slop": [
+          {
+            "view": "native",
+            "location": "Ribbon crossing, mount points, and surrounding wall",
+            "observation": "The two loop openings, crossing, pins and shadows read coherently; no floating tool, face, contradictory added object or random decorative motif is visible."
+          },
+          {
+            "view": "thumbnail320",
+            "location": "Whole composition",
+            "observation": "There is one purposeful artwork and a disciplined set of six text lines. No repeated generic embellishments or surplus labels compete with the supplied content; the source-placement defect is specifically preserved in the fidelity finding."
+          }
+        ]
+      },
+      "residuals": [
+        "Restore the artwork’s depicted wall-hanging position to the source; the current silhouette and both mount points are lower.",
+        "The description and booking line become fine print at thumbnail320; they remain legible at native and usage720.",
+        "No conclusion about image-generation or editing history is inferred from the pixels. The definite fidelity finding is the visible positional change."
+      ]
+    }
+  },
+  "set": {
+    "members": [
+      "R7-B05-M1"
+    ],
+    "requested_count": 1,
+    "count_fidelity": {
+      "status": "PASS",
+      "observed_count": 1,
+      "required_count": 1,
+      "issues": []
+    },
+    "diversity": null,
+    "not_applicable_reason": "single requested image",
+    "evidence": [
+      {
+        "view": "thumbnail320",
+        "location": "Whole composition",
+        "observation": "Exactly one requested poster member is present in the packet and was assessed; there is no second member to compare.",
+        "image_id": "R7-B05-M1"
+      }
+    ],
+    "residuals": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "role": "R8-C1-M1",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "cbbe5deff21e237733d88deca3f8206e7c05264ef393835d49a1502adefd84fa",
+  "parent_native_sha256": "9ec6571f7910ce8aa66343265d2c401f805ac92719a3211d949621ab944e4755",
+  "changes": [
+    {
+      "location": "middle-left title",
+      "observation": "Title width decreased from about 490 to 375 pixels in the same 1024-wide image; red, two-line word grouping and left alignment persist. Strokes remain bold."
+    },
+    {
+      "location": "middle-left title height",
+      "observation": "Two-line block is shorter; visual center shifts slightly upward rather than an exactly unchanged center."
+    },
+    {
+      "location": "upper-right and lower-left information",
+      "observation": "All eight non-title entries reread as the same strings in the same grouped locations, with readability preserved."
+    },
+    {
+      "location": "photograph",
+      "observation": "Repair and exchange contacts and continuous daylight remain; cover/table microtexture looks slightly softer, so photograph is not claimed pixel-identical."
+    }
+  ],
+  "residuals": [
+    "Title strokes remain bold despite the smaller block; assigned medium-weight typography is not yet fully implemented.",
+    "The exact sewing stitch path remains fine and intertwined with frayed fibres.",
+    "Book and tabletop microtexture is slightly softer than the initial after native edit.",
+    "Participation details are readable at usage720 but tiny in thumbnail320."
+  ]
+}

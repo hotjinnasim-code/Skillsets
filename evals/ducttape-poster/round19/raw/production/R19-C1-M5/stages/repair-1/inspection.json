@@ -1,0 +1,365 @@
+{
+  "role": "R19-C1-M5",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M5/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M5/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M5/stages/repair-1/thumbnail-320.png"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "raw_observed_text": [
+    {
+      "copy_index": 1,
+      "raw_observed": "집 안의\n작은 숲",
+      "location": "lower-left identity"
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "LEAVES & LIVING",
+      "location": "beside lower-left Korean identity"
+    },
+    {
+      "copy_index": 3,
+      "raw_observed": "초록을 고르고, 일상을 가꿉니다.",
+      "location": "lower-left supportive sentence"
+    },
+    {
+      "copy_index": 4,
+      "raw_observed": "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+      "location": "central paragraph"
+    },
+    {
+      "copy_index": 5,
+      "raw_observed": "성수 주말 식물 마켓",
+      "location": "below paragraph rule"
+    },
+    {
+      "copy_index": 6,
+      "raw_observed": "2027.06.12–06.13",
+      "location": "central date/hours row"
+    },
+    {
+      "copy_index": 7,
+      "raw_observed": "토·일 11:00–19:00",
+      "location": "central date/hours row"
+    },
+    {
+      "copy_index": 8,
+      "raw_observed": "성수 온실마당",
+      "location": "below date/hours"
+    },
+    {
+      "copy_index": 9,
+      "raw_observed": "입장 무료 · 분갈이 시연",
+      "location": "lower central access/care row"
+    },
+    {
+      "copy_index": 10,
+      "raw_observed": "식물 구매 시 관리 안내 제공",
+      "location": "lower central access/care row"
+    },
+    {
+      "copy_index": 11,
+      "raw_observed": "편하게 들러\n천천히 둘러보세요.",
+      "location": "central main heading"
+    },
+    {
+      "copy_index": 12,
+      "raw_observed": "leaves.example/market",
+      "location": "directly beneath access/care"
+    }
+  ],
+  "residuals": [
+    {
+      "location": "central paragraph and lower visit details at usage720",
+      "observation": "Explanation still appears around 11–12 pixels high; access/care line is around 9–10. Comfortable reading requires more caption area."
+    },
+    {
+      "location": "lower central access/care row",
+      "observation": "A new separator middle dot is inserted between the complete access entry and the complete care entry."
+    },
+    {
+      "location": "whole image geometry",
+      "observation": "The top panorama remains around 38% of poster height, the left view around 31% of width and the care view stays tall. The wider-caption structural adjustment was not implemented."
+    },
+    {
+      "location": "whole color/material",
+      "observation": "Warm greens and yellow dominate; the stronger indigo/plum masses remain limited."
+    }
+  ],
+  "observations": [
+    {
+      "view": "native",
+      "location": "central invitation",
+      "observation": "The original invitation now appears once as the largest two-line serif copy; the duplicated central slogan has been removed."
+    },
+    {
+      "view": "native",
+      "location": "left identity",
+      "observation": "Korean title, Latin companion and slogan remain together at the window-leaf view's lower edge."
+    },
+    {
+      "view": "native",
+      "location": "image details",
+      "observation": "Leaves, rooted ball and open-pot/hands structure remain legible with controlled faceted painting edges."
+    },
+    {
+      "view": "usage720",
+      "location": "central descending caption",
+      "observation": "Invitation is immediately above four-line explanation. A short step and rule lead to market/date/hours/venue; URL now immediately follows access/care."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Invitation is the clear main type anchor inside the unequal image frame; panorama and right care image retain their earlier large proportions."
+    }
+  ],
+  "mandatory": {
+    "text": {
+      "checked": true,
+      "ambiguities": [],
+      "issues": [
+        "Additional middle-dot separator between access and care entries"
+      ],
+      "transcriptions": [
+        {
+          "copy_index": 1,
+          "required": "집 안의 작은 숲",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "집 안의\n작은 숲",
+          "normalized_required": "집 안의 작은 숲",
+          "normalized_observed": "집 안의 작은 숲",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 2,
+          "required": "LEAVES & LIVING",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "LEAVES & LIVING",
+          "normalized_required": "LEAVES & LIVING",
+          "normalized_observed": "LEAVES & LIVING",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 3,
+          "required": "초록을 고르고, 일상을 가꿉니다.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "초록을 고르고, 일상을 가꿉니다.",
+          "normalized_required": "초록을 고르고, 일상을 가꿉니다.",
+          "normalized_observed": "초록을 고르고, 일상을 가꿉니다.",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 4,
+          "required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "작은 화분부터 오래 키운 나무까지 만납니다.\n재배자의 이야기를 듣고,\n우리 집의 빛과 생활에 맞는\n식물을 골라보세요.",
+          "normalized_required": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "normalized_observed": "작은 화분부터 오래 키운 나무까지 만납니다. 재배자의 이야기를 듣고, 우리 집의 빛과 생활에 맞는 식물을 골라보세요.",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 5,
+          "required": "성수 주말 식물 마켓",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "성수 주말 식물 마켓",
+          "normalized_required": "성수 주말 식물 마켓",
+          "normalized_observed": "성수 주말 식물 마켓",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 6,
+          "required": "2027.06.12–06.13",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "2027.06.12–06.13",
+          "normalized_required": "2027.06.12–06.13",
+          "normalized_observed": "2027.06.12–06.13",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 7,
+          "required": "토·일 11:00–19:00",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "토·일 11:00–19:00",
+          "normalized_required": "토·일 11:00–19:00",
+          "normalized_observed": "토·일 11:00–19:00",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 8,
+          "required": "성수 온실마당",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "성수 온실마당",
+          "normalized_required": "성수 온실마당",
+          "normalized_observed": "성수 온실마당",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 9,
+          "required": "입장 무료 · 분갈이 시연",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "입장 무료 · 분갈이 시연",
+          "normalized_required": "입장 무료·분갈이 시연",
+          "normalized_observed": "입장 무료·분갈이 시연",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines. Access/care share a row with an extra separator outside entry text."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 10,
+          "required": "식물 구매 시 관리 안내 제공",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "식물 구매 시 관리 안내 제공",
+          "normalized_required": "식물 구매 시 관리 안내 제공",
+          "normalized_observed": "식물 구매 시 관리 안내 제공",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines. Access/care share a row with an extra separator outside entry text."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 11,
+          "required": "편하게 들러 천천히 둘러보세요.",
+          "kind": "text",
+          "fixed_newlines": false,
+          "raw_observed": "편하게 들러\n천천히 둘러보세요.",
+          "normalized_required": "편하게 들러 천천히 둘러보세요.",
+          "normalized_observed": "편하게 들러 천천히 둘러보세요.",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        },
+        {
+          "copy_index": 12,
+          "required": "leaves.example/market",
+          "kind": "url",
+          "fixed_newlines": false,
+          "raw_observed": "leaves.example/market",
+          "normalized_required": "leaves.example/market",
+          "normalized_observed": "leaves.example/market",
+          "equal": true,
+          "occurrences_observed": 1,
+          "layout": {
+            "observations": "Soft word-boundary line wrapping; no client-fixed newlines."
+          },
+          "ambiguity": null,
+          "revisit": null
+        }
+      ]
+    },
+    "style": {
+      "checked": true,
+      "requirement": "Unequal rectilinear painted sequence, central invitation leading through explanation into visit details, quiet left identity and deep indigo/plum/green/honey",
+      "observed_limits": [
+        "Body space remains constricted",
+        "Care view is tall, not square",
+        "Plum/indigo masses remain weak"
+      ],
+      "default_exclusion_observation": "Substantive botanical and hand-care views organize the whole scene frame; this is an image-led sequence rather than tiny imagery on a passive headline template. The oversized invitation and restricted body space still compromise intended hierarchy."
+    },
+    "ratio": {
+      "checked": true,
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested": [
+        16,
+        9
+      ],
+      "rounding_error_height_pixels": 0.5,
+      "within_predeclared_nearest_integer_tolerance": true,
+      "maximum_resolution_confirmed": false
+    },
+    "substantive_visual": {
+      "checked": true,
+      "observation": "Window plant life, market selection and root-ball repotting remain substantial content-grounded scenes."
+    },
+    "hangul": {
+      "checked": true,
+      "observation": "Native explanation has coherent square forms, open counters and meaningful word spaces. At usage720 small body size weakens sustained reading."
+    },
+    "information_relationship": {
+      "checked": true,
+      "observation": "The intended invitation → prose → event/visit → access/care → URL ordering is now local, but the compressed access/care row is small."
+    },
+    "function_contact": {
+      "checked": true,
+      "observation": "URL visibly reads leaves.example/market; external function is not tested."
+    },
+    "material_edge_finish": {
+      "checked": true,
+      "observation": "Root fibres, clay rim, supporting hand and stem attachments remain convincing; scene boundaries are straight. Brush facets are visible, though rendering remains naturalistic."
+    }
+  }
+}

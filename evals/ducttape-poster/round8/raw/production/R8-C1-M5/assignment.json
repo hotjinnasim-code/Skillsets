@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "kind": "maker_assignment",
+  "case_id": "R8-C1",
+  "role": "R8-C1-M5",
+  "candidate": "I",
+  "ordinal": 5,
+  "expected_count": 5,
+  "ratio": "2:3",
+  "direction": {
+    "concept": "가져오기에서 고치기·건네기로 이어지는 짧은 참여 이야기",
+    "substantive_non_glyph_visual": "옷의 풀린 부분을 살펴보고 수선한 뒤 다른 사람에게 생활물건을 건네는 세 개의 간결한 장면. 프레임과 실제 행동의 연결이 처음 온 사람에게 행사 참여를 이해시킨다.",
+    "expression_system": "제어된 잉크 선과 불투명한 색의 편집 만화·연속 그림. 작은 아이콘 묶음이 아니라 각 장면의 실제 상태와 행동이 읽히는 넓은 가로 프레임을 쓴다.",
+    "copy_visual_relationship": "시간 순서의 가로 장면들이 페이지를 내려가며 이어지고 제목·행사명은 그 흐름과 나란한 넓은 정보 여백에서 읽힌다. 일정·장소는 시작 지점, 준비물·활동은 대응하는 장면에 인접한 별도 정면 그룹, 초대·참가비는 끝의 분명한 그룹으로 묶는다. 장면에 말풍선·대사·추가 캡션을 만들지 않는다.",
+    "whole_visual_layout": "세 개의 가로 장면과 옆으로 이어지는 정보 여백이 읽는 순서를 결정한다. 한 장면 위에 거대한 제목과 하단 footer를 붙이는 구성을 피하고 각 프레임의 간격·정보 면적을 카피 판독에 맞춰 조정한다.",
+    "typography_plan": "제목은 만화의 잉크 선과 호흡을 같이하는 명료한 중간 크기 표현 글자, 본문은 정확하게 읽히는 규칙적인 인쇄 글자로 대비한다. 제목을 장난감처럼 부풀리거나 획을 찢지 않고 세 장면 사이에서 단어 묶음과 읽는 순서를 지킨다.",
+    "color_material_emotion": "따뜻한 소수의 불투명 색과 일관된 손그림 선. 행동이 차분하고 친근하며 과장된 캐릭터 표정·장난감 재질·흩뿌린 장식에 의존하지 않는다.",
+    "closest_other_role": "R8-C1-M2",
+    "distinction": "M2는 한 평면의 교차 전달과 강한 색 면, 이 방향은 시간의 변화가 있는 세 장면과 정보의 나란한 읽기다. 손그림 선·가로 프레임·제목 역할이 다르다.",
+    "reference_observations": [
+      {
+        "url": "https://www.studiofeixen.ch/sudpol/",
+        "observed_principle": "Drawn action, flat overlapping fields and deliberate borders produce a specific complete composition; the imagery, color and dispersed information share its movement."
+      },
+      {
+        "url": "https://www.canva.com/templates/EAG5-PBFrXs-beige-and-red-minimalist-bold-live-music-poster/",
+        "observed_principle": "A useful public-event poster connects a recognizable scene to clear date/place and participation groups; image-edge/title relationships can replace a detached caption.",
+        "current_request_application": "이 방향의 행사명·일정·장소·준비물·무료 안내를 위 copy_groups의 서로 다른 위치·비중으로 연결해 처음 오는 사람이 행사와 참여 방법을 직접 읽게 한다. Canva의 원작 이미지·폰트·좌표를 복사하지 않는다."
+      }
+    ],
+    "role": "R8-C1-M5",
+    "ratio": "2:3",
+    "positive_construction": "첫 장면과 수선 완료 장면에서 같은 옷과 수선 상태가 이어짐을 식별하게 한다. 마지막 교환 동작은 그 앞의 수선과 다른 행위로 명확히 보인다. 세 장면은 작은 아이콘이 아닌 넓은 프레임이며 옆 정보 여백에서 카피를 연속적으로 읽는다.",
+    "copy_groups": [
+      {
+        "copy_indexes": [
+          0
+        ],
+        "role": "title",
+        "position_relationship": "세 장면의 흐름과 나란한 제목·행사명 시작"
+      },
+      {
+        "copy_indexes": [
+          1
+        ],
+        "role": "event identification",
+        "position_relationship": "제목과 함께 명료한 행사 설명"
+      },
+      {
+        "copy_indexes": [
+          2,
+          3,
+          4
+        ],
+        "role": "date/time/place",
+        "position_relationship": "이야기 시작 쪽의 일정·장소 그룹"
+      },
+      {
+        "copy_indexes": [
+          5,
+          6
+        ],
+        "role": "bring/activity",
+        "position_relationship": "해당 검사·수선 장면에 인접한 준비·활동 그룹"
+      },
+      {
+        "copy_indexes": [
+          7,
+          8
+        ],
+        "role": "free/invitation",
+        "position_relationship": "마지막 전달 장면과 연결된 무료·초대 그룹"
+      }
+    ]
+  },
+  "common_constraints": [
+    "Print each supplied copy entry once with intact readable Hangul and punctuation, no invented copy, logos or watermarks.",
+    "Each output is a separate single flat opaque poster, portrait 2:3.",
+    "Five genuinely different complete visual systems, layouts, type/image roles and impressions, not material/color/filter variants.",
+    "Use a substantive content-grounded nonglyph visual construction; type/whitespace-only or tiny ornament/texture/3Dlettering-alone loopholes are prohibited.",
+    "Neighborhood repair/exchange purpose and a friendly accessible public-event tone; all date/location/participation copy readable at usage720."
+  ],
+  "assets": [],
+  "evidence_helper": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/evidence_io.py",
+    "sha256": "3dc300327267c148ab4e84f2d20d76eaa066ff0c97787addf3d9ed4e2b5111d2"
+  },
+  "source_digest": {
+    "case_entry_sha256": "7b7ca46df3102b5cabba639c68f7eb449ec43a441c06e43a25fa2b25ca00658c",
+    "case_entry_digest_method": "UTF-8 canonical JSON, sorted keys, no extra whitespace",
+    "coordinator_plan_sha256": "93876bcfc22266d0b1a5c5560d308656bea3baaccb29968fbd599bbea9490c99"
+  },
+  "input_scope": "One literal case/common input and one own role/direction; no corpus policies, peer plan or evaluation history.",
+  "case": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round8/production/R8-C1-M5/case.json",
+    "sha256": "b435c1d27a0e8f36ff7725dd8ad9089be103a0d661b088204b594f49dc2f8bd4"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "role": "R23-C1-M3",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "a74e3c302851a048b6723d70fea379bc19de4c0d0cf2c965a2ec8ebea82d23c8",
+  "parent_native_sha256": "8cddf4581c4aa8a87992fc8426b027d47e3317eea28544b97e291e20917f9e49",
+  "changes": [
+    {
+      "view": "native",
+      "location": "Lower pavement and threshold top planes",
+      "observation": "Photographic granularity is reduced; fine slanted lines and localized contour marks are more visible across the pale wash."
+    },
+    {
+      "view": "native",
+      "location": "Right door surface and wall edge",
+      "observation": "Thin linear crack/contour language is more explicit. Orange oxide patches on the door are somewhat more pronounced."
+    },
+    {
+      "view": "usage720",
+      "location": "Upper-left title and paragraph",
+      "observation": "The exact two copy roles, two title lines and four body lines remain readable, with comparable glyph proportions, printed contrast and starting axis."
+    },
+    {
+      "view": "thumbnail320",
+      "location": "Whole composition",
+      "observation": "The large cropped vertical doorway and diagonal threshold retain the same dominant spatial relationship and title/body reading sequence."
+    },
+    {
+      "view": "native",
+      "location": "Handle, lock and lower metal plate",
+      "observation": "Attachments and basic geometry remain clear. Handle reflections remain strong rather than becoming fully sparse linework."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "Handle and vertical stone sides",
+      "observation": "Strong highlight modeling and dense side-plane hatching remain."
+    },
+    {
+      "location": "Image colors",
+      "observation": "Door oxide is slightly more prominent and light bands remain warm; grey-blue surfaces and neutral text field continue to dominate."
+    }
+  ],
+  "selection_reason": "repair-1 makes drawing marks more apparent without losing the initial's accurate copy, readable paragraph or coherent urban-wear scene."
+}

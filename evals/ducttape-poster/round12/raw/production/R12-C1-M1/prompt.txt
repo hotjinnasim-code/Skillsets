@@ -1,0 +1,787 @@
+You are one fresh, isolated ducttape-poster maker. Own exactly R12-C1-M1, one final independent poster.
+Your working/output directory is /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1. Do not spawn agents or create tasks. Do not read the full corpus, coordinator plans, other makers' directions/prompts/results, critic files, prior rounds, parent evaluation history or unrelated projects. Only read this job's pinned inputs and your own newly written evidence (plus the exact native source paths explicitly returned by your own tool). Never run another project executable or a wrapper/image-generation API, SDK, image CLI, credential/config/environment lookup. The only project helper you may execute is the pinned evidence_io.py below. Read-only access to exact pinned text and own-directory exclusive metadata writes/hash checks using the bundled Python are allowed. No Python/Pillow image or asset editing; the helper's QA-only reduction is the only pixel operation.
+
+First read these exact pinned inputs, applying the current SKILL and needed references. Read review_rules.md's native evidence/transcription contract. The evaluation reference does not authorize you to judge or inspect peers/critics:
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/case.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1/assignment.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/agents/openai.yaml
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/references/art-direction.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/references/parallel-production.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/references/visual-research.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/snapshots/candidate-l/references/evaluation-loop.md
+- /Users/nahyeonbin/.codex/skills/.system/imagegen/SKILL.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/review_rules.md
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/evidence_io.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/run_agent.py
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/capability-probe/result.json
+- /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/prepare_production.py
+Read case.json and assignment.json. They contain the complete literal user input/common conditions and ONLY your assigned direction. Before designing, actually view every supplied image with tools.view_image through functions.exec, emitting it via image(...,'original'). Honor each supplied asset role and every requested identity/style/ratio/copy condition. Preserve reference geometry or measured_layout only when the user requests composition/position/proportion preservation; a style-only reference does not impose its coordinates. Old reference-poster copy is not new copy. All supplied images for this role are:
+[]
+
+COMPLETE ORIGINAL USER REQUEST (maker understanding and full verification context, not a compulsory native-prompt prefix):
+덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.
+
+입던 옷의 다음 장면
+REMAKE & SHARE
+티셔츠를 파우치로 · 완성품 나눔
+2027.01.16 토요일
+14:00–16:30
+성산 생활문화센터
+13:40부터 입장
+참가비 3,000원 · 도구 제공
+사전 신청 · 정원 18명
+깨끗한 티셔츠 한 장 지참
+바느질이 처음이어도 괜찮아요
+
+ALL LITERAL COPY ENTRIES (full verification context; initial native spec prints this copy once, preserving exact strings, kinds, word spaces, punctuation and fixed-newline rules):
+[
+  {
+    "text": "입던 옷의 다음 장면",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "REMAKE & SHARE",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "티셔츠를 파우치로 · 완성품 나눔",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "2027.01.16 토요일",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "14:00–16:30",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "성산 생활문화센터",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "13:40부터 입장",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "참가비 3,000원 · 도구 제공",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "사전 신청 · 정원 18명",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "깨끗한 티셔츠 한 장 지참",
+    "kind": "text",
+    "fixed_newlines": false
+  },
+  {
+    "text": "바느질이 처음이어도 괜찮아요",
+    "kind": "text",
+    "fixed_newlines": false
+  }
+]
+
+COMMON USER CONDITIONS/STYLES/RATIOS (honor every applicable condition in the result; the role's ratio is "16:9"):
+{
+  "conditions": [
+    "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+    "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+    "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+    "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+    "T-shirt-to-pouch upcycling and sharing completed pouches must be visibly connected, with an approachable adult daytime hobby-event tone. All supplied practical information must be readable at usage720."
+  ],
+  "styles": {
+    "mode": "open",
+    "exact_request": "덕테이프 포스터로 성인 대상 동네 업사이클링 행사를 안내해줘. 처음 오는 주민에게도 친근하되 성인 취미 행사에 어울리게 해줘. 생활문화센터와 커뮤니티 디지털 화면에 쓰는 16:9 가로형으로 서로 다른 스타일 다섯 장을 만들어줘. 스타일은 맡길게. 입던 티셔츠로 파우치를 만들고 완성품을 서로 나누는 행사가 연결되어 보이고, 일정·장소·입장·참가 조건·준비 안내가 읽혀야 해. 아래 문구만 각각 한 번씩 넣어줘.",
+    "invocation_interpretation": "덕테이프 포스터로 invokes this skill. It does not request physical tape, collage or a particular material. The user separately leaves style open."
+  },
+  "ratios": [
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9",
+    "16:9"
+  ]
+}
+COMMON COORDINATOR CONSTRAINTS:
+[
+  "Print every supplied entry exactly once, with readable Korean/English and intact punctuation; no added text, logos, pseudo-print, watermark or QR.",
+  "Each result is one separate flat opaque landscape16:9 poster, not a stretched/cropped portrait or a contact sheet.",
+  "Five genuinely distinct complete visual systems, composition, image/type roles and impressions, beyond material/filter/palette changes.",
+  "Substantive content-grounded nonglyph visual construction required; type/whitespace-only, tiny icon/texture and glyph-model-only loopholes prohibited.",
+  "T-shirt-to-pouch upcycling and sharing completed pouches must be visibly connected, with an approachable adult daytime hobby-event tone. All supplied practical information must be readable at usage720."
+]
+YOUR OWN DIRECTION, no peer plan:
+{
+  "role": "R12-C1-M1",
+  "ratio": "16:9",
+  "content_form": "Daylight documentary invitation: a worn T-shirt, its remade pouch and a simple exchange share one tabletop; one full practical column makes the visit actionable.",
+  "whole_expression_style": "Close adult lifestyle photography, candid cotton/skin contact and a short confident editorial heading. A modest useful exchange, with unequal image/type responsibilities.",
+  "reference_transfer": [
+    {
+      "source_id": "pentagram-fashion",
+      "dimensions": {
+        "expression": "Direct photographic clothing contact is the expressive event.",
+        "image_crop": "Carry the broad garment crop and readable grip, but move to a stable table and omit faces.",
+        "color": "Quiet daylight neutrals give hands, knit and one garment accent priority.",
+        "layout": "An off-centre image mass meets flat type without an ornamental frame.",
+        "information_grouping": "Event identification and the complete practical column have separate responsibilities.",
+        "type_roles": "Bold flat heading identifies; firm smaller sans gives instructions.",
+        "material": "Cotton folds, seams, skin and one daylight shadow direction, without fake print finish.",
+        "emotion": "Everyday adult gesture makes a first visit feel possible."
+      },
+      "intentional_non_transfer": "No face-covering pose, fashion rail, vertical GOOD device, source wording, source garment or copied letter arrangement."
+    }
+  ],
+  "layout": {
+    "large_relationship": "422 px-wide photographic field at left; 298 px-wide light utility field at right. Identification occupies the quiet upper image field; garment/exchange occupies its lower half. The right column is substantial, not a miniature footer.",
+    "alignment": "Left type starts x24; practical type x446. Heading and date begin near y24, but the heading has greater typographic mass. Boundary x422 stops busy cloth before the facts.",
+    "visible_reading_route": {
+      "first_anchor_at_720": "36 px black one-line Korean title at [24,24], with the photograph beneath as content confirmation.",
+      "next_useful_cue_at_720": "22 px activity at [24,128], immediately above the shirt/pouch exchange and adjacent to the practical destination.",
+      "integrated_full_information_path": [
+        {
+          "step": 1,
+          "copy_indexes": [
+            0,
+            1,
+            2
+          ],
+          "location": "upper left, x24/y24–162",
+          "reason_to_move": "Shared left edge connects name, English and what happens; the activity baseline leads toward the adjacent facts."
+        },
+        {
+          "step": 2,
+          "copy_indexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "location": "right top, x446/y24–182",
+          "reason_to_move": "Date/time start one unbroken column; venue and entry continue directly below."
+        },
+        {
+          "step": 3,
+          "copy_indexes": [
+            7,
+            8
+          ],
+          "location": "right middle, x446/y208–276",
+          "reason_to_move": "A modest gap introduces participation on the same edge."
+        },
+        {
+          "step": 4,
+          "copy_indexes": [
+            9,
+            10
+          ],
+          "location": "right lower, x446/y303–373",
+          "reason_to_move": "Final contiguous lines finish preparation and beginner welcome."
+        }
+      ],
+      "visible_transition_cues": [
+        "One uninterrupted x446 edge identifies the complete practical-information destination.",
+        "Entrance time sits below venue and is subordinate to event hours.",
+        "The supported exchange remains below activity and outside the facts."
+      ],
+      "planning_retrieval_risk": "A high-contrast hand could pull the first glance away from the title; a photograph crossing x422 could detach the practical column.",
+      "relationship_repair_priority": "Keep the complete column clear; rebalance image crop, heading weight and boundary before reducing facts.",
+      "evidence_scope": "Trace of proposed 720×405 geometry and literal strings, supported by local font metrics. No rendered poster, viewer retrieval task or generated object correspondence has been observed."
+    }
+  },
+  "typography": {
+    "system": "Flat bold Korean grotesk, medium English, regular to semibold factual sans.",
+    "dominant_role": "36 px name; 26 px date opens the practical column.",
+    "wrap_logic": "Title, activity and all facts fit on one line in their reserved fields.",
+    "punctuation": "Keep 14:00–16:30 intact, including its en dash; retain all centred dots and comma."
+  },
+  "image": {
+    "scene_action_relation_crop": "Photographic field [0,0,422,405], substantive action [0,174,422,231]. A recognisable flat adult T-shirt at lower-left; its finished pouch rests on the table while one adult hand steadies a side seam and a recipient hand supports/approaches the opposite base edge. A second finished pouch sits behind it. Only these two action hands; wrists crop at separate field edges. Keep collar, one sleeve junction, selected torso panel and main pouch mouth visible. No floating cloth or busy sewing operation.",
+    "transformation": {
+      "necessary_features": [
+        "The usable T-shirt body panel has two unequal-width horizontal knit bands and a short offset interruption in the lower band.",
+        "The exchanged pouch front preserves band order and that interruption in the corresponding panel region; new side seams and a visible mouth distinguish it from folded cloth.",
+        "Each wrist belongs to a separate adult; one hand steadies the side, the other receives/supports the base above the stable table."
+      ],
+      "intentional_changes": [
+        "Only the selected torso panel is reused; collar and sleeves disappear.",
+        "Bands can truncate at new seams and change apparent scale with perspective, while order/interruption remain identifiable."
+      ],
+      "relationship_limit": "Source/result correspondence and sharing are shown; this is not a complete sewing tutorial or a simultaneous physical transformation of the intact garment."
+    }
+  },
+  "material": "Photographic jersey cotton with modest wear, seam edges, skin and matte pale tabletop under consistent soft side daylight. Clear text grounds; invocation does not imply tape.",
+  "color": {
+    "background": "Warm near-white daylight, pale grey table.",
+    "image": "Muted slate cotton, restrained rust bands, natural skin.",
+    "type": "Near-black on clear light grounds.",
+    "role": "The accent locates source/result fabric; value contrast carries title and facts."
+  },
+  "emotion": "Welcoming, capable, candid adult afternoon.",
+  "copy_groups": [
+    {
+      "purpose": "Event name",
+      "copy_indexes": [
+        0
+      ],
+      "area_720": [
+        24,
+        24,
+        378,
+        50
+      ],
+      "font_px_at_720": 36,
+      "font_family": "AppleSDGothicNeo-Bold",
+      "line_height_px_at_720": 48.6,
+      "line_plan": [
+        {
+          "copy_index": 0,
+          "lines": [
+            "입던 옷의 다음 장면"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 48.6
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 277.524,
+          "bottom_reserve_px": 6.8,
+          "copy_index": 0,
+          "font_line_box_height_px": 43.2,
+          "font_px": 36,
+          "ink_bounds_px": [
+            2.1239999999999997,
+            -3.1319999999999997,
+            272.4839999999999,
+            32.364
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-Bold",
+          "right_reserve_px": 100.476
+        }
+      ]
+    },
+    {
+      "purpose": "English identity",
+      "copy_indexes": [
+        1
+      ],
+      "area_720": [
+        24,
+        82,
+        378,
+        30
+      ],
+      "font_px_at_720": 19,
+      "font_family": "HelveticaNeue-Medium",
+      "line_height_px_at_720": 25.7,
+      "line_plan": [
+        {
+          "copy_index": 1,
+          "lines": [
+            "REMAKE & SHARE"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 25.7
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 166.82,
+          "bottom_reserve_px": 6.801,
+          "copy_index": 1,
+          "font_line_box_height_px": 23.199,
+          "font_px": 19,
+          "ink_bounds_px": [
+            1.444,
+            -0.323,
+            164.749,
+            14.212
+          ],
+          "line_index": 0,
+          "resolved_font": "HelveticaNeue-Medium",
+          "right_reserve_px": 211.18
+        }
+      ]
+    },
+    {
+      "purpose": "Activity/share next to scene",
+      "copy_indexes": [
+        2
+      ],
+      "area_720": [
+        24,
+        128,
+        372,
+        34
+      ],
+      "font_px_at_720": 22,
+      "font_family": "AppleSDGothicNeo-SemiBold",
+      "line_height_px_at_720": 29.7,
+      "line_plan": [
+        {
+          "copy_index": 2,
+          "lines": [
+            "티셔츠를 파우치로 · 완성품 나눔"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 29.7
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 277.2,
+          "bottom_reserve_px": 7.6,
+          "copy_index": 2,
+          "font_line_box_height_px": 26.4,
+          "font_px": 22,
+          "ink_bounds_px": [
+            1.8039999999999998,
+            -1.7599999999999998,
+            274.736,
+            19.623999999999995
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-SemiBold",
+          "right_reserve_px": 94.8
+        }
+      ]
+    },
+    {
+      "purpose": "Date anchor",
+      "copy_indexes": [
+        3
+      ],
+      "area_720": [
+        446,
+        24,
+        250,
+        36
+      ],
+      "font_px_at_720": 26,
+      "font_family": "AppleSDGothicNeo-Bold",
+      "line_height_px_at_720": 35.1,
+      "line_plan": [
+        {
+          "copy_index": 3,
+          "lines": [
+            "2027.01.16 토요일"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 35.1
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 195.624,
+          "bottom_reserve_px": 4.8,
+          "copy_index": 3,
+          "font_line_box_height_px": 31.2,
+          "font_px": 26,
+          "ink_bounds_px": [
+            1.3519999999999999,
+            -1.8719999999999999,
+            192.426,
+            22.983999999999998
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-Bold",
+          "right_reserve_px": 54.376
+        }
+      ]
+    },
+    {
+      "purpose": "Event hours",
+      "copy_indexes": [
+        4
+      ],
+      "area_720": [
+        446,
+        65,
+        250,
+        34
+      ],
+      "font_px_at_720": 24,
+      "font_family": "AppleSDGothicNeo-SemiBold",
+      "line_height_px_at_720": 32.4,
+      "line_plan": [
+        {
+          "copy_index": 4,
+          "lines": [
+            "14:00–16:30"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 32.4
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 126.576,
+          "bottom_reserve_px": 5.2,
+          "copy_index": 4,
+          "font_line_box_height_px": 28.8,
+          "font_px": 24,
+          "ink_bounds_px": [
+            1.008,
+            0.72,
+            123.96000000000001,
+            16.8
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-SemiBold",
+          "right_reserve_px": 123.424
+        }
+      ]
+    },
+    {
+      "purpose": "Destination",
+      "copy_indexes": [
+        5
+      ],
+      "area_720": [
+        446,
+        110,
+        250,
+        32
+      ],
+      "font_px_at_720": 22,
+      "font_family": "AppleSDGothicNeo-SemiBold",
+      "line_height_px_at_720": 29.7,
+      "line_plan": [
+        {
+          "copy_index": 5,
+          "lines": [
+            "성산 생활문화센터"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 29.7
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 158.026,
+          "bottom_reserve_px": 5.6,
+          "copy_index": 5,
+          "font_line_box_height_px": 26.4,
+          "font_px": 22,
+          "ink_bounds_px": [
+            0.484,
+            -1.7599999999999998,
+            155.29799999999997,
+            19.623999999999995
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-SemiBold",
+          "right_reserve_px": 91.974
+        }
+      ]
+    },
+    {
+      "purpose": "Arrival",
+      "copy_indexes": [
+        6
+      ],
+      "area_720": [
+        446,
+        153,
+        250,
+        29
+      ],
+      "font_px_at_720": 19,
+      "font_family": "AppleSDGothicNeo-Regular",
+      "line_height_px_at_720": 25.7,
+      "line_plan": [
+        {
+          "copy_index": 6,
+          "lines": [
+            "13:40부터 입장"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 25.7
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 115.615,
+          "bottom_reserve_px": 6.2,
+          "copy_index": 6,
+          "font_line_box_height_px": 22.8,
+          "font_px": 19,
+          "ink_bounds_px": [
+            1.045,
+            -1.349,
+            114.19,
+            16.625
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-Regular",
+          "right_reserve_px": 134.385
+        }
+      ]
+    },
+    {
+      "purpose": "Cost/tools",
+      "copy_indexes": [
+        7
+      ],
+      "area_720": [
+        446,
+        208,
+        250,
+        28
+      ],
+      "font_px_at_720": 18,
+      "font_family": "AppleSDGothicNeo-Regular",
+      "line_height_px_at_720": 24.3,
+      "line_plan": [
+        {
+          "copy_index": 7,
+          "lines": [
+            "참가비 3,000원 · 도구 제공"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 24.3
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 195.57,
+          "bottom_reserve_px": 6.4,
+          "copy_index": 7,
+          "font_line_box_height_px": 21.6,
+          "font_px": 18,
+          "ink_bounds_px": [
+            0.44999999999999996,
+            -1.5839999999999999,
+            194.43599999999998,
+            16.056
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-Regular",
+          "right_reserve_px": 54.43
+        }
+      ]
+    },
+    {
+      "purpose": "Booking/capacity",
+      "copy_indexes": [
+        8
+      ],
+      "area_720": [
+        446,
+        247,
+        250,
+        29
+      ],
+      "font_px_at_720": 19,
+      "font_family": "AppleSDGothicNeo-Regular",
+      "line_height_px_at_720": 25.7,
+      "line_plan": [
+        {
+          "copy_index": 8,
+          "lines": [
+            "사전 신청 · 정원 18명"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 25.7
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 158.498,
+          "bottom_reserve_px": 6.2,
+          "copy_index": 8,
+          "font_line_box_height_px": 22.8,
+          "font_px": 19,
+          "ink_bounds_px": [
+            0.22799999999999998,
+            -1.3679999999999999,
+            156.256,
+            16.644000000000002
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-Regular",
+          "right_reserve_px": 91.502
+        }
+      ]
+    },
+    {
+      "purpose": "Preparation",
+      "copy_indexes": [
+        9
+      ],
+      "area_720": [
+        446,
+        303,
+        250,
+        29
+      ],
+      "font_px_at_720": 19,
+      "font_family": "AppleSDGothicNeo-Regular",
+      "line_height_px_at_720": 25.7,
+      "line_plan": [
+        {
+          "copy_index": 9,
+          "lines": [
+            "깨끗한 티셔츠 한 장 지참"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 25.7
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 184.338,
+          "bottom_reserve_px": 6.2,
+          "copy_index": 9,
+          "font_line_box_height_px": 22.8,
+          "font_px": 19,
+          "ink_bounds_px": [
+            0.38,
+            -1.33,
+            183.54000000000002,
+            16.606
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-Regular",
+          "right_reserve_px": 65.662
+        }
+      ]
+    },
+    {
+      "purpose": "Beginner welcome",
+      "copy_indexes": [
+        10
+      ],
+      "area_720": [
+        446,
+        343,
+        250,
+        30
+      ],
+      "font_px_at_720": 19,
+      "font_family": "AppleSDGothicNeo-Regular",
+      "line_height_px_at_720": 25.7,
+      "line_plan": [
+        {
+          "copy_index": 10,
+          "lines": [
+            "바느질이 처음이어도 괜찮아요"
+          ],
+          "origin_within_area_720": [
+            0,
+            0.0
+          ],
+          "line_pitch_px": 25.7
+        }
+      ],
+      "alignment": "Left aligned, horizontal, upright; origins are top-left line-box origins inside the area.",
+      "local_font_measurements_720": [
+        {
+          "advance_width_px": 223.649,
+          "bottom_reserve_px": 7.2,
+          "copy_index": 10,
+          "font_line_box_height_px": 22.8,
+          "font_px": 19,
+          "ink_bounds_px": [
+            1.273,
+            -1.5959999999999999,
+            221.65400000000002,
+            16.872
+          ],
+          "line_index": 0,
+          "resolved_font": "AppleSDGothicNeo-Regular",
+          "right_reserve_px": 26.351
+        }
+      ]
+    }
+  ],
+  "nearest_direction_stripped_comparison": {
+    "nearest_role": "R12-C1-M4",
+    "comparison": "With colour/material removed, M1 keeps one full-height left scene and one continuous right information column, plus a one-line upper-left name. M4 keeps opposed corner vignettes, a compact two-line name and a central-to-lower-right factual step. M1 makes close object contact the evidence; M4 makes the shared adult table the whole spatial context."
+  }
+}
+
+Keep the complete request and verification record separate from a focused native production spec. Apply the skill's native-input boundary: exact printed copy once in the initial spec, all relevant client constraints, and your chosen concrete whole visual design. Do not mechanically prepend the request, copy JSON, plan JSON, rubric, or reference commentary to the tool prompt. Repairs state the observed change and protected relationships; retain any exact text needed for that edit and verify the entire copy after return. Do not drop necessary constraints to shorten a prompt.
+
+Native generation ONLY: tools.image_gen__imagegen via functions.exec, exactly one single flat opaque poster per call, transparent_background:false, assigned width:height ratio. No multi-poster comparison panels, contact sheet, mockup or extra experiment image. A single finished poster may contain legitimate content-based image sequences or information modules as its chosen layout. For this aspect-only case, include: "요청한 화면 비율을 유지하면서 현재 도구와 모델이 지원하는 가능한 최대 해상도로 출력". Explicit user pixel dimensions or lower-resolution requests take precedence; for those requests use the specified output size instead. This is a request, not proof of maximum output; measure the returned native dimensions.
+The predeclared ratio policy permits nearest-integer native rounding of one edge, <=0.5 pixel from the exact requested ratio on one dimension. Report actual dimensions, never resize or claim mathematically exact ratio, and do not spend a repair only on permitted rounding. Materially wrong aspect ratio still needs correction. This tolerance never overrides an explicit pixel-size request.
+One initial attempt plus at most TWO own repairs, including actual failed native attempts: at most three native invocations for this role/candidate, named initial, repair-1, repair-2 in that order. A new role name or regeneration does not reset the budget. Correct only your own actually inspected defects while retaining the specified genre and user constraints. Do not claim quality PASS or assign scores from self-inspection. Do not seek or receive external critic scores before exclusive selection closure.
+
+BEFORE EACH invocation, exclusively create stages/STAGE/call-input.json containing the COMPLETE EXACT JSON argument object that will be passed to tools.image_gen__imagegen (do not add metadata-only arguments). Separately exclusively create pre-call.json with role, stage, prepared_at_utc, native_tool, complete planned argument/input hash pins, supplied reference pins, own observed repair cause/maintained features, and attempt number. Save both before starting; do not retrofit them after a return. Keep the identical argument object in runtime store for the native invocation. Fresh initial without supplied references omits BOTH referenced_image_paths and num_last_images_to_include. With supplied assets, actually pass ALL required local asset paths using referenced_image_paths; omit num_last_images_to_include. For a bounded repair with a previous returned inspected own image, pass that exact own target and all required client assets using referenced_image_paths, never a peer result. If the immediate prior attempt failed, use the last actually returned inspected own target if any; otherwise make a fresh bounded retry with required client assets and no invented repair target. Preserve immediate-attempt failure evidence and record the actual target stage separately when it differs. Never guess a newer file or use directory newest-file scanning.
+
+The native functions.exec cell starts with exactly this directive:
+// @exec: {"yield_time_ms":120000,"max_output_tokens":1000}
+Before awaiting tools.image_gen__imagegen, store/emit the actual caller UTC start and role/stage. Emit meaningful native-wait status at intervals <=45 seconds via notify()/setTimeout while awaiting (no invented model percentage). Clear the timer on return/failure. Record actual caller UTC end and whether the invocation returned or failed; preserve explicit returned path/result hints and real error metadata separately in stages/STAGE/native-call.json after return. Its wrapper interval describes the awaited native call, not helper runtime or model internals. Do not print/notify raw result/base64; retain needed result metadata in runtime store and display the generated image with generatedImage(result) as supported. Never infer source paths or generation times from filenames/helper saved_at. When yielded, resume only that exec cell, without submitting the image call again.
+
+For every returned PNG, obtain its exact absolute source path from the actual tool return, then execute the pinned helper with safely quoted exact paths:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/evidence_io.py save-native --role R12-C1-M1 --stage STAGE --source EXACT_RETURNED_ABSOLUTE_PATH --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1
+Replace only STAGE/EXACT_RETURNED_ABSOLUTE_PATH with actual values. The helper saves byte-identical original.png/final.png, QA views and manifest.json. It does NOT edit typography, materials, crop or assets. If the returned source path is unavailable or preservation fails, preserve the actual error/tool evidence and report the unsealable return honestly; do not invent an image path or relabel a returned image as a failed native call. Stop for root handling rather than claiming a selectable asset.
+
+ACTUALLY inspect EVERY returned stage before deciding another native invocation, in this exact order: original.png at native detail, usage-720.png, thumbnail-320.png. For native display use:
+const v = await tools.view_image({path: exactOriginalPath, detail:'original'}); image(v.image_url,'original');
+Use tools.view_image and image(...) for both QA files too. All three views must actually appear; generatedImage alone is not this inspection. Never mark viewed based only on the prompt or a helper exit. Write exclusive inspection.json with role, stage, actual_viewed:true ONLY when truthful, actual_view_paths:[exact original, exact usage720, exact thumbnail320], raw_observed_text:[], residuals:[], plus located observations and mandatory checks. Transcribe every copy entry verbatim as first observed, then record required text, normalized comparison under nfc-ws-optical-v1, layout fidelity and ambiguities separately. Do not silently normalize the raw read or guess ambiguous Hangul. Follow the one-revisit rule on the same pinned asset and retain its initial read. Check content-grounded substantive non-glyph concept, copy, assigned style, ratio/dimensions, Hangul proportions/counters/word spacing, information relationship, function/contact if requested, and local material/edge finish. Residuals are concrete observed limits, not self-awarded PASS.
+
+Every returned repair needs exclusive parent-comparison.json: role, stage, parent_stage, parent_outcome:'returned'|'failure', the immediate parent's exact parent_manifest_sha256 and parent_native_sha256 OR parent_failure_sha256, changes:[], residuals:[]. Compare actually viewed returned stages, preserving earlier advantages; a failure parent has no visual comparison. Prefer the most suitable inspected result, not automatically the latest; preserve ALL returned originals, failures and unselected stages.
+For each actual failed native invocation, write failure.json with role, stage, outcome:'failure', native_call_count:1, error:the actual recorded error. Preserve its pre-call/input/native-call evidence. Failures count in the three-attempt cap; no placeholder images or false inspection.
+
+When one or more inspected native outcomes exist, choose the most suitable returned stage and execute only:
+/Users/nahyeonbin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/evidence_io.py finalize --role-dir /Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round12/production/R12-C1-M1 --selected-stage CHOSEN_STAGE
+Replace CHOSEN_STAGE with initial, repair-1 or repair-2. selection.json is exclusive and immutable before any critics. Do not alter stage inputs, images, observations, selected pins or selection after closure. The helper rejects missing/out-of-order outcomes and nonexistent comparisons. Do not also create unavailable.json.
+ONLY when all THREE actual attempts failed, do not call finalize or fabricate selection.json. Exclusively write unavailable.json with schema_version:1, kind:'role_unavailable', case_id, role, outcome:'unavailable', closed:true, reason:actual failure explanation, counts:{native_calls:3,returned:0,failed:3,repair_calls:2}, stages:[{stage,outcome:'failure',failure:{path,sha256},input_pins:{call_input:{path,sha256},pre_call:{path,sha256}},native_call:{path,sha256}}] for all three preserved actual stages. selection.json and unavailable.json may NEVER coexist. Any interruption or returned-but-unsealable outcome is explicitly incomplete, not an invented all-failed terminal record.
+
+Return a compact account of the true terminal path, selected native dimensions if any, actual call/repair/failure counts, and concrete unresolved limits. No quality score, universal guarantee or extra image generation.

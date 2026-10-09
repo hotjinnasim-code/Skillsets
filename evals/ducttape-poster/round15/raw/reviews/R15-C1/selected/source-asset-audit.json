@@ -1,0 +1,40 @@
+{
+  "kind": "prescribed_source_attestation_audit",
+  "packet": {
+    "path": "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/packet.json",
+    "sha256": "96200efefbcc5ba79cfe94de9abfd063c37f27db1c95a0c7299f1819428ee9f1"
+  },
+  "case_id": "R15-C1",
+  "wave": "selected",
+  "gate": "NA",
+  "expected_source_assets": 0,
+  "expected_protected_layout_manifests": 0,
+  "profiles": {
+    "editorial": {
+      "gate": "NA",
+      "errors": [
+        "[Errno 2] No such file or directory: '/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/editorial/editorial.json'"
+      ],
+      "raw_report": null
+    },
+    "craft": {
+      "gate": "NA",
+      "errors": [
+        "[Errno 2] No such file or directory: '/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/craft/craft.json'"
+      ],
+      "raw_report": null
+    },
+    "portfolio": {
+      "gate": "NA",
+      "errors": [
+        "[Errno 2] No such file or directory: '/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round15/reviews/R15-C1/selected/cli/portfolio/portfolio.json'"
+      ],
+      "raw_report": null
+    }
+  },
+  "limits": [
+    "Checks existing frozen prompt requirements; no new aesthetic gate, raw rewrite or critic replacement.",
+    "Source viewing/read and order are semantic attestations, not serialized native-tool events.",
+    "The original frozen v4 summary remains separately preserved."
+  ]
+}

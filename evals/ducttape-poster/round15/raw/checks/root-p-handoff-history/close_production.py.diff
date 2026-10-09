@@ -1,0 +1,11 @@
+--- close_production.py before P
++++ close_production.py P
+@@ -91,7 +91,7 @@
+ 
+ 
+ def main():
+-    freeze = read(ROOT/'planning/candidate-o-pre-generation-freeze.json')
++    freeze = read(ROOT/'planning/candidate-p-pre-generation-freeze.json')
+     for row in freeze['runtime_files']+freeze['helpers']+freeze['references']:
+         checked(row)
+     for key in ('case','central_plan','ratio'):

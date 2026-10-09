@@ -1,0 +1,61 @@
+{
+  "role": "R19-C1-M1",
+  "stage": "repair-1",
+  "parent_stage": "initial",
+  "parent_outcome": "returned",
+  "parent_manifest_sha256": "a1d053906b95c612a65f7b962fc059940edeb5984e259758c93ae81274f99042",
+  "parent_native_sha256": "6d832670a43f6992e75f65b1b34f86259dc86d7500effd7e4abb14026bd2242a",
+  "compared_view_paths": {
+    "parent": [
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/stages/initial/original.png",
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/stages/initial/usage-720.png",
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/stages/initial/thumbnail-320.png"
+    ],
+    "current": [
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/stages/repair-1/original.png",
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/stages/repair-1/usage-720.png",
+      "/Users/nahyeonbin/Desktop/_Codex/Ducttape Poster/work/round19/production/R19-C1-M1/stages/repair-1/thumbnail-320.png"
+    ]
+  },
+  "changes": [
+    {
+      "location": "middle explanation",
+      "change": "Small three-line explanation became a larger four-line paragraph; larger slogan and clearer continuous reading at usage720.",
+      "earlier_advantage": "Stable left alignment and exact verbal content preserved."
+    },
+    {
+      "location": "right lower visit continuation",
+      "change": "Access, care, invitation and URL glyphs increased visibly. Column occupies more width and invitation is bolder.",
+      "earlier_advantage": "Continuous market/date/hours/place/access/care/invitation/URL grouping preserved."
+    },
+    {
+      "location": "date/hours",
+      "change": "Range dash spacing widened, introducing visible spaces absent from required strings.",
+      "earlier_advantage": "Parent's tighter numeric runs regressed."
+    },
+    {
+      "location": "photos",
+      "change": "Central pot rim, upper leaf and canopy contours changed; lighting and pot-row diagonal remain similar.",
+      "earlier_advantage": "Substantive nursery-to-mature scale encounter retained; precise pixels were not preserved."
+    },
+    {
+      "location": "title",
+      "change": "Title size and placement remain essentially unchanged despite suggested optional reduction.",
+      "earlier_advantage": "Two-line serif anchor and companion retained."
+    }
+  ],
+  "residuals": [
+    {
+      "location": "native/usage720 date and hours",
+      "limit": "Visible spaces around range dashes differ from required unspaced numeric ranges."
+    },
+    {
+      "location": "left title",
+      "limit": "Anchor remains above the lower pot row; this is a design variance rather than client-preservation breach."
+    },
+    {
+      "location": "usage720 access and care",
+      "limit": "These lines remain slightly smaller than main explanation but are clearer than initial."
+    }
+  ]
+}

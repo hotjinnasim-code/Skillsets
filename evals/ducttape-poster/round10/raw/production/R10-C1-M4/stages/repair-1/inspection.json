@@ -1,0 +1,350 @@
+{
+  "role": "R10-C1-M4",
+  "stage": "repair-1",
+  "actual_viewed": true,
+  "actual_view_paths": [
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M4/stages/repair-1/original.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M4/stages/repair-1/usage-720.png",
+    "/Users/nahyeonbin/Desktop/_Codex/ducttape-poster-round10/production/R10-C1-M4/stages/repair-1/thumbnail-320.png"
+  ],
+  "normalization": "nfc-ws-optical-v1",
+  "raw_observed_text": [
+    {
+      "copy_index": 0,
+      "raw_observed": "다리 아래\n영화관",
+      "first_observed_view": "native",
+      "location": "upper-left two-line headline"
+    },
+    {
+      "copy_index": 1,
+      "raw_observed": "BRIDGE CINEMA",
+      "first_observed_view": "native",
+      "location": "left beneath headline"
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "야외 단편 상영 · 감독과의 대화",
+      "first_observed_view": "native",
+      "location": "left beneath English"
+    },
+    {
+      "copy_index": 3,
+      "raw_observed": "2026.12.05 토요일",
+      "first_observed_view": "native",
+      "location": "right beam beneath time"
+    },
+    {
+      "copy_index": 4,
+      "raw_observed": "18:00–20:30",
+      "first_observed_view": "native",
+      "location": "upper right broad beam"
+    },
+    {
+      "copy_index": 5,
+      "raw_observed": "홍제천 연가교 아래",
+      "first_observed_view": "native",
+      "location": "right beam beneath date"
+    },
+    {
+      "copy_index": 6,
+      "raw_observed": "17:30부터 입장",
+      "first_observed_view": "native",
+      "location": "lower broad beam left first row"
+    },
+    {
+      "copy_index": 7,
+      "raw_observed": "돗자리 지참",
+      "first_observed_view": "native",
+      "location": "lower broad beam left second row"
+    },
+    {
+      "copy_index": 8,
+      "raw_observed": "무료 관람 · 선착순 80명",
+      "first_observed_view": "native",
+      "location": "lower broad beam right first row"
+    },
+    {
+      "copy_index": 9,
+      "raw_observed": "우천 시 실내로 변경",
+      "first_observed_view": "native",
+      "location": "lower broad beam right second row"
+    }
+  ],
+  "residuals": [
+    {
+      "view": "usage720",
+      "location": "lower broad beam four practical entries",
+      "observation": "Practical lines are readable but glyphs are around 12–14 px high, still smaller than the intended useful practical scale."
+    },
+    {
+      "view": "native",
+      "location": "far-right screen",
+      "observation": "Only a tall narrow pale screen strip is exposed between beam and right frame; supports are visible but the landscape screen shape is weak."
+    },
+    {
+      "view": "native",
+      "location": "lower background river and mats",
+      "observation": "Water reflection stripes, grass and patterned mats retain more decorative detail than the clearest flat structural areas."
+    }
+  ],
+  "observations": [
+    {
+      "view": "thumbnail320",
+      "location": "whole composition",
+      "observation": "Compact pale left title contrasts with the expanding chartreuse plane containing time-led facts. The plane clearly starts at the cropped projector lens."
+    },
+    {
+      "view": "native",
+      "location": "right-half beam and far-right screen",
+      "observation": "Time/date/venue and lower participation/preparation are now on the beam before the far-right white strip, instead of confined within the screen."
+    },
+    {
+      "view": "native",
+      "location": "bridge/projector/people",
+      "observation": "Flat coral bridge planes, plum silhouettes and local halftone replace much of the initial detailed rendering. Five grounded seated viewers and one mic speaker remain."
+    },
+    {
+      "view": "usage720",
+      "location": "text groups",
+      "observation": "All ten entries remain readable in displayed usage720. Time/date/venue are much larger than utility lines, using much of the broad beam."
+    },
+    {
+      "view": "native",
+      "location": "lettering",
+      "observation": "Title counters and word spacing remain intact; date punctuation and two-dot colons remain distinct. Middle dots are visible in descriptor and capacity entry; no ambiguous Hangul in first read."
+    },
+    {
+      "view": "native",
+      "location": "right speaker and screen stands",
+      "observation": "One hand/forearm holds the microphone near mouth; separate other hand gestures. Two far-right uprights and ground legs connect to screen edges."
+    }
+  ],
+  "mandatory": {
+    "copy": {
+      "entry_count": 10,
+      "observed_occurrences_each": 1,
+      "extra_print_observed": false,
+      "ambiguities": [],
+      "raster_semantics": "Optical glyph-class reading, not Unicode source authentication"
+    },
+    "style": {
+      "checked_requirement": "Forceful hard-edge graphic with flat connected apparatus, bridge, beam, audience and local halftone",
+      "observed": "Flatter controlled coral/plum structures and silhouettes now dominate; some lower scenic detail remains."
+    },
+    "substantive_non_glyph": {
+      "observed": "Substantial cropped projector, widening information-bearing light plane, bridge underside, grounded adult viewers and mic speaker establish outdoor screening and exchange."
+    },
+    "ratio": {
+      "observed_dimensions": [
+        1672,
+        941
+      ],
+      "requested_width_height": [
+        16,
+        9
+      ],
+      "exact_ratio_height": 940.5,
+      "one_edge_rounding_delta_px": 0.5,
+      "predeclared_rounding_limit_px": 0.5,
+      "observation": "Nearest-integer native rounding of height; no resizing."
+    },
+    "hangul": {
+      "observed": "Heavy square headline, clear counters and interword gaps; all supplied Korean entries read without ambiguous Hangul."
+    },
+    "information_relationship": {
+      "observed": "Identity outside light; time/date/venue within broad beam; lower utilities within beam. Useful grouping improved, utility scale still subordinate."
+    },
+    "function_contact": {
+      "observed": "Lens points toward far-right supported screen. Mic grip has visible ownership. Audience is grounded on mats; screen's full landscape shape is weak because of its narrow exposed crop."
+    },
+    "material_edge_finish": {
+      "observed": "Clean structural planes, controlled halftone and flat audience; small water and grass details remain."
+    },
+    "assets": {
+      "supplied_count": 0,
+      "preservation_requirement": "No supplied image composition."
+    }
+  },
+  "transcriptions": [
+    {
+      "copy_index": 0,
+      "raw_observed": "다리 아래\n영화관",
+      "first_observed_view": "native",
+      "location": "upper-left two-line headline",
+      "required": "다리 아래 영화관",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "다리 아래 영화관",
+      "normalized_required": "다리 아래 영화관",
+      "equal": true,
+      "layout": {
+        "observation": "Title wraps at existing second word boundary; no fixed wrap required.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 1,
+      "raw_observed": "BRIDGE CINEMA",
+      "first_observed_view": "native",
+      "location": "left beneath headline",
+      "required": "BRIDGE CINEMA",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "BRIDGE CINEMA",
+      "normalized_required": "BRIDGE CINEMA",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 2,
+      "raw_observed": "야외 단편 상영 · 감독과의 대화",
+      "first_observed_view": "native",
+      "location": "left beneath English",
+      "required": "야외 단편 상영 · 감독과의 대화",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "야외 단편 상영·감독과의 대화",
+      "normalized_required": "야외 단편 상영·감독과의 대화",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 3,
+      "raw_observed": "2026.12.05 토요일",
+      "first_observed_view": "native",
+      "location": "right beam beneath time",
+      "required": "2026.12.05 토요일",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "2026.12.05 토요일",
+      "normalized_required": "2026.12.05 토요일",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 4,
+      "raw_observed": "18:00–20:30",
+      "first_observed_view": "native",
+      "location": "upper right broad beam",
+      "required": "18:00–20:30",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "18:00–20:30",
+      "normalized_required": "18:00–20:30",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 5,
+      "raw_observed": "홍제천 연가교 아래",
+      "first_observed_view": "native",
+      "location": "right beam beneath date",
+      "required": "홍제천 연가교 아래",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "홍제천 연가교 아래",
+      "normalized_required": "홍제천 연가교 아래",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 6,
+      "raw_observed": "17:30부터 입장",
+      "first_observed_view": "native",
+      "location": "lower broad beam left first row",
+      "required": "17:30부터 입장",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "17:30부터 입장",
+      "normalized_required": "17:30부터 입장",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 7,
+      "raw_observed": "돗자리 지참",
+      "first_observed_view": "native",
+      "location": "lower broad beam left second row",
+      "required": "돗자리 지참",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "돗자리 지참",
+      "normalized_required": "돗자리 지참",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 8,
+      "raw_observed": "무료 관람 · 선착순 80명",
+      "first_observed_view": "native",
+      "location": "lower broad beam right first row",
+      "required": "무료 관람 · 선착순 80명",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "무료 관람·선착순 80명",
+      "normalized_required": "무료 관람·선착순 80명",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    },
+    {
+      "copy_index": 9,
+      "raw_observed": "우천 시 실내로 변경",
+      "first_observed_view": "native",
+      "location": "lower broad beam right second row",
+      "required": "우천 시 실내로 변경",
+      "kind": "text",
+      "fixed_newlines": false,
+      "normalized_observed": "우천 시 실내로 변경",
+      "normalized_required": "우천 시 실내로 변경",
+      "equal": true,
+      "layout": {
+        "observation": "Single-line entry with optical symbol gaps and visible word boundaries.",
+        "fixed_newline_requested": false
+      },
+      "ambiguity": null,
+      "revisit": null
+    }
+  ]
+}
