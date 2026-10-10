@@ -1,3 +1,0 @@
-# Ordinary root selected-stage inspection before external review
-
-Actually viewed repair-1 final/native original-detail, usage720 and thumbnail320. Lower title glyph components are now separate from the stretching bridge and the face is removed. Normal title words are readable, and all six supplied strings are readable at720. Orange raised clay against blue retains the explicitly requested strong 3D/complementary expression. Bridge endpoints remain close to title lower corners; pervasive fine clay grain and the all-raised information stack are retained as type/material/AI-slop questions. Date dash/codepoint identity remains a visual-reading limit. No external critic feedback received. Two native calls, correction1 selected.

@@ -1,3 +1,0 @@
-# Ordinary root first-stage inspection before external review
-
-Actually viewed initial final/native original-detail, usage720 and thumbnail320. Violet clay on strong yellow, raised Hangul and one continuous press/stretch/recovered body with two clay hands. Action copy follows three zones without added labels. Six strings are readable at720. Large title lower consonants are unusually large and partly separated into horizontal bands; title is recognizable but normal syllable proportions remain a question. Uniform fine texture extends across violet body and tan clay hands. The body stretches coherently across the page, with compressed bottom lobe but recovery is a static implied state. No external critic feedback. Maker had independently begun an own correction.

@@ -1,1 +1,0 @@
-Converted literal\n in proposed requests to actualnewlines beforefreeze. Preflightfields focusC2action4+C4event2; othercopy checkedafterpacket. Makerbriefs shortenedtocorecontentrelation+nearest-directiondifference, leaving render/placement/typechoices free. Allbeforeanynativecall; no outcome-basedtestchanges.

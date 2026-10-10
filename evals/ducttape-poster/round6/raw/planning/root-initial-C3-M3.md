@@ -1,5 +1,0 @@
-# Ordinary root comparison before external review
-
-Actually viewed production/R6-C3-M3/initial/{final,usage720,thumbnail320}.png at original detail. All six supplied strings readable720; connected arm/torso/index press, open front gap and cork/steel/olive-gray pads are visible. Precise inward pad contact remains a surface-coherence judgment; no physics/material proof.
-
-The upper-left brand/English/material row, left action row, side-view pressed clip and lower copy form a structure close to selected M1. Most obvious differences are square crop, blue field, higher material list and taller visible cork proportion. Root sent M3 this ordinary comparison before any external evaluation, requesting review of its already assigned material-to-type/space adjacency relation within remaining own correction cap. No peer image, prompt, score or outside criticism was supplied. This is the skill's central ordinary comparison, not critic-assisted optimization or a frozen skill/direction change. Original bytes remain preserved for first-pass review.
