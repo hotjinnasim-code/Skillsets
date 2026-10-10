@@ -1,9 +1,0 @@
-{
-  "scope": "Unfrozen ROOT-only archive integration checker history; no frozen helpers, raw reports, native images or index were modified.",
-  "first_helper_archive_relative": "raw/planning/closure_archive_integration.py",
-  "first_run": "Frozen-v4 blocked-host replay passed; temporary-fixture cleanup caused a checker false positive because a relative dir_fd name was resolved against source cwd. No integration output was produced by this failed run.",
-  "v2_archive_relative": "checks/closure_archive_integration_v2.py",
-  "v2_sha256": "d5ed120fffca68a2cd762908428508f5183b7e9071c66ebbdbf8d44670886946",
-  "repair": "Move temporary symlink-fixture cleanup outside host-blocked replay scope. Keep full replay and five lexical outside-path rejections under the original guard; independently exercise two symlink rejections after restoring system functions.",
-  "v2_result": "PASS; portability-integration.json records zero original-source operations."
-}

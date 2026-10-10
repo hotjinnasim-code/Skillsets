@@ -1,9 +1,0 @@
-{
-  "human_steering": "특정 이미지에 대한 보정만 하면 안되고, 어떤 이미지를 생성하더라도 하이엔드급의 결과물을 받아볼 수 있도록 스킬을 개선하는게 주 목적이야",
-  "primary_deliverable": "Reusable runtime skill instructions and supporting design judgments, empirically improved across varied inputs.",
-  "current_twenty": "Preserve the frozen H corpus and all20 requested roles. Individual self-repairs test the skill's ordinary workflow; they are evidence, not the primary product. Finish all20 selections before any critic feedback.",
-  "after_current_twenty": "Aggregate repeated visual failures and successful controls across cases, identify decision-level causes, make material general instruction changes with explicit evidence. Do not ship case-specific copy, layouts, palettes or one-image prompts as the improvement.",
-  "transfer_validation": "After changing the skill, freeze a new version and genuinely new requests unused in that revision. Current H transfer findings may become development evidence for the next version; never relabel them as that next version's heldout results.",
-  "limits": "Keep each candidate/case/role's finite generation and review caps, failures and NA. Do not rename unchanged versions to reset budgets, replace low critics, or claim universal future quality from a finite pass set.",
-  "authorization": "Prior user authorization for continued multi-agent simulation, skill improvement, commit and main merge persists. No confirmation needed for the authorized work."
-}

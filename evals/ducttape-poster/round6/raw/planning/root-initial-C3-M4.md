@@ -1,3 +1,0 @@
-# Ordinary root first-stage inspection before external review
-
-Actually viewed R6-C3-M4 initial final/native, usage720 and thumbnail320 in the root turn before compaction. Six supplied strings are readable at 720. Two hands are simultaneously active: one holds the top of the blank memo and another presses the rear lever, with both arms connected to the torso. This violates the requested one-hand scene. Root sent this located ordinary production defect to the maker before its selection closed, asking a remaining bounded own correction. The underside/contact surfaces of the silicone pads remain partly uncertain; an external front pad face is prominent. Camera is a side perspective across the working surface. No independent critic scores or peer outputs were supplied.

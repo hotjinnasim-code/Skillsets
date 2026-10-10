@@ -1,5 +1,0 @@
-# Ordinary root inspection before external review
-
-Actually viewed production/R6-C2-M1/initial/{final,usage720,thumbnail320}.png at original detail. At720 all ten supplied strings are manually readable: 이름 바꾸는 물건들; OBJECT NAME EXCHANGE; 2026.11.21(토) 13:30–16:00; 가상 공간 여울실험실 2층 / YEOUL LAB; 한국어·English, 어느 언어로 적어도 좋아요.; 이름을 바꾸고 싶은 작은 물건 1개를 가져오세요.; 깨지기 쉬운 물건과 음식은 받지 않아요.; 만 16세 이상 · 무료 · 24명; 11.18(수) 18:00까지 아래 주소로 참가 의사를 남겨주세요.; yeoul.example/NAME?lang=ko&slot=pm. En-dash versus hyphen identity is visually uncertain at use scale and retained for independent reading rather than inferred from supplied characters.
-
-Cream/blue movable tags establish naming/editable-label idea; key and clip are unlettered. Title and several long information rows show strongly condensed Hangul and tight horizontal packing; all body rows are similarly heavy. The maker independently recorded narrowed glyph proportions and proceeded to own correction1 before any external critique. Root did not send any scores or independent reports. This ordinary inspection read supplied copy before images; it is not the independent action-first test.

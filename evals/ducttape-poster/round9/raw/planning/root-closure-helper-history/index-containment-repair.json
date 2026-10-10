@@ -1,9 +1,0 @@
-{
-  "utc": "2026-10-08T05:11:55.678146+00:00",
-  "scope": "Root-only archive verifier containment; no actor input, score, gate, export or frozen helper changes",
-  "finding": "The previous archive index loop resolved each path before checking symlink prefixes, potentially consulting outside metadata on malicious symlink entries. Valid-archive replay already passed.",
-  "before_sha256": "cabae8a9b52cca722dfff76f5f837fb5ccb6d326edd060ba2f92d06f04fff45d",
-  "before_preserved": "verify_archive-before-index-containment.py",
-  "after_sha256": "52fc1ce17fbd74095e080194fa847e38e715404b2245d07f4c7c9daea80f0cc0",
-  "change": "Route actual indexed paths through the existing lexical and prefix-symlink archive_path guard before metadata/read operations."
-}

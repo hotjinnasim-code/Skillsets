@@ -1,9 +1,0 @@
-# Final technical evidence review plan
-
-After all primary critic processes finish, combine the closed selections and original reports without any rescore. Build the portable archive and report/gallery, then run the portable auditor against the archive. Invalid critic procedure remains explicitly NOT_ASSESSABLE; evidence-only export may preserve it but must still pass exact native/selection/raw/session association checks.
-
-Launch one further fresh ephemeral CLI technical reviewer, separate from the 24 visual critic assignments. Its inputs will be the finalized archive's evaluation utility source, archive-index.json, report/gallery and metadata/JSON evidence. It may run read-only metadata/byte validators and read the retained earlier technical audit. It may not view poster pixels, rescore images, read credentials/configuration, generate/edit images, alter the archive or spawn reviewers. Its report will distinguish reproduced errors, static concerns, declared invalid visual procedure and the limits of serialized CLI traces.
-
-The reviewer must check the six earlier static findings against the actual archived joins, all20 roles/all47 closed native calls including unused repairs, closures and exact changed-set review session identities, image gate counts and honest staffing/transport scope. It must verify that evidence-only mode does not waive structural associations and that whitespace-only equality discrepancies are disclosed without silently rewriting observations or changing the primary comparator.
-
-Save its prompt, fresh launch metadata, JSONL trace, terminal status, report and Markdown summary as supplemental checks. This technical review is not a new visual critic or a second opportunity to choose better scores. Any correction changes only evidence tooling/delivery and requires relevant verification; frozen skill, cases, images, selections, visual raw reports and score thresholds remain closed.

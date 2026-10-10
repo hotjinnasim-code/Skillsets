@@ -1,3 +1,0 @@
-# Ordinary root first/selected-stage inspection before external review
-
-Actually viewed initial final/native original-detail, usage720 and thumbnail320, also selected. Full six strings are readable at720. Yellow raised title/info on violet slumped plane against yellow surrounds implements the explicit clay 3D/complementary style. Edge lobes sag; deep wrinkles can resemble a hanging soft sheet rather than strictly clay. Top title syllable gaps are close; exaggerated lower jamo bands remain recognizable. The full information stack uses the same molded material. Date separator codepoint cannot be certified from pixels. No external critic feedback; one native call, no corrections. Existing worker's prior R5 review history disclosed separately.

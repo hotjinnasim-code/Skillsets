@@ -148,7 +148,7 @@ evaluate poster quality or approve a design.
 ## Verification
 
 ```sh
-python -B -m unittest -v test_layout_guide.py
+python -B -m unittest discover -s skills/ducttape-poster/tests -p test_layout_guide.py -v
 ```
 
 Tests create only new disposable planning diagrams in temporary subdirectories
